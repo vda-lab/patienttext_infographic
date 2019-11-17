@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+01/16/1996
+Discharge Date :
+01/20/1996
+HISTORY OF PRESENT ILLNESS :
+The patient has a history four years ago of being admitted to the Etearal Etsystems/ Hospital after suffering an acute anterior myocardial infarction .
+The course had multiple complications requiring pressors .
+He had a cardiac catheterization performed which revealed a three vessel coronary artery disease with an occluded RCA , 70%-80% proximal LAD , and a high grade left circumflex lesion after the OM with distal left circumflex occlusion .
+The patient was subsequently medically management after this hospitalization and has done very well .
+His most recent echocardiogram in April of 1995 showed an ejection fraction of 20% with a thin fibrotic septum with akinesis and moderately severe hypokinesis in all other regions except for the lateral wall .
+The patient also had an electrocardiogram in April of 1995 which was negative following , however was at a low workload .
+The patient &amp;apos;s was most recently admitted to Centdick Naco Hospital Medical Center on Martin Luther King Day after becoming acutely short of breath after a five minute walk .
+He had no chest pain , palpitations , diaphoresis , or nausea .
+He called the EMT &amp;apos;s and was found to be in pulmonary edema by chest x-ray at Centdick Naco Hospital Medical Center .
+He was diuresed and ruled out for myocardial infarction .
+His ECG showed no ischemic changes .
+He was then transferred to the Retelk County Medical Center for further management .
+HOSPITAL COURSE :
+The patient was admitted for further management of his pulmonary edema .
+It was felt that the patient possibly had a worsening of his coronary artery disease and therefore underwent cardiac catheterization on 01/17/96 .
+At cardiac catheterization he had an RA pressure of 8 , an RV pressure of 52/10 , PA pressure of 60/25 , and wedge of 26 .
+His coronary arteries revealed an 80% stenosis and a large OM .
+The dominant left circumflex was occluded with left-to-left filling .
+He also had a 50% LAD stenosis , a 100% large DT stenosis and a nondominant RCA with left RCA collaterals .
+It was felt that this cardiac catheterization was not significantly changed from his previous catheterization .
+Given his high right-sided filling pressure , he was started on Lasix for diuresis and his Captopril was increased for greater afterload reduction .
+It was felt that the patient should have an augmented medical regimen and as an outpatient undergo an exercise tolerance test with viability evaluation to determine whether he would benefit from revascularization .
+He was restarted on Coumadin for his low ejection fraction and started on diuresis with IV Lasix for two days and then switched to an oral Lasix regimen .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="1996-01-16 04:19" lowerbound-start="1996-01-16 04:20" modality="FACTUAL" most-likely-end="1996-01-16 13:32" most-likely-start="1996-01-16 13:00" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="1996-01-17 23:11" upperbound-start="1996-01-17 21:39"/>
+<EVENT end="1013" id="E26" lowerbound-end="1994-01-13 02:41" lowerbound-start="1994-01-12 14:40" modality="FACTUAL" most-likely-end="1994-01-15 23:15" most-likely-start="1994-01-14 09:45" polarity="POS" start="1005" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1994-01-23 07:50" upperbound-start="1994-01-19 19:49"/>
+<EVENT end="1054" id="E27" lowerbound-end="1994-01-13 02:41" lowerbound-start="1994-01-12 14:40" modality="FACTUAL" most-likely-end="1994-01-15 23:15" most-likely-start="1994-01-14 09:45" polarity="POS" start="1017" temporally-annotated="YES" text="Centdick Naco Hospital Medical Center" type="CLINICAL_DEPT" upperbound-end="1994-01-23 07:50" upperbound-start="1994-01-19 19:49"/>
+<EVENT end="1119" id="E28" lowerbound-end="1996-01-13 16:48" lowerbound-start="1996-01-13 16:39" modality="FACTUAL" most-likely-end="1996-01-14 23:02" most-likely-start="1996-01-14 22:52" polarity="POS" start="1096" temporally-annotated="YES" text="acutely short of breath" type="PROBLEM" upperbound-end="1996-01-20 05:37" upperbound-start="1996-01-20 05:05"/>
+<EVENT end="1144" id="E29" lowerbound-end="1996-01-13 16:40" lowerbound-start="1996-01-13 16:39" modality="FACTUAL" most-likely-end="1996-01-14 23:00" most-likely-start="1996-01-14 22:52" polarity="POS" start="1140" temporally-annotated="YES" text="walk" type="OCCURRENCE" upperbound-end="1996-01-20 06:06" upperbound-start="1996-01-20 05:05"/>
+<EVENT end="1167" id="E30" lowerbound-end="1996-01-13 16:48" lowerbound-start="1996-01-13 16:39" modality="FACTUAL" most-likely-end="1996-01-14 23:02" most-likely-start="1996-01-14 22:52" polarity="NEG" start="1157" temporally-annotated="YES" text="chest pain" type="PROBLEM" upperbound-end="1996-01-20 05:37" upperbound-start="1996-01-20 05:05"/>
+<EVENT end="1182" id="E31" lowerbound-end="1996-01-13 16:48" lowerbound-start="1996-01-13 16:39" modality="FACTUAL" most-likely-end="1996-01-14 23:02" most-likely-start="1996-01-14 22:52" polarity="NEG" start="1170" temporally-annotated="YES" text="palpitations" type="PROBLEM" upperbound-end="1996-01-20 05:37" upperbound-start="1996-01-20 05:05"/>
+<EVENT end="1196" id="E32" lowerbound-end="1996-01-13 16:48" lowerbound-start="1996-01-13 16:39" modality="FACTUAL" most-likely-end="1996-01-14 23:02" most-likely-start="1996-01-14 22:52" polarity="NEG" start="1185" temporally-annotated="YES" text="diaphoresis" type="PROBLEM" upperbound-end="1996-01-20 05:37" upperbound-start="1996-01-20 05:05"/>
+<EVENT end="1208" id="E33" lowerbound-end="1996-01-13 16:48" lowerbound-start="1996-01-13 16:39" modality="FACTUAL" most-likely-end="1996-01-14 23:02" most-likely-start="1996-01-14 22:52" polarity="NEG" start="1202" temporally-annotated="YES" text="nausea" type="PROBLEM" upperbound-end="1996-01-20 05:37" upperbound-start="1996-01-20 05:05"/>
+<EVENT end="1236" id="E34" lowerbound-end="1996-01-13 16:48" lowerbound-start="1996-01-13 16:47" modality="FACTUAL" most-likely-end="1996-01-14 23:02" most-likely-start="1996-01-14 23:00" polarity="POS" start="1214" temporally-annotated="YES" text="called the EMT 's" type="OCCURRENCE" upperbound-end="1996-01-20 06:14" upperbound-start="1996-01-20 05:13"/>
+<EVENT end="1250" id="E35" lowerbound-end="1996-01-13 15:56" lowerbound-start="1996-01-13 15:55" modality="FACTUAL" most-likely-end="1996-01-14 23:40" most-likely-start="1996-01-14 23:30" polarity="POS" start="1245" temporally-annotated="YES" text="found" type="EVIDENTIAL" upperbound-end="1996-01-20 08:05" upperbound-start="1996-01-20 07:04"/>
+<EVENT end="1275" id="E36" lowerbound-end="1996-01-16 01:25" lowerbound-start="1996-01-13 15:36" modality="FACTUAL" most-likely-end="1996-01-17 23:52" most-likely-start="1996-01-14 23:15" polarity="POS" start="1260" temporally-annotated="YES" text="pulmonary edema" type="PROBLEM" upperbound-end="1996-01-23 22:36" upperbound-start="1996-01-20 06:53"/>
+<EVENT end="1290" id="E37" lowerbound-end="1996-01-13 15:56" lowerbound-start="1996-01-13 15:55" modality="FACTUAL" most-likely-end="1996-01-14 23:45" most-likely-start="1996-01-14 23:30" polarity="POS" start="1279" temporally-annotated="YES" text="chest x-ray" type="TEST" upperbound-end="1996-01-20 08:05" upperbound-start="1996-01-20 07:04"/>
+<EVENT end="1331" id="E38" lowerbound-end="1996-01-13 15:56" lowerbound-start="1996-01-13 15:55" modality="FACTUAL" most-likely-end="1996-01-16 11:37" most-likely-start="1996-01-14 23:30" polarity="POS" start="1294" temporally-annotated="YES" text="Centdick Naco Hospital Medical Center" type="CLINICAL_DEPT" upperbound-end="1996-01-23 19:35" upperbound-start="1996-01-20 07:04"/>
+<EVENT end="1349" id="E39" lowerbound-end="1996-01-14 01:56" lowerbound-start="1996-01-13 15:55" modality="FACTUAL" most-likely-end="1996-01-16 00:30" most-likely-start="1996-01-14 23:30" polarity="POS" start="1341" temporally-annotated="YES" text="diuresed" type="TREATMENT" upperbound-end="1996-01-24 17:05" upperbound-start="1996-01-20 07:04"/>
+<EVENT end="144" id="E2" lowerbound-end="1990-02-02 01:39" lowerbound-start="1990-02-02 01:38" modality="FACTUAL" most-likely-end="1992-03-30 17:00" most-likely-start="1992-03-27 05:00" polarity="POS" start="136" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1999-06-07 13:23" upperbound-start="1999-05-19 20:22"/>
+<EVENT end="1389" id="E40" lowerbound-end="1996-01-14 01:56" lowerbound-start="1996-01-13 15:55" modality="FACTUAL" most-likely-end="1996-01-16 00:30" most-likely-start="1996-01-14 23:30" polarity="NEG" start="1368" temporally-annotated="YES" text="myocardial infarction" type="PROBLEM" upperbound-end="1996-01-24 17:05" upperbound-start="1996-01-20 07:04"/>
+<EVENT end="1399" id="E41" lowerbound-end="1996-01-13 16:02" lowerbound-start="1996-01-13 16:01" modality="FACTUAL" most-likely-end="1996-01-14 23:57" most-likely-start="1996-01-14 23:37" polarity="POS" start="1392" temporally-annotated="YES" text="His ECG" type="TEST" upperbound-end="1996-01-20 08:14" upperbound-start="1996-01-20 07:13"/>
+<EVENT end="1406" id="E42" lowerbound-end="1996-01-13 16:02" lowerbound-start="1996-01-13 16:01" modality="FACTUAL" most-likely-end="1996-01-14 23:57" most-likely-start="1996-01-14 23:37" polarity="POS" start="1400" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1996-01-20 08:14" upperbound-start="1996-01-20 07:13"/>
+<EVENT end="1426" id="E43" lowerbound-end="1996-01-13 16:09" lowerbound-start="1996-01-13 15:36" modality="FACTUAL" most-likely-end="1996-01-14 23:57" most-likely-start="1996-01-14 23:15" polarity="NEG" start="1410" temporally-annotated="YES" text="ischemic changes" type="PROBLEM" upperbound-end="1996-01-20 07:57" upperbound-start="1996-01-20 06:53"/>
+<EVENT end="1452" id="E44" lowerbound-end="1996-01-16 08:13" lowerbound-start="1996-01-16 08:12" modality="FACTUAL" most-likely-end="1996-01-16 13:20" most-likely-start="1996-01-16 13:00" polarity="POS" start="1441" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="1996-01-17 18:49" upperbound-start="1996-01-17 17:48"/>
+<EVENT end="1488" id="E45" lowerbound-end="1996-01-18 04:19" lowerbound-start="1996-01-16 04:20" modality="FACTUAL" most-likely-end="1996-01-18 13:37" most-likely-start="1996-01-16 13:00" polarity="POS" start="1456" temporally-annotated="YES" text="the Retelk County Medical Center" type="CLINICAL_DEPT" upperbound-end="1996-01-19 23:11" upperbound-start="1996-01-17 21:39"/>
+<EVENT end="179" id="E3" lowerbound-end="1990-02-02 01:39" lowerbound-start="1990-02-02 01:38" modality="FACTUAL" most-likely-end="1992-03-30 17:00" most-likely-start="1992-03-27 05:00" polarity="POS" start="148" temporally-annotated="YES" text="the Etearal Etsystems/ Hospital" type="CLINICAL_DEPT" upperbound-end="1999-06-07 13:23" upperbound-start="1999-05-19 20:22"/>
+<EVENT end="1511" id="E46" lowerbound-end="1996-01-18 04:19" lowerbound-start="1996-01-16 04:20" modality="FACTUAL" most-likely-end="1996-01-18 13:37" most-likely-start="1996-01-16 13:00" polarity="POS" start="1493" temporally-annotated="YES" text="further management" type="TREATMENT" upperbound-end="1996-01-19 23:11" upperbound-start="1996-01-17 21:39"/>
+<EVENT end="1556" id="E47" lowerbound-end="1996-01-16 09:33" lowerbound-start="1996-01-16 04:20" modality="FACTUAL" most-likely-end="1996-01-16 18:10" most-likely-start="1996-01-16 13:00" polarity="POS" start="1548" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1996-01-18 02:57" upperbound-start="1996-01-17 21:39"/>
+<EVENT end="1579" id="E48" lowerbound-end="1996-01-18 04:19" lowerbound-start="1996-01-16 04:20" modality="FACTUAL" most-likely-end="1996-01-18 13:40" most-likely-start="1996-01-16 13:00" polarity="POS" start="1561" temporally-annotated="YES" text="further management" type="TREATMENT" upperbound-end="1996-01-19 23:11" upperbound-start="1996-01-17 21:39"/>
+<EVENT end="1602" id="E49" lowerbound-end="1996-01-16 01:25" lowerbound-start="1996-01-13 15:36" modality="FACTUAL" most-likely-end="1996-01-17 23:52" most-likely-start="1996-01-14 23:15" polarity="POS" start="1583" temporally-annotated="YES" text="his pulmonary edema" type="PROBLEM" upperbound-end="1996-01-23 22:36" upperbound-start="1996-01-20 06:53"/>
+<EVENT end="1689" id="E50" lowerbound-end="1987-07-18 23:26" lowerbound-start="1986-04-04 21:09" modality="FACTUAL" most-likely-end="1999-03-27 16:30" most-likely-start="1991-09-26 16:00" polarity="POS" start="1662" temporally-annotated="YES" text="his coronary artery disease" type="PROBLEM" upperbound-end="2063-06-16 13:08" upperbound-start="2007-03-17 10:51"/>
+<EVENT end="1737" id="E51" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1714" temporally-annotated="YES" text="cardiac catheterization" type="TEST" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1778" id="E52" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1755" temporally-annotated="YES" text="cardiac catheterization" type="TEST" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1800" id="E53" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1786" temporally-annotated="YES" text="an RA pressure" type="TEST" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1822" id="E54" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1808" temporally-annotated="YES" text="an RV pressure" type="TEST" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1845" id="E55" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1834" temporally-annotated="YES" text="PA pressure" type="TEST" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1866" id="E56" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1861" temporally-annotated="YES" text="wedge" type="TEST" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1905" id="E57" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1897" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1921" id="E58" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1906" temporally-annotated="YES" text="an 80% stenosis" type="PROBLEM" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="1936" id="E59" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1926" temporally-annotated="YES" text="a large OM" type="PROBLEM" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="235" id="E4" lowerbound-end="1990-02-02 01:38" lowerbound-start="1990-02-01 13:37" modality="FACTUAL" most-likely-end="1992-03-27 05:02" most-likely-start="1992-03-27 04:00" polarity="POS" start="196" temporally-annotated="YES" text="an acute anterior myocardial infarction" type="PROBLEM" upperbound-end="1999-05-19 20:52" upperbound-start="1999-05-19 20:21"/>
+<EVENT end="1980" id="E60" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1972" temporally-annotated="YES" text="occluded" type="PROBLEM" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="2006" id="E61" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="1986" temporally-annotated="YES" text="left-to-left filling" type="PROBLEM" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="2039" id="E62" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="2021" temporally-annotated="YES" text="a 50% LAD stenosis" type="PROBLEM" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="2066" id="E63" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="2042" temporally-annotated="YES" text="a 100% large DT stenosis" type="PROBLEM" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="2162" id="E64" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="2134" temporally-annotated="YES" text="this cardiac catheterization" type="TEST" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="2226" id="E65" lowerbound-end="1992-01-08 23:43" lowerbound-start="1992-01-08 23:13" modality="FACTUAL" most-likely-end="1992-03-27 05:52" most-likely-start="1992-03-27 05:00" polarity="POS" start="2198" temporally-annotated="YES" text="his previous catheterization" type="TEST" upperbound-end="1992-12-13 12:16" upperbound-start="1992-12-13 10:46"/>
+<EVENT end="2272" id="E66" lowerbound-end="1996-01-17 00:27" lowerbound-start="1996-01-17 00:00" modality="FACTUAL" most-likely-end="1996-01-17 13:22" most-likely-start="1996-01-17 12:30" polarity="POS" start="2235" temporally-annotated="YES" text="his high right-sided filling pressure" type="PROBLEM" upperbound-end="1996-01-19 02:27" upperbound-start="1996-01-19 01:00"/>
+<EVENT end="2298" id="E67" lowerbound-end="1996-02-02 07:44" lowerbound-start="1996-01-17 05:40" modality="FACTUAL" most-likely-end="1996-04-18 18:00" most-likely-start="1996-01-17 06:00" polarity="POS" start="2293" temporally-annotated="YES" text="Lasix" type="TREATMENT" upperbound-end="2001-02-01 08:54" upperbound-start="1996-01-17 18:50"/>
+<EVENT end="2311" id="E68" lowerbound-end="1996-02-02 07:44" lowerbound-start="1996-01-17 05:40" modality="FACTUAL" most-likely-end="1996-04-18 18:00" most-likely-start="1996-01-17 06:00" polarity="POS" start="2303" temporally-annotated="YES" text="diuresis" type="TREATMENT" upperbound-end="2001-02-01 08:54" upperbound-start="1996-01-17 18:50"/>
+<EVENT end="2329" id="E69" lowerbound-end="1983-11-19 19:23" lowerbound-start="1992-02-03 01:24" modality="FACTUAL" most-likely-end="1998-01-10 05:30" most-likely-start="1994-03-28 04:30" polarity="POS" start="2316" temporally-annotated="YES" text="his Captopril" type="TREATMENT" upperbound-end="2062-02-18 16:07" upperbound-start="2001-05-19 08:06"/>
+<EVENT end="2375" id="E70" lowerbound-end="1983-11-19 19:23" lowerbound-start="1992-02-03 01:24" modality="FACTUAL" most-likely-end="1998-01-10 05:30" most-likely-start="1994-03-28 04:30" polarity="POS" start="2348" temporally-annotated="YES" text="greater afterload reduction" type="TREATMENT" upperbound-end="2062-02-18 16:07" upperbound-start="2001-05-19 08:06"/>
+<EVENT end="2447" id="E71" lowerbound-end="2043-01-05 13:05" lowerbound-start="1996-01-16 07:05" modality="FACTUAL" most-likely-end="2045-07-20 05:30" most-likely-start="1996-01-17 17:30" polarity="POS" start="2419" temporally-annotated="YES" text="an augmented medical regimen" type="TREATMENT" upperbound-end="2048-01-11 10:25" upperbound-start="1996-01-22 16:25"/>
+<EVENT end="2503" id="E72" lowerbound-end="1996-01-15 04:26" lowerbound-start="1996-01-15 04:18" modality="FACTUAL" most-likely-end="1996-01-18 01:15" most-likely-start="1996-01-17 23:30" polarity="POS" start="2477" temporally-annotated="YES" text="an exercise tolerance test" type="TEST" upperbound-end="1996-07-21 19:50" upperbound-start="1996-07-21 07:12"/>
+<EVENT end="2529" id="E73" lowerbound-end="1996-01-17 18:21" lowerbound-start="1996-01-17 18:13" modality="FACTUAL" most-likely-end="1996-01-17 19:20" most-likely-start="1996-01-17 19:00" polarity="POS" start="2509" temporally-annotated="YES" text="viability evaluation" type="TEST" upperbound-end="1996-02-02 02:24" upperbound-start="1996-02-02 01:16"/>
+<EVENT end="275" id="E5" lowerbound-end="1990-02-02 01:39" lowerbound-start="1990-02-02 01:38" modality="FACTUAL" most-likely-end="1992-03-30 17:00" most-likely-start="1992-03-27 05:00" polarity="POS" start="253" temporally-annotated="YES" text="multiple complications" type="PROBLEM" upperbound-end="1999-06-07 13:23" upperbound-start="1999-05-19 20:22"/>
+<EVENT end="2590" id="E74" lowerbound-end="1996-01-18 17:59" lowerbound-start="1996-01-18 11:58" modality="CONDITIONAL" most-likely-end="1996-01-19 18:30" most-likely-start="1996-01-18 18:30" polarity="POS" start="2573" temporally-annotated="YES" text="revascularization" type="TREATMENT" upperbound-end="1996-02-08 00:02" upperbound-start="1996-02-03 18:01"/>
+<EVENT end="2621" id="E75" lowerbound-end="1996-02-02 07:44" lowerbound-start="1996-01-17 05:40" modality="FACTUAL" most-likely-end="1996-04-18 18:00" most-likely-start="1996-01-17 06:00" polarity="POS" start="2613" temporally-annotated="YES" text="Coumadin" type="TREATMENT" upperbound-end="2001-02-01 08:54" upperbound-start="1996-01-17 18:50"/>
+<EVENT end="2651" id="E76" lowerbound-end="1996-01-18 11:05" lowerbound-start="1996-01-17 04:45" modality="FACTUAL" most-likely-end="1996-01-19 00:00" most-likely-start="1996-01-17 11:30" polarity="POS" start="2626" temporally-annotated="YES" text="his low ejection fraction" type="PROBLEM" upperbound-end="1996-01-20 01:35" upperbound-start="1996-01-18 06:45"/>
+<EVENT end="2675" id="E77" lowerbound-end="1996-02-02 07:44" lowerbound-start="1996-01-17 05:40" modality="FACTUAL" most-likely-end="1996-04-18 18:00" most-likely-start="1996-01-17 06:00" polarity="POS" start="2667" temporally-annotated="YES" text="diuresis" type="TREATMENT" upperbound-end="2001-02-01 08:54" upperbound-start="1996-01-17 18:50"/>
+<EVENT end="2689" id="E78" lowerbound-end="1996-01-18 17:40" lowerbound-start="1996-01-17 05:40" modality="FACTUAL" most-likely-end="1996-01-19 06:00" most-likely-start="1996-01-17 06:00" polarity="POS" start="2681" temporally-annotated="YES" text="IV Lasix" type="TREATMENT" upperbound-end="1996-01-20 06:50" upperbound-start="1996-01-17 18:50"/>
+<EVENT end="2745" id="E79" lowerbound-end="1996-02-02 09:56" lowerbound-start="1996-01-18 00:57" modality="FACTUAL" most-likely-end="1996-04-18 18:00" most-likely-start="1996-01-19 06:00" polarity="POS" start="2724" temporally-annotated="YES" text="an oral Lasix regimen" type="TREATMENT" upperbound-end="2001-07-03 02:33" upperbound-start="1996-01-23 23:32"/>
+<EVENT end="294" id="E6" lowerbound-end="1990-02-02 01:39" lowerbound-start="1990-02-02 01:38" modality="FACTUAL" most-likely-end="1992-03-30 17:00" most-likely-start="1992-03-27 05:00" polarity="POS" start="286" temporally-annotated="YES" text="pressors" type="TREATMENT" upperbound-end="1999-06-07 13:23" upperbound-start="1999-05-19 20:22"/>
+<EVENT end="38" id="E1" lowerbound-end="1996-01-20 01:43" lowerbound-start="1996-01-20 01:44" modality="FACTUAL" most-likely-end="1996-01-20 13:02" most-likely-start="1996-01-20 12:30" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="1996-01-22 00:47" upperbound-start="1996-01-21 23:15"/>
+<EVENT end="329" id="E7" lowerbound-end="1992-01-08 23:43" lowerbound-start="1992-01-08 23:13" modality="FACTUAL" most-likely-end="1992-03-27 05:52" most-likely-start="1992-03-27 05:00" polarity="POS" start="304" temporally-annotated="YES" text="a cardiac catheterization" type="TEST" upperbound-end="1992-12-13 12:16" upperbound-start="1992-12-13 10:46"/>
+<EVENT end="354" id="E8" lowerbound-end="1992-01-08 23:43" lowerbound-start="1992-01-08 23:13" modality="FACTUAL" most-likely-end="1992-03-27 05:52" most-likely-start="1992-03-27 05:00" polarity="POS" start="346" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="1992-12-13 12:16" upperbound-start="1992-12-13 10:46"/>
+<EVENT end="393" id="E9" lowerbound-end="1990-07-17 20:34" lowerbound-start="1990-02-01 22:09" modality="FACTUAL" most-likely-end="1997-03-27 04:52" most-likely-start="1992-03-27 04:00" polarity="POS" start="355" temporally-annotated="YES" text="a three vessel coronary artery disease" type="PROBLEM" upperbound-end="2049-10-19 20:46" upperbound-start="1999-05-19 21:51"/>
+<EVENT end="414" id="E10" lowerbound-end="1990-07-17 20:34" lowerbound-start="1990-02-01 22:09" modality="FACTUAL" most-likely-end="1997-03-27 04:52" most-likely-start="1992-03-27 04:00" polarity="POS" start="399" temporally-annotated="YES" text="an occluded RCA" type="PROBLEM" upperbound-end="2049-10-19 20:46" upperbound-start="1999-05-19 21:51"/>
+<EVENT end="437" id="E11" lowerbound-end="1990-07-17 20:34" lowerbound-start="1990-02-01 22:09" modality="FACTUAL" most-likely-end="1997-03-27 04:52" most-likely-start="1992-03-27 04:00" polarity="POS" start="417" temporally-annotated="YES" text="70%-80% proximal LAD" type="PROBLEM" upperbound-end="2049-10-19 20:46" upperbound-start="1999-05-19 21:51"/>
+<EVENT end="492" id="E12" lowerbound-end="1990-07-17 20:34" lowerbound-start="1990-02-01 22:09" modality="FACTUAL" most-likely-end="1997-03-27 04:52" most-likely-start="1992-03-27 04:00" polarity="POS" start="444" temporally-annotated="YES" text="a high grade left circumflex lesion after the OM" type="PROBLEM" upperbound-end="2049-10-19 20:46" upperbound-start="1999-05-19 21:51"/>
+<EVENT end="530" id="E13" lowerbound-end="1990-07-17 20:34" lowerbound-start="1990-02-01 22:09" modality="FACTUAL" most-likely-end="1997-03-27 04:52" most-likely-start="1992-03-27 04:00" polarity="POS" start="498" temporally-annotated="YES" text="distal left circumflex occlusion" type="PROBLEM" upperbound-end="2049-10-19 20:46" upperbound-start="1999-05-19 21:51"/>
+<EVENT end="582" id="E14" lowerbound-end="1993-08-23 12:29" lowerbound-start="1990-02-08 06:58" modality="FACTUAL" most-likely-end="1993-08-25 11:00" most-likely-start="1992-03-29 05:00" polarity="POS" start="562" temporally-annotated="YES" text="medically management" type="TREATMENT" upperbound-end="1994-02-26 21:32" upperbound-start="1999-05-17 15:01"/>
+<EVENT end="609" id="E15" lowerbound-end="1990-02-02 01:39" lowerbound-start="1990-02-02 01:38" modality="FACTUAL" most-likely-end="1992-03-30 17:00" most-likely-start="1992-03-27 05:00" polarity="POS" start="589" temporally-annotated="YES" text="this hospitalization" type="OCCURRENCE" upperbound-end="1999-06-07 13:23" upperbound-start="1999-05-19 20:22"/>
+<EVENT end="632" id="E16" lowerbound-end="1995-04-09 11:50" lowerbound-start="1990-02-08 06:20" modality="FACTUAL" most-likely-end="1995-08-24 12:30" most-likely-start="1992-03-29 06:30" polarity="POS" start="623" temporally-annotated="YES" text="very well" type="OCCURRENCE" upperbound-end="1996-04-10 01:10" upperbound-start="1999-05-17 18:40"/>
+<EVENT end="665" id="E17" lowerbound-end="1995-03-31 21:12" lowerbound-start="1995-03-31 21:07" modality="FACTUAL" most-likely-end="1995-04-07 23:25" most-likely-start="1995-04-07 23:00" polarity="POS" start="651" temporally-annotated="YES" text="echocardiogram" type="TEST" upperbound-end="1995-04-30 18:57" upperbound-start="1995-04-30 17:52"/>
+<EVENT end="689" id="E18" lowerbound-end="1995-03-31 21:12" lowerbound-start="1995-03-31 21:07" modality="FACTUAL" most-likely-end="1995-04-07 23:25" most-likely-start="1995-04-07 23:00" polarity="POS" start="683" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1995-04-30 18:57" upperbound-start="1995-04-30 17:52"/>
+<EVENT end="710" id="E20" lowerbound-end="1995-03-31 21:12" lowerbound-start="1995-03-31 21:07" modality="FACTUAL" most-likely-end="1995-04-07 23:25" most-likely-start="1995-04-07 23:00" polarity="POS" start="690" temporally-annotated="YES" text="an ejection fraction" type="TEST" upperbound-end="1995-04-30 18:57" upperbound-start="1995-04-30 17:52"/>
+<EVENT end="745" id="E19" lowerbound-end="1995-03-31 21:12" lowerbound-start="1995-03-31 21:07" modality="FACTUAL" most-likely-end="1995-04-07 23:25" most-likely-start="1995-04-07 23:00" polarity="POS" start="723" temporally-annotated="YES" text="a thin fibrotic septum" type="PROBLEM" upperbound-end="1995-04-30 18:57" upperbound-start="1995-04-30 17:52"/>
+<EVENT end="759" id="E21" lowerbound-end="1995-03-31 21:12" lowerbound-start="1995-03-31 21:07" modality="FACTUAL" most-likely-end="1995-04-07 23:25" most-likely-start="1995-04-07 23:00" polarity="POS" start="751" temporally-annotated="YES" text="akinesis" type="PROBLEM" upperbound-end="1995-04-30 18:57" upperbound-start="1995-04-30 17:52"/>
+<EVENT end="793" id="E23" lowerbound-end="1995-03-31 21:12" lowerbound-start="1995-03-31 21:07" modality="FACTUAL" most-likely-end="1995-04-07 23:25" most-likely-start="1995-04-07 23:00" polarity="POS" start="764" temporally-annotated="YES" text="moderately severe hypokinesis" type="PROBLEM" upperbound-end="1995-04-30 18:57" upperbound-start="1995-04-30 17:52"/>
+<EVENT end="886" id="E24" lowerbound-end="1995-04-08 12:19" lowerbound-start="1995-04-08 12:14" modality="FACTUAL" most-likely-end="1995-04-09 00:50" most-likely-start="1995-04-09 00:30" polarity="POS" start="866" temporally-annotated="YES" text="an electrocardiogram" type="TEST" upperbound-end="1995-04-10 13:50" upperbound-start="1995-04-10 12:45"/>
+<EVENT end="964" id="E25" lowerbound-end="1995-04-08 12:19" lowerbound-start="1995-04-08 12:14" modality="FACTUAL" most-likely-end="1995-04-09 00:50" most-likely-start="1995-04-09 00:30" polarity="POS" start="950" temporally-annotated="YES" text="a low workload" type="OCCURRENCE" upperbound-end="1995-04-10 13:50" upperbound-start="1995-04-10 12:45"/>
+<TIMEX3 end="1080" id="T5" mod="APPROX" start="1058" text="Martin Luther King Day" type="DATE" val="1996-01-15"/>
+<TIMEX3 end="126" id="T2" mod="APPROX" start="112" text="four years ago" type="DATE" val="1992-01-16"/>
+<TIMEX3 end="1139" id="T6" mod="NA" start="1126" text="a five minute" type="DURATION" val="PT5M"/>
+<TIMEX3 end="1749" id="T7" mod="NA" start="1741" text="01/17/96" type="DATE" val="1996-01-17"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="01/16/1996" type="DATE" val="1996-01-16"/>
+<TIMEX3 end="2702" id="T8" mod="NA" start="2694" text="two days" type="DURATION" val="P2D"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="01/20/1996" type="DATE" val="1996-01-20"/>
+<TIMEX3 end="682" id="T3" mod="NA" start="669" text="April of 1995" type="DATE" val="1995-04"/>
+<TIMEX3 end="903" id="T4" mod="NA" start="890" text="April of 1995" type="DATE" val="1995-04"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T0" toText="01/16/1996" type="SIMULTANEOUS"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL1" toID="T1" toText="01/20/1996" type="SIMULTANEOUS"/>
+<TLINK fromID="E7" fromText="a cardiac catheterization" id="TL10" toID="E5" toText="multiple complications" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="revealed" id="TL11" toID="E7" toText="a cardiac catheterization" type="SIMULTANEOUS"/>
+<TLINK fromID="E9" fromText="a three vessel coronary artery disease" id="TL12" toID="E8" toText="revealed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E10" fromText="an occluded RCA" id="TL13" toID="E9" toText="a three vessel coronary artery disease" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="70%-80% proximal LAD" id="TL14" toID="E10" toText="an occluded RCA" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="a high grade left circumflex lesion after the OM" id="TL15" toID="E11" toText="70%-80% proximal LAD" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="distal left circumflex occlusion" id="TL16" toID="E12" toText="a high grade left circumflex lesion after the OM" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="medically management" id="TL17" toID="E15" toText="this hospitalization" type="AFTER"/>
+<TLINK fromID="E16" fromText="very well" id="TL18" toID="E14" toText="medically management" type="OVERLAP"/>
+<TLINK fromID="T3" fromText="April of 1995" id="TL19" toID="T2" toText="four years ago" type="AFTER"/>
+<TLINK fromID="T2" fromText="four years ago" id="TL2" toID="E2" toText="admitted" type="SIMULTANEOUS"/>
+<TLINK fromID="T3" fromText="April of 1995" id="TL20" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E17" fromText="echocardiogram" id="TL21" toID="T3" toText="April of 1995" type="SIMULTANEOUS"/>
+<TLINK fromID="E18" fromText="showed" id="TL22" toID="E17" toText="echocardiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E20" fromText="an ejection fraction" id="TL23" toID="E18" toText="showed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E19" fromText="a thin fibrotic septum" id="TL24" toID="E20" toText="an ejection fraction" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="akinesis" id="TL25" toID="E19" toText="a thin fibrotic septum" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="moderately severe hypokinesis" id="TL26" toID="E21" toText="akinesis" type="OVERLAP"/>
+<TLINK fromID="T4" fromText="April of 1995" id="TL27" toID="T3" toText="April of 1995" type="SIMULTANEOUS"/>
+<TLINK fromID="E24" fromText="an electrocardiogram" id="TL28" toID="T4" toText="April of 1995" type="SIMULTANEOUS"/>
+<TLINK fromID="E25" fromText="a low workload" id="TL29" toID="E24" toText="an electrocardiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E2" fromText="admitted" id="TL3" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E26" fromText="admitted" id="TL30" toID="T5" toText="Martin Luther King Day" type="SIMULTANEOUS"/>
+<TLINK fromID="T5" fromText="Martin Luther King Day" id="TL31" toID="T3" toText="April of 1995" type="AFTER"/>
+<TLINK fromID="T5" fromText="Martin Luther King Day" id="TL32" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E27" fromText="Centdick Naco Hospital Medical Center" id="TL33" toID="T5" toText="Martin Luther King Day" type="BEGUN_BY"/>
+<TLINK fromID="E28" fromText="acutely short of breath" id="TL35" toID="E26" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E28" fromText="acutely short of breath" id="TL36" toID="T6" toText="a five minute" type="AFTER"/>
+<TLINK fromID="E29" fromText="walk" id="TL37" toID="T6" toText="a five minute" type="SIMULTANEOUS"/>
+<TLINK fromID="E30" fromText="chest pain" id="TL38" toID="E28" toText="acutely short of breath" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="palpitations" id="TL39" toID="E30" toText="chest pain" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="the Etearal Etsystems/ Hospital" id="TL4" toID="E2" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E32" fromText="diaphoresis" id="TL40" toID="E31" toText="palpitations" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="nausea" id="TL41" toID="E32" toText="diaphoresis" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="called the EMT 's" id="TL42" toID="E33" toText="nausea" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="found" id="TL43" toID="E34" toText="called the EMT 's" type="AFTER"/>
+<TLINK fromID="E36" fromText="pulmonary edema" id="TL44" toID="E35" toText="found" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E37" fromText="chest x-ray" id="TL45" toID="E35" toText="found" type="SIMULTANEOUS"/>
+<TLINK fromID="E37" fromText="chest x-ray" id="TL46" toID="E38" toText="Centdick Naco Hospital Medical Center" type="DURING"/>
+<TLINK fromID="E38" fromText="Centdick Naco Hospital Medical Center" id="TL47" toID="E27" toText="Centdick Naco Hospital Medical Center" type="SIMULTANEOUS"/>
+<TLINK fromID="E39" fromText="diuresed" id="TL48" toID="E37" toText="chest x-ray" type="AFTER"/>
+<TLINK fromID="E40" fromText="myocardial infarction" id="TL49" toID="E39" toText="diuresed" type="BEFORE"/>
+<TLINK fromID="E15" fromText="this hospitalization" id="TL5" toID="E3" toText="the Etearal Etsystems/ Hospital" type="SIMULTANEOUS"/>
+<TLINK fromID="E41" fromText="His ECG" id="TL50" toID="E39" toText="diuresed" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="showed" id="TL51" toID="E41" toText="His ECG" type="SIMULTANEOUS"/>
+<TLINK fromID="E43" fromText="ischemic changes" id="TL52" toID="E42" toText="showed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E38" fromText="Centdick Naco Hospital Medical Center" id="TL53" toID="E44" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E45" fromText="the Retelk County Medical Center" id="TL54" toID="E44" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E44" fromText="transferred" id="TL55" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E46" fromText="further management" id="TL56" toID="E45" toText="the Retelk County Medical Center" type="BEGUN_BY"/>
+<TLINK fromID="E47" fromText="admitted" id="TL57" toID="E44" toText="transferred" type="SIMULTANEOUS"/>
+<TLINK fromID="E48" fromText="further management" id="TL58" toID="E46" toText="further management" type="SIMULTANEOUS"/>
+<TLINK fromID="E49" fromText="his pulmonary edema" id="TL59" toID="E36" toText="pulmonary edema" type="SIMULTANEOUS"/>
+<TLINK fromID="E3" fromText="the Etearal Etsystems/ Hospital" id="TL6" toID="E4" toText="an acute anterior myocardial infarction" type="AFTER"/>
+<TLINK fromID="E50" fromText="his coronary artery disease" id="TL60" toID="E49" toText="his pulmonary edema" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E51" fromText="cardiac catheterization" id="TL61" toID="T7" toText="01/17/96" type="SIMULTANEOUS"/>
+<TLINK fromID="T7" fromText="01/17/96" id="TL62" toID="E47" toText="admitted" type="AFTER"/>
+<TLINK fromID="E52" fromText="cardiac catheterization" id="TL63" toID="E51" toText="cardiac catheterization" type="SIMULTANEOUS"/>
+<TLINK fromID="E53" fromText="an RA pressure" id="TL64" toID="E52" toText="cardiac catheterization" type="OVERLAP"/>
+<TLINK fromID="E54" fromText="an RV pressure" id="TL65" toID="E53" toText="an RA pressure" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="PA pressure" id="TL66" toID="E54" toText="an RV pressure" type="OVERLAP"/>
+<TLINK fromID="E56" fromText="wedge" id="TL67" toID="E55" toText="PA pressure" type="OVERLAP"/>
+<TLINK fromID="E57" fromText="revealed" id="TL68" toID="E52" toText="cardiac catheterization" type="SIMULTANEOUS"/>
+<TLINK fromID="E58" fromText="an 80% stenosis" id="TL69" toID="E57" toText="revealed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E5" fromText="multiple complications" id="TL7" toID="E6" toText="pressors" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E59" fromText="a large OM" id="TL70" toID="E58" toText="an 80% stenosis" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="occluded" id="TL71" toID="E59" toText="a large OM" type="OVERLAP"/>
+<TLINK fromID="E61" fromText="left-to-left filling" id="TL72" toID="E60" toText="occluded" type="SIMULTANEOUS"/>
+<TLINK fromID="E62" fromText="a 50% LAD stenosis" id="TL73" toID="E61" toText="left-to-left filling" type="OVERLAP"/>
+<TLINK fromID="E63" fromText="a 100% large DT stenosis" id="TL74" toID="E62" toText="a 50% LAD stenosis" type="OVERLAP"/>
+<TLINK fromID="E64" fromText="this cardiac catheterization" id="TL75" toID="E52" toText="cardiac catheterization" type="SIMULTANEOUS"/>
+<TLINK fromID="E65" fromText="his previous catheterization" id="TL76" toID="E64" toText="this cardiac catheterization" type="BEFORE"/>
+<TLINK fromID="E66" fromText="his high right-sided filling pressure" id="TL77" toID="E64" toText="this cardiac catheterization" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E66" fromText="his high right-sided filling pressure" id="TL78" toID="E67" toText="Lasix" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E69" fromText="his Captopril" id="TL80" toID="E67" toText="Lasix" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E70" fromText="greater afterload reduction" id="TL82" toID="E69" toText="his Captopril" type="BEGUN_BY"/>
+<TLINK fromID="E68" fromText="diuresis" id="TL83" toID="E67" toText="Lasix" type="BEGUN_BY"/>
+<TLINK fromID="E71" fromText="an augmented medical regimen" id="TL84" toID="E70" toText="greater afterload reduction" type="OVERLAP"/>
+<TLINK fromID="E72" fromText="an exercise tolerance test" id="TL85" toID="E1" toText="Discharge" type="AFTER"/>
+<TLINK fromID="E73" fromText="viability evaluation" id="TL86" toID="E72" toText="an exercise tolerance test" type="SIMULTANEOUS"/>
+<TLINK fromID="E74" fromText="revascularization" id="TL87" toID="E73" toText="viability evaluation" type="AFTER"/>
+<TLINK fromID="E75" fromText="Coumadin" id="TL88" toID="E1" toText="Discharge" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E76" fromText="his low ejection fraction" id="TL89" toID="E75" toText="Coumadin" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E5" fromText="multiple complications" id="TL9" toID="E3" toText="the Etearal Etsystems/ Hospital" type="DURING"/>
+<TLINK fromID="E77" fromText="diuresis" id="TL90" toID="E68" toText="diuresis" type="SIMULTANEOUS"/>
+<TLINK fromID="E78" fromText="IV Lasix" id="TL91" toID="E67" toText="Lasix" type="SIMULTANEOUS"/>
+<TLINK fromID="E78" fromText="IV Lasix" id="TL92" toID="T8" toText="two days" type="DURING"/>
+<TLINK fromID="E79" fromText="an oral Lasix regimen" id="TL93" toID="E78" toText="IV Lasix" type="AFTER"/>
+<TLINK fromID="E45" fromText="the Retelk County Medical Center" id="TL94" toID="E0" toText="Admission" type="BEGUN_BY"/>
+<TLINK fromID="E45" fromText="the Retelk County Medical Center" id="TL95" toID="E1" toText="Discharge" type="ENDED_BY"/>
+<TLINK fromID="E26" fromText="admitted" id="SECTIME0" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E27" fromText="Centdick Naco Hospital Medical Center" id="SECTIME1" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E28" fromText="acutely short of breath" id="SECTIME2" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E29" fromText="walk" id="SECTIME3" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E30" fromText="chest pain" id="SECTIME4" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E31" fromText="palpitations" id="SECTIME5" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E32" fromText="diaphoresis" id="SECTIME6" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E33" fromText="nausea" id="SECTIME7" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E34" fromText="called the EMT 's" id="SECTIME8" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E35" fromText="found" id="SECTIME9" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E36" fromText="pulmonary edema" id="SECTIME10" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E37" fromText="chest x-ray" id="SECTIME11" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E38" fromText="Centdick Naco Hospital Medical Center" id="SECTIME12" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E39" fromText="diuresed" id="SECTIME13" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E2" fromText="admitted" id="SECTIME14" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E40" fromText="myocardial infarction" id="SECTIME15" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E41" fromText="His ECG" id="SECTIME16" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E42" fromText="showed" id="SECTIME17" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E43" fromText="ischemic changes" id="SECTIME18" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E44" fromText="transferred" id="SECTIME19" toID="T0" toText="01/16/1996" type="OVERLAP"/>
+<TLINK fromID="E45" fromText="the Retelk County Medical Center" id="SECTIME20" toID="T0" toText="01/16/1996" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="the Etearal Etsystems/ Hospital" id="SECTIME21" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E46" fromText="further management" id="SECTIME22" toID="T0" toText="01/16/1996" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="admitted" id="SECTIME23" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E48" fromText="further management" id="SECTIME24" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E49" fromText="his pulmonary edema" id="SECTIME25" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E50" fromText="his coronary artery disease" id="SECTIME26" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E51" fromText="cardiac catheterization" id="SECTIME27" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E52" fromText="cardiac catheterization" id="SECTIME28" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E53" fromText="an RA pressure" id="SECTIME29" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E54" fromText="an RV pressure" id="SECTIME30" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E55" fromText="PA pressure" id="SECTIME31" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E56" fromText="wedge" id="SECTIME32" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E57" fromText="revealed" id="SECTIME33" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E58" fromText="an 80% stenosis" id="SECTIME34" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E59" fromText="a large OM" id="SECTIME35" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E4" fromText="an acute anterior myocardial infarction" id="SECTIME36" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E60" fromText="occluded" id="SECTIME37" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E61" fromText="left-to-left filling" id="SECTIME38" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E62" fromText="a 50% LAD stenosis" id="SECTIME39" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E63" fromText="a 100% large DT stenosis" id="SECTIME40" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E64" fromText="this cardiac catheterization" id="SECTIME41" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E65" fromText="his previous catheterization" id="SECTIME42" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E66" fromText="his high right-sided filling pressure" id="SECTIME43" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E67" fromText="Lasix" id="SECTIME44" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E68" fromText="diuresis" id="SECTIME45" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E69" fromText="his Captopril" id="SECTIME46" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E70" fromText="greater afterload reduction" id="SECTIME47" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E71" fromText="an augmented medical regimen" id="SECTIME48" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E72" fromText="an exercise tolerance test" id="SECTIME49" toID="T1" toText="01/20/1996" type="AFTER"/>
+<TLINK fromID="E73" fromText="viability evaluation" id="SECTIME50" toID="T1" toText="01/20/1996" type="AFTER"/>
+<TLINK fromID="E5" fromText="multiple complications" id="SECTIME51" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E74" fromText="revascularization" id="SECTIME52" toID="T1" toText="01/20/1996" type="AFTER"/>
+<TLINK fromID="E75" fromText="Coumadin" id="SECTIME53" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E76" fromText="his low ejection fraction" id="SECTIME54" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E77" fromText="diuresis" id="SECTIME55" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E78" fromText="IV Lasix" id="SECTIME56" toID="T1" toText="01/20/1996" type="BEFORE"/>
+<TLINK fromID="E79" fromText="an oral Lasix regimen" id="SECTIME57" toID="T1" toText="01/20/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E6" fromText="pressors" id="SECTIME58" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E7" fromText="a cardiac catheterization" id="SECTIME59" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E8" fromText="revealed" id="SECTIME60" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E9" fromText="a three vessel coronary artery disease" id="SECTIME61" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E10" fromText="an occluded RCA" id="SECTIME62" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E11" fromText="70%-80% proximal LAD" id="SECTIME63" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E12" fromText="a high grade left circumflex lesion after the OM" id="SECTIME64" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E13" fromText="distal left circumflex occlusion" id="SECTIME65" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E14" fromText="medically management" id="SECTIME66" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E15" fromText="this hospitalization" id="SECTIME67" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E16" fromText="very well" id="SECTIME68" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E17" fromText="echocardiogram" id="SECTIME69" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E18" fromText="showed" id="SECTIME70" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E20" fromText="an ejection fraction" id="SECTIME71" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E19" fromText="a thin fibrotic septum" id="SECTIME72" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E21" fromText="akinesis" id="SECTIME73" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="moderately severe hypokinesis" id="SECTIME74" toID="T0" toText="01/16/1996" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E24" fromText="an electrocardiogram" id="SECTIME75" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<TLINK fromID="E25" fromText="a low workload" id="SECTIME76" toID="T0" toText="01/16/1996" type="BEFORE"/>
+<SECTIME dvalue="1996-01-16" end="28" id="S0" start="18" text="01/16/1996" type="ADMISSION"/>
+<SECTIME dvalue="1996-01-20" end="56" id="S1" start="46" text="01/20/1996" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

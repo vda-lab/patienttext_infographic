@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2012-04-30
+Discharge Date :
+2012-05-14
+Service :
+O-CMED CCU
+HISTORY OF PRESENT ILLNESS :
+The patient is a 55 - year-old male with recently diagnosed abdominal carcinomatosis .
+The patient presented with abdominal pain and bloating and was found to have a large omental mass .
+Biopsy revealed adenocarcinoma .
+Histochemical stains are consistent with hepatobiliary origin .
+Endoscopies were negative except for an extrinsic mass present on the stomach .
+The patient presents with increased abdominal pain and poor oral intake as well as generalized weakness .
+On presentation , the patient denied chest pain , shortness of breath , and cough .
+HOSPITAL COURSE :
+The patient was admitted to the O-CMED
+Service .
+He was placed on a patient-controlled analgesia for pain control .
+He was administered intravenous fluids and oral diet as tolerated .
+On the night of 05-01 , the patient complained of increased vomiting .
+He also complained of increased shortness of breath and " difficulty catching his breath ."
+On room air , the patient 's oxygen saturation was 80% .
+His saturation increased to 87% on a nonrebreather .
+A chest x-ray disclosed a left pleural effusion .
+The patient was bolused with intravenous heparin due to concern for pulmonary embolism .
+The patient expressed a desire to be full code , so he was transferred to the Intensive Care Unit .
+The patient became more comfortable being seated upright with nebulizer treatments .
+An angiogram was done which disclosed possible subsegmental pulmonary emboli of the upper lobes as well as infiltrates consistent with aspiration pneumonia .
+The patient was placed on Flagyl and Levaquin for treatment of pneumonia .
+He was continued on heparin for treatment of the pulmonary emboli .
+While in the Intensive Care Unit , the patient was noted to have increasing abdominal distention .
+On 05-03 the patient underwent an abdominal ultrasound with paracentesis , and 5 liters of fluid were removed .
+On 05-04 , the patient was transferred back to the O-CMED CSRU
+Service .
+Due to persistent gastric secretions , an nasogastric tube was placed for decompression .
+The patient was noted to have a functional ileus .
+Octreotide was initiated in an attempt to decrease the gastric secretions .
+On 05-13 , the patient 's respiratory status declined further .
+He was noted not have an increasing left-sided pleural effusion .
+A thoracentesis was done with removal of 1.5 liters of fluid .
+A paracentesis was repeated with removal of 2.5 liters of fluid .
+On the night of 05-13 , the patient continued to decline .
+The family decided to pursue comfort measures .
+Morphine was administered to insure patient 's comfort .
+The patient expired at 6 p.m. on 05-14 .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E93" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:32" most-likely-start="2012-04-30 12:30" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="1072" id="E34" lowerbound-end="2012-05-01 08:20" lowerbound-start="2012-05-01 08:19" modality="FACTUAL" most-likely-end="2012-05-01 22:46" most-likely-start="2012-05-01 22:45" polarity="POS" start="1040" temporally-annotated="YES" text="the patient 's oxygen saturation" type="TEST" upperbound-end="2012-05-03 13:41" upperbound-start="2012-05-03 13:10"/>
+<EVENT end="1097" id="E35" lowerbound-end="2012-05-01 10:02" lowerbound-start="2012-05-01 10:01" modality="FACTUAL" most-likely-end="2012-05-01 22:54" most-likely-start="2012-05-01 22:52" polarity="POS" start="1083" temporally-annotated="YES" text="His saturation" type="TEST" upperbound-end="2012-05-03 12:14" upperbound-start="2012-05-03 11:43"/>
+<EVENT end="1133" id="E36" lowerbound-end="2012-05-01 10:02" lowerbound-start="2012-05-01 10:01" modality="FACTUAL" most-likely-end="2012-05-01 22:54" most-likely-start="2012-05-01 22:52" polarity="POS" start="1118" temporally-annotated="YES" text="a nonrebreather" type="TREATMENT" upperbound-end="2012-05-03 12:14" upperbound-start="2012-05-03 11:43"/>
+<EVENT end="1149" id="E37" lowerbound-end="2012-05-01 15:55" lowerbound-start="2012-05-01 15:54" modality="FACTUAL" most-likely-end="2012-05-02 05:00" most-likely-start="2012-05-02 04:45" polarity="POS" start="1136" temporally-annotated="YES" text="A chest x-ray" type="TEST" upperbound-end="2012-05-03 18:37" upperbound-start="2012-05-03 17:36"/>
+<EVENT end="1159" id="E39" lowerbound-end="2012-05-01 16:03" lowerbound-start="2012-05-01 16:03" modality="FACTUAL" most-likely-end="2012-05-02 05:00" most-likely-start="2012-05-02 04:52" polarity="POS" start="1150" temporally-annotated="YES" text="disclosed" type="EVIDENTIAL" upperbound-end="2012-05-03 18:12" upperbound-start="2012-05-03 17:42"/>
+<EVENT end="1183" id="E38" lowerbound-end="2012-05-01 15:47" lowerbound-start="2012-05-01 14:04" modality="FACTUAL" most-likely-end="2012-05-02 04:45" most-likely-start="2012-05-02 04:30" polarity="POS" start="1160" temporally-annotated="YES" text="a left pleural effusion" type="PROBLEM" upperbound-end="2012-05-03 17:59" upperbound-start="2012-05-03 18:55"/>
+<EVENT end="1234" id="E40" lowerbound-end="2012-05-04 08:59" lowerbound-start="2012-05-01 16:10" modality="FACTUAL" most-likely-end="2012-05-07 17:01" most-likely-start="2012-05-02 05:00" polarity="POS" start="1215" temporally-annotated="YES" text="intravenous heparin" type="TREATMENT" upperbound-end="2012-05-09 23:08" upperbound-start="2012-05-03 17:49"/>
+<EVENT end="1272" id="E41" lowerbound-end="2012-05-08 08:00" lowerbound-start="2012-05-01 14:04" modality="FACTUAL" most-likely-end="2012-05-08 14:22" most-likely-start="2012-05-02 04:30" polarity="POS" start="1254" temporally-annotated="YES" text="pulmonary embolism" type="PROBLEM" upperbound-end="2012-05-09 09:30" upperbound-start="2012-05-03 18:55"/>
+<EVENT end="1296" id="E43" lowerbound-end="2012-05-01 16:12" lowerbound-start="2012-05-01 16:11" modality="FACTUAL" most-likely-end="2012-05-02 05:06" most-likely-start="2012-05-02 05:01" polarity="POS" start="1287" temporally-annotated="YES" text="expressed" type="EVIDENTIAL" upperbound-end="2012-05-03 18:21" upperbound-start="2012-05-03 17:50"/>
+<EVENT end="1305" id="E42" lowerbound-end="2012-05-01 16:12" lowerbound-start="2012-05-01 16:11" modality="FACTUAL" most-likely-end="2012-05-02 05:06" most-likely-start="2012-05-02 05:01" polarity="POS" start="1297" temporally-annotated="YES" text="a desire" type="OCCURRENCE" upperbound-end="2012-05-03 18:21" upperbound-start="2012-05-03 17:50"/>
+<EVENT end="1321" id="E44" lowerbound-end="2012-05-01 16:12" lowerbound-start="2012-05-01 16:11" modality="FACTUAL" most-likely-end="2012-05-02 05:06" most-likely-start="2012-05-02 05:01" polarity="POS" start="1312" temporally-annotated="YES" text="full code" type="TREATMENT" upperbound-end="2012-05-03 18:21" upperbound-start="2012-05-03 17:50"/>
+<EVENT end="1345" id="E45" lowerbound-end="2012-05-01 16:12" lowerbound-start="2012-05-01 16:11" modality="FACTUAL" most-likely-end="2012-05-02 05:11" most-likely-start="2012-05-02 05:01" polarity="POS" start="1334" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="2012-05-03 18:51" upperbound-start="2012-05-03 17:50"/>
+<EVENT end="1372" id="E46" lowerbound-end="2012-05-04 01:30" lowerbound-start="2012-05-01 16:25" modality="FACTUAL" most-likely-end="2012-05-04 13:30" most-likely-start="2012-05-02 05:13" polarity="POS" start="1349" temporally-annotated="YES" text="the Intensive Care Unit" type="CLINICAL_DEPT" upperbound-end="2012-05-06 01:30" upperbound-start="2012-05-03 18:01"/>
+<EVENT end="1410" id="E47" lowerbound-end="2012-05-01 21:17" lowerbound-start="2012-05-01 21:16" modality="FACTUAL" most-likely-end="2012-05-02 11:22" most-likely-start="2012-05-02 05:22" polarity="POS" start="1399" temporally-annotated="YES" text="comfortable" type="OCCURRENCE" upperbound-end="2012-05-07 01:29" upperbound-start="2012-05-03 13:28"/>
+<EVENT end="1431" id="E48" lowerbound-end="2012-05-01 21:17" lowerbound-start="2012-05-01 21:16" modality="FACTUAL" most-likely-end="2012-05-02 11:22" most-likely-start="2012-05-02 05:22" polarity="POS" start="1424" temporally-annotated="YES" text="upright" type="OCCURRENCE" upperbound-end="2012-05-07 01:29" upperbound-start="2012-05-03 13:28"/>
+<EVENT end="1457" id="E49" lowerbound-end="2012-05-01 21:17" lowerbound-start="2012-05-01 16:25" modality="FACTUAL" most-likely-end="2012-05-02 11:22" most-likely-start="2012-05-02 05:13" polarity="POS" start="1437" temporally-annotated="YES" text="nebulizer treatments" type="TREATMENT" upperbound-end="2012-05-07 01:29" upperbound-start="2012-05-03 18:01"/>
+<EVENT end="1472" id="E50" lowerbound-end="2012-05-01 17:50" lowerbound-start="2012-05-01 17:20" modality="FACTUAL" most-likely-end="2012-05-02 14:00" most-likely-start="2012-05-02 13:00" polarity="POS" start="1460" temporally-annotated="YES" text="An angiogram" type="TEST" upperbound-end="2012-05-07 10:10" upperbound-start="2012-05-07 08:40"/>
+<EVENT end="191" id="E0" lowerbound-end="2012-04-21 10:27" lowerbound-start="2011-10-04 15:35" modality="FACTUAL" most-likely-end="2012-05-01 03:10" most-likely-start="2012-03-09 00:40" polarity="POS" start="148" temporally-annotated="YES" text="recently diagnosed abdominal carcinomatosis" type="PROBLEM" upperbound-end="2012-05-28 03:47" upperbound-start="2013-02-26 02:45"/>
+<EVENT end="1497" id="E51" lowerbound-end="2012-05-01 17:40" lowerbound-start="2012-05-01 17:25" modality="FACTUAL" most-likely-end="2012-05-02 14:00" most-likely-start="2012-05-02 13:30" polarity="POS" start="1488" temporally-annotated="YES" text="disclosed" type="EVIDENTIAL" upperbound-end="2012-05-07 10:19" upperbound-start="2012-05-07 09:34"/>
+<EVENT end="1555" id="E52" lowerbound-end="2012-05-08 07:30" lowerbound-start="2012-05-01 13:19" modality="POSSIBLE" most-likely-end="2012-05-08 16:00" most-likely-start="2012-05-02 05:45" polarity="POS" start="1507" temporally-annotated="YES" text="subsegmental pulmonary emboli of the upper lobes" type="PROBLEM" upperbound-end="2012-05-09 13:00" upperbound-start="2012-05-03 22:10"/>
+<EVENT end="1578" id="E53" lowerbound-end="2012-05-08 07:30" lowerbound-start="2012-05-01 13:19" modality="FACTUAL" most-likely-end="2012-05-08 16:00" most-likely-start="2012-05-02 05:45" polarity="POS" start="1567" temporally-annotated="YES" text="infiltrates" type="PROBLEM" upperbound-end="2012-05-09 13:00" upperbound-start="2012-05-03 22:10"/>
+<EVENT end="1615" id="E54" lowerbound-end="2012-05-08 07:30" lowerbound-start="2012-05-01 13:19" modality="POSSIBLE" most-likely-end="2012-05-08 16:00" most-likely-start="2012-05-02 05:45" polarity="POS" start="1595" temporally-annotated="YES" text="aspiration pneumonia" type="PROBLEM" upperbound-end="2012-05-09 13:00" upperbound-start="2012-05-03 22:10"/>
+<EVENT end="1650" id="E55" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-01 18:13" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-02 14:00" polarity="POS" start="1644" temporally-annotated="YES" text="Flagyl" type="TREATMENT" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-07 09:47"/>
+<EVENT end="1663" id="E56" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-01 18:13" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-02 14:00" polarity="POS" start="1655" temporally-annotated="YES" text="Levaquin" type="TREATMENT" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-07 09:47"/>
+<EVENT end="1677" id="E61" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-01 18:13" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-02 14:00" polarity="POS" start="1668" temporally-annotated="YES" text="treatment" type="TREATMENT" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-07 09:47"/>
+<EVENT end="1690" id="E57" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-01 17:25" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-02 13:30" polarity="POS" start="1681" temporally-annotated="YES" text="pneumonia" type="PROBLEM" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-07 09:34"/>
+<EVENT end="1720" id="E58" lowerbound-end="2012-05-11 00:55" lowerbound-start="2012-05-01 18:18" modality="FACTUAL" most-likely-end="2012-05-14 02:22" most-likely-start="2012-05-02 12:22" polarity="POS" start="1713" temporally-annotated="YES" text="heparin" type="TREATMENT" upperbound-end="2012-05-15 13:55" upperbound-start="2012-05-07 06:27"/>
+<EVENT end="1734" id="E60" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-01 17:25" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-02 13:30" polarity="POS" start="1725" temporally-annotated="YES" text="treatment" type="TREATMENT" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-07 09:34"/>
+<EVENT end="1758" id="E59" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-01 17:25" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-02 13:30" polarity="POS" start="1738" temporally-annotated="YES" text="the pulmonary emboli" type="PROBLEM" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-07 09:34"/>
+<EVENT end="1793" id="E62" lowerbound-end="2012-05-04 01:30" lowerbound-start="2012-05-01 16:25" modality="FACTUAL" most-likely-end="2012-05-04 13:30" most-likely-start="2012-05-02 05:13" polarity="POS" start="1770" temporally-annotated="YES" text="the Intensive Care Unit" type="CLINICAL_DEPT" upperbound-end="2012-05-06 01:30" upperbound-start="2012-05-03 18:01"/>
+<EVENT end="1817" id="E63" lowerbound-end="2012-05-03 13:30" lowerbound-start="2012-05-02 12:00" modality="FACTUAL" most-likely-end="2012-05-04 01:30" most-likely-start="2012-05-03 00:00" polarity="POS" start="1812" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-end="2012-05-05 13:30" upperbound-start="2012-05-04 12:00"/>
+<EVENT end="1857" id="E64" lowerbound-end="2012-05-03 13:30" lowerbound-start="2012-05-02 12:00" modality="FACTUAL" most-likely-end="2012-05-04 01:30" most-likely-start="2012-05-03 00:00" polarity="POS" start="1826" temporally-annotated="YES" text="increasing abdominal distention" type="PROBLEM" upperbound-end="2012-05-05 13:30" upperbound-start="2012-05-04 12:00"/>
+<EVENT end="1914" id="E65" lowerbound-end="2012-05-03 00:45" lowerbound-start="2012-05-03 00:30" modality="FACTUAL" most-likely-end="2012-05-03 13:17" most-likely-start="2012-05-03 12:30" polarity="POS" start="1891" temporally-annotated="YES" text="an abdominal ultrasound" type="TEST" upperbound-end="2012-05-05 01:45" upperbound-start="2012-05-05 00:30"/>
+<EVENT end="1932" id="E66" lowerbound-end="2012-05-03 01:03" lowerbound-start="2012-05-03 00:45" modality="FACTUAL" most-likely-end="2012-05-03 13:32" most-likely-start="2012-05-03 12:47" polarity="POS" start="1920" temporally-annotated="YES" text="paracentesis" type="TREATMENT" upperbound-end="2012-05-05 02:07" upperbound-start="2012-05-05 00:49"/>
+<EVENT end="1956" id="E67" lowerbound-end="2012-05-03 01:03" lowerbound-start="2012-05-03 00:45" modality="FACTUAL" most-likely-end="2012-05-03 13:32" most-likely-start="2012-05-03 12:47" polarity="POS" start="1951" temporally-annotated="YES" text="fluid" type="PROBLEM" upperbound-end="2012-05-05 02:07" upperbound-start="2012-05-05 00:49"/>
+<EVENT end="1969" id="E68" lowerbound-end="2012-05-03 01:03" lowerbound-start="2012-05-03 00:45" modality="FACTUAL" most-likely-end="2012-05-03 13:32" most-likely-start="2012-05-03 12:47" polarity="POS" start="1962" temporally-annotated="YES" text="removed" type="TREATMENT" upperbound-end="2012-05-05 02:07" upperbound-start="2012-05-05 00:49"/>
+<EVENT end="2010" id="E69" lowerbound-end="2012-05-04 01:31" lowerbound-start="2012-05-04 01:30" modality="FACTUAL" most-likely-end="2012-05-04 13:40" most-likely-start="2012-05-04 13:30" polarity="POS" start="1999" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="2012-05-06 02:31" upperbound-start="2012-05-06 01:30"/>
+<EVENT end="2034" id="E70" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-04 01:40" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-04 13:40" polarity="POS" start="2019" temporally-annotated="YES" text="the O-CMED CSRU" type="CLINICAL_DEPT" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-06 01:40"/>
+<EVENT end="2081" id="E71" lowerbound-end="2012-05-11 03:50" lowerbound-start="2012-04-28 15:23" modality="FACTUAL" most-likely-end="2012-05-13 04:05" most-likely-start="2012-05-06 13:35" polarity="POS" start="2052" temporally-annotated="YES" text="persistent gastric secretions" type="PROBLEM" upperbound-end="2012-05-15 16:50" upperbound-start="2012-05-30 04:47"/>
+<EVENT end="215" id="E1" lowerbound-end="2011-10-04 15:25" lowerbound-start="2011-10-04 15:24" modality="FACTUAL" most-likely-end="2012-03-09 00:40" most-likely-start="2012-03-09 00:30" polarity="POS" start="206" temporally-annotated="YES" text="presented" type="EVIDENTIAL" upperbound-end="2013-02-26 03:06" upperbound-start="2013-02-26 02:35"/>
+<EVENT end="2103" id="E72" lowerbound-end="2012-05-09 09:50" lowerbound-start="2012-04-28 15:23" modality="FACTUAL" most-likely-end="2012-05-09 16:07" most-likely-start="2012-05-06 13:35" polarity="POS" start="2084" temporally-annotated="YES" text="an nasogastric tube" type="TREATMENT" upperbound-end="2012-05-10 11:20" upperbound-start="2012-05-30 04:47"/>
+<EVENT end="2132" id="E73" lowerbound-end="2012-05-11 03:50" lowerbound-start="2012-04-28 15:23" modality="FACTUAL" most-likely-end="2012-05-13 04:05" most-likely-start="2012-05-06 13:35" polarity="POS" start="2119" temporally-annotated="YES" text="decompression" type="TREATMENT" upperbound-end="2012-05-15 16:50" upperbound-start="2012-05-30 04:47"/>
+<EVENT end="2156" id="E74" lowerbound-end="2012-04-30 09:23" lowerbound-start="2012-04-28 15:23" modality="FACTUAL" most-likely-end="2012-05-10 01:35" most-likely-start="2012-05-06 13:35" polarity="POS" start="2151" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-end="2012-06-04 10:47" upperbound-start="2012-05-30 04:47"/>
+<EVENT end="2183" id="E75" lowerbound-end="2012-04-30 09:23" lowerbound-start="2012-04-28 15:23" modality="FACTUAL" most-likely-end="2012-05-10 01:35" most-likely-start="2012-05-06 13:35" polarity="POS" start="2165" temporally-annotated="YES" text="a functional ileus" type="OCCURRENCE" upperbound-end="2012-06-04 10:47" upperbound-start="2012-05-30 04:47"/>
+<EVENT end="2196" id="E76" lowerbound-end="2012-05-11 03:50" lowerbound-start="2012-04-28 15:23" modality="FACTUAL" most-likely-end="2012-05-13 04:05" most-likely-start="2012-05-06 13:35" polarity="POS" start="2186" temporally-annotated="YES" text="Octreotide" type="TREATMENT" upperbound-end="2012-05-15 16:50" upperbound-start="2012-05-30 04:47"/>
+<EVENT end="235" id="E2" lowerbound-end="2011-10-04 15:25" lowerbound-start="2011-10-04 15:24" modality="FACTUAL" most-likely-end="2012-03-09 00:40" most-likely-start="2012-03-09 00:30" polarity="POS" start="221" temporally-annotated="YES" text="abdominal pain" type="PROBLEM" upperbound-end="2013-02-26 03:06" upperbound-start="2013-02-26 02:35"/>
+<EVENT end="2259" id="E77" lowerbound-end="2012-05-11 03:50" lowerbound-start="2012-04-28 15:23" modality="FACTUAL" most-likely-end="2012-05-13 04:05" most-likely-start="2012-05-06 13:35" polarity="POS" start="2237" temporally-annotated="YES" text="the gastric secretions" type="PROBLEM" upperbound-end="2012-05-15 16:50" upperbound-start="2012-05-30 04:47"/>
+<EVENT end="2323" id="E78" lowerbound-end="2012-05-13 21:27" lowerbound-start="2012-05-12 23:12" modality="FACTUAL" most-likely-end="2012-05-14 06:30" most-likely-start="2012-05-13 12:00" polarity="POS" start="2288" temporally-annotated="YES" text="respiratory status declined further" type="PROBLEM" upperbound-end="2012-05-15 08:03" upperbound-start="2012-05-15 00:48"/>
+<EVENT end="2338" id="E79" lowerbound-end="2012-05-12 23:12" lowerbound-start="2012-05-12 23:12" modality="FACTUAL" most-likely-end="2012-05-13 12:05" most-likely-start="2012-05-13 12:00" polarity="POS" start="2333" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-end="2012-05-15 01:18" upperbound-start="2012-05-15 00:48"/>
+<EVENT end="2389" id="E80" lowerbound-end="2012-05-12 23:12" lowerbound-start="2012-05-12 23:12" modality="FACTUAL" most-likely-end="2012-05-13 12:05" most-likely-start="2012-05-13 12:00" polarity="POS" start="2348" temporally-annotated="YES" text="an increasing left-sided pleural effusion" type="PROBLEM" upperbound-end="2012-05-15 01:18" upperbound-start="2012-05-15 00:48"/>
+<EVENT end="248" id="E3" lowerbound-end="2011-10-04 15:25" lowerbound-start="2011-10-04 15:24" modality="FACTUAL" most-likely-end="2012-03-09 00:40" most-likely-start="2012-03-09 00:30" polarity="POS" start="240" temporally-annotated="YES" text="bloating" type="PROBLEM" upperbound-end="2013-02-26 03:06" upperbound-start="2013-02-26 02:35"/>
+<EVENT end="2407" id="E81" lowerbound-end="2012-05-12 23:37" lowerbound-start="2012-05-12 23:30" modality="FACTUAL" most-likely-end="2012-05-13 12:35" most-likely-start="2012-05-13 12:20" polarity="POS" start="2392" temporally-annotated="YES" text="A thoracentesis" type="TREATMENT" upperbound-end="2012-05-15 02:17" upperbound-start="2012-05-15 01:10"/>
+<EVENT end="2429" id="E82" lowerbound-end="2012-05-12 23:37" lowerbound-start="2012-05-12 23:30" modality="FACTUAL" most-likely-end="2012-05-13 12:35" most-likely-start="2012-05-13 12:20" polarity="POS" start="2422" temporally-annotated="YES" text="removal" type="TREATMENT" upperbound-end="2012-05-15 02:17" upperbound-start="2012-05-15 01:10"/>
+<EVENT end="2452" id="E83" lowerbound-end="2012-05-12 23:37" lowerbound-start="2012-05-12 23:30" modality="FACTUAL" most-likely-end="2012-05-13 12:35" most-likely-start="2012-05-13 12:20" polarity="POS" start="2447" temporally-annotated="YES" text="fluid" type="PROBLEM" upperbound-end="2012-05-15 02:17" upperbound-start="2012-05-15 01:10"/>
+<EVENT end="2469" id="E84" lowerbound-end="2012-05-13 00:02" lowerbound-start="2012-05-12 23:56" modality="FACTUAL" most-likely-end="2012-05-13 12:57" most-likely-start="2012-05-13 12:27" polarity="POS" start="2455" temporally-annotated="YES" text="A paracentesis" type="TREATMENT" upperbound-end="2012-05-15 02:04" upperbound-start="2012-05-15 00:58"/>
+<EVENT end="2495" id="E85" lowerbound-end="2012-05-13 00:02" lowerbound-start="2012-05-12 23:56" modality="FACTUAL" most-likely-end="2012-05-13 12:57" most-likely-start="2012-05-13 12:27" polarity="POS" start="2488" temporally-annotated="YES" text="removal" type="TREATMENT" upperbound-end="2012-05-15 02:04" upperbound-start="2012-05-15 00:58"/>
+<EVENT end="2518" id="E86" lowerbound-end="2012-05-13 00:02" lowerbound-start="2012-05-12 23:56" modality="FACTUAL" most-likely-end="2012-05-13 12:57" most-likely-start="2012-05-13 12:27" polarity="POS" start="2513" temporally-annotated="YES" text="fluid" type="PROBLEM" upperbound-end="2012-05-15 02:04" upperbound-start="2012-05-15 00:58"/>
+<EVENT end="262" id="E4" lowerbound-end="2011-10-04 15:25" lowerbound-start="2011-10-04 15:24" modality="FACTUAL" most-likely-end="2012-03-09 00:40" most-likely-start="2012-03-09 00:30" polarity="POS" start="257" temporally-annotated="YES" text="found" type="EVIDENTIAL" upperbound-end="2013-02-26 03:06" upperbound-start="2013-02-26 02:35"/>
+<EVENT end="2577" id="E87" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-13 05:57" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-13 21:30" polarity="POS" start="2570" temporally-annotated="YES" text="decline" type="PROBLEM" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-15 13:02"/>
+<EVENT end="2598" id="E88" lowerbound-end="2012-05-14 02:37" lowerbound-start="2012-05-13 05:57" modality="FACTUAL" most-likely-end="2012-05-14 08:07" most-likely-start="2012-05-13 21:30" polarity="POS" start="2580" temporally-annotated="YES" text="The family decided" type="OCCURRENCE" upperbound-end="2012-05-15 02:24" upperbound-start="2012-05-15 13:02"/>
+<EVENT end="2625" id="E89" lowerbound-end="2012-05-14 02:37" lowerbound-start="2012-05-13 05:57" modality="FACTUAL" most-likely-end="2012-05-14 14:00" most-likely-start="2012-05-13 21:30" polarity="POS" start="2609" temporally-annotated="YES" text="comfort measures" type="TREATMENT" upperbound-end="2012-05-15 13:54" upperbound-start="2012-05-15 13:02"/>
+<EVENT end="2636" id="E90" lowerbound-end="2012-05-14 02:37" lowerbound-start="2012-05-13 05:57" modality="FACTUAL" most-likely-end="2012-05-14 14:00" most-likely-start="2012-05-13 21:30" polarity="POS" start="2628" temporally-annotated="YES" text="Morphine" type="TREATMENT" upperbound-end="2012-05-15 13:54" upperbound-start="2012-05-15 13:02"/>
+<EVENT end="2682" id="E91" lowerbound-end="2012-05-14 02:37" lowerbound-start="2012-05-13 05:57" modality="FACTUAL" most-likely-end="2012-05-14 14:00" most-likely-start="2012-05-13 21:30" polarity="POS" start="2664" temporally-annotated="YES" text="patient 's comfort" type="OCCURRENCE" upperbound-end="2012-05-15 13:54" upperbound-start="2012-05-15 13:02"/>
+<EVENT end="2704" id="E92" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-14 05:29" modality="FACTUAL" most-likely-end="2012-05-14 18:00" most-likely-start="2012-05-14 17:30" polarity="POS" start="2697" temporally-annotated="YES" text="expired" type="OCCURRENCE" upperbound-end="2012-05-14 19:30" upperbound-start="2012-05-14 19:29"/>
+<EVENT end="291" id="E5" lowerbound-end="2012-04-20 15:05" lowerbound-start="2011-10-04 15:24" modality="FACTUAL" most-likely-end="2012-04-29 15:10" most-likely-start="2012-03-09 00:30" polarity="POS" start="271" temporally-annotated="YES" text="a large omental mass" type="PROBLEM" upperbound-end="2012-05-23 20:56" upperbound-start="2013-02-26 02:35"/>
+<EVENT end="38" id="E94" lowerbound-end="2012-05-14 17:30" lowerbound-start="2012-05-14 17:30" modality="FACTUAL" most-likely-end="2012-05-14 19:00" most-likely-start="2012-05-14 18:00" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="2012-05-15 07:30" upperbound-start="2012-05-14 19:30"/>
+<EVENT end="300" id="E6" lowerbound-end="2011-10-05 10:54" lowerbound-start="2011-10-04 15:35" modality="FACTUAL" most-likely-end="2012-03-10 13:02" most-likely-start="2012-03-09 00:40" polarity="POS" start="294" temporally-annotated="YES" text="Biopsy" type="TEST" upperbound-end="2013-03-02 10:34" upperbound-start="2013-02-26 02:45"/>
+<EVENT end="309" id="E8" lowerbound-end="2011-10-05 11:20" lowerbound-start="2011-10-04 16:08" modality="FACTUAL" most-likely-end="2012-03-10 13:02" most-likely-start="2012-03-09 01:02" polarity="POS" start="301" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="2013-03-02 10:08" upperbound-start="2013-02-26 02:56"/>
+<EVENT end="324" id="E9" lowerbound-end="2012-04-21 10:27" lowerbound-start="2011-10-04 15:35" modality="FACTUAL" most-likely-end="2012-05-01 03:10" most-likely-start="2012-03-09 00:40" polarity="POS" start="310" temporally-annotated="YES" text="adenocarcinoma" type="PROBLEM" upperbound-end="2012-05-28 03:47" upperbound-start="2013-02-26 02:45"/>
+<EVENT end="347" id="E10" lowerbound-end="2011-10-05 11:20" lowerbound-start="2011-10-04 16:08" modality="FACTUAL" most-likely-end="2012-03-10 13:02" most-likely-start="2012-03-09 01:02" polarity="POS" start="327" temporally-annotated="YES" text="Histochemical stains" type="TEST" upperbound-end="2013-03-02 10:08" upperbound-start="2013-02-26 02:56"/>
+<EVENT end="388" id="E11" lowerbound-end="2011-10-05 11:20" lowerbound-start="2011-10-04 16:08" modality="POSSIBLE" most-likely-end="2012-03-10 13:02" most-likely-start="2012-03-09 01:02" polarity="POS" start="368" temporally-annotated="YES" text="hepatobiliary origin" type="PROBLEM" upperbound-end="2013-03-02 10:08" upperbound-start="2013-02-26 02:56"/>
+<EVENT end="402" id="E12" lowerbound-end="2011-10-04 16:06" lowerbound-start="2011-10-04 15:58" modality="FACTUAL" most-likely-end="2012-03-09 01:25" most-likely-start="2012-03-09 00:52" polarity="POS" start="391" temporally-annotated="YES" text="Endoscopies" type="TEST" upperbound-end="2013-02-26 03:55" upperbound-start="2013-02-26 02:47"/>
+<EVENT end="468" id="E13" lowerbound-end="2012-04-20 15:05" lowerbound-start="2011-10-04 15:24" modality="FACTUAL" most-likely-end="2012-04-29 15:10" most-likely-start="2012-03-09 00:30" polarity="POS" start="428" temporally-annotated="YES" text="an extrinsic mass present on the stomach" type="PROBLEM" upperbound-end="2012-05-23 20:56" upperbound-start="2013-02-26 02:35"/>
+<EVENT end="491" id="E14" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:35" most-likely-start="2012-04-30 12:30" polarity="POS" start="483" temporally-annotated="YES" text="presents" type="EVIDENTIAL" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="521" id="E15" lowerbound-end="2012-04-26 17:57" lowerbound-start="2012-04-25 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:30" most-likely-start="2012-04-28 00:30" polarity="POS" start="497" temporally-annotated="YES" text="increased abdominal pain" type="PROBLEM" upperbound-end="2012-05-08 07:02" upperbound-start="2012-05-04 01:02"/>
+<EVENT end="542" id="E16" lowerbound-end="2012-04-26 17:57" lowerbound-start="2012-04-25 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:30" most-likely-start="2012-04-28 00:30" polarity="POS" start="526" temporally-annotated="YES" text="poor oral intake" type="PROBLEM" upperbound-end="2012-05-08 07:02" upperbound-start="2012-05-04 01:02"/>
+<EVENT end="574" id="E17" lowerbound-end="2012-04-26 17:57" lowerbound-start="2012-04-25 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:30" most-likely-start="2012-04-28 00:30" polarity="POS" start="554" temporally-annotated="YES" text="generalized weakness" type="PROBLEM" upperbound-end="2012-05-08 07:02" upperbound-start="2012-05-04 01:02"/>
+<EVENT end="592" id="E18" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:35" most-likely-start="2012-04-30 12:30" polarity="POS" start="580" temporally-annotated="YES" text="presentation" type="EVIDENTIAL" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="613" id="E95" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:35" most-likely-start="2012-04-30 12:30" polarity="POS" start="607" temporally-annotated="YES" text="denied" type="EVIDENTIAL" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="624" id="E19" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:35" most-likely-start="2012-04-30 12:30" polarity="NEG" start="614" temporally-annotated="YES" text="chest pain" type="PROBLEM" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="646" id="E20" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:35" most-likely-start="2012-04-30 12:30" polarity="NEG" start="627" temporally-annotated="YES" text="shortness of breath" type="PROBLEM" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="658" id="E21" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:35" most-likely-start="2012-04-30 12:30" polarity="NEG" start="653" temporally-annotated="YES" text="cough" type="PROBLEM" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="703" id="E23" lowerbound-end="2012-04-29 23:58" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-04-30 12:32" most-likely-start="2012-04-30 12:30" polarity="POS" start="695" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="2012-05-02 01:33" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="717" id="E24" lowerbound-end="2012-05-07 08:45" lowerbound-start="2012-04-29 23:57" modality="FACTUAL" most-likely-end="2012-05-09 15:00" most-likely-start="2012-04-30 12:30" polarity="POS" start="707" temporally-annotated="YES" text="the O-CMED" type="CLINICAL_DEPT" upperbound-end="2012-05-11 21:45" upperbound-start="2012-05-02 01:02"/>
+<EVENT end="775" id="E25" lowerbound-end="2012-05-14 08:34" lowerbound-start="2012-04-30 00:02" modality="FACTUAL" most-likely-end="2012-05-14 15:02" most-likely-start="2012-04-30 12:32" polarity="POS" start="745" temporally-annotated="YES" text="a patient-controlled analgesia" type="TREATMENT" upperbound-end="2012-05-15 10:00" upperbound-start="2012-05-02 01:03"/>
+<EVENT end="792" id="E26" lowerbound-end="2012-05-14 08:34" lowerbound-start="2012-04-30 00:02" modality="FACTUAL" most-likely-end="2012-05-14 15:02" most-likely-start="2012-04-30 12:32" polarity="POS" start="780" temporally-annotated="YES" text="pain control" type="TREATMENT" upperbound-end="2012-05-15 10:00" upperbound-start="2012-05-02 01:03"/>
+<EVENT end="833" id="E27" lowerbound-end="2012-05-14 08:34" lowerbound-start="2012-04-30 00:02" modality="FACTUAL" most-likely-end="2012-05-14 15:02" most-likely-start="2012-04-30 12:32" polarity="POS" start="815" temporally-annotated="YES" text="intravenous fluids" type="TREATMENT" upperbound-end="2012-05-15 10:00" upperbound-start="2012-05-02 01:03"/>
+<EVENT end="847" id="E28" lowerbound-end="2012-05-07 08:50" lowerbound-start="2012-04-30 00:02" modality="FACTUAL" most-likely-end="2012-05-10 03:02" most-likely-start="2012-04-30 12:32" polarity="POS" start="838" temporally-annotated="YES" text="oral diet" type="TREATMENT" upperbound-end="2012-05-23 14:46" upperbound-start="2012-05-02 01:03"/>
+<EVENT end="909" id="E29" lowerbound-end="2012-05-01 08:20" lowerbound-start="2012-05-01 08:19" modality="FACTUAL" most-likely-end="2012-05-01 23:15" most-likely-start="2012-05-01 22:45" polarity="POS" start="899" temporally-annotated="YES" text="complained" type="EVIDENTIAL" upperbound-end="2012-05-04 01:11" upperbound-start="2012-05-03 13:10"/>
+<EVENT end="931" id="E30" lowerbound-end="2012-05-01 08:20" lowerbound-start="2012-05-01 08:19" modality="FACTUAL" most-likely-end="2012-05-01 23:15" most-likely-start="2012-05-01 22:45" polarity="POS" start="913" temporally-annotated="YES" text="increased vomiting" type="PROBLEM" upperbound-end="2012-05-04 01:11" upperbound-start="2012-05-03 13:10"/>
+<EVENT end="952" id="E31" lowerbound-end="2012-05-01 08:20" lowerbound-start="2012-05-01 08:19" modality="FACTUAL" most-likely-end="2012-05-01 23:15" most-likely-start="2012-05-01 22:45" polarity="POS" start="942" temporally-annotated="YES" text="complained" type="EVIDENTIAL" upperbound-end="2012-05-04 01:11" upperbound-start="2012-05-03 13:10"/>
+<EVENT end="985" id="E32" lowerbound-end="2012-05-01 08:20" lowerbound-start="2012-05-01 08:19" modality="FACTUAL" most-likely-end="2012-05-01 23:15" most-likely-start="2012-05-01 22:45" polarity="POS" start="956" temporally-annotated="YES" text="increased shortness of breath" type="PROBLEM" upperbound-end="2012-05-04 01:11" upperbound-start="2012-05-03 13:10"/>
+<EVENT end="1022" id="E33" lowerbound-end="2012-05-01 08:20" lowerbound-start="2012-05-01 08:19" modality="FACTUAL" most-likely-end="2012-05-01 23:15" most-likely-start="2012-05-01 22:45" polarity="POS" start="992" temporally-annotated="YES" text="difficulty catching his breath" type="PROBLEM" upperbound-end="2012-05-04 01:11" upperbound-start="2012-05-03 13:10"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="2012-04-30" type="DATE" val="2012-04-30"/>
+<TIMEX3 end="1868" id="T3" mod="NA" start="1863" text="05-03" type="DATE" val="2012-05-03"/>
+<TIMEX3 end="1980" id="T4" mod="NA" start="1975" text="05-04" type="DATE" val="2012-05-04"/>
+<TIMEX3 end="2270" id="T5" mod="NA" start="2265" text="05-13" type="DATE" val="2012-05-13"/>
+<TIMEX3 end="2542" id="T6" mod="END" start="2524" text="the night of 05-13" type="DATE" val="2012-05-13"/>
+<TIMEX3 end="2723" id="T7" mod="NA" start="2708" text="6 p.m. on 05-14" type="TIME" val="2012-05-14T1800"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="2012-05-14" type="DATE" val="2012-05-14"/>
+<TIMEX3 end="884" id="T2" mod="END" start="866" text="the night of 05-01" type="DATE" val="2012-05-01"/>
+<TLINK fromID="E23" fromText="admitted" id="TL0" toID="E93" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E93" fromText="Admission" id="TL1" toID="T0" toText="2012-04-30" type="SIMULTANEOUS"/>
+<TLINK fromID="E5" fromText="a large omental mass" id="TL10" toID="E4" toText="found" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E80" fromText="an increasing left-sided pleural effusion" id="TL101" toID="E79" toText="noted" type="OVERLAP"/>
+<TLINK fromID="E81" fromText="A thoracentesis" id="TL102" toID="E80" toText="an increasing left-sided pleural effusion" type="AFTER"/>
+<TLINK fromID="E80" fromText="an increasing left-sided pleural effusion" id="TL103" toID="E78" toText="respiratory status declined further" type="OVERLAP"/>
+<TLINK fromID="E82" fromText="removal" id="TL104" toID="E81" toText="A thoracentesis" type="SIMULTANEOUS"/>
+<TLINK fromID="E83" fromText="fluid" id="TL105" toID="E81" toText="A thoracentesis" type="SIMULTANEOUS"/>
+<TLINK fromID="E85" fromText="removal" id="TL106" toID="E84" toText="A paracentesis" type="SIMULTANEOUS"/>
+<TLINK fromID="E84" fromText="A paracentesis" id="TL107" toID="E81" toText="A thoracentesis" type="OVERLAP"/>
+<TLINK fromID="E86" fromText="fluid" id="TL108" toID="E84" toText="A paracentesis" type="SIMULTANEOUS"/>
+<TLINK fromID="E87" fromText="decline" id="TL109" toID="T6" toText="the night of 05-13" type="SIMULTANEOUS"/>
+<TLINK fromID="E9" fromText="adenocarcinoma" id="TL11" toID="E5" toText="a large omental mass" type="SIMULTANEOUS"/>
+<TLINK fromID="E89" fromText="comfort measures" id="TL110" toID="T6" toText="the night of 05-13" type="SIMULTANEOUS"/>
+<TLINK fromID="E90" fromText="Morphine" id="TL111" toID="T6" toText="the night of 05-13" type="SIMULTANEOUS"/>
+<TLINK fromID="E88" fromText="The family decided" id="TL112" toID="E87" toText="decline" type="AFTER"/>
+<TLINK fromID="E89" fromText="comfort measures" id="TL113" toID="E88" toText="The family decided" type="AFTER"/>
+<TLINK fromID="E90" fromText="Morphine" id="TL114" toID="E89" toText="comfort measures" type="OVERLAP"/>
+<TLINK fromID="E91" fromText="patient 's comfort" id="TL116" toID="E90" toText="Morphine" type="AFTER"/>
+<TLINK fromID="E92" fromText="expired" id="TL117" toID="E91" toText="patient 's comfort" type="AFTER"/>
+<TLINK fromID="E92" fromText="expired" id="TL118" toID="T7" toText="6 p.m. on 05-14" type="SIMULTANEOUS"/>
+<TLINK fromID="E13" fromText="an extrinsic mass present on the stomach" id="TL12" toID="E5" toText="a large omental mass" type="SIMULTANEOUS"/>
+<TLINK fromID="E10" fromText="Histochemical stains" id="TL13" toID="E6" toText="Biopsy" type="AFTER"/>
+<TLINK fromID="E8" fromText="revealed" id="TL14" toID="E6" toText="Biopsy" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E9" fromText="adenocarcinoma" id="TL15" toID="E6" toText="Biopsy" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E11" fromText="hepatobiliary origin" id="TL16" toID="E10" toText="Histochemical stains" type="BEFORE"/>
+<TLINK fromID="E13" fromText="an extrinsic mass present on the stomach" id="TL17" toID="E12" toText="Endoscopies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E18" fromText="presentation" id="TL18" toID="E14" toText="presents" type="SIMULTANEOUS"/>
+<TLINK fromID="E15" fromText="increased abdominal pain" id="TL19" toID="E14" toText="presents" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E14" fromText="presents" id="TL2" toID="E93" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E16" fromText="poor oral intake" id="TL20" toID="E15" toText="increased abdominal pain" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="generalized weakness" id="TL21" toID="E15" toText="increased abdominal pain" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="generalized weakness" id="TL22" toID="E16" toText="poor oral intake" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="a patient-controlled analgesia" id="TL24" toID="E23" toText="admitted" type="AFTER"/>
+<TLINK fromID="E21" fromText="cough" id="TL27" toID="E20" toText="shortness of breath" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="pain control" id="TL28" toID="E25" toText="a patient-controlled analgesia" type="SIMULTANEOUS"/>
+<TLINK fromID="E25" fromText="a patient-controlled analgesia" id="TL29" toID="E27" toText="intravenous fluids" type="OVERLAP"/>
+<TLINK fromID="E94" fromText="Discharge" id="TL3" toID="T1" toText="2012-05-14" type="SIMULTANEOUS"/>
+<TLINK fromID="E27" fromText="intravenous fluids" id="TL30" toID="E26" toText="pain control" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="oral diet" id="TL31" toID="E27" toText="intravenous fluids" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="complained" id="TL32" toID="T2" toText="the night of 05-01" type="SIMULTANEOUS"/>
+<TLINK fromID="E30" fromText="increased vomiting" id="TL33" toID="E29" toText="complained" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="complained" id="TL34" toID="E29" toText="complained" type="SIMULTANEOUS"/>
+<TLINK fromID="E32" fromText="increased shortness of breath" id="TL35" toID="E30" toText="increased vomiting" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="increased shortness of breath" id="TL36" toID="E31" toText="complained" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="difficulty catching his breath" id="TL37" toID="E32" toText="increased shortness of breath" type="SIMULTANEOUS"/>
+<TLINK fromID="E34" fromText="the patient 's oxygen saturation" id="TL38" toID="E33" toText="difficulty catching his breath" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="a nonrebreather" id="TL39" toID="E34" toText="the patient 's oxygen saturation" type="AFTER"/>
+<TLINK fromID="E2" fromText="abdominal pain" id="TL4" toID="E0" toText="recently diagnosed abdominal carcinomatosis" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="a left pleural effusion" id="TL40" toID="E34" toText="the patient 's oxygen saturation" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="a nonrebreather" id="TL41" toID="E35" toText="His saturation" type="SIMULTANEOUS"/>
+<TLINK fromID="E19" fromText="chest pain" id="TL42" toID="E95" toText="denied" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E37" fromText="A chest x-ray" id="TL43" toID="E36" toText="a nonrebreather" type="AFTER"/>
+<TLINK fromID="E40" fromText="intravenous heparin" id="TL44" toID="E36" toText="a nonrebreather" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="a left pleural effusion" id="TL45" toID="E37" toText="A chest x-ray" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E50" fromText="An angiogram" id="TL46" toID="E37" toText="A chest x-ray" type="AFTER"/>
+<TLINK fromID="E40" fromText="intravenous heparin" id="TL47" toID="E31" toText="complained" type="AFTER"/>
+<TLINK fromID="E41" fromText="pulmonary embolism" id="TL48" toID="E40" toText="intravenous heparin" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E59" fromText="the pulmonary emboli" id="TL49" toID="E41" toText="pulmonary embolism" type="SIMULTANEOUS"/>
+<TLINK fromID="E24" fromText="the O-CMED" id="TL5" toID="E23" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E43" fromText="expressed" id="TL50" toID="E42" toText="a desire" type="SIMULTANEOUS"/>
+<TLINK fromID="E42" fromText="a desire" id="TL51" toID="E44" toText="full code" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E42" fromText="a desire" id="TL52" toID="E45" toText="transferred" type="BEFORE"/>
+<TLINK fromID="E62" fromText="the Intensive Care Unit" id="TL53" toID="E46" toText="the Intensive Care Unit" type="SIMULTANEOUS"/>
+<TLINK fromID="E46" fromText="the Intensive Care Unit" id="TL54" toID="E45" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E48" fromText="upright" id="TL55" toID="E47" toText="comfortable" type="SIMULTANEOUS"/>
+<TLINK fromID="E49" fromText="nebulizer treatments" id="TL56" toID="E48" toText="upright" type="SIMULTANEOUS"/>
+<TLINK fromID="E52" fromText="subsegmental pulmonary emboli of the upper lobes" id="TL57" toID="E50" toText="An angiogram" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E51" fromText="disclosed" id="TL58" toID="E50" toText="An angiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E53" fromText="infiltrates" id="TL59" toID="E52" toText="subsegmental pulmonary emboli of the upper lobes" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="a large omental mass" id="TL6" toID="E0" toText="recently diagnosed abdominal carcinomatosis" type="SIMULTANEOUS"/>
+<TLINK fromID="E54" fromText="aspiration pneumonia" id="TL60" toID="E52" toText="subsegmental pulmonary emboli of the upper lobes" type="SIMULTANEOUS"/>
+<TLINK fromID="E54" fromText="aspiration pneumonia" id="TL61" toID="E53" toText="infiltrates" type="SIMULTANEOUS"/>
+<TLINK fromID="E57" fromText="pneumonia" id="TL62" toID="E54" toText="aspiration pneumonia" type="SIMULTANEOUS"/>
+<TLINK fromID="E56" fromText="Levaquin" id="TL63" toID="E55" toText="Flagyl" type="SIMULTANEOUS"/>
+<TLINK fromID="E55" fromText="Flagyl" id="TL64" toID="E54" toText="aspiration pneumonia" type="AFTER"/>
+<TLINK fromID="E61" fromText="treatment" id="TL65" toID="E56" toText="Levaquin" type="SIMULTANEOUS"/>
+<TLINK fromID="E57" fromText="pneumonia" id="TL66" toID="E61" toText="treatment" type="OVERLAP"/>
+<TLINK fromID="E59" fromText="the pulmonary emboli" id="TL67" toID="E57" toText="pneumonia" type="OVERLAP"/>
+<TLINK fromID="E57" fromText="pneumonia" id="TL68" toID="E55" toText="Flagyl" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="treatment" id="TL69" toID="E58" toText="heparin" type="SIMULTANEOUS"/>
+<TLINK fromID="E6" fromText="Biopsy" id="TL7" toID="E1" toText="presented" type="AFTER"/>
+<TLINK fromID="E58" fromText="heparin" id="TL70" toID="E40" toText="intravenous heparin" type="SIMULTANEOUS"/>
+<TLINK fromID="E59" fromText="the pulmonary emboli" id="TL71" toID="E58" toText="heparin" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E64" fromText="increasing abdominal distention" id="TL72" toID="E62" toText="the Intensive Care Unit" type="DURING"/>
+<TLINK fromID="E62" fromText="the Intensive Care Unit" id="TL73" toID="E69" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E63" fromText="noted" id="TL74" toID="E62" toText="the Intensive Care Unit" type="ENDED_BY"/>
+<TLINK fromID="E64" fromText="increasing abdominal distention" id="TL75" toID="E63" toText="noted" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="an abdominal ultrasound" id="TL76" toID="T3" toText="05-03" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E68" fromText="removed" id="TL78" toID="E66" toText="paracentesis" type="SIMULTANEOUS"/>
+<TLINK fromID="E66" fromText="paracentesis" id="TL79" toID="E65" toText="an abdominal ultrasound" type="DURING"/>
+<TLINK fromID="E12" fromText="Endoscopies" id="TL8" toID="E1" toText="presented" type="AFTER"/>
+<TLINK fromID="E67" fromText="fluid" id="TL80" toID="E66" toText="paracentesis" type="SIMULTANEOUS"/>
+<TLINK fromID="E67" fromText="fluid" id="TL81" toID="E68" toText="removed" type="SIMULTANEOUS"/>
+<TLINK fromID="E69" fromText="transferred" id="TL82" toID="T4" toText="05-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E70" fromText="the O-CMED CSRU" id="TL83" toID="E69" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E70" fromText="the O-CMED CSRU" id="TL84" toID="T7" toText="6 p.m. on 05-14" type="ENDED_BY"/>
+<TLINK fromID="E72" fromText="an nasogastric tube" id="TL85" toID="E70" toText="the O-CMED CSRU" type="ENDED_BY"/>
+<TLINK fromID="E71" fromText="persistent gastric secretions" id="TL86" toID="E72" toText="an nasogastric tube" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E73" fromText="decompression" id="TL87" toID="E72" toText="an nasogastric tube" type="BEGUN_BY"/>
+<TLINK fromID="E73" fromText="decompression" id="TL88" toID="E70" toText="the O-CMED CSRU" type="OVERLAP"/>
+<TLINK fromID="E75" fromText="a functional ileus" id="TL89" toID="E73" toText="decompression" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="bloating" id="TL9" toID="E2" toText="abdominal pain" type="OVERLAP"/>
+<TLINK fromID="E75" fromText="a functional ileus" id="TL90" toID="E74" toText="noted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E74" fromText="noted" id="TL91" toID="E70" toText="the O-CMED CSRU" type="DURING"/>
+<TLINK fromID="E74" fromText="noted" id="TL92" toID="E76" toText="Octreotide" type="BEFORE"/>
+<TLINK fromID="E76" fromText="Octreotide" id="TL93" toID="E75" toText="a functional ileus" type="OVERLAP"/>
+<TLINK fromID="E77" fromText="the gastric secretions" id="TL94" toID="E76" toText="Octreotide" type="DURING"/>
+<TLINK fromID="E77" fromText="the gastric secretions" id="TL95" toID="E71" toText="persistent gastric secretions" type="SIMULTANEOUS"/>
+<TLINK fromID="E77" fromText="the gastric secretions" id="TL96" toID="E75" toText="a functional ileus" type="OVERLAP"/>
+<TLINK fromID="E78" fromText="respiratory status declined further" id="TL97" toID="T5" toText="05-13" type="SIMULTANEOUS"/>
+<TLINK fromID="E84" fromText="A paracentesis" id="TL98" toID="T5" toText="05-13" type="SIMULTANEOUS"/>
+<TLINK fromID="E81" fromText="A thoracentesis" id="TL99" toID="T5" toText="05-13" type="SIMULTANEOUS"/>
+<TLINK fromID="E34" fromText="the patient 's oxygen saturation" id="Sectime0" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E35" fromText="His saturation" id="Sectime1" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E36" fromText="a nonrebreather" id="Sectime2" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E37" fromText="A chest x-ray" id="Sectime3" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E39" fromText="disclosed" id="Sectime4" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E38" fromText="a left pleural effusion" id="Sectime5" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E40" fromText="intravenous heparin" id="Sectime6" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E41" fromText="pulmonary embolism" id="Sectime7" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E43" fromText="expressed" id="Sectime8" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E42" fromText="a desire" id="Sectime9" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E44" fromText="full code" id="Sectime10" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E45" fromText="transferred" id="Sectime11" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E46" fromText="the Intensive Care Unit" id="Sectime12" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E47" fromText="comfortable" id="Sectime13" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E48" fromText="upright" id="Sectime14" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E49" fromText="nebulizer treatments" id="Sectime15" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E50" fromText="An angiogram" id="Sectime16" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E0" fromText="recently diagnosed abdominal carcinomatosis" id="Sectime0" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E51" fromText="disclosed" id="Sectime17" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E52" fromText="subsegmental pulmonary emboli of the upper lobes" id="Sectime18" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E53" fromText="infiltrates" id="Sectime19" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E54" fromText="aspiration pneumonia" id="Sectime20" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E55" fromText="Flagyl" id="Sectime21" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E56" fromText="Levaquin" id="Sectime22" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E61" fromText="treatment" id="Sectime23" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E57" fromText="pneumonia" id="Sectime24" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E58" fromText="heparin" id="Sectime25" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E60" fromText="treatment" id="Sectime26" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E59" fromText="the pulmonary emboli" id="Sectime27" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E62" fromText="the Intensive Care Unit" id="Sectime28" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E63" fromText="noted" id="Sectime29" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E64" fromText="increasing abdominal distention" id="Sectime30" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E65" fromText="an abdominal ultrasound" id="Sectime31" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E66" fromText="paracentesis" id="Sectime32" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E67" fromText="fluid" id="Sectime33" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E68" fromText="removed" id="Sectime34" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E69" fromText="transferred" id="Sectime35" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E70" fromText="the O-CMED CSRU" id="Sectime36" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E71" fromText="persistent gastric secretions" id="Sectime37" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E1" fromText="presented" id="Sectime1" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E72" fromText="an nasogastric tube" id="Sectime38" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E73" fromText="decompression" id="Sectime39" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E74" fromText="noted" id="Sectime40" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E75" fromText="a functional ileus" id="Sectime41" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E76" fromText="Octreotide" id="Sectime42" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E2" fromText="abdominal pain" id="Sectime2" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E77" fromText="the gastric secretions" id="Sectime43" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E78" fromText="respiratory status declined further" id="Sectime44" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E79" fromText="noted" id="Sectime45" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E80" fromText="an increasing left-sided pleural effusion" id="Sectime46" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E3" fromText="bloating" id="Sectime3" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E81" fromText="A thoracentesis" id="Sectime47" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E82" fromText="removal" id="Sectime48" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E83" fromText="fluid" id="Sectime49" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E84" fromText="A paracentesis" id="Sectime50" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E85" fromText="removal" id="Sectime51" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E86" fromText="fluid" id="Sectime52" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E4" fromText="found" id="Sectime4" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E87" fromText="decline" id="Sectime53" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E88" fromText="The family decided" id="Sectime54" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E89" fromText="comfort measures" id="Sectime55" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E90" fromText="Morphine" id="Sectime56" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E91" fromText="patient 's comfort" id="Sectime57" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E92" fromText="expired" id="Sectime58" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E5" fromText="a large omental mass" id="Sectime5" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E6" fromText="Biopsy" id="Sectime6" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E8" fromText="revealed" id="Sectime7" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E9" fromText="adenocarcinoma" id="Sectime8" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E10" fromText="Histochemical stains" id="Sectime9" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E11" fromText="hepatobiliary origin" id="Sectime10" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E12" fromText="Endoscopies" id="Sectime11" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E13" fromText="an extrinsic mass present on the stomach" id="Sectime12" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E14" fromText="presents" id="Sectime13" toID="T0" toText="2012-04-30" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="increased abdominal pain" id="Sectime14" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E16" fromText="poor oral intake" id="Sectime15" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E17" fromText="generalized weakness" id="Sectime16" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E18" fromText="presentation" id="Sectime17" toID="T0" toText="2012-04-30" type="OVERLAP"/>
+<TLINK fromID="E95" fromText="denied" id="Sectime18" toID="T0" toText="2012-04-30" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="chest pain" id="Sectime19" toID="T0" toText="2012-04-30" type="BEFORE"/>
+<TLINK fromID="E20" fromText="shortness of breath" id="Sectime20" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E21" fromText="cough" id="Sectime21" toID="T0" toText="2012-04-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="admitted" id="Sectime59" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E24" fromText="the O-CMED" id="Sectime60" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E25" fromText="a patient-controlled analgesia" id="Sectime61" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E26" fromText="pain control" id="Sectime62" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E27" fromText="intravenous fluids" id="Sectime63" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E28" fromText="oral diet" id="Sectime64" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E29" fromText="complained" id="Sectime65" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E30" fromText="increased vomiting" id="Sectime66" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E31" fromText="complained" id="Sectime67" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E32" fromText="increased shortness of breath" id="Sectime68" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<TLINK fromID="E33" fromText="difficulty catching his breath" id="Sectime69" toID="T1" toText="2012-05-14" type="BEFORE"/>
+<SECTIME dvalue="2012-04-30" end="28" id="S0" start="18" text="2012-04-30" type="ADMISSION"/>
+<SECTIME dvalue="2012-05-14" end="56" id="S1" start="46" text="2012-05-14" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+10/25/1997
+Discharge Date :
+11/03/1997
+HISTORY OF PRESENT ILLNESS :
+The patient is a 67-year-old woman with occasional abdominal pain in the right lower quadrant and left lower quadrant .
+She has not complained of any fever , shaking , or chills .
+No nausea or vomiting , no change in her bowel movements .
+She has had attacks treated with antibiotics in the past notably in 12/96 and 08/97 .
+She has had a diagnosis of diverticulitis flairs and baseline diverticulosis flairing in 09/96 .
+Also , three years prior in 1993 , she had an attack of diverticulitis .
+She has been worked up with barium enema in 09/97 which showed multiple diverticula throughout the colon , but mostly in the sigmoid .
+At this time , there was diverticulosis with no acute diverticulitis .
+There was also no obstruction .
+The patient is also status post aortic valve replacement in 1996 , and presented for heparinization prior to her elective valve surgery .
+HOSPITAL COURSE :
+The patient was admitted and begun on cefotetan and Flagyl , as well as heparin .
+Her INR dropped to 1.6 prior to surgery , and her PTT was in the mid 80s prior to surgery .
+She was admitted and placed on a bowel prep two days before surgery and was taken to the Operating Room on hospital day # 3 , 10/28/97 .
+At that time , she underwent sigmoid colectomy and ventral hernia repair . ( A full account of this operation can be found in the Operative Note ) .
+She tolerated this procedure without complications initially and was taken to the Recovery Room in stable condition .
+Postoperatively , she had her heparin restarted , and had a PTT rising to 142.8 and then down to 92 .
+Her primary postoperative development was the passage of some blood clots and blood per rectum on postoperative day # 2 .
+She continued to pass blood per rectum and was transfused with one unit of packed red blood cells .
+Her preoperative hematocrit was 41 and her hematocrit dropped to 30.4 on postoperative day # 2 .
+This was a drop from an immediate postoperative hematocrit of 35.4 .
+Upon receiving the one unit of red blood cells , her hematocrit returned to 33 , and in the two days subsequent to the transfusion , returned to 34 .
+Otherwise , her postoperative course was uneventful with gradual resolution of the passage of blood per rectum .
+Her heparin was discontinued when it was noted that she was bleeding per rectum and her PTT drifted to a normal range of 35 by postoperative day # 3 .
+On postoperative day # 1 , the patient was restarted on 2 mg of Coumadin .
+However , due to the episode of bleeding on postoperative day # 2 , the Coumadin was held for two consecutive days , and then restarted on postoperative day # 4 .
+At this time , she is given 3 mg and was gradually increased to her regular regimen of 4 mg alternating with 3 mg.
+The patient &amp;apos;s INR had dropped to 1.7 at the time of operation , and remained in this range initially , but began to rise to 2.0 with her Coumadin dosing .
+At the time of discharge , it was 1.9 , for which she received 4 mg.
+On the next day , it was 1.6 and she returned to a normal dosing of 4 mg followed by outpatient draws to determine the further Coumadin dosing .
+This was postoperative day # 6 , at which time she is ready for discharge .
+The rest of her hospital course was unremarkable , with perioperative ampicillin , gentamicin and Flagyl discontinued on postoperative day # 1 .
+She had some initial nausea but had no emesis .
+Her nasogastric tube was discontinued on postoperative day # 1 , and she tolerated a regular diet by postoperative day # 3 .
+She had flatus and regular bowel movements by postoperative day # 5 .
+She also complained of some slight dizziness upon getting up .
+For this reason , her normal Lopressor and Norvasc were held .
+It was felt that this was re-equalibration after being sedentary and mostly in bed following the operation .
+She had some slight headaches which resolved with Tylenol , and the dizziness resolved as well .
+She was ready for discharge on postoperative day # 6 .
+Her wound remained benign and was healing nicely at the time of discharge .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="1947-11-07 07:12" lowerbound-start="1947-11-07 07:11" modality="FACTUAL" most-likely-end="1997-10-25 12:35" most-likely-start="1997-10-25 12:30" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="2097-10-01 06:49" upperbound-start="2097-10-01 05:48"/>
+<EVENT end="1022" id="E74" lowerbound-end="1997-10-27 00:15" lowerbound-start="1997-10-25 00:15" modality="FACTUAL" most-likely-end="1997-10-28 00:15" most-likely-start="1997-10-25 12:15" polarity="POS" start="1013" temporally-annotated="YES" text="cefotetan" type="TREATMENT" upperbound-end="1997-10-30 00:15" upperbound-start="1997-10-27 00:15"/>
+<EVENT end="1033" id="E11" lowerbound-end="1997-10-27 00:15" lowerbound-start="1997-10-25 00:15" modality="FACTUAL" most-likely-end="1997-10-28 00:15" most-likely-start="1997-10-25 12:15" polarity="POS" start="1027" temporally-annotated="YES" text="Flagyl" type="TREATMENT" upperbound-end="1997-10-30 00:15" upperbound-start="1997-10-27 00:15"/>
+<EVENT end="1054" id="E12" lowerbound-end="1997-10-26 12:15" lowerbound-start="1997-10-25 00:15" modality="FACTUAL" most-likely-end="1997-10-27 12:15" most-likely-start="1997-10-25 12:15" polarity="POS" start="1047" temporally-annotated="YES" text="heparin" type="TREATMENT" upperbound-end="1997-10-29 12:15" upperbound-start="1997-10-27 00:15"/>
+<EVENT end="1064" id="E13" lowerbound-end="1997-10-27 01:00" lowerbound-start="1997-10-26 01:00" modality="FACTUAL" most-likely-end="1997-10-31 01:00" most-likely-start="1997-10-26 13:00" polarity="POS" start="1057" temporally-annotated="YES" text="Her INR" type="TEST" upperbound-end="1997-11-05 01:00" upperbound-start="1997-10-28 01:00"/>
+<EVENT end="1096" id="E14" modality="FACTUAL" polarity="POS" start="1089" text="surgery" type="TREATMENT"/>
+<EVENT end="1096" id="E16" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1089" temporally-annotated="YES" text="surgery" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="1110" id="E15" lowerbound-end="1997-10-26 23:22" lowerbound-start="1997-10-26 11:21" modality="FACTUAL" most-likely-end="1997-10-27 13:05" most-likely-start="1997-10-27 12:00" polarity="POS" start="1103" temporally-annotated="YES" text="her PTT" type="TEST" upperbound-end="1997-10-29 03:08" upperbound-start="1997-10-29 02:37"/>
+<EVENT end="1146" id="E75" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1139" temporally-annotated="YES" text="surgery" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="1165" id="E76" lowerbound-end="1947-11-07 07:12" lowerbound-start="1947-11-07 07:11" modality="FACTUAL" most-likely-end="1997-10-25 12:35" most-likely-start="1997-10-25 12:30" polarity="POS" start="1157" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="2097-10-01 06:49" upperbound-start="2097-10-01 05:48"/>
+<EVENT end="1192" id="E17" lowerbound-end="1997-10-26 18:00" lowerbound-start="1997-10-26 00:00" modality="FACTUAL" most-likely-end="1997-10-27 14:00" most-likely-start="1997-10-26 12:30" polarity="POS" start="1180" temporally-annotated="YES" text="a bowel prep" type="TREATMENT" upperbound-end="1997-10-29 19:00" upperbound-start="1997-10-28 01:00"/>
+<EVENT end="1216" id="E18" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1209" temporally-annotated="YES" text="surgery" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="1252" id="E54" lowerbound-end="1997-10-28 00:15" lowerbound-start="1997-10-27 12:14" modality="FACTUAL" most-likely-end="1997-10-28 13:50" most-likely-start="1997-10-28 12:15" polarity="POS" start="1234" temporally-annotated="YES" text="the Operating Room" type="CLINICAL_DEPT" upperbound-end="1997-10-30 03:45" upperbound-start="1997-10-30 03:14"/>
+<EVENT end="1332" id="E19" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1315" temporally-annotated="YES" text="sigmoid colectomy" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="1358" id="E20" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1337" temporally-annotated="YES" text="ventral hernia repair" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="1377" id="E77" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1363" temporally-annotated="YES" text="A full account" type="EVIDENTIAL" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="151" id="E62" lowerbound-end="1997-06-22 18:39" lowerbound-start="1995-01-24 03:52" modality="FACTUAL" most-likely-end="1997-10-27 00:30" most-likely-start="1995-08-01 11:00" polarity="POS" start="137" temporally-annotated="YES" text="abdominal pain" type="PROBLEM" upperbound-end="1999-01-31 18:21" upperbound-start="1997-02-05 18:08"/>
+<EVENT end="1395" id="E21" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1381" temporally-annotated="YES" text="this operation" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="1430" id="E78" lowerbound-end="1997-10-28 01:00" lowerbound-start="1997-10-27 00:59" modality="FACTUAL" most-likely-end="1997-10-28 16:00" most-likely-start="1997-10-28 13:00" polarity="POS" start="1412" temporally-annotated="YES" text="the Operative Note" type="EVIDENTIAL" upperbound-end="1997-10-30 07:00" upperbound-start="1997-10-30 06:59"/>
+<EVENT end="1463" id="E22" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="1449" temporally-annotated="YES" text="this procedure" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="1485" id="E23" lowerbound-end="1997-10-28 00:31" lowerbound-start="1997-10-28 00:30" modality="FACTUAL" most-likely-end="1997-10-28 18:38" most-likely-start="1997-10-28 14:00" polarity="NEG" start="1472" temporally-annotated="YES" text="complications" type="PROBLEM" upperbound-end="1997-11-03 03:31" upperbound-start="1997-10-30 03:30"/>
+<EVENT end="1509" id="E56" lowerbound-end="1997-10-28 02:24" lowerbound-start="1997-10-28 02:23" modality="FACTUAL" most-likely-end="1997-10-28 09:44" most-likely-start="1997-10-28 09:38" polarity="POS" start="1504" temporally-annotated="YES" text="taken" type="OCCURRENCE" upperbound-end="1997-10-29 17:54" upperbound-start="1997-10-29 16:53"/>
+<EVENT end="1530" id="E57" lowerbound-end="1997-10-28 02:24" lowerbound-start="1997-10-28 02:23" modality="FACTUAL" most-likely-end="1997-10-28 21:43" most-likely-start="1997-10-28 09:38" polarity="POS" start="1513" temporally-annotated="YES" text="the Recovery Room" type="CLINICAL_DEPT" upperbound-end="1997-11-02 05:24" upperbound-start="1997-10-29 16:53"/>
+<EVENT end="1550" id="E79" lowerbound-end="1997-10-28 02:24" lowerbound-start="1997-10-28 02:23" modality="FACTUAL" most-likely-end="1997-10-28 11:13" most-likely-start="1997-10-28 09:38" polarity="POS" start="1534" temporally-annotated="YES" text="stable condition" type="OCCURRENCE" upperbound-end="1997-10-30 05:24" upperbound-start="1997-10-29 16:53"/>
+<EVENT end="1590" id="E24" lowerbound-end="1997-10-31 01:34" lowerbound-start="1997-10-25 19:24" modality="FACTUAL" most-likely-end="1997-10-31 20:13" most-likely-start="1997-10-29 03:43" polarity="POS" start="1579" temporally-annotated="YES" text="her heparin" type="TREATMENT" upperbound-end="1997-11-02 14:52" upperbound-start="1997-11-05 12:01"/>
+<EVENT end="1616" id="E25" lowerbound-end="1997-10-27 21:03" lowerbound-start="1997-10-28 01:49" modality="FACTUAL" most-likely-end="1997-10-31 02:13" most-likely-start="1997-10-28 15:43" polarity="POS" start="1611" temporally-annotated="YES" text="a PTT" type="TEST" upperbound-end="1997-11-07 07:22" upperbound-start="1997-10-30 05:36"/>
+<EVENT end="1728" id="E26" lowerbound-end="1997-10-30 02:15" lowerbound-start="1997-10-29 13:47" modality="FACTUAL" most-likely-end="1997-11-01 00:30" most-likely-start="1997-10-30 11:00" polarity="POS" start="1697" temporally-annotated="YES" text="the passage of some blood clots" type="PROBLEM" upperbound-end="1997-11-04 10:46" upperbound-start="1997-10-31 22:18"/>
+<EVENT end="1749" id="E80" lowerbound-end="1997-10-30 02:15" lowerbound-start="1997-10-26 14:14" modality="FACTUAL" most-likely-end="1997-11-01 00:30" most-likely-start="1997-10-29 12:30" polarity="POS" start="1733" temporally-annotated="YES" text="blood per rectum" type="PROBLEM" upperbound-end="1997-11-04 10:46" upperbound-start="1997-10-31 22:45"/>
+<EVENT end="1815" id="E81" lowerbound-end="1997-10-28 15:27" lowerbound-start="1997-10-29 00:52" modality="FACTUAL" most-likely-end="1997-11-01 12:30" most-likely-start="1997-10-29 12:30" polarity="POS" start="1799" temporally-annotated="YES" text="blood per rectum" type="PROBLEM" upperbound-end="1997-11-09 21:34" upperbound-start="1997-10-31 00:08"/>
+<EVENT end="1834" id="E58" lowerbound-end="1997-10-30 00:15" lowerbound-start="1997-10-30 00:00" modality="FACTUAL" most-likely-end="1997-10-30 13:52" most-likely-start="1997-10-30 12:30" polarity="POS" start="1824" temporally-annotated="YES" text="transfused" type="TREATMENT" upperbound-end="1997-11-01 13:45" upperbound-start="1997-11-01 01:00"/>
+<EVENT end="1874" id="E27" lowerbound-end="1997-10-30 00:15" lowerbound-start="1997-10-30 00:00" modality="FACTUAL" most-likely-end="1997-10-30 13:52" most-likely-start="1997-10-30 12:30" polarity="POS" start="1840" temporally-annotated="YES" text="one unit of packed red blood cells" type="TREATMENT" upperbound-end="1997-11-01 13:45" upperbound-start="1997-11-01 01:00"/>
+<EVENT end="1904" id="E28" lowerbound-end="1997-10-27 22:37" lowerbound-start="1997-10-27 10:36" modality="FACTUAL" most-likely-end="1997-10-28 12:20" most-likely-start="1997-10-28 11:15" polarity="POS" start="1877" temporally-annotated="YES" text="Her preoperative hematocrit" type="TEST" upperbound-end="1997-10-30 02:23" upperbound-start="1997-10-30 01:52"/>
+<EVENT end="1930" id="E29" lowerbound-end="1997-10-29 23:46" lowerbound-start="1997-10-29 23:45" modality="FACTUAL" most-likely-end="1997-10-30 13:20" most-likely-start="1997-10-30 12:15" polarity="POS" start="1916" temporally-annotated="YES" text="her hematocrit" type="TEST" upperbound-end="1997-11-01 13:16" upperbound-start="1997-11-01 00:45"/>
+<EVENT end="1938" id="E82" lowerbound-end="1997-10-29 23:46" lowerbound-start="1997-10-29 23:45" modality="FACTUAL" most-likely-end="1997-10-30 13:20" most-likely-start="1997-10-30 12:15" polarity="POS" start="1931" temporally-annotated="YES" text="dropped" type="TEST" upperbound-end="1997-11-01 13:16" upperbound-start="1997-11-01 00:45"/>
+<EVENT end="1989" id="E83" lowerbound-end="1997-10-28 02:24" lowerbound-start="1997-10-28 02:23" modality="FACTUAL" most-likely-end="1997-10-28 09:48" most-likely-start="1997-10-28 09:38" polarity="POS" start="1983" temporally-annotated="YES" text="a drop" type="TEST" upperbound-end="1997-10-29 17:54" upperbound-start="1997-10-29 16:53"/>
+<EVENT end="2032" id="E30" lowerbound-end="1997-10-28 02:24" lowerbound-start="1997-10-28 02:23" modality="FACTUAL" most-likely-end="1997-10-28 09:48" most-likely-start="1997-10-28 09:38" polarity="POS" start="1995" temporally-annotated="YES" text="an immediate postoperative hematocrit" type="TEST" upperbound-end="1997-10-29 17:54" upperbound-start="1997-10-29 16:53"/>
+<EVENT end="2089" id="E31" lowerbound-end="1997-10-29 01:12" lowerbound-start="1997-10-29 01:11" modality="FACTUAL" most-likely-end="1997-10-29 09:10" most-likely-start="1997-10-29 08:05" polarity="POS" start="2058" temporally-annotated="YES" text="the one unit of red blood cells" type="TREATMENT" upperbound-end="1997-10-31 03:30" upperbound-start="1997-10-30 14:59"/>
+<EVENT end="2106" id="E32" lowerbound-end="1997-10-29 03:27" lowerbound-start="1997-10-29 02:54" modality="FACTUAL" most-likely-end="1997-10-29 15:15" most-likely-start="1997-10-29 09:10" polarity="POS" start="2092" temporally-annotated="YES" text="her hematocrit" type="TEST" upperbound-end="1997-10-31 04:29" upperbound-start="1997-10-30 15:26"/>
+<EVENT end="2115" id="E84" lowerbound-end="1997-10-29 03:27" lowerbound-start="1997-10-29 02:54" modality="FACTUAL" most-likely-end="1997-10-29 15:15" most-likely-start="1997-10-29 09:10" polarity="POS" start="2107" temporally-annotated="YES" text="returned" type="TEST" upperbound-end="1997-10-31 04:29" upperbound-start="1997-10-30 15:26"/>
+<EVENT end="2173" id="E33" lowerbound-end="1997-10-30 00:15" lowerbound-start="1997-10-30 00:00" modality="FACTUAL" most-likely-end="1997-10-30 13:52" most-likely-start="1997-10-30 12:30" polarity="POS" start="2158" temporally-annotated="YES" text="the transfusion" type="TREATMENT" upperbound-end="1997-11-01 13:45" upperbound-start="1997-11-01 01:00"/>
+<EVENT end="2184" id="E85" lowerbound-end="1997-10-30 16:20" lowerbound-start="1997-10-29 22:20" modality="FACTUAL" most-likely-end="1997-11-02 00:57" most-likely-start="1997-11-01 00:52" polarity="POS" start="2176" temporally-annotated="YES" text="returned" type="TEST" upperbound-end="1997-11-08 09:55" upperbound-start="1997-11-07 03:25"/>
+<EVENT end="228" id="E64" lowerbound-end="1947-07-04 13:38" lowerbound-start="1947-07-04 13:02" modality="FACTUAL" most-likely-end="1997-10-25 11:15" most-likely-start="1997-10-10 11:00" polarity="NEG" start="218" temporally-annotated="YES" text="complained" type="EVIDENTIAL" upperbound-end="2099-01-04 08:53" upperbound-start="2098-07-05 20:47"/>
+<EVENT end="2229" id="E86" lowerbound-end="1997-10-31 15:07" lowerbound-start="1997-10-27 20:06" modality="FACTUAL" most-likely-end="1997-11-03 00:30" most-likely-start="1997-10-28 15:38" polarity="POS" start="2205" temporally-annotated="YES" text="her postoperative course" type="OCCURRENCE" upperbound-end="1997-11-09 09:53" upperbound-start="1997-11-02 11:09"/>
+<EVENT end="2303" id="E87" lowerbound-end="1997-10-28 15:27" lowerbound-start="1997-10-29 00:52" modality="FACTUAL" most-likely-end="1997-11-01 12:30" most-likely-start="1997-10-29 12:30" polarity="POS" start="2287" temporally-annotated="YES" text="blood per rectum" type="PROBLEM" upperbound-end="1997-11-09 21:34" upperbound-start="1997-10-31 00:08"/>
+<EVENT end="2317" id="E88" lowerbound-end="1997-10-31 01:34" lowerbound-start="1997-10-25 19:24" modality="FACTUAL" most-likely-end="1997-10-31 20:13" most-likely-start="1997-10-29 03:43" polarity="POS" start="2306" temporally-annotated="YES" text="Her heparin" type="TREATMENT" upperbound-end="1997-11-02 14:52" upperbound-start="1997-11-05 12:01"/>
+<EVENT end="2352" id="E59" lowerbound-end="1947-11-12 21:20" lowerbound-start="1947-11-12 21:19" modality="FACTUAL" most-likely-end="1997-10-30 23:06" most-likely-start="1997-10-30 23:00" polarity="POS" start="2347" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-end="2097-10-06 13:42" upperbound-start="2097-10-06 12:41"/>
+<EVENT end="241" id="E66" lowerbound-end="1947-07-04 13:21" lowerbound-start="1947-06-30 17:20" modality="FACTUAL" most-likely-end="1997-10-25 11:00" most-likely-start="1997-10-08 23:00" polarity="NEG" start="236" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-end="2099-01-04 08:40" upperbound-start="2098-07-05 12:39"/>
+<EVENT end="2385" id="E34" lowerbound-end="1947-11-09 21:12" lowerbound-start="1947-11-06 09:11" modality="FACTUAL" most-likely-end="1997-10-29 12:30" most-likely-start="1997-10-27 00:30" polarity="POS" start="2366" temporally-annotated="YES" text="bleeding per rectum" type="PROBLEM" upperbound-end="2097-10-07 03:49" upperbound-start="2097-10-03 15:48"/>
+<EVENT end="2397" id="E35" lowerbound-end="1997-10-31 02:01" lowerbound-start="1997-10-31 02:00" modality="FACTUAL" most-likely-end="1997-10-31 13:35" most-likely-start="1997-10-31 12:30" polarity="POS" start="2390" temporally-annotated="YES" text="her PTT" type="TEST" upperbound-end="1997-11-02 11:31" upperbound-start="1997-11-01 23:00"/>
+<EVENT end="2405" id="E89" lowerbound-end="1997-10-28 16:09" lowerbound-start="1997-10-28 18:08" modality="FACTUAL" most-likely-end="1997-10-31 12:35" most-likely-start="1997-10-30 08:00" polarity="POS" start="2398" temporally-annotated="YES" text="drifted" type="TEST" upperbound-end="1997-11-07 09:22" upperbound-start="1997-11-04 21:52"/>
+<EVENT end="251" id="E67" lowerbound-end="1947-07-04 13:21" lowerbound-start="1947-06-30 17:20" modality="FACTUAL" most-likely-end="1997-10-25 11:00" most-likely-start="1997-10-08 23:00" polarity="NEG" start="244" temporally-annotated="YES" text="shaking" type="PROBLEM" upperbound-end="2099-01-04 08:40" upperbound-start="2098-07-05 12:39"/>
+<EVENT end="2529" id="E36" lowerbound-end="1997-10-29 08:56" lowerbound-start="1997-10-29 00:56" modality="FACTUAL" most-likely-end="1997-10-30 08:00" most-likely-start="1997-10-29 12:00" polarity="POS" start="2521" temporally-annotated="YES" text="Coumadin" type="TREATMENT" upperbound-end="1997-11-01 07:03" upperbound-start="1997-10-30 23:03"/>
+<EVENT end="263" id="E68" lowerbound-end="1947-07-04 13:21" lowerbound-start="1947-06-30 17:20" modality="FACTUAL" most-likely-end="1997-10-25 11:00" most-likely-start="1997-10-08 23:00" polarity="NEG" start="257" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-end="2099-01-04 08:40" upperbound-start="2098-07-05 12:39"/>
+<EVENT end="2572" id="E37" lowerbound-end="1947-11-09 21:12" lowerbound-start="1947-11-06 09:11" modality="FACTUAL" most-likely-end="1997-10-29 12:30" most-likely-start="1997-10-27 00:30" polarity="POS" start="2564" temporally-annotated="YES" text="bleeding" type="PROBLEM" upperbound-end="2097-10-07 03:49" upperbound-start="2097-10-03 15:48"/>
+<EVENT end="2612" id="E90" lowerbound-end="1997-11-01 15:56" lowerbound-start="1997-10-31 00:56" modality="FACTUAL" most-likely-end="1997-12-17 12:00" most-likely-start="1997-10-31 12:00" polarity="POS" start="2600" temporally-annotated="YES" text="the Coumadin" type="TREATMENT" upperbound-end="1998-05-05 14:03" upperbound-start="1997-11-01 23:03"/>
+<EVENT end="275" id="E69" lowerbound-end="1947-07-04 13:21" lowerbound-start="1947-06-30 17:20" modality="FACTUAL" most-likely-end="1997-10-25 11:00" most-likely-start="1997-10-08 23:00" polarity="NEG" start="269" temporally-annotated="YES" text="nausea" type="PROBLEM" upperbound-end="2099-01-04 08:40" upperbound-start="2098-07-05 12:39"/>
+<EVENT end="2755" id="E91" lowerbound-end="1997-11-02 21:56" lowerbound-start="1997-11-01 00:56" modality="FACTUAL" most-likely-end="1997-12-18 12:00" most-likely-start="1997-11-01 12:00" polarity="POS" start="2746" temporally-annotated="YES" text="increased" type="OCCURRENCE" upperbound-end="1998-05-06 08:03" upperbound-start="1997-11-02 23:03"/>
+<EVENT end="2778" id="E38" lowerbound-end="1997-11-02 21:56" lowerbound-start="1997-11-01 00:56" modality="FACTUAL" most-likely-end="1997-12-18 12:00" most-likely-start="1997-11-01 12:00" polarity="POS" start="2759" temporally-annotated="YES" text="her regular regimen" type="TREATMENT" upperbound-end="1998-05-06 08:03" upperbound-start="1997-11-02 23:03"/>
+<EVENT end="287" id="E70" lowerbound-end="1947-07-04 13:21" lowerbound-start="1947-06-30 17:20" modality="FACTUAL" most-likely-end="1997-10-25 11:00" most-likely-start="1997-10-08 23:00" polarity="NEG" start="279" temporally-annotated="YES" text="vomiting" type="PROBLEM" upperbound-end="2099-01-04 08:40" upperbound-start="2098-07-05 12:39"/>
+<EVENT end="2833" id="E39" lowerbound-end="1997-10-27 01:00" lowerbound-start="1997-10-26 01:00" modality="FACTUAL" most-likely-end="1997-10-31 01:00" most-likely-start="1997-10-26 13:00" polarity="POS" start="2810" temporally-annotated="YES" text="The patient 's INR" type="TEST" upperbound-end="1997-11-05 01:00" upperbound-start="1997-10-28 01:00"/>
+<EVENT end="2845" id="E92" lowerbound-end="1997-10-27 01:00" lowerbound-start="1997-10-26 01:00" modality="FACTUAL" most-likely-end="1997-10-31 01:00" most-likely-start="1997-10-26 13:00" polarity="POS" start="2838" temporally-annotated="YES" text="dropped" type="TEST" upperbound-end="1997-11-05 01:00" upperbound-start="1997-10-28 01:00"/>
+<EVENT end="2877" id="E40" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="2868" temporally-annotated="YES" text="operation" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="38" id="E60" lowerbound-end="1997-11-03 02:00" lowerbound-start="1997-11-03 01:29" modality="FACTUAL" most-likely-end="1997-11-03 12:30" most-likely-start="1997-11-03 12:27" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="1997-11-04 23:30" upperbound-start="1997-11-04 22:59"/>
+<EVENT end="322" id="E71" lowerbound-end="1947-07-04 13:21" lowerbound-start="1947-06-30 17:20" modality="FACTUAL" most-likely-end="1997-10-25 11:00" most-likely-start="1997-10-08 23:00" polarity="NEG" start="293" temporally-annotated="YES" text="change in her bowel movements" type="PROBLEM" upperbound-end="2099-01-04 08:40" upperbound-start="2098-07-05 12:39"/>
+<EVENT end="2936" id="E93" lowerbound-end="1997-11-02 12:14" lowerbound-start="1997-11-01 00:00" modality="FACTUAL" most-likely-end="1997-11-03 06:30" most-likely-start="1997-11-01 12:30" polarity="POS" start="2923" temporally-annotated="YES" text="began to rise" type="TEST" upperbound-end="1997-11-05 00:45" upperbound-start="1997-11-03 01:00"/>
+<EVENT end="2968" id="E41" lowerbound-end="1997-11-17 06:18" lowerbound-start="1997-11-01 00:42" modality="FACTUAL" most-likely-end="1998-06-18 00:00" most-likely-start="1997-11-01 12:00" polarity="POS" start="2949" temporally-annotated="YES" text="her Coumadin dosing" type="TREATMENT" upperbound-end="2048-05-07 16:54" upperbound-start="1997-11-02 23:18"/>
+<EVENT end="2995" id="E94" lowerbound-end="1997-11-03 02:14" lowerbound-start="1997-11-03 01:44" modality="FACTUAL" most-likely-end="1997-11-03 12:30" most-likely-start="1997-11-03 12:27" polarity="POS" start="2986" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1997-11-04 22:45" upperbound-start="1997-11-04 22:45"/>
+<EVENT end="3104" id="E95" lowerbound-end="1997-11-02 16:17" lowerbound-start="1997-11-01 19:53" modality="FACTUAL" most-likely-end="1997-12-18 11:00" most-likely-start="1997-11-02 10:30" polarity="POS" start="3089" temporally-annotated="YES" text="a normal dosing" type="TREATMENT" upperbound-end="1998-05-06 11:42" upperbound-start="1997-11-04 01:07"/>
+<EVENT end="3141" id="E96" lowerbound-end="1997-11-02 20:35" lowerbound-start="1997-11-02 20:40" modality="FACTUAL" most-likely-end="1997-11-03 11:30" most-likely-start="1997-11-03 10:57" polarity="POS" start="3125" temporally-annotated="YES" text="outpatient draws" type="TEST" upperbound-end="1997-11-05 02:24" upperbound-start="1997-11-05 00:48"/>
+<EVENT end="3182" id="E97" lowerbound-end="1997-11-17 18:18" lowerbound-start="1997-11-01 12:42" modality="FACTUAL" most-likely-end="1998-06-18 12:00" most-likely-start="1997-11-02 00:00" polarity="POS" start="3155" temporally-annotated="YES" text="the further Coumadin dosing" type="TREATMENT" upperbound-end="2048-05-08 04:54" upperbound-start="1997-11-03 11:18"/>
+<EVENT end="3258" id="E98" lowerbound-end="1997-11-03 02:14" lowerbound-start="1997-11-03 01:44" modality="FACTUAL" most-likely-end="1997-11-03 12:30" most-likely-start="1997-11-03 12:27" polarity="POS" start="3249" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1997-11-04 22:45" upperbound-start="1997-11-04 22:45"/>
+<EVENT end="3292" id="E99" lowerbound-end="1997-11-02 14:24" lowerbound-start="1997-10-25 00:00" modality="FACTUAL" most-likely-end="1997-11-03 12:00" most-likely-start="1997-10-25 12:00" polarity="POS" start="3273" temporally-annotated="YES" text="her hospital course" type="OCCURRENCE" upperbound-end="1997-11-05 14:24" upperbound-start="1997-10-27 00:00"/>
+<EVENT end="3341" id="E42" lowerbound-end="1997-10-28 00:22" lowerbound-start="1997-10-26 10:59" modality="FACTUAL" most-likely-end="1997-10-28 18:37" most-likely-start="1997-10-27 00:37" polarity="POS" start="3317" temporally-annotated="YES" text="perioperative ampicillin" type="TREATMENT" upperbound-end="1997-10-30 12:53" upperbound-start="1997-10-28 14:15"/>
+<EVENT end="3354" id="E43" lowerbound-end="1997-10-28 00:22" lowerbound-start="1997-10-26 10:59" modality="FACTUAL" most-likely-end="1997-10-28 18:37" most-likely-start="1997-10-27 00:37" polarity="POS" start="3344" temporally-annotated="YES" text="gentamicin" type="TREATMENT" upperbound-end="1997-10-30 12:53" upperbound-start="1997-10-28 14:15"/>
+<EVENT end="3365" id="E44" lowerbound-end="1997-10-28 00:22" lowerbound-start="1997-10-26 10:59" modality="FACTUAL" most-likely-end="1997-10-28 18:37" most-likely-start="1997-10-27 00:37" polarity="POS" start="3359" temporally-annotated="YES" text="Flagyl" type="TREATMENT" upperbound-end="1997-10-30 12:53" upperbound-start="1997-10-28 14:15"/>
+<EVENT end="344" id="E1" lowerbound-end="1996-09-28 15:49" lowerbound-start="1996-07-02 23:28" modality="FACTUAL" most-likely-end="1997-06-15 13:00" most-likely-start="1996-12-15 01:00" polarity="POS" start="337" temporally-annotated="YES" text="attacks" type="PROBLEM" upperbound-end="1999-03-02 10:11" upperbound-start="1998-05-29 02:32"/>
+<EVENT end="3433" id="E45" lowerbound-end="1997-10-28 03:40" lowerbound-start="1997-10-28 03:39" modality="FACTUAL" most-likely-end="1997-10-29 10:30" most-likely-start="1997-10-28 10:30" polarity="POS" start="3414" temporally-annotated="YES" text="some initial nausea" type="PROBLEM" upperbound-end="1997-11-05 17:22" upperbound-start="1997-10-29 17:21"/>
+<EVENT end="3433" id="E100" lowerbound-end="1997-10-28 03:40" lowerbound-start="1997-10-28 03:39" modality="FACTUAL" most-likely-end="1997-10-29 10:30" most-likely-start="1997-10-28 10:30" polarity="POS" start="3419" temporally-annotated="YES" text="initial nausea" type="OCCURRENCE" upperbound-end="1997-11-05 17:22" upperbound-start="1997-10-29 17:21"/>
+<EVENT end="3451" id="E46" lowerbound-end="1997-10-28 03:40" lowerbound-start="1997-10-28 03:39" modality="FACTUAL" most-likely-end="1997-10-29 10:30" most-likely-start="1997-10-28 10:30" polarity="NEG" start="3445" temporally-annotated="YES" text="emesis" type="PROBLEM" upperbound-end="1997-11-05 17:22" upperbound-start="1997-10-29 17:21"/>
+<EVENT end="3474" id="E47" lowerbound-end="1997-10-28 15:29" lowerbound-start="1997-10-28 13:28" modality="FACTUAL" most-likely-end="1997-10-29 10:13" most-likely-start="1997-10-29 02:08" polarity="POS" start="3454" temporally-annotated="YES" text="Her nasogastric tube" type="TREATMENT" upperbound-end="1997-10-31 05:18" upperbound-start="1997-10-30 14:47"/>
+<EVENT end="3551" id="E101" lowerbound-end="1997-10-30 08:07" lowerbound-start="1997-10-29 02:00" modality="FACTUAL" most-likely-end="1997-11-02 00:52" most-likely-start="1997-10-31 12:30" polarity="POS" start="3537" temporally-annotated="YES" text="a regular diet" type="OCCURRENCE" upperbound-end="1997-11-08 17:37" upperbound-start="1997-11-06 23:00"/>
+<EVENT end="369" id="E2" lowerbound-end="1996-09-28 15:49" lowerbound-start="1996-07-02 23:28" modality="FACTUAL" most-likely-end="1997-06-15 13:00" most-likely-start="1996-12-15 01:00" polarity="POS" start="358" temporally-annotated="YES" text="antibiotics" type="TREATMENT" upperbound-end="1999-03-02 10:11" upperbound-start="1998-05-29 02:32"/>
+<EVENT end="3593" id="E102" lowerbound-end="1997-10-30 15:43" lowerbound-start="1997-10-27 03:42" modality="FACTUAL" most-likely-end="1997-11-02 12:33" most-likely-start="1997-11-02 00:30" polarity="POS" start="3587" temporally-annotated="YES" text="flatus" type="OCCURRENCE" upperbound-end="1997-11-09 09:48" upperbound-start="1997-11-09 09:17"/>
+<EVENT end="3621" id="E103" lowerbound-end="1997-10-30 15:43" lowerbound-start="1997-10-27 03:42" modality="FACTUAL" most-likely-end="1997-11-02 12:38" most-likely-start="1997-11-02 00:30" polarity="POS" start="3598" temporally-annotated="YES" text="regular bowel movements" type="OCCURRENCE" upperbound-end="1997-11-09 09:48" upperbound-start="1997-11-09 09:17"/>
+<EVENT end="3668" id="E104" lowerbound-end="1997-10-30 12:41" lowerbound-start="1997-10-30 12:40" modality="FACTUAL" most-likely-end="1997-11-03 04:00" most-likely-start="1997-11-02 10:00" polarity="POS" start="3658" temporally-annotated="YES" text="complained" type="EVIDENTIAL" upperbound-end="1997-11-13 07:21" upperbound-start="1997-11-09 07:20"/>
+<EVENT end="3693" id="E105" lowerbound-end="1997-10-30 12:41" lowerbound-start="1997-10-30 12:40" modality="FACTUAL" most-likely-end="1997-11-03 04:00" most-likely-start="1997-11-02 10:00" polarity="POS" start="3684" temporally-annotated="YES" text="dizziness" type="PROBLEM" upperbound-end="1997-11-13 07:21" upperbound-start="1997-11-09 07:20"/>
+<EVENT end="3750" id="E106" lowerbound-end="1997-05-08 11:19" lowerbound-start="1946-12-17 11:19" modality="FACTUAL" most-likely-end="1997-10-29 10:00" most-likely-start="1992-02-28 10:00" polarity="POS" start="3730" temporally-annotated="YES" text="her normal Lopressor" type="TREATMENT" upperbound-end="1998-10-29 20:40" upperbound-start="1997-11-26 08:40"/>
+<EVENT end="3762" id="E107" lowerbound-end="1997-05-08 11:19" lowerbound-start="1946-12-17 11:19" modality="FACTUAL" most-likely-end="1997-10-29 10:00" most-likely-start="1992-02-28 10:00" polarity="POS" start="3755" temporally-annotated="YES" text="Norvasc" type="TREATMENT" upperbound-end="1998-10-29 20:40" upperbound-start="1997-11-26 08:40"/>
+<EVENT end="3817" id="E108" lowerbound-end="1997-10-30 12:41" lowerbound-start="1997-10-30 12:40" modality="FACTUAL" most-likely-end="1997-11-03 04:00" most-likely-start="1997-11-02 10:00" polarity="POS" start="3801" temporally-annotated="YES" text="re-equalibration" type="OCCURRENCE" upperbound-end="1997-11-13 07:21" upperbound-start="1997-11-09 07:20"/>
+<EVENT end="3839" id="E109" lowerbound-end="1997-10-28 16:48" lowerbound-start="1997-10-28 00:06" modality="FACTUAL" most-likely-end="1997-11-01 05:38" most-likely-start="1997-10-28 14:08" polarity="POS" start="3830" temporally-annotated="YES" text="sedentary" type="OCCURRENCE" upperbound-end="1997-11-08 18:27" upperbound-start="1997-10-30 04:10"/>
+<EVENT end="3857" id="E110" lowerbound-end="1997-10-28 16:48" lowerbound-start="1997-10-28 00:06" modality="FACTUAL" most-likely-end="1997-11-01 05:38" most-likely-start="1997-10-28 14:08" polarity="POS" start="3844" temporally-annotated="YES" text="mostly in bed" type="OCCURRENCE" upperbound-end="1997-11-08 18:27" upperbound-start="1997-10-30 04:10"/>
+<EVENT end="3881" id="E48" lowerbound-end="1997-10-28 00:30" lowerbound-start="1997-10-27 12:29" modality="FACTUAL" most-likely-end="1997-10-28 15:38" most-likely-start="1997-10-28 12:30" polarity="POS" start="3868" temporally-annotated="YES" text="the operation" type="TREATMENT" upperbound-end="1997-10-30 15:30" upperbound-start="1997-10-30 03:29"/>
+<EVENT end="3913" id="E49" lowerbound-end="1997-10-30 12:41" lowerbound-start="1997-10-30 12:40" modality="FACTUAL" most-likely-end="1997-11-03 04:00" most-likely-start="1997-11-02 10:00" polarity="POS" start="3892" temporally-annotated="YES" text="some slight headaches" type="PROBLEM" upperbound-end="1997-11-13 07:21" upperbound-start="1997-11-09 07:20"/>
+<EVENT end="3913" id="E111" lowerbound-end="1997-10-30 12:41" lowerbound-start="1997-10-30 12:40" modality="FACTUAL" most-likely-end="1997-11-03 04:00" most-likely-start="1997-11-02 10:00" polarity="POS" start="3904" temporally-annotated="YES" text="headaches" type="PROBLEM" upperbound-end="1997-11-13 07:21" upperbound-start="1997-11-09 07:20"/>
+<EVENT end="3941" id="E50" lowerbound-end="1997-10-30 12:41" lowerbound-start="1997-10-30 12:40" modality="FACTUAL" most-likely-end="1997-11-03 04:00" most-likely-start="1997-11-02 10:00" polarity="POS" start="3934" temporally-annotated="YES" text="Tylenol" type="TREATMENT" upperbound-end="1997-11-13 07:21" upperbound-start="1997-11-09 07:20"/>
+<EVENT end="3961" id="E51" lowerbound-end="1997-10-30 12:41" lowerbound-start="1997-10-30 12:40" modality="FACTUAL" most-likely-end="1997-11-03 04:00" most-likely-start="1997-11-02 10:00" polarity="POS" start="3948" temporally-annotated="YES" text="the dizziness" type="PROBLEM" upperbound-end="1997-11-13 07:21" upperbound-start="1997-11-09 07:20"/>
+<EVENT end="4008" id="E112" lowerbound-end="1997-11-03 02:14" lowerbound-start="1997-11-03 01:44" modality="FACTUAL" most-likely-end="1997-11-03 12:30" most-likely-start="1997-11-03 12:27" polarity="POS" start="3999" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1997-11-04 22:45" upperbound-start="1997-11-04 22:45"/>
+<EVENT end="4045" id="E113" lowerbound-end="1997-10-29 01:35" lowerbound-start="1997-10-31 01:29" modality="FACTUAL" most-likely-end="1997-11-03 12:00" most-likely-start="1997-10-31 13:25" polarity="POS" start="4036" temporally-annotated="YES" text="Her wound" type="PROBLEM" upperbound-end="1997-11-24 15:25" upperbound-start="1997-11-02 00:59"/>
+<EVENT end="4061" id="E114" lowerbound-end="1997-10-29 01:35" lowerbound-start="1997-10-31 01:29" modality="FACTUAL" most-likely-end="1997-11-03 12:00" most-likely-start="1997-10-31 13:25" polarity="POS" start="4055" temporally-annotated="YES" text="benign" type="OCCURRENCE" upperbound-end="1997-11-24 15:25" upperbound-start="1997-11-02 00:59"/>
+<EVENT end="4077" id="E115" lowerbound-end="1997-10-29 01:35" lowerbound-start="1997-10-31 01:29" modality="FACTUAL" most-likely-end="1997-11-03 12:00" most-likely-start="1997-10-31 13:25" polarity="POS" start="4070" temporally-annotated="YES" text="healing" type="OCCURRENCE" upperbound-end="1997-11-24 15:25" upperbound-start="1997-11-02 00:59"/>
+<EVENT end="4109" id="E116" lowerbound-end="1997-11-03 02:14" lowerbound-start="1997-11-03 01:44" modality="FACTUAL" most-likely-end="1997-11-03 12:30" most-likely-start="1997-11-03 12:27" polarity="POS" start="4100" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1997-11-04 22:45" upperbound-start="1997-11-04 22:45"/>
+<EVENT end="459" id="E3" lowerbound-end="1992-03-31 08:16" lowerbound-start="1991-11-06 12:36" modality="FACTUAL" most-likely-end="1997-04-09 17:00" most-likely-start="1996-08-23 17:00" polarity="POS" start="438" temporally-annotated="YES" text="diverticulitis flairs" type="PROBLEM" upperbound-end="2011-12-02 03:04" upperbound-start="2006-06-25 02:24"/>
+<EVENT end="496" id="E4" lowerbound-end="1992-03-31 08:16" lowerbound-start="1991-11-06 12:36" modality="FACTUAL" most-likely-end="1997-04-09 17:00" most-likely-start="1996-08-23 17:00" polarity="POS" start="464" temporally-annotated="YES" text="baseline diverticulosis flairing" type="PROBLEM" upperbound-end="2011-12-02 03:04" upperbound-start="2006-06-25 02:24"/>
+<EVENT end="578" id="E5" lowerbound-end="1993-01-08 17:05" lowerbound-start="1993-01-06 03:32" modality="FACTUAL" most-likely-end="1993-06-26 12:30" most-likely-start="1993-06-16 00:30" polarity="POS" start="551" temporally-annotated="YES" text="an attack of diverticulitis" type="PROBLEM" upperbound-end="1994-12-26 21:00" upperbound-start="1994-11-23 21:27"/>
+<EVENT end="621" id="E6" lowerbound-end="1997-08-31 19:35" lowerbound-start="1997-08-31 19:22" modality="FACTUAL" most-likely-end="1997-09-15 13:07" most-likely-start="1997-09-15 12:30" polarity="POS" start="609" temporally-annotated="YES" text="barium enema" type="TEST" upperbound-end="1997-10-30 16:50" upperbound-start="1997-10-30 15:37"/>
+<EVENT end="643" id="E61" lowerbound-end="1997-08-31 19:35" lowerbound-start="1997-08-31 19:22" modality="FACTUAL" most-likely-end="1997-09-15 13:07" most-likely-start="1997-09-15 12:30" polarity="POS" start="637" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1997-10-30 16:50" upperbound-start="1997-10-30 15:37"/>
+<EVENT end="664" id="E63" lowerbound-end="1997-09-29 10:25" lowerbound-start="1991-06-29 07:53" modality="FACTUAL" most-likely-end="1997-10-07 02:22" most-likely-start="1994-01-25 12:30" polarity="POS" start="644" temporally-annotated="YES" text="multiple diverticula" type="PROBLEM" upperbound-end="1997-10-30 11:19" upperbound-start="2001-09-06 22:06"/>
+<EVENT end="755" id="E65" lowerbound-end="1997-09-29 10:25" lowerbound-start="1991-06-29 07:53" modality="FACTUAL" most-likely-end="1997-10-07 02:22" most-likely-start="1994-01-25 12:30" polarity="NEG" start="741" temporally-annotated="YES" text="diverticulosis" type="PROBLEM" upperbound-end="1997-10-30 11:19" upperbound-start="2001-09-06 22:06"/>
+<EVENT end="784" id="E72" lowerbound-end="1997-08-31 19:48" lowerbound-start="1991-06-29 07:53" modality="FACTUAL" most-likely-end="1997-09-15 13:07" most-likely-start="1994-01-25 12:30" polarity="NEG" start="764" temporally-annotated="YES" text="acute diverticulitis" type="PROBLEM" upperbound-end="1997-10-30 16:26" upperbound-start="2001-09-06 22:06"/>
+<EVENT end="816" id="E73" lowerbound-end="1997-08-31 19:35" lowerbound-start="1997-08-31 19:22" modality="FACTUAL" most-likely-end="1997-09-15 13:07" most-likely-start="1997-09-15 12:30" polarity="NEG" start="805" temporally-annotated="YES" text="obstruction" type="PROBLEM" upperbound-end="1997-10-30 16:50" upperbound-start="1997-10-30 15:37"/>
+<EVENT end="875" id="E8" lowerbound-end="1994-01-30 03:08" lowerbound-start="1994-01-30 03:07" modality="FACTUAL" most-likely-end="1996-06-16 03:30" most-likely-start="1996-06-16 00:30" polarity="POS" start="851" temporally-annotated="YES" text="aortic valve replacement" type="TREATMENT" upperbound-end="2004-05-01 09:53" upperbound-start="2004-04-30 09:52"/>
+<EVENT end="899" id="E52" lowerbound-end="1994-01-29 03:08" lowerbound-start="1994-01-25 07:07" modality="FACTUAL" most-likely-end="1996-06-15 00:35" most-likely-start="1996-06-13 12:30" polarity="POS" start="890" temporally-annotated="YES" text="presented" type="OCCURRENCE" upperbound-end="2004-04-29 10:23" upperbound-start="2004-04-29 01:52"/>
+<EVENT end="918" id="E9" lowerbound-end="1994-01-29 03:08" lowerbound-start="1994-01-25 07:07" modality="FACTUAL" most-likely-end="1996-06-15 00:35" most-likely-start="1996-06-13 12:30" polarity="POS" start="904" temporally-annotated="YES" text="heparinization" type="TREATMENT" upperbound-end="2004-04-29 10:23" upperbound-start="2004-04-29 01:52"/>
+<EVENT end="954" id="E10" lowerbound-end="1994-01-30 03:08" lowerbound-start="1994-01-30 03:07" modality="FACTUAL" most-likely-end="1996-06-16 03:30" most-likely-start="1996-06-16 00:30" polarity="POS" start="928" temporally-annotated="YES" text="her elective valve surgery" type="TREATMENT" upperbound-end="2004-05-01 09:53" upperbound-start="2004-04-30 09:52"/>
+<EVENT end="999" id="E53" lowerbound-end="1947-11-07 07:12" lowerbound-start="1947-11-07 07:11" modality="FACTUAL" most-likely-end="1997-10-25 12:35" most-likely-start="1997-10-25 12:30" polarity="POS" start="991" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="2097-10-01 06:49" upperbound-start="2097-10-01 05:48"/>
+<TIMEX3 end="1208" id="T23" mod="NA" start="1193" text="two days before" type="DATE" val="1997-10-26"/>
+<TIMEX3 end="1272" id="T24" mod="NA" start="1256" text="hospital day # 3" type="DATE" val="1997-10-28"/>
+<TIMEX3 end="1283" id="T25" mod="NA" start="1275" text="10/28/97" type="DATE" val="1997-10-28"/>
+<TIMEX3 end="1298" id="T26" mod="NA" start="1289" text="that time" type="DATE" val="1997-10-28"/>
+<TIMEX3 end="1774" id="T5" mod="NA" start="1753" text="postoperative day # 2" type="DATE" val="1997-10-30"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="10/25/1997" type="DATE" val="1997-10-25"/>
+<TIMEX3 end="1971" id="T6" mod="NA" start="1950" text="postoperative day # 2" type="DATE" val="1997-10-30"/>
+<TIMEX3 end="2143" id="T27" mod="NA" start="2131" text="the two days" type="DURATION" val="P2D"/>
+<TIMEX3 end="2454" id="T7" mod="NA" start="2433" text="postoperative day # 3" type="DATE" val="1997-10-31"/>
+<TIMEX3 end="2481" id="T8" mod="NA" start="2460" text="postoperative day # 1" type="DATE" val="1997-10-29"/>
+<TIMEX3 end="2597" id="T9" mod="NA" start="2576" text="postoperative day # 2" type="DATE" val="1997-10-30"/>
+<TIMEX3 end="2646" id="T28" mod="NA" start="2626" text="two consecutive days" type="DURATION" val="P2D"/>
+<TIMEX3 end="2692" id="T29" mod="NA" start="2671" text="postoperative day # 4" type="DATE" val="1997-11-01"/>
+<TIMEX3 end="2707" id="T30" mod="NA" start="2698" text="this time" type="DATE" val="1997-11-01"/>
+<TIMEX3 end="2877" id="T31" mod="NA" start="2856" text="the time of operation" type="DATE" val="1997-10-28"/>
+<TIMEX3 end="2982" id="T32" mod="NA" start="2974" text="the time" type="DATE" val="1997-11-03"/>
+<TIMEX3 end="3055" id="T33" mod="NA" start="3043" text="the next day" type="DATE" val="1997-11-04"/>
+<TIMEX3 end="3215" id="T10" mod="NA" start="3194" text="postoperative day # 6" type="DATE" val="1997-11-03"/>
+<TIMEX3 end="3231" id="T34" mod="NA" start="3227" text="time" type="DATE" val="1997-11-03"/>
+<TIMEX3 end="3403" id="T11" mod="NA" start="3382" text="postoperative day # 1" type="DATE" val="1997-10-29"/>
+<TIMEX3 end="3516" id="T12" mod="NA" start="3495" text="postoperative day # 1" type="DATE" val="1997-10-29"/>
+<TIMEX3 end="3576" id="T14" mod="NA" start="3555" text="postoperative day # 3" type="DATE" val="1997-10-31"/>
+<TIMEX3 end="3646" id="T13" mod="NA" start="3625" text="postoperative day # 5" type="DATE" val="1997-11-02"/>
+<TIMEX3 end="398" id="T1" mod="NA" start="393" text="12/96" type="DATE" val="1996-12"/>
+<TIMEX3 end="4033" id="T15" mod="NA" start="4012" text="postoperative day # 6" type="DATE" val="1997-11-03"/>
+<TIMEX3 end="408" id="T2" mod="NA" start="403" text="08/97" type="DATE" val="1997-08"/>
+<TIMEX3 end="4096" id="T35" mod="NA" start="4088" text="the time" type="DATE" val="1997-11-03"/>
+<TIMEX3 end="56" id="T16" mod="NA" start="46" text="11/03/1997" type="DATE" val="1997-11-03"/>
+<TIMEX3 end="505" id="T3" mod="NA" start="500" text="09/96" type="DATE" val="1996-09"/>
+<TIMEX3 end="532" id="T18" mod="NA" start="515" text="three years prior" type="DATE" val="1993"/>
+<TIMEX3 end="540" id="T19" mod="NA" start="536" text="1993" type="DATE" val="1993"/>
+<TIMEX3 end="630" id="T4" mod="NA" start="625" text="09/97" type="DATE" val="1997-09"/>
+<TIMEX3 end="728" id="T20" mod="NA" start="719" text="this time" type="DATE" val="1997-10-25"/>
+<TIMEX3 end="883" id="T21" mod="NA" start="879" text="1996" type="DATE" val="1996"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T0" toText="10/25/1997" type="SIMULTANEOUS"/>
+<TLINK fromID="E9" fromText="heparinization" id="TL1" toID="E10" toText="her elective valve surgery" type="BEFORE"/>
+<TLINK fromID="E68" fromText="chills" id="TL10" toID="E69" toText="nausea" type="OVERLAP"/>
+<TLINK fromID="E90" fromText="the Coumadin" id="TL100" toID="E37" toText="bleeding" type="ENDED_BY"/>
+<TLINK fromID="E90" fromText="the Coumadin" id="TL101" toID="T28" toText="two consecutive days" type="DURING"/>
+<TLINK fromID="E90" fromText="the Coumadin" id="TL102" toID="T29" toText="postoperative day # 4" type="BEGUN_BY"/>
+<TLINK fromID="T30" fromText="this time" id="TL103" toID="T29" toText="postoperative day # 4" type="SIMULTANEOUS"/>
+<TLINK fromID="E91" fromText="increased" id="TL104" toID="T30" toText="this time" type="SIMULTANEOUS"/>
+<TLINK fromID="E38" fromText="her regular regimen" id="TL105" toID="E91" toText="increased" type="BEGUN_BY"/>
+<TLINK fromID="E39" fromText="The patient 's INR" id="TL106" toID="E92" toText="dropped" type="SIMULTANEOUS"/>
+<TLINK fromID="T31" fromText="the time of operation" id="TL107" toID="E21" toText="this operation" type="SIMULTANEOUS"/>
+<TLINK fromID="E92" fromText="dropped" id="TL108" toID="T31" toText="the time of operation" type="SIMULTANEOUS"/>
+<TLINK fromID="E41" fromText="her Coumadin dosing" id="TL109" toID="E90" toText="the Coumadin" type="SIMULTANEOUS"/>
+<TLINK fromID="E71" fromText="change in her bowel movements" id="TL11" toID="E70" toText="vomiting" type="OVERLAP"/>
+<TLINK fromID="E93" fromText="began to rise" id="TL110" toID="E41" toText="her Coumadin dosing" type="BEGUN_BY"/>
+<TLINK fromID="T32" fromText="the time" id="TL111" toID="E94" toText="discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E94" fromText="discharge" id="TL112" toID="E60" toText="Discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="T33" fromText="the next day" id="TL113" toID="E94" toText="discharge" type="AFTER"/>
+<TLINK fromID="E95" fromText="a normal dosing" id="TL114" toID="T33" toText="the next day" type="BEGUN_BY"/>
+<TLINK fromID="E95" fromText="a normal dosing" id="TL115" toID="E96" toText="outpatient draws" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E97" fromText="the further Coumadin dosing" id="TL116" toID="E96" toText="outpatient draws" type="AFTER"/>
+<TLINK fromID="T10" fromText="postoperative day # 6" id="TL117" toID="T32" toText="the time" type="SIMULTANEOUS"/>
+<TLINK fromID="T34" fromText="time" id="TL118" toID="T10" toText="postoperative day # 6" type="SIMULTANEOUS"/>
+<TLINK fromID="E98" fromText="discharge" id="TL119" toID="T34" toText="time" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="this operation" id="TL12" toID="E18" toText="surgery" type="SIMULTANEOUS"/>
+<TLINK fromID="E99" fromText="her hospital course" id="TL120" toID="E0" toText="Admission" type="BEGUN_BY"/>
+<TLINK fromID="E99" fromText="her hospital course" id="TL121" toID="E60" toText="Discharge" type="ENDED_BY"/>
+<TLINK fromID="T11" fromText="postoperative day # 1" id="TL123" toID="T8" toText="postoperative day # 1" type="SIMULTANEOUS"/>
+<TLINK fromID="E42" fromText="perioperative ampicillin" id="TL124" toID="T11" toText="postoperative day # 1" type="ENDED_BY"/>
+<TLINK fromID="E43" fromText="gentamicin" id="TL125" toID="E42" toText="perioperative ampicillin" type="SIMULTANEOUS"/>
+<TLINK fromID="E44" fromText="Flagyl" id="TL126" toID="E43" toText="gentamicin" type="SIMULTANEOUS"/>
+<TLINK fromID="E100" fromText="initial nausea" id="TL127" toID="E99" toText="her hospital course" type="DURING"/>
+<TLINK fromID="E46" fromText="emesis" id="TL128" toID="E100" toText="initial nausea" type="OVERLAP"/>
+<TLINK fromID="T12" fromText="postoperative day # 1" id="TL129" toID="T11" toText="postoperative day # 1" type="SIMULTANEOUS"/>
+<TLINK fromID="E1" fromText="attacks" id="TL13" toID="E2" toText="antibiotics" type="ENDED_BY"/>
+<TLINK fromID="E47" fromText="Her nasogastric tube" id="TL130" toID="T12" toText="postoperative day # 1" type="ENDED_BY"/>
+<TLINK fromID="T14" fromText="postoperative day # 3" id="TL131" toID="T7" toText="postoperative day # 3" type="SIMULTANEOUS"/>
+<TLINK fromID="E101" fromText="a regular diet" id="TL132" toID="T14" toText="postoperative day # 3" type="BEGUN_BY"/>
+<TLINK fromID="T13" fromText="postoperative day # 5" id="TL133" toID="T14" toText="postoperative day # 3" type="AFTER"/>
+<TLINK fromID="E102" fromText="flatus" id="TL134" toID="T13" toText="postoperative day # 5" type="BEGUN_BY"/>
+<TLINK fromID="E103" fromText="regular bowel movements" id="TL135" toID="E102" toText="flatus" type="OVERLAP"/>
+<TLINK fromID="E104" fromText="complained" id="TL136" toID="E103" toText="regular bowel movements" type="OVERLAP"/>
+<TLINK fromID="E105" fromText="dizziness" id="TL137" toID="E104" toText="complained" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E106" fromText="her normal Lopressor" id="TL138" toID="E104" toText="complained" type="ENDED_BY"/>
+<TLINK fromID="E107" fromText="Norvasc" id="TL139" toID="E106" toText="her normal Lopressor" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="attacks" id="TL14" toID="T1" toText="12/96" type="SIMULTANEOUS"/>
+<TLINK fromID="E108" fromText="re-equalibration" id="TL140" toID="E105" toText="dizziness" type="SIMULTANEOUS"/>
+<TLINK fromID="E108" fromText="re-equalibration" id="TL141" toID="E109" toText="sedentary" type="AFTER"/>
+<TLINK fromID="E110" fromText="mostly in bed" id="TL142" toID="E109" toText="sedentary" type="OVERLAP"/>
+<TLINK fromID="E110" fromText="mostly in bed" id="TL143" toID="E48" toText="the operation" type="AFTER"/>
+<TLINK fromID="E48" fromText="the operation" id="TL144" toID="E21" toText="this operation" type="SIMULTANEOUS"/>
+<TLINK fromID="E111" fromText="headaches" id="TL145" toID="E99" toText="her hospital course" type="DURING"/>
+<TLINK fromID="E111" fromText="headaches" id="TL146" toID="E50" toText="Tylenol" type="ENDED_BY"/>
+<TLINK fromID="E51" fromText="the dizziness" id="TL147" toID="E111" toText="headaches" type="OVERLAP"/>
+<TLINK fromID="E112" fromText="discharge" id="TL148" toID="T15" toText="postoperative day # 6" type="SIMULTANEOUS"/>
+<TLINK fromID="T15" fromText="postoperative day # 6" id="TL149" toID="T10" toText="postoperative day # 6" type="SIMULTANEOUS"/>
+<TLINK fromID="E1" fromText="attacks" id="TL15" toID="T2" toText="08/97" type="SIMULTANEOUS"/>
+<TLINK fromID="E112" fromText="discharge" id="TL150" toID="E98" toText="discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="T35" fromText="the time" id="TL151" toID="T15" toText="postoperative day # 6" type="SIMULTANEOUS"/>
+<TLINK fromID="E116" fromText="discharge" id="TL152" toID="E112" toText="discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E113" fromText="Her wound" id="TL153" toID="E114" toText="benign" type="SIMULTANEOUS"/>
+<TLINK fromID="E113" fromText="Her wound" id="TL154" toID="E116" toText="discharge" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E113" fromText="Her wound" id="TL155" toID="E115" toText="healing" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E115" fromText="healing" id="TL156" toID="T35" toText="the time" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="diverticulitis flairs" id="TL16" toID="T3" toText="09/96" type="BEGUN_BY"/>
+<TLINK fromID="E77" fromText="A full account" id="TL17" toID="E78" toText="the Operative Note" type="SIMULTANEOUS"/>
+<TLINK fromID="T3" fromText="09/96" id="TL18" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="T18" fromText="three years prior" id="TL19" toID="T19" toText="1993" type="SIMULTANEOUS"/>
+<TLINK fromID="E13" fromText="Her INR" id="TL2" toID="E14" toText="surgery" type="BEFORE"/>
+<TLINK fromID="T19" fromText="1993" id="TL20" toID="T3" toText="09/96" type="BEFORE"/>
+<TLINK fromID="E5" fromText="an attack of diverticulitis" id="TL21" toID="T19" toText="1993" type="SIMULTANEOUS"/>
+<TLINK fromID="E3" fromText="diverticulitis flairs" id="TL22" toID="E4" toText="baseline diverticulosis flairing" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="barium enema" id="TL23" toID="T4" toText="09/97" type="SIMULTANEOUS"/>
+<TLINK fromID="T4" fromText="09/97" id="TL24" toID="T3" toText="09/96" type="AFTER"/>
+<TLINK fromID="T4" fromText="09/97" id="TL25" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E61" fromText="showed" id="TL26" toID="E6" toText="barium enema" type="SIMULTANEOUS"/>
+<TLINK fromID="E63" fromText="multiple diverticula" id="TL27" toID="E6" toText="barium enema" type=""/>
+<TLINK fromID="E63" fromText="multiple diverticula" id="TL28" toID="E4" toText="baseline diverticulosis flairing" type="SIMULTANEOUS"/>
+<TLINK fromID="T20" fromText="this time" id="TL29" toID="T4" toText="09/97" type="SIMULTANEOUS"/>
+<TLINK fromID="E34" fromText="bleeding per rectum" id="TL3" toID="E35" toText="her PTT" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="diverticulosis" id="TL30" toID="E4" toText="baseline diverticulosis flairing" type="SIMULTANEOUS"/>
+<TLINK fromID="E65" fromText="diverticulosis" id="TL31" toID="E72" toText="acute diverticulitis" type="OVERLAP"/>
+<TLINK fromID="E72" fromText="acute diverticulitis" id="TL32" toID="T20" toText="this time" type="OVERLAP"/>
+<TLINK fromID="E73" fromText="obstruction" id="TL33" toID="E65" toText="diverticulosis" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="aortic valve replacement" id="TL34" toID="T21" toText="1996" type="SIMULTANEOUS"/>
+<TLINK fromID="T21" fromText="1996" id="TL35" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E52" fromText="presented" id="TL36" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E9" fromText="heparinization" id="TL37" toID="E52" toText="presented" type="AFTER"/>
+<TLINK fromID="E53" fromText="admitted" id="TL38" toID="E52" toText="presented" type="SIMULTANEOUS"/>
+<TLINK fromID="E74" fromText="cefotetan" id="TL39" toID="E53" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E60" fromText="Discharge" id="TL4" toID="T16" toText="11/03/1997" type="SIMULTANEOUS"/>
+<TLINK fromID="E11" fromText="Flagyl" id="TL40" toID="E74" toText="cefotetan" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="heparin" id="TL41" toID="E11" toText="Flagyl" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="her PTT" id="TL42" toID="E13" toText="Her INR" type="OVERLAP"/>
+<TLINK fromID="E75" fromText="surgery" id="TL43" toID="E14" toText="surgery" type="SIMULTANEOUS"/>
+<TLINK fromID="E76" fromText="admitted" id="TL44" toID="E53" toText="admitted" type="SIMULTANEOUS"/>
+<TLINK fromID="E17" fromText="a bowel prep" id="TL45" toID="E76" toText="admitted" type="AFTER"/>
+<TLINK fromID="E17" fromText="a bowel prep" id="TL46" toID="T23" toText="two days before" type="BEGUN_BY"/>
+<TLINK fromID="T23" fromText="two days before" id="TL47" toID="E18" toText="surgery" type="BEFORE"/>
+<TLINK fromID="T24" fromText="hospital day # 3" id="TL48" toID="T25" toText="10/28/97" type="SIMULTANEOUS"/>
+<TLINK fromID="T25" fromText="10/28/97" id="TL49" toID="E0" toText="Admission" type="AFTER"/>
+<TLINK fromID="E62" fromText="abdominal pain" id="TL5" toID="E0" toText="Admission" type="BEFORE_OVERLAP"/>
+<TLINK fromID="T25" fromText="10/28/97" id="TL50" toID="E60" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E54" fromText="the Operating Room" id="TL51" toID="T24" toText="hospital day # 3" type="SIMULTANEOUS"/>
+<TLINK fromID="E18" fromText="surgery" id="TL52" toID="E54" toText="the Operating Room" type="DURING"/>
+<TLINK fromID="T26" fromText="that time" id="TL53" toID="T25" toText="10/28/97" type="SIMULTANEOUS"/>
+<TLINK fromID="E19" fromText="sigmoid colectomy" id="TL54" toID="E18" toText="surgery" type="SIMULTANEOUS"/>
+<TLINK fromID="E20" fromText="ventral hernia repair" id="TL55" toID="E19" toText="sigmoid colectomy" type="OVERLAP"/>
+<TLINK fromID="E78" fromText="the Operative Note" id="TL56" toID="E21" toText="this operation" type="AFTER"/>
+<TLINK fromID="E22" fromText="this procedure" id="TL57" toID="E21" toText="this operation" type="SIMULTANEOUS"/>
+<TLINK fromID="E23" fromText="complications" id="TL58" toID="E22" toText="this procedure" type="DURING"/>
+<TLINK fromID="E56" fromText="taken" id="TL59" toID="E22" toText="this procedure" type="AFTER"/>
+<TLINK fromID="E66" fromText="fever" id="TL6" toID="E64" toText="complained" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E57" fromText="the Recovery Room" id="TL60" toID="E56" toText="taken" type="BEGUN_BY"/>
+<TLINK fromID="E79" fromText="stable condition" id="TL61" toID="E57" toText="the Recovery Room" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E24" fromText="her heparin" id="TL62" toID="E57" toText="the Recovery Room" type="BEGUN_BY"/>
+<TLINK fromID="E25" fromText="a PTT" id="TL63" toID="E57" toText="the Recovery Room" type="DURING"/>
+<TLINK fromID="E26" fromText="the passage of some blood clots" id="TL64" toID="E25" toText="a PTT" type="OVERLAP"/>
+<TLINK fromID="E80" fromText="blood per rectum" id="TL65" toID="E26" toText="the passage of some blood clots" type="OVERLAP"/>
+<TLINK fromID="E80" fromText="blood per rectum" id="TL66" toID="T5" toText="postoperative day # 2" type="SIMULTANEOUS"/>
+<TLINK fromID="T5" fromText="postoperative day # 2" id="TL67" toID="E54" toText="the Operating Room" type="AFTER"/>
+<TLINK fromID="E81" fromText="blood per rectum" id="TL68" toID="E80" toText="blood per rectum" type="SIMULTANEOUS"/>
+<TLINK fromID="E81" fromText="blood per rectum" id="TL69" toID="E58" toText="transfused" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E67" fromText="shaking" id="TL7" toID="E68" toText="chills" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="one unit of packed red blood cells" id="TL70" toID="E58" toText="transfused" type="SIMULTANEOUS"/>
+<TLINK fromID="E28" fromText="Her preoperative hematocrit" id="TL71" toID="E18" toText="surgery" type="BEFORE"/>
+<TLINK fromID="E29" fromText="her hematocrit" id="TL72" toID="E28" toText="Her preoperative hematocrit" type="AFTER"/>
+<TLINK fromID="E82" fromText="dropped" id="TL73" toID="E29" toText="her hematocrit" type="SIMULTANEOUS"/>
+<TLINK fromID="E82" fromText="dropped" id="TL74" toID="T6" toText="postoperative day # 2" type="SIMULTANEOUS"/>
+<TLINK fromID="T6" fromText="postoperative day # 2" id="TL75" toID="T5" toText="postoperative day # 2" type="SIMULTANEOUS"/>
+<TLINK fromID="E83" fromText="a drop" id="TL76" toID="E82" toText="dropped" type="SIMULTANEOUS"/>
+<TLINK fromID="E30" fromText="an immediate postoperative hematocrit" id="TL77" toID="E83" toText="a drop" type="BEFORE"/>
+<TLINK fromID="E30" fromText="an immediate postoperative hematocrit" id="TL78" toID="E28" toText="Her preoperative hematocrit" type="AFTER"/>
+<TLINK fromID="E31" fromText="the one unit of red blood cells" id="TL79" toID="E27" toText="one unit of packed red blood cells" type="SIMULTANEOUS"/>
+<TLINK fromID="E66" fromText="fever" id="TL8" toID="E67" toText="shaking" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="her hematocrit" id="TL80" toID="E31" toText="the one unit of red blood cells" type="AFTER"/>
+<TLINK fromID="E84" fromText="returned" id="TL81" toID="E32" toText="her hematocrit" type="SIMULTANEOUS"/>
+<TLINK fromID="E33" fromText="the transfusion" id="TL82" toID="E31" toText="the one unit of red blood cells" type="SIMULTANEOUS"/>
+<TLINK fromID="T27" fromText="the two days" id="TL83" toID="E33" toText="the transfusion" type="AFTER"/>
+<TLINK fromID="E85" fromText="returned" id="TL85" toID="T27" toText="the two days" type="SIMULTANEOUS"/>
+<TLINK fromID="E86" fromText="her postoperative course" id="TL86" toID="E57" toText="the Recovery Room" type="BEGUN_BY"/>
+<TLINK fromID="E86" fromText="her postoperative course" id="TL87" toID="E60" toText="Discharge" type="ENDED_BY"/>
+<TLINK fromID="E87" fromText="blood per rectum" id="TL88" toID="E80" toText="blood per rectum" type="SIMULTANEOUS"/>
+<TLINK fromID="E34" fromText="bleeding per rectum" id="TL89" toID="E87" toText="blood per rectum" type="SIMULTANEOUS"/>
+<TLINK fromID="E69" fromText="nausea" id="TL9" toID="E70" toText="vomiting" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="bleeding per rectum" id="TL90" toID="E59" toText="noted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E88" fromText="Her heparin" id="TL91" toID="E59" toText="noted" type="ENDED_BY"/>
+<TLINK fromID="T7" fromText="postoperative day # 3" id="TL92" toID="T6" toText="postoperative day # 2" type="AFTER"/>
+<TLINK fromID="E35" fromText="her PTT" id="TL93" toID="E89" toText="drifted" type="SIMULTANEOUS"/>
+<TLINK fromID="E89" fromText="drifted" id="TL94" toID="T7" toText="postoperative day # 3" type="SIMULTANEOUS"/>
+<TLINK fromID="T8" fromText="postoperative day # 1" id="TL95" toID="T5" toText="postoperative day # 2" type="BEFORE"/>
+<TLINK fromID="T8" fromText="postoperative day # 1" id="TL96" toID="E21" toText="this operation" type="AFTER"/>
+<TLINK fromID="E36" fromText="Coumadin" id="TL97" toID="T8" toText="postoperative day # 1" type="BEGUN_BY"/>
+<TLINK fromID="T9" fromText="postoperative day # 2" id="TL98" toID="T6" toText="postoperative day # 2" type="SIMULTANEOUS"/>
+<TLINK fromID="E37" fromText="bleeding" id="TL99" toID="T9" toText="postoperative day # 2" type="SIMULTANEOUS"/>
+<TLINK fromID="E74" fromText="cefotetan" id="Sectime0" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E11" fromText="Flagyl" id="Sectime1" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E12" fromText="heparin" id="Sectime2" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E13" fromText="Her INR" id="Sectime3" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E14" fromText="surgery" id="Sectime4" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E16" fromText="surgery" id="Sectime5" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E15" fromText="her PTT" id="Sectime6" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E75" fromText="surgery" id="Sectime7" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E76" fromText="admitted" id="Sectime8" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E17" fromText="a bowel prep" id="Sectime9" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E18" fromText="surgery" id="Sectime10" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E54" fromText="the Operating Room" id="Sectime11" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E19" fromText="sigmoid colectomy" id="Sectime12" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E20" fromText="ventral hernia repair" id="Sectime13" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E77" fromText="A full account" id="Sectime14" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E62" fromText="abdominal pain" id="Sectime0" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E21" fromText="this operation" id="Sectime15" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E78" fromText="the Operative Note" id="Sectime16" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E22" fromText="this procedure" id="Sectime17" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E23" fromText="complications" id="Sectime18" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E56" fromText="taken" id="Sectime19" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E57" fromText="the Recovery Room" id="Sectime20" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E79" fromText="stable condition" id="Sectime21" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E24" fromText="her heparin" id="Sectime22" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E25" fromText="a PTT" id="Sectime23" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E26" fromText="the passage of some blood clots" id="Sectime24" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E80" fromText="blood per rectum" id="Sectime25" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E81" fromText="blood per rectum" id="Sectime26" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E58" fromText="transfused" id="Sectime27" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E27" fromText="one unit of packed red blood cells" id="Sectime28" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E28" fromText="Her preoperative hematocrit" id="Sectime29" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E29" fromText="her hematocrit" id="Sectime30" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E82" fromText="dropped" id="Sectime31" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E83" fromText="a drop" id="Sectime32" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E30" fromText="an immediate postoperative hematocrit" id="Sectime33" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E31" fromText="the one unit of red blood cells" id="Sectime34" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E32" fromText="her hematocrit" id="Sectime35" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E84" fromText="returned" id="Sectime36" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E33" fromText="the transfusion" id="Sectime37" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E85" fromText="returned" id="Sectime38" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E64" fromText="complained" id="Sectime1" toID="T0" toText="10/25/1997" type="OVERLAP"/>
+<TLINK fromID="E86" fromText="her postoperative course" id="Sectime39" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E87" fromText="blood per rectum" id="Sectime40" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E88" fromText="Her heparin" id="Sectime41" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E59" fromText="noted" id="Sectime42" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E66" fromText="fever" id="Sectime2" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E34" fromText="bleeding per rectum" id="Sectime43" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E35" fromText="her PTT" id="Sectime44" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E89" fromText="drifted" id="Sectime45" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E67" fromText="shaking" id="Sectime3" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E36" fromText="Coumadin" id="Sectime46" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E68" fromText="chills" id="Sectime4" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E37" fromText="bleeding" id="Sectime47" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E90" fromText="the Coumadin" id="Sectime48" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E69" fromText="nausea" id="Sectime5" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E91" fromText="increased" id="Sectime49" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E38" fromText="her regular regimen" id="Sectime50" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E70" fromText="vomiting" id="Sectime6" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E39" fromText="The patient 's INR" id="Sectime51" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E92" fromText="dropped" id="Sectime52" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E40" fromText="operation" id="Sectime53" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E71" fromText="change in her bowel movements" id="Sectime7" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E93" fromText="began to rise" id="Sectime54" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E41" fromText="her Coumadin dosing" id="Sectime55" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E94" fromText="discharge" id="Sectime56" toID="T16" toText="11/03/1997" type="OVERLAP"/>
+<TLINK fromID="E95" fromText="a normal dosing" id="Sectime57" toID="T16" toText="11/03/1997" type="AFTER"/>
+<TLINK fromID="E96" fromText="outpatient draws" id="Sectime58" toID="T16" toText="11/03/1997" type="AFTER"/>
+<TLINK fromID="E97" fromText="the further Coumadin dosing" id="Sectime59" toID="T16" toText="11/03/1997" type="AFTER"/>
+<TLINK fromID="E98" fromText="discharge" id="Sectime60" toID="T16" toText="11/03/1997" type="OVERLAP"/>
+<TLINK fromID="E99" fromText="her hospital course" id="Sectime61" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E42" fromText="perioperative ampicillin" id="Sectime62" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E43" fromText="gentamicin" id="Sectime63" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E44" fromText="Flagyl" id="Sectime64" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E1" fromText="attacks" id="Sectime8" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E45" fromText="some initial nausea" id="Sectime65" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E100" fromText="initial nausea" id="Sectime66" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E46" fromText="emesis" id="Sectime67" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E47" fromText="Her nasogastric tube" id="Sectime68" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E101" fromText="a regular diet" id="Sectime69" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E2" fromText="antibiotics" id="Sectime9" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E102" fromText="flatus" id="Sectime70" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E103" fromText="regular bowel movements" id="Sectime71" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E104" fromText="complained" id="Sectime72" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E105" fromText="dizziness" id="Sectime73" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E106" fromText="her normal Lopressor" id="Sectime74" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E107" fromText="Norvasc" id="Sectime75" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E108" fromText="re-equalibration" id="Sectime76" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E109" fromText="sedentary" id="Sectime77" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E110" fromText="mostly in bed" id="Sectime78" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E48" fromText="the operation" id="Sectime79" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E49" fromText="some slight headaches" id="Sectime80" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E111" fromText="headaches" id="Sectime81" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E50" fromText="Tylenol" id="Sectime82" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E51" fromText="the dizziness" id="Sectime83" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<TLINK fromID="E112" fromText="discharge" id="Sectime84" toID="T16" toText="11/03/1997" type="OVERLAP"/>
+<TLINK fromID="E113" fromText="Her wound" id="Sectime85" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E114" fromText="benign" id="Sectime86" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E115" fromText="healing" id="Sectime87" toID="T16" toText="11/03/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E116" fromText="discharge" id="Sectime88" toID="T16" toText="11/03/1997" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="diverticulitis flairs" id="Sectime10" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E4" fromText="baseline diverticulosis flairing" id="Sectime11" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E5" fromText="an attack of diverticulitis" id="Sectime12" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E6" fromText="barium enema" id="Sectime13" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E61" fromText="showed" id="Sectime14" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E63" fromText="multiple diverticula" id="Sectime15" toID="T0" toText="10/25/1997" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E65" fromText="diverticulosis" id="Sectime16" toID="T0" toText="10/25/1997" type="OVERLAP"/>
+<TLINK fromID="E72" fromText="acute diverticulitis" id="Sectime17" toID="T0" toText="10/25/1997" type="OVERLAP"/>
+<TLINK fromID="E73" fromText="obstruction" id="Sectime18" toID="T0" toText="10/25/1997" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="aortic valve replacement" id="Sectime19" toID="T0" toText="10/25/1997" type="BEFORE"/>
+<TLINK fromID="E52" fromText="presented" id="Sectime20" toID="T0" toText="10/25/1997" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="heparinization" id="Sectime21" toID="T0" toText="10/25/1997" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="her elective valve surgery" id="Sectime22" toID="T0" toText="10/25/1997" type="AFTER"/>
+<TLINK fromID="E53" fromText="admitted" id="Sectime89" toID="T16" toText="11/03/1997" type="BEFORE"/>
+<SECTIME dvalue="1997-10-25" end="28" id="S0" start="18" text="10/25/1997" type="ADMISSION"/>
+<SECTIME dvalue="1997-11-03" end="56" id="S1" start="46" text="11/03/1997" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

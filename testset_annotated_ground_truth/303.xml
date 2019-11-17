@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+01/23/1992
+Discharge Date :
+01/26/1992
+HISTORY OF PRESENT ILLNESS :
+The patient is a 20 year old black female who was a pedestrian when struck by a car at apparent high speed .
+There was apparent loss of consciousness at the scene and significant deformity of the anterior portion of the motorvehicle with positive starring of the windshield .
+The patient was conscious on the scene when evaluated by EMT &amp;apos;s but at the scene , the patient was apparently paraplegic below the umbilicus with absence of movement and sensation below the umbilicus .
+HOSPITAL COURSE :
+A Neurosurgery consultation was obtained , and it was their impression that the patient &amp;apos;s paraplegia might possibly represent a cord concussion , and recommended treatment with intravenous steroids for 24 hours .
+The patient &amp;apos;s paraplegia resolved by the morning of her second hospital day , and she maintained 5/5 motor strength in all groups .
+A Urology consultation was obtained , and it was recommended that an IVP be obtained .
+This was obtained on the day of discharge , however , due to residual contrast in the colon from the patient &amp;apos;s prior abdominal CT scan , the exam was postponed after a scout film was obtained .
+The patient fell well on the day of discharge .
+She remained afebrile throughout her hospital course .
+Additionally on the night before discharge , flexion and extension views of the lumbosacral spine were obtained , and showed no fracture or instability .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E13" lowerbound-end="1992-01-23 00:33" lowerbound-start="1992-01-23 00:33" modality="FACTUAL" most-likely-end="1992-01-23 11:21" most-likely-start="1992-01-23 11:20" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="1992-01-24 22:27" upperbound-start="1992-01-24 22:07"/>
+<EVENT end="1016" id="E25" lowerbound-end="1992-01-24 03:45" lowerbound-start="1992-01-24 03:48" modality="PROPOSED" most-likely-end="1992-01-26 02:05" most-likely-start="1992-01-26 01:20" polarity="POS" start="1010" temporally-annotated="YES" text="an IVP" type="TEST" upperbound-end="1992-01-31 07:56" upperbound-start="1992-01-30 22:51"/>
+<EVENT end="1035" id="E26" lowerbound-end="1992-01-26 02:48" lowerbound-start="1992-01-26 02:52" modality="FACTUAL" most-likely-end="1992-01-26 10:40" most-likely-start="1992-01-26 09:40" polarity="POS" start="1031" temporally-annotated="YES" text="This" type="TEST" upperbound-end="1992-01-28 09:12" upperbound-start="1992-01-27 16:28"/>
+<EVENT end="1072" id="E27" lowerbound-end="1992-01-26 01:49" lowerbound-start="1992-01-26 01:29" modality="FACTUAL" most-likely-end="1992-01-26 12:40" most-likely-start="1992-01-26 12:38" polarity="POS" start="1063" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1992-01-27 23:30" upperbound-start="1992-01-27 23:30"/>
+<EVENT end="1122" id="E5" lowerbound-end="1992-01-23 04:47" lowerbound-start="1992-01-22 22:30" modality="FACTUAL" most-likely-end="1992-01-25 05:16" most-likely-start="1992-01-25 02:23" polarity="POS" start="1092" temporally-annotated="YES" text="residual contrast in the colon" type="PROBLEM" upperbound-end="1992-01-30 09:57" upperbound-start="1992-01-30 06:16"/>
+<EVENT end="1171" id="E6" lowerbound-end="1992-01-22 19:46" lowerbound-start="1992-01-22 19:25" modality="FACTUAL" most-likely-end="1992-01-24 20:31" most-likely-start="1992-01-24 19:50" polarity="POS" start="1128" temporally-annotated="YES" text="the patient 's prior abdominal CT scan" type="TEST" upperbound-end="1992-01-29 21:35" upperbound-start="1992-01-29 20:14"/>
+<EVENT end="1182" id="E7" lowerbound-end="1992-01-26 02:48" lowerbound-start="1992-01-26 02:52" modality="FACTUAL" most-likely-end="1992-01-26 10:40" most-likely-start="1992-01-26 09:40" polarity="NEG" start="1174" temporally-annotated="YES" text="the exam" type="TEST" upperbound-end="1992-01-28 09:12" upperbound-start="1992-01-27 16:28"/>
+<EVENT end="1196" id="E18" lowerbound-end="1992-01-26 02:28" lowerbound-start="1992-01-26 02:48" modality="FACTUAL" most-likely-end="1992-01-26 11:00" most-likely-start="1992-01-26 10:00" polarity="POS" start="1187" temporally-annotated="YES" text="postponed" type="OCCURRENCE" upperbound-end="1992-01-28 10:12" upperbound-start="1992-01-27 17:12"/>
+<EVENT end="1215" id="E8" lowerbound-end="1992-01-25 03:22" lowerbound-start="1992-01-25 03:18" modality="FACTUAL" most-likely-end="1992-01-25 11:20" most-likely-start="1992-01-25 11:00" polarity="POS" start="1203" temporally-annotated="YES" text="a scout film" type="TEST" upperbound-end="1992-01-26 19:45" upperbound-start="1992-01-26 18:41"/>
+<EVENT end="1252" id="E28" lowerbound-end="1992-01-26 00:09" lowerbound-start="1992-01-25 14:29" modality="FACTUAL" most-likely-end="1992-01-26 12:20" most-likely-start="1992-01-26 05:35" polarity="POS" start="1248" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-end="1992-01-28 00:30" upperbound-start="1992-01-27 23:10"/>
+<EVENT end="1276" id="E29" lowerbound-end="1992-01-26 01:49" lowerbound-start="1992-01-26 01:29" modality="FACTUAL" most-likely-end="1992-01-26 12:40" most-likely-start="1992-01-26 12:38" polarity="POS" start="1267" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1992-01-27 23:30" upperbound-start="1992-01-27 23:30"/>
+<EVENT end="1300" id="E9" lowerbound-end="1992-01-26 01:49" lowerbound-start="1992-01-23 00:33" modality="FACTUAL" most-likely-end="1992-01-26 12:40" most-likely-start="1992-01-23 11:20" polarity="NEG" start="1292" temporally-annotated="YES" text="afebrile" type="PROBLEM" upperbound-end="1992-01-27 23:30" upperbound-start="1992-01-24 22:07"/>
+<EVENT end="1331" id="E30" lowerbound-end="1992-01-26 01:49" lowerbound-start="1992-01-23 00:33" modality="FACTUAL" most-likely-end="1992-01-26 12:40" most-likely-start="1992-01-23 11:20" polarity="POS" start="1312" temporally-annotated="YES" text="her hospital course" type="OCCURRENCE" upperbound-end="1992-01-27 23:30" upperbound-start="1992-01-24 22:07"/>
+<EVENT end="1376" id="E31" lowerbound-end="1992-01-26 01:49" lowerbound-start="1992-01-26 01:29" modality="FACTUAL" most-likely-end="1992-01-26 12:40" most-likely-start="1992-01-26 12:38" polarity="POS" start="1367" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1992-01-27 23:30" upperbound-start="1992-01-27 23:30"/>
+<EVENT end="1431" id="E10" lowerbound-end="1992-01-25 08:36" lowerbound-start="1992-01-25 04:25" modality="FACTUAL" most-likely-end="1992-01-25 19:33" most-likely-start="1992-01-25 17:55" polarity="POS" start="1379" temporally-annotated="YES" text="flexion and extension views of the lumbosacral spine" type="TEST" upperbound-end="1992-01-29 06:45" upperbound-start="1992-01-29 07:25"/>
+<EVENT end="1458" id="E32" lowerbound-end="1992-01-25 08:27" lowerbound-start="1992-01-25 04:17" modality="FACTUAL" most-likely-end="1992-01-25 19:33" most-likely-start="1992-01-25 18:01" polarity="POS" start="1452" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1992-01-29 06:46" upperbound-start="1992-01-29 07:46"/>
+<EVENT end="1470" id="E11" lowerbound-end="1992-01-25 08:27" lowerbound-start="1992-01-24 11:25" modality="FACTUAL" most-likely-end="1992-01-25 19:33" most-likely-start="1992-01-25 01:46" polarity="NEG" start="1462" temporally-annotated="YES" text="fracture" type="PROBLEM" upperbound-end="1992-01-29 06:46" upperbound-start="1992-01-28 16:08"/>
+<EVENT end="1485" id="E12" lowerbound-end="1992-01-25 08:27" lowerbound-start="1992-01-24 11:25" modality="FACTUAL" most-likely-end="1992-01-25 19:33" most-likely-start="1992-01-25 01:46" polarity="NEG" start="1474" temporally-annotated="YES" text="instability" type="PROBLEM" upperbound-end="1992-01-29 06:46" upperbound-start="1992-01-28 16:08"/>
+<EVENT end="169" id="E15" lowerbound-end="1992-01-22 23:34" lowerbound-start="1992-01-22 23:33" modality="FACTUAL" most-likely-end="1992-01-23 10:41" most-likely-start="1992-01-23 10:40" polarity="POS" start="154" temporally-annotated="YES" text="struck by a car" type="OCCURRENCE" upperbound-end="1992-01-24 22:27" upperbound-start="1992-01-24 21:46"/>
+<EVENT end="235" id="E0" lowerbound-end="1992-01-22 23:44" lowerbound-start="1992-01-22 23:43" modality="FACTUAL" most-likely-end="1992-01-23 10:54" most-likely-start="1992-01-23 10:50" polarity="POS" start="214" temporally-annotated="YES" text="loss of consciousness" type="PROBLEM" upperbound-end="1992-01-24 22:38" upperbound-start="1992-01-24 21:58"/>
+<EVENT end="38" id="E14" lowerbound-end="1992-01-26 01:49" lowerbound-start="1992-01-26 01:29" modality="FACTUAL" most-likely-end="1992-01-26 12:40" most-likely-start="1992-01-26 12:38" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="1992-01-27 23:30" upperbound-start="1992-01-27 23:30"/>
+<EVENT end="387" id="E16" lowerbound-end="1992-01-22 23:50" lowerbound-start="1992-01-22 23:49" modality="FACTUAL" most-likely-end="1992-01-23 10:58" most-likely-start="1992-01-23 10:50" polarity="POS" start="378" temporally-annotated="YES" text="conscious" type="OCCURRENCE" upperbound-end="1992-01-24 22:31" upperbound-start="1992-01-24 21:50"/>
+<EVENT end="415" id="E17" lowerbound-end="1992-01-22 23:46" lowerbound-start="1992-01-22 23:45" modality="FACTUAL" most-likely-end="1992-01-23 10:58" most-likely-start="1992-01-23 10:50" polarity="POS" start="406" temporally-annotated="YES" text="evaluated" type="TEST" upperbound-end="1992-01-24 22:35" upperbound-start="1992-01-24 21:54"/>
+<EVENT end="507" id="E19" lowerbound-end="1992-01-23 09:06" lowerbound-start="1992-01-22 23:41" modality="FACTUAL" most-likely-end="1992-01-24 00:46" most-likely-start="1992-01-23 10:48" polarity="POS" start="477" temporally-annotated="YES" text="paraplegic below the umbilicus" type="PROBLEM" upperbound-end="1992-01-27 16:36" upperbound-start="1992-01-24 21:55"/>
+<EVENT end="566" id="E20" lowerbound-end="1992-01-23 09:06" lowerbound-start="1992-01-22 23:41" modality="FACTUAL" most-likely-end="1992-01-24 00:46" most-likely-start="1992-01-23 10:48" polarity="POS" start="513" temporally-annotated="YES" text="absence of movement and sensation below the umbilicus" type="PROBLEM" upperbound-end="1992-01-27 16:36" upperbound-start="1992-01-24 21:55"/>
+<EVENT end="614" id="E21" lowerbound-end="1992-01-21 05:07" lowerbound-start="1992-01-21 05:03" modality="FACTUAL" most-likely-end="1992-01-23 12:18" most-likely-start="1992-01-23 11:56" polarity="POS" start="587" temporally-annotated="YES" text="A Neurosurgery consultation" type="OCCURRENCE" upperbound-end="1992-01-30 19:54" upperbound-start="1992-01-30 18:50"/>
+<EVENT end="693" id="E2" lowerbound-end="1992-01-22 15:28" lowerbound-start="1992-01-22 06:02" modality="FACTUAL" most-likely-end="1992-01-24 01:08" most-likely-start="1992-01-23 11:09" polarity="POS" start="663" temporally-annotated="YES" text="the patient 's paraplegia" type="PROBLEM" upperbound-end="1992-01-30 10:56" upperbound-start="1992-01-27 16:15"/>
+<EVENT end="736" id="E3" lowerbound-end="1992-01-22 12:17" lowerbound-start="1992-01-22 06:01" modality="POSSIBLE" most-likely-end="1992-01-23 18:29" most-likely-start="1992-01-23 11:08" polarity="POS" start="719" temporally-annotated="YES" text="a cord concussion" type="PROBLEM" upperbound-end="1992-01-28 01:07" upperbound-start="1992-01-27 16:15"/>
+<EVENT end="790" id="E22" lowerbound-end="1992-01-22 05:09" lowerbound-start="1992-01-21 05:39" modality="PROPOSED" most-likely-end="1992-01-24 12:18" most-likely-start="1992-01-23 12:18" polarity="POS" start="770" temporally-annotated="YES" text="intravenous steroids" type="TREATMENT" upperbound-end="1992-01-31 19:27" upperbound-start="1992-01-30 18:57"/>
+<EVENT end="836" id="E4" lowerbound-end="1992-01-23 15:37" lowerbound-start="1992-01-22 06:02" modality="FACTUAL" most-likely-end="1992-01-24 09:00" most-likely-start="1992-01-23 11:09" polarity="POS" start="806" temporally-annotated="YES" text="The patient 's paraplegia" type="PROBLEM" upperbound-end="1992-01-28 02:22" upperbound-start="1992-01-27 16:15"/>
+<EVENT end="927" id="E23" lowerbound-end="2003-03-02 04:57" lowerbound-start="1992-01-23 15:37" modality="FACTUAL" most-likely-end="2008-09-24 01:05" most-likely-start="1992-01-24 09:00" polarity="POS" start="898" temporally-annotated="YES" text="maintained 5/5 motor strength" type="OCCURRENCE" upperbound-end="2036-06-27 08:03" upperbound-start="1992-01-28 02:22"/>
+<EVENT end="966" id="E24" lowerbound-end="1992-01-23 03:32" lowerbound-start="1992-01-23 03:31" modality="FACTUAL" most-likely-end="1992-01-25 04:00" most-likely-start="1992-01-25 03:40" polarity="POS" start="944" temporally-annotated="YES" text="A Urology consultation" type="OCCURRENCE" upperbound-end="1992-01-30 04:50" upperbound-start="1992-01-30 03:49"/>
+<TIMEX3 end="1059" id="T4" mod="NA" start="1052" text="the day" type="DATE" val="1992-01-26"/>
+<TIMEX3 end="1263" id="T5" mod="NA" start="1256" text="the day" type="DATE" val="1992-01-26"/>
+<TIMEX3 end="1359" id="T6" mod="END" start="1350" text="the night" type="DATE" val="1992-01-25"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="01/23/1992" type="DATE" val="1992-01-23"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="01/26/1992" type="DATE" val="1992-01-26"/>
+<TIMEX3 end="803" id="T0" mod="NA" start="795" text="24 hours" type="DURATION" val="PT24H"/>
+<TIMEX3 end="887" id="T3" mod="START" start="864" text="her second hospital day" type="DATE" val="1992-01-24"/>
+<TLINK fromID="E13" fromText="Admission" id="TL0" toID="T1" toText="01/23/1992" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="paraplegic below the umbilicus" id="TL10" toID="E15" toText="struck by a car" type="AFTER"/>
+<TLINK fromID="E19" fromText="paraplegic below the umbilicus" id="TL11" toID="E20" toText="absence of movement and sensation below the umbilicus" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="A Neurosurgery consultation" id="TL12" toID="E13" toText="Admission" type="AFTER"/>
+<TLINK fromID="E2" fromText="the patient 's paraplegia" id="TL13" toID="E3" toText="a cord concussion" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="The patient 's paraplegia" id="TL14" toID="E2" toText="the patient 's paraplegia" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="intravenous steroids" id="TL15" toID="E21" toText="A Neurosurgery consultation" type="AFTER"/>
+<TLINK fromID="E22" fromText="intravenous steroids" id="TL16" toID="T0" toText="24 hours" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="The patient 's paraplegia" id="TL18" toID="T3" toText="her second hospital day" type="BEFORE"/>
+<TLINK fromID="T3" fromText="her second hospital day" id="TL19" toID="E23" toText="maintained 5/5 motor strength" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="her hospital course" id="TL2" toID="E13" toText="Admission" type="AFTER"/>
+<TLINK fromID="T3" fromText="her second hospital day" id="TL20" toID="E13" toText="Admission" type="AFTER"/>
+<TLINK fromID="T3" fromText="her second hospital day" id="TL21" toID="E14" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E24" fromText="A Urology consultation" id="TL22" toID="E23" toText="maintained 5/5 motor strength" type="AFTER"/>
+<TLINK fromID="E25" fromText="an IVP" id="TL23" toID="E24" toText="A Urology consultation" type="AFTER"/>
+<TLINK fromID="E26" fromText="This" id="TL24" toID="E25" toText="an IVP" type="OVERLAP"/>
+<TLINK fromID="T4" fromText="the day" id="TL25" toID="E27" toText="discharge" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="discharge" id="TL26" toID="E14" toText="Discharge" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="This" id="TL27" toID="T4" toText="the day" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="residual contrast in the colon" id="TL28" toID="E6" toText="the patient 's prior abdominal CT scan" type="BEFORE"/>
+<TLINK fromID="E6" fromText="the patient 's prior abdominal CT scan" id="TL29" toID="E26" toText="This" type="BEFORE"/>
+<TLINK fromID="E30" fromText="her hospital course" id="TL3" toID="E14" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E7" fromText="the exam" id="TL30" toID="E26" toText="This" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="postponed" id="TL31" toID="E8" toText="a scout film" type="AFTER"/>
+<TLINK fromID="E7" fromText="the exam" id="TL32" toID="E18" toText="postponed" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="discharge" id="TL33" toID="E27" toText="discharge" type="OVERLAP"/>
+<TLINK fromID="T5" fromText="the day" id="TL34" toID="T4" toText="the day" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="well" id="TL35" toID="T5" toText="the day" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="afebrile" id="TL36" toID="E30" toText="her hospital course" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="discharge" id="TL37" toID="E29" toText="discharge" type="OVERLAP"/>
+<TLINK fromID="T6" fromText="the night" id="TL38" toID="E31" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E10" fromText="flexion and extension views of the lumbosacral spine" id="TL39" toID="T6" toText="the night" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="Discharge" id="TL4" toID="T2" toText="01/26/1992" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="showed" id="TL40" toID="E10" toText="flexion and extension views of the lumbosacral spine" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="fracture" id="TL41" toID="E32" toText="showed" type="BEFORE"/>
+<TLINK fromID="E12" fromText="instability" id="TL42" toID="E11" toText="fracture" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="struck by a car" id="TL5" toID="E13" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E0" fromText="loss of consciousness" id="TL6" toID="E15" toText="struck by a car" type="OVERLAP"/>
+<TLINK fromID="E0" fromText="loss of consciousness" id="TL7" toID="E16" toText="conscious" type="BEFORE"/>
+<TLINK fromID="E16" fromText="conscious" id="TL8" toID="E17" toText="evaluated" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="paraplegic below the umbilicus" id="TL9" toID="E2" toText="the patient 's paraplegia" type="OVERLAP"/>
+<SECTIME dvalue="1992-01-23" end="28" id="S0" start="18" text="01/23/1992" type="ADMISSION"/>
+<SECTIME dvalue="1992-01-26" end="56" id="S1" start="46" text="01/26/1992" type="DISCHARGE"/>
+<TLINK fromID="E25" fromText="an IVP" id="SECTIME0" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E26" fromText="This" id="SECTIME1" toID="T2" toText="01/26/1992" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="discharge" id="SECTIME2" toID="T2" toText="01/26/1992" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="residual contrast in the colon" id="SECTIME3" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E6" fromText="the patient 's prior abdominal CT scan" id="SECTIME4" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E7" fromText="the exam" id="SECTIME5" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E18" fromText="postponed" id="SECTIME6" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E8" fromText="a scout film" id="SECTIME7" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E28" fromText="well" id="SECTIME8" toID="T2" toText="01/26/1992" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="discharge" id="SECTIME9" toID="T2" toText="01/26/1992" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="afebrile" id="SECTIME10" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E30" fromText="her hospital course" id="SECTIME11" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E31" fromText="discharge" id="SECTIME12" toID="T2" toText="01/26/1992" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="flexion and extension views of the lumbosacral spine" id="SECTIME13" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E32" fromText="showed" id="SECTIME14" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E11" fromText="fracture" id="SECTIME15" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E12" fromText="instability" id="SECTIME16" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E15" fromText="struck by a car" id="SECTIME17" toID="T1" toText="01/23/1992" type="BEFORE"/>
+<TLINK fromID="E0" fromText="loss of consciousness" id="SECTIME18" toID="T1" toText="01/23/1992" type="BEFORE"/>
+<TLINK fromID="E16" fromText="conscious" id="SECTIME19" toID="T1" toText="01/23/1992" type="BEFORE"/>
+<TLINK fromID="E17" fromText="evaluated" id="SECTIME20" toID="T1" toText="01/23/1992" type="BEFORE"/>
+<TLINK fromID="E19" fromText="paraplegic below the umbilicus" id="SECTIME21" toID="T1" toText="01/23/1992" type="BEFORE"/>
+<TLINK fromID="E20" fromText="absence of movement and sensation below the umbilicus" id="SECTIME22" toID="T1" toText="01/23/1992" type="BEFORE"/>
+<TLINK fromID="E21" fromText="A Neurosurgery consultation" id="SECTIME23" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E2" fromText="the patient 's paraplegia" id="SECTIME24" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E3" fromText="a cord concussion" id="SECTIME25" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E22" fromText="intravenous steroids" id="SECTIME26" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E4" fromText="The patient 's paraplegia" id="SECTIME27" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E23" fromText="maintained 5/5 motor strength" id="SECTIME28" toID="T2" toText="01/26/1992" type="BEFORE"/>
+<TLINK fromID="E24" fromText="A Urology consultation" id="SECTIME29" toID="T2" toText="01/26/1992" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

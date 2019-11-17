@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2018-10-25
+Discharge Date :
+2018-10-31
+Service : 
+CARDIOTHORACIC
+History of Present Illness :
+67 y/o male with worsening shortness of breath. Had abnormal ETT and referred for cath .
+Cath revealed severe 3 vessel disease .
+Then referred for surgical intervention .
+Brief Hospital Course :
+Mr. Kammerer was a same day admit and on 10-25 was brought to the operating room where he underwent a coronary artery bypass graft x 3 .
+Please see operative report for surgical details .
+He tolerated the procedure well and was transferred to the CSRU for invasive monitoring in stable condition .
+Later on op day he was weaned from sedation , awoke neurologically intact , and 
+extubated .
+Beta blockers and diuretics were initiated on post-op day one .
+He was diuresed towards his pre-op weight .
+He appeared to be doing well and was transferred to the SDU on this day .
+He did have burst of atrial fibrillation and was started on a Amiodarone gtt .
+His beta blockers were also titrated for maximal BP and HR control .
+Chest tubes were removed on post-op day two and epicardial pacing wires on post-op day three .
+Over the next several days he continued to improve his ambulation and mobility with physical therapy .
+He had no further episodes of AFIB while on po Amiodarone .
+On post-op day five he appeared to have left arm phlebitis and was started on antibiotics .
+He was discharged home on post-op day six with antibiotics and appropriate meds .
+He will have VNA services and make the appropriate follow-up appointments .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="2018-10-24 22:49" lowerbound-start="2018-10-24 22:49" modality="FACTUAL" most-likely-end="2018-10-25 11:25" most-likely-start="2018-10-25 11:22" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="2018-10-27 00:26" upperbound-start="2018-10-26 23:56"/>
+<EVENT end="1039" id="E16" lowerbound-end="2018-10-27 00:30" lowerbound-start="2018-10-25 21:56" modality="FACTUAL" most-likely-end="2018-10-27 12:35" most-likely-start="2018-10-26 12:30" polarity="POS" start="1028" temporally-annotated="YES" text="Chest tubes" type="TREATMENT" upperbound-end="2018-10-29 01:00" upperbound-start="2018-10-28 03:04"/>
+<EVENT end="1099" id="E17" lowerbound-end="2018-10-28 00:30" lowerbound-start="2018-10-26 09:56" modality="FACTUAL" most-likely-end="2018-10-28 12:31" most-likely-start="2018-10-27 00:30" polarity="POS" start="1076" temporally-annotated="YES" text="epicardial pacing wires" type="TREATMENT" upperbound-end="2018-10-30 01:00" upperbound-start="2018-10-28 15:04"/>
+<EVENT end="1173" id="E43" lowerbound-end="2018-10-28 18:12" lowerbound-start="2018-10-26 06:12" modality="FACTUAL" most-likely-end="2018-10-31 17:00" most-likely-start="2018-10-28 23:00" polarity="POS" start="1166" temporally-annotated="YES" text="improve" type="OCCURRENCE" upperbound-end="2018-11-07 15:48" upperbound-start="2018-11-04 15:48"/>
+<EVENT end="1188" id="E45" lowerbound-end="2018-10-28 18:12" lowerbound-start="2018-10-26 06:12" modality="FACTUAL" most-likely-end="2018-10-31 17:00" most-likely-start="2018-10-28 23:00" polarity="POS" start="1174" temporally-annotated="YES" text="his ambulation" type="OCCURRENCE" upperbound-end="2018-11-07 15:48" upperbound-start="2018-11-04 15:48"/>
+<EVENT end="1201" id="E44" lowerbound-end="2018-10-28 18:12" lowerbound-start="2018-10-26 06:12" modality="FACTUAL" most-likely-end="2018-10-31 17:00" most-likely-start="2018-10-28 23:00" polarity="POS" start="1193" temporally-annotated="YES" text="mobility" type="OCCURRENCE" upperbound-end="2018-11-07 15:48" upperbound-start="2018-11-04 15:48"/>
+<EVENT end="1223" id="E18" lowerbound-end="2018-10-28 18:12" lowerbound-start="2018-10-26 06:12" modality="FACTUAL" most-likely-end="2018-10-31 17:00" most-likely-start="2018-10-28 23:00" polarity="POS" start="1207" temporally-annotated="YES" text="physical therapy" type="TREATMENT" upperbound-end="2018-11-07 15:48" upperbound-start="2018-11-04 15:48"/>
+<EVENT end="1260" id="E19" lowerbound-end="2018-11-02 12:00" lowerbound-start="2018-10-25 13:00" modality="FACTUAL" most-likely-end="2018-11-12 00:45" most-likely-start="2018-10-27 14:00" polarity="NEG" start="1236" temporally-annotated="YES" text="further episodes of AFIB" type="PROBLEM" upperbound-end="2018-12-10 18:31" upperbound-start="2018-11-02 15:00"/>
+<EVENT end="1283" id="E20" lowerbound-end="2018-11-04 00:00" lowerbound-start="2018-10-27 01:00" modality="FACTUAL" most-likely-end="2018-12-03 00:45" most-likely-start="2018-10-27 14:00" polarity="POS" start="1270" temporally-annotated="YES" text="po Amiodarone" type="TREATMENT" upperbound-end="2019-06-03 06:31" upperbound-start="2018-10-29 03:00"/>
+<EVENT end="159" id="E28" lowerbound-end="2018-10-13 18:08" lowerbound-start="2018-04-14 06:07" modality="FACTUAL" most-likely-end="2018-10-24 21:15" most-likely-start="2018-09-20 21:15" polarity="POS" start="129" temporally-annotated="YES" text="worsening shortness of breath." type="PROBLEM" upperbound-end="2018-11-28 22:22" upperbound-start="2018-11-13 17:21"/>
+<EVENT end="1344" id="E21" lowerbound-end="2018-10-30 03:24" lowerbound-start="2018-10-30 00:30" modality="FACTUAL" most-likely-end="2018-11-03 00:35" most-likely-start="2018-10-30 12:30" polarity="POS" start="1326" temporally-annotated="YES" text="left arm phlebitis" type="PROBLEM" upperbound-end="2018-11-16 08:54" upperbound-start="2018-11-01 00:30"/>
+<EVENT end="1375" id="E22" lowerbound-end="2018-11-02 23:35" lowerbound-start="2018-10-30 00:35" modality="FACTUAL" most-likely-end="2018-11-13 12:35" most-likely-start="2018-10-30 12:35" polarity="POS" start="1364" temporally-annotated="YES" text="antibiotics" type="TREATMENT" upperbound-end="2018-12-05 09:35" upperbound-start="2018-11-01 00:35"/>
+<EVENT end="1400" id="E46" lowerbound-end="2018-10-31 02:30" lowerbound-start="2018-10-31 01:59" modality="FACTUAL" most-likely-end="2018-10-31 12:30" most-likely-start="2018-10-31 12:27" polarity="POS" start="1385" temporally-annotated="YES" text="discharged home" type="OCCURRENCE" upperbound-end="2018-11-01 22:30" upperbound-start="2018-11-01 22:29"/>
+<EVENT end="1436" id="E23" lowerbound-end="2018-11-02 23:35" lowerbound-start="2018-10-30 00:35" modality="FACTUAL" most-likely-end="2018-11-13 12:35" most-likely-start="2018-10-30 12:35" polarity="POS" start="1425" temporally-annotated="YES" text="antibiotics" type="TREATMENT" upperbound-end="2018-12-05 09:35" upperbound-start="2018-11-01 00:35"/>
+<EVENT end="1457" id="E24" lowerbound-end="2018-11-04 00:00" lowerbound-start="2018-10-29 12:30" modality="FACTUAL" most-likely-end="2018-12-03 00:45" most-likely-start="2018-10-30 00:30" polarity="POS" start="1441" temporally-annotated="YES" text="appropriate meds" type="TREATMENT" upperbound-end="2019-06-03 06:31" upperbound-start="2018-10-31 12:30"/>
+<EVENT end="1485" id="E47" lowerbound-end="2018-11-04 07:53" lowerbound-start="2018-11-04 07:47" modality="FACTUAL" most-likely-end="2018-11-15 13:00" most-likely-start="2018-11-15 12:30" polarity="POS" start="1473" temporally-annotated="YES" text="VNA services" type="TREATMENT" upperbound-end="2018-12-27 15:48" upperbound-start="2018-12-27 03:12"/>
+<EVENT end="1533" id="E48" lowerbound-end="2018-11-04 07:53" lowerbound-start="2018-11-04 07:47" modality="FACTUAL" most-likely-end="2018-11-15 13:00" most-likely-start="2018-11-15 12:30" polarity="POS" start="1511" temporally-annotated="YES" text="follow-up appointments" type="OCCURRENCE" upperbound-end="2018-12-27 15:48" upperbound-start="2018-12-27 03:12"/>
+<EVENT end="176" id="E1" lowerbound-end="2018-04-12 05:27" lowerbound-start="2018-04-12 04:56" modality="FACTUAL" most-likely-end="2018-10-10 12:30" most-likely-start="2018-10-10 11:30" polarity="POS" start="164" temporally-annotated="YES" text="abnormal ETT" type="PROBLEM" upperbound-end="2019-10-09 19:34" upperbound-start="2019-10-09 18:03"/>
+<EVENT end="198" id="E2" lowerbound-end="2018-05-02 12:39" lowerbound-start="2018-05-02 11:59" modality="FACTUAL" most-likely-end="2018-10-18 00:52" most-likely-start="2018-10-17 23:52" polarity="POS" start="194" temporally-annotated="YES" text="cath" type="TEST" upperbound-end="2019-10-04 13:25" upperbound-start="2019-10-04 11:45"/>
+<EVENT end="205" id="E3" lowerbound-end="2018-05-02 12:39" lowerbound-start="2018-05-02 11:59" modality="FACTUAL" most-likely-end="2018-10-18 00:52" most-likely-start="2018-10-17 23:52" polarity="POS" start="201" temporally-annotated="YES" text="Cath" type="TEST" upperbound-end="2019-10-04 13:25" upperbound-start="2019-10-04 11:45"/>
+<EVENT end="214" id="E29" lowerbound-end="2018-05-02 13:16" lowerbound-start="2018-05-02 12:56" modality="FACTUAL" most-likely-end="2018-10-18 00:52" most-likely-start="2018-10-18 00:22" polarity="POS" start="206" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="2019-10-04 12:39" upperbound-start="2019-10-04 11:49"/>
+<EVENT end="238" id="E30" lowerbound-end="2018-10-25 02:02" lowerbound-start="2018-05-02 11:29" modality="FACTUAL" most-likely-end="2018-10-25 15:07" most-likely-start="2018-09-25 02:37" polarity="POS" start="215" temporally-annotated="YES" text="severe 3 vessel disease" type="PROBLEM" upperbound-end="2018-10-27 04:22" upperbound-start="2019-08-19 17:46"/>
+<EVENT end="280" id="E31" lowerbound-end="2018-10-25 00:10" lowerbound-start="2018-10-25 00:09" modality="PROPOSED" most-likely-end="2018-10-25 17:35" most-likely-start="2018-10-25 13:05" polarity="POS" start="259" temporally-annotated="YES" text="surgical intervention" type="TREATMENT" upperbound-end="2018-10-28 02:01" upperbound-start="2018-10-27 02:00"/>
+<EVENT end="38" id="E27" lowerbound-end="2018-10-31 02:30" lowerbound-start="2018-10-31 01:59" modality="FACTUAL" most-likely-end="2018-10-31 12:30" most-likely-start="2018-10-31 12:27" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="2018-11-01 22:30" upperbound-start="2018-11-01 22:29"/>
+<EVENT end="340" id="E32" lowerbound-end="2018-10-24 22:49" lowerbound-start="2018-10-24 22:49" modality="FACTUAL" most-likely-end="2018-10-25 11:30" most-likely-start="2018-10-25 11:22" polarity="POS" start="324" temporally-annotated="YES" text="a same day admit" type="OCCURRENCE" upperbound-end="2018-10-27 00:26" upperbound-start="2018-10-26 23:56"/>
+<EVENT end="387" id="E33" lowerbound-end="2018-10-24 22:14" lowerbound-start="2018-10-24 22:13" modality="FACTUAL" most-likely-end="2018-10-25 15:05" most-likely-start="2018-10-25 12:30" polarity="POS" start="369" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-end="2018-10-27 15:18" upperbound-start="2018-10-27 02:47"/>
+<EVENT end="437" id="E4" lowerbound-end="2018-10-25 00:10" lowerbound-start="2018-10-25 00:09" modality="FACTUAL" most-likely-end="2018-10-25 17:35" most-likely-start="2018-10-25 13:05" polarity="POS" start="407" temporally-annotated="YES" text="a coronary artery bypass graft" type="TREATMENT" upperbound-end="2018-10-28 02:01" upperbound-start="2018-10-27 02:00"/>
+<EVENT end="507" id="E34" lowerbound-end="2018-10-24 22:18" lowerbound-start="2018-10-24 22:17" modality="FACTUAL" most-likely-end="2018-10-25 17:20" most-likely-start="2018-10-25 12:35" polarity="POS" start="498" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-end="2018-10-28 02:53" upperbound-start="2018-10-27 02:52"/>
+<EVENT end="521" id="E5" lowerbound-end="2018-10-24 22:18" lowerbound-start="2018-10-24 22:17" modality="FACTUAL" most-likely-end="2018-10-25 17:20" most-likely-start="2018-10-25 12:35" polarity="POS" start="508" temporally-annotated="YES" text="the procedure" type="TREATMENT" upperbound-end="2018-10-28 02:53" upperbound-start="2018-10-27 02:52"/>
+<EVENT end="526" id="E35" lowerbound-end="2018-10-24 22:18" lowerbound-start="2018-10-24 22:17" modality="FACTUAL" most-likely-end="2018-10-25 17:20" most-likely-start="2018-10-25 12:35" polarity="POS" start="522" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-end="2018-10-28 02:53" upperbound-start="2018-10-27 02:52"/>
+<EVENT end="546" id="E36" lowerbound-end="2018-10-25 04:19" lowerbound-start="2018-10-25 04:18" modality="FACTUAL" most-likely-end="2018-10-25 17:30" most-likely-start="2018-10-25 17:20" polarity="POS" start="535" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="2018-10-27 07:22" upperbound-start="2018-10-27 06:21"/>
+<EVENT end="558" id="E37" lowerbound-end="2018-10-26 03:05" lowerbound-start="2018-10-25 04:30" modality="FACTUAL" most-likely-end="2018-10-26 20:55" most-likely-start="2018-10-25 17:30" polarity="POS" start="550" temporally-annotated="YES" text="the CSRU" type="CLINICAL_DEPT" upperbound-end="2018-10-28 14:44" upperbound-start="2018-10-27 06:30"/>
+<EVENT end="582" id="E6" lowerbound-end="2018-10-26 03:05" lowerbound-start="2018-10-25 04:30" modality="FACTUAL" most-likely-end="2018-10-26 20:55" most-likely-start="2018-10-25 17:30" polarity="POS" start="563" temporally-annotated="YES" text="invasive monitoring" type="TEST" upperbound-end="2018-10-28 14:44" upperbound-start="2018-10-27 06:30"/>
+<EVENT end="602" id="E38" lowerbound-end="2018-10-26 03:05" lowerbound-start="2018-10-25 04:30" modality="FACTUAL" most-likely-end="2018-10-26 20:55" most-likely-start="2018-10-25 17:30" polarity="POS" start="586" temporally-annotated="YES" text="stable condition" type="OCCURRENCE" upperbound-end="2018-10-28 14:44" upperbound-start="2018-10-27 06:30"/>
+<EVENT end="648" id="E7" lowerbound-end="2018-10-25 05:45" lowerbound-start="2018-10-25 02:39" modality="FACTUAL" most-likely-end="2018-10-25 18:50" most-likely-start="2018-10-25 15:35" polarity="POS" start="640" temporally-annotated="YES" text="sedation" type="TREATMENT" upperbound-end="2018-10-27 07:54" upperbound-start="2018-10-27 04:30"/>
+<EVENT end="656" id="E40" lowerbound-end="2018-10-25 05:46" lowerbound-start="2018-10-25 05:45" modality="FACTUAL" most-likely-end="2018-10-25 18:55" most-likely-start="2018-10-25 18:50" polarity="POS" start="651" temporally-annotated="YES" text="awoke" type="OCCURRENCE" upperbound-end="2018-10-27 08:25" upperbound-start="2018-10-27 07:54"/>
+<EVENT end="678" id="E39" lowerbound-end="2018-10-25 05:46" lowerbound-start="2018-10-25 05:45" modality="FACTUAL" most-likely-end="2018-10-25 18:55" most-likely-start="2018-10-25 18:50" polarity="POS" start="657" temporally-annotated="YES" text="neurologically intact" type="OCCURRENCE" upperbound-end="2018-10-27 08:25" upperbound-start="2018-10-27 07:54"/>
+<EVENT end="695" id="E41" lowerbound-end="2018-10-25 05:46" lowerbound-start="2018-10-25 05:45" modality="FACTUAL" most-likely-end="2018-10-25 19:00" most-likely-start="2018-10-25 18:50" polarity="POS" start="686" temporally-annotated="YES" text="extubated" type="OCCURRENCE" upperbound-end="2018-10-27 08:55" upperbound-start="2018-10-27 07:54"/>
+<EVENT end="711" id="E8" lowerbound-end="2018-11-03 00:00" lowerbound-start="2018-10-26 00:30" modality="FACTUAL" most-likely-end="2019-05-11 00:45" most-likely-start="2018-10-26 12:30" polarity="POS" start="698" temporally-annotated="YES" text="Beta blockers" type="TREATMENT" upperbound-end="2023-11-30 18:31" upperbound-start="2018-10-28 00:30"/>
+<EVENT end="725" id="E9" lowerbound-end="2018-11-06 11:59" lowerbound-start="2018-10-26 00:30" modality="FACTUAL" most-likely-end="2018-11-14 12:45" most-likely-start="2018-10-26 12:30" polarity="POS" start="716" temporally-annotated="YES" text="diuretics" type="TREATMENT" upperbound-end="2018-12-08 18:30" upperbound-start="2018-10-28 00:30"/>
+<EVENT end="777" id="E10" lowerbound-end="2018-10-29 12:30" lowerbound-start="2018-10-26 00:30" modality="FACTUAL" most-likely-end="2018-10-31 12:30" most-likely-start="2018-10-26 12:30" polarity="POS" start="769" temporally-annotated="YES" text="diuresed" type="TREATMENT" upperbound-end="2018-11-04 00:30" upperbound-start="2018-10-28 00:30"/>
+<EVENT end="803" id="E11" lowerbound-end="2018-10-29 12:30" lowerbound-start="2018-10-26 00:30" modality="FACTUAL" most-likely-end="2018-10-31 12:30" most-likely-start="2018-10-26 12:30" polarity="POS" start="786" temporally-annotated="YES" text="his pre-op weight" type="TEST" upperbound-end="2018-11-04 00:30" upperbound-start="2018-10-28 00:30"/>
+<EVENT end="834" id="E42" lowerbound-end="2018-10-26 03:05" lowerbound-start="2018-10-25 15:05" modality="FACTUAL" most-likely-end="2018-10-26 20:55" most-likely-start="2018-10-26 02:55" polarity="POS" start="830" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-end="2018-10-28 14:44" upperbound-start="2018-10-27 14:44"/>
+<EVENT end="854" id="E25" lowerbound-end="2018-10-24 21:15" lowerbound-start="2018-10-24 20:44" modality="FACTUAL" most-likely-end="2018-10-26 21:00" most-likely-start="2018-10-26 20:50" polarity="POS" start="843" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="2018-11-01 21:06" upperbound-start="2018-11-01 20:35"/>
+<EVENT end="865" id="E49" lowerbound-end="2018-10-29 09:14" lowerbound-start="2018-10-24 21:19" modality="FACTUAL" most-likely-end="2018-10-31 14:55" most-likely-start="2018-10-26 21:00" polarity="POS" start="858" temporally-annotated="YES" text="the SDU" type="CLINICAL_DEPT" upperbound-end="2018-11-06 20:35" upperbound-start="2018-11-01 20:40"/>
+<EVENT end="920" id="E12" lowerbound-end="2018-10-26 01:01" lowerbound-start="2018-10-26 01:00" modality="FACTUAL" most-likely-end="2018-10-26 14:24" most-likely-start="2018-10-26 14:00" polarity="POS" start="892" temporally-annotated="YES" text="burst of atrial fibrillation" type="PROBLEM" upperbound-end="2018-10-28 15:31" upperbound-start="2018-10-28 03:00"/>
+<EVENT end="956" id="E13" lowerbound-end="2018-11-03 00:00" lowerbound-start="2018-10-26 01:00" modality="FACTUAL" most-likely-end="2018-11-10 12:45" most-likely-start="2018-10-26 14:00" polarity="POS" start="940" temporally-annotated="YES" text="a Amiodarone gtt" type="TREATMENT" upperbound-end="2018-12-05 06:31" upperbound-start="2018-10-28 03:00"/>
+<EVENT end="976" id="E14" lowerbound-end="2018-11-03 00:00" lowerbound-start="2018-10-26 00:30" modality="FACTUAL" most-likely-end="2019-05-11 00:45" most-likely-start="2018-10-26 12:30" polarity="POS" start="959" temporally-annotated="YES" text="His beta blockers" type="TREATMENT" upperbound-end="2023-11-30 18:31" upperbound-start="2018-10-28 00:30"/>
+<EVENT end="1025" id="E15" lowerbound-end="2018-11-03 00:00" lowerbound-start="2018-10-26 00:30" modality="FACTUAL" most-likely-end="2019-05-11 00:45" most-likely-start="2018-10-26 12:30" polarity="POS" start="1000" temporally-annotated="YES" text="maximal BP and HR control" type="TREATMENT" upperbound-end="2023-11-30 18:31" upperbound-start="2018-10-28 00:30"/>
+<TIMEX3 end="1071" id="T6" mod="NA" start="1056" text="post-op day two" type="DATE" val="2018-10-27"/>
+<TIMEX3 end="1120" id="T7" mod="NA" start="1103" text="post-op day three" type="DATE" val="2018-10-28"/>
+<TIMEX3 end="1149" id="T10" mod="APPROX" start="1128" text="the next several days" type="DURATION" val="P3D"/>
+<TIMEX3 end="1305" id="T8" mod="NA" start="1289" text="post-op day five" type="DATE" val="2018-10-30"/>
+<TIMEX3 end="1419" id="T9" mod="NA" start="1404" text="post-op day six" type="DATE" val="2018-10-31"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="2018-10-25" type="DATE" val="2018-10-25"/>
+<TIMEX3 end="353" id="T3" mod="NA" start="348" text="10-25" type="DATE" val="2018-10-25"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="2018-10-31" type="DATE" val="2018-10-31"/>
+<TIMEX3 end="620" id="T0" mod="END" start="605" text="Later on op day" type="DATE" val="2018-10-25"/>
+<TIMEX3 end="759" id="T4" mod="NA" start="744" text="post-op day one" type="DATE" val="2018-10-26"/>
+<TIMEX3 end="877" id="T5" mod="NA" start="869" text="this day" type="DATE" val="2018-10-26"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T1" toText="2018-10-25" type="SIMULTANEOUS"/>
+<TLINK fromID="E13" fromText="a Amiodarone gtt" id="TL1" toID="E20" toText="po Amiodarone" type="simultaneous"/>
+<TLINK fromID="E13" fromText="a Amiodarone gtt" id="TL10" toID="E12" toText="burst of atrial fibrillation" type="AFTER"/>
+<TLINK fromID="E14" fromText="His beta blockers" id="TL11" toID="E15" toText="maximal BP and HR control" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="Chest tubes" id="TL12" toID="T6" toText="post-op day two" type="ENDED_BY"/>
+<TLINK fromID="E17" fromText="epicardial pacing wires" id="TL13" toID="T7" toText="post-op day three" type="ENDED_BY"/>
+<TLINK fromID="E27" fromText="Discharge" id="TL14" toID="T2" toText="2018-10-31" type="SIMULTANEOUS"/>
+<TLINK fromID="E28" fromText="worsening shortness of breath." id="TL15" toID="E1" toText="abnormal ETT" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E2" fromText="cath" id="TL16" toID="E1" toText="abnormal ETT" type="AFTER"/>
+<TLINK fromID="E30" fromText="severe 3 vessel disease" id="TL17" toID="E3" toText="Cath" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E31" fromText="surgical intervention" id="TL18" toID="E3" toText="Cath" type="AFTER"/>
+<TLINK fromID="E29" fromText="revealed" id="TL19" toID="E3" toText="Cath" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="Beta blockers" id="TL2" toID="E14" toText="His beta blockers" type="simultaneous"/>
+<TLINK fromID="E32" fromText="a same day admit" id="TL20" toID="T3" toText="10-25" type="SIMULTANEOUS"/>
+<TLINK fromID="E33" fromText="the operating room" id="TL21" toID="T3" toText="10-25" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="a coronary artery bypass graft" id="TL22" toID="E33" toText="the operating room" type="DURING"/>
+<TLINK fromID="E16" fromText="Chest tubes" id="TL23" toID="E4" toText="a coronary artery bypass graft" type="BEGUN_BY"/>
+<TLINK fromID="E34" fromText="tolerated" id="TL24" toID="E5" toText="the procedure" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="well" id="TL26" toID="E34" toText="tolerated" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="the CSRU" id="TL27" toID="E36" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E33" fromText="the operating room" id="TL28" toID="E36" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E6" fromText="invasive monitoring" id="TL29" toID="E37" toText="the CSRU" type="DURING"/>
+<TLINK fromID="E9" fromText="diuretics" id="TL3" toID="E10" toText="diuresed" type="simultaneous"/>
+<TLINK fromID="E38" fromText="stable condition" id="TL30" toID="E36" toText="transferred" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="sedation" id="TL31" toID="T0" toText="Later on op day" type="ENDED_BY"/>
+<TLINK fromID="E7" fromText="sedation" id="TL32" toID="E40" toText="awoke" type="BEFORE"/>
+<TLINK fromID="E39" fromText="neurologically intact" id="TL33" toID="E40" toText="awoke" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="awoke" id="TL34" toID="E41" toText="extubated" type="BEFORE"/>
+<TLINK fromID="E11" fromText="his pre-op weight" id="TL35" toID="E10" toText="diuresed" type="BEFORE"/>
+<TLINK fromID="E11" fromText="his pre-op weight" id="TL36" toID="E5" toText="the procedure" type="BEFORE"/>
+<TLINK fromID="E10" fromText="diuresed" id="TL37" toID="E5" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E10" fromText="diuresed" id="TL38" toID="E42" toText="well" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="transferred" id="TL39" toID="T5" toText="this day" type="SIMULTANEOUS"/>
+<TLINK fromID="E2" fromText="cath" id="TL4" toID="E3" toText="Cath" type="simultaneous"/>
+<TLINK fromID="E37" fromText="the CSRU" id="TL40" toID="E25" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E49" fromText="the SDU" id="TL41" toID="E25" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E42" fromText="well" id="TL42" toID="E25" toText="transferred" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="improve" id="TL43" toID="T10" toText="the next several days" type="DURING"/>
+<TLINK fromID="E44" fromText="mobility" id="TL44" toID="E43" toText="improve" type="OVERLAP"/>
+<TLINK fromID="E45" fromText="his ambulation" id="TL45" toID="E43" toText="improve" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="improve" id="TL46" toID="E18" toText="physical therapy" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="further episodes of AFIB" id="TL47" toID="E20" toText="po Amiodarone" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="antibiotics" id="TL48" toID="T8" toText="post-op day five" type="BEGUN_BY"/>
+<TLINK fromID="E21" fromText="left arm phlebitis" id="TL49" toID="E22" toText="antibiotics" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E4" fromText="a coronary artery bypass graft" id="TL5" toID="E5" toText="the procedure" type="simultaneous"/>
+<TLINK fromID="E46" fromText="discharged home" id="TL50" toID="T9" toText="post-op day six" type="SIMULTANEOUS"/>
+<TLINK fromID="E23" fromText="antibiotics" id="TL51" toID="E46" toText="discharged home" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E24" fromText="appropriate meds" id="TL52" toID="E46" toText="discharged home" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E49" fromText="the SDU" id="TL53" toID="E46" toText="discharged home" type="ENDED_BY"/>
+<TLINK fromID="E48" fromText="follow-up appointments" id="TL54" toID="E46" toText="discharged home" type="AFTER"/>
+<TLINK fromID="E47" fromText="VNA services" id="TL55" toID="E46" toText="discharged home" type="AFTER"/>
+<TLINK fromID="E22" fromText="antibiotics" id="TL6" toID="E23" toText="antibiotics" type="simultaneous"/>
+<TLINK fromID="E8" fromText="Beta blockers" id="TL7" toID="T4" toText="post-op day one" type="BEGUN_BY"/>
+<TLINK fromID="E9" fromText="diuretics" id="TL8" toID="T4" toText="post-op day one" type="BEGUN_BY"/>
+<SECTIME dvalue="2018-10-25" end="28" id="S0" start="18" text="2018-10-25" type="ADMISSION"/>
+<SECTIME dvalue="2018-10-31" end="56" id="S1" start="46" text="2018-10-31" type="DISCHARGE"/>
+<TLINK fromID="E16" fromText="Chest tubes" id="SECTIME0" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E17" fromText="epicardial pacing wires" id="SECTIME1" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E43" fromText="improve" id="SECTIME2" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E45" fromText="his ambulation" id="SECTIME3" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E44" fromText="mobility" id="SECTIME4" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E18" fromText="physical therapy" id="SECTIME5" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E19" fromText="further episodes of AFIB" id="SECTIME6" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E20" fromText="po Amiodarone" id="SECTIME7" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E28" fromText="worsening shortness of breath." id="SECTIME8" toID="T1" toText="2018-10-25" type="BEFORE"/>
+<TLINK fromID="E21" fromText="left arm phlebitis" id="SECTIME9" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E22" fromText="antibiotics" id="SECTIME10" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E46" fromText="discharged home" id="SECTIME11" toID="T2" toText="2018-10-31" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="antibiotics" id="SECTIME12" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E24" fromText="appropriate meds" id="SECTIME13" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E47" fromText="VNA services" id="SECTIME14" toID="T2" toText="2018-10-31" type="AFTER"/>
+<TLINK fromID="E48" fromText="follow-up appointments" id="SECTIME15" toID="T2" toText="2018-10-31" type="AFTER"/>
+<TLINK fromID="E1" fromText="abnormal ETT" id="SECTIME16" toID="T1" toText="2018-10-25" type="BEFORE"/>
+<TLINK fromID="E2" fromText="cath" id="SECTIME17" toID="T1" toText="2018-10-25" type="BEFORE"/>
+<TLINK fromID="E3" fromText="Cath" id="SECTIME18" toID="T1" toText="2018-10-25" type="BEFORE"/>
+<TLINK fromID="E29" fromText="revealed" id="SECTIME19" toID="T1" toText="2018-10-25" type="BEFORE"/>
+<TLINK fromID="E30" fromText="severe 3 vessel disease" id="SECTIME20" toID="T1" toText="2018-10-25" type="BEFORE"/>
+<TLINK fromID="E31" fromText="surgical intervention" id="SECTIME21" toID="T1" toText="2018-10-25" type="AFTER"/>
+<TLINK fromID="E32" fromText="a same day admit" id="SECTIME22" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E33" fromText="the operating room" id="SECTIME23" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E4" fromText="a coronary artery bypass graft" id="SECTIME24" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E34" fromText="tolerated" id="SECTIME25" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E5" fromText="the procedure" id="SECTIME26" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E35" fromText="well" id="SECTIME27" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E36" fromText="transferred" id="SECTIME28" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E37" fromText="the CSRU" id="SECTIME29" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E6" fromText="invasive monitoring" id="SECTIME30" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E38" fromText="stable condition" id="SECTIME31" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E7" fromText="sedation" id="SECTIME32" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E40" fromText="awoke" id="SECTIME33" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E39" fromText="neurologically intact" id="SECTIME34" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E41" fromText="extubated" id="SECTIME35" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E8" fromText="Beta blockers" id="SECTIME36" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E9" fromText="diuretics" id="SECTIME37" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E10" fromText="diuresed" id="SECTIME38" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E11" fromText="his pre-op weight" id="SECTIME39" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E42" fromText="well" id="SECTIME40" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E25" fromText="transferred" id="SECTIME41" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E49" fromText="the SDU" id="SECTIME42" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E12" fromText="burst of atrial fibrillation" id="SECTIME43" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E13" fromText="a Amiodarone gtt" id="SECTIME44" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E14" fromText="His beta blockers" id="SECTIME45" toID="T2" toText="2018-10-31" type="BEFORE"/>
+<TLINK fromID="E15" fromText="maximal BP and HR control" id="SECTIME46" toID="T2" toText="2018-10-31" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+02/17/2000
+Report Status :
+Signed
+HISTORY OF PRESENT ILLNESS :
+Ri Strength is a 40 year old man with a history of GERD , who presents with abdominal pain of seven days duration .
+The patient was in general good health until seven days ago ( 2/11/00 ) , when he had a sudden onset of sharp left flank pain with radiation to the lower abdomen and then to the epigastrium .
+The patient described the pain as &amp;quot; knife-like &amp;quot; with a severity of 1/25 at its worse .
+The patient was exacerbated when eating and when lying flat .
+The patient also reports blood-streaked diarrhea for two days .
+He denies nausea and vomiting .
+He has had no fevers or chills .
+He has had no recent weight loss , no light-headedness or dizziness .
+He denies increased urinary frequent or urgency .
+The patient presented to the Sloan- Center Emergency Department , where he was resuscitated with normal saline and received morphine for pain .
+He was then transferred to the general medicine service for further management .
+HOSPITAL COURSE :
+On admission , the patient was diagnosed with acute pancreatitis .
+He was made NPO and was resuscitated with IV fluids .
+Pain control was initiated with morphine but was then changed to Demerol , which gave the patient better relief of his epigastric pain .
+From 2/17/00 to 2/21/00 , the patient complained of persistent and occasionally severe epigastric pain .
+His pain medication was then changed to Dilaudid IV in an attempt to better alleviate his symptoms .
+Dilaudid IV was continued for the remainder of the patient &amp;apos;s hospitalization .
+The does was titrated to the patient &amp;apos;s need for comfort and was eventually tapered .
+The severity and persistent of the patient &amp;apos;s epigastric pain was concerning for a pancreatic complication such as necrosis or abscess .
+The patient had a CT scan , which revealed a mass in the gallbladder neck , but no biliary dilatation .
+There was stranding along the pancreas , but no necrosis , abscess , or pseudocyst .
+On 2/22/00 , the patient had fevers to 103.5 .
+Blood and urine cultures were sent .
+A chest x-ray was done , which revealed no infiltrate or effusion .
+The patient was started on cefotaxime 1 gm IV for empiric antibiotic treatment .
+All cultures were negative .
+On 2/23/00 , the high grade fever persisted .
+An ultrasound was done to R / O cholestasis or cholangitis .
+The ultrasound showed biliary sludge and swelling of the body and tail of the pancreas .
+No other abnormalities were noted .
+On 2/24/00 , the patient had an episode of exacerbation of epigastric pain with radiation to the left upper quadrant .
+The pain was subsequently relieved with high dose Dilaudid .
+The patient had a follow-up chest x-ray , which was essentially unchanged from previously , showing a normal heart and lungs without infiltrate .
+From 2/25 - 2/27/00 , the patient &amp;apos;s fever defervesced and his abdominal pain gradually subsided .
+The cefotaxime was discontinued since no infection was identified .
+On 2/28/00 , the patient &amp;apos;s diet was advanced to a low fat solids ( per pancreatitis study ) , which the patient tolerated well .
+The patient was discharged home on 2/29/00 , with much improvement of his symptoms .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="2000-02-17 01:50" lowerbound-start="2000-02-17 01:49" modality="FACTUAL" most-likely-end="2000-02-17 14:07" most-likely-start="2000-02-17 14:05" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="2000-02-19 02:51" upperbound-start="2000-02-19 02:20"/>
+<EVENT end="1020" id="E85" lowerbound-end="2000-02-28 19:49" lowerbound-start="2000-02-17 01:49" modality="FACTUAL" most-likely-end="2000-02-29 14:05" most-likely-start="2000-02-17 14:05" polarity="POS" start="1002" temporally-annotated="YES" text="further management" type="TREATMENT" upperbound-end="2000-03-02 08:20" upperbound-start="2000-02-19 02:20"/>
+<EVENT end="1053" id="E54" lowerbound-end="2000-02-17 01:54" lowerbound-start="2000-02-17 01:53" modality="FACTUAL" most-likely-end="2000-02-17 14:15" most-likely-start="2000-02-17 14:07" polarity="POS" start="1044" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-end="2000-02-19 02:52" upperbound-start="2000-02-19 02:21"/>
+<EVENT end="1081" id="E55" lowerbound-end="2000-02-17 01:57" lowerbound-start="2000-02-17 01:52" modality="FACTUAL" most-likely-end="2000-02-17 14:52" most-likely-start="2000-02-17 14:37" polarity="POS" start="1072" temporally-annotated="YES" text="diagnosed" type="OCCURRENCE" upperbound-end="2000-02-19 04:28" upperbound-start="2000-02-19 03:23"/>
+<EVENT end="1105" id="E6" lowerbound-end="2000-02-23 01:54" lowerbound-start="2000-02-17 01:53" modality="FACTUAL" most-likely-end="2000-02-23 14:15" most-likely-start="2000-02-17 14:07" polarity="POS" start="1087" temporally-annotated="YES" text="acute pancreatitis" type="PROBLEM" upperbound-end="2000-02-25 02:52" upperbound-start="2000-02-19 02:21"/>
+<EVENT end="1123" id="E7" lowerbound-end="2000-02-17 13:11" lowerbound-start="2000-02-17 01:53" modality="FACTUAL" most-likely-end="2000-03-13 11:07" most-likely-start="2000-02-17 14:07" polarity="POS" start="1120" temporally-annotated="YES" text="NPO" type="TREATMENT" upperbound-end="2000-10-07 09:04" upperbound-start="2000-02-19 02:21"/>
+<EVENT end="1144" id="E86" lowerbound-end="2000-02-17 13:11" lowerbound-start="2000-02-17 01:53" modality="FACTUAL" most-likely-end="2000-03-13 11:07" most-likely-start="2000-02-17 14:07" polarity="POS" start="1132" temporally-annotated="YES" text="resuscitated" type="TREATMENT" upperbound-end="2000-10-07 09:04" upperbound-start="2000-02-19 02:21"/>
+<EVENT end="1159" id="E8" lowerbound-end="2000-02-17 13:11" lowerbound-start="2000-02-17 01:53" modality="FACTUAL" most-likely-end="2000-03-13 11:07" most-likely-start="2000-02-17 14:07" polarity="POS" start="1150" temporally-annotated="YES" text="IV fluids" type="TREATMENT" upperbound-end="2000-10-07 09:04" upperbound-start="2000-02-19 02:21"/>
+<EVENT end="1174" id="E9" lowerbound-end="2000-02-22 23:35" lowerbound-start="2000-02-16 23:34" modality="FACTUAL" most-likely-end="2000-02-23 14:05" most-likely-start="2000-02-17 11:50" polarity="POS" start="1162" temporally-annotated="YES" text="Pain control" type="TREATMENT" upperbound-end="2000-02-25 12:06" upperbound-start="2000-02-19 00:05"/>
+<EVENT end="1202" id="E10" lowerbound-end="2000-02-16 23:50" lowerbound-start="2000-02-16 23:34" modality="FACTUAL" most-likely-end="2000-02-18 00:20" most-likely-start="2000-02-17 11:50" polarity="POS" start="1194" temporally-annotated="YES" text="morphine" type="TREATMENT" upperbound-end="2000-02-19 12:51" upperbound-start="2000-02-19 00:05"/>
+<EVENT end="1234" id="E11" lowerbound-end="2000-02-15 03:49" lowerbound-start="2000-02-15 03:48" modality="FACTUAL" most-likely-end="2000-02-18 13:20" most-likely-start="2000-02-18 00:20" polarity="POS" start="1227" temporally-annotated="YES" text="Demerol" type="TREATMENT" upperbound-end="2000-02-25 20:53" upperbound-start="2000-02-24 20:52"/>
+<EVENT end="1296" id="E12" lowerbound-end="2000-02-22 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-23 00:30" most-likely-start="2000-02-11 12:30" polarity="POS" start="1277" temporally-annotated="YES" text="his epigastric pain" type="PROBLEM" upperbound-end="2000-02-24 18:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="136" id="E59" lowerbound-end="1965-02-01 16:14" lowerbound-start="1964-06-18 13:14" modality="FACTUAL" most-likely-end="2033-07-25 18:30" most-likely-start="1992-07-25 18:30" polarity="POS" start="132" temporally-annotated="YES" text="GERD" type="PROBLEM" upperbound-end="2131-03-22 02:46" upperbound-start="2075-08-18 23:46"/>
+<EVENT end="1347" id="E56" lowerbound-end="2000-02-21 00:14" lowerbound-start="2000-02-17 01:49" modality="FACTUAL" most-likely-end="2000-02-21 12:30" most-likely-start="2000-02-17 14:05" polarity="POS" start="1337" temporally-annotated="YES" text="complained" type="EVIDENTIAL" upperbound-end="2000-02-23 00:45" upperbound-start="2000-02-19 02:20"/>
+<EVENT end="1401" id="E87" lowerbound-end="2000-02-21 00:14" lowerbound-start="2000-02-17 01:49" modality="FACTUAL" most-likely-end="2000-02-21 12:30" most-likely-start="2000-02-17 14:05" polarity="POS" start="1351" temporally-annotated="YES" text="persistent and occasionally severe epigastric pain" type="PROBLEM" upperbound-end="2000-02-23 00:45" upperbound-start="2000-02-19 02:20"/>
+<EVENT end="1423" id="E13" lowerbound-end="2000-02-26 18:40" lowerbound-start="2000-02-17 00:40" modality="FACTUAL" most-likely-end="2000-02-29 01:20" most-likely-start="2000-02-17 13:20" polarity="POS" start="1404" temporally-annotated="YES" text="His pain medication" type="TREATMENT" upperbound-end="2000-03-03 07:59" upperbound-start="2000-02-19 01:59"/>
+<EVENT end="151" id="E52" lowerbound-end="2000-02-17 01:54" lowerbound-start="2000-02-17 01:53" modality="FACTUAL" most-likely-end="2000-02-17 14:15" most-likely-start="2000-02-17 14:07" polarity="POS" start="143" temporally-annotated="YES" text="presents" type="EVIDENTIAL" upperbound-end="2000-02-19 02:52" upperbound-start="2000-02-19 02:21"/>
+<EVENT end="1455" id="E14" lowerbound-end="2000-02-26 18:40" lowerbound-start="2000-02-18 00:40" modality="FACTUAL" most-likely-end="2000-02-29 01:20" most-likely-start="2000-02-18 13:20" polarity="POS" start="1444" temporally-annotated="YES" text="Dilaudid IV" type="TREATMENT" upperbound-end="2000-03-03 07:59" upperbound-start="2000-02-20 01:59"/>
+<EVENT end="1502" id="E15" lowerbound-end="2000-02-20 19:57" lowerbound-start="2000-02-13 23:57" modality="FACTUAL" most-likely-end="2000-02-21 13:30" most-likely-start="2000-02-14 12:30" polarity="POS" start="1490" temporally-annotated="YES" text="his symptoms" type="PROBLEM" upperbound-end="2000-02-23 07:03" upperbound-start="2000-02-16 01:02"/>
+<EVENT end="1516" id="E16" lowerbound-end="2000-02-26 18:40" lowerbound-start="2000-02-18 00:40" modality="FACTUAL" most-likely-end="2000-02-29 01:20" most-likely-start="2000-02-18 13:20" polarity="POS" start="1505" temporally-annotated="YES" text="Dilaudid IV" type="TREATMENT" upperbound-end="2000-03-03 07:59" upperbound-start="2000-02-20 01:59"/>
+<EVENT end="171" id="E1" lowerbound-end="2000-02-22 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-23 00:30" most-likely-start="2000-02-11 12:30" polarity="POS" start="157" temporally-annotated="YES" text="abdominal pain" type="PROBLEM" upperbound-end="2000-02-24 18:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="1587" id="E88" lowerbound-end="2000-02-28 14:14" lowerbound-start="2000-02-17 01:49" modality="FACTUAL" most-likely-end="2000-02-29 00:30" most-likely-start="2000-02-17 14:05" polarity="POS" start="1572" temporally-annotated="YES" text="hospitalization" type="OCCURRENCE" upperbound-end="2000-03-01 10:45" upperbound-start="2000-02-19 02:20"/>
+<EVENT end="1611" id="E89" lowerbound-end="2000-02-21 18:41" lowerbound-start="2000-02-18 00:40" modality="FACTUAL" most-likely-end="2000-02-24 13:20" most-likely-start="2000-02-18 13:20" polarity="POS" start="1603" temporally-annotated="YES" text="titrated" type="TREATMENT" upperbound-end="2000-03-01 20:00" upperbound-start="2000-02-20 01:59"/>
+<EVENT end="1678" id="E90" lowerbound-end="2000-02-26 18:40" lowerbound-start="2000-02-20 11:06" modality="FACTUAL" most-likely-end="2000-02-29 01:20" most-likely-start="2000-02-22 01:20" polarity="POS" start="1671" temporally-annotated="YES" text="tapered" type="TREATMENT" upperbound-end="2000-03-03 07:59" upperbound-start="2000-02-27 15:34"/>
+<EVENT end="1747" id="E17" lowerbound-end="2000-02-23 15:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-25 00:30" most-likely-start="2000-02-11 12:30" polarity="POS" start="1712" temporally-annotated="YES" text="the patient 's epigastric pain" type="PROBLEM" upperbound-end="2000-02-29 03:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="1792" id="E18" lowerbound-end="2000-02-18 03:30" lowerbound-start="2000-02-13 12:30" modality="POSSIBLE" most-likely-end="2000-02-21 00:30" most-likely-start="2000-02-15 12:30" polarity="POS" start="1767" temporally-annotated="YES" text="a pancreatic complication" type="PROBLEM" upperbound-end="2000-02-29 16:00" upperbound-start="2000-02-21 12:30"/>
+<EVENT end="1809" id="E19" lowerbound-end="2000-02-18 03:30" lowerbound-start="2000-02-13 12:30" modality="POSSIBLE" most-likely-end="2000-02-21 00:30" most-likely-start="2000-02-15 12:30" polarity="POS" start="1801" temporally-annotated="YES" text="necrosis" type="PROBLEM" upperbound-end="2000-02-29 16:00" upperbound-start="2000-02-21 12:30"/>
+<EVENT end="1820" id="E20" lowerbound-end="2000-02-18 03:30" lowerbound-start="2000-02-13 12:30" modality="POSSIBLE" most-likely-end="2000-02-21 00:30" most-likely-start="2000-02-15 12:30" polarity="POS" start="1813" temporally-annotated="YES" text="abscess" type="PROBLEM" upperbound-end="2000-02-29 16:00" upperbound-start="2000-02-21 12:30"/>
+<EVENT end="1848" id="E21" lowerbound-end="2000-02-16 12:43" lowerbound-start="2000-02-16 12:30" modality="FACTUAL" most-likely-end="2000-02-20 01:00" most-likely-start="2000-02-20 00:30" polarity="POS" start="1839" temporally-annotated="YES" text="a CT scan" type="TEST" upperbound-end="2000-03-01 13:43" upperbound-start="2000-03-01 12:30"/>
+<EVENT end="1865" id="E91" lowerbound-end="2000-02-16 12:43" lowerbound-start="2000-02-16 12:30" modality="FACTUAL" most-likely-end="2000-02-20 01:00" most-likely-start="2000-02-20 00:30" polarity="POS" start="1857" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="2000-03-01 13:43" upperbound-start="2000-03-01 12:30"/>
+<EVENT end="1896" id="E22" lowerbound-end="2000-02-17 00:15" lowerbound-start="2000-02-17 00:14" modality="FACTUAL" most-likely-end="2000-03-04 12:40" most-likely-start="2000-02-19 00:30" polarity="POS" start="1866" temporally-annotated="YES" text="a mass in the gallbladder neck" type="PROBLEM" upperbound-end="2000-08-25 13:16" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="1924" id="E23" lowerbound-end="2000-02-16 12:30" lowerbound-start="2000-02-16 12:30" modality="FACTUAL" most-likely-end="2000-02-20 00:40" most-likely-start="2000-02-20 00:30" polarity="NEG" start="1906" temporally-annotated="YES" text="biliary dilatation" type="PROBLEM" upperbound-end="2000-03-01 13:31" upperbound-start="2000-03-01 12:30"/>
+<EVENT end="1965" id="E24" lowerbound-end="2000-02-17 00:15" lowerbound-start="2000-02-17 00:14" modality="FACTUAL" most-likely-end="2000-03-04 12:40" most-likely-start="2000-02-19 00:30" polarity="POS" start="1937" temporally-annotated="YES" text="stranding along the pancreas" type="PROBLEM" upperbound-end="2000-08-25 13:16" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="1983" id="E25" lowerbound-end="2000-02-16 12:30" lowerbound-start="2000-02-16 12:30" modality="FACTUAL" most-likely-end="2000-02-20 00:40" most-likely-start="2000-02-20 00:30" polarity="NEG" start="1975" temporally-annotated="YES" text="necrosis" type="PROBLEM" upperbound-end="2000-03-01 13:31" upperbound-start="2000-03-01 12:30"/>
+<EVENT end="1993" id="E26" lowerbound-end="2000-02-16 12:30" lowerbound-start="2000-02-16 12:30" modality="FACTUAL" most-likely-end="2000-02-20 00:40" most-likely-start="2000-02-20 00:30" polarity="NEG" start="1986" temporally-annotated="YES" text="abscess" type="PROBLEM" upperbound-end="2000-03-01 13:31" upperbound-start="2000-03-01 12:30"/>
+<EVENT end="2009" id="E27" lowerbound-end="2000-02-16 12:30" lowerbound-start="2000-02-16 12:30" modality="FACTUAL" most-likely-end="2000-02-20 00:40" most-likely-start="2000-02-20 00:30" polarity="NEG" start="1999" temporally-annotated="YES" text="pseudocyst" type="PROBLEM" upperbound-end="2000-03-01 13:31" upperbound-start="2000-03-01 12:30"/>
+<EVENT end="2047" id="E28" lowerbound-end="2000-02-24 18:14" lowerbound-start="2000-02-22 00:14" modality="FACTUAL" most-likely-end="2000-02-27 00:30" most-likely-start="2000-02-22 12:30" polarity="POS" start="2041" temporally-annotated="YES" text="fevers" type="PROBLEM" upperbound-end="2000-03-01 06:45" upperbound-start="2000-02-24 00:45"/>
+<EVENT end="2083" id="E29" lowerbound-end="2000-02-22 00:15" lowerbound-start="2000-02-22 00:14" modality="FACTUAL" most-likely-end="2000-02-22 12:37" most-likely-start="2000-02-22 12:30" polarity="POS" start="2059" temporally-annotated="YES" text="Blood and urine cultures" type="TEST" upperbound-end="2000-02-24 01:46" upperbound-start="2000-02-24 00:45"/>
+<EVENT end="2109" id="E30" lowerbound-end="2000-02-22 00:20" lowerbound-start="2000-02-22 00:19" modality="FACTUAL" most-likely-end="2000-02-22 12:50" most-likely-start="2000-02-22 12:35" polarity="POS" start="2096" temporally-annotated="YES" text="A chest x-ray" type="TEST" upperbound-end="2000-02-24 01:51" upperbound-start="2000-02-24 00:50"/>
+<EVENT end="2135" id="E92" lowerbound-end="2000-02-22 00:20" lowerbound-start="2000-02-22 00:19" modality="FACTUAL" most-likely-end="2000-02-22 12:50" most-likely-start="2000-02-22 12:35" polarity="POS" start="2127" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="2000-02-24 01:51" upperbound-start="2000-02-24 00:50"/>
+<EVENT end="2149" id="E31" lowerbound-end="2000-02-22 00:20" lowerbound-start="2000-02-22 00:19" modality="FACTUAL" most-likely-end="2000-02-22 12:43" most-likely-start="2000-02-22 12:35" polarity="NEG" start="2139" temporally-annotated="YES" text="infiltrate" type="PROBLEM" upperbound-end="2000-02-24 01:51" upperbound-start="2000-02-24 00:50"/>
+<EVENT end="2161" id="E32" lowerbound-end="2000-02-22 00:20" lowerbound-start="2000-02-22 00:19" modality="FACTUAL" most-likely-end="2000-02-22 12:43" most-likely-start="2000-02-22 12:35" polarity="NEG" start="2153" temporally-annotated="YES" text="effusion" type="PROBLEM" upperbound-end="2000-02-24 01:51" upperbound-start="2000-02-24 00:50"/>
+<EVENT end="235" id="E53" lowerbound-end="1999-10-25 10:54" lowerbound-start="1961-06-12 04:30" modality="FACTUAL" most-likely-end="2000-02-14 12:30" most-likely-start="1995-01-01 06:30" polarity="POS" start="216" temporally-annotated="YES" text="general good health" type="OCCURRENCE" upperbound-end="2001-04-20 02:07" upperbound-start="2079-01-08 20:29"/>
+<EVENT end="2201" id="E33" lowerbound-end="2000-02-22 09:28" lowerbound-start="2000-02-22 00:27" modality="FACTUAL" most-likely-end="2000-02-26 12:43" most-likely-start="2000-02-22 12:42" polarity="POS" start="2191" temporally-annotated="YES" text="cefotaxime" type="TREATMENT" upperbound-end="2000-03-05 15:58" upperbound-start="2000-02-24 00:58"/>
+<EVENT end="2242" id="E34" lowerbound-end="2000-02-22 09:28" lowerbound-start="2000-02-22 00:27" modality="FACTUAL" most-likely-end="2000-02-26 12:43" most-likely-start="2000-02-22 12:42" polarity="POS" start="2214" temporally-annotated="YES" text="empiric antibiotic treatment" type="TREATMENT" upperbound-end="2000-03-05 15:58" upperbound-start="2000-02-24 00:58"/>
+<EVENT end="2257" id="E93" lowerbound-end="2000-02-22 00:01" lowerbound-start="2000-02-22 00:00" modality="FACTUAL" most-likely-end="2000-02-22 14:00" most-likely-start="2000-02-22 12:00" polarity="POS" start="2245" temporally-annotated="YES" text="All cultures" type="TEST" upperbound-end="2000-02-25 00:01" upperbound-start="2000-02-24 00:00"/>
+<EVENT end="2307" id="E35" lowerbound-end="2000-02-24 18:14" lowerbound-start="2000-02-22 00:14" modality="FACTUAL" most-likely-end="2000-02-27 00:30" most-likely-start="2000-02-22 12:30" polarity="POS" start="2287" temporally-annotated="YES" text="the high grade fever" type="PROBLEM" upperbound-end="2000-03-01 06:45" upperbound-start="2000-02-24 00:45"/>
+<EVENT end="2333" id="E36" lowerbound-end="2000-02-23 00:25" lowerbound-start="2000-02-23 00:14" modality="FACTUAL" most-likely-end="2000-02-23 13:02" most-likely-start="2000-02-23 12:30" polarity="POS" start="2320" temporally-annotated="YES" text="An ultrasound" type="TEST" upperbound-end="2000-02-25 01:56" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="2363" id="E94" lowerbound-end="2000-02-23 00:17" lowerbound-start="2000-02-23 00:14" modality="POSSIBLE" most-likely-end="2000-02-23 12:45" most-likely-start="2000-02-23 12:30" polarity="POS" start="2352" temporally-annotated="YES" text="cholestasis" type="PROBLEM" upperbound-end="2000-02-25 01:49" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="2378" id="E95" lowerbound-end="2000-02-23 00:17" lowerbound-start="2000-02-23 00:14" modality="POSSIBLE" most-likely-end="2000-02-23 12:45" most-likely-start="2000-02-23 12:30" polarity="POS" start="2367" temporally-annotated="YES" text="cholangitis" type="PROBLEM" upperbound-end="2000-02-25 01:49" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="2395" id="E37" lowerbound-end="2000-02-23 00:25" lowerbound-start="2000-02-23 00:14" modality="FACTUAL" most-likely-end="2000-02-23 13:02" most-likely-start="2000-02-23 12:30" polarity="POS" start="2381" temporally-annotated="YES" text="The ultrasound" type="TEST" upperbound-end="2000-02-25 01:56" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="2402" id="E96" lowerbound-end="2000-02-23 00:25" lowerbound-start="2000-02-23 00:14" modality="FACTUAL" most-likely-end="2000-02-23 13:02" most-likely-start="2000-02-23 12:30" polarity="POS" start="2396" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="2000-02-25 01:56" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="2417" id="E38" lowerbound-end="2000-02-20 00:18" lowerbound-start="2000-02-20 00:14" modality="FACTUAL" most-likely-end="2000-03-06 00:45" most-likely-start="2000-02-20 12:30" polarity="POS" start="2403" temporally-annotated="YES" text="biliary sludge" type="PROBLEM" upperbound-end="2000-08-22 13:19" upperbound-start="2000-02-22 00:45"/>
+<EVENT end="2442" id="E39" lowerbound-end="2000-02-20 00:18" lowerbound-start="2000-02-20 00:14" modality="FACTUAL" most-likely-end="2000-03-06 00:45" most-likely-start="2000-02-20 12:30" polarity="POS" start="2422" temporally-annotated="YES" text="swelling of the body" type="PROBLEM" upperbound-end="2000-08-22 13:19" upperbound-start="2000-02-22 00:45"/>
+<EVENT end="2492" id="E40" lowerbound-end="2000-02-23 00:17" lowerbound-start="2000-02-23 00:14" modality="FACTUAL" most-likely-end="2000-02-23 12:45" most-likely-start="2000-02-23 12:30" polarity="NEG" start="2473" temporally-annotated="YES" text="other abnormalities" type="PROBLEM" upperbound-end="2000-02-25 01:49" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="2503" id="E97" lowerbound-end="2000-02-23 00:25" lowerbound-start="2000-02-23 00:14" modality="FACTUAL" most-likely-end="2000-02-23 13:02" most-likely-start="2000-02-23 12:30" polarity="POS" start="2498" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-end="2000-02-25 01:56" upperbound-start="2000-02-25 00:45"/>
+<EVENT end="2580" id="E98" lowerbound-end="2000-02-25 12:15" lowerbound-start="2000-02-17 12:14" modality="FACTUAL" most-likely-end="2000-02-26 00:40" most-likely-start="2000-02-18 00:30" polarity="POS" start="2565" temporally-annotated="YES" text="epigastric pain" type="PROBLEM" upperbound-end="2000-02-27 13:16" upperbound-start="2000-02-19 12:45"/>
+<EVENT end="2622" id="E41" lowerbound-end="2000-02-23 23:58" lowerbound-start="2000-02-23 23:57" modality="FACTUAL" most-likely-end="2000-02-24 13:40" most-likely-start="2000-02-24 12:30" polarity="POS" start="2586" temporally-annotated="YES" text="radiation to the left upper quadrant" type="PROBLEM" upperbound-end="2000-02-26 13:33" upperbound-start="2000-02-26 01:02"/>
+<EVENT end="2633" id="E42" lowerbound-end="2000-02-23 23:58" lowerbound-start="2000-02-23 23:57" modality="FACTUAL" most-likely-end="2000-02-24 13:40" most-likely-start="2000-02-24 12:30" polarity="POS" start="2625" temporally-annotated="YES" text="The pain" type="PROBLEM" upperbound-end="2000-02-26 13:33" upperbound-start="2000-02-26 01:02"/>
+<EVENT end="2683" id="E43" lowerbound-end="2000-02-24 00:13" lowerbound-start="2000-02-24 00:12" modality="FACTUAL" most-likely-end="2000-02-24 13:45" most-likely-start="2000-02-24 12:45" polarity="POS" start="2665" temporally-annotated="YES" text="high dose Dilaudid" type="TREATMENT" upperbound-end="2000-02-26 13:48" upperbound-start="2000-02-26 01:17"/>
+<EVENT end="2725" id="E44" lowerbound-end="2000-02-24 00:08" lowerbound-start="2000-02-24 00:07" modality="FACTUAL" most-likely-end="2000-02-24 12:55" most-likely-start="2000-02-24 12:40" polarity="POS" start="2702" temporally-annotated="YES" text="a follow-up chest x-ray" type="TEST" upperbound-end="2000-02-26 02:13" upperbound-start="2000-02-26 01:12"/>
+<EVENT end="2785" id="E99" lowerbound-end="2000-02-24 00:08" lowerbound-start="2000-02-24 00:07" modality="FACTUAL" most-likely-end="2000-02-24 12:55" most-likely-start="2000-02-24 12:40" polarity="POS" start="2778" temporally-annotated="YES" text="showing" type="EVIDENTIAL" upperbound-end="2000-02-26 02:13" upperbound-start="2000-02-26 01:12"/>
+<EVENT end="2829" id="E45" lowerbound-end="2000-02-24 00:08" lowerbound-start="2000-02-24 00:07" modality="FACTUAL" most-likely-end="2000-02-24 12:55" most-likely-start="2000-02-24 12:40" polarity="NEG" start="2819" temporally-annotated="YES" text="infiltrate" type="PROBLEM" upperbound-end="2000-02-26 02:13" upperbound-start="2000-02-26 01:12"/>
+<EVENT end="2879" id="E46" lowerbound-end="2000-02-27 00:14" lowerbound-start="2000-02-25 00:14" modality="FACTUAL" most-likely-end="2000-02-27 12:30" most-likely-start="2000-02-25 12:30" polarity="POS" start="2854" temporally-annotated="YES" text="the patient 's fever" type="PROBLEM" upperbound-end="2000-02-29 00:45" upperbound-start="2000-02-27 00:45"/>
+<EVENT end="2914" id="E47" lowerbound-end="2000-02-27 00:14" lowerbound-start="2000-02-25 00:14" modality="FACTUAL" most-likely-end="2000-02-27 12:30" most-likely-start="2000-02-25 12:30" polarity="POS" start="2896" temporally-annotated="YES" text="his abdominal pain" type="PROBLEM" upperbound-end="2000-02-29 00:45" upperbound-start="2000-02-27 00:45"/>
+<EVENT end="2950" id="E48" lowerbound-end="2000-02-22 09:28" lowerbound-start="2000-02-22 00:27" modality="FACTUAL" most-likely-end="2000-02-26 12:43" most-likely-start="2000-02-22 12:42" polarity="POS" start="2936" temporally-annotated="YES" text="The cefotaxime" type="TREATMENT" upperbound-end="2000-03-05 15:58" upperbound-start="2000-02-24 00:58"/>
+<EVENT end="2967" id="E57" lowerbound-end="2000-02-22 15:27" lowerbound-start="2000-02-18 21:27" modality="FACTUAL" most-likely-end="2000-02-26 12:43" most-likely-start="2000-02-24 12:42" polarity="POS" start="2955" temporally-annotated="YES" text="discontinued" type="OCCURRENCE" upperbound-end="2000-03-08 10:28" upperbound-start="2000-03-08 03:57"/>
+<EVENT end="2986" id="E49" lowerbound-end="2000-02-22 03:15" lowerbound-start="2000-02-22 02:44" modality="FACTUAL" most-likely-end="2000-02-24 13:30" most-likely-start="2000-02-24 12:29" polarity="NEG" start="2977" temporally-annotated="YES" text="infection" type="PROBLEM" upperbound-end="2000-03-02 09:45" upperbound-start="2000-03-01 21:45"/>
+<EVENT end="322" id="E60" lowerbound-end="2000-02-14 06:15" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:37" most-likely-start="2000-02-11 12:30" polarity="POS" start="301" temporally-annotated="YES" text="sharp left flank pain" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="3074" id="E50" lowerbound-end="2000-02-28 04:35" lowerbound-start="2000-02-28 02:35" modality="FACTUAL" most-likely-end="2000-03-14 03:30" most-likely-start="2000-02-28 09:30" polarity="POS" start="3058" temporally-annotated="YES" text="a low fat solids" type="TREATMENT" upperbound-end="2000-08-30 18:25" upperbound-start="2000-02-29 16:25"/>
+<EVENT end="3099" id="E51" lowerbound-end="2000-02-28 05:11" lowerbound-start="2000-02-28 05:10" modality="FACTUAL" most-likely-end="2000-03-28 07:00" most-likely-start="2000-02-28 07:00" polarity="POS" start="3081" temporally-annotated="YES" text="pancreatitis study" type="TEST" upperbound-end="2001-02-28 08:51" upperbound-start="2000-02-29 08:50"/>
+<EVENT end="3131" id="E100" lowerbound-end="2000-02-28 04:35" lowerbound-start="2000-02-28 02:35" modality="FACTUAL" most-likely-end="2000-03-14 03:30" most-likely-start="2000-02-28 09:30" polarity="POS" start="3122" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-end="2000-08-30 18:25" upperbound-start="2000-02-29 16:25"/>
+<EVENT end="3165" id="E58" lowerbound-end="2000-02-29 02:14" lowerbound-start="2000-02-29 01:44" modality="FACTUAL" most-likely-end="2000-02-29 12:30" most-likely-start="2000-02-29 12:27" polarity="POS" start="3155" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-end="2000-03-01 22:45" upperbound-start="2000-03-01 22:45"/>
+<EVENT end="3205" id="E101" lowerbound-end="2000-02-28 14:15" lowerbound-start="2000-02-28 12:14" modality="FACTUAL" most-likely-end="2000-03-03 18:30" most-likely-start="2000-02-29 00:30" polarity="POS" start="3194" temporally-annotated="YES" text="improvement" type="OCCURRENCE" upperbound-end="2000-03-17 07:46" upperbound-start="2000-03-01 12:45"/>
+<EVENT end="358" id="E61" lowerbound-end="2000-02-14 06:15" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:37" most-likely-start="2000-02-11 12:30" polarity="POS" start="328" temporally-annotated="YES" text="radiation to the lower abdomen" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="410" id="E62" lowerbound-end="2000-02-17 01:54" lowerbound-start="2000-02-17 01:53" modality="FACTUAL" most-likely-end="2000-02-17 14:15" most-likely-start="2000-02-17 14:07" polarity="POS" start="401" temporally-annotated="YES" text="described" type="EVIDENTIAL" upperbound-end="2000-02-19 02:52" upperbound-start="2000-02-19 02:21"/>
+<EVENT end="419" id="E63" lowerbound-end="2000-02-22 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-23 00:30" most-likely-start="2000-02-11 12:30" polarity="POS" start="411" temporally-annotated="YES" text="the pain" type="PROBLEM" upperbound-end="2000-02-24 18:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="440" id="E64" lowerbound-end="2000-02-22 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-23 00:30" most-likely-start="2000-02-11 12:30" polarity="POS" start="430" temporally-annotated="YES" text="knife-like" type="PROBLEM" upperbound-end="2000-02-24 18:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="514" id="E65" lowerbound-end="2000-02-14 06:15" lowerbound-start="2000-02-11 00:14" modality="CONDITIONAL" most-likely-end="2000-02-15 00:37" most-likely-start="2000-02-11 12:30" polarity="POS" start="503" temporally-annotated="YES" text="exacerbated" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="526" id="E66" lowerbound-end="2000-02-14 06:15" lowerbound-start="2000-02-11 00:14" modality="CONDITIONAL" most-likely-end="2000-02-15 00:37" most-likely-start="2000-02-11 12:30" polarity="POS" start="520" temporally-annotated="YES" text="eating" type="OCCURRENCE" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="546" id="E67" lowerbound-end="2000-02-17 06:14" lowerbound-start="2000-02-11 00:14" modality="CONDITIONAL" most-likely-end="2000-02-18 00:30" most-likely-start="2000-02-11 12:30" polarity="POS" start="536" temporally-annotated="YES" text="lying flat" type="OCCURRENCE" upperbound-end="2000-02-19 18:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="573" id="E68" lowerbound-end="2000-02-16 18:14" lowerbound-start="2000-02-16 00:14" modality="FACTUAL" most-likely-end="2000-02-17 12:30" most-likely-start="2000-02-16 12:30" polarity="POS" start="566" temporally-annotated="YES" text="reports" type="EVIDENTIAL" upperbound-end="2000-02-19 06:45" upperbound-start="2000-02-18 00:45"/>
+<EVENT end="597" id="E2" lowerbound-end="2000-02-16 17:59" lowerbound-start="2000-02-15 00:14" modality="FACTUAL" most-likely-end="2000-02-17 12:30" most-likely-start="2000-02-15 12:30" polarity="POS" start="574" temporally-annotated="YES" text="blood-streaked diarrhea" type="PROBLEM" upperbound-end="2000-02-19 07:00" upperbound-start="2000-02-17 00:45"/>
+<EVENT end="622" id="E69" lowerbound-end="2000-02-17 06:14" lowerbound-start="2000-02-14 00:14" modality="FACTUAL" most-likely-end="2000-02-18 00:30" most-likely-start="2000-02-14 12:30" polarity="POS" start="616" temporally-annotated="YES" text="denies" type="EVIDENTIAL" upperbound-end="2000-02-19 18:45" upperbound-start="2000-02-16 00:45"/>
+<EVENT end="629" id="E71" lowerbound-end="2000-02-14 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="623" temporally-annotated="YES" text="nausea" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="642" id="E72" lowerbound-end="2000-02-14 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="634" temporally-annotated="YES" text="vomiting" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="665" id="E73" lowerbound-end="2000-02-14 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="659" temporally-annotated="YES" text="fevers" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="675" id="E74" lowerbound-end="2000-02-14 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="669" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="710" id="E3" lowerbound-end="1999-10-28 10:54" lowerbound-start="1999-10-03 00:57" modality="FACTUAL" most-likely-end="2000-02-17 12:30" most-likely-start="2000-01-01 12:30" polarity="NEG" start="692" temporally-annotated="YES" text="recent weight loss" type="PROBLEM" upperbound-end="2001-04-23 02:07" upperbound-start="2001-04-01 00:02"/>
+<EVENT end="732" id="E4" lowerbound-end="2000-02-14 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="716" temporally-annotated="YES" text="light-headedness" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="745" id="E5" lowerbound-end="2000-02-14 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-15 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="736" temporally-annotated="YES" text="dizziness" type="PROBLEM" upperbound-end="2000-02-16 19:16" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="757" id="E70" lowerbound-end="2000-02-17 06:14" lowerbound-start="2000-02-14 00:14" modality="FACTUAL" most-likely-end="2000-02-18 00:30" most-likely-start="2000-02-14 12:30" polarity="POS" start="751" temporally-annotated="YES" text="denies" type="EVIDENTIAL" upperbound-end="2000-02-19 18:45" upperbound-start="2000-02-16 00:45"/>
+<EVENT end="784" id="E75" lowerbound-end="2000-02-17 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-18 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="758" temporally-annotated="YES" text="increased urinary frequent" type="PROBLEM" upperbound-end="2000-02-19 18:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="795" id="E76" lowerbound-end="2000-02-17 06:14" lowerbound-start="2000-02-11 00:14" modality="FACTUAL" most-likely-end="2000-02-18 00:30" most-likely-start="2000-02-11 12:30" polarity="NEG" start="788" temporally-annotated="YES" text="urgency" type="PROBLEM" upperbound-end="2000-02-19 18:45" upperbound-start="2000-02-13 00:45"/>
+<EVENT end="861" id="E78" lowerbound-end="2000-02-16 23:30" lowerbound-start="2000-02-16 23:33" modality="FACTUAL" most-likely-end="2000-02-17 11:50" most-likely-start="2000-02-17 10:15" polarity="POS" start="823" temporally-annotated="YES" text="the Sloan- Center Emergency Department" type="CLINICAL_DEPT" upperbound-end="2000-02-19 00:31" upperbound-start="2000-02-18 20:56"/>
+<EVENT end="889" id="E79" lowerbound-end="2000-02-16 23:42" lowerbound-start="2000-02-16 23:38" modality="FACTUAL" most-likely-end="2000-02-17 12:12" most-likely-start="2000-02-17 10:20" polarity="POS" start="877" temporally-annotated="YES" text="resuscitated" type="TREATMENT" upperbound-end="2000-02-19 00:43" upperbound-start="2000-02-18 21:01"/>
+<EVENT end="908" id="E80" lowerbound-end="2000-02-16 23:42" lowerbound-start="2000-02-16 23:38" modality="FACTUAL" most-likely-end="2000-02-17 12:12" most-likely-start="2000-02-17 10:20" polarity="POS" start="895" temporally-annotated="YES" text="normal saline" type="TREATMENT" upperbound-end="2000-02-19 00:43" upperbound-start="2000-02-18 21:01"/>
+<EVENT end="930" id="E81" lowerbound-end="2000-02-16 18:32" lowerbound-start="2000-02-16 18:31" modality="FACTUAL" most-likely-end="2000-02-18 00:35" most-likely-start="2000-02-17 10:20" polarity="POS" start="922" temporally-annotated="YES" text="morphine" type="TREATMENT" upperbound-end="2000-02-20 02:10" upperbound-start="2000-02-19 02:09"/>
+<EVENT end="939" id="E82" lowerbound-end="2000-02-21 23:35" lowerbound-start="2000-02-13 23:34" modality="FACTUAL" most-likely-end="2000-02-22 14:05" most-likely-start="2000-02-14 11:50" polarity="POS" start="935" temporally-annotated="YES" text="pain" type="PROBLEM" upperbound-end="2000-02-24 12:06" upperbound-start="2000-02-16 00:05"/>
+<EVENT end="965" id="E83" lowerbound-end="2000-02-22 01:50" lowerbound-start="2000-02-22 01:19" modality="FACTUAL" most-likely-end="2000-02-22 14:08" most-likely-start="2000-02-22 14:02" polarity="POS" start="954" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="2000-02-24 02:51" upperbound-start="2000-02-24 02:20"/>
+<EVENT end="997" id="E84" lowerbound-end="2000-02-28 19:49" lowerbound-start="2000-02-17 01:49" modality="FACTUAL" most-likely-end="2000-02-29 14:05" most-likely-start="2000-02-17 14:05" polarity="POS" start="969" temporally-annotated="YES" text="the general medicine service" type="OCCURRENCE" upperbound-end="2000-03-02 08:20" upperbound-start="2000-02-19 02:20"/>
+<TIMEX3 end="1311" id="T9" mod="NA" start="1304" text="2/17/00" type="DATE" val="2000-02-17"/>
+<TIMEX3 end="1322" id="T10" mod="NA" start="1315" text="2/21/00" type="DATE" val="2000-02-21"/>
+<TIMEX3 end="185" id="T7" mod="NA" start="175" text="seven days" type="DURATION" val="P7D"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="02/17/2000" type="DATE" val="2000-02-17"/>
+<TIMEX3 end="2022" id="T2" mod="NA" start="2015" text="2/22/00" type="DATE" val="2000-02-22"/>
+<TIMEX3 end="2284" id="T3" mod="NA" start="2277" text="2/23/00" type="DATE" val="2000-02-23"/>
+<TIMEX3 end="252" id="T0" mod="NA" start="242" text="seven days" type="DURATION" val="P7D"/>
+<TIMEX3 end="2516" id="T4" mod="NA" start="2509" text="2/24/00" type="DATE" val="2000-02-24"/>
+<TIMEX3 end="266" id="T6" mod="NA" start="259" text="2/11/00" type="DATE" val="2000-02-11"/>
+<TIMEX3 end="2841" id="T11" mod="NA" start="2837" text="2/25" type="DATE" val="2000-02-25"/>
+<TIMEX3 end="2851" id="T12" mod="NA" start="2844" text="2/27/00" type="DATE" val="2000-02-27"/>
+<TIMEX3 end="3014" id="T5" mod="NA" start="3007" text="2/28/00" type="DATE" val="2000-02-28"/>
+<TIMEX3 end="3181" id="T13" mod="NA" start="3174" text="2/29/00" type="DATE" val="2000-02-29"/>
+<TIMEX3 end="610" id="T8" mod="NA" start="602" text="two days" type="DURATION" val="P2D"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T1" toText="02/17/2000" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="acute pancreatitis" id="TL1" toID="E54" toText="admission" type="BEFORE"/>
+<TLINK fromID="E53" fromText="general good health" id="TL10" toID="T0" toText="seven days" type="BEFORE"/>
+<TLINK fromID="T0" fromText="seven days" id="TL11" toID="T6" toText="2/11/00" type="AFTER"/>
+<TLINK fromID="T0" fromText="seven days" id="TL12" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E60" fromText="sharp left flank pain" id="TL13" toID="T0" toText="seven days" type="AFTER"/>
+<TLINK fromID="E61" fromText="radiation to the lower abdomen" id="TL14" toID="E60" toText="sharp left flank pain" type="OVERLAP"/>
+<TLINK fromID="E62" fromText="described" id="TL15" toID="E52" toText="presents" type="OVERLAP"/>
+<TLINK fromID="E69" fromText="denies" id="TL16" toID="E62" toText="described" type="OVERLAP"/>
+<TLINK fromID="E64" fromText="knife-like" id="TL17" toID="E63" toText="the pain" type="OVERLAP"/>
+<TLINK fromID="E63" fromText="the pain" id="TL18" toID="E60" toText="sharp left flank pain" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="exacerbated" id="TL19" toID="E66" toText="eating" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="biliary dilatation" id="TL2" toID="E22" toText="a mass in the gallbladder neck" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="exacerbated" id="TL20" toID="E67" toText="lying flat" type="OVERLAP"/>
+<TLINK fromID="E68" fromText="reports" id="TL21" toID="E69" toText="denies" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="blood-streaked diarrhea" id="TL22" toID="T8" toText="two days" type="OVERLAP"/>
+<TLINK fromID="T8" fromText="two days" id="TL23" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E72" fromText="vomiting" id="TL24" toID="E71" toText="nausea" type="OVERLAP"/>
+<TLINK fromID="E70" fromText="denies" id="TL25" toID="E69" toText="denies" type="OVERLAP"/>
+<TLINK fromID="E78" fromText="the Sloan- Center Emergency Department" id="TL26" toID="E84" toText="the general medicine service" type="BEFORE"/>
+<TLINK fromID="E79" fromText="resuscitated" id="TL27" toID="E78" toText="the Sloan- Center Emergency Department" type="OVERLAP"/>
+<TLINK fromID="E81" fromText="morphine" id="TL28" toID="E79" toText="resuscitated" type="OVERLAP"/>
+<TLINK fromID="E79" fromText="resuscitated" id="TL29" toID="E80" toText="normal saline" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="necrosis" id="TL3" toID="E24" toText="stranding along the pancreas" type="OVERLAP"/>
+<TLINK fromID="E82" fromText="pain" id="TL30" toID="E81" toText="morphine" type="BEFORE"/>
+<TLINK fromID="E84" fromText="the general medicine service" id="TL31" toID="E83" toText="transferred" type="AFTER"/>
+<TLINK fromID="E85" fromText="further management" id="TL32" toID="E84" toText="the general medicine service" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="diagnosed" id="TL33" toID="E54" toText="admission" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="NPO" id="TL34" toID="E55" toText="diagnosed" type="AFTER"/>
+<TLINK fromID="E86" fromText="resuscitated" id="TL35" toID="E7" toText="NPO" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="IV fluids" id="TL36" toID="E86" toText="resuscitated" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="Pain control" id="TL37" toID="E55" toText="diagnosed" type="AFTER"/>
+<TLINK fromID="E10" fromText="morphine" id="TL38" toID="E9" toText="Pain control" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="cefotaxime" id="TL4" toID="E30" toText="A chest x-ray" type="AFTER"/>
+<TLINK fromID="E11" fromText="Demerol" id="TL40" toID="E9" toText="Pain control" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="Demerol" id="TL41" toID="E10" toText="morphine" type="AFTER"/>
+<TLINK fromID="E12" fromText="his epigastric pain" id="TL42" toID="E82" toText="pain" type="OVERLAP"/>
+<TLINK fromID="E87" fromText="persistent and occasionally severe epigastric pain" id="TL43" toID="T9" toText="2/17/00" type="AFTER"/>
+<TLINK fromID="E87" fromText="persistent and occasionally severe epigastric pain" id="TL44" toID="T10" toText="2/21/00" type="BEFORE"/>
+<TLINK fromID="E56" fromText="complained" id="TL45" toID="E87" toText="persistent and occasionally severe epigastric pain" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="His pain medication" id="TL46" toID="E11" toText="Demerol" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="Dilaudid IV" id="TL47" toID="E13" toText="His pain medication" type="AFTER"/>
+<TLINK fromID="E16" fromText="Dilaudid IV" id="TL48" toID="E14" toText="Dilaudid IV" type="OVERLAP"/>
+<TLINK fromID="E89" fromText="titrated" id="TL49" toID="E16" toText="Dilaudid IV" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="a low fat solids" id="TL5" toID="T5" toText="2/28/00" type="AFTER"/>
+<TLINK fromID="E90" fromText="tapered" id="TL50" toID="E89" toText="titrated" type="AFTER"/>
+<TLINK fromID="E17" fromText="the patient 's epigastric pain" id="TL51" toID="E87" toText="persistent and occasionally severe epigastric pain" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="abscess" id="TL52" toID="E19" toText="necrosis" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="necrosis" id="TL53" toID="E18" toText="a pancreatic complication" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="a CT scan" id="TL54" toID="E54" toText="admission" type="AFTER"/>
+<TLINK fromID="E91" fromText="revealed" id="TL55" toID="E21" toText="a CT scan" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="a mass in the gallbladder neck" id="TL56" toID="E21" toText="a CT scan" type="BEFORE"/>
+<TLINK fromID="E24" fromText="stranding along the pancreas" id="TL57" toID="E21" toText="a CT scan" type="BEFORE"/>
+<TLINK fromID="E26" fromText="abscess" id="TL58" toID="E25" toText="necrosis" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="pseudocyst" id="TL59" toID="E26" toText="abscess" type="OVERLAP"/>
+<TLINK fromID="E52" fromText="presents" id="TL6" toID="T1" toText="02/17/2000" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="fevers" id="TL60" toID="T2" toText="2/22/00" type="AFTER"/>
+<TLINK fromID="E93" fromText="All cultures" id="TL62" toID="E29" toText="Blood and urine cultures" type="AFTER"/>
+<TLINK fromID="E29" fromText="Blood and urine cultures" id="TL63" toID="E28" toText="fevers" type="AFTER"/>
+<TLINK fromID="E30" fromText="A chest x-ray" id="TL64" toID="E28" toText="fevers" type="AFTER"/>
+<TLINK fromID="E92" fromText="revealed" id="TL65" toID="E30" toText="A chest x-ray" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="infiltrate" id="TL66" toID="E30" toText="A chest x-ray" type="BEFORE"/>
+<TLINK fromID="E32" fromText="effusion" id="TL67" toID="E31" toText="infiltrate" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="empiric antibiotic treatment" id="TL68" toID="E33" toText="cefotaxime" type="BEFORE"/>
+<TLINK fromID="E35" fromText="the high grade fever" id="TL69" toID="E28" toText="fevers" type="AFTER"/>
+<TLINK fromID="E1" fromText="abdominal pain" id="TL7" toID="T7" toText="seven days" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="the high grade fever" id="TL70" toID="T3" toText="2/23/00" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="The ultrasound" id="TL71" toID="E36" toText="An ultrasound" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="An ultrasound" id="TL72" toID="T3" toText="2/23/00" type="OVERLAP"/>
+<TLINK fromID="E94" fromText="cholestasis" id="TL73" toID="E36" toText="An ultrasound" type="BEFORE"/>
+<TLINK fromID="E95" fromText="cholangitis" id="TL74" toID="E94" toText="cholestasis" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="biliary sludge" id="TL75" toID="E37" toText="The ultrasound" type="BEFORE"/>
+<TLINK fromID="E37" fromText="The ultrasound" id="TL76" toID="E96" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E39" fromText="swelling of the body" id="TL77" toID="E37" toText="The ultrasound" type="BEFORE"/>
+<TLINK fromID="E40" fromText="other abnormalities" id="TL78" toID="E39" toText="swelling of the body" type="OVERLAP"/>
+<TLINK fromID="E97" fromText="noted" id="TL79" toID="E38" toText="biliary sludge" type="OVERLAP"/>
+<TLINK fromID="T7" fromText="seven days" id="TL8" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E98" fromText="epigastric pain" id="TL80" toID="T4" toText="2/24/00" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="radiation to the left upper quadrant" id="TL81" toID="E98" toText="epigastric pain" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="a follow-up chest x-ray" id="TL82" toID="E98" toText="epigastric pain" type="AFTER"/>
+<TLINK fromID="E98" fromText="epigastric pain" id="TL83" toID="E43" toText="high dose Dilaudid" type="BEFORE"/>
+<TLINK fromID="E98" fromText="epigastric pain" id="TL84" toID="E42" toText="The pain" type="OVERLAP"/>
+<TLINK fromID="E99" fromText="showing" id="TL85" toID="E44" toText="a follow-up chest x-ray" type="OVERLAP"/>
+<TLINK fromID="E45" fromText="infiltrate" id="TL86" toID="E99" toText="showing" type="BEFORE"/>
+<TLINK fromID="E46" fromText="the patient 's fever" id="TL87" toID="T11" toText="2/25" type="AFTER"/>
+<TLINK fromID="E46" fromText="the patient 's fever" id="TL88" toID="T12" toText="2/27/00" type="BEFORE"/>
+<TLINK fromID="E47" fromText="his abdominal pain" id="TL89" toID="T12" toText="2/27/00" type="BEFORE"/>
+<TLINK fromID="T7" fromText="seven days" id="TL9" toID="T0" toText="seven days" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="The cefotaxime" id="TL90" toID="T12" toText="2/27/00" type="BEFORE"/>
+<TLINK fromID="E49" fromText="infection" id="TL91" toID="E48" toText="The cefotaxime" type="BEFORE"/>
+<TLINK fromID="E51" fromText="pancreatitis study" id="TL93" toID="E50" toText="a low fat solids" type="BEFORE"/>
+<TLINK fromID="E100" fromText="tolerated" id="TL94" toID="E50" toText="a low fat solids" type="AFTER"/>
+<TLINK fromID="E58" fromText="discharged" id="TL95" toID="T13" toText="2/29/00" type="OVERLAP"/>
+<TLINK fromID="E101" fromText="improvement" id="TL96" toID="T13" toText="2/29/00" type="OVERLAP"/>
+<SECTIME dvalue="2000-02-17" end="28" id="S0" start="18" text="02/17/2000" type="ADMISSION"/>
+<TLINK fromID="E85" fromText="further management" id="SECTIME0" toID="T1" toText="02/17/2000" type="AFTER"/>
+<TLINK fromID="E54" fromText="admission" id="SECTIME1" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E55" fromText="diagnosed" id="SECTIME2" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E6" fromText="acute pancreatitis" id="SECTIME3" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E7" fromText="NPO" id="SECTIME4" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E86" fromText="resuscitated" id="SECTIME5" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E8" fromText="IV fluids" id="SECTIME6" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E9" fromText="Pain control" id="SECTIME7" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E10" fromText="morphine" id="SECTIME8" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E11" fromText="Demerol" id="SECTIME9" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E12" fromText="his epigastric pain" id="SECTIME10" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E59" fromText="GERD" id="SECTIME1" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E56" fromText="complained" id="SECTIME12" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E87" fromText="persistent and occasionally severe epigastric pain" id="SECTIME13" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E13" fromText="His pain medication" id="SECTIME14" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E14" fromText="Dilaudid IV" id="SECTIME16" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E15" fromText="his symptoms" id="SECTIME17" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E16" fromText="Dilaudid IV" id="SECTIME18" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E1" fromText="abdominal pain" id="SECTIME2" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E88" fromText="hospitalization" id="SECTIME20" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E89" fromText="titrated" id="SECTIME21" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E90" fromText="tapered" id="SECTIME22" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E17" fromText="the patient 's epigastric pain" id="SECTIME23" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E18" fromText="a pancreatic complication" id="SECTIME24" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E19" fromText="necrosis" id="SECTIME25" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E20" fromText="abscess" id="SECTIME26" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E21" fromText="a CT scan" id="SECTIME27" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E91" fromText="revealed" id="SECTIME28" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E22" fromText="a mass in the gallbladder neck" id="SECTIME29" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E23" fromText="biliary dilatation" id="SECTIME30" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E24" fromText="stranding along the pancreas" id="SECTIME31" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E25" fromText="necrosis" id="SECTIME32" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E26" fromText="abscess" id="SECTIME33" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E27" fromText="pseudocyst" id="SECTIME34" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E28" fromText="fevers" id="SECTIME35" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E29" fromText="Blood and urine cultures" id="SECTIME36" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E30" fromText="A chest x-ray" id="SECTIME37" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E92" fromText="revealed" id="SECTIME38" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E31" fromText="infiltrate" id="SECTIME39" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E32" fromText="effusion" id="SECTIME40" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E53" fromText="general good health" id="SECTIME3" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E33" fromText="cefotaxime" id="SECTIME42" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E34" fromText="empiric antibiotic treatment" id="SECTIME43" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E93" fromText="All cultures" id="SECTIME44" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E35" fromText="the high grade fever" id="SECTIME45" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E36" fromText="An ultrasound" id="SECTIME46" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E94" fromText="cholestasis" id="SECTIME47" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E95" fromText="cholangitis" id="SECTIME48" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E37" fromText="The ultrasound" id="SECTIME49" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E96" fromText="showed" id="SECTIME50" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E38" fromText="biliary sludge" id="SECTIME51" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E39" fromText="swelling of the body" id="SECTIME52" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E40" fromText="other abnormalities" id="SECTIME53" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E97" fromText="noted" id="SECTIME54" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E98" fromText="epigastric pain" id="SECTIME55" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E41" fromText="radiation to the left upper quadrant" id="SECTIME56" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E42" fromText="The pain" id="SECTIME57" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E43" fromText="high dose Dilaudid" id="SECTIME58" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E44" fromText="a follow-up chest x-ray" id="SECTIME59" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E99" fromText="showing" id="SECTIME60" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E45" fromText="infiltrate" id="SECTIME61" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E46" fromText="the patient 's fever" id="SECTIME62" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E47" fromText="his abdominal pain" id="SECTIME63" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E48" fromText="The cefotaxime" id="SECTIME64" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E57" fromText="discontinued" id="SECTIME65" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E49" fromText="infection" id="SECTIME66" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E60" fromText="sharp left flank pain" id="SECTIME4" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E50" fromText="a low fat solids" id="SECTIME68" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E51" fromText="pancreatitis study" id="SECTIME69" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E100" fromText="tolerated" id="SECTIME70" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E58" fromText="discharged" id="SECTIME71" toID="Discharge" toText="Discharge" type="OVERLAP"/>
+<TLINK fromID="E101" fromText="improvement" id="SECTIME72" toID="Discharge" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E61" fromText="radiation to the lower abdomen" id="SECTIME5" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E62" fromText="described" id="SECTIME6" toID="T1" toText="02/17/2000" type="OVERLAP"/>
+<TLINK fromID="E63" fromText="the pain" id="SECTIME7" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E64" fromText="knife-like" id="SECTIME8" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E65" fromText="exacerbated" id="SECTIME9" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E66" fromText="eating" id="SECTIME10" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E67" fromText="lying flat" id="SECTIME11" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E68" fromText="reports" id="SECTIME12" toID="T1" toText="02/17/2000" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="blood-streaked diarrhea" id="SECTIME13" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E69" fromText="denies" id="SECTIME14" toID="T1" toText="02/17/2000" type="OVERLAP"/>
+<TLINK fromID="E71" fromText="nausea" id="SECTIME15" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E72" fromText="vomiting" id="SECTIME16" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E73" fromText="fevers" id="SECTIME17" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E74" fromText="chills" id="SECTIME18" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E3" fromText="recent weight loss" id="SECTIME19" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E4" fromText="light-headedness" id="SECTIME20" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E5" fromText="dizziness" id="SECTIME21" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E70" fromText="denies" id="SECTIME22" toID="T1" toText="02/17/2000" type="OVERLAP"/>
+<TLINK fromID="E75" fromText="increased urinary frequent" id="SECTIME23" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E76" fromText="urgency" id="SECTIME24" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E78" fromText="the Sloan- Center Emergency Department" id="SECTIME25" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E79" fromText="resuscitated" id="SECTIME26" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E80" fromText="normal saline" id="SECTIME27" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E81" fromText="morphine" id="SECTIME28" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E82" fromText="pain" id="SECTIME29" toID="T1" toText="02/17/2000" type="BEFORE"/>
+<TLINK fromID="E83" fromText="transferred" id="SECTIME30" toID="T1" toText="02/17/2000" type="OVERLAP"/>
+<TLINK fromID="E84" fromText="the general medicine service" id="SECTIME31" toID="T1" toText="02/17/2000" type="AFTER"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

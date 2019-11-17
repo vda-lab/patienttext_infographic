@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+5-30-93
+DISCHARGE DATE :
+6-2-93
+DISCHARGE DATE :
+6-2-93
+HISTORY OF PRESENT ILLNESS :
+The patient is a 63 year old woman with a history of mixed adenocarcinoma and large cell carcinoma of the left upper lobe of the lung who is being admitted for Neoadjuvant chemotherapy with Cisplatinum , 5-FU and Velban .
+Her history has been well documented in her previous notes .
+Briefly , she was originally diagnosed in April 1993 with lung carcinoma .
+Bronchoscopy and mediastinoscopy revealed an unresectable mediastinal tumor with the left tracheobronchial angle node positive for cancer , and the right paratracheal node positive for anthracosis .
+Formal pathology revealed a poorly differentiated adenocarcinoma with focal giant cells .
+Bone scan , head CT and other staging studies were all negative for evidence of metastatic disease .
+The patient is being treated with preoperative neoadjuvant chemotherapy using 5 FU , Vinblastine , Cisplatinum and concomitant radiation therapy .
+She is now admitted for her second course of that therapy .
+HOSPITAL COURSE :
+The patient was admitted to the Oncology Service on Founder &amp;apos;s 7 and received intravenous chemotherapy with a 72 hour continuous infusion of 5-FU , Vinblastine on day 1 and day 3 , and Cisplatinum on day 1 .
+She tolerated the chemotherapy well with mild nausea and vomiting .
+She had mild increase in her hypertension during the hospitalization , likely secondary to fluid overload .
+She also had some modest anemia , at the time of discharge her hematocrit was 30.9 .
+Overall there were no unanticipated side effects of this chemotherapy .
+Following her recovery from chemotherapy , she will proceed to surgical resection .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="1993-05-30 00:32" lowerbound-start="1993-05-30 00:32" modality="FACTUAL" most-likely-end="1993-05-30 11:02" most-likely-start="1993-05-30 11:00" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-end="1993-05-31 21:58" upperbound-start="1993-05-31 21:28"/>
+<EVENT end="1017" id="E50" lowerbound-end="1993-05-30 00:32" lowerbound-start="1993-05-30 00:32" modality="FACTUAL" most-likely-end="1993-05-30 11:02" most-likely-start="1993-05-30 11:00" polarity="POS" start="1009" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1993-05-31 21:58" upperbound-start="1993-05-31 21:28"/>
+<EVENT end="1055" id="E24" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="1022" temporally-annotated="YES" text="her second course of that therapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="1100" id="E39" lowerbound-end="1993-05-30 00:32" lowerbound-start="1993-05-30 00:32" modality="FACTUAL" most-likely-end="1993-05-30 11:02" most-likely-start="1993-05-30 11:00" polarity="POS" start="1092" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1993-05-31 21:58" upperbound-start="1993-05-31 21:28"/>
+<EVENT end="1124" id="E40" lowerbound-end="1993-06-02 01:56" lowerbound-start="1993-05-29 22:36" modality="FACTUAL" most-likely-end="1993-06-02 13:00" most-likely-start="1993-05-30 13:00" polarity="POS" start="1104" temporally-annotated="YES" text="the Oncology Service" type="CLINICAL_DEPT" upperbound-end="1993-06-04 00:04" upperbound-start="1993-06-01 03:24"/>
+<EVENT end="1183" id="E25" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="1159" temporally-annotated="YES" text="intravenous chemotherapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="1240" id="E51" lowerbound-end="1993-06-02 00:47" lowerbound-start="1993-05-30 01:17" modality="FACTUAL" most-likely-end="1993-06-02 11:45" most-likely-start="1993-05-30 11:45" polarity="POS" start="1210" temporally-annotated="YES" text="infusion of 5-FU , Vinblastine" type="TREATMENT" upperbound-end="1993-06-03 22:43" upperbound-start="1993-05-31 22:13"/>
+<EVENT end="1240" id="E26" lowerbound-end="1993-06-01 12:47" lowerbound-start="1993-05-30 01:17" modality="FACTUAL" most-likely-end="1993-06-01 23:45" most-likely-start="1993-05-30 11:45" polarity="POS" start="1229" temporally-annotated="YES" text="Vinblastine" type="TREATMENT" upperbound-end="1993-06-03 10:43" upperbound-start="1993-05-31 22:13"/>
+<EVENT end="1277" id="E27" lowerbound-end="1993-05-16 13:03" lowerbound-start="1993-05-16 01:17" modality="FACTUAL" most-likely-end="1993-05-17 11:45" most-likely-start="1993-05-16 11:45" polarity="POS" start="1266" temporally-annotated="YES" text="Cisplatinum" type="TREATMENT" upperbound-end="1993-05-18 22:29" upperbound-start="1993-05-17 22:13"/>
+<EVENT end="1302" id="E41" lowerbound-end="1993-06-02 02:27" lowerbound-start="1993-05-29 21:28" modality="FACTUAL" most-likely-end="1993-06-02 11:32" most-likely-start="1993-05-30 16:00" polarity="POS" start="1293" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-end="1993-06-03 20:37" upperbound-start="1993-06-01 10:32"/>
+<EVENT end="1319" id="E28" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="1303" temporally-annotated="YES" text="the chemotherapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="1324" id="E60" lowerbound-end="1993-06-02 02:27" lowerbound-start="1993-05-29 21:28" modality="FACTUAL" most-likely-end="1993-06-02 11:32" most-likely-start="1993-05-30 16:00" polarity="POS" start="1320" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-end="1993-06-03 20:37" upperbound-start="1993-06-01 10:32"/>
+<EVENT end="1341" id="E52" lowerbound-end="1993-05-30 15:06" lowerbound-start="1993-05-29 21:28" modality="FACTUAL" most-likely-end="1993-06-02 01:30" most-likely-start="1993-05-30 16:00" polarity="POS" start="1335" temporally-annotated="YES" text="nausea" type="PROBLEM" upperbound-end="1993-06-08 11:54" upperbound-start="1993-06-01 10:32"/>
+<EVENT end="1354" id="E30" lowerbound-end="1993-05-30 15:06" lowerbound-start="1993-05-29 21:28" modality="FACTUAL" most-likely-end="1993-06-02 01:30" most-likely-start="1993-05-30 16:00" polarity="POS" start="1346" temporally-annotated="YES" text="vomiting" type="PROBLEM" upperbound-end="1993-06-08 11:54" upperbound-start="1993-06-01 10:32"/>
+<EVENT end="1378" id="E31" lowerbound-end="1993-06-02 01:56" lowerbound-start="1993-05-29 22:36" modality="FACTUAL" most-likely-end="1993-06-02 13:00" most-likely-start="1993-05-30 13:00" polarity="POS" start="1365" temporally-annotated="YES" text="mild increase" type="PROBLEM" upperbound-end="1993-06-04 00:04" upperbound-start="1993-06-01 03:24"/>
+<EVENT end="1378" id="E53" lowerbound-end="1993-06-02 01:56" lowerbound-start="1993-05-29 22:36" modality="FACTUAL" most-likely-end="1993-06-02 13:00" most-likely-start="1993-05-30 13:00" polarity="POS" start="1370" temporally-annotated="YES" text="increase" type="PROBLEM" upperbound-end="1993-06-04 00:04" upperbound-start="1993-06-01 03:24"/>
+<EVENT end="1398" id="E32" lowerbound-end="1949-03-03 09:35" lowerbound-start="1948-11-11 05:22" modality="FACTUAL" most-likely-end="2011-09-17 13:00" most-likely-start="1991-09-16 01:00" polarity="POS" start="1382" temporally-annotated="YES" text="her hypertension" type="PROBLEM" upperbound-end="2134-10-17 09:31" upperbound-start="2084-07-08 08:38"/>
+<EVENT end="1425" id="E54" lowerbound-end="1993-06-02 01:56" lowerbound-start="1993-05-29 22:36" modality="FACTUAL" most-likely-end="1993-06-02 13:00" most-likely-start="1993-05-30 13:00" polarity="POS" start="1406" temporally-annotated="YES" text="the hospitalization" type="OCCURRENCE" upperbound-end="1993-06-04 00:04" upperbound-start="1993-06-01 03:24"/>
+<EVENT end="1462" id="E55" lowerbound-end="1993-06-02 02:27" lowerbound-start="1993-05-30 00:47" modality="POSSIBLE" most-likely-end="1993-06-02 11:15" most-likely-start="1993-05-30 11:15" polarity="POS" start="1448" temporally-annotated="YES" text="fluid overload" type="PROBLEM" upperbound-end="1993-06-03 20:03" upperbound-start="1993-05-31 21:43"/>
+<EVENT end="1496" id="E56" lowerbound-end="1993-06-02 01:56" lowerbound-start="1993-05-29 22:36" modality="FACTUAL" most-likely-end="1993-06-02 13:00" most-likely-start="1993-05-30 13:00" polarity="POS" start="1483" temporally-annotated="YES" text="modest anemia" type="PROBLEM" upperbound-end="1993-06-04 00:04" upperbound-start="1993-06-01 03:24"/>
+<EVENT end="1523" id="E57" lowerbound-end="1993-06-02 03:46" lowerbound-start="1993-05-31 14:05" modality="FACTUAL" most-likely-end="1993-06-02 11:02" most-likely-start="1993-05-31 23:00" polarity="POS" start="1514" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1993-06-03 18:45" upperbound-start="1993-06-02 07:54"/>
+<EVENT end="1538" id="E34" lowerbound-end="1993-06-02 03:45" lowerbound-start="1993-05-31 00:48" modality="FACTUAL" most-likely-end="1993-06-02 11:00" most-likely-start="1993-05-31 11:00" polarity="POS" start="1524" temporally-annotated="YES" text="her hematocrit" type="TEST" upperbound-end="1993-06-03 18:14" upperbound-start="1993-06-01 21:13"/>
+<EVENT end="176" id="E1" lowerbound-end="1992-10-20 21:53" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1996-05-01 09:00" most-likely-start="1992-10-31 09:00" polarity="POS" start="156" temporally-annotated="YES" text="mixed adenocarcinoma" type="PROBLEM" upperbound-end="2044-10-28 20:08" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="1598" id="E35" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="NEG" start="1572" temporally-annotated="YES" text="unanticipated side effects" type="PROBLEM" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="1619" id="E36" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="1602" temporally-annotated="YES" text="this chemotherapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="1644" id="E58" lowerbound-end="1993-06-02 02:36" lowerbound-start="1993-05-17 11:45" modality="HYPOTHETICAL" most-likely-end="1993-06-17 11:30" most-likely-start="1993-05-26 11:30" polarity="POS" start="1632" temporally-annotated="YES" text="her recovery" type="OCCURRENCE" upperbound-end="1993-12-03 08:25" upperbound-start="1993-06-03 10:34"/>
+<EVENT end="1662" id="E37" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="1650" temporally-annotated="YES" text="chemotherapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="1703" id="E59" lowerbound-end="1993-04-06 20:33" lowerbound-start="1993-04-06 20:32" modality="PROPOSED" most-likely-end="1993-06-24 15:00" most-likely-start="1993-06-24 11:30" polarity="POS" start="1685" temporally-annotated="YES" text="surgical resection" type="TREATMENT" upperbound-end="1994-03-28 19:30" upperbound-start="1994-03-27 19:29"/>
+<EVENT end="224" id="E2" lowerbound-end="1992-10-20 21:53" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1996-05-01 09:00" most-likely-start="1992-10-31 09:00" polarity="POS" start="181" temporally-annotated="YES" text="large cell carcinoma of the left upper lobe" type="PROBLEM" upperbound-end="2044-10-28 20:08" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="258" id="E43" lowerbound-end="1993-05-30 00:32" lowerbound-start="1993-05-30 00:32" modality="FACTUAL" most-likely-end="1993-05-30 11:02" most-likely-start="1993-05-30 11:00" polarity="POS" start="250" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1993-05-31 21:58" upperbound-start="1993-05-31 21:28"/>
+<EVENT end="35" id="E42" lowerbound-end="1993-06-02 03:46" lowerbound-start="1993-06-02 03:45" modality="FACTUAL" most-likely-end="1993-06-02 11:02" most-likely-start="1993-06-02 11:00" polarity="POS" start="26" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-end="1993-06-03 18:45" upperbound-start="1993-06-03 18:14"/>
+<EVENT end="287" id="E3" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="263" temporally-annotated="YES" text="Neoadjuvant chemotherapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="304" id="E4" lowerbound-end="1993-05-16 13:03" lowerbound-start="1993-05-16 01:17" modality="FACTUAL" most-likely-end="1993-05-17 11:45" most-likely-start="1993-05-16 11:45" polarity="POS" start="293" temporally-annotated="YES" text="Cisplatinum" type="TREATMENT" upperbound-end="1993-05-18 22:29" upperbound-start="1993-05-17 22:13"/>
+<EVENT end="311" id="E5" lowerbound-end="1993-06-02 00:47" lowerbound-start="1993-05-30 01:17" modality="FACTUAL" most-likely-end="1993-06-02 11:45" most-likely-start="1993-05-30 11:45" polarity="POS" start="307" temporally-annotated="YES" text="5-FU" type="TREATMENT" upperbound-end="1993-06-03 22:43" upperbound-start="1993-05-31 22:13"/>
+<EVENT end="322" id="E6" lowerbound-end="1993-06-02 00:47" lowerbound-start="1993-05-30 01:17" modality="FACTUAL" most-likely-end="1993-06-02 11:45" most-likely-start="1993-05-30 11:45" polarity="POS" start="316" temporally-annotated="YES" text="Velban" type="TREATMENT" upperbound-end="1993-06-03 22:43" upperbound-start="1993-05-31 22:13"/>
+<EVENT end="424" id="E38" lowerbound-end="1993-03-31 20:41" lowerbound-start="1993-03-31 19:26" modality="FACTUAL" most-likely-end="1993-04-15 14:08" most-likely-start="1993-04-15 13:00" polarity="POS" start="415" temporally-annotated="YES" text="diagnosed" type="OCCURRENCE" upperbound-end="1993-05-30 18:05" upperbound-start="1993-05-30 16:33"/>
+<EVENT end="458" id="E7" lowerbound-end="1992-10-20 21:53" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1996-05-01 09:00" most-likely-start="1992-10-31 09:00" polarity="POS" start="444" temporally-annotated="YES" text="lung carcinoma" type="PROBLEM" upperbound-end="2044-10-28 20:08" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="473" id="E8" lowerbound-end="1993-03-31 19:11" lowerbound-start="1993-03-31 18:26" modality="FACTUAL" most-likely-end="1993-04-15 13:00" most-likely-start="1993-04-15 12:15" polarity="POS" start="461" temporally-annotated="YES" text="Bronchoscopy" type="TEST" upperbound-end="1993-05-30 16:48" upperbound-start="1993-05-30 16:03"/>
+<EVENT end="493" id="E9" lowerbound-end="1993-03-31 19:49" lowerbound-start="1993-03-31 19:11" modality="FACTUAL" most-likely-end="1993-04-15 14:07" most-likely-start="1993-04-15 13:00" polarity="POS" start="478" temporally-annotated="YES" text="mediastinoscopy" type="TEST" upperbound-end="1993-05-31 04:57" upperbound-start="1993-05-30 16:49"/>
+<EVENT end="502" id="E44" lowerbound-end="1993-03-31 20:41" lowerbound-start="1993-03-31 19:26" modality="FACTUAL" most-likely-end="1993-04-15 14:08" most-likely-start="1993-04-15 13:00" polarity="POS" start="494" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="1993-05-30 18:05" upperbound-start="1993-05-30 16:33"/>
+<EVENT end="536" id="E10" lowerbound-end="1993-04-06 22:57" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1993-06-24 15:00" most-likely-start="1992-10-31 09:00" polarity="POS" start="503" temporally-annotated="YES" text="an unresectable mediastinal tumor" type="PROBLEM" upperbound-end="1994-03-28 00:04" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="598" id="E11" lowerbound-end="1992-10-20 21:53" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1996-05-01 09:00" most-likely-start="1992-10-31 09:00" polarity="POS" start="592" temporally-annotated="YES" text="cancer" type="PROBLEM" upperbound-end="2044-10-28 20:08" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="657" id="E12" lowerbound-end="1992-10-20 21:53" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1996-05-01 09:00" most-likely-start="1992-12-01 09:00" polarity="POS" start="646" temporally-annotated="YES" text="anthracosis" type="PROBLEM" upperbound-end="2044-10-28 20:08" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="676" id="E13" lowerbound-end="1993-04-01 01:49" lowerbound-start="1993-03-31 19:48" modality="FACTUAL" most-likely-end="1993-04-16 02:07" most-likely-start="1993-04-15 13:22" polarity="POS" start="660" temporally-annotated="YES" text="Formal pathology" type="TEST" upperbound-end="1993-05-31 22:57" upperbound-start="1993-05-30 16:56"/>
+<EVENT end="685" id="E46" lowerbound-end="1993-01-10 07:05" lowerbound-start="1993-01-10 05:51" modality="FACTUAL" most-likely-end="1993-04-16 02:08" most-likely-start="1993-04-16 01:00" polarity="POS" start="677" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="1994-02-03 14:40" upperbound-start="1994-02-03 13:09"/>
+<EVENT end="724" id="E14" lowerbound-end="1993-04-06 22:57" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1993-06-24 15:00" most-likely-start="1992-10-31 09:00" polarity="POS" start="686" temporally-annotated="YES" text="a poorly differentiated adenocarcinoma" type="PROBLEM" upperbound-end="1994-03-28 00:04" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="747" id="E15" lowerbound-end="1993-04-06 22:57" lowerbound-start="1987-10-22 21:52" modality="FACTUAL" most-likely-end="1993-06-24 15:00" most-likely-start="1992-10-31 09:00" polarity="POS" start="730" temporally-annotated="YES" text="focal giant cells" type="PROBLEM" upperbound-end="1994-03-28 00:04" upperbound-start="1994-11-10 20:07"/>
+<EVENT end="759" id="E16" lowerbound-end="1993-01-10 04:07" lowerbound-start="1993-01-10 04:06" modality="FACTUAL" most-likely-end="1993-04-16 05:15" most-likely-start="1993-04-16 01:00" polarity="POS" start="750" temporally-annotated="YES" text="Bone scan" type="TEST" upperbound-end="1994-02-04 14:54" upperbound-start="1994-02-03 14:53"/>
+<EVENT end="769" id="E17" lowerbound-end="1993-01-10 00:01" lowerbound-start="1993-01-09 23:52" modality="FACTUAL" most-likely-end="1993-04-16 05:42" most-likely-start="1993-04-16 05:15" polarity="POS" start="762" temporally-annotated="YES" text="head CT" type="TEST" upperbound-end="1994-02-04 04:47" upperbound-start="1994-02-04 03:38"/>
+<EVENT end="795" id="E47" lowerbound-end="1993-01-09 23:21" lowerbound-start="1993-01-09 22:36" modality="FACTUAL" most-likely-end="1993-04-16 05:17" most-likely-start="1993-04-16 03:17" polarity="POS" start="780" temporally-annotated="YES" text="staging studies" type="TEST" upperbound-end="1994-02-04 12:14" upperbound-start="1994-02-04 00:59"/>
+<EVENT end="848" id="E19" lowerbound-end="1992-11-15 08:08" lowerbound-start="1992-11-15 07:23" modality="FACTUAL" most-likely-end="1996-03-23 07:00" most-likely-start="1993-03-23 19:00" polarity="NEG" start="830" temporally-annotated="YES" text="metastatic disease" type="PROBLEM" upperbound-end="2044-01-31 22:52" upperbound-start="1994-02-12 23:37"/>
+<EVENT end="922" id="E48" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="885" temporally-annotated="YES" text="preoperative neoadjuvant chemotherapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<EVENT end="933" id="E49" lowerbound-end="1993-06-02 00:47" lowerbound-start="1993-05-30 01:17" modality="FACTUAL" most-likely-end="1993-06-02 11:45" most-likely-start="1993-05-30 11:45" polarity="POS" start="929" temporally-annotated="YES" text="5 FU" type="TREATMENT" upperbound-end="1993-06-03 22:43" upperbound-start="1993-05-31 22:13"/>
+<EVENT end="947" id="E21" lowerbound-end="1993-06-02 00:47" lowerbound-start="1993-05-30 01:17" modality="FACTUAL" most-likely-end="1993-06-02 11:45" most-likely-start="1993-05-30 11:45" polarity="POS" start="936" temporally-annotated="YES" text="Vinblastine" type="TREATMENT" upperbound-end="1993-06-03 22:43" upperbound-start="1993-05-31 22:13"/>
+<EVENT end="961" id="E22" lowerbound-end="1993-05-16 13:03" lowerbound-start="1993-05-16 01:17" modality="FACTUAL" most-likely-end="1993-05-17 11:45" most-likely-start="1993-05-16 11:45" polarity="POS" start="950" temporally-annotated="YES" text="Cisplatinum" type="TREATMENT" upperbound-end="1993-05-18 22:29" upperbound-start="1993-05-17 22:13"/>
+<EVENT end="995" id="E23" lowerbound-end="1993-06-01 23:06" lowerbound-start="1993-05-29 23:36" modality="FACTUAL" most-likely-end="1993-06-02 14:00" most-likely-start="1993-05-30 14:00" polarity="POS" start="966" temporally-annotated="YES" text="concomitant radiation therapy" type="TREATMENT" upperbound-end="1993-06-04 04:54" upperbound-start="1993-06-01 04:24"/>
+<TIMEX3 end="1198" id="T0" mod="NA" start="1189" text="a 72 hour" type="DURATION" val="PT72H"/>
+<TIMEX3 end="1249" id="T5" mod="NA" start="1244" text="day 1" type="DATE" val="1993-05-30"/>
+<TIMEX3 end="1259" id="T6" mod="NA" start="1254" text="day 3" type="DATE" val="1993-06-01"/>
+<TIMEX3 end="1286" id="T7" mod="NA" start="1281" text="day 1" type="DATE" val="1993-05-30"/>
+<TIMEX3 end="1510" id="T8" mod="NA" start="1502" text="the time" type="DATE" val="1993-06-02"/>
+<TIMEX3 end="25" id="T1" mod="NA" start="18" text="5-30-93" type="DATE" val="1993-05-30"/>
+<TIMEX3 end="438" id="T4" mod="NA" start="428" text="April 1993" type="DATE" val="1993-04"/>
+<TIMEX3 end="49" id="T2" mod="NA" start="43" text="6-2-93" type="DATE" val="1993-06-02"/>
+<TIMEX3 end="73" id="T3" mod="NA" start="67" text="6-2-93" type="DATE" val="1993-06-02"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T1" toText="5-30-93" type="SIMULTANEOUS"/>
+<TLINK fromID="E2" fromText="large cell carcinoma of the left upper lobe" id="TL1" toID="E7" toText="lung carcinoma" type="simultaneous"/>
+<TLINK fromID="E1" fromText="mixed adenocarcinoma" id="TL10" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E2" fromText="large cell carcinoma of the left upper lobe" id="TL11" toID="E1" toText="mixed adenocarcinoma" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="admitted" id="TL12" toID="E0" toText="ADMISSION" type="SIMULTANEOUS"/>
+<TLINK fromID="E3" fromText="Neoadjuvant chemotherapy" id="TL13" toID="E43" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E4" fromText="Cisplatinum" id="TL14" toID="E3" toText="Neoadjuvant chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E5" fromText="5-FU" id="TL15" toID="E4" toText="Cisplatinum" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="Velban" id="TL16" toID="E5" toText="5-FU" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="diagnosed" id="TL17" toID="E0" toText="ADMISSION" type="BEFORE"/>
+<TLINK fromID="E38" fromText="diagnosed" id="TL18" toID="T4" toText="April 1993" type="SIMULTANEOUS"/>
+<TLINK fromID="E7" fromText="lung carcinoma" id="TL19" toID="T4" toText="April 1993" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E28" fromText="the chemotherapy" id="TL2" toID="E36" toText="this chemotherapy" type="simultaneous"/>
+<TLINK fromID="E8" fromText="Bronchoscopy" id="TL20" toID="E38" toText="diagnosed" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="mediastinoscopy" id="TL21" toID="E8" toText="Bronchoscopy" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="revealed" id="TL22" toID="E9" toText="mediastinoscopy" type="SIMULTANEOUS"/>
+<TLINK fromID="E10" fromText="an unresectable mediastinal tumor" id="TL23" toID="E44" toText="revealed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E11" fromText="cancer" id="TL24" toID="E10" toText="an unresectable mediastinal tumor" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="anthracosis" id="TL25" toID="E11" toText="cancer" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="Formal pathology" id="TL26" toID="E9" toText="mediastinoscopy" type="OVERLAP"/>
+<TLINK fromID="E46" fromText="revealed" id="TL27" toID="E13" toText="Formal pathology" type="SIMULTANEOUS"/>
+<TLINK fromID="E14" fromText="a poorly differentiated adenocarcinoma" id="TL28" toID="E46" toText="revealed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E15" fromText="focal giant cells" id="TL29" toID="E14" toText="a poorly differentiated adenocarcinoma" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="Cisplatinum" id="TL3" toID="E22" toText="Cisplatinum" type="simultaneous"/>
+<TLINK fromID="E16" fromText="Bone scan" id="TL30" toID="E13" toText="Formal pathology" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="head CT" id="TL31" toID="E16" toText="Bone scan" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="staging studies" id="TL32" toID="E17" toText="head CT" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="metastatic disease" id="TL33" toID="E47" toText="staging studies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E48" fromText="preoperative neoadjuvant chemotherapy" id="TL34" toID="E3" toText="Neoadjuvant chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E49" fromText="5 FU" id="TL35" toID="E48" toText="preoperative neoadjuvant chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="Vinblastine" id="TL36" toID="E49" toText="5 FU" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="Cisplatinum" id="TL37" toID="E21" toText="Vinblastine" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="concomitant radiation therapy" id="TL38" toID="E22" toText="Cisplatinum" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="admitted" id="TL39" toID="E0" toText="ADMISSION" type="SIMULTANEOUS"/>
+<TLINK fromID="E24" fromText="her second course of that therapy" id="TL4" toID="E25" toText="intravenous chemotherapy" type="simultaneous"/>
+<TLINK fromID="E24" fromText="her second course of that therapy" id="TL40" toID="E48" toText="preoperative neoadjuvant chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E39" fromText="admitted" id="TL41" toID="E50" toText="admitted" type="SIMULTANEOUS"/>
+<TLINK fromID="E40" fromText="the Oncology Service" id="TL42" toID="E39" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E25" fromText="intravenous chemotherapy" id="TL43" toID="E40" toText="the Oncology Service" type="DURING"/>
+<TLINK fromID="E51" fromText="infusion of 5-FU , Vinblastine" id="TL44" toID="E25" toText="intravenous chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E51" fromText="infusion of 5-FU , Vinblastine" id="TL45" toID="T0" toText="a 72 hour" type="DURING"/>
+<TLINK fromID="E26" fromText="Vinblastine" id="TL46" toID="E51" toText="infusion of 5-FU , Vinblastine" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="Vinblastine" id="TL5" toID="E26" toText="Vinblastine" type="simultaneous"/>
+<TLINK fromID="E26" fromText="Vinblastine" id="TL50" toID="T5" toText="day 1" type="SIMULTANEOUS"/>
+<TLINK fromID="E26" fromText="Vinblastine" id="TL51" toID="T6" toText="day 3" type="SIMULTANEOUS"/>
+<TLINK fromID="E27" fromText="Cisplatinum" id="TL52" toID="T7" toText="day 1" type="SIMULTANEOUS"/>
+<TLINK fromID="E26" fromText="Vinblastine" id="TL53" toID="E27" toText="Cisplatinum" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="the chemotherapy" id="TL56" toID="E25" toText="intravenous chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E41" fromText="tolerated" id="TL57" toID="E28" toText="the chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E41" fromText="tolerated" id="TL58" toID="E60" toText="well" type="SIMULTANEOUS"/>
+<TLINK fromID="E52" fromText="nausea" id="TL59" toID="E60" toText="well" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="this chemotherapy" id="TL6" toID="E37" toText="chemotherapy" type="simultaneous"/>
+<TLINK fromID="E30" fromText="vomiting" id="TL60" toID="E52" toText="nausea" type="OVERLAP"/>
+<TLINK fromID="E54" fromText="the hospitalization" id="TL61" toID="E0" toText="ADMISSION" type="BEGUN_BY"/>
+<TLINK fromID="E54" fromText="the hospitalization" id="TL62" toID="E42" toText="DISCHARGE" type="ENDED_BY"/>
+<TLINK fromID="E31" fromText="mild increase" id="TL63" toID="E32" toText="her hypertension" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="mild increase" id="TL64" toID="E54" toText="the hospitalization" type="DURING"/>
+<TLINK fromID="E55" fromText="fluid overload" id="TL65" toID="E31" toText="mild increase" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E56" fromText="modest anemia" id="TL66" toID="E31" toText="mild increase" type="OVERLAP"/>
+<TLINK fromID="T8" fromText="the time" id="TL67" toID="E57" toText="discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E57" fromText="discharge" id="TL68" toID="E42" toText="DISCHARGE" type="SIMULTANEOUS"/>
+<TLINK fromID="E34" fromText="her hematocrit" id="TL69" toID="T8" toText="the time" type="SIMULTANEOUS"/>
+<TLINK fromID="E25" fromText="intravenous chemotherapy" id="TL7" toID="E28" toText="the chemotherapy" type="simultaneous"/>
+<TLINK fromID="E36" fromText="this chemotherapy" id="TL70" toID="E28" toText="the chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E36" fromText="this chemotherapy" id="TL71" toID="E35" toText="unanticipated side effects" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E58" fromText="her recovery" id="TL72" toID="E36" toText="this chemotherapy" type="AFTER"/>
+<TLINK fromID="E37" fromText="chemotherapy" id="TL73" toID="E36" toText="this chemotherapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E59" fromText="surgical resection" id="TL74" toID="E58" toText="her recovery" type="AFTER"/>
+<TLINK fromID="E22" fromText="Cisplatinum" id="TL8" toID="E27" toText="Cisplatinum" type="simultaneous"/>
+<TLINK fromID="E42" fromText="DISCHARGE" id="TL9" toID="T2" toText="6-2-93" type="SIMULTANEOUS"/>
+<TLINK fromID="E50" fromText="admitted" id="Sectime0" toID="T1" toText="5-30-93" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="her second course of that therapy" id="Sectime1" toID="T1" toText="5-30-93" type="OVERLAP"/>
+<TLINK fromID="E39" fromText="admitted" id="Sectime0" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E40" fromText="the Oncology Service" id="Sectime1" toID="T2" toText="6-2-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E25" fromText="intravenous chemotherapy" id="Sectime2" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E51" fromText="infusion of 5-FU , Vinblastine" id="Sectime3" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E26" fromText="Vinblastine" id="Sectime4" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E27" fromText="Cisplatinum" id="Sectime5" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E41" fromText="tolerated" id="Sectime6" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E28" fromText="the chemotherapy" id="Sectime7" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E60" fromText="well" id="Sectime8" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E52" fromText="nausea" id="Sectime9" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E30" fromText="vomiting" id="Sectime10" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E31" fromText="mild increase" id="Sectime11" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E53" fromText="increase" id="Sectime12" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E32" fromText="her hypertension" id="Sectime13" toID="T2" toText="6-2-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E54" fromText="the hospitalization" id="Sectime14" toID="T2" toText="6-2-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E55" fromText="fluid overload" id="Sectime15" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E56" fromText="modest anemia" id="Sectime16" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E57" fromText="discharge" id="Sectime17" toID="T2" toText="6-2-93" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="her hematocrit" id="Sectime18" toID="T2" toText="6-2-93" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="mixed adenocarcinoma" id="Sectime2" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E35" fromText="unanticipated side effects" id="Sectime19" toID="T2" toText="6-2-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E36" fromText="this chemotherapy" id="Sectime20" toID="T2" toText="6-2-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E58" fromText="her recovery" id="Sectime21" toID="T2" toText="6-2-93" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="chemotherapy" id="Sectime22" toID="T2" toText="6-2-93" type="BEFORE"/>
+<TLINK fromID="E59" fromText="surgical resection" id="Sectime23" toID="T2" toText="6-2-93" type="AFTER"/>
+<TLINK fromID="E2" fromText="large cell carcinoma of the left upper lobe" id="Sectime3" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E43" fromText="admitted" id="Sectime4" toID="T1" toText="5-30-93" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="Neoadjuvant chemotherapy" id="Sectime5" toID="T1" toText="5-30-93" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="Cisplatinum" id="Sectime6" toID="T1" toText="5-30-93" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="5-FU" id="Sectime7" toID="T1" toText="5-30-93" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="Velban" id="Sectime8" toID="T1" toText="5-30-93" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="diagnosed" id="Sectime9" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E7" fromText="lung carcinoma" id="Sectime10" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E8" fromText="Bronchoscopy" id="Sectime11" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E9" fromText="mediastinoscopy" id="Sectime12" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E44" fromText="revealed" id="Sectime13" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E10" fromText="an unresectable mediastinal tumor" id="Sectime14" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E11" fromText="cancer" id="Sectime15" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E12" fromText="anthracosis" id="Sectime16" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E13" fromText="Formal pathology" id="Sectime17" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E46" fromText="revealed" id="Sectime18" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E14" fromText="a poorly differentiated adenocarcinoma" id="Sectime19" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E15" fromText="focal giant cells" id="Sectime20" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E16" fromText="Bone scan" id="Sectime21" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E17" fromText="head CT" id="Sectime22" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E47" fromText="staging studies" id="Sectime23" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E19" fromText="metastatic disease" id="Sectime24" toID="T1" toText="5-30-93" type="BEFORE"/>
+<TLINK fromID="E48" fromText="preoperative neoadjuvant chemotherapy" id="Sectime25" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E49" fromText="5 FU" id="Sectime26" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E21" fromText="Vinblastine" id="Sectime27" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E22" fromText="Cisplatinum" id="Sectime28" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="concomitant radiation therapy" id="Sectime29" toID="T1" toText="5-30-93" type="BEFORE_OVERLAP"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

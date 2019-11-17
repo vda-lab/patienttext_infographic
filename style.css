@@ -1,0 +1,117 @@
+/* body {
+    background: #ededed;
+} */
+
+#slider-container {
+    position: relative;
+    height: 30px;
+    left: 200px;
+    background-color: #eeeef5;
+}
+
+.d3-tip {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none !important;
+}
+
+
+/* .slider { color slider (.slider .handle for handlebars)
+    background: steelblue;
+} */
+
+.mostlikely {
+    fill: #264662;
+    opacity: 80%;
+}
+
+.lowerbound {
+    fill: #396a93;
+    opacity: 40%;
+}
+
+.upperbound {
+    fill: #396a93;
+    opacity: 40%;
+}
+
+.axis line {
+    stroke: lightgray
+}
+
+.axis path {
+    display: none;
+}
+
+.vergrid line {
+    stroke: lightgray
+}
+
+.vergrid path {
+    display: none;
+}
+
+.horgrid line {
+    stroke: #f1f1f1
+}
+
+.horgrid path {
+    display: none;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+/* Creates a small triangle extender for the tooltip */
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+
+/* Style northward tooltips differently */
+
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+#floatx {
+    position: fixed;
+    top: 30;
+    left: 0;
+    width: 100%;
+}
+
+.label-treatment {
+    fill: red;
+}
+
+.label-test {
+    fill: blue;
+}
+
+.label-occurence {
+    fill: green;
+}

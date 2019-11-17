@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+06/11/1991
+Discharge Date :
+06/22/1991
+HISTORY OF PRESENT ILLNESS :
+Patient is a 28 year old gravida IV , para 2 with metastatic cervical cancer admitted with a question of malignant pericardial effusion .
+Patient underwent a total abdominal hysterectomy in 02/90 for a 4x3.6x2 cm cervical mass felt to be a fibroid at Vanor .
+Pathology revealed poorly differentiated squamous cell carcinoma of the cervix with spots of vaginal margins and metastatic squamous cell carcinoma in the cardinal ligaments with extensive lymphatic invasion .
+Patient was felt to have stage 2B disease and post-operatively , she was treated with intracavitary and external beam radiation therapy and low dose Cisplatin .
+On ultrasound in 02/91 , the patient was found to have bilateral cystic adnexal masses confirmed on physical examination .
+She underwent exploratory laparotomy and had a bilateral salpingo-oophorectomy and appendectomy .
+Pathology was negative for tumor and showed peritubal and periovarian adhesions .
+The patient now presents with a three to four week history of shortness of breath and a dry non-productive cough .
+She was evaluated by Dr. Mielke , a Pulmonologist , who found her to be wheezing and performed pulmonary function tests which showed an FEV1 of 1.1 and an FVC of 1.8 .
+She was admitted to Weekscook University Medical Center with a diagnosis of possible asthma .
+Room air arterial blood gas showed a pO2 of 56 , a pCO2 of 35 , and a pH of 7.52 .
+EKG showed sinus tachycardia at 100 and echo revealed pericardial effusion , a 10 mm pulsus paradoxus was noted , and no evidence of tamponade .
+Given the patient &amp;apos;s history of cervical cancer , the pericardial effusion was felt most likely to be malignant .
+She was therefore transferred to the Retelk County Medical Center for further care .
+HOSPITAL COURSE :
+The patient was admitted for a new pericardial effusion which was felt most likely to be secondary to metastatic cervical cancer .
+There was no evidence of tamponade .
+An echocardiogram was scheduled and Cardiology was consulted .
+Echocardiogram showed moderate anterior pericardial effusion of approximately 600 cc with diastolic indications of the right ventricle and low velocity paradox .
+Cardiology did not feel that tamponade at this time was a concern and that a tap need not be performed .
+She continued to have pulmonary wheezing , unknown origin , without history of asthma .
+Her steroids were tapered and Pulmonary was consulted who recommended a CT scan of the chest to evaluate the lung parenchyma , induce sputum for CBC , arterial blood gas , continuing of the beta agonist inhalers , and trial of steroid inhalers .
+They felt it was most likely a malignant lymphangitic spread with pericardial involvement versus infectious , other cardiovascular causes , or viral bronchiolitis .
+She had pulmonary function tests repeated which showed an FEV1 of 36% of predicted and FVC of 56% of predicted .
+Room air arterial blood gas showed a pH of 7.45 , pO2 of 63 , a pCO2 of 41 , and fairly significant AA gradient .
+She was continued on two liters of oxygen awaiting her CT scan on 06/14 and she developed a new junctional rhythm with a question of a new rub versus murmur on examination .
+Cardiology felt she had a rub and her pulsus was still 10 .
+EKG showed an ectopic low atrial P and they thought she was still stable without evidence of tamponade .
+She should have a follow-up echocardiogram .
+Echocardiogram showed left ventricle at the upper limits of normal for size , low normal function , moderate to mild effusion with pericardial pressures exceeding right atrial pressures , and right ventricular pressures at various points of patient &amp;apos;s cycle without any change in the effusion from 06/11 .
+Thoracic Surgery was also consulted and they felt that there was no need for a pericardial window at the time .
+She should be continued with pulmonary oximetry testing .
+She underwent her CT scan .
+This showed lymphangitic spread of cancer in the chest , question of pulmonary nodules in the chest , pericardial effusion , multiple liver metastases , decreased function of the left kidney , dilated left intrarenal collecting system and proximal ureter , and periaortic lymphadenopathy .
+Pulmonary felt this was consistent also with lymphangitic spread and they did not feel that a bronchoscopy would be of any assistance at this time .
+Chemotherapy for metastatic cervical cancer was discussed with the patient and she was started on 5-FU 800 mg per meter squared days 06/18 , 06/19 , and 06/20 .
+She also received Cisplatin 35 per meter squared on 06/19 and Ifex and Mesna on 06/18 .
+She was noted , on 06/16 , to have numerous erythematous maculopapules on her back and chest .
+Dermatology was consulted and they felt that this was most likely steroid acne .
+They therefore felt a rapid steroid taper was indicated and topical Erythromycin if desired by the patient .
+The patient &amp;apos;s shortness of breath and wheezing continued but without change .
+Her cardiac examination remained the same and there continued to be no evidence of tamponade .
+Cardiology felt that follow-up echo was indicated on 06/18 as she had another echocardiogram which showed no change or evidence of tamponade .
+They therefore felt that she could be continued to be followed by examination .
+She had some mental status changes with confusion and hallucinations on 06/18 originating from narcotics versus decreased pO2 .
+The Ifex was held as it was felt that it could have precipitated the mental status changes and that she was to receive no further Ifex .
+She had no further hallucinations since stopping the Ifex .
+Psychiatry was also consulted to help her with the changes she was feeling since her new diagnosis .
+She was hooked up with support services in Collot Ln , Dugo , Indiana 68961 for further counselling and given Xanax for symptoms of anxiety .
+She continued to have no change in her shortness of breath or cardiac examination and was discharged home on 06/22/91 after completing her 5-FU and Cisplatin chemotherapy .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="1991-06-11 01:44" lowerbound-start="1991-06-11 01:44" modality="FACTUAL" most-likely-end="1991-06-11 14:05" most-likely-start="1991-06-11 14:00" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="1991-06-13 02:51" upperbound-start="1991-06-13 02:15"/>
+<EVENT end="1043" id="E31" lowerbound-end="1991-05-27 14:12" lowerbound-start="1991-04-29 01:32" modality="FACTUAL" most-likely-end="1991-06-10 23:30" most-likely-start="1991-05-15 11:30" polarity="POS" start="1035" temporally-annotated="YES" text="presents" type="EVIDENTIAL" upperbound-end="1991-07-12 02:07" upperbound-start="1991-06-13 13:27"/>
+<EVENT end="1100" id="E32" lowerbound-end="1991-05-20 16:47" lowerbound-start="1991-04-29 01:47" modality="FACTUAL" most-likely-end="1991-07-12 23:30" most-likely-start="1991-05-15 11:30" polarity="POS" start="1081" temporally-annotated="YES" text="shortness of breath" type="PROBLEM" upperbound-end="1991-12-19 11:13" upperbound-start="1991-06-13 13:13"/>
+<EVENT end="1131" id="E33" lowerbound-end="1991-05-27 14:27" lowerbound-start="1991-04-29 01:47" modality="FACTUAL" most-likely-end="1991-06-10 23:30" most-likely-start="1991-05-15 11:30" polarity="POS" start="1105" temporally-annotated="YES" text="a dry non-productive cough" type="PROBLEM" upperbound-end="1991-07-12 01:53" upperbound-start="1991-06-13 13:13"/>
+<EVENT end="121" id="E2" lowerbound-end="1985-10-19 08:33" lowerbound-start="1984-09-10 15:53" modality="FACTUAL" most-likely-end="1990-11-27 11:00" most-likely-start="1988-04-13 23:00" polarity="POS" start="111" temporally-annotated="YES" text="gravida IV" type="OCCURRENCE" upperbound-end="2003-07-07 15:46" upperbound-start="1996-11-29 11:06"/>
+<EVENT end="1151" id="E34" lowerbound-end="1991-06-10 12:29" lowerbound-start="1991-06-10 11:37" modality="FACTUAL" most-likely-end="1991-06-11 00:52" most-likely-start="1991-06-11 00:07" polarity="POS" start="1142" temporally-annotated="YES" text="evaluated" type="TEST" upperbound-end="1991-06-12 13:30" upperbound-start="1991-06-12 12:38"/>
+<EVENT end="1214" id="E35" lowerbound-end="1991-06-10 12:15" lowerbound-start="1991-05-19 21:14" modality="FACTUAL" most-likely-end="1991-06-21 12:30" most-likely-start="1991-05-29 12:30" polarity="POS" start="1206" temporally-annotated="YES" text="wheezing" type="PROBLEM" upperbound-end="1991-12-12 00:46" upperbound-start="1991-06-06 02:45"/>
+<EVENT end="1253" id="E36" lowerbound-end="1991-06-10 12:35" lowerbound-start="1991-06-10 12:00" modality="FACTUAL" most-likely-end="1991-06-11 01:00" most-likely-start="1991-06-11 00:07" polarity="POS" start="1229" temporally-annotated="YES" text="pulmonary function tests" type="TEST" upperbound-end="1991-06-12 13:50" upperbound-start="1991-06-12 12:15"/>
+<EVENT end="130" id="E3" lowerbound-end="1985-10-19 08:33" lowerbound-start="1984-09-10 15:53" modality="FACTUAL" most-likely-end="1990-11-27 11:00" most-likely-start="1988-04-13 23:00" polarity="POS" start="124" temporally-annotated="YES" text="para 2" type="OCCURRENCE" upperbound-end="2003-07-07 15:46" upperbound-start="1996-11-29 11:06"/>
+<EVENT end="1266" id="E43" lowerbound-end="1991-06-10 12:35" lowerbound-start="1991-06-10 12:00" modality="FACTUAL" most-likely-end="1991-06-11 01:00" most-likely-start="1991-06-11 00:07" polarity="POS" start="1260" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-12 13:50" upperbound-start="1991-06-12 12:15"/>
+<EVENT end="1274" id="E37" lowerbound-end="1991-06-10 12:27" lowerbound-start="1991-06-10 11:52" modality="FACTUAL" most-likely-end="1991-06-11 01:00" most-likely-start="1991-06-11 00:07" polarity="POS" start="1267" temporally-annotated="YES" text="an FEV1" type="TEST" upperbound-end="1991-06-12 13:57" upperbound-start="1991-06-12 12:22"/>
+<EVENT end="1292" id="E38" lowerbound-end="1991-06-10 12:35" lowerbound-start="1991-06-10 12:00" modality="FACTUAL" most-likely-end="1991-06-11 01:00" most-likely-start="1991-06-11 00:07" polarity="POS" start="1286" temporally-annotated="YES" text="an FVC" type="TEST" upperbound-end="1991-06-12 13:50" upperbound-start="1991-06-12 12:15"/>
+<EVENT end="1318" id="E39" lowerbound-end="1991-06-10 05:37" lowerbound-start="1991-06-10 01:37" modality="FACTUAL" most-likely-end="1991-06-11 00:45" most-likely-start="1991-06-10 12:45" polarity="POS" start="1310" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1991-06-13 03:53" upperbound-start="1991-06-11 23:53"/>
+<EVENT end="1357" id="E40" lowerbound-end="1991-06-09 03:39" lowerbound-start="1991-06-10 09:12" modality="FACTUAL" most-likely-end="1991-06-12 07:22" most-likely-start="1991-06-11 13:00" polarity="POS" start="1322" temporally-annotated="YES" text="Weekscook University Medical Center" type="CLINICAL_DEPT" upperbound-end="1991-06-19 15:05" upperbound-start="1991-06-16 16:47"/>
+<EVENT end="162" id="E4" lowerbound-end="1987-03-10 13:40" lowerbound-start="1987-02-25 22:42" modality="FACTUAL" most-likely-end="1990-09-28 11:00" most-likely-start="1989-08-14 23:00" polarity="POS" start="136" temporally-annotated="YES" text="metastatic cervical cancer" type="PROBLEM" upperbound-end="2002-08-28 07:15" upperbound-start="1997-02-15 04:17"/>
+<EVENT end="1393" id="E41" lowerbound-end="1986-07-26 21:57" lowerbound-start="1991-06-10 12:48" modality="POSSIBLE" most-likely-end="2003-03-22 12:52" most-likely-start="1991-06-11 00:30" polarity="POS" start="1387" temporally-annotated="YES" text="asthma" type="PROBLEM" upperbound-end="2069-11-03 19:47" upperbound-start="1991-06-12 12:11"/>
+<EVENT end="1423" id="E42" lowerbound-end="1991-06-09 03:39" lowerbound-start="1991-06-10 09:12" modality="FACTUAL" most-likely-end="1991-06-12 07:22" most-likely-start="1991-06-11 13:00" polarity="POS" start="1396" temporally-annotated="YES" text="Room air arterial blood gas" type="TEST" upperbound-end="1991-06-19 15:05" upperbound-start="1991-06-16 16:47"/>
+<EVENT end="1430" id="E46" lowerbound-end="1991-06-09 03:39" lowerbound-start="1991-06-10 09:12" modality="FACTUAL" most-likely-end="1991-06-12 07:22" most-likely-start="1991-06-11 13:00" polarity="POS" start="1424" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-19 15:05" upperbound-start="1991-06-16 16:47"/>
+<EVENT end="1436" id="E47" lowerbound-end="1991-06-09 03:39" lowerbound-start="1991-06-10 09:12" modality="FACTUAL" most-likely-end="1991-06-12 07:22" most-likely-start="1991-06-11 13:00" polarity="POS" start="1431" temporally-annotated="YES" text="a pO2" type="TEST" upperbound-end="1991-06-19 15:05" upperbound-start="1991-06-16 16:47"/>
+<EVENT end="1451" id="E48" lowerbound-end="1991-06-09 03:39" lowerbound-start="1991-06-10 09:12" modality="FACTUAL" most-likely-end="1991-06-12 07:22" most-likely-start="1991-06-11 13:00" polarity="POS" start="1445" temporally-annotated="YES" text="a pCO2" type="TEST" upperbound-end="1991-06-19 15:05" upperbound-start="1991-06-16 16:47"/>
+<EVENT end="1468" id="E49" lowerbound-end="1991-06-09 03:39" lowerbound-start="1991-06-10 09:12" modality="FACTUAL" most-likely-end="1991-06-12 07:22" most-likely-start="1991-06-11 13:00" polarity="POS" start="1464" temporally-annotated="YES" text="a pH" type="TEST" upperbound-end="1991-06-19 15:05" upperbound-start="1991-06-16 16:47"/>
+<EVENT end="1482" id="E50" lowerbound-end="1991-06-10 14:13" lowerbound-start="1991-06-10 14:12" modality="FACTUAL" most-likely-end="1991-06-12 01:27" most-likely-start="1991-06-12 01:07" polarity="POS" start="1479" temporally-annotated="YES" text="EKG" type="TEST" upperbound-end="1991-06-17 13:04" upperbound-start="1991-06-17 12:03"/>
+<EVENT end="1489" id="E51" lowerbound-end="1991-06-10 14:13" lowerbound-start="1991-06-10 14:12" modality="FACTUAL" most-likely-end="1991-06-12 01:27" most-likely-start="1991-06-12 01:07" polarity="POS" start="1483" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-17 13:04" upperbound-start="1991-06-17 12:03"/>
+<EVENT end="1507" id="E52" lowerbound-end="1991-06-10 14:13" lowerbound-start="1991-06-10 14:12" modality="FACTUAL" most-likely-end="1991-06-12 01:27" most-likely-start="1991-06-12 01:07" polarity="POS" start="1490" temporally-annotated="YES" text="sinus tachycardia" type="PROBLEM" upperbound-end="1991-06-17 13:04" upperbound-start="1991-06-17 12:03"/>
+<EVENT end="1523" id="E53" lowerbound-end="1991-06-10 14:28" lowerbound-start="1991-06-10 13:54" modality="FACTUAL" most-likely-end="1991-06-12 01:27" most-likely-start="1991-06-12 01:02" polarity="POS" start="1519" temporally-annotated="YES" text="echo" type="TEST" upperbound-end="1991-06-17 12:44" upperbound-start="1991-06-17 12:10"/>
+<EVENT end="1532" id="E54" lowerbound-end="1991-06-10 14:28" lowerbound-start="1991-06-10 13:54" modality="FACTUAL" most-likely-end="1991-06-12 01:27" most-likely-start="1991-06-12 01:02" polarity="POS" start="1524" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="1991-06-17 12:44" upperbound-start="1991-06-17 12:10"/>
+<EVENT end="1553" id="E55" lowerbound-end="1991-06-10 18:43" lowerbound-start="1991-06-10 14:13" modality="FACTUAL" most-likely-end="1991-06-14 13:27" most-likely-start="1991-06-12 01:12" polarity="POS" start="1533" temporally-annotated="YES" text="pericardial effusion" type="PROBLEM" upperbound-end="1991-06-21 04:11" upperbound-start="1991-06-17 12:11"/>
+<EVENT end="1580" id="E56" lowerbound-end="1991-06-11 01:48" lowerbound-start="1991-05-20 10:18" modality="FACTUAL" most-likely-end="1991-06-11 13:10" most-likely-start="1991-05-30 00:55" polarity="POS" start="1556" temporally-annotated="YES" text="a 10 mm pulsus paradoxus" type="PROBLEM" upperbound-end="1991-06-13 00:31" upperbound-start="1991-06-06 14:31"/>
+<EVENT end="1608" id="E57" lowerbound-end="1991-06-10 14:28" lowerbound-start="1991-06-10 13:54" modality="FACTUAL" most-likely-end="1991-06-12 01:27" most-likely-start="1991-06-12 01:02" polarity="NEG" start="1600" temporally-annotated="YES" text="evidence" type="OCCURRENCE" upperbound-end="1991-06-17 12:44" upperbound-start="1991-06-17 12:10"/>
+<EVENT end="1621" id="E58" lowerbound-end="1991-06-11 01:48" lowerbound-start="1991-05-20 10:18" modality="FACTUAL" most-likely-end="1991-06-11 13:10" most-likely-start="1991-05-30 00:55" polarity="NEG" start="1612" temporally-annotated="YES" text="tamponade" type="PROBLEM" upperbound-end="1991-06-13 00:31" upperbound-start="1991-06-06 14:31"/>
+<EVENT end="171" id="E5" lowerbound-end="1991-06-11 01:44" lowerbound-start="1991-06-11 01:44" modality="FACTUAL" most-likely-end="1991-06-11 14:05" most-likely-start="1991-06-11 14:00" polarity="POS" start="163" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1991-06-13 02:51" upperbound-start="1991-06-13 02:15"/>
+<EVENT end="1676" id="E59" lowerbound-end="1987-03-10 13:40" lowerbound-start="1987-02-25 22:42" modality="FACTUAL" most-likely-end="1990-09-28 11:00" most-likely-start="1989-08-14 23:00" polarity="POS" start="1661" temporally-annotated="YES" text="cervical cancer" type="PROBLEM" upperbound-end="2002-08-28 07:15" upperbound-start="1997-02-15 04:17"/>
+<EVENT end="1703" id="E60" lowerbound-end="1991-06-10 18:43" lowerbound-start="1991-06-10 14:13" modality="FACTUAL" most-likely-end="1991-06-14 13:27" most-likely-start="1991-06-12 01:12" polarity="POS" start="1679" temporally-annotated="YES" text="the pericardial effusion" type="PROBLEM" upperbound-end="1991-06-21 04:11" upperbound-start="1991-06-17 12:11"/>
+<EVENT end="1740" id="E61" lowerbound-end="1990-10-18 10:16" lowerbound-start="1990-10-05 18:49" modality="POSSIBLE" most-likely-end="1990-11-27 13:10" most-likely-start="1990-10-14 00:55" polarity="POS" start="1731" temporally-annotated="YES" text="malignant" type="PROBLEM" upperbound-end="1991-05-21 02:57" upperbound-start="1990-11-07 00:00"/>
+<EVENT end="1772" id="E62" lowerbound-end="1991-06-11 01:45" lowerbound-start="1991-06-11 01:45" modality="FACTUAL" most-likely-end="1991-06-13 01:55" most-likely-start="1991-06-13 01:45" polarity="POS" start="1761" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="1991-06-19 02:26" upperbound-start="1991-06-19 01:45"/>
+<EVENT end="1808" id="E63" lowerbound-end="1991-06-16 07:44" lowerbound-start="1991-06-11 01:45" modality="FACTUAL" most-likely-end="1991-06-18 13:50" most-likely-start="1991-06-13 01:45" polarity="POS" start="1776" temporally-annotated="YES" text="the Retelk County Medical Center" type="CLINICAL_DEPT" upperbound-end="1991-06-24 19:55" upperbound-start="1991-06-19 01:45"/>
+<EVENT end="1825" id="E64" lowerbound-end="1991-06-21 19:29" lowerbound-start="1991-06-11 01:44" modality="FACTUAL" most-likely-end="1991-06-22 13:45" most-likely-start="1991-06-13 01:50" polarity="POS" start="1813" temporally-annotated="YES" text="further care" type="TREATMENT" upperbound-end="1991-06-24 08:00" upperbound-start="1991-06-19 01:55"/>
+<EVENT end="1870" id="E65" lowerbound-end="1991-06-11 02:05" lowerbound-start="1991-06-11 01:59" modality="FACTUAL" most-likely-end="1991-06-13 02:10" most-likely-start="1991-06-13 02:05" polarity="POS" start="1862" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1991-06-19 02:40" upperbound-start="1991-06-19 02:10"/>
+<EVENT end="1901" id="E66" lowerbound-end="1991-06-10 18:43" lowerbound-start="1991-06-10 14:13" modality="FACTUAL" most-likely-end="1991-06-14 13:27" most-likely-start="1991-06-12 01:12" polarity="POS" start="1875" temporally-annotated="YES" text="a new pericardial effusion" type="PROBLEM" upperbound-end="1991-06-21 04:11" upperbound-start="1991-06-17 12:11"/>
+<EVENT end="221" id="E6" lowerbound-end="1991-03-28 14:43" lowerbound-start="1991-03-28 02:03" modality="POSSIBLE" most-likely-end="1991-06-14 23:47" most-likely-start="1991-06-01 23:47" polarity="POS" start="191" temporally-annotated="YES" text="malignant pericardial effusion" type="PROBLEM" upperbound-end="1992-02-28 03:11" upperbound-start="1992-02-08 21:31"/>
+<EVENT end="1974" id="E67" lowerbound-end="1987-03-10 13:40" lowerbound-start="1987-02-25 22:42" modality="POSSIBLE" most-likely-end="1990-09-28 11:00" most-likely-start="1989-08-14 23:00" polarity="POS" start="1948" temporally-annotated="YES" text="metastatic cervical cancer" type="PROBLEM" upperbound-end="2002-08-28 07:15" upperbound-start="1997-02-15 04:17"/>
+<EVENT end="1998" id="E68" lowerbound-end="1991-06-10 14:28" lowerbound-start="1991-06-10 13:54" modality="FACTUAL" most-likely-end="1991-06-12 01:27" most-likely-start="1991-06-12 01:02" polarity="NEG" start="1990" temporally-annotated="YES" text="evidence" type="EVIDENTIAL" upperbound-end="1991-06-17 12:44" upperbound-start="1991-06-17 12:10"/>
+<EVENT end="2011" id="E69" lowerbound-end="1991-06-11 01:48" lowerbound-start="1991-05-20 10:18" modality="FACTUAL" most-likely-end="1991-06-11 13:10" most-likely-start="1991-05-30 00:55" polarity="NEG" start="2002" temporally-annotated="YES" text="tamponade" type="PROBLEM" upperbound-end="1991-06-13 00:31" upperbound-start="1991-06-06 14:31"/>
+<EVENT end="2031" id="E70" lowerbound-end="1991-06-11 17:02" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:25" most-likely-start="1991-06-13 14:00" polarity="POS" start="2014" temporally-annotated="YES" text="An echocardiogram" type="TEST" upperbound-end="1991-06-19 12:02" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2045" id="E71" lowerbound-end="1991-06-11 17:01" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:16" most-likely-start="1991-06-13 14:00" polarity="POS" start="2036" temporally-annotated="YES" text="scheduled" type="OCCURRENCE" upperbound-end="1991-06-19 12:01" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2060" id="E72" lowerbound-end="1991-06-11 17:06" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:32" most-likely-start="1991-06-13 14:00" polarity="POS" start="2050" temporally-annotated="YES" text="Cardiology" type="OCCURRENCE" upperbound-end="1991-06-19 12:06" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2074" id="E73" lowerbound-end="1991-06-11 17:06" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:32" most-likely-start="1991-06-13 14:00" polarity="POS" start="2065" temporally-annotated="YES" text="consulted" type="OCCURRENCE" upperbound-end="1991-06-19 12:06" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2091" id="E74" lowerbound-end="1991-06-11 17:02" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:25" most-likely-start="1991-06-13 14:00" polarity="POS" start="2077" temporally-annotated="YES" text="Echocardiogram" type="TEST" upperbound-end="1991-06-19 12:02" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2098" id="E75" lowerbound-end="1991-06-11 17:02" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:25" most-likely-start="1991-06-13 14:00" polarity="POS" start="2092" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-19 12:02" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2137" id="E76" lowerbound-end="1991-06-11 09:40" lowerbound-start="1991-06-11 05:39" modality="FACTUAL" most-likely-end="1991-06-15 02:32" most-likely-start="1991-06-12 14:17" polarity="POS" start="2099" temporally-annotated="YES" text="moderate anterior pericardial effusion" type="PROBLEM" upperbound-end="1991-06-21 15:26" upperbound-start="1991-06-17 22:55"/>
+<EVENT end="2211" id="E77" lowerbound-end="1991-06-11 13:40" lowerbound-start="1991-06-11 05:39" modality="FACTUAL" most-likely-end="1991-06-14 02:32" most-likely-start="1991-06-12 14:17" polarity="POS" start="2167" temporally-annotated="YES" text="diastolic indications of the right ventricle" type="PROBLEM" upperbound-end="1991-06-21 19:26" upperbound-start="1991-06-17 22:55"/>
+<EVENT end="2236" id="E78" lowerbound-end="1991-06-11 13:40" lowerbound-start="1991-06-11 05:39" modality="FACTUAL" most-likely-end="1991-06-14 02:32" most-likely-start="1991-06-12 14:17" polarity="POS" start="2216" temporally-annotated="YES" text="low velocity paradox" type="PROBLEM" upperbound-end="1991-06-21 19:26" upperbound-start="1991-06-17 22:55"/>
+<EVENT end="2249" id="E79" lowerbound-end="1991-06-11 17:06" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:32" most-likely-start="1991-06-13 14:00" polarity="POS" start="2239" temporally-annotated="YES" text="Cardiology" type="OCCURRENCE" upperbound-end="1991-06-19 12:06" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2277" id="E80" lowerbound-end="1991-06-11 17:07" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:32" most-likely-start="1991-06-13 14:00" polarity="NEG" start="2268" temporally-annotated="YES" text="tamponade" type="PROBLEM" upperbound-end="1991-06-19 12:07" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2319" id="E81" lowerbound-end="1991-06-11 17:07" lowerbound-start="1991-06-11 17:00" modality="FACTUAL" most-likely-end="1991-06-13 14:32" most-likely-start="1991-06-13 14:00" polarity="NEG" start="2314" temporally-annotated="YES" text="a tap" type="TREATMENT" upperbound-end="1991-06-19 12:07" upperbound-start="1991-06-19 11:00"/>
+<EVENT end="2384" id="E82" lowerbound-end="1991-06-02 17:18" lowerbound-start="1991-06-10 12:14" modality="FACTUAL" most-likely-end="1991-07-01 12:30" most-likely-start="1991-06-11 00:30" polarity="POS" start="2366" temporally-annotated="YES" text="pulmonary wheezing" type="PROBLEM" upperbound-end="2041-12-26 07:43" upperbound-start="1991-06-12 12:45"/>
+<EVENT end="272" id="E7" lowerbound-end="1985-04-09 22:49" lowerbound-start="1985-04-09 10:48" modality="FACTUAL" most-likely-end="1990-02-15 12:00" most-likely-start="1990-02-15 10:00" polarity="POS" start="242" temporally-annotated="YES" text="a total abdominal hysterectomy" type="TREATMENT" upperbound-end="2000-01-07 16:11" upperbound-start="2000-01-07 04:10"/>
+<EVENT end="2429" id="E83" lowerbound-end="1986-07-27 23:44" lowerbound-start="1991-06-11 16:22" modality="FACTUAL" most-likely-end="2003-03-23 08:22" most-likely-start="1991-06-12 01:37" polarity="NEG" start="2423" temporally-annotated="YES" text="asthma" type="PROBLEM" upperbound-end="2069-11-04 04:56" upperbound-start="1991-06-13 10:52"/>
+<EVENT end="2444" id="E84" lowerbound-end="1991-06-13 23:41" lowerbound-start="1965-09-29 12:34" modality="FACTUAL" most-likely-end="1991-06-22 02:32" most-likely-start="1990-09-23 18:32" polarity="POS" start="2432" temporally-annotated="YES" text="Her steroids" type="TREATMENT" upperbound-end="1991-07-09 07:04" upperbound-start="2065-09-05 12:30"/>
+<EVENT end="2457" id="E85" lowerbound-end="1991-06-13 23:41" lowerbound-start="1965-09-29 12:34" modality="FACTUAL" most-likely-end="1991-06-22 02:32" most-likely-start="1990-09-23 18:32" polarity="POS" start="2450" temporally-annotated="YES" text="tapered" type="OCCURRENCE" upperbound-end="1991-07-09 07:04" upperbound-start="2065-09-05 12:30"/>
+<EVENT end="2471" id="E86" lowerbound-end="1991-06-10 23:09" lowerbound-start="1991-06-10 23:03" modality="FACTUAL" most-likely-end="1991-06-13 14:55" most-likely-start="1991-06-13 14:32" polarity="POS" start="2462" temporally-annotated="YES" text="Pulmonary" type="OCCURRENCE" upperbound-end="1991-06-23 07:07" upperbound-start="1991-06-23 06:01"/>
+<EVENT end="2485" id="E87" lowerbound-end="1991-06-10 23:09" lowerbound-start="1991-06-10 23:03" modality="FACTUAL" most-likely-end="1991-06-13 14:55" most-likely-start="1991-06-13 14:32" polarity="POS" start="2476" temporally-annotated="YES" text="consulted" type="OCCURRENCE" upperbound-end="1991-06-23 07:07" upperbound-start="1991-06-23 06:01"/>
+<EVENT end="2524" id="E88" lowerbound-end="1991-06-12 12:57" lowerbound-start="1991-06-12 12:49" modality="PROPOSED" most-likely-end="1991-06-14 13:10" most-likely-start="1991-06-14 12:40" polarity="POS" start="2502" temporally-annotated="YES" text="a CT scan of the chest" type="TEST" upperbound-end="1991-06-20 13:39" upperbound-start="1991-06-20 12:31"/>
+<EVENT end="2572" id="E89" lowerbound-end="1991-06-10 23:04" lowerbound-start="1991-06-10 23:03" modality="FACTUAL" most-likely-end="1991-06-13 14:41" most-likely-start="1991-06-13 14:32" polarity="POS" start="2566" temporally-annotated="YES" text="sputum" type="OCCURRENCE" upperbound-end="1991-06-23 07:02" upperbound-start="1991-06-23 06:01"/>
+<EVENT end="2580" id="E90" lowerbound-end="1991-06-10 23:04" lowerbound-start="1991-06-10 23:03" modality="PROPOSED" most-likely-end="1991-06-13 14:45" most-likely-start="1991-06-13 14:32" polarity="POS" start="2577" temporally-annotated="YES" text="CBC" type="TEST" upperbound-end="1991-06-23 07:02" upperbound-start="1991-06-23 06:01"/>
+<EVENT end="2601" id="E91" lowerbound-end="1991-06-10 23:04" lowerbound-start="1991-06-10 23:03" modality="PROPOSED" most-likely-end="1991-06-13 14:45" most-likely-start="1991-06-13 14:32" polarity="POS" start="2583" temporally-annotated="YES" text="arterial blood gas" type="TEST" upperbound-end="1991-06-23 07:02" upperbound-start="1991-06-23 06:01"/>
+<EVENT end="2643" id="E92" lowerbound-end="1965-10-11 00:13" lowerbound-start="1965-09-26 22:44" modality="FACTUAL" most-likely-end="1990-10-21 08:30" most-likely-start="1990-09-21 20:22" polarity="POS" start="2618" temporally-annotated="YES" text="the beta agonist inhalers" type="TREATMENT" upperbound-end="2066-03-22 19:59" upperbound-start="2065-09-07 06:00"/>
+<EVENT end="2675" id="E93" lowerbound-end="1991-06-09 11:31" lowerbound-start="1990-11-26 08:34" modality="PROPOSED" most-likely-end="1991-06-13 04:30" most-likely-start="1991-04-28 04:22" polarity="POS" start="2659" temporally-annotated="YES" text="steroid inhalers" type="TREATMENT" upperbound-end="1991-06-23 21:44" upperbound-start="1991-06-11 06:17"/>
+<EVENT end="2738" id="E94" lowerbound-end="1991-04-06 04:00" lowerbound-start="1990-10-05 16:00" modality="POSSIBLE" most-likely-end="1991-07-14 14:30" most-likely-start="1990-10-14 14:22" polarity="POS" start="2707" temporally-annotated="YES" text="a malignant lymphangitic spread" type="PROBLEM" upperbound-end="1991-11-11 06:15" upperbound-start="1990-11-11 05:45"/>
+<EVENT end="2767" id="E95" lowerbound-end="1991-06-10 19:24" lowerbound-start="1991-06-10 11:24" modality="POSSIBLE" most-likely-end="1991-06-14 02:47" most-likely-start="1991-06-12 14:40" polarity="POS" start="2744" temporally-annotated="YES" text="pericardial involvement" type="PROBLEM" upperbound-end="1991-06-25 14:26" upperbound-start="1991-06-21 17:56"/>
+<EVENT end="2785" id="E96" lowerbound-end="1991-06-10 19:24" lowerbound-start="1991-06-10 11:24" modality="POSSIBLE" most-likely-end="1991-06-14 02:47" most-likely-start="1991-06-12 14:40" polarity="POS" start="2775" temporally-annotated="YES" text="infectious" type="PROBLEM" upperbound-end="1991-06-25 14:26" upperbound-start="1991-06-21 17:56"/>
+<EVENT end="2815" id="E97" lowerbound-end="1991-06-10 19:24" lowerbound-start="1991-06-10 11:24" modality="POSSIBLE" most-likely-end="1991-06-14 02:47" most-likely-start="1991-06-12 14:40" polarity="POS" start="2788" temporally-annotated="YES" text="other cardiovascular causes" type="PROBLEM" upperbound-end="1991-06-25 14:26" upperbound-start="1991-06-21 17:56"/>
+<EVENT end="2840" id="E98" lowerbound-end="1991-06-10 19:24" lowerbound-start="1991-06-10 11:24" modality="POSSIBLE" most-likely-end="1991-06-14 02:47" most-likely-start="1991-06-12 14:40" polarity="POS" start="2821" temporally-annotated="YES" text="viral bronchiolitis" type="PROBLEM" upperbound-end="1991-06-25 14:26" upperbound-start="1991-06-21 17:56"/>
+<EVENT end="312" id="E8" lowerbound-end="1985-04-09 22:49" lowerbound-start="1985-04-09 10:48" modality="FACTUAL" most-likely-end="1990-02-15 12:00" most-likely-start="1990-02-15 10:00" polarity="POS" start="286" temporally-annotated="YES" text="a 4x3.6x2 cm cervical mass" type="PROBLEM" upperbound-end="2000-01-07 16:11" upperbound-start="2000-01-07 04:10"/>
+<EVENT end="2875" id="E99" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="2851" temporally-annotated="YES" text="pulmonary function tests" type="TEST" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="2897" id="E100" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="2891" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="2905" id="E101" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="2898" temporally-annotated="YES" text="an FEV1" type="TEST" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="38" id="E1" lowerbound-end="1991-06-22 00:23" lowerbound-start="1991-06-21 23:53" modality="FACTUAL" most-likely-end="1991-06-22 13:30" most-likely-start="1991-06-22 13:27" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="1991-06-24 02:36" upperbound-start="1991-06-24 02:36"/>
+<EVENT end="2933" id="E102" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="2930" temporally-annotated="YES" text="FVC" type="TEST" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="2983" id="E103" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="2956" temporally-annotated="YES" text="Room air arterial blood gas" type="TEST" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="2990" id="E104" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="2984" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="2995" id="E105" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="2991" temporally-annotated="YES" text="a pH" type="TEST" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="3009" id="E106" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="3006" temporally-annotated="YES" text="pO2" type="TEST" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="3024" id="E107" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="3018" temporally-annotated="YES" text="a pCO2" type="TEST" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="3067" id="E108" lowerbound-end="1991-06-12 00:55" lowerbound-start="1991-06-12 00:20" modality="FACTUAL" most-likely-end="1991-06-13 03:30" most-likely-start="1991-06-13 02:37" polarity="POS" start="3037" temporally-annotated="YES" text="fairly significant AA gradient" type="PROBLEM" upperbound-end="1991-06-18 06:29" upperbound-start="1991-06-18 04:54"/>
+<EVENT end="3111" id="E109" lowerbound-end="1991-06-12 17:55" lowerbound-start="1991-06-11 01:10" modality="FACTUAL" most-likely-end="1991-06-14 00:22" most-likely-start="1991-06-11 21:22" polarity="POS" start="3105" temporally-annotated="YES" text="oxygen" type="TREATMENT" upperbound-end="1991-06-19 10:49" upperbound-start="1991-06-16 17:34"/>
+<EVENT end="3132" id="E110" lowerbound-end="1991-06-14 00:22" lowerbound-start="1991-06-14 00:14" modality="FACTUAL" most-likely-end="1991-06-14 13:00" most-likely-start="1991-06-14 12:30" polarity="POS" start="3121" temporally-annotated="YES" text="her CT scan" type="TEST" upperbound-end="1991-06-16 01:53" upperbound-start="1991-06-16 00:45"/>
+<EVENT end="3183" id="E111" lowerbound-end="1991-06-12 13:03" lowerbound-start="1991-06-08 17:51" modality="FACTUAL" most-likely-end="1991-06-13 15:50" most-likely-start="1991-06-12 15:42" polarity="POS" start="3160" temporally-annotated="YES" text="a new junctional rhythm" type="PROBLEM" upperbound-end="1991-06-18 18:52" upperbound-start="1991-06-18 11:10"/>
+<EVENT end="3212" id="E112" lowerbound-end="1991-06-12 13:03" lowerbound-start="1991-06-08 17:51" modality="POSSIBLE" most-likely-end="1991-06-13 15:50" most-likely-start="1991-06-12 15:42" polarity="POS" start="3203" temporally-annotated="YES" text="a new rub" type="PROBLEM" upperbound-end="1991-06-18 18:52" upperbound-start="1991-06-18 11:10"/>
+<EVENT end="3226" id="E113" lowerbound-end="1991-06-12 13:03" lowerbound-start="1991-06-08 17:51" modality="POSSIBLE" most-likely-end="1991-06-13 15:50" most-likely-start="1991-06-12 15:42" polarity="POS" start="3220" temporally-annotated="YES" text="murmur" type="PROBLEM" upperbound-end="1991-06-18 18:52" upperbound-start="1991-06-18 11:10"/>
+<EVENT end="3241" id="E114" lowerbound-end="1991-06-12 13:03" lowerbound-start="1991-06-08 17:51" modality="FACTUAL" most-likely-end="1991-06-13 15:50" most-likely-start="1991-06-12 15:42" polarity="POS" start="3230" temporally-annotated="YES" text="examination" type="TEST" upperbound-end="1991-06-18 18:52" upperbound-start="1991-06-18 11:10"/>
+<EVENT end="333" id="E9" lowerbound-end="1985-04-09 22:49" lowerbound-start="1985-04-09 10:48" modality="POSSIBLE" most-likely-end="1990-02-15 12:00" most-likely-start="1990-02-15 10:00" polarity="POS" start="324" temporally-annotated="YES" text="a fibroid" type="PROBLEM" upperbound-end="2000-01-07 16:11" upperbound-start="2000-01-07 04:10"/>
+<EVENT end="3254" id="E115" lowerbound-end="1991-06-12 13:03" lowerbound-start="1991-06-08 17:50" modality="FACTUAL" most-likely-end="1991-06-13 15:57" most-likely-start="1991-06-12 15:50" polarity="POS" start="3244" temporally-annotated="YES" text="Cardiology" type="OCCURRENCE" upperbound-end="1991-06-18 19:08" upperbound-start="1991-06-18 11:25"/>
+<EVENT end="3273" id="E116" lowerbound-end="1991-06-12 13:03" lowerbound-start="1991-06-08 17:50" modality="FACTUAL" most-likely-end="1991-06-13 15:57" most-likely-start="1991-06-12 15:50" polarity="POS" start="3268" temporally-annotated="YES" text="a rub" type="PROBLEM" upperbound-end="1991-06-18 19:08" upperbound-start="1991-06-18 11:25"/>
+<EVENT end="3288" id="E117" lowerbound-end="1991-06-12 13:03" lowerbound-start="1991-06-08 17:50" modality="FACTUAL" most-likely-end="1991-06-13 15:57" most-likely-start="1991-06-12 15:50" polarity="POS" start="3278" temporally-annotated="YES" text="her pulsus" type="TEST" upperbound-end="1991-06-18 19:08" upperbound-start="1991-06-18 11:25"/>
+<EVENT end="3307" id="E118" lowerbound-end="1991-06-14 01:24" lowerbound-start="1991-06-14 01:23" modality="FACTUAL" most-likely-end="1991-06-14 12:20" most-likely-start="1991-06-14 12:00" polarity="POS" start="3304" temporally-annotated="YES" text="EKG" type="TEST" upperbound-end="1991-06-15 23:38" upperbound-start="1991-06-15 22:37"/>
+<EVENT end="3314" id="E119" lowerbound-end="1991-06-14 01:24" lowerbound-start="1991-06-14 01:23" modality="FACTUAL" most-likely-end="1991-06-14 12:20" most-likely-start="1991-06-14 12:00" polarity="POS" start="3308" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-15 23:38" upperbound-start="1991-06-15 22:37"/>
+<EVENT end="3338" id="E120" lowerbound-end="1991-06-14 11:26" lowerbound-start="1991-06-14 01:26" modality="FACTUAL" most-likely-end="1991-06-15 12:20" most-likely-start="1991-06-14 12:10" polarity="POS" start="3315" temporally-annotated="YES" text="an ectopic low atrial P" type="PROBLEM" upperbound-end="1991-06-19 21:24" upperbound-start="1991-06-15 22:54"/>
+<EVENT end="342" id="E10" lowerbound-end="1990-01-30 11:31" lowerbound-start="1990-01-29 11:30" modality="FACTUAL" most-likely-end="1990-02-15 13:00" most-likely-start="1990-02-15 11:00" polarity="POS" start="337" temporally-annotated="YES" text="Vanor" type="CLINICAL_DEPT" upperbound-end="1990-04-03 00:29" upperbound-start="1990-04-03 00:28"/>
+<EVENT end="3376" id="E121" lowerbound-end="1991-06-14 11:26" lowerbound-start="1991-06-14 01:26" modality="FACTUAL" most-likely-end="1991-06-15 12:20" most-likely-start="1991-06-14 12:10" polarity="POS" start="3370" temporally-annotated="YES" text="stable" type="OCCURRENCE" upperbound-end="1991-06-19 21:24" upperbound-start="1991-06-15 22:54"/>
+<EVENT end="3406" id="E122" lowerbound-end="1991-06-14 01:24" lowerbound-start="1991-06-14 01:23" modality="FACTUAL" most-likely-end="1991-06-14 12:20" most-likely-start="1991-06-14 12:00" polarity="NEG" start="3397" temporally-annotated="YES" text="tamponade" type="PROBLEM" upperbound-end="1991-06-15 23:38" upperbound-start="1991-06-15 22:37"/>
+<EVENT end="3451" id="E123" lowerbound-end="1991-06-14 13:24" lowerbound-start="1991-06-14 13:23" modality="PROPOSED" most-likely-end="1991-06-15 00:20" most-likely-start="1991-06-15 00:00" polarity="POS" start="3425" temporally-annotated="YES" text="a follow-up echocardiogram" type="TEST" upperbound-end="1991-06-16 11:38" upperbound-start="1991-06-16 10:37"/>
+<EVENT end="354" id="E11" lowerbound-end="1985-04-10 06:52" lowerbound-start="1985-04-10 04:09" modality="FACTUAL" most-likely-end="1990-02-17 12:30" most-likely-start="1990-02-15 12:00" polarity="POS" start="345" temporally-annotated="YES" text="Pathology" type="TEST" upperbound-end="2000-01-10 16:40" upperbound-start="2000-01-07 00:50"/>
+<EVENT end="3468" id="E124" lowerbound-end="1991-06-14 13:35" lowerbound-start="1991-06-14 13:34" modality="FACTUAL" most-likely-end="1991-06-15 00:35" most-likely-start="1991-06-15 00:10" polarity="POS" start="3454" temporally-annotated="YES" text="Echocardiogram" type="TEST" upperbound-end="1991-06-16 11:47" upperbound-start="1991-06-16 10:46"/>
+<EVENT end="3475" id="E125" lowerbound-end="1991-06-14 13:35" lowerbound-start="1991-06-14 13:34" modality="FACTUAL" most-likely-end="1991-06-15 00:35" most-likely-start="1991-06-15 00:10" polarity="POS" start="3469" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-16 11:47" upperbound-start="1991-06-16 10:46"/>
+<EVENT end="3529" id="E126" lowerbound-end="1991-06-14 13:35" lowerbound-start="1991-06-14 13:34" modality="FACTUAL" most-likely-end="1991-06-15 00:35" most-likely-start="1991-06-15 00:10" polarity="POS" start="3494" temporally-annotated="YES" text="the upper limits of normal for size" type="PROBLEM" upperbound-end="1991-06-16 11:47" upperbound-start="1991-06-16 10:46"/>
+<EVENT end="3551" id="E127" lowerbound-end="1991-06-14 13:35" lowerbound-start="1991-06-14 13:34" modality="FACTUAL" most-likely-end="1991-06-15 00:35" most-likely-start="1991-06-15 00:10" polarity="POS" start="3532" temporally-annotated="YES" text="low normal function" type="PROBLEM" upperbound-end="1991-06-16 11:47" upperbound-start="1991-06-16 10:46"/>
+<EVENT end="363" id="E12" lowerbound-end="1985-04-10 06:52" lowerbound-start="1985-04-10 04:09" modality="FACTUAL" most-likely-end="1990-02-17 12:30" most-likely-start="1990-02-15 12:00" polarity="POS" start="355" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="2000-01-10 16:40" upperbound-start="2000-01-07 00:50"/>
+<EVENT end="3579" id="E128" lowerbound-end="1991-06-14 13:38" lowerbound-start="1991-06-14 13:37" modality="FACTUAL" most-likely-end="1991-06-16 00:35" most-likely-start="1991-06-15 00:20" polarity="POS" start="3554" temporally-annotated="YES" text="moderate to mild effusion" type="PROBLEM" upperbound-end="1991-06-19 23:34" upperbound-start="1991-06-16 11:03"/>
+<EVENT end="3606" id="E129" lowerbound-end="1991-06-14 13:38" lowerbound-start="1991-06-14 13:37" modality="FACTUAL" most-likely-end="1991-06-16 00:35" most-likely-start="1991-06-15 00:20" polarity="POS" start="3585" temporally-annotated="YES" text="pericardial pressures" type="TEST" upperbound-end="1991-06-19 23:34" upperbound-start="1991-06-16 11:03"/>
+<EVENT end="3639" id="E130" lowerbound-end="1991-06-15 12:18" lowerbound-start="1991-06-15 12:17" modality="FACTUAL" most-likely-end="1991-06-17 00:55" most-likely-start="1991-06-16 00:40" polarity="POS" start="3617" temporally-annotated="YES" text="right atrial pressures" type="TEST" upperbound-end="1991-06-21 01:33" upperbound-start="1991-06-17 13:02"/>
+<EVENT end="423" id="E13" lowerbound-end="1985-04-10 06:56" lowerbound-start="1982-12-25 11:12" modality="FACTUAL" most-likely-end="1990-02-17 12:00" most-likely-start="1989-10-11 11:00" polarity="POS" start="364" temporally-annotated="YES" text="poorly differentiated squamous cell carcinoma of the cervix" type="PROBLEM" upperbound-end="2000-01-10 15:37" upperbound-start="2006-07-26 10:47"/>
+<EVENT end="3673" id="E131" lowerbound-end="1991-06-15 12:18" lowerbound-start="1991-06-15 12:17" modality="FACTUAL" most-likely-end="1991-06-17 00:55" most-likely-start="1991-06-16 00:40" polarity="POS" start="3646" temporally-annotated="YES" text="right ventricular pressures" type="TEST" upperbound-end="1991-06-21 01:33" upperbound-start="1991-06-17 13:02"/>
+<EVENT end="3751" id="E132" lowerbound-end="1991-06-10 18:43" lowerbound-start="1991-06-10 14:13" modality="FACTUAL" most-likely-end="1991-06-14 13:27" most-likely-start="1991-06-12 01:12" polarity="POS" start="3739" temporally-annotated="YES" text="the effusion" type="PROBLEM" upperbound-end="1991-06-21 04:11" upperbound-start="1991-06-17 12:11"/>
+<EVENT end="3781" id="E133" lowerbound-end="1991-06-14 13:38" lowerbound-start="1991-06-14 13:07" modality="FACTUAL" most-likely-end="1991-06-15 00:42" most-likely-start="1991-06-15 00:25" polarity="POS" start="3765" temporally-annotated="YES" text="Thoracic Surgery" type="OCCURRENCE" upperbound-end="1991-06-16 12:02" upperbound-start="1991-06-16 11:31"/>
+<EVENT end="3800" id="E134" lowerbound-end="1991-06-14 13:38" lowerbound-start="1991-06-14 13:07" modality="FACTUAL" most-likely-end="1991-06-15 00:42" most-likely-start="1991-06-15 00:25" polarity="POS" start="3791" temporally-annotated="YES" text="consulted" type="OCCURRENCE" upperbound-end="1991-06-16 12:02" upperbound-start="1991-06-16 11:31"/>
+<EVENT end="3862" id="E135" lowerbound-end="1991-06-14 13:38" lowerbound-start="1991-06-14 13:38" modality="PROPOSED" most-likely-end="1991-06-15 00:42" most-likely-start="1991-06-15 00:32" polarity="NEG" start="3842" temporally-annotated="YES" text="a pericardial window" type="TREATMENT" upperbound-end="1991-06-16 12:02" upperbound-start="1991-06-16 11:27"/>
+<EVENT end="3932" id="E136" lowerbound-end="1991-06-12 02:37" lowerbound-start="1991-06-12 02:33" modality="FACTUAL" most-likely-end="1991-06-14 01:07" most-likely-start="1991-06-14 00:50" polarity="POS" start="3906" temporally-annotated="YES" text="pulmonary oximetry testing" type="TEST" upperbound-end="1991-06-20 00:11" upperbound-start="1991-06-19 23:07"/>
+<EVENT end="3960" id="E137" lowerbound-end="1991-06-14 00:22" lowerbound-start="1991-06-14 00:14" modality="FACTUAL" most-likely-end="1991-06-14 13:00" most-likely-start="1991-06-14 12:30" polarity="POS" start="3949" temporally-annotated="YES" text="her CT scan" type="TEST" upperbound-end="1991-06-16 01:53" upperbound-start="1991-06-16 00:45"/>
+<EVENT end="3974" id="E138" lowerbound-end="1991-06-15 12:22" lowerbound-start="1991-06-12 16:13" modality="FACTUAL" most-likely-end="1991-06-16 00:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="3963" temporally-annotated="YES" text="This showed" type="EVIDENTIAL" upperbound-end="1991-06-17 13:23" upperbound-start="1991-06-23 08:47"/>
+<EVENT end="3994" id="E139" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="3975" temporally-annotated="YES" text="lymphangitic spread" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4017" id="E140" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="3998" temporally-annotated="YES" text="cancer in the chest" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4062" id="E141" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="POSSIBLE" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="4032" temporally-annotated="YES" text="pulmonary nodules in the chest" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4085" id="E142" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="4065" temporally-annotated="YES" text="pericardial effusion" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4113" id="E143" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="4088" temporally-annotated="YES" text="multiple liver metastases" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4153" id="E144" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="4116" temporally-annotated="YES" text="decreased function of the left kidney" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4217" id="E145" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="4156" temporally-annotated="YES" text="dilated left intrarenal collecting system and proximal ureter" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4250" id="E146" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="4224" temporally-annotated="YES" text="periaortic lymphadenopathy" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4262" id="E147" lowerbound-end="1991-06-12 16:24" lowerbound-start="1991-06-12 16:13" modality="FACTUAL" most-likely-end="1991-06-16 01:05" most-likely-start="1991-06-16 00:30" polarity="POS" start="4253" temporally-annotated="YES" text="Pulmonary" type="OCCURRENCE" upperbound-end="1991-06-23 09:58" upperbound-start="1991-06-23 08:47"/>
+<EVENT end="4317" id="E148" lowerbound-end="1991-07-16 02:48" lowerbound-start="1991-06-15 12:14" modality="FACTUAL" most-likely-end="1991-09-15 12:45" most-likely-start="1991-06-16 00:30" polarity="POS" start="4298" temporally-annotated="YES" text="lymphangitic spread" type="PROBLEM" upperbound-end="1992-01-16 15:49" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="4359" id="E149" lowerbound-end="1991-06-15 12:29" lowerbound-start="1991-06-15 12:14" modality="PROPOSED" most-likely-end="1991-06-16 01:07" most-likely-start="1991-06-16 00:30" polarity="NEG" start="4345" temporally-annotated="YES" text="a bronchoscopy" type="TEST" upperbound-end="1991-06-17 14:00" upperbound-start="1991-06-17 12:45"/>
+<EVENT end="453" id="E14" lowerbound-end="1985-04-10 06:56" lowerbound-start="1982-12-25 11:12" modality="FACTUAL" most-likely-end="1990-02-17 12:00" most-likely-start="1989-10-11 11:00" polarity="POS" start="438" temporally-annotated="YES" text="vaginal margins" type="OCCURRENCE" upperbound-end="2000-01-10 15:37" upperbound-start="2006-07-26 10:47"/>
+<EVENT end="4414" id="E150" lowerbound-end="1991-06-17 00:47" lowerbound-start="1991-06-12 12:30" modality="PROPOSED" most-likely-end="1991-06-17 12:45" most-likely-start="1991-06-15 12:45" polarity="POS" start="4402" temporally-annotated="YES" text="Chemotherapy" type="TREATMENT" upperbound-end="1991-06-19 00:42" upperbound-start="1991-06-18 00:59"/>
+<EVENT end="4445" id="E151" lowerbound-end="1987-12-04 19:38" lowerbound-start="1987-11-04 05:11" modality="FACTUAL" most-likely-end="1991-07-15 23:00" most-likely-start="1990-04-15 11:00" polarity="POS" start="4419" temporally-annotated="YES" text="metastatic cervical cancer" type="PROBLEM" upperbound-end="2003-04-24 07:15" upperbound-start="1997-09-24 04:48"/>
+<EVENT end="4459" id="E152" lowerbound-end="1991-06-15 12:47" lowerbound-start="1991-06-12 00:09" modality="FACTUAL" most-likely-end="1991-06-16 00:45" most-likely-start="1991-06-15 00:22" polarity="POS" start="4450" temporally-annotated="YES" text="discussed" type="OCCURRENCE" upperbound-end="1991-06-17 12:42" upperbound-start="1991-06-17 12:34"/>
+<EVENT end="4504" id="E153" lowerbound-end="1991-06-18 23:14" lowerbound-start="1991-06-16 04:57" modality="FACTUAL" most-likely-end="1991-06-19 11:30" most-likely-start="1991-06-16 23:30" polarity="POS" start="4500" temporally-annotated="YES" text="5-FU" type="TREATMENT" upperbound-end="1991-06-20 23:45" upperbound-start="1991-06-18 18:02"/>
+<EVENT end="518" id="E15" lowerbound-end="1985-04-10 06:56" lowerbound-start="1982-12-25 11:12" modality="FACTUAL" most-likely-end="1990-02-17 12:00" most-likely-start="1989-10-11 11:00" polarity="POS" start="458" temporally-annotated="YES" text="metastatic squamous cell carcinoma in the cardinal ligaments" type="PROBLEM" upperbound-end="2000-01-10 15:37" upperbound-start="2006-07-26 10:47"/>
+<EVENT end="4590" id="E154" lowerbound-end="1991-06-18 23:58" lowerbound-start="1991-06-18 23:30" modality="FACTUAL" most-likely-end="1991-06-19 17:00" most-likely-start="1991-06-19 12:30" polarity="POS" start="4581" temporally-annotated="YES" text="Cisplatin" type="TREATMENT" upperbound-end="1991-06-22 01:58" upperbound-start="1991-06-21 01:30"/>
+<EVENT end="4629" id="E155" lowerbound-end="1991-06-18 00:15" lowerbound-start="1991-06-18 00:14" modality="FACTUAL" most-likely-end="1991-06-18 15:30" most-likely-start="1991-06-18 12:30" polarity="POS" start="4625" temporally-annotated="YES" text="Ifex" type="TREATMENT" upperbound-end="1991-06-20 12:46" upperbound-start="1991-06-20 00:45"/>
+<EVENT end="4639" id="E156" lowerbound-end="1991-06-18 00:15" lowerbound-start="1991-06-18 00:14" modality="FACTUAL" most-likely-end="1991-06-18 15:30" most-likely-start="1991-06-18 12:30" polarity="POS" start="4634" temporally-annotated="YES" text="Mesna" type="TREATMENT" upperbound-end="1991-06-20 12:46" upperbound-start="1991-06-20 00:45"/>
+<EVENT end="4664" id="E157" lowerbound-end="1991-06-16 00:15" lowerbound-start="1991-06-16 00:14" modality="FACTUAL" most-likely-end="1991-06-17 12:32" most-likely-start="1991-06-16 12:30" polarity="POS" start="4659" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-end="1991-06-21 13:16" upperbound-start="1991-06-18 00:45"/>
+<EVENT end="4733" id="E158" lowerbound-end="1991-06-16 00:15" lowerbound-start="1991-06-16 00:14" modality="FACTUAL" most-likely-end="1991-06-17 12:32" most-likely-start="1991-06-16 12:30" polarity="POS" start="4686" temporally-annotated="YES" text="numerous erythematous maculopapules on her back" type="PROBLEM" upperbound-end="1991-06-21 13:16" upperbound-start="1991-06-18 00:45"/>
+<EVENT end="4757" id="E159" lowerbound-end="1991-06-16 00:20" lowerbound-start="1991-06-16 00:19" modality="FACTUAL" most-likely-end="1991-06-16 12:47" most-likely-start="1991-06-16 12:32" polarity="POS" start="4746" temporally-annotated="YES" text="Dermatology" type="OCCURRENCE" upperbound-end="1991-06-18 01:47" upperbound-start="1991-06-18 00:46"/>
+<EVENT end="4771" id="E160" lowerbound-end="1991-06-16 00:20" lowerbound-start="1991-06-16 00:19" modality="FACTUAL" most-likely-end="1991-06-16 12:47" most-likely-start="1991-06-16 12:32" polarity="POS" start="4762" temporally-annotated="YES" text="consulted" type="OCCURRENCE" upperbound-end="1991-06-18 01:47" upperbound-start="1991-06-18 00:46"/>
+<EVENT end="4824" id="E161" lowerbound-end="1991-06-16 00:20" lowerbound-start="1991-06-16 00:19" modality="POSSIBLE" most-likely-end="1991-06-17 12:40" most-likely-start="1991-06-16 12:32" polarity="POS" start="4812" temporally-annotated="YES" text="steroid acne" type="PROBLEM" upperbound-end="1991-06-21 13:17" upperbound-start="1991-06-18 00:46"/>
+<EVENT end="4868" id="E162" lowerbound-end="1991-06-17 22:39" lowerbound-start="1991-06-16 00:19" modality="PROPOSED" most-likely-end="1991-06-24 12:32" most-likely-start="1991-06-16 12:32" polarity="POS" start="4847" temporally-annotated="YES" text="a rapid steroid taper" type="TREATMENT" upperbound-end="1991-07-08 16:06" upperbound-start="1991-06-18 00:46"/>
+<EVENT end="4907" id="E163" lowerbound-end="1991-06-19 12:19" lowerbound-start="1991-06-16 00:19" modality="HYPOTHETICAL" most-likely-end="1991-06-22 12:32" most-likely-start="1991-06-16 12:32" polarity="POS" start="4887" temporally-annotated="YES" text="topical Erythromycin" type="TREATMENT" upperbound-end="1991-06-28 12:46" upperbound-start="1991-06-18 00:46"/>
+<EVENT end="4975" id="E164" lowerbound-end="1991-05-12 21:50" lowerbound-start="1991-05-20 16:47" modality="FACTUAL" most-likely-end="1991-07-22 23:30" most-likely-start="1991-05-27 23:30" polarity="POS" start="4936" temporally-annotated="YES" text="The patient 's shortness of breath" type="PROBLEM" upperbound-end="2042-01-02 18:10" upperbound-start="1991-06-19 23:13"/>
+<EVENT end="4988" id="E165" lowerbound-end="1991-06-02 17:18" lowerbound-start="1991-06-10 12:14" modality="FACTUAL" most-likely-end="1991-07-01 12:30" most-likely-start="1991-06-11 00:30" polarity="POS" start="4980" temporally-annotated="YES" text="wheezing" type="PROBLEM" upperbound-end="2041-12-26 07:43" upperbound-start="1991-06-12 12:45"/>
+<EVENT end="5043" id="E166" lowerbound-end="1991-06-16 12:27" lowerbound-start="1991-06-16 12:26" modality="FACTUAL" most-likely-end="1991-06-17 00:57" most-likely-start="1991-06-17 00:40" polarity="POS" start="5020" temporally-annotated="YES" text="Her cardiac examination" type="TEST" upperbound-end="1991-06-18 13:54" upperbound-start="1991-06-18 12:53"/>
+<EVENT end="5112" id="E167" lowerbound-end="1991-06-16 12:27" lowerbound-start="1991-06-16 12:26" modality="FACTUAL" most-likely-end="1991-06-17 00:57" most-likely-start="1991-06-17 00:40" polarity="NEG" start="5103" temporally-annotated="YES" text="tamponade" type="PROBLEM" upperbound-end="1991-06-18 13:54" upperbound-start="1991-06-18 12:53"/>
+<EVENT end="5125" id="E44" lowerbound-end="1991-06-18 00:19" lowerbound-start="1991-06-18 00:14" modality="FACTUAL" most-likely-end="1991-06-18 12:47" most-likely-start="1991-06-18 12:30" polarity="POS" start="5115" temporally-annotated="YES" text="Cardiology" type="OCCURRENCE" upperbound-end="1991-06-20 01:50" upperbound-start="1991-06-20 00:45"/>
+<EVENT end="5150" id="E168" lowerbound-end="1991-06-18 00:19" lowerbound-start="1991-06-18 00:14" modality="PROPOSED" most-likely-end="1991-06-18 12:47" most-likely-start="1991-06-18 12:30" polarity="POS" start="5136" temporally-annotated="YES" text="follow-up echo" type="TEST" upperbound-end="1991-06-20 01:50" upperbound-start="1991-06-20 00:45"/>
+<EVENT end="5207" id="E169" lowerbound-end="1991-06-17 03:20" lowerbound-start="1991-06-17 03:15" modality="FACTUAL" most-likely-end="1991-06-19 12:55" most-likely-start="1991-06-19 12:30" polarity="POS" start="5185" temporally-annotated="YES" text="another echocardiogram" type="TEST" upperbound-end="1991-06-25 22:50" upperbound-start="1991-06-25 21:45"/>
+<EVENT end="5220" id="E170" lowerbound-end="1991-06-17 03:20" lowerbound-start="1991-06-17 03:15" modality="FACTUAL" most-likely-end="1991-06-19 12:55" most-likely-start="1991-06-19 12:30" polarity="POS" start="5214" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-06-25 22:50" upperbound-start="1991-06-25 21:45"/>
+<EVENT end="552" id="E16" lowerbound-end="1985-04-10 06:56" lowerbound-start="1982-12-25 11:12" modality="FACTUAL" most-likely-end="1990-02-17 12:00" most-likely-start="1989-10-11 11:00" polarity="POS" start="524" temporally-annotated="YES" text="extensive lymphatic invasion" type="PROBLEM" upperbound-end="2000-01-10 15:37" upperbound-start="2006-07-26 10:47"/>
+<EVENT end="5255" id="E171" lowerbound-end="1991-06-17 03:20" lowerbound-start="1991-06-17 03:15" modality="FACTUAL" most-likely-end="1991-06-19 12:55" most-likely-start="1991-06-19 12:30" polarity="NEG" start="5246" temporally-annotated="YES" text="tamponade" type="PROBLEM" upperbound-end="1991-06-25 22:50" upperbound-start="1991-06-25 21:45"/>
+<EVENT end="5335" id="E172" lowerbound-end="1991-06-20 00:15" lowerbound-start="1991-06-17 03:44" modality="FACTUAL" most-likely-end="1991-06-20 12:37" most-likely-start="1991-06-19 12:40" polarity="POS" start="5324" temporally-annotated="YES" text="examination" type="TEST" upperbound-end="1991-06-22 01:16" upperbound-start="1991-06-25 21:36"/>
+<EVENT end="5372" id="E173" lowerbound-end="1991-06-18 05:15" lowerbound-start="1991-06-18 02:14" modality="FACTUAL" most-likely-end="1991-06-19 06:30" most-likely-start="1991-06-18 12:30" polarity="POS" start="5346" temporally-annotated="YES" text="some mental status changes" type="PROBLEM" upperbound-end="1991-06-21 01:46" upperbound-start="1991-06-19 22:45"/>
+<EVENT end="5387" id="E174" lowerbound-end="1991-06-18 05:15" lowerbound-start="1991-06-18 02:14" modality="FACTUAL" most-likely-end="1991-06-19 06:30" most-likely-start="1991-06-18 12:30" polarity="POS" start="5378" temporally-annotated="YES" text="confusion" type="PROBLEM" upperbound-end="1991-06-21 01:46" upperbound-start="1991-06-19 22:45"/>
+<EVENT end="5406" id="E175" lowerbound-end="1991-06-18 05:15" lowerbound-start="1991-06-18 02:14" modality="FACTUAL" most-likely-end="1991-06-19 06:30" most-likely-start="1991-06-18 12:30" polarity="POS" start="5392" temporally-annotated="YES" text="hallucinations" type="PROBLEM" upperbound-end="1991-06-21 01:46" upperbound-start="1991-06-19 22:45"/>
+<EVENT end="5442" id="E176" lowerbound-end="1991-06-18 02:56" lowerbound-start="1991-06-18 02:55" modality="POSSIBLE" most-likely-end="1991-06-19 08:30" most-likely-start="1991-06-18 14:30" polarity="POS" start="5433" temporally-annotated="YES" text="narcotics" type="TREATMENT" upperbound-end="1991-06-24 02:06" upperbound-start="1991-06-20 02:05"/>
+<EVENT end="5463" id="E177" lowerbound-end="1991-06-18 02:56" lowerbound-start="1991-06-18 02:55" modality="POSSIBLE" most-likely-end="1991-06-19 08:30" most-likely-start="1991-06-18 14:30" polarity="POS" start="5450" temporally-annotated="YES" text="decreased pO2" type="PROBLEM" upperbound-end="1991-06-24 02:06" upperbound-start="1991-06-20 02:05"/>
+<EVENT end="5474" id="E178" lowerbound-end="1991-06-18 00:15" lowerbound-start="1991-06-18 00:14" modality="FACTUAL" most-likely-end="1991-06-18 15:30" most-likely-start="1991-06-18 12:30" polarity="POS" start="5466" temporally-annotated="YES" text="The Ifex" type="TREATMENT" upperbound-end="1991-06-20 12:46" upperbound-start="1991-06-20 00:45"/>
+<EVENT end="5483" id="E179" lowerbound-end="1991-06-19 21:14" lowerbound-start="1991-06-18 03:14" modality="FACTUAL" most-likely-end="1991-06-20 15:30" most-likely-start="1991-06-18 15:30" polarity="POS" start="5479" temporally-annotated="YES" text="held" type="OCCURRENCE" upperbound-end="1991-06-22 09:45" upperbound-start="1991-06-20 03:45"/>
+<EVENT end="5556" id="E180" lowerbound-end="1991-06-18 05:15" lowerbound-start="1991-06-18 02:14" modality="FACTUAL" most-likely-end="1991-06-19 06:30" most-likely-start="1991-06-18 12:30" polarity="POS" start="5531" temporally-annotated="YES" text="the mental status changes" type="PROBLEM" upperbound-end="1991-06-21 01:46" upperbound-start="1991-06-19 22:45"/>
+<EVENT end="5600" id="E181" lowerbound-end="1991-06-19 21:14" lowerbound-start="1991-06-18 03:14" modality="FACTUAL" most-likely-end="1991-06-20 15:30" most-likely-start="1991-06-18 15:30" polarity="NEG" start="5588" temporally-annotated="YES" text="further Ifex" type="TREATMENT" upperbound-end="1991-06-22 09:45" upperbound-start="1991-06-20 03:45"/>
+<EVENT end="5636" id="E182" lowerbound-end="1991-06-18 05:15" lowerbound-start="1991-06-18 02:14" modality="FACTUAL" most-likely-end="1991-06-19 06:30" most-likely-start="1991-06-18 12:30" polarity="NEG" start="5614" temporally-annotated="YES" text="further hallucinations" type="PROBLEM" upperbound-end="1991-06-21 01:46" upperbound-start="1991-06-19 22:45"/>
+<EVENT end="5660" id="E183" lowerbound-end="1991-06-19 21:14" lowerbound-start="1991-06-18 03:14" modality="FACTUAL" most-likely-end="1991-06-20 15:30" most-likely-start="1991-06-18 15:30" polarity="POS" start="5652" temporally-annotated="YES" text="the Ifex" type="TREATMENT" upperbound-end="1991-06-22 09:45" upperbound-start="1991-06-20 03:45"/>
+<EVENT end="5673" id="E184" lowerbound-end="1991-06-18 15:15" lowerbound-start="1991-06-18 12:14" modality="FACTUAL" most-likely-end="1991-06-19 12:37" most-likely-start="1991-06-19 00:30" polarity="POS" start="5663" temporally-annotated="YES" text="Psychiatry" type="OCCURRENCE" upperbound-end="1991-06-21 04:16" upperbound-start="1991-06-20 12:45"/>
+<EVENT end="5692" id="E185" lowerbound-end="1991-06-18 15:15" lowerbound-start="1991-06-18 12:14" modality="FACTUAL" most-likely-end="1991-06-19 12:37" most-likely-start="1991-06-19 00:30" polarity="POS" start="5683" temporally-annotated="YES" text="consulted" type="OCCURRENCE" upperbound-end="1991-06-21 04:16" upperbound-start="1991-06-20 12:45"/>
+<EVENT end="5721" id="E186" lowerbound-end="1991-06-18 15:15" lowerbound-start="1991-06-18 12:14" modality="FACTUAL" most-likely-end="1991-06-19 12:37" most-likely-start="1991-06-19 00:30" polarity="POS" start="5710" temporally-annotated="YES" text="the changes" type="OCCURRENCE" upperbound-end="1991-06-21 04:16" upperbound-start="1991-06-20 12:45"/>
+<EVENT end="5761" id="E187" lowerbound-end="1991-07-18 14:41" lowerbound-start="1991-06-18 00:14" modality="FACTUAL" most-likely-end="1991-09-18 00:37" most-likely-start="1991-06-18 12:30" polarity="POS" start="5744" temporally-annotated="YES" text="her new diagnosis" type="PROBLEM" upperbound-end="1992-01-19 03:42" upperbound-start="1991-06-20 00:45"/>
+<EVENT end="5781" id="E188" lowerbound-end="1991-07-05 06:13" lowerbound-start="1991-06-21 04:14" modality="FACTUAL" most-likely-end="1991-07-22 02:00" most-likely-start="1991-06-21 13:52" polarity="POS" start="5772" temporally-annotated="YES" text="hooked up" type="OCCURRENCE" upperbound-end="1992-01-05 12:44" upperbound-start="1991-06-22 23:15"/>
+<EVENT end="5803" id="E189" lowerbound-end="1991-07-05 06:13" lowerbound-start="1991-06-21 04:14" modality="FACTUAL" most-likely-end="1991-07-22 02:00" most-likely-start="1991-06-21 13:52" polarity="POS" start="5787" temporally-annotated="YES" text="support services" type="OCCURRENCE" upperbound-end="1992-01-05 12:44" upperbound-start="1991-06-22 23:15"/>
+<EVENT end="596" id="E17" lowerbound-end="1983-01-09 05:08" lowerbound-start="1983-01-09 05:07" modality="FACTUAL" most-likely-end="1990-04-13 23:07" most-likely-start="1989-10-13 11:00" polarity="POS" start="580" temporally-annotated="YES" text="stage 2B disease" type="PROBLEM" upperbound-end="2056-07-02 17:24" upperbound-start="2006-07-15 16:53"/>
+<EVENT end="5863" id="E190" lowerbound-end="1991-07-05 06:13" lowerbound-start="1991-06-21 04:14" modality="PROPOSED" most-likely-end="1991-07-22 02:00" most-likely-start="1991-06-21 13:52" polarity="POS" start="5844" temporally-annotated="YES" text="further counselling" type="TREATMENT" upperbound-end="1992-01-05 12:44" upperbound-start="1991-06-22 23:15"/>
+<EVENT end="5879" id="E191" lowerbound-end="1991-07-05 06:13" lowerbound-start="1990-12-20 16:44" modality="FACTUAL" most-likely-end="1991-07-22 02:00" most-likely-start="1991-05-30 02:00" polarity="POS" start="5874" temporally-annotated="YES" text="Xanax" type="TREATMENT" upperbound-end="1992-01-05 12:44" upperbound-start="1991-06-22 23:15"/>
+<EVENT end="5892" id="E192" lowerbound-end="1991-07-05 06:13" lowerbound-start="1990-12-20 16:44" modality="FACTUAL" most-likely-end="1991-07-22 02:00" most-likely-start="1991-05-30 02:00" polarity="POS" start="5884" temporally-annotated="YES" text="symptoms" type="PROBLEM" upperbound-end="1992-01-05 12:44" upperbound-start="1991-06-22 23:15"/>
+<EVENT end="5903" id="E193" lowerbound-end="1991-06-19 04:45" lowerbound-start="1990-12-18 16:44" modality="FACTUAL" most-likely-end="1991-09-19 02:00" most-likely-start="1991-05-28 02:00" polarity="POS" start="5896" temporally-annotated="YES" text="anxiety" type="PROBLEM" upperbound-end="1996-06-18 23:16" upperbound-start="1991-06-20 23:15"/>
+<EVENT end="5937" id="E194" lowerbound-end="1991-05-26 04:33" lowerbound-start="1991-05-21 23:48" modality="FACTUAL" most-likely-end="1991-07-18 11:30" most-likely-start="1991-05-30 11:30" polarity="NEG" start="5931" temporally-annotated="YES" text="change" type="OCCURRENCE" upperbound-end="1991-12-24 23:28" upperbound-start="1991-06-26 16:12"/>
+<EVENT end="5964" id="E195" lowerbound-end="1991-05-12 21:50" lowerbound-start="1991-05-20 16:47" modality="FACTUAL" most-likely-end="1991-07-22 23:30" most-likely-start="1991-05-27 23:30" polarity="POS" start="5941" temporally-annotated="YES" text="her shortness of breath" type="PROBLEM" upperbound-end="2042-01-02 18:10" upperbound-start="1991-06-19 23:13"/>
+<EVENT end="5987" id="E196" lowerbound-end="1991-06-19 00:15" lowerbound-start="1991-06-19 00:14" modality="FACTUAL" most-likely-end="1991-06-19 12:47" most-likely-start="1991-06-19 12:30" polarity="POS" start="5968" temporally-annotated="YES" text="cardiac examination" type="TEST" upperbound-end="1991-06-21 01:46" upperbound-start="1991-06-21 00:45"/>
+<EVENT end="6006" id="E197" lowerbound-end="1991-06-22 00:23" lowerbound-start="1991-06-21 23:53" modality="FACTUAL" most-likely-end="1991-06-22 13:30" most-likely-start="1991-06-22 13:27" polarity="POS" start="5996" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-end="1991-06-24 02:36" upperbound-start="1991-06-24 02:36"/>
+<EVENT end="6011" id="E198" lowerbound-end="1991-06-22 00:23" lowerbound-start="1991-06-21 23:53" modality="FACTUAL" most-likely-end="1991-06-22 13:30" most-likely-start="1991-06-22 13:27" polarity="POS" start="5996" temporally-annotated="YES" text="discharged home" type="OCCURRENCE" upperbound-end="1991-06-24 02:36" upperbound-start="1991-06-24 02:36"/>
+<EVENT end="6049" id="E199" lowerbound-end="1991-06-18 23:14" lowerbound-start="1991-06-16 04:57" modality="FACTUAL" most-likely-end="1991-06-19 11:30" most-likely-start="1991-06-16 23:30" polarity="POS" start="6041" temporally-annotated="YES" text="her 5-FU" type="TREATMENT" upperbound-end="1991-06-20 23:45" upperbound-start="1991-06-18 18:02"/>
+<EVENT end="6076" id="E200" lowerbound-end="1991-06-18 23:58" lowerbound-start="1991-06-18 23:30" modality="FACTUAL" most-likely-end="1991-06-19 17:00" most-likely-start="1991-06-19 12:30" polarity="POS" start="6054" temporally-annotated="YES" text="Cisplatin chemotherapy" type="TREATMENT" upperbound-end="1991-06-22 01:58" upperbound-start="1991-06-21 01:30"/>
+<EVENT end="690" id="E18" lowerbound-end="1985-05-07 17:48" lowerbound-start="1985-04-24 22:04" modality="FACTUAL" most-likely-end="1990-03-22 12:00" most-likely-start="1990-02-17 12:00" polarity="POS" start="641" temporally-annotated="YES" text="intracavitary and external beam radiation therapy" type="TREATMENT" upperbound-end="2000-07-13 02:40" upperbound-start="1999-12-27 06:56"/>
+<EVENT end="713" id="E19" lowerbound-end="1985-05-07 17:48" lowerbound-start="1985-04-24 22:04" modality="FACTUAL" most-likely-end="1990-03-22 12:00" most-likely-start="1990-02-17 12:00" polarity="POS" start="695" temporally-annotated="YES" text="low dose Cisplatin" type="TREATMENT" upperbound-end="2000-07-13 02:40" upperbound-start="1999-12-27 06:56"/>
+<EVENT end="729" id="E20" lowerbound-end="1991-01-28 06:33" lowerbound-start="1991-01-28 05:57" modality="FACTUAL" most-likely-end="1991-02-12 11:15" most-likely-start="1991-02-12 10:45" polarity="POS" start="719" temporally-annotated="YES" text="ultrasound" type="TEST" upperbound-end="1991-03-30 02:03" upperbound-start="1991-03-30 01:27"/>
+<EVENT end="802" id="E21" lowerbound-end="1991-01-28 07:28" lowerbound-start="1988-04-14 01:33" modality="FACTUAL" most-likely-end="1991-02-12 11:52" most-likely-start="1990-04-08 22:00" polarity="POS" start="771" temporally-annotated="YES" text="bilateral cystic adnexal masses" type="PROBLEM" upperbound-end="1991-03-30 02:22" upperbound-start="1997-04-16 23:27"/>
+<EVENT end="812" id="E22" lowerbound-end="1991-01-28 06:30" lowerbound-start="1991-01-28 05:59" modality="FACTUAL" most-likely-end="1991-02-12 11:07" most-likely-start="1991-02-12 10:52" polarity="POS" start="803" temporally-annotated="YES" text="confirmed" type="OCCURRENCE" upperbound-end="1991-03-30 02:00" upperbound-start="1991-03-30 01:29"/>
+<EVENT end="836" id="E23" lowerbound-end="1991-01-28 06:30" lowerbound-start="1991-01-28 05:59" modality="FACTUAL" most-likely-end="1991-02-12 11:07" most-likely-start="1991-02-12 10:52" polarity="POS" start="816" temporally-annotated="YES" text="physical examination" type="TEST" upperbound-end="1991-03-30 02:00" upperbound-start="1991-03-30 01:29"/>
+<EVENT end="875" id="E24" lowerbound-end="1991-01-28 07:16" lowerbound-start="1991-01-28 06:53" modality="FACTUAL" most-likely-end="1991-02-12 13:00" most-likely-start="1991-02-12 11:22" polarity="POS" start="853" temporally-annotated="YES" text="exploratory laparotomy" type="TEST" upperbound-end="1991-03-30 14:44" upperbound-start="1991-03-30 01:51"/>
+<EVENT end="917" id="E25" lowerbound-end="1991-01-28 06:54" lowerbound-start="1991-01-28 06:53" modality="FACTUAL" most-likely-end="1991-02-12 13:00" most-likely-start="1991-02-12 11:22" polarity="POS" start="884" temporally-annotated="YES" text="a bilateral salpingo-oophorectomy" type="TREATMENT" upperbound-end="1991-03-31 01:52" upperbound-start="1991-03-30 01:51"/>
+<EVENT end="934" id="E26" lowerbound-end="1991-01-28 07:00" lowerbound-start="1991-01-28 06:53" modality="FACTUAL" most-likely-end="1991-02-12 12:35" most-likely-start="1991-02-12 11:22" polarity="POS" start="922" temporally-annotated="YES" text="appendectomy" type="TREATMENT" upperbound-end="1991-03-30 14:28" upperbound-start="1991-03-30 01:51"/>
+<EVENT end="946" id="E27" lowerbound-end="1991-01-28 07:51" lowerbound-start="1991-01-24 17:02" modality="FACTUAL" most-likely-end="1991-02-12 12:07" most-likely-start="1991-02-10 12:00" polarity="POS" start="937" temporally-annotated="YES" text="Pathology" type="TEST" upperbound-end="1991-03-30 14:13" upperbound-start="1991-03-29 23:24"/>
+<EVENT end="969" id="E28" lowerbound-end="1990-08-13 06:39" lowerbound-start="1990-07-31 15:11" modality="FACTUAL" most-likely-end="1990-09-29 11:00" most-likely-start="1990-08-15 22:55" polarity="NEG" start="964" temporally-annotated="YES" text="tumor" type="PROBLEM" upperbound-end="1991-04-13 19:15" upperbound-start="1990-09-30 16:17"/>
+<EVENT end="980" id="E29" lowerbound-end="1991-01-30 04:40" lowerbound-start="1991-01-30 04:07" modality="FACTUAL" most-likely-end="1991-02-14 11:45" most-likely-start="1991-02-14 11:32" polarity="POS" start="974" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1991-04-01 16:40" upperbound-start="1991-04-01 04:37"/>
+<EVENT end="1016" id="E30" lowerbound-end="1991-02-11 18:20" lowerbound-start="1991-01-30 02:53" modality="FACTUAL" most-likely-end="1991-03-30 22:42" most-likely-start="1991-02-14 10:37" polarity="POS" start="981" temporally-annotated="YES" text="peritubal and periovarian adhesions" type="PROBLEM" upperbound-end="1991-10-13 06:58" upperbound-start="1991-04-01 04:01"/>
+<TIMEX3 end="1069" id="T2" mod="APPROX" start="1049" text="a three to four week" type="DURATION" val="p3.5w"/>
+<TIMEX3 end="28" id="T14" mod="NA" start="18" text="06/11/1991" type="DATE" val="1991-06-11"/>
+<TIMEX3 end="281" id="T0" mod="NA" start="276" text="02/90" type="DATE" val="1990-02"/>
+<TIMEX3 end="3141" id="T3" mod="NA" start="3136" text="06/14" type="DATE" val="1991-06-14"/>
+<TIMEX3 end="3762" id="T4" mod="NA" start="3757" text="06/11" type="DATE" val="1991-06-11"/>
+<TIMEX3 end="4540" id="T5" mod="NA" start="4535" text="06/18" type="DATE" val="1991-06-18"/>
+<TIMEX3 end="4548" id="T6" mod="NA" start="4543" text="06/19" type="DATE" val="1991-06-19"/>
+<TIMEX3 end="4560" id="T7" mod="NA" start="4555" text="06/20" type="DATE" val="1991-06-20"/>
+<TIMEX3 end="56" id="T15" mod="NA" start="46" text="06/22/1991" type="DATE" val="1991-06-22"/>
+<TIMEX3 end="4620" id="T8" mod="NA" start="4615" text="06/19" type="DATE" val="1991-06-19"/>
+<TIMEX3 end="4648" id="T9" mod="NA" start="4643" text="06/18" type="DATE" val="1991-06-18"/>
+<TIMEX3 end="4675" id="T10" mod="NA" start="4670" text="06/16" type="DATE" val="1991-06-16"/>
+<TIMEX3 end="5173" id="T11" mod="NA" start="5168" text="06/18" type="DATE" val="1991-06-18"/>
+<TIMEX3 end="5415" id="T12" mod="NA" start="5410" text="06/18" type="DATE" val="1991-06-18"/>
+<TIMEX3 end="6023" id="T13" mod="NA" start="6015" text="06/22/91" type="DATE" val="1991-06-22"/>
+<TIMEX3 end="738" id="T1" mod="NA" start="733" text="02/91" type="DATE" val="1991-02"/>
+<TLINK fromID="E38" fromText="an FVC" id="TL0" toID="E37" toText="an FEV1" type="SIMULTANEOUS"/>
+<TLINK fromID="E37" fromText="an FEV1" id="TL1" toID="E43" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="para 2" id="TL10" toID="E2" toText="gravida IV" type="OVERLAP"/>
+<TLINK fromID="E75" fromText="showed" id="TL100" toID="E74" toText="Echocardiogram" type="OVERLAP"/>
+<TLINK fromID="E76" fromText="moderate anterior pericardial effusion" id="TL101" toID="E128" toText="moderate to mild effusion" type="simultaneous"/>
+<TLINK fromID="E76" fromText="moderate anterior pericardial effusion" id="TL102" toID="E74" toText="Echocardiogram" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E77" fromText="diastolic indications of the right ventricle" id="TL103" toID="E76" toText="moderate anterior pericardial effusion" type="OVERLAP"/>
+<TLINK fromID="E78" fromText="low velocity paradox" id="TL104" toID="E77" toText="diastolic indications of the right ventricle" type="OVERLAP"/>
+<TLINK fromID="E77" fromText="diastolic indications of the right ventricle" id="TL105" toID="E74" toText="Echocardiogram" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E80" fromText="tamponade" id="TL106" toID="E79" toText="Cardiology" type="OVERLAP"/>
+<TLINK fromID="E69" fromText="tamponade" id="TL107" toID="E80" toText="tamponade" type="simultaneous"/>
+<TLINK fromID="E80" fromText="tamponade" id="TL108" toID="E122" toText="tamponade" type="simultaneous"/>
+<TLINK fromID="E81" fromText="a tap" id="TL109" toID="E80" toText="tamponade" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="metastatic cervical cancer" id="TL11" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="SIMULTANEOUS"/>
+<TLINK fromID="E82" fromText="pulmonary wheezing" id="TL110" toID="E83" toText="asthma" type="OVERLAP"/>
+<TLINK fromID="E82" fromText="pulmonary wheezing" id="TL111" toID="E35" toText="wheezing" type="SIMULTANEOUS"/>
+<TLINK fromID="E82" fromText="pulmonary wheezing" id="TL112" toID="E92" toText="the beta agonist inhalers" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E82" fromText="pulmonary wheezing" id="TL113" toID="E93" toText="steroid inhalers" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E86" fromText="Pulmonary" id="TL114" toID="E84" toText="Her steroids" type="OVERLAP"/>
+<TLINK fromID="E85" fromText="tapered" id="TL116" toID="E84" toText="Her steroids" type="OVERLAP"/>
+<TLINK fromID="E87" fromText="consulted" id="TL117" toID="E84" toText="Her steroids" type="OVERLAP"/>
+<TLINK fromID="E72" fromText="Cardiology" id="TL118" toID="E73" toText="consulted" type="SIMULTANEOUS"/>
+<TLINK fromID="E73" fromText="consulted" id="TL119" toID="E65" toText="admitted" type="AFTER"/>
+<TLINK fromID="E4" fromText="metastatic cervical cancer" id="TL12" toID="E6" toText="malignant pericardial effusion" type="SIMULTANEOUS"/>
+<TLINK fromID="E88" fromText="a CT scan of the chest" id="TL121" toID="E86" toText="Pulmonary" type="OVERLAP"/>
+<TLINK fromID="E88" fromText="a CT scan of the chest" id="TL122" toID="E110" toText="her CT scan" type="simultaneous"/>
+<TLINK fromID="E89" fromText="sputum" id="TL123" toID="E88" toText="a CT scan of the chest" type="OVERLAP"/>
+<TLINK fromID="E88" fromText="a CT scan of the chest" id="TL124" toID="E87" toText="consulted" type="OVERLAP"/>
+<TLINK fromID="E91" fromText="arterial blood gas" id="TL125" toID="E90" toText="CBC" type="OVERLAP"/>
+<TLINK fromID="E90" fromText="CBC" id="TL126" toID="E88" toText="a CT scan of the chest" type="OVERLAP"/>
+<TLINK fromID="E93" fromText="steroid inhalers" id="TL127" toID="E90" toText="CBC" type="OVERLAP"/>
+<TLINK fromID="E92" fromText="the beta agonist inhalers" id="TL128" toID="E90" toText="CBC" type="OVERLAP"/>
+<TLINK fromID="E90" fromText="CBC" id="TL129" toID="E89" toText="sputum" type="AFTER"/>
+<TLINK fromID="E59" fromText="cervical cancer" id="TL13" toID="E4" toText="metastatic cervical cancer" type="SIMULTANEOUS"/>
+<TLINK fromID="E96" fromText="infectious" id="TL130" toID="E95" toText="pericardial involvement" type="OVERLAP"/>
+<TLINK fromID="E95" fromText="pericardial involvement" id="TL131" toID="E94" toText="a malignant lymphangitic spread" type="OVERLAP"/>
+<TLINK fromID="E98" fromText="viral bronchiolitis" id="TL132" toID="E97" toText="other cardiovascular causes" type="OVERLAP"/>
+<TLINK fromID="E97" fromText="other cardiovascular causes" id="TL133" toID="E96" toText="infectious" type="OVERLAP"/>
+<TLINK fromID="E101" fromText="an FEV1" id="TL134" toID="E99" toText="pulmonary function tests" type="SIMULTANEOUS"/>
+<TLINK fromID="E99" fromText="pulmonary function tests" id="TL135" toID="E65" toText="admitted" type="AFTER"/>
+<TLINK fromID="E100" fromText="showed" id="TL136" toID="E99" toText="pulmonary function tests" type="OVERLAP"/>
+<TLINK fromID="E102" fromText="FVC" id="TL137" toID="E101" toText="an FEV1" type="OVERLAP"/>
+<TLINK fromID="E105" fromText="a pH" id="TL139" toID="E103" toText="Room air arterial blood gas" type="OVERLAP"/>
+<TLINK fromID="E67" fromText="metastatic cervical cancer" id="TL14" toID="E4" toText="metastatic cervical cancer" type="SIMULTANEOUS"/>
+<TLINK fromID="E104" fromText="showed" id="TL140" toID="E103" toText="Room air arterial blood gas" type="OVERLAP"/>
+<TLINK fromID="E91" fromText="arterial blood gas" id="TL141" toID="E103" toText="Room air arterial blood gas" type="simultaneous"/>
+<TLINK fromID="E107" fromText="a pCO2" id="TL142" toID="E106" toText="pO2" type="OVERLAP"/>
+<TLINK fromID="E106" fromText="pO2" id="TL143" toID="E105" toText="a pH" type="OVERLAP"/>
+<TLINK fromID="E108" fromText="fairly significant AA gradient" id="TL144" toID="E107" toText="a pCO2" type="OVERLAP"/>
+<TLINK fromID="E109" fromText="oxygen" id="TL145" toID="E110" toText="her CT scan" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E110" fromText="her CT scan" id="TL146" toID="T3" toText="06/14" type="SIMULTANEOUS"/>
+<TLINK fromID="E110" fromText="her CT scan" id="TL147" toID="E137" toText="her CT scan" type="simultaneous"/>
+<TLINK fromID="E111" fromText="a new junctional rhythm" id="TL148" toID="E110" toText="her CT scan" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="malignant pericardial effusion" id="TL15" toID="E55" toText="pericardial effusion" type="simultaneous"/>
+<TLINK fromID="E113" fromText="murmur" id="TL150" toID="E112" toText="a new rub" type="SIMULTANEOUS"/>
+<TLINK fromID="E112" fromText="a new rub" id="TL151" toID="E116" toText="a rub" type="simultaneous"/>
+<TLINK fromID="E112" fromText="a new rub" id="TL152" toID="E111" toText="a new junctional rhythm" type="OVERLAP"/>
+<TLINK fromID="E113" fromText="murmur" id="TL154" toID="E114" toText="examination" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E116" fromText="a rub" id="TL155" toID="E115" toText="Cardiology" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E120" fromText="an ectopic low atrial P" id="TL156" toID="E118" toText="EKG" type="OVERLAP"/>
+<TLINK fromID="E119" fromText="showed" id="TL157" toID="E118" toText="EKG" type="OVERLAP"/>
+<TLINK fromID="E123" fromText="a follow-up echocardiogram" id="TL158" toID="E118" toText="EKG" type="AFTER"/>
+<TLINK fromID="E121" fromText="stable" id="TL159" toID="E122" toText="tamponade" type="OVERLAP"/>
+<TLINK fromID="E125" fromText="showed" id="TL160" toID="E124" toText="Echocardiogram" type="OVERLAP"/>
+<TLINK fromID="E124" fromText="Echocardiogram" id="TL161" toID="E123" toText="a follow-up echocardiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E127" fromText="low normal function" id="TL162" toID="E124" toText="Echocardiogram" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E134" fromText="consulted" id="TL163" toID="E124" toText="Echocardiogram" type="AFTER"/>
+<TLINK fromID="E126" fromText="the upper limits of normal for size" id="TL164" toID="E124" toText="Echocardiogram" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E129" fromText="pericardial pressures" id="TL165" toID="E126" toText="the upper limits of normal for size" type="OVERLAP"/>
+<TLINK fromID="E128" fromText="moderate to mild effusion" id="TL166" toID="E126" toText="the upper limits of normal for size" type="OVERLAP"/>
+<TLINK fromID="E127" fromText="low normal function" id="TL167" toID="E126" toText="the upper limits of normal for size" type="OVERLAP"/>
+<TLINK fromID="E94" fromText="a malignant lymphangitic spread" id="TL17" toID="E6" toText="malignant pericardial effusion" type="OVERLAP"/>
+<TLINK fromID="E129" fromText="pericardial pressures" id="TL170" toID="E128" toText="moderate to mild effusion" type="OVERLAP"/>
+<TLINK fromID="E130" fromText="right atrial pressures" id="TL171" toID="E129" toText="pericardial pressures" type="OVERLAP"/>
+<TLINK fromID="E131" fromText="right ventricular pressures" id="TL172" toID="E130" toText="right atrial pressures" type="OVERLAP"/>
+<TLINK fromID="E132" fromText="the effusion" id="TL173" toID="E131" toText="right ventricular pressures" type="OVERLAP"/>
+<TLINK fromID="E132" fromText="the effusion" id="TL174" toID="T4" toText="06/11" type="SIMULTANEOUS"/>
+<TLINK fromID="E133" fromText="Thoracic Surgery" id="TL175" toID="E134" toText="consulted" type="SIMULTANEOUS"/>
+<TLINK fromID="E136" fromText="pulmonary oximetry testing" id="TL177" toID="E134" toText="consulted" type="OVERLAP"/>
+<TLINK fromID="E138" fromText="This showed" id="TL178" toID="E137" toText="her CT scan" type="SIMULTANEOUS"/>
+<TLINK fromID="E149" fromText="a bronchoscopy" id="TL179" toID="E137" toText="her CT scan" type="AFTER"/>
+<TLINK fromID="E139" fromText="lymphangitic spread" id="TL180" toID="E148" toText="lymphangitic spread" type="simultaneous"/>
+<TLINK fromID="E94" fromText="a malignant lymphangitic spread" id="TL181" toID="E139" toText="lymphangitic spread" type="simultaneous"/>
+<TLINK fromID="E141" fromText="pulmonary nodules in the chest" id="TL182" toID="E139" toText="lymphangitic spread" type="OVERLAP"/>
+<TLINK fromID="E140" fromText="cancer in the chest" id="TL183" toID="E139" toText="lymphangitic spread" type="OVERLAP"/>
+<TLINK fromID="E187" fromText="her new diagnosis" id="TL184" toID="E139" toText="lymphangitic spread" type="OVERLAP"/>
+<TLINK fromID="E141" fromText="pulmonary nodules in the chest" id="TL185" toID="E140" toText="cancer in the chest" type="OVERLAP"/>
+<TLINK fromID="E143" fromText="multiple liver metastases" id="TL186" toID="E141" toText="pulmonary nodules in the chest" type="OVERLAP"/>
+<TLINK fromID="E142" fromText="pericardial effusion" id="TL187" toID="E141" toText="pulmonary nodules in the chest" type="OVERLAP"/>
+<TLINK fromID="E144" fromText="decreased function of the left kidney" id="TL188" toID="E143" toText="multiple liver metastases" type="OVERLAP"/>
+<TLINK fromID="E142" fromText="pericardial effusion" id="TL189" toID="E143" toText="multiple liver metastases" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="malignant pericardial effusion" id="TL19" toID="E5" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E145" fromText="dilated left intrarenal collecting system and proximal ureter" id="TL190" toID="E144" toText="decreased function of the left kidney" type="OVERLAP"/>
+<TLINK fromID="E146" fromText="periaortic lymphadenopathy" id="TL192" toID="E145" toText="dilated left intrarenal collecting system and proximal ureter" type="OVERLAP"/>
+<TLINK fromID="E148" fromText="lymphangitic spread" id="TL193" toID="E147" toText="Pulmonary" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E151" fromText="metastatic cervical cancer" id="TL196" toID="E150" toText="Chemotherapy" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E150" fromText="Chemotherapy" id="TL197" toID="E152" toText="discussed" type="AFTER"/>
+<TLINK fromID="E153" fromText="5-FU" id="TL198" toID="E199" toText="her 5-FU" type="simultaneous"/>
+<TLINK fromID="E153" fromText="5-FU" id="TL199" toID="T5" toText="06/18" type="SIMULTANEOUS"/>
+<TLINK fromID="E5" fromText="admitted" id="TL2" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E7" fromText="a total abdominal hysterectomy" id="TL20" toID="E10" toText="Vanor" type="OVERLAP"/>
+<TLINK fromID="E153" fromText="5-FU" id="TL200" toID="T7" toText="06/20" type="SIMULTANEOUS"/>
+<TLINK fromID="E153" fromText="5-FU" id="TL201" toID="T6" toText="06/19" type="SIMULTANEOUS"/>
+<TLINK fromID="E154" fromText="Cisplatin" id="TL202" toID="T8" toText="06/19" type="SIMULTANEOUS"/>
+<TLINK fromID="E154" fromText="Cisplatin" id="TL203" toID="E200" toText="Cisplatin chemotherapy" type="simultaneous"/>
+<TLINK fromID="E155" fromText="Ifex" id="TL204" toID="T9" toText="06/18" type="SIMULTANEOUS"/>
+<TLINK fromID="T9" fromText="06/18" id="TL205" toID="E156" toText="Mesna" type="SIMULTANEOUS"/>
+<TLINK fromID="E157" fromText="noted" id="TL206" toID="T10" toText="06/16" type="SIMULTANEOUS"/>
+<TLINK fromID="E158" fromText="numerous erythematous maculopapules on her back" id="TL207" toID="T10" toText="06/16" type="SIMULTANEOUS"/>
+<TLINK fromID="E159" fromText="Dermatology" id="TL208" toID="E160" toText="consulted" type="SIMULTANEOUS"/>
+<TLINK fromID="E161" fromText="steroid acne" id="TL209" toID="E159" toText="Dermatology" type="OVERLAP"/>
+<TLINK fromID="E63" fromText="the Retelk County Medical Center" id="TL21" toID="E62" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E162" fromText="a rapid steroid taper" id="TL210" toID="E161" toText="steroid acne" type="AFTER"/>
+<TLINK fromID="E163" fromText="topical Erythromycin" id="TL211" toID="E162" toText="a rapid steroid taper" type="OVERLAP"/>
+<TLINK fromID="E165" fromText="wheezing" id="TL212" toID="E35" toText="wheezing" type="SIMULTANEOUS"/>
+<TLINK fromID="E167" fromText="tamponade" id="TL213" toID="E166" toText="Her cardiac examination" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E44" fromText="Cardiology" id="TL214" toID="E79" toText="Cardiology" type="AFTER"/>
+<TLINK fromID="E135" fromText="a pericardial window" id="TL215" toID="E134" toText="consulted" type="AFTER"/>
+<TLINK fromID="E168" fromText="follow-up echo" id="TL216" toID="E44" toText="Cardiology" type="OVERLAP"/>
+<TLINK fromID="E168" fromText="follow-up echo" id="TL217" toID="E169" toText="another echocardiogram" type="simultaneous"/>
+<TLINK fromID="T11" fromText="06/18" id="TL218" toID="E169" toText="another echocardiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E170" fromText="showed" id="TL219" toID="E169" toText="another echocardiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E8" fromText="a 4x3.6x2 cm cervical mass" id="TL22" toID="E7" toText="a total abdominal hysterectomy" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E167" fromText="tamponade" id="TL220" toID="E171" toText="tamponade" type="simultaneous"/>
+<TLINK fromID="E172" fromText="examination" id="TL221" toID="E169" toText="another echocardiogram" type="AFTER"/>
+<TLINK fromID="E196" fromText="cardiac examination" id="TL222" toID="E172" toText="examination" type="OVERLAP"/>
+<TLINK fromID="E173" fromText="some mental status changes" id="TL223" toID="T12" toText="06/18" type="SIMULTANEOUS"/>
+<TLINK fromID="E175" fromText="hallucinations" id="TL224" toID="T12" toText="06/18" type="SIMULTANEOUS"/>
+<TLINK fromID="E173" fromText="some mental status changes" id="TL225" toID="E174" toText="confusion" type="SIMULTANEOUS"/>
+<TLINK fromID="E177" fromText="decreased pO2" id="TL226" toID="E176" toText="narcotics" type="OVERLAP"/>
+<TLINK fromID="E173" fromText="some mental status changes" id="TL227" toID="E176" toText="narcotics" type="AFTER"/>
+<TLINK fromID="E173" fromText="some mental status changes" id="TL228" toID="E177" toText="decreased pO2" type="AFTER"/>
+<TLINK fromID="E178" fromText="The Ifex" id="TL229" toID="E179" toText="held" type="ENDED_BY"/>
+<TLINK fromID="E7" fromText="a total abdominal hysterectomy" id="TL23" toID="T0" toText="02/90" type="SIMULTANEOUS"/>
+<TLINK fromID="E178" fromText="The Ifex" id="TL230" toID="E180" toText="the mental status changes" type="BEFORE"/>
+<TLINK fromID="E155" fromText="Ifex" id="TL231" toID="E178" toText="The Ifex" type="simultaneous"/>
+<TLINK fromID="E183" fromText="the Ifex" id="TL232" toID="E178" toText="The Ifex" type="SIMULTANEOUS"/>
+<TLINK fromID="E181" fromText="further Ifex" id="TL233" toID="E179" toText="held" type="BEGUN_BY"/>
+<TLINK fromID="E182" fromText="further hallucinations" id="TL234" toID="E179" toText="held" type="AFTER"/>
+<TLINK fromID="E184" fromText="Psychiatry" id="TL235" toID="E185" toText="consulted" type="SIMULTANEOUS"/>
+<TLINK fromID="E186" fromText="the changes" id="TL236" toID="E187" toText="her new diagnosis" type="OVERLAP"/>
+<TLINK fromID="E189" fromText="support services" id="TL237" toID="E188" toText="hooked up" type="OVERLAP"/>
+<TLINK fromID="E190" fromText="further counselling" id="TL238" toID="T13" toText="06/22/91" type="AFTER"/>
+<TLINK fromID="E192" fromText="symptoms" id="TL239" toID="E193" toText="anxiety" type="SIMULTANEOUS"/>
+<TLINK fromID="E11" fromText="Pathology" id="TL24" toID="E7" toText="a total abdominal hysterectomy" type="OVERLAP"/>
+<TLINK fromID="E193" fromText="anxiety" id="TL240" toID="E191" toText="Xanax" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E195" fromText="her shortness of breath" id="TL241" toID="E194" toText="change" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E196" fromText="cardiac examination" id="TL242" toID="E195" toText="her shortness of breath" type="OVERLAP"/>
+<TLINK fromID="E164" fromText="The patient 's shortness of breath" id="TL243" toID="E195" toText="her shortness of breath" type="simultaneous"/>
+<TLINK fromID="E197" fromText="discharged" id="TL244" toID="T13" toText="06/22/91" type="SIMULTANEOUS"/>
+<TLINK fromID="E199" fromText="her 5-FU" id="TL245" toID="E200" toText="Cisplatin chemotherapy" type="OVERLAP"/>
+<TLINK fromID="E199" fromText="her 5-FU" id="TL246" toID="T13" toText="06/22/91" type="BEFORE"/>
+<TLINK fromID="E200" fromText="Cisplatin chemotherapy" id="TL247" toID="T13" toText="06/22/91" type="BEFORE"/>
+<TLINK fromID="E200" fromText="Cisplatin chemotherapy" id="TL248" toID="E154" toText="Cisplatin" type="SIMULTANEOUS"/>
+<TLINK fromID="E18" fromText="intracavitary and external beam radiation therapy" id="TL25" toID="E7" toText="a total abdominal hysterectomy" type="AFTER"/>
+<TLINK fromID="E8" fromText="a 4x3.6x2 cm cervical mass" id="TL26" toID="E9" toText="a fibroid" type="simultaneous"/>
+<TLINK fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" id="TL27" toID="E8" toText="a 4x3.6x2 cm cervical mass" type="SIMULTANEOUS"/>
+<TLINK fromID="E12" fromText="revealed" id="TL28" toID="E11" toText="Pathology" type="SIMULTANEOUS"/>
+<TLINK fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" id="TL29" toID="E14" toText="vaginal margins" type="SIMULTANEOUS"/>
+<TLINK fromID="E31" fromText="presents" id="TL3" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="metastatic squamous cell carcinoma in the cardinal ligaments" id="TL30" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" id="TL31" toID="E59" toText="cervical cancer" type="OVERLAP"/>
+<TLINK fromID="E64" fromText="further care" id="TL32" toID="E63" toText="the Retelk County Medical Center" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="a 4x3.6x2 cm cervical mass" id="TL33" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="stage 2B disease" id="TL34" toID="E13" toText="poorly differentiated squamous cell carcinoma of the cervix" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="extensive lymphatic invasion" id="TL35" toID="E15" toText="metastatic squamous cell carcinoma in the cardinal ligaments" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="extensive lymphatic invasion" id="TL36" toID="E94" toText="a malignant lymphangitic spread" type="simultaneous"/>
+<TLINK fromID="E19" fromText="low dose Cisplatin" id="TL37" toID="E18" toText="intracavitary and external beam radiation therapy" type="OVERLAP"/>
+<TLINK fromID="E61" fromText="malignant" id="TL38" toID="E66" toText="a new pericardial effusion" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="ultrasound" id="TL39" toID="T1" toText="02/91" type="SIMULTANEOUS"/>
+<TLINK fromID="E2" fromText="gravida IV" id="TL4" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E24" fromText="exploratory laparotomy" id="TL40" toID="E20" toText="ultrasound" type="AFTER"/>
+<TLINK fromID="E21" fromText="bilateral cystic adnexal masses" id="TL41" toID="E20" toText="ultrasound" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="physical examination" id="TL42" toID="E20" toText="ultrasound" type="AFTER"/>
+<TLINK fromID="E26" fromText="appendectomy" id="TL43" toID="E24" toText="exploratory laparotomy" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="a bilateral salpingo-oophorectomy" id="TL44" toID="E24" toText="exploratory laparotomy" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="Pathology" id="TL45" toID="E24" toText="exploratory laparotomy" type="AFTER"/>
+<TLINK fromID="E26" fromText="appendectomy" id="TL47" toID="E25" toText="a bilateral salpingo-oophorectomy" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="tumor" id="TL48" toID="E27" toText="Pathology" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="peritubal and periovarian adhesions" id="TL49" toID="E28" toText="tumor" type="SIMULTANEOUS"/>
+<TLINK fromID="T2" fromText="a three to four week" id="TL5" toID="T14" toText="06/11/1991" type="ENDED_BY"/>
+<TLINK fromID="E30" fromText="peritubal and periovarian adhesions" id="TL50" toID="E21" toText="bilateral cystic adnexal masses" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="physical examination" id="TL51" toID="E22" toText="confirmed" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="bilateral cystic adnexal masses" id="TL52" toID="E22" toText="confirmed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E29" fromText="showed" id="TL54" toID="E27" toText="Pathology" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="presents" id="TL55" toID="T2" toText="a three to four week" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="shortness of breath" id="TL56" toID="E31" toText="presents" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E34" fromText="evaluated" id="TL57" toID="E31" toText="presents" type="AFTER"/>
+<TLINK fromID="E32" fromText="shortness of breath" id="TL58" toID="E33" toText="a dry non-productive cough" type="SIMULTANEOUS"/>
+<TLINK fromID="E32" fromText="shortness of breath" id="TL59" toID="E164" toText="The patient 's shortness of breath" type="simultaneous"/>
+<TLINK fromID="E0" fromText="Admission" id="TL6" toID="T14" toText="06/11/1991" type="SIMULTANEOUS"/>
+<TLINK fromID="E32" fromText="shortness of breath" id="TL60" toID="T2" toText="a three to four week" type="DURING"/>
+<TLINK fromID="E41" fromText="asthma" id="TL61" toID="E32" toText="shortness of breath" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="pulmonary function tests" id="TL62" toID="E34" toText="evaluated" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="wheezing" id="TL63" toID="E34" toText="evaluated" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E37" fromText="an FEV1" id="TL64" toID="E36" toText="pulmonary function tests" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="pulmonary function tests" id="TL65" toID="E35" toText="wheezing" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="Weekscook University Medical Center" id="TL66" toID="E39" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E50" fromText="EKG" id="TL67" toID="E39" toText="admitted" type="AFTER"/>
+<TLINK fromID="E42" fromText="Room air arterial blood gas" id="TL68" toID="E39" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="echo" id="TL69" toID="E39" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="admitted" id="TL7" toID="T14" toText="06/11/1991" type="SIMULTANEOUS"/>
+<TLINK fromID="E39" fromText="admitted" id="TL70" toID="E36" toText="pulmonary function tests" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="Weekscook University Medical Center" id="TL71" toID="E62" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E47" fromText="a pO2" id="TL72" toID="E42" toText="Room air arterial blood gas" type="OVERLAP"/>
+<TLINK fromID="E46" fromText="showed" id="TL73" toID="E42" toText="Room air arterial blood gas" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="a pCO2" id="TL74" toID="E47" toText="a pO2" type="SIMULTANEOUS"/>
+<TLINK fromID="E49" fromText="a pH" id="TL75" toID="E48" toText="a pCO2" type="SIMULTANEOUS"/>
+<TLINK fromID="E49" fromText="a pH" id="TL76" toID="E47" toText="a pO2" type="SIMULTANEOUS"/>
+<TLINK fromID="E52" fromText="sinus tachycardia" id="TL77" toID="E50" toText="EKG" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E53" fromText="echo" id="TL78" toID="E50" toText="EKG" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL8" toID="T15" toText="06/22/1991" type="SIMULTANEOUS"/>
+<TLINK fromID="E51" fromText="showed" id="TL80" toID="E50" toText="EKG" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="pericardial effusion" id="TL81" toID="E53" toText="echo" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E54" fromText="revealed" id="TL82" toID="E53" toText="echo" type="SIMULTANEOUS"/>
+<TLINK fromID="E56" fromText="a 10 mm pulsus paradoxus" id="TL83" toID="E55" toText="pericardial effusion" type="OVERLAP"/>
+<TLINK fromID="E58" fromText="tamponade" id="TL84" toID="E56" toText="a 10 mm pulsus paradoxus" type="OVERLAP"/>
+<TLINK fromID="E117" fromText="her pulsus" id="TL85" toID="E56" toText="a 10 mm pulsus paradoxus" type="SIMULTANEOUS"/>
+<TLINK fromID="E58" fromText="tamponade" id="TL86" toID="E57" toText="evidence" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="the pericardial effusion" id="TL87" toID="E59" toText="cervical cancer" type="OVERLAP"/>
+<TLINK fromID="E59" fromText="cervical cancer" id="TL88" toID="E67" toText="metastatic cervical cancer" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="pericardial effusion" id="TL89" toID="E60" toText="the pericardial effusion" type="simultaneous"/>
+<TLINK fromID="E60" fromText="the pericardial effusion" id="TL90" toID="E61" toText="malignant" type="simultaneous"/>
+<TLINK fromID="E67" fromText="metastatic cervical cancer" id="TL91" toID="E66" toText="a new pericardial effusion" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E66" fromText="a new pericardial effusion" id="TL92" toID="E65" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E76" fromText="moderate anterior pericardial effusion" id="TL93" toID="E66" toText="a new pericardial effusion" type="SIMULTANEOUS"/>
+<TLINK fromID="E69" fromText="tamponade" id="TL95" toID="E68" toText="evidence" type="SIMULTANEOUS"/>
+<TLINK fromID="E72" fromText="Cardiology" id="TL96" toID="E70" toText="An echocardiogram" type="OVERLAP"/>
+<TLINK fromID="E70" fromText="An echocardiogram" id="TL97" toID="E74" toText="Echocardiogram" type="simultaneous"/>
+<TLINK fromID="E71" fromText="scheduled" id="TL98" toID="E70" toText="An echocardiogram" type="BEFORE"/>
+<TLINK fromID="E70" fromText="An echocardiogram" id="TL99" toID="E65" toText="admitted" type="AFTER"/>
+<TLINK fromID="E31" fromText="presents" id="Sectime0" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E32" fromText="shortness of breath" id="Sectime1" toID="T14" toText="06/11/1991" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E33" fromText="a dry non-productive cough" id="Sectime2" toID="T14" toText="06/11/1991" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E2" fromText="gravida IV" id="Sectime3" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E34" fromText="evaluated" id="Sectime4" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E35" fromText="wheezing" id="Sectime5" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E36" fromText="pulmonary function tests" id="Sectime6" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E3" fromText="para 2" id="Sectime7" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E43" fromText="showed" id="Sectime8" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E37" fromText="an FEV1" id="Sectime9" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E38" fromText="an FVC" id="Sectime10" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E39" fromText="admitted" id="Sectime11" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E40" fromText="Weekscook University Medical Center" id="Sectime12" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E4" fromText="metastatic cervical cancer" id="Sectime13" toID="T14" toText="06/11/1991" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E41" fromText="asthma" id="Sectime14" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E42" fromText="Room air arterial blood gas" id="Sectime15" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E46" fromText="showed" id="Sectime16" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E47" fromText="a pO2" id="Sectime17" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E48" fromText="a pCO2" id="Sectime18" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E49" fromText="a pH" id="Sectime19" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E50" fromText="EKG" id="Sectime20" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E51" fromText="showed" id="Sectime21" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E52" fromText="sinus tachycardia" id="Sectime22" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E53" fromText="echo" id="Sectime23" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E54" fromText="revealed" id="Sectime24" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E55" fromText="pericardial effusion" id="Sectime25" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E56" fromText="a 10 mm pulsus paradoxus" id="Sectime26" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E57" fromText="evidence" id="Sectime27" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E58" fromText="tamponade" id="Sectime28" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E5" fromText="admitted" id="Sectime29" toID="T14" toText="06/11/1991" type="OVERLAP"/>
+<TLINK fromID="E59" fromText="cervical cancer" id="Sectime30" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E60" fromText="the pericardial effusion" id="Sectime31" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E61" fromText="malignant" id="Sectime32" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E62" fromText="transferred" id="Sectime33" toID="T14" toText="06/11/1991" type="OVERLAP"/>
+<TLINK fromID="E63" fromText="the Retelk County Medical Center" id="Sectime34" toID="T14" toText="06/11/1991" type="OVERLAP"/>
+<TLINK fromID="E64" fromText="further care" id="Sectime35" toID="T14" toText="06/11/1991" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="admitted" id="Sectime0" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E66" fromText="a new pericardial effusion" id="Sectime1" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E6" fromText="malignant pericardial effusion" id="Sectime36" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E67" fromText="metastatic cervical cancer" id="Sectime2" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E68" fromText="evidence" id="Sectime3" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E69" fromText="tamponade" id="Sectime4" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E70" fromText="An echocardiogram" id="Sectime5" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E71" fromText="scheduled" id="Sectime6" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E72" fromText="Cardiology" id="Sectime7" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E73" fromText="consulted" id="Sectime8" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E74" fromText="Echocardiogram" id="Sectime9" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E75" fromText="showed" id="Sectime10" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E76" fromText="moderate anterior pericardial effusion" id="Sectime11" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E77" fromText="diastolic indications of the right ventricle" id="Sectime12" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E78" fromText="low velocity paradox" id="Sectime13" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E79" fromText="Cardiology" id="Sectime14" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E80" fromText="tamponade" id="Sectime15" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E81" fromText="a tap" id="Sectime16" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E82" fromText="pulmonary wheezing" id="Sectime17" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E7" fromText="a total abdominal hysterectomy" id="Sectime37" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E83" fromText="asthma" id="Sectime18" toID="T15" toText="06/22/1991" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E84" fromText="Her steroids" id="Sectime19" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E85" fromText="tapered" id="Sectime20" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E86" fromText="Pulmonary" id="Sectime21" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E87" fromText="consulted" id="Sectime22" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E88" fromText="a CT scan of the chest" id="Sectime23" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E89" fromText="sputum" id="Sectime24" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E90" fromText="CBC" id="Sectime25" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E91" fromText="arterial blood gas" id="Sectime26" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E92" fromText="the beta agonist inhalers" id="Sectime27" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E93" fromText="steroid inhalers" id="Sectime28" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E94" fromText="a malignant lymphangitic spread" id="Sectime29" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E95" fromText="pericardial involvement" id="Sectime30" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E96" fromText="infectious" id="Sectime31" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E97" fromText="other cardiovascular causes" id="Sectime32" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E98" fromText="viral bronchiolitis" id="Sectime33" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E8" fromText="a 4x3.6x2 cm cervical mass" id="Sectime38" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E99" fromText="pulmonary function tests" id="Sectime34" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E100" fromText="showed" id="Sectime35" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E101" fromText="an FEV1" id="Sectime36" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E102" fromText="FVC" id="Sectime37" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E103" fromText="Room air arterial blood gas" id="Sectime38" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E104" fromText="showed" id="Sectime39" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E105" fromText="a pH" id="Sectime40" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E106" fromText="pO2" id="Sectime41" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E107" fromText="a pCO2" id="Sectime42" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E108" fromText="fairly significant AA gradient" id="Sectime43" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E109" fromText="oxygen" id="Sectime44" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E110" fromText="her CT scan" id="Sectime45" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E111" fromText="a new junctional rhythm" id="Sectime46" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E112" fromText="a new rub" id="Sectime47" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E113" fromText="murmur" id="Sectime48" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E114" fromText="examination" id="Sectime49" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E9" fromText="a fibroid" id="Sectime39" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E115" fromText="Cardiology" id="Sectime50" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E116" fromText="a rub" id="Sectime51" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E117" fromText="her pulsus" id="Sectime52" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E118" fromText="EKG" id="Sectime53" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E119" fromText="showed" id="Sectime54" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E120" fromText="an ectopic low atrial P" id="Sectime55" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E10" fromText="Vanor" id="Sectime40" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E121" fromText="stable" id="Sectime56" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E122" fromText="tamponade" id="Sectime57" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E123" fromText="a follow-up echocardiogram" id="Sectime58" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E11" fromText="Pathology" id="Sectime41" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E124" fromText="Echocardiogram" id="Sectime59" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E125" fromText="showed" id="Sectime60" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E126" fromText="the upper limits of normal for size" id="Sectime61" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E127" fromText="low normal function" id="Sectime62" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E12" fromText="revealed" id="Sectime42" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E128" fromText="moderate to mild effusion" id="Sectime63" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E129" fromText="pericardial pressures" id="Sectime64" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E130" fromText="right atrial pressures" id="Sectime65" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E13" fromText="poorly differentiated squamous cell carcinoma of the cervix" id="Sectime43" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E131" fromText="right ventricular pressures" id="Sectime66" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E132" fromText="the effusion" id="Sectime67" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E133" fromText="Thoracic Surgery" id="Sectime68" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E134" fromText="consulted" id="Sectime69" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E135" fromText="a pericardial window" id="Sectime70" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E136" fromText="pulmonary oximetry testing" id="Sectime71" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E137" fromText="her CT scan" id="Sectime72" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E138" fromText="This showed" id="Sectime73" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E139" fromText="lymphangitic spread" id="Sectime74" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E140" fromText="cancer in the chest" id="Sectime75" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E141" fromText="pulmonary nodules in the chest" id="Sectime76" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E142" fromText="pericardial effusion" id="Sectime77" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E143" fromText="multiple liver metastases" id="Sectime78" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E144" fromText="decreased function of the left kidney" id="Sectime79" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E145" fromText="dilated left intrarenal collecting system and proximal ureter" id="Sectime80" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E146" fromText="periaortic lymphadenopathy" id="Sectime81" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E147" fromText="Pulmonary" id="Sectime82" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E148" fromText="lymphangitic spread" id="Sectime83" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E149" fromText="a bronchoscopy" id="Sectime84" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E14" fromText="vaginal margins" id="Sectime44" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E150" fromText="Chemotherapy" id="Sectime85" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E151" fromText="metastatic cervical cancer" id="Sectime86" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E152" fromText="discussed" id="Sectime87" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E153" fromText="5-FU" id="Sectime88" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E15" fromText="metastatic squamous cell carcinoma in the cardinal ligaments" id="Sectime45" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E154" fromText="Cisplatin" id="Sectime89" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E155" fromText="Ifex" id="Sectime90" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E156" fromText="Mesna" id="Sectime91" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E157" fromText="noted" id="Sectime92" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E158" fromText="numerous erythematous maculopapules on her back" id="Sectime93" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E159" fromText="Dermatology" id="Sectime94" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E160" fromText="consulted" id="Sectime95" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E161" fromText="steroid acne" id="Sectime96" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E162" fromText="a rapid steroid taper" id="Sectime97" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E163" fromText="topical Erythromycin" id="Sectime98" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E164" fromText="The patient 's shortness of breath" id="Sectime99" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E165" fromText="wheezing" id="Sectime100" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E166" fromText="Her cardiac examination" id="Sectime101" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E167" fromText="tamponade" id="Sectime102" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E44" fromText="Cardiology" id="Sectime103" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E168" fromText="follow-up echo" id="Sectime104" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E169" fromText="another echocardiogram" id="Sectime105" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E170" fromText="showed" id="Sectime106" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E16" fromText="extensive lymphatic invasion" id="Sectime46" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E171" fromText="tamponade" id="Sectime107" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E172" fromText="examination" id="Sectime108" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E173" fromText="some mental status changes" id="Sectime109" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E174" fromText="confusion" id="Sectime110" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E175" fromText="hallucinations" id="Sectime111" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E176" fromText="narcotics" id="Sectime112" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E177" fromText="decreased pO2" id="Sectime113" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E178" fromText="The Ifex" id="Sectime114" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E179" fromText="held" id="Sectime115" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E180" fromText="the mental status changes" id="Sectime116" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E181" fromText="further Ifex" id="Sectime117" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E182" fromText="further hallucinations" id="Sectime118" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E183" fromText="the Ifex" id="Sectime119" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E184" fromText="Psychiatry" id="Sectime120" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E185" fromText="consulted" id="Sectime121" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E186" fromText="the changes" id="Sectime122" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E187" fromText="her new diagnosis" id="Sectime123" toID="T15" toText="06/22/1991" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E188" fromText="hooked up" id="Sectime124" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E189" fromText="support services" id="Sectime125" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E17" fromText="stage 2B disease" id="Sectime47" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E190" fromText="further counselling" id="Sectime126" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E191" fromText="Xanax" id="Sectime127" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E192" fromText="symptoms" id="Sectime128" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E193" fromText="anxiety" id="Sectime129" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E194" fromText="change" id="Sectime130" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E195" fromText="her shortness of breath" id="Sectime131" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E196" fromText="cardiac examination" id="Sectime132" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E197" fromText="discharged" id="Sectime133" toID="T15" toText="06/22/1991" type="OVERLAP"/>
+<TLINK fromID="E198" fromText="discharged home" id="Sectime134" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E199" fromText="her 5-FU" id="Sectime135" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E200" fromText="Cisplatin chemotherapy" id="Sectime136" toID="T15" toText="06/22/1991" type="BEFORE"/>
+<TLINK fromID="E18" fromText="intracavitary and external beam radiation therapy" id="Sectime48" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E19" fromText="low dose Cisplatin" id="Sectime49" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E20" fromText="ultrasound" id="Sectime50" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E21" fromText="bilateral cystic adnexal masses" id="Sectime51" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E22" fromText="confirmed" id="Sectime52" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E23" fromText="physical examination" id="Sectime53" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E24" fromText="exploratory laparotomy" id="Sectime54" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E25" fromText="a bilateral salpingo-oophorectomy" id="Sectime55" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E26" fromText="appendectomy" id="Sectime56" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E27" fromText="Pathology" id="Sectime57" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E28" fromText="tumor" id="Sectime58" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E29" fromText="showed" id="Sectime59" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<TLINK fromID="E30" fromText="peritubal and periovarian adhesions" id="Sectime60" toID="T14" toText="06/11/1991" type="BEFORE"/>
+<SECTIME dvalue="1991-06-11" end="28" id="S0" start="18" text="06/11/1991" type="ADMISSION"/>
+<SECTIME dvalue="1991-06-22" end="56" id="S1" start="46" text="06/22/1991" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

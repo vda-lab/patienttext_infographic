@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2009-12-28
+Discharge Date :
+2009-12-31
+Service :
+NEUROMEDIC
+HISTORY OF PRESENT ILLNESS :
+Mrs. Wisniewski is a 45-year-old woman with multiple familial cavernous hemangiomas .
+She is right-handed .
+She was in her usual state of health until one and a half weeks prior to admission .
+She developed an ear ache , for which she saw her primary care physician , Evelyn was prescribed cortisone drops .
+A few days later she complained of dizziness .
+This was mostly described as feeling unsteady on her feet .
+She stated that she had trouble knowing if her feet were touching the ground .
+She was seen again by primary care physician , Roderick since she had complaints of dizziness , as well as a new complaint of decreased hearing and the sensation of static in her ears , meniere 's disease was considered .
+She was given an oral prednisone taper .
+This unsteady gait progressed , and then she subsequently started to develop a pins and needle feeling in the face , hands and feet bilaterally .
+Her hearing got progressively worse and the sound of static increased .
+She was very fatigued .
+At an outside hospital , head CT revealed a 1.5 cm diameter hyperdense mass in the pons , slightly off center to the right .
+She was transferred here for further care .
+HOSPITAL COURSE :
+Mrs. Wisniewski is a 45 - year-old woman with a strong family history of cavernous angiomas .
+She has had several prior bleeding events and presented with a subacute bleed in the mid to lower pons .
+There was relatively central in location , with only a slight right-sided predominance .
+Her physical examination remained relatively unchanged , with resolution of the subtle left hand weakness and right facial weakness .
+Her gait remained severely ataxic , likely secondary to sensory deafferentation , as well as involvement of crossing pontine cerebellar fibers .
+Therefore , it was recommended that she have aggressive Physical Therapy at an Acute Rehabilitation Center .
+The case was discussed with Dr. Harold from the Falmouth Hospital .
+He has followed this family in the past and will see her in follow-up .
+We will arrange to have a copy of the MRI scans sent to him .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="2009-12-27 23:16" lowerbound-start="2009-12-27 23:15" modality="FACTUAL" most-likely-end="2009-12-28 12:48" most-likely-start="2009-12-28 12:45" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="2009-12-30 03:16" upperbound-start="2009-12-30 02:15"/>
+<EVENT end="1045" id="E9" lowerbound-end="2009-12-13 13:51" lowerbound-start="2009-12-20 13:16" modality="FACTUAL" most-likely-end="2010-01-06 05:00" most-likely-start="2009-12-24 19:30" polarity="POS" start="1026" temporally-annotated="YES" text="progressively worse" type="PROBLEM" upperbound-end="2060-01-20 04:10" upperbound-start="2010-01-05 01:44"/>
+<EVENT end="1069" id="E28" lowerbound-end="2009-12-13 13:51" lowerbound-start="2009-12-20 13:16" modality="FACTUAL" most-likely-end="2010-01-06 05:00" most-likely-start="2009-12-24 19:30" polarity="POS" start="1050" temporally-annotated="YES" text="the sound of static" type="PROBLEM" upperbound-end="2060-01-20 04:10" upperbound-start="2010-01-05 01:44"/>
+<EVENT end="1079" id="E29" lowerbound-end="2009-12-13 13:51" lowerbound-start="2009-12-20 13:16" modality="FACTUAL" most-likely-end="2010-01-06 05:00" most-likely-start="2009-12-24 19:30" polarity="POS" start="1070" temporally-annotated="YES" text="increased" type="OCCURRENCE" upperbound-end="2060-01-20 04:10" upperbound-start="2010-01-05 01:44"/>
+<EVENT end="1103" id="E30" lowerbound-end="2009-12-10 19:18" lowerbound-start="2009-12-20 13:16" modality="FACTUAL" most-likely-end="2010-01-06 05:00" most-likely-start="2009-12-24 19:30" polarity="POS" start="1090" temporally-annotated="YES" text="very fatigued" type="PROBLEM" upperbound-end="2060-01-22 22:43" upperbound-start="2010-01-05 01:44"/>
+<EVENT end="1128" id="E31" lowerbound-end="2009-12-24 14:30" lowerbound-start="2009-12-20 17:41" modality="FACTUAL" most-likely-end="2009-12-28 17:00" most-likely-start="2009-12-24 20:00" polarity="POS" start="1109" temporally-annotated="YES" text="an outside hospital" type="CLINICAL_DEPT" upperbound-end="2010-01-04 15:30" upperbound-start="2010-01-04 22:19"/>
+<EVENT end="1138" id="E10" lowerbound-end="2009-12-22 00:42" lowerbound-start="2009-12-22 00:41" modality="FACTUAL" most-likely-end="2009-12-26 20:55" most-likely-start="2009-12-26 20:30" polarity="POS" start="1131" temporally-annotated="YES" text="head CT" type="TEST" upperbound-end="2010-01-07 17:20" upperbound-start="2010-01-07 16:19"/>
+<EVENT end="1147" id="E32" lowerbound-end="2009-12-22 08:31" lowerbound-start="2009-12-22 08:30" modality="FACTUAL" most-likely-end="2009-12-26 20:56" most-likely-start="2009-12-26 20:45" polarity="POS" start="1139" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-end="2010-01-07 10:00" upperbound-start="2010-01-07 08:59"/>
+<EVENT end="1193" id="E11" lowerbound-end="1998-01-02 18:40" lowerbound-start="1960-01-06 20:44" modality="FACTUAL" most-likely-end="2027-12-27 17:10" most-likely-start="2009-12-22 05:00" polarity="POS" start="1148" temporally-annotated="YES" text="a 1.5 cm diameter hyperdense mass in the pons" type="PROBLEM" upperbound-end="2107-12-13 03:51" upperbound-start="2109-11-29 01:17"/>
+<EVENT end="1250" id="E16" lowerbound-end="2009-12-27 23:16" lowerbound-start="2009-12-27 23:00" modality="FACTUAL" most-likely-end="2009-12-28 12:48" most-likely-start="2009-12-28 12:30" polarity="POS" start="1239" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-end="2009-12-30 02:46" upperbound-start="2009-12-30 02:00"/>
+<EVENT end="1272" id="E33" lowerbound-end="2009-12-29 11:31" lowerbound-start="2009-12-27 23:15" modality="FACTUAL" most-likely-end="2009-12-30 00:33" most-likely-start="2009-12-28 12:45" polarity="POS" start="1260" temporally-annotated="YES" text="further care" type="OCCURRENCE" upperbound-end="2009-12-31 14:01" upperbound-start="2009-12-30 02:15"/>
+<EVENT end="1384" id="E34" lowerbound-end="1958-01-13 01:09" lowerbound-start="1945-01-03 10:34" modality="FACTUAL" most-likely-end="2027-12-28 23:00" most-likely-start="1972-06-28 11:00" polarity="POS" start="1366" temporally-annotated="YES" text="cavernous angiomas" type="PROBLEM" upperbound-end="2217-11-06 20:51" upperbound-start="2054-12-08 11:27"/>
+<EVENT end="1428" id="E12" lowerbound-end="1970-01-04 00:00" lowerbound-start="1923-02-09 08:30" modality="FACTUAL" most-likely-end="2009-12-28 11:00" most-likely-start="1991-09-16 23:00" polarity="POS" start="1399" temporally-annotated="YES" text="several prior bleeding events" type="PROBLEM" upperbound-end="2119-11-28 10:01" upperbound-start="2160-03-30 13:30"/>
+<EVENT end="1442" id="E35" lowerbound-end="2009-12-27 23:44" lowerbound-start="2009-12-27 23:43" modality="FACTUAL" most-likely-end="2009-12-28 13:20" most-likely-start="2009-12-28 13:02" polarity="POS" start="1433" temporally-annotated="YES" text="presented" type="OCCURRENCE" upperbound-end="2009-12-30 03:22" upperbound-start="2009-12-30 02:21"/>
+<EVENT end="1489" id="E36" lowerbound-end="1998-01-02 18:40" lowerbound-start="1960-01-06 20:44" modality="FACTUAL" most-likely-end="2027-12-27 17:10" most-likely-start="2009-12-22 05:00" polarity="POS" start="1448" temporally-annotated="YES" text="a subacute bleed in the mid to lower pons" type="PROBLEM" upperbound-end="2107-12-13 03:51" upperbound-start="2109-11-29 01:17"/>
+<EVENT end="190" id="E1" lowerbound-end="1958-01-13 01:09" lowerbound-start="1945-01-03 10:34" modality="FACTUAL" most-likely-end="2027-12-28 23:00" most-likely-start="1972-06-28 11:00" polarity="POS" start="151" temporally-annotated="YES" text="multiple familial cavernous hemangiomas" type="PROBLEM" upperbound-end="2217-11-06 20:51" upperbound-start="2054-12-08 11:27"/>
+<EVENT end="1578" id="E37" lowerbound-end="1998-01-02 18:40" lowerbound-start="2009-12-24 17:39" modality="FACTUAL" most-likely-end="2027-12-27 17:10" most-likely-start="2009-12-27 05:30" polarity="POS" start="1554" temporally-annotated="YES" text="right-sided predominance" type="OCCURRENCE" upperbound-end="2107-12-13 03:51" upperbound-start="2010-01-02 17:21"/>
+<EVENT end="1605" id="E13" lowerbound-end="2009-12-28 10:01" lowerbound-start="2009-12-27 09:59" modality="FACTUAL" most-likely-end="2009-12-30 19:10" most-likely-start="2009-12-29 12:47" polarity="POS" start="1581" temporally-annotated="YES" text="Her physical examination" type="TEST" upperbound-end="2010-01-06 04:08" upperbound-start="2010-01-04 15:36"/>
+<EVENT end="1686" id="E38" lowerbound-end="2009-12-28 10:13" lowerbound-start="2009-12-25 01:50" modality="FACTUAL" most-likely-end="2009-12-30 19:10" most-likely-start="2009-12-28 03:02" polarity="NEG" start="1657" temporally-annotated="YES" text="the subtle left hand weakness" type="PROBLEM" upperbound-end="2010-01-06 04:07" upperbound-start="2010-01-04 04:14"/>
+<EVENT end="1712" id="E39" lowerbound-end="2009-12-28 10:13" lowerbound-start="2009-12-25 01:50" modality="FACTUAL" most-likely-end="2009-12-30 19:10" most-likely-start="2009-12-28 03:02" polarity="NEG" start="1691" temporally-annotated="YES" text="right facial weakness" type="PROBLEM" upperbound-end="2010-01-06 04:07" upperbound-start="2010-01-04 04:14"/>
+<EVENT end="1748" id="E40" lowerbound-end="2009-12-17 22:25" lowerbound-start="2009-12-18 01:24" modality="FACTUAL" most-likely-end="2010-01-07 06:33" most-likely-start="2009-12-24 12:33" polarity="POS" start="1733" temporally-annotated="YES" text="severely ataxic" type="PROBLEM" upperbound-end="2060-01-16 02:40" upperbound-start="2010-01-15 16:42"/>
+<EVENT end="1794" id="E14" lowerbound-end="1960-01-11 02:49" lowerbound-start="1960-01-10 02:48" modality="POSSIBLE" most-likely-end="2009-12-26 06:33" most-likely-start="2009-12-23 12:33" polarity="POS" start="1771" temporally-annotated="YES" text="sensory deafferentation" type="PROBLEM" upperbound-end="2110-05-28 10:18" upperbound-start="2109-11-25 10:17"/>
+<EVENT end="1857" id="E41" lowerbound-end="1960-01-11 02:49" lowerbound-start="1960-01-10 02:48" modality="FACTUAL" most-likely-end="2009-12-26 06:33" most-likely-start="2009-12-23 12:33" polarity="POS" start="1823" temporally-annotated="YES" text="crossing pontine cerebellar fibers" type="PROBLEM" upperbound-end="2110-05-28 10:18" upperbound-start="2109-11-25 10:17"/>
+<EVENT end="1932" id="E15" lowerbound-end="2010-01-27 23:15" lowerbound-start="2009-12-28 08:48" modality="PROPOSED" most-likely-end="2010-04-16 11:00" most-likely-start="2009-12-31 11:00" polarity="POS" start="1905" temporally-annotated="YES" text="aggressive Physical Therapy" type="TREATMENT" upperbound-end="2011-02-07 03:39" upperbound-start="2010-01-07 13:12"/>
+<EVENT end="1966" id="E42" lowerbound-end="2010-01-27 23:15" lowerbound-start="2009-12-28 08:48" modality="FACTUAL" most-likely-end="2010-04-16 11:00" most-likely-start="2009-12-31 11:00" polarity="POS" start="1936" temporally-annotated="YES" text="an Acute Rehabilitation Center" type="CLINICAL_DEPT" upperbound-end="2011-02-07 03:39" upperbound-start="2010-01-07 13:12"/>
+<EVENT end="2106" id="E43" lowerbound-end="2010-01-30 15:57" lowerbound-start="2009-12-31 01:30" modality="FACTUAL" most-likely-end="2010-04-16 12:30" most-likely-start="2009-12-31 12:30" polarity="POS" start="2097" temporally-annotated="YES" text="follow-up" type="OCCURRENCE" upperbound-end="2011-02-01 13:57" upperbound-start="2010-01-01 23:30"/>
+<EVENT end="2156" id="E44" lowerbound-end="2010-01-02 01:21" lowerbound-start="2009-12-29 03:45" modality="FACTUAL" most-likely-end="2010-01-07 15:00" most-likely-start="2009-12-30 01:30" polarity="POS" start="2143" temporally-annotated="YES" text="the MRI scans" type="TEST" upperbound-end="2010-01-21 20:57" upperbound-start="2010-01-03 23:14"/>
+<EVENT end="251" id="E18" lowerbound-end="2009-12-14 02:44" lowerbound-start="1979-12-22 02:44" modality="FACTUAL" most-likely-end="2009-12-17 23:00" most-likely-start="1986-06-18 11:00" polarity="POS" start="226" temporally-annotated="YES" text="her usual state of health" type="OCCURRENCE" upperbound-end="2009-12-28 19:16" upperbound-start="1990-01-02 19:16"/>
+<EVENT end="297" id="E19" lowerbound-end="2009-12-27 23:16" lowerbound-start="2009-12-27 23:15" modality="FACTUAL" most-likely-end="2009-12-28 12:48" most-likely-start="2009-12-28 12:45" polarity="POS" start="288" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-end="2009-12-30 03:16" upperbound-start="2009-12-30 02:15"/>
+<EVENT end="38" id="E17" lowerbound-end="2009-12-31 01:30" lowerbound-start="2009-12-31 00:59" modality="FACTUAL" most-likely-end="2009-12-31 12:32" most-likely-start="2009-12-31 12:27" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="2010-01-02 00:00" upperbound-start="2010-01-01 23:29"/>
+<EVENT end="325" id="E2" lowerbound-end="2009-12-10 14:51" lowerbound-start="2009-12-14 02:44" modality="FACTUAL" most-likely-end="2010-01-02 23:00" most-likely-start="2009-12-17 23:00" polarity="POS" start="314" temporally-annotated="YES" text="an ear ache" type="PROBLEM" upperbound-end="2060-01-17 19:10" upperbound-start="2009-12-28 19:16"/>
+<EVENT end="412" id="E3" lowerbound-end="2009-12-15 16:15" lowerbound-start="2009-12-14 04:14" modality="FACTUAL" most-likely-end="2009-12-20 00:38" most-likely-start="2009-12-18 00:30" polarity="POS" start="397" temporally-annotated="YES" text="cortisone drops" type="TREATMENT" upperbound-end="2010-01-02 21:17" upperbound-start="2009-12-28 20:46"/>
+<EVENT end="446" id="E20" lowerbound-end="2009-12-17 09:34" lowerbound-start="2009-12-17 09:33" modality="FACTUAL" most-likely-end="2009-12-21 23:15" most-likely-start="2009-12-21 11:00" polarity="POS" start="436" temporally-annotated="YES" text="complained" type="EVIDENTIAL" upperbound-end="2010-01-05 00:59" upperbound-start="2010-01-01 12:28"/>
+<EVENT end="459" id="E4" lowerbound-end="2009-12-11 08:51" lowerbound-start="2009-12-12 11:49" modality="FACTUAL" most-likely-end="2010-01-02 11:00" most-likely-start="2009-12-20 11:00" polarity="POS" start="450" temporally-annotated="YES" text="dizziness" type="PROBLEM" upperbound-end="2060-01-18 13:10" upperbound-start="2010-01-16 03:11"/>
+<EVENT end="487" id="E22" lowerbound-end="2009-12-17 09:34" lowerbound-start="2009-12-17 09:33" modality="FACTUAL" most-likely-end="2009-12-21 23:15" most-likely-start="2009-12-21 11:00" polarity="POS" start="478" temporally-annotated="YES" text="described" type="EVIDENTIAL" upperbound-end="2010-01-05 00:59" upperbound-start="2010-01-01 12:28"/>
+<EVENT end="519" id="E21" lowerbound-end="2009-12-11 08:51" lowerbound-start="2009-12-12 11:49" modality="FACTUAL" most-likely-end="2010-01-02 11:00" most-likely-start="2009-12-20 11:00" polarity="POS" start="499" temporally-annotated="YES" text="unsteady on her feet" type="PROBLEM" upperbound-end="2060-01-18 13:10" upperbound-start="2010-01-16 03:11"/>
+<EVENT end="532" id="E23" lowerbound-end="2009-12-17 09:34" lowerbound-start="2009-12-17 09:33" modality="FACTUAL" most-likely-end="2009-12-21 23:15" most-likely-start="2009-12-21 11:00" polarity="POS" start="526" temporally-annotated="YES" text="stated" type="EVIDENTIAL" upperbound-end="2010-01-05 00:59" upperbound-start="2010-01-01 12:28"/>
+<EVENT end="598" id="E24" lowerbound-end="2009-12-11 08:51" lowerbound-start="2009-12-12 11:49" modality="FACTUAL" most-likely-end="2010-01-02 11:00" most-likely-start="2009-12-20 11:00" polarity="POS" start="546" temporally-annotated="YES" text="trouble knowing if her feet were touching the ground" type="PROBLEM" upperbound-end="2060-01-18 13:10" upperbound-start="2010-01-16 03:11"/>
+<EVENT end="694" id="E5" lowerbound-end="2009-12-11 08:51" lowerbound-start="2009-12-12 11:49" modality="FACTUAL" most-likely-end="2010-01-02 11:00" most-likely-start="2009-12-20 11:00" polarity="POS" start="685" temporally-annotated="YES" text="dizziness" type="PROBLEM" upperbound-end="2060-01-18 13:10" upperbound-start="2010-01-16 03:11"/>
+<EVENT end="744" id="E6" lowerbound-end="2009-12-12 02:40" lowerbound-start="2009-12-13 03:39" modality="FACTUAL" most-likely-end="2010-01-02 17:00" most-likely-start="2009-12-20 23:00" polarity="POS" start="727" temporally-annotated="YES" text="decreased hearing" type="PROBLEM" upperbound-end="2060-01-15 23:20" upperbound-start="2010-01-16 11:22"/>
+<EVENT end="784" id="E25" lowerbound-end="2009-12-12 02:40" lowerbound-start="2009-12-13 03:39" modality="FACTUAL" most-likely-end="2010-01-02 17:00" most-likely-start="2009-12-20 23:00" polarity="POS" start="766" temporally-annotated="YES" text="static in her ears" type="PROBLEM" upperbound-end="2060-01-15 23:20" upperbound-start="2010-01-16 11:22"/>
+<EVENT end="805" id="E26" lowerbound-end="2009-12-18 03:23" lowerbound-start="2009-12-18 01:22" modality="POSSIBLE" most-likely-end="2009-12-22 05:15" most-likely-start="2009-12-21 23:00" polarity="POS" start="787" temporally-annotated="YES" text="meniere 's disease" type="PROBLEM" upperbound-end="2010-01-02 11:09" upperbound-start="2010-01-01 20:38"/>
+<EVENT end="861" id="E7" lowerbound-end="2009-12-22 20:41" lowerbound-start="2009-12-18 01:40" modality="FACTUAL" most-likely-end="2009-12-25 17:00" most-likely-start="2009-12-21 23:15" polarity="POS" start="837" temporally-annotated="YES" text="an oral prednisone taper" type="TREATMENT" upperbound-end="2010-01-16 10:19" upperbound-start="2010-01-01 20:51"/>
+<EVENT end="882" id="E27" lowerbound-end="2009-12-13 13:51" lowerbound-start="2009-12-13 12:49" modality="FACTUAL" most-likely-end="2010-01-06 05:00" most-likely-start="2009-12-21 05:00" polarity="POS" start="864" temporally-annotated="YES" text="This unsteady gait" type="PROBLEM" upperbound-end="2060-01-20 04:10" upperbound-start="2010-01-16 14:11"/>
+<EVENT end="1007" id="E8" lowerbound-end="2009-12-13 13:51" lowerbound-start="2009-12-20 13:16" modality="FACTUAL" most-likely-end="2010-01-06 05:00" most-likely-start="2009-12-24 19:30" polarity="POS" start="941" temporally-annotated="YES" text="a pins and needle feeling in the face , hands and feet bilaterally" type="PROBLEM" upperbound-end="2060-01-20 04:10" upperbound-start="2010-01-05 01:44"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="2009-12-28" type="DATE" val="2009-12-28"/>
+<TIMEX3 end="278" id="T0" mod="APPROX" start="258" text="one and a half weeks" type="DATE" val="2009-12-18"/>
+<TIMEX3 end="431" id="T3" mod="APPROX" start="415" text="A few days later" type="DATE" val="2009-12-21"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="2009-12-31" type="DATE" val="2009-12-31"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T1" toText="2009-12-28" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="dizziness" id="TL1" toID="E4" toText="dizziness" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="complained" id="TL10" toID="T3" toText="A few days later" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="dizziness" id="TL11" toID="T3" toText="A few days later" type="AFTER"/>
+<TLINK fromID="E21" fromText="unsteady on her feet" id="TL12" toID="E22" toText="described" type="BEFORE"/>
+<TLINK fromID="E21" fromText="unsteady on her feet" id="TL13" toID="E4" toText="dizziness" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="trouble knowing if her feet were touching the ground" id="TL14" toID="E23" toText="stated" type="BEFORE"/>
+<TLINK fromID="E24" fromText="trouble knowing if her feet were touching the ground" id="TL15" toID="E21" toText="unsteady on her feet" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="dizziness" id="TL17" toID="E6" toText="decreased hearing" type="BEFORE"/>
+<TLINK fromID="E6" fromText="decreased hearing" id="TL18" toID="E25" toText="static in her ears" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="static in her ears" id="TL19" toID="E26" toText="meniere 's disease" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="a 1.5 cm diameter hyperdense mass in the pons" id="TL2" toID="E10" toText="head CT" type="BEFORE"/>
+<TLINK fromID="E27" fromText="This unsteady gait" id="TL20" toID="E21" toText="unsteady on her feet" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="decreased hearing" id="TL21" toID="E7" toText="an oral prednisone taper" type="BEFORE"/>
+<TLINK fromID="E27" fromText="This unsteady gait" id="TL22" toID="E8" toText="a pins and needle feeling in the face , hands and feet bilaterally" type="BEFORE"/>
+<TLINK fromID="E6" fromText="decreased hearing" id="TL23" toID="E9" toText="progressively worse" type="BEFORE"/>
+<TLINK fromID="E28" fromText="the sound of static" id="TL24" toID="E29" toText="increased" type="BEFORE"/>
+<TLINK fromID="E25" fromText="static in her ears" id="TL25" toID="E28" toText="the sound of static" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="the sound of static" id="TL26" toID="E30" toText="very fatigued" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="very fatigued" id="TL27" toID="E31" toText="an outside hospital" type="BEFORE"/>
+<TLINK fromID="E31" fromText="an outside hospital" id="TL28" toID="E10" toText="head CT" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="head CT" id="TL29" toID="E32" toText="revealed" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="admission" id="TL3" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="an outside hospital" id="TL31" toID="E16" toText="transferred" type="BEFORE"/>
+<TLINK fromID="E16" fromText="transferred" id="TL32" toID="E33" toText="further care" type="BEFORE"/>
+<TLINK fromID="E12" fromText="several prior bleeding events" id="TL33" toID="E35" toText="presented" type="BEFORE"/>
+<TLINK fromID="E35" fromText="presented" id="TL34" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="a subacute bleed in the mid to lower pons" id="TL35" toID="E35" toText="presented" type="BEFORE"/>
+<TLINK fromID="E35" fromText="presented" id="TL36" toID="E13" toText="Her physical examination" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="a subacute bleed in the mid to lower pons" id="TL37" toID="E37" toText="right-sided predominance" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="Her physical examination" id="TL38" toID="E38" toText="the subtle left hand weakness" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="the subtle left hand weakness" id="TL39" toID="E39" toText="right facial weakness" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="Discharge" id="TL4" toID="T2" toText="2009-12-31" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="sensory deafferentation" id="TL40" toID="E40" toText="severely ataxic" type="BEFORE"/>
+<TLINK fromID="E41" fromText="crossing pontine cerebellar fibers" id="TL41" toID="E40" toText="severely ataxic" type="BEFORE"/>
+<TLINK fromID="E40" fromText="severely ataxic" id="TL42" toID="E13" toText="Her physical examination" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="severely ataxic" id="TL43" toID="E15" toText="aggressive Physical Therapy" type="BEFORE"/>
+<TLINK fromID="E42" fromText="an Acute Rehabilitation Center" id="TL44" toID="E15" toText="aggressive Physical Therapy" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="the MRI scans" id="TL45" toID="E43" toText="follow-up" type="BEFORE"/>
+<TLINK fromID="E13" fromText="Her physical examination" id="TL46" toID="E43" toText="follow-up" type="BEFORE"/>
+<TLINK fromID="E34" fromText="cavernous angiomas" id="TL5" toID="E1" toText="multiple familial cavernous hemangiomas" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="her usual state of health" id="TL6" toID="T0" toText="one and a half weeks" type="BEFORE"/>
+<TLINK fromID="T0" fromText="one and a half weeks" id="TL7" toID="E19" toText="admission" type="BEFORE"/>
+<TLINK fromID="E2" fromText="an ear ache" id="TL8" toID="T0" toText="one and a half weeks" type="AFTER"/>
+<TLINK fromID="E2" fromText="an ear ache" id="TL9" toID="E3" toText="cortisone drops" type="BEFORE"/>
+<SECTIME dvalue="2009-12-28" end="28" id="S0" start="18" text="2009-12-28" type="ADMISSION"/>
+<SECTIME dvalue="2009-12-31" end="56" id="S1" start="46" text="2009-12-31" type="DISCHARGE"/>
+<TLINK fromID="E9" fromText="progressively worse" id="SECTIME0" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E28" fromText="the sound of static" id="SECTIME1" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E29" fromText="increased" id="SECTIME2" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E30" fromText="very fatigued" id="SECTIME3" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E31" fromText="an outside hospital" id="SECTIME4" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E10" fromText="head CT" id="SECTIME5" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E32" fromText="revealed" id="SECTIME6" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E11" fromText="a 1.5 cm diameter hyperdense mass in the pons" id="SECTIME7" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E16" fromText="transferred" id="SECTIME8" toID="T1" toText="2009-12-28" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="further care" id="SECTIME9" toID="T1" toText="2009-12-28" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="cavernous angiomas" id="SECTIME10" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E12" fromText="several prior bleeding events" id="SECTIME11" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E35" fromText="presented" id="SECTIME12" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E36" fromText="a subacute bleed in the mid to lower pons" id="SECTIME13" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E1" fromText="multiple familial cavernous hemangiomas" id="SECTIME14" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E37" fromText="right-sided predominance" id="SECTIME15" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E13" fromText="Her physical examination" id="SECTIME16" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E38" fromText="the subtle left hand weakness" id="SECTIME17" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E39" fromText="right facial weakness" id="SECTIME18" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E40" fromText="severely ataxic" id="SECTIME19" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E14" fromText="sensory deafferentation" id="SECTIME20" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E41" fromText="crossing pontine cerebellar fibers" id="SECTIME21" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E15" fromText="aggressive Physical Therapy" id="SECTIME22" toID="T2" toText="2009-12-31" type="AFTER"/>
+<TLINK fromID="E42" fromText="an Acute Rehabilitation Center" id="SECTIME23" toID="T2" toText="2009-12-31" type="AFTER"/>
+<TLINK fromID="E43" fromText="follow-up" id="SECTIME24" toID="T2" toText="2009-12-31" type="AFTER"/>
+<TLINK fromID="E44" fromText="the MRI scans" id="SECTIME25" toID="T2" toText="2009-12-31" type="BEFORE"/>
+<TLINK fromID="E18" fromText="her usual state of health" id="SECTIME26" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E19" fromText="admission" id="SECTIME27" toID="T1" toText="2009-12-28" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="an ear ache" id="SECTIME28" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E3" fromText="cortisone drops" id="SECTIME29" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E20" fromText="complained" id="SECTIME30" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E4" fromText="dizziness" id="SECTIME31" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E22" fromText="described" id="SECTIME32" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E21" fromText="unsteady on her feet" id="SECTIME33" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E23" fromText="stated" id="SECTIME34" toID="T1" toText="2009-12-28" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="trouble knowing if her feet were touching the ground" id="SECTIME35" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E5" fromText="dizziness" id="SECTIME36" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E6" fromText="decreased hearing" id="SECTIME37" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E25" fromText="static in her ears" id="SECTIME38" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E26" fromText="meniere 's disease" id="SECTIME39" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E7" fromText="an oral prednisone taper" id="SECTIME40" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E27" fromText="This unsteady gait" id="SECTIME41" toID="T1" toText="2009-12-28" type="BEFORE"/>
+<TLINK fromID="E8" fromText="a pins and needle feeling in the face , hands and feet bilaterally" id="SECTIME42" toID="T1" toText="2009-12-28" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

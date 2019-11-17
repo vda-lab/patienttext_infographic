@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+20041012
+DISCHARGE DATE :
+20041015
+ASSOCIATED PROCEDURES OR OPERATIONS :
+POSTPARTUM DIAGNOSTIC PROCEDURES :
+None
+OTHER POSTPARTUM THERAPIES :
+Antimicrobial Therapy
+HISTORY AND REASON FOR HOSPITALIZATION :
+Srom In Labor
+HOSPITAL COURSE ( include complications if any ) :
+This 21 year old Gravida 2 Para 0010 was admitted to the Life Valley Medical Center Obstetrical service on 10/12/2004 at 08:41 am for the indication ( s ) :
+srom in labor .
+She delivered a 3680 gram male infant on 10/12/2004 at 10:17 pm with apgar scores of 9 and 9 at one and five minutes respectively at 40.0 weeks gestation via spontaneous vertex vaginal delivery .
+During her labor she encountered the following complication ( s ) :
+srom .
+During her delivery she encountered the following complication ( s ) :
+none .
+Postpartum she encountered the following complication ( s ) :
+none .
+She was discharged on 10/15/2004 at 01:52 pm in good condition .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="2004-10-12 08:11" lowerbound-start="2004-10-12 08:11" modality="FACTUAL" most-likely-end="2004-10-12 08:43" most-likely-start="2004-10-12 08:41" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-end="2004-10-12 10:41" upperbound-start="2004-10-12 10:11"/>
+<EVENT end="181" id="E10" lowerbound-end="2004-10-18 08:03" lowerbound-start="2004-10-12 21:47" modality="FACTUAL" most-likely-end="2004-10-21 06:04" most-likely-start="2004-10-12 22:17" polarity="POS" start="160" temporally-annotated="YES" text="Antimicrobial Therapy" type="TREATMENT" upperbound-end="2004-11-02 15:03" upperbound-start="2004-10-12 23:47"/>
+<EVENT end="227" id="E12" lowerbound-end="2004-10-12 03:14" lowerbound-start="2004-10-11 20:07" modality="FACTUAL" most-likely-end="2004-10-12 15:29" most-likely-start="2004-10-12 07:20" polarity="POS" start="223" temporally-annotated="YES" text="Srom" type="PROBLEM" upperbound-end="2004-10-14 02:10" upperbound-start="2004-10-13 07:03"/>
+<EVENT end="236" id="E11" lowerbound-end="2004-10-12 21:38" lowerbound-start="2004-10-12 08:11" modality="FACTUAL" most-likely-end="2004-10-12 22:13" most-likely-start="2004-10-12 08:41" polarity="POS" start="231" temporally-annotated="YES" text="Labor" type="PROBLEM" upperbound-end="2004-10-12 23:48" upperbound-start="2004-10-12 10:11"/>
+<EVENT end="36" id="E9" lowerbound-end="2004-10-15 13:22" lowerbound-start="2004-10-15 12:51" modality="FACTUAL" most-likely-end="2004-10-15 13:52" most-likely-start="2004-10-15 13:49" polarity="POS" start="27" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-end="2004-10-15 15:22" upperbound-start="2004-10-15 15:21"/>
+<EVENT end="337" id="E8" lowerbound-end="2004-10-12 08:11" lowerbound-start="2004-10-12 08:11" modality="FACTUAL" most-likely-end="2004-10-12 08:43" most-likely-start="2004-10-12 08:41" polarity="POS" start="329" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="2004-10-12 10:41" upperbound-start="2004-10-12 10:11"/>
+<EVENT end="391" id="E13" lowerbound-end="2004-10-13 22:47" lowerbound-start="2004-10-12 08:11" modality="FACTUAL" most-likely-end="2004-10-13 23:19" most-likely-start="2004-10-12 08:41" polarity="POS" start="341" temporally-annotated="YES" text="the Life Valley Medical Center Obstetrical service" type="OCCURRENCE" upperbound-end="2004-10-14 01:17" upperbound-start="2004-10-12 10:11"/>
+<EVENT end="449" id="E1" lowerbound-end="2004-10-12 03:14" lowerbound-start="2004-10-11 20:07" modality="FACTUAL" most-likely-end="2004-10-12 15:29" most-likely-start="2004-10-12 07:20" polarity="POS" start="445" temporally-annotated="YES" text="srom" type="PROBLEM" upperbound-end="2004-10-14 02:10" upperbound-start="2004-10-13 07:03"/>
+<EVENT end="458" id="E2" lowerbound-end="2004-10-12 21:38" lowerbound-start="2004-10-12 08:11" modality="FACTUAL" most-likely-end="2004-10-12 22:13" most-likely-start="2004-10-12 08:41" polarity="POS" start="453" temporally-annotated="YES" text="labor" type="PROBLEM" upperbound-end="2004-10-12 23:48" upperbound-start="2004-10-12 10:11"/>
+<EVENT end="474" id="E14" lowerbound-end="2004-10-12 21:47" lowerbound-start="2004-10-12 09:46" modality="FACTUAL" most-likely-end="2004-10-12 22:17" most-likely-start="2004-10-12 18:17" polarity="POS" start="465" temporally-annotated="YES" text="delivered" type="OCCURRENCE" upperbound-end="2004-10-12 23:47" upperbound-start="2004-10-12 23:46"/>
+<EVENT end="542" id="E3" lowerbound-end="2004-10-12 21:39" lowerbound-start="2004-10-12 21:38" modality="FACTUAL" most-likely-end="2004-10-12 22:19" most-likely-start="2004-10-12 22:16" polarity="POS" start="530" temporally-annotated="YES" text="apgar scores" type="TEST" upperbound-end="2004-10-13 00:54" upperbound-start="2004-10-12 23:53"/>
+<EVENT end="614" id="E15" lowerbound-end="2004-10-12 21:47" lowerbound-start="2003-12-19 09:47" modality="FACTUAL" most-likely-end="2004-10-12 22:17" most-likely-start="2003-12-24 16:17" polarity="POS" start="605" temporally-annotated="YES" text="gestation" type="OCCURRENCE" upperbound-end="2004-10-12 23:47" upperbound-start="2003-12-24 16:18"/>
+<EVENT end="654" id="E4" lowerbound-end="2004-10-12 21:47" lowerbound-start="2004-10-12 09:46" modality="FACTUAL" most-likely-end="2004-10-12 22:17" most-likely-start="2004-10-12 18:17" polarity="POS" start="619" temporally-annotated="YES" text="spontaneous vertex vaginal delivery" type="OCCURRENCE" upperbound-end="2004-10-12 23:47" upperbound-start="2004-10-12 23:46"/>
+<EVENT end="673" id="E5" lowerbound-end="2004-10-12 21:38" lowerbound-start="2004-10-12 08:11" modality="FACTUAL" most-likely-end="2004-10-12 22:13" most-likely-start="2004-10-12 08:41" polarity="POS" start="664" temporally-annotated="YES" text="her labor" type="PROBLEM" upperbound-end="2004-10-12 23:48" upperbound-start="2004-10-12 10:11"/>
+<EVENT end="716" id="E16" lowerbound-end="2004-10-12 21:38" lowerbound-start="2004-10-12 08:11" modality="FACTUAL" most-likely-end="2004-10-12 22:13" most-likely-start="2004-10-12 08:41" polarity="POS" start="704" temporally-annotated="YES" text="complication" type="PROBLEM" upperbound-end="2004-10-12 23:48" upperbound-start="2004-10-12 10:11"/>
+<EVENT end="729" id="E6" lowerbound-end="2004-10-12 03:14" lowerbound-start="2004-10-11 20:07" modality="FACTUAL" most-likely-end="2004-10-12 15:29" most-likely-start="2004-10-12 07:20" polarity="POS" start="725" temporally-annotated="YES" text="srom" type="PROBLEM" upperbound-end="2004-10-14 02:10" upperbound-start="2004-10-13 07:03"/>
+<EVENT end="751" id="E7" lowerbound-end="2004-10-12 21:47" lowerbound-start="2004-10-12 09:46" modality="FACTUAL" most-likely-end="2004-10-12 22:17" most-likely-start="2004-10-12 18:17" polarity="POS" start="739" temporally-annotated="YES" text="her delivery" type="TREATMENT" upperbound-end="2004-10-12 23:47" upperbound-start="2004-10-12 23:46"/>
+<EVENT end="794" id="E24" lowerbound-end="2004-10-12 21:47" lowerbound-start="2004-10-12 09:46" modality="FACTUAL" most-likely-end="2004-10-12 22:17" most-likely-start="2004-10-12 18:17" polarity="POS" start="782" temporally-annotated="YES" text="complication" type="PROBLEM" upperbound-end="2004-10-12 23:47" upperbound-start="2004-10-12 23:46"/>
+<EVENT end="809" id="E18" lowerbound-end="2004-10-12 21:47" lowerbound-start="2004-10-12 09:46" modality="FACTUAL" most-likely-end="2004-10-12 22:17" most-likely-start="2004-10-12 18:17" polarity="NEG" start="803" temporally-annotated="YES" text="none ." type="PROBLEM" upperbound-end="2004-10-12 23:47" upperbound-start="2004-10-12 23:46"/>
+<EVENT end="820" id="E19" lowerbound-end="2004-10-15 13:22" lowerbound-start="2004-10-12 21:47" modality="FACTUAL" most-likely-end="2004-10-15 13:52" most-likely-start="2004-10-12 22:17" polarity="POS" start="810" temporally-annotated="YES" text="Postpartum" type="OCCURRENCE" upperbound-end="2004-10-15 15:22" upperbound-start="2004-10-12 23:47"/>
+<EVENT end="863" id="E20" lowerbound-end="2004-10-15 13:22" lowerbound-start="2004-10-12 21:47" modality="FACTUAL" most-likely-end="2004-10-15 13:52" most-likely-start="2004-10-12 22:17" polarity="POS" start="851" temporally-annotated="YES" text="complication" type="PROBLEM" upperbound-end="2004-10-15 15:22" upperbound-start="2004-10-12 23:47"/>
+<EVENT end="878" id="E21" lowerbound-end="2004-10-15 13:22" lowerbound-start="2004-10-12 21:47" modality="FACTUAL" most-likely-end="2004-10-15 13:52" most-likely-start="2004-10-12 22:17" polarity="NEG" start="872" temporally-annotated="YES" text="none ." type="PROBLEM" upperbound-end="2004-10-15 15:22" upperbound-start="2004-10-12 23:47"/>
+<EVENT end="897" id="E22" lowerbound-end="2004-10-15 13:22" lowerbound-start="2004-10-15 12:51" modality="FACTUAL" most-likely-end="2004-10-15 13:52" most-likely-start="2004-10-15 13:49" polarity="POS" start="887" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-end="2004-10-15 15:22" upperbound-start="2004-10-15 15:21"/>
+<EVENT end="941" id="E23" lowerbound-end="2004-10-15 13:22" lowerbound-start="2004-10-15 12:51" modality="FACTUAL" most-likely-end="2004-10-15 13:52" most-likely-start="2004-10-15 13:49" polarity="POS" start="927" temporally-annotated="YES" text="good condition" type="OCCURRENCE" upperbound-end="2004-10-15 15:22" upperbound-start="2004-10-15 15:21"/>
+<TIMEX3 end="26" id="T0" mod="NA" start="18" text="20041012" type="DATE" val="2004-10-12"/>
+<TIMEX3 end="417" id="T2" mod="NA" start="395" text="10/12/2004 at 08:41 am" type="TIME" val="2004-10-12T08:41"/>
+<TIMEX3 end="52" id="T1" mod="NA" start="44" text="20041015" type="DATE" val="2004-10-15"/>
+<TIMEX3 end="524" id="T3" mod="NA" start="502" text="10/12/2004 at 10:17 pm" type="TIME" val="2004-10-12T22:17"/>
+<TIMEX3 end="560" id="T4" mod="NA" start="557" text="one" type="DURATION" val="PT1M"/>
+<TIMEX3 end="577" id="T5" mod="NA" start="565" text="five minutes" type="DURATION" val="PT5M"/>
+<TIMEX3 end="604" id="T6" mod="NA" start="594" text="40.0 weeks" type="DURATION" val="P40W"/>
+<TIMEX3 end="923" id="T7" mod="NA" start="901" text="10/15/2004 at 01:52 pm" type="TIME" val="2004-10-15T13:52"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T0" toText="20041012" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="admitted" id="TL1" toID="E0" toText="ADMISSION" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="srom" id="TL10" toID="E2" toText="labor" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="Srom" id="TL11" toID="E11" toText="Labor" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="labor" id="TL12" toID="E8" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E2" fromText="labor" id="TL13" toID="E14" toText="delivered" type="BEFORE"/>
+<TLINK fromID="E2" fromText="labor" id="TL14" toID="E11" toText="Labor" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="delivered" id="TL15" toID="T3" toText="10/12/2004 at 10:17 pm" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="her delivery" id="TL16" toID="E14" toText="delivered" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="spontaneous vertex vaginal delivery" id="TL17" toID="E14" toText="delivered" type="OVERLAP"/>
+<TLINK fromID="T6" fromText="40.0 weeks" id="TL18" toID="T3" toText="10/12/2004 at 10:17 pm" type="BEFORE"/>
+<TLINK fromID="T4" fromText="one" id="TL19" toID="T3" toText="10/12/2004 at 10:17 pm" type="AFTER"/>
+<TLINK fromID="E9" fromText="DISCHARGE" id="TL2" toID="T1" toText="20041015" type="OVERLAP"/>
+<TLINK fromID="T5" fromText="five minutes" id="TL20" toID="T3" toText="10/12/2004 at 10:17 pm" type="AFTER"/>
+<TLINK fromID="E3" fromText="apgar scores" id="TL21" toID="E14" toText="delivered" type="AFTER"/>
+<TLINK fromID="E3" fromText="apgar scores" id="TL22" toID="T4" toText="one" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="apgar scores" id="TL23" toID="T5" toText="five minutes" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="her labor" id="TL24" toID="E2" toText="labor" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="complication" id="TL25" toID="E5" toText="her labor" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="srom" id="TL26" toID="E16" toText="complication" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="her labor" id="TL27" toID="E7" toText="her delivery" type="BEFORE"/>
+<TLINK fromID="E24" fromText="complication" id="TL28" toID="E7" toText="her delivery" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="complication" id="TL29" toID="E18" toText="none ." type="OVERLAP"/>
+<TLINK fromID="E22" fromText="discharged" id="TL3" toID="E9" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="Postpartum" id="TL30" toID="E7" toText="her delivery" type="AFTER"/>
+<TLINK fromID="E20" fromText="complication" id="TL31" toID="E19" toText="Postpartum" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="none ." id="TL32" toID="E20" toText="complication" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="discharged" id="TL33" toID="T7" toText="10/15/2004 at 01:52 pm" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="good condition" id="TL34" toID="E22" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E10" fromText="Antimicrobial Therapy" id="TL4" toID="E0" toText="ADMISSION" type="AFTER"/>
+<TLINK fromID="E8" fromText="admitted" id="TL6" toID="T2" toText="10/12/2004 at 08:41 am" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="the Life Valley Medical Center Obstetrical service" id="TL7" toID="E8" toText="admitted" type="AFTER"/>
+<TLINK fromID="E1" fromText="srom" id="TL8" toID="E12" toText="Srom" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="srom" id="TL9" toID="E1" toText="srom" type="OVERLAP"/>
+<SECTIME dvalue="2004-10-12" end="28" id="S0" start="18" text="20041012" type="ADMISSION"/>
+<SECTIME dvalue="2004-10-15" end="56" id="S1" start="46" text="20041015" type="DISCHARGE"/>
+<TLINK fromID="E10" fromText="Antimicrobial Therapy" id="SECTIME0" toID="T0" toText="20041012" type="AFTER"/>
+<TLINK fromID="E12" fromText="Srom" id="SECTIME1" toID="T0" toText="20041012" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="Labor" id="SECTIME2" toID="T0" toText="20041012" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="admitted" id="SECTIME3" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E13" fromText="the Life Valley Medical Center Obstetrical service" id="SECTIME4" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E1" fromText="srom" id="SECTIME5" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E2" fromText="labor" id="SECTIME6" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E14" fromText="delivered" id="SECTIME7" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E3" fromText="apgar scores" id="SECTIME8" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E15" fromText="gestation" id="SECTIME9" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E4" fromText="spontaneous vertex vaginal delivery" id="SECTIME10" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E5" fromText="her labor" id="SECTIME11" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E16" fromText="complication" id="SECTIME12" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E6" fromText="srom" id="SECTIME13" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E7" fromText="her delivery" id="SECTIME14" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E24" fromText="complication" id="SECTIME15" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E18" fromText="none ." id="SECTIME16" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E19" fromText="Postpartum" id="SECTIME17" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E20" fromText="complication" id="SECTIME18" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E21" fromText="none ." id="SECTIME19" toID="T1" toText="20041015" type="BEFORE"/>
+<TLINK fromID="E22" fromText="discharged" id="SECTIME20" toID="T1" toText="20041015" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="good condition" id="SECTIME21" toID="T1" toText="20041015" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+20010614
+DISCHARGE DATE :
+20010616
+ASSOCIATED PROCEDURES OR OPERATIONS :
+POSTPARTUM DIAGNOSTIC PROCEDURES :
+None
+POSTPARTUM THERAPEUTIC PROCEDURES :
+None
+OTHER POSTPARTUM THERAPIES :
+Routine Post Partum Care
+HISTORY AND REASON FOR HOSPITALIZATION :
+Active Labor
+HOSPITAL COURSE ( include complications if any ) :
+This 23 year old Gravida 2 Para 1001 was admitted to the Naliheall County Memorial Hospital Obstetrical service on 06/14/2001 at 01:29 pm for the indication ( s ) :
+active labor .
+She delivered a 3263 gram female infant at 06/14/2001 at 06:40 pm with apgar scores of 8 and 8 at one and five minutes respectively at 40.3 weeks gestation via vacuum extraction .
+During her labor she encountered the following complication ( s ) :
+fetal bradycardia .
+During her delivery she encountered the following complication ( s ) :
+nuchal cord , times two .
+Postpartum she encountered the following complication ( s ) :
+none .
+She was discharged on 06/16/2001 at 12:00 pm in stable condition .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="2001-06-14 13:10" lowerbound-start="2001-06-14 13:09" modality="FACTUAL" most-likely-end="2001-06-14 13:31" most-likely-start="2001-06-14 13:29" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-end="2051-06-02 14:49" upperbound-start="2051-06-02 14:18"/>
+<EVENT end="225" id="E2" lowerbound-end="2001-06-16 11:36" lowerbound-start="2001-06-14 18:21" modality="FACTUAL" most-likely-end="2001-06-16 12:01" most-likely-start="2001-06-14 18:40" polarity="POS" start="201" temporally-annotated="YES" text="Routine Post Partum Care" type="TREATMENT" upperbound-end="2001-06-16 13:26" upperbound-start="2051-06-02 19:30"/>
+<EVENT end="279" id="E3" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 02:00" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 12:14" polarity="POS" start="267" temporally-annotated="YES" text="Active Labor" type="PROBLEM" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 22:59"/>
+<EVENT end="36" id="E1" lowerbound-end="2001-06-16 11:30" lowerbound-start="2001-06-16 11:30" modality="FACTUAL" most-likely-end="2001-06-16 12:01" most-likely-start="2001-06-16 12:00" polarity="POS" start="27" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-end="2001-06-16 14:00" upperbound-start="2001-06-16 13:30"/>
+<EVENT end="380" id="E4" lowerbound-end="2001-06-14 13:10" lowerbound-start="2001-06-14 13:09" modality="FACTUAL" most-likely-end="2001-06-14 13:31" most-likely-start="2001-06-14 13:29" polarity="POS" start="372" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="2051-06-02 14:49" upperbound-start="2051-06-02 14:18"/>
+<EVENT end="442" id="E5" lowerbound-end="2001-06-16 11:36" lowerbound-start="2001-06-14 13:09" modality="FACTUAL" most-likely-end="2001-06-16 12:01" most-likely-start="2001-06-14 13:29" polarity="POS" start="384" temporally-annotated="YES" text="the Naliheall County Memorial Hospital Obstetrical service" type="CLINICAL_DEPT" upperbound-end="2001-06-16 13:26" upperbound-start="2051-06-02 14:18"/>
+<EVENT end="508" id="E6" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 02:00" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 12:14" polarity="POS" start="496" temporally-annotated="YES" text="active labor" type="PROBLEM" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 22:59"/>
+<EVENT end="524" id="E7" lowerbound-end="2001-06-14 18:20" lowerbound-start="2001-06-14 18:20" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 18:40" polarity="POS" start="515" temporally-annotated="YES" text="delivered" type="OCCURRENCE" upperbound-end="2051-06-02 20:00" upperbound-start="2051-06-02 19:29"/>
+<EVENT end="594" id="E8" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 18:20" modality="FACTUAL" most-likely-end="2001-06-14 18:42" most-likely-start="2001-06-14 18:40" polarity="POS" start="582" temporally-annotated="YES" text="apgar scores" type="TEST" upperbound-end="2051-06-02 20:00" upperbound-start="2051-06-02 19:29"/>
+<EVENT end="666" id="E10" lowerbound-end="2001-06-14 18:21" lowerbound-start="2000-08-25 01:27" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2000-09-09 18:40" polarity="POS" start="657" temporally-annotated="YES" text="gestation" type="OCCURRENCE" upperbound-end="2051-06-02 19:30" upperbound-start="2050-08-31 19:36"/>
+<EVENT end="688" id="E9" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 06:20" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 18:10" polarity="POS" start="671" temporally-annotated="YES" text="vacuum extraction" type="TREATMENT" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 19:29"/>
+<EVENT end="707" id="E11" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 02:00" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 12:14" polarity="POS" start="698" temporally-annotated="YES" text="her labor" type="OCCURRENCE" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 22:59"/>
+<EVENT end="756" id="E12" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 02:00" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 12:14" polarity="POS" start="724" temporally-annotated="YES" text="the following complication ( s )" type="PROBLEM" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 22:59"/>
+<EVENT end="776" id="E13" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 04:35" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 14:50" polarity="POS" start="759" temporally-annotated="YES" text="fetal bradycardia" type="PROBLEM" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-03 01:34"/>
+<EVENT end="798" id="E14" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 06:20" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 18:10" polarity="POS" start="786" temporally-annotated="YES" text="her delivery" type="OCCURRENCE" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 19:29"/>
+<EVENT end="847" id="E15" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 06:20" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 18:10" polarity="POS" start="815" temporally-annotated="YES" text="the following complication ( s )" type="PROBLEM" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 19:29"/>
+<EVENT end="861" id="E16" lowerbound-end="2001-06-14 18:21" lowerbound-start="2001-06-14 06:20" modality="FACTUAL" most-likely-end="2001-06-14 18:40" most-likely-start="2001-06-14 18:10" polarity="POS" start="850" temporally-annotated="YES" text="nuchal cord" type="PROBLEM" upperbound-end="2051-06-02 19:30" upperbound-start="2051-06-02 19:29"/>
+<EVENT end="886" id="E17" lowerbound-end="2001-06-16 11:36" lowerbound-start="2001-06-14 18:21" modality="FACTUAL" most-likely-end="2001-06-16 12:01" most-likely-start="2001-06-14 18:40" polarity="POS" start="876" temporally-annotated="YES" text="Postpartum" type="OCCURRENCE" upperbound-end="2001-06-16 13:26" upperbound-start="2051-06-02 19:30"/>
+<EVENT end="935" id="E18" lowerbound-end="2001-06-16 11:36" lowerbound-start="2001-06-14 18:21" modality="FACTUAL" most-likely-end="2001-06-16 12:01" most-likely-start="2001-06-14 18:40" polarity="NEG" start="903" temporally-annotated="YES" text="the following complication ( s )" type="PROBLEM" upperbound-end="2001-06-16 13:26" upperbound-start="2051-06-02 19:30"/>
+<EVENT end="963" id="E19" lowerbound-end="2001-06-16 11:30" lowerbound-start="2001-06-16 11:30" modality="FACTUAL" most-likely-end="2001-06-16 12:01" most-likely-start="2001-06-16 12:00" polarity="POS" start="953" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-end="2001-06-16 14:00" upperbound-start="2001-06-16 13:30"/>
+<EVENT end="1009" id="E20" lowerbound-end="2001-06-11 03:13" lowerbound-start="2001-06-11 03:13" modality="FACTUAL" most-likely-end="2025-06-16 03:20" most-likely-start="2001-06-16 03:20" polarity="POS" start="993" temporally-annotated="YES" text="stable condition" type="OCCURRENCE" upperbound-end="2101-05-28 03:58" upperbound-start="2051-06-09 03:58"/>
+<TIMEX3 end="26" id="T0" mod="NA" start="18" text="20010614" type="DATE" val="2001-06-14"/>
+<TIMEX3 end="52" id="T1" mod="NA" start="44" text="20010616" type="DATE" val="2001-06-16"/>
+<TIMEX3 end="468" id="T2" mod="NA" start="446" text="06/14/2001 at 01:29 pm" type="TIME" val="2001-06-14T13:29"/>
+<TIMEX3 end="576" id="T3" mod="NA" start="554" text="06/14/2001 at 06:40 pm" type="TIME" val="2001-06-14T18:40"/>
+<TIMEX3 end="612" id="T4" mod="NA" start="609" text="one" type="TIME" val="2001-06-14T18:41"/>
+<TIMEX3 end="629" id="T5" mod="NA" start="617" text="five minutes" type="TIME" val="2001-06-14T18:46"/>
+<TIMEX3 end="656" id="T6" mod="NA" start="646" text="40.3 weeks" type="DURATION" val="P40.3W"/>
+<TIMEX3 end="873" id="T7" mod="NA" start="864" text="times two" type="FREQUENCY" val="R2"/>
+<TIMEX3 end="989" id="T8" mod="NA" start="967" text="06/16/2001 at 12:00 pm" type="TIME" val="2001-06-16T12:00"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T0" toText="20010614" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL1" toID="T1" toText="20010616" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="vacuum extraction" id="TL10" toID="E7" toText="delivered" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="apgar scores" id="TL12" toID="T5" toText="five minutes" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="apgar scores" id="TL13" toID="T4" toText="one" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="delivered" id="TL14" toID="E8" toText="apgar scores" type="BEFORE"/>
+<TLINK fromID="E12" fromText="the following complication ( s )" id="TL15" toID="E11" toText="her labor" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="the following complication ( s )" id="TL17" toID="E13" toText="fetal bradycardia" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="fetal bradycardia" id="TL18" toID="E11" toText="her labor" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="her labor" id="TL19" toID="E6" toText="active labor" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="admitted" id="TL2" toID="E0" toText="ADMISSION" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="nuchal cord" id="TL20" toID="T7" toText="times two" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="nuchal cord" id="TL21" toID="E15" toText="the following complication ( s )" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="the following complication ( s )" id="TL22" toID="E14" toText="her delivery" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="nuchal cord" id="TL23" toID="E14" toText="her delivery" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="her delivery" id="TL24" toID="E7" toText="delivered" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="Postpartum" id="TL26" toID="E18" toText="the following complication ( s )" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="Postpartum" id="TL27" toID="E14" toText="her delivery" type="AFTER"/>
+<TLINK fromID="T6" fromText="40.3 weeks" id="TL28" toID="T3" toText="06/14/2001 at 06:40 pm" type="BEFORE"/>
+<TLINK fromID="E10" fromText="gestation" id="TL29" toID="T6" toText="40.3 weeks" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="Routine Post Partum Care" id="TL3" toID="E7" toText="delivered" type="AFTER"/>
+<TLINK fromID="E19" fromText="discharged" id="TL30" toID="T8" toText="06/16/2001 at 12:00 pm" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="stable condition" id="TL31" toID="E19" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E19" fromText="discharged" id="TL32" toID="E1" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="active labor" id="TL4" toID="E3" toText="Active Labor" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="Active Labor" id="TL5" toID="E7" toText="delivered" type="BEFORE"/>
+<TLINK fromID="E5" fromText="the Naliheall County Memorial Hospital Obstetrical service" id="TL6" toID="E4" toText="admitted" type="AFTER"/>
+<TLINK fromID="T2" fromText="06/14/2001 at 01:29 pm" id="TL7" toID="E4" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="active labor" id="TL8" toID="T2" toText="06/14/2001 at 01:29 pm" type="BEFORE"/>
+<TLINK fromID="E7" fromText="delivered" id="TL9" toID="T3" toText="06/14/2001 at 06:40 pm" type="OVERLAP"/>
+<SECTIME dvalue="2001-06-14" end="28" id="S0" start="18" text="20010614" type="ADMISSION"/>
+<SECTIME dvalue="2001-06-16" end="56" id="S1" start="46" text="20010616" type="DISCHARGE"/>
+<TLINK fromID="E2" fromText="Routine Post Partum Care" id="SECTIME0" toID="T0" toText="20010614" type="AFTER"/>
+<TLINK fromID="E3" fromText="Active Labor" id="SECTIME1" toID="T0" toText="20010614" type="BEFORE"/>
+<TLINK fromID="E4" fromText="admitted" id="SECTIME2" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E5" fromText="the Naliheall County Memorial Hospital Obstetrical service" id="SECTIME3" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E6" fromText="active labor" id="SECTIME4" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E7" fromText="delivered" id="SECTIME5" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E8" fromText="apgar scores" id="SECTIME6" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E10" fromText="gestation" id="SECTIME7" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E9" fromText="vacuum extraction" id="SECTIME8" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E11" fromText="her labor" id="SECTIME9" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E12" fromText="the following complication ( s )" id="SECTIME10" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E13" fromText="fetal bradycardia" id="SECTIME11" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E14" fromText="her delivery" id="SECTIME12" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E15" fromText="the following complication ( s )" id="SECTIME13" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E16" fromText="nuchal cord" id="SECTIME14" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E17" fromText="Postpartum" id="SECTIME15" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E18" fromText="the following complication ( s )" id="SECTIME16" toID="T1" toText="20010616" type="BEFORE"/>
+<TLINK fromID="E19" fromText="discharged" id="SECTIME17" toID="T1" toText="20010616" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="stable condition" id="SECTIME18" toID="T1" toText="20010616" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

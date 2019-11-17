@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2017-05-08
+Discharge Date :
+2017-05-16
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+Mr. Williams is an 85 yo gentleman who has a known cardiac history and has had a h/o worsening chest pain and shortness of breath .
+He had an echocardiogram which showed an EF 40-45% and severe aortic stenosis .
+He underwent cardiac catheterization which showed an 80% LAD lesion , chronically occluded RCA , anneurysmal mid LCX w/50% lesion .
+He was refered to Dr. Barber for surgical treatment .
+Brief Hospital Course :
+Mr. Williams was admitted to Hallmark Health System on 05-08 and taken to the operating room with Dr. Barber for a CABGx2 and AVR w/ 25 mm pericardial valve .
+Please see operative note for full details .
+He was transfered to the ICU in stable condition .
+He was weaned and extubated from mechanical ventillation on POD#1 without difficulty .
+He was transfered to the regular part of the hospital on POD#2 , where he began working with physical therapy .
+He developed atrial fibrillation on POD#2 with well controlled rate and hemodynamically stable .
+He was started on heparin and coumadin for anticoagulation on POD#5 .
+On POD#7 he was cleared for discharge to home by physical therapy and on POD#8 he was discharged .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="2017-05-07 23:30" lowerbound-start="2017-05-07 23:30" modality="FACTUAL" most-likely-end="2017-05-08 12:02" most-likely-start="2017-05-08 12:00" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="2017-05-10 01:00" upperbound-start="2017-05-10 00:30"/>
+<EVENT end="1054" id="E37" lowerbound-end="2017-05-10 01:01" lowerbound-start="2017-05-10 01:00" modality="FACTUAL" most-likely-end="2017-05-10 13:39" most-likely-start="2017-05-10 13:30" polarity="POS" start="1034" temporally-annotated="YES" text="well controlled rate" type="OCCURRENCE" upperbound-end="2067-04-30 02:31" upperbound-start="2017-05-12 02:00"/>
+<EVENT end="1081" id="E38" lowerbound-end="2017-05-10 01:01" lowerbound-start="2017-05-10 01:00" modality="FACTUAL" most-likely-end="2017-05-10 13:39" most-likely-start="2017-05-10 13:30" polarity="POS" start="1059" temporally-annotated="YES" text="hemodynamically stable" type="OCCURRENCE" upperbound-end="2067-04-30 02:31" upperbound-start="2017-05-12 02:00"/>
+<EVENT end="1109" id="E13" lowerbound-end="2025-02-05 17:10" lowerbound-start="2017-05-13 00:30" modality="FACTUAL" most-likely-end="2027-11-12 13:00" most-likely-start="2017-05-13 13:00" polarity="POS" start="1102" temporally-annotated="YES" text="heparin" type="TREATMENT" upperbound-end="2035-02-05 18:10" upperbound-start="2017-05-15 01:30"/>
+<EVENT end="1122" id="E14" lowerbound-end="2025-02-05 17:10" lowerbound-start="2017-05-13 00:30" modality="FACTUAL" most-likely-end="2027-11-12 13:00" most-likely-start="2017-05-13 13:00" polarity="POS" start="1114" temporally-annotated="YES" text="coumadin" type="TREATMENT" upperbound-end="2035-02-05 18:10" upperbound-start="2017-05-15 01:30"/>
+<EVENT end="1142" id="E15" lowerbound-end="2025-02-05 17:10" lowerbound-start="2017-05-13 00:30" modality="FACTUAL" most-likely-end="2027-11-12 13:00" most-likely-start="2017-05-13 13:00" polarity="POS" start="1127" temporally-annotated="YES" text="anticoagulation" type="TREATMENT" upperbound-end="2035-02-05 18:10" upperbound-start="2017-05-15 01:30"/>
+<EVENT end="1177" id="E39" lowerbound-end="2017-05-15 00:30" lowerbound-start="2017-05-12 17:43" modality="FACTUAL" most-likely-end="2017-05-15 13:00" most-likely-start="2017-05-13 02:00" polarity="POS" start="1170" temporally-annotated="YES" text="cleared" type="OCCURRENCE" upperbound-end="2017-05-17 01:31" upperbound-start="2017-05-14 10:17"/>
+<EVENT end="1191" id="E40" lowerbound-end="2017-05-16 00:30" lowerbound-start="2017-05-16 00:30" modality="FACTUAL" most-likely-end="2017-05-16 13:02" most-likely-start="2017-05-16 13:00" polarity="POS" start="1182" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="2017-05-18 02:00" upperbound-start="2017-05-18 01:30"/>
+<EVENT end="1250" id="E18" lowerbound-end="2017-05-16 00:30" lowerbound-start="2017-05-16 00:30" modality="FACTUAL" most-likely-end="2017-05-16 13:02" most-likely-start="2017-05-16 13:00" polarity="POS" start="1240" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-end="2017-05-18 02:00" upperbound-start="2017-05-18 01:30"/>
+<EVENT end="177" id="E1" lowerbound-end="1995-07-23 09:33" lowerbound-start="1945-08-04 09:32" modality="FACTUAL" most-likely-end="2021-03-05 19:00" most-likely-start="2008-09-04 07:00" polarity="POS" start="154" temporally-annotated="YES" text="a known cardiac history" type="PROBLEM" upperbound-end="2126-09-24 16:28" upperbound-start="2076-10-05 16:27"/>
+<EVENT end="216" id="E20" lowerbound-end="2017-05-08 02:43" lowerbound-start="2016-12-25 10:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2017-04-01 12:00" polarity="POS" start="196" temporally-annotated="YES" text="worsening chest pain" type="PROBLEM" upperbound-end="2017-05-10 08:17" upperbound-start="2018-01-21 06:31"/>
+<EVENT end="240" id="E21" lowerbound-end="2017-05-08 02:43" lowerbound-start="2016-12-25 10:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2017-04-01 12:00" polarity="POS" start="221" temporally-annotated="YES" text="shortness of breath" type="PROBLEM" upperbound-end="2017-05-10 08:17" upperbound-start="2018-01-21 06:31"/>
+<EVENT end="267" id="E2" lowerbound-end="2017-01-04 08:07" lowerbound-start="2017-01-04 08:02" modality="FACTUAL" most-likely-end="2017-04-17 12:20" most-likely-start="2017-04-17 12:00" polarity="POS" start="250" temporally-annotated="YES" text="an echocardiogram" type="TEST" upperbound-end="2018-02-12 10:02" upperbound-start="2018-02-12 08:57"/>
+<EVENT end="280" id="E22" lowerbound-end="2017-01-04 08:16" lowerbound-start="2017-01-04 08:12" modality="FACTUAL" most-likely-end="2017-04-17 12:20" most-likely-start="2017-04-17 12:10" polarity="POS" start="274" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="2018-02-12 09:41" upperbound-start="2018-02-12 09:07"/>
+<EVENT end="286" id="E3" lowerbound-end="2017-05-08 02:43" lowerbound-start="2014-11-03 06:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2016-10-18 06:00" polarity="POS" start="281" temporally-annotated="YES" text="an EF" type="TEST" upperbound-end="2017-05-10 08:17" upperbound-start="2024-04-01 17:31"/>
+<EVENT end="38" id="E19" lowerbound-end="2017-05-16 00:30" lowerbound-start="2017-05-16 00:30" modality="FACTUAL" most-likely-end="2017-05-16 13:02" most-likely-start="2017-05-16 13:00" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="2017-05-18 02:00" upperbound-start="2017-05-18 01:30"/>
+<EVENT end="320" id="E4" lowerbound-end="2017-05-08 02:43" lowerbound-start="2014-11-03 06:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2016-10-18 06:00" polarity="POS" start="298" temporally-annotated="YES" text="severe aortic stenosis" type="PROBLEM" upperbound-end="2017-05-10 08:17" upperbound-start="2024-04-01 17:31"/>
+<EVENT end="359" id="E5" lowerbound-end="2017-01-04 19:59" lowerbound-start="2017-01-04 19:31" modality="FACTUAL" most-likely-end="2017-04-18 02:00" most-likely-start="2017-04-18 01:00" polarity="POS" start="336" temporally-annotated="YES" text="cardiac catheterization" type="TEST" upperbound-end="2018-02-13 00:56" upperbound-start="2018-02-12 23:28"/>
+<EVENT end="372" id="E23" lowerbound-end="2017-01-04 20:32" lowerbound-start="2017-01-04 20:25" modality="FACTUAL" most-likely-end="2017-04-18 02:00" most-likely-start="2017-04-18 01:30" polarity="POS" start="366" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="2018-02-13 00:12" upperbound-start="2018-02-12 23:35"/>
+<EVENT end="390" id="E6" lowerbound-end="2017-05-08 02:43" lowerbound-start="2014-11-03 06:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2016-10-18 06:00" polarity="POS" start="373" temporally-annotated="YES" text="an 80% LAD lesion" type="PROBLEM" upperbound-end="2017-05-10 08:17" upperbound-start="2024-04-01 17:31"/>
+<EVENT end="417" id="E24" lowerbound-end="2017-05-08 02:43" lowerbound-start="2014-11-03 06:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2016-10-18 06:00" polarity="POS" start="393" temporally-annotated="YES" text="chronically occluded RCA" type="PROBLEM" upperbound-end="2017-05-10 08:17" upperbound-start="2024-04-01 17:31"/>
+<EVENT end="439" id="E25" lowerbound-end="2017-05-08 02:43" lowerbound-start="2014-11-03 06:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2016-10-18 06:00" polarity="POS" start="420" temporally-annotated="YES" text="anneurysmal mid LCX" type="PROBLEM" upperbound-end="2017-05-10 08:17" upperbound-start="2024-04-01 17:31"/>
+<EVENT end="452" id="E26" lowerbound-end="2017-05-08 02:43" lowerbound-start="2014-11-03 06:28" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2016-10-18 06:00" polarity="POS" start="440" temporally-annotated="YES" text="w/50% lesion" type="PROBLEM" upperbound-end="2017-05-10 08:17" upperbound-start="2024-04-01 17:31"/>
+<EVENT end="506" id="E27" lowerbound-end="2017-05-08 00:10" lowerbound-start="2017-05-07 22:29" modality="PROPOSED" most-likely-end="2017-05-08 17:30" most-likely-start="2017-05-08 13:15" polarity="POS" start="488" temporally-annotated="YES" text="surgical treatment" type="TREATMENT" upperbound-end="2017-05-10 18:50" upperbound-start="2017-05-10 04:01"/>
+<EVENT end="558" id="E16" lowerbound-end="2017-05-07 23:30" lowerbound-start="2017-05-07 23:30" modality="FACTUAL" most-likely-end="2017-05-08 12:02" most-likely-start="2017-05-08 12:00" polarity="POS" start="550" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="2017-05-10 01:00" upperbound-start="2017-05-10 00:30"/>
+<EVENT end="584" id="E28" lowerbound-end="2017-05-14 11:07" lowerbound-start="2017-05-07 23:30" modality="FACTUAL" most-likely-end="2017-05-16 13:02" most-likely-start="2017-05-08 12:00" polarity="POS" start="562" temporally-annotated="YES" text="Hallmark Health System" type="CLINICAL_DEPT" upperbound-end="2017-05-22 14:58" upperbound-start="2017-05-10 00:30"/>
+<EVENT end="625" id="E29" lowerbound-end="2017-05-08 00:10" lowerbound-start="2017-05-07 22:29" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2017-05-08 13:15" polarity="POS" start="607" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-end="2017-05-10 18:50" upperbound-start="2017-05-10 04:01"/>
+<EVENT end="654" id="E7" lowerbound-end="2017-05-07 23:29" lowerbound-start="2017-05-07 11:28" modality="FACTUAL" most-likely-end="2017-05-08 16:45" most-likely-start="2017-05-08 13:15" polarity="POS" start="646" temporally-annotated="YES" text="a CABGx2" type="TREATMENT" upperbound-end="2017-05-10 18:01" upperbound-start="2017-05-10 06:00"/>
+<EVENT end="662" id="E8" lowerbound-end="2017-05-08 00:10" lowerbound-start="2017-05-07 12:09" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2017-05-08 14:45" polarity="POS" start="659" temporally-annotated="YES" text="AVR" type="TREATMENT" upperbound-end="2017-05-10 18:50" upperbound-start="2017-05-10 06:49"/>
+<EVENT end="689" id="E9" lowerbound-end="2017-05-08 00:10" lowerbound-start="2017-05-07 12:09" modality="FACTUAL" most-likely-end="2017-05-08 17:30" most-likely-start="2017-05-08 14:45" polarity="POS" start="666" temporally-annotated="YES" text="25 mm pericardial valve" type="TREATMENT" upperbound-end="2017-05-10 18:50" upperbound-start="2017-05-10 06:49"/>
+<EVENT end="754" id="E30" lowerbound-end="2017-05-08 02:44" lowerbound-start="2017-05-08 02:43" modality="FACTUAL" most-likely-end="2017-05-08 17:37" most-likely-start="2017-05-08 17:30" polarity="POS" start="744" temporally-annotated="YES" text="transfered" type="OCCURRENCE" upperbound-end="2017-05-10 09:18" upperbound-start="2017-05-10 08:17"/>
+<EVENT end="765" id="E31" lowerbound-end="2017-05-10 01:00" lowerbound-start="2017-05-08 02:55" modality="FACTUAL" most-likely-end="2017-05-10 13:00" most-likely-start="2017-05-08 17:37" polarity="POS" start="758" temporally-annotated="YES" text="the ICU" type="CLINICAL_DEPT" upperbound-end="2017-05-12 01:00" upperbound-start="2017-05-10 08:20"/>
+<EVENT end="785" id="E32" lowerbound-end="2017-05-08 02:48" lowerbound-start="2017-05-08 02:47" modality="FACTUAL" most-likely-end="2017-05-08 17:37" most-likely-start="2017-05-08 17:35" polarity="POS" start="769" temporally-annotated="YES" text="stable condition" type="OCCURRENCE" upperbound-end="2017-05-10 08:53" upperbound-start="2017-05-10 08:22"/>
+<EVENT end="801" id="E33" lowerbound-end="2017-05-09 02:08" lowerbound-start="2017-05-08 14:07" modality="FACTUAL" most-likely-end="2017-05-09 14:05" most-likely-start="2017-05-09 12:35" polarity="POS" start="795" temporally-annotated="YES" text="weaned" type="TREATMENT" upperbound-end="2017-05-11 12:03" upperbound-start="2017-05-11 00:02"/>
+<EVENT end="815" id="E34" lowerbound-end="2017-05-09 03:13" lowerbound-start="2017-05-09 03:12" modality="FACTUAL" most-likely-end="2017-05-09 14:07" most-likely-start="2017-05-09 14:00" polarity="POS" start="806" temporally-annotated="YES" text="extubated" type="TREATMENT" upperbound-end="2017-05-11 01:49" upperbound-start="2017-05-11 00:48"/>
+<EVENT end="844" id="E10" lowerbound-end="2017-05-08 17:43" lowerbound-start="2017-05-08 00:10" modality="FACTUAL" most-likely-end="2017-05-09 14:05" most-likely-start="2017-05-08 15:30" polarity="POS" start="821" temporally-annotated="YES" text="mechanical ventillation" type="TREATMENT" upperbound-end="2017-05-14 10:26" upperbound-start="2017-05-10 06:50"/>
+<EVENT end="872" id="E11" lowerbound-end="2017-05-09 03:13" lowerbound-start="2017-05-09 03:12" modality="FACTUAL" most-likely-end="2017-05-09 14:07" most-likely-start="2017-05-09 14:00" polarity="NEG" start="862" temporally-annotated="YES" text="difficulty" type="PROBLEM" upperbound-end="2017-05-11 01:49" upperbound-start="2017-05-11 00:48"/>
+<EVENT end="892" id="E17" lowerbound-end="2017-05-10 01:01" lowerbound-start="2017-05-10 01:00" modality="FACTUAL" most-likely-end="2017-05-10 13:07" most-likely-start="2017-05-10 13:00" polarity="POS" start="882" temporally-annotated="YES" text="transfered" type="OCCURRENCE" upperbound-end="2017-05-12 02:01" upperbound-start="2017-05-12 01:00"/>
+<EVENT end="928" id="E35" lowerbound-end="2017-05-14 11:07" lowerbound-start="2017-05-10 01:09" modality="FACTUAL" most-likely-end="2017-05-16 13:02" most-likely-start="2017-05-10 13:07" polarity="POS" start="896" temporally-annotated="YES" text="the regular part of the hospital" type="CLINICAL_DEPT" upperbound-end="2017-05-22 14:58" upperbound-start="2017-05-12 01:05"/>
+<EVENT end="984" id="E36" lowerbound-end="2017-05-13 05:43" lowerbound-start="2017-05-10 05:48" modality="FACTUAL" most-likely-end="2017-05-13 14:30" most-likely-start="2017-05-10 14:05" polarity="POS" start="968" temporally-annotated="YES" text="physical therapy" type="CLINICAL_DEPT" upperbound-end="2017-05-15 10:17" upperbound-start="2017-05-11 22:22"/>
+<EVENT end="1019" id="E12" lowerbound-end="2017-05-10 01:01" lowerbound-start="2017-05-10 01:00" modality="FACTUAL" most-likely-end="2017-05-10 13:39" most-likely-start="2017-05-10 13:30" polarity="POS" start="1000" temporally-annotated="YES" text="atrial fibrillation" type="PROBLEM" upperbound-end="2067-04-30 02:31" upperbound-start="2017-05-12 02:00"/>
+<TIMEX3 end="1028" id="T8" mod="NA" start="1023" text="POD#2" type="DATE" val="2017-08-10"/>
+<TIMEX3 end="1151" id="T5" mod="NA" start="1146" text="POD#5" type="DATE" val="2017-05-13"/>
+<TIMEX3 end="1162" id="T9" mod="NA" start="1157" text="POD#7" type="DATE" val="2017-05-15"/>
+<TIMEX3 end="1232" id="T6" mod="NA" start="1227" text="POD#8" type="DATE" val="2017-05-16"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="2017-05-08" type="DATE" val="2017-05-08"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="2017-05-16" type="DATE" val="2017-05-16"/>
+<TIMEX3 end="593" id="T3" mod="NA" start="588" text="05-08" type="DATE" val="2017-05-08"/>
+<TIMEX3 end="853" id="T0" mod="NA" start="848" text="POD#1" type="DATE" val="2017-05-09"/>
+<TIMEX3 end="937" id="T4" mod="NA" start="932" text="POD#2" type="DATE" val="2017-05-10"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T1" toText="2017-05-08" type="SIMULTANEOUS"/>
+<TLINK fromID="E16" fromText="admitted" id="TL1" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="severe aortic stenosis" id="TL10" toID="E3" toText="an EF" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="cardiac catheterization" id="TL11" toID="E2" toText="an echocardiogram" type="AFTER"/>
+<TLINK fromID="E23" fromText="showed" id="TL12" toID="E5" toText="cardiac catheterization" type="SIMULTANEOUS"/>
+<TLINK fromID="E6" fromText="an 80% LAD lesion" id="TL13" toID="E23" toText="showed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E24" fromText="chronically occluded RCA" id="TL14" toID="E6" toText="an 80% LAD lesion" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="anneurysmal mid LCX" id="TL15" toID="E24" toText="chronically occluded RCA" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="w/50% lesion" id="TL16" toID="E25" toText="anneurysmal mid LCX" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="surgical treatment" id="TL17" toID="E0" toText="Admission" type="AFTER"/>
+<TLINK fromID="E28" fromText="Hallmark Health System" id="TL18" toID="E16" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E28" fromText="Hallmark Health System" id="TL19" toID="T3" toText="05-08" type="BEGUN_BY"/>
+<TLINK fromID="E19" fromText="Discharge" id="TL2" toID="T2" toText="2017-05-16" type="SIMULTANEOUS"/>
+<TLINK fromID="T3" fromText="05-08" id="TL20" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E29" fromText="the operating room" id="TL21" toID="E16" toText="admitted" type="AFTER"/>
+<TLINK fromID="E7" fromText="a CABGx2" id="TL22" toID="E29" toText="the operating room" type="DURING"/>
+<TLINK fromID="E8" fromText="AVR" id="TL23" toID="E7" toText="a CABGx2" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="25 mm pericardial valve" id="TL24" toID="E8" toText="AVR" type="SIMULTANEOUS"/>
+<TLINK fromID="E30" fromText="transfered" id="TL25" toID="E29" toText="the operating room" type="AFTER"/>
+<TLINK fromID="E31" fromText="the ICU" id="TL26" toID="E30" toText="transfered" type="BEGUN_BY"/>
+<TLINK fromID="E32" fromText="stable condition" id="TL27" toID="E31" toText="the ICU" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E33" fromText="weaned" id="TL28" toID="T0" toText="POD#1" type="SIMULTANEOUS"/>
+<TLINK fromID="T0" fromText="POD#1" id="TL29" toID="E31" toText="the ICU" type="DURING"/>
+<TLINK fromID="E18" fromText="discharged" id="TL3" toID="E19" toText="Discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E10" fromText="mechanical ventillation" id="TL30" toID="E29" toText="the operating room" type="BEGUN_BY"/>
+<TLINK fromID="E10" fromText="mechanical ventillation" id="TL31" toID="E34" toText="extubated" type="ENDED_BY"/>
+<TLINK fromID="E33" fromText="weaned" id="TL32" toID="E34" toText="extubated" type="BEFORE"/>
+<TLINK fromID="E11" fromText="difficulty" id="TL33" toID="E34" toText="extubated" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="the ICU" id="TL34" toID="E17" toText="transfered" type="ENDED_BY"/>
+<TLINK fromID="E35" fromText="the regular part of the hospital" id="TL35" toID="E17" toText="transfered" type="BEGUN_BY"/>
+<TLINK fromID="E17" fromText="transfered" id="TL36" toID="T4" toText="POD#2" type="SIMULTANEOUS"/>
+<TLINK fromID="T4" fromText="POD#2" id="TL37" toID="T0" toText="POD#1" type="AFTER"/>
+<TLINK fromID="E36" fromText="physical therapy" id="TL38" toID="E35" toText="the regular part of the hospital" type="BEGUN_BY"/>
+<TLINK fromID="T8" fromText="POD#2" id="TL39" toID="T4" toText="POD#2" type="SIMULTANEOUS"/>
+<TLINK fromID="E1" fromText="a known cardiac history" id="TL4" toID="E20" toText="worsening chest pain" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E12" fromText="atrial fibrillation" id="TL40" toID="T8" toText="POD#2" type="BEGUN_BY"/>
+<TLINK fromID="E37" fromText="well controlled rate" id="TL41" toID="E12" toText="atrial fibrillation" type="SIMULTANEOUS"/>
+<TLINK fromID="E38" fromText="hemodynamically stable" id="TL42" toID="E37" toText="well controlled rate" type="SIMULTANEOUS"/>
+<TLINK fromID="T5" fromText="POD#5" id="TL43" toID="T4" toText="POD#2" type="AFTER"/>
+<TLINK fromID="E13" fromText="heparin" id="TL44" toID="T5" toText="POD#5" type="BEGUN_BY"/>
+<TLINK fromID="E14" fromText="coumadin" id="TL45" toID="E13" toText="heparin" type="SIMULTANEOUS"/>
+<TLINK fromID="E15" fromText="anticoagulation" id="TL46" toID="E14" toText="coumadin" type="SIMULTANEOUS"/>
+<TLINK fromID="T9" fromText="POD#7" id="TL47" toID="T5" toText="POD#5" type="AFTER"/>
+<TLINK fromID="E39" fromText="cleared" id="TL48" toID="T9" toText="POD#7" type="SIMULTANEOUS"/>
+<TLINK fromID="E40" fromText="discharge" id="TL49" toID="E39" toText="cleared" type="AFTER"/>
+<TLINK fromID="E1" fromText="a known cardiac history" id="TL5" toID="E0" toText="Admission" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E40" fromText="discharge" id="TL50" toID="E18" toText="discharged" type="SIMULTANEOUS"/>
+<TLINK fromID="T6" fromText="POD#8" id="TL51" toID="T9" toText="POD#7" type="AFTER"/>
+<TLINK fromID="E18" fromText="discharged" id="TL52" toID="T6" toText="POD#8" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="shortness of breath" id="TL6" toID="E20" toText="worsening chest pain" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="an echocardiogram" id="TL7" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E22" fromText="showed" id="TL8" toID="E2" toText="an echocardiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E3" fromText="an EF" id="TL9" toID="E22" toText="showed" type="BEFORE_OVERLAP"/>
+<SECTIME dvalue="2017-05-08" end="28" id="S0" start="18" text="2017-05-08" type="ADMISSION"/>
+<SECTIME dvalue="2017-05-16" end="56" id="S1" start="46" text="2017-05-16" type="DISCHARGE"/>
+<TLINK fromID="E37" fromText="well controlled rate" id="SECTIME0" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E38" fromText="hemodynamically stable" id="SECTIME1" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E13" fromText="heparin" id="SECTIME2" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E14" fromText="coumadin" id="SECTIME3" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E15" fromText="anticoagulation" id="SECTIME4" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E39" fromText="cleared" id="SECTIME5" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E40" fromText="discharge" id="SECTIME6" toID="T2" toText="2017-05-16" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="discharged" id="SECTIME7" toID="T2" toText="2017-05-16" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="a known cardiac history" id="SECTIME8" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E20" fromText="worsening chest pain" id="SECTIME9" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E21" fromText="shortness of breath" id="SECTIME10" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E2" fromText="an echocardiogram" id="SECTIME11" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E22" fromText="showed" id="SECTIME12" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E3" fromText="an EF" id="SECTIME13" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E4" fromText="severe aortic stenosis" id="SECTIME14" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E5" fromText="cardiac catheterization" id="SECTIME15" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E23" fromText="showed" id="SECTIME16" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E6" fromText="an 80% LAD lesion" id="SECTIME17" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E24" fromText="chronically occluded RCA" id="SECTIME18" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E25" fromText="anneurysmal mid LCX" id="SECTIME19" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E26" fromText="w/50% lesion" id="SECTIME20" toID="T1" toText="2017-05-08" type="BEFORE"/>
+<TLINK fromID="E27" fromText="surgical treatment" id="SECTIME21" toID="T1" toText="2017-05-08" type="AFTER"/>
+<TLINK fromID="E16" fromText="admitted" id="SECTIME22" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E28" fromText="Hallmark Health System" id="SECTIME23" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E29" fromText="the operating room" id="SECTIME24" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E7" fromText="a CABGx2" id="SECTIME25" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E8" fromText="AVR" id="SECTIME26" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E9" fromText="25 mm pericardial valve" id="SECTIME27" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E30" fromText="transfered" id="SECTIME28" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E31" fromText="the ICU" id="SECTIME29" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E32" fromText="stable condition" id="SECTIME30" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E33" fromText="weaned" id="SECTIME31" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E34" fromText="extubated" id="SECTIME32" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E10" fromText="mechanical ventillation" id="SECTIME33" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E11" fromText="difficulty" id="SECTIME34" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E17" fromText="transfered" id="SECTIME35" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E35" fromText="the regular part of the hospital" id="SECTIME36" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E36" fromText="physical therapy" id="SECTIME37" toID="T2" toText="2017-05-16" type="BEFORE"/>
+<TLINK fromID="E12" fromText="atrial fibrillation" id="SECTIME38" toID="T2" toText="2017-05-16" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

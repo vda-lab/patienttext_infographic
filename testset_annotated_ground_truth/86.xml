@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+08/31/1992
+Discharge Date :
+09/07/1992
+HISTORY OF PRESENT ILLNESS :
+The patient is a 37-year-old white male with AIDS complicated by recurrent pseudomonas infections presently on Ceftazidime and Aztrenam complicated by MAI who comes in with fever , chills and blood cultures positive for candida species .
+The patient has multiple AIDS illnesses including MAI who has multiple admissions for pseudomonas pneumonia .
+His most recent admission was on 08/23/92 to 08/25/92 with fever and chills .
+He was again treated with IV Ceftazidime for presumed pseudomonal pneumonia and discharged home on IV antibiotics which he is presently on .
+The patient did well at home with decreasing fever and good appetite until the night prior to admission when he developed fever and chills .
+Concurrent blood cultures grew out candida species at HCHP .
+The patient &amp;apos;s baseline O2 saturation is 92% on three liters .
+He has a left arm graft placed for access three weeks ago which is used for blood drawing and IV medications .
+He notes no tenderness , erythema , warmth or exudate from the passport site .
+Medications at the time of admission include Dapsone 50 mg p.o. on Monday , Wednesday and Friday , Ceftazidime 1 gram IV q. 8 hours , Cipro 750 mg p.o. b.i.d. , Acyclovir 400 mg p.o. q. day , Megastrol 80 mg p.o. t.i.d. and G-CSF 150 micrograms subcu b.i.d.
+HOSPITAL COURSE :
+By problems :
+1. Infectious Disease .
+The patient was started on Amphotericine at .6 mg / kg for a total of 250 mg for positive blood cultures for candida .
+The passport in his left arm was pulled and will be replaced if needed after the Amphotericine is completed .
+The patient will continue on his antibiotics for pseudomonas pneumonia to complete the fourteen day course which was completed on 09/06/92 .
+The patient was continued on his admission medications .
+2. Hematology .
+The patient was continued on his G-CSF with an increase in his white count to 8 from 1.8 .
+The patient required multiple blood transfusions for a low hematocrit .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="1992-08-31 00:01" lowerbound-start="1992-08-31 00:00" modality="FACTUAL" most-likely-end="1992-08-31 10:35" most-likely-start="1992-08-31 10:30" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-end="1992-09-01 22:01" upperbound-start="1992-09-01 21:00"/>
+<EVENT end="1031" id="E36" lowerbound-end="1992-08-14 21:30" lowerbound-start="1992-08-10 22:30" modality="FACTUAL" most-likely-end="1992-08-19 23:02" most-likely-start="1992-08-12 23:00" polarity="POS" start="1017" temporally-annotated="YES" text="IV medications" type="TREATMENT" upperbound-end="1992-09-07 04:00" upperbound-start="1992-08-18 23:30"/>
+<EVENT end="1042" id="E37" lowerbound-end="1992-08-27 02:01" lowerbound-start="1992-08-27 02:00" modality="FACTUAL" most-likely-end="1992-08-27 10:42" most-likely-start="1992-08-27 10:30" polarity="POS" start="1037" temporally-annotated="YES" text="notes" type="EVIDENTIAL" upperbound-end="1992-08-28 20:01" upperbound-start="1992-08-28 19:00"/>
+<EVENT end="1056" id="E38" lowerbound-end="1992-08-25 23:15" lowerbound-start="1992-08-02 09:00" modality="FACTUAL" most-likely-end="1992-08-27 10:42" most-likely-start="1992-08-12 10:35" polarity="NEG" start="1046" temporally-annotated="YES" text="tenderness" type="PROBLEM" upperbound-end="1992-09-01 22:30" upperbound-start="1992-09-07 05:10"/>
+<EVENT end="1067" id="E39" lowerbound-end="1992-08-25 23:15" lowerbound-start="1992-08-02 09:00" modality="FACTUAL" most-likely-end="1992-08-27 10:42" most-likely-start="1992-08-12 10:35" polarity="NEG" start="1059" temporally-annotated="YES" text="erythema" type="PROBLEM" upperbound-end="1992-09-01 22:30" upperbound-start="1992-09-07 05:10"/>
+<EVENT end="1076" id="E40" lowerbound-end="1992-08-25 23:15" lowerbound-start="1992-08-02 09:00" modality="FACTUAL" most-likely-end="1992-08-27 10:42" most-likely-start="1992-08-12 10:35" polarity="NEG" start="1070" temporally-annotated="YES" text="warmth" type="PROBLEM" upperbound-end="1992-09-01 22:30" upperbound-start="1992-09-07 05:10"/>
+<EVENT end="1087" id="E41" lowerbound-end="1992-08-25 23:15" lowerbound-start="1992-08-02 09:00" modality="FACTUAL" most-likely-end="1992-08-27 10:42" most-likely-start="1992-08-12 10:35" polarity="NEG" start="1080" temporally-annotated="YES" text="exudate" type="PROBLEM" upperbound-end="1992-09-01 22:30" upperbound-start="1992-09-07 05:10"/>
+<EVENT end="1110" id="E42" lowerbound-end="1992-08-02 08:47" lowerbound-start="1992-08-02 08:46" modality="FACTUAL" most-likely-end="1992-08-12 10:40" most-likely-start="1992-08-12 10:30" polarity="POS" start="1093" temporally-annotated="YES" text="the passport site" type="TREATMENT" upperbound-end="1992-09-07 06:15" upperbound-start="1992-09-07 05:14"/>
+<EVENT end="1124" id="E43" lowerbound-end="1992-08-20 02:40" lowerbound-start="1975-09-04 11:08" modality="FACTUAL" most-likely-end="1992-09-15 12:32" most-likely-start="1982-05-02 06:30" polarity="POS" start="1113" temporally-annotated="YES" text="Medications" type="TREATMENT" upperbound-end="2042-09-30 10:50" upperbound-start="2038-12-16 13:51"/>
+<EVENT end="1149" id="E44" lowerbound-end="1992-08-31 00:01" lowerbound-start="1992-08-31 00:00" modality="FACTUAL" most-likely-end="1992-08-31 10:35" most-likely-start="1992-08-31 10:30" polarity="POS" start="1140" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-end="1992-09-01 22:01" upperbound-start="1992-09-01 21:00"/>
+<EVENT end="1165" id="E45" lowerbound-end="1992-09-01 16:15" lowerbound-start="1992-08-06 18:15" modality="FACTUAL" most-likely-end="1992-09-03 10:33" most-likely-start="1992-08-20 10:33" polarity="POS" start="1158" temporally-annotated="YES" text="Dapsone" type="TREATMENT" upperbound-end="1992-09-09 04:51" upperbound-start="1992-08-28 23:51"/>
+<EVENT end="1223" id="E46" lowerbound-end="1992-09-01 16:15" lowerbound-start="1992-08-06 18:15" modality="FACTUAL" most-likely-end="1992-09-03 10:33" most-likely-start="1992-08-20 10:33" polarity="POS" start="1212" temporally-annotated="YES" text="Ceftazidime" type="TREATMENT" upperbound-end="1992-09-09 04:51" upperbound-start="1992-08-28 23:51"/>
+<EVENT end="1252" id="E47" lowerbound-end="1992-09-01 16:15" lowerbound-start="1992-08-06 18:15" modality="FACTUAL" most-likely-end="1992-09-03 10:33" most-likely-start="1992-08-20 10:33" polarity="POS" start="1247" temporally-annotated="YES" text="Cipro" type="TREATMENT" upperbound-end="1992-09-09 04:51" upperbound-start="1992-08-28 23:51"/>
+<EVENT end="1283" id="E48" lowerbound-end="1992-08-22 21:52" lowerbound-start="1975-08-31 12:20" modality="FACTUAL" most-likely-end="1992-09-18 12:30" most-likely-start="1982-04-28 06:30" polarity="POS" start="1274" temporally-annotated="YES" text="Acyclovir" type="TREATMENT" upperbound-end="2042-10-03 15:08" upperbound-start="2038-12-12 12:39"/>
+<EVENT end="135" id="E2" lowerbound-end="1952-10-24 16:27" lowerbound-start="1931-07-07 10:08" modality="FACTUAL" most-likely-end="2027-05-02 17:00" most-likely-start="1973-05-01 17:00" polarity="POS" start="131" temporally-annotated="YES" text="AIDS" type="PROBLEM" upperbound-end="2236-04-27 06:11" upperbound-start="2115-01-31 23:52"/>
+<EVENT end="1314" id="E49" lowerbound-end="1992-08-20 02:52" lowerbound-start="1975-08-31 12:20" modality="FACTUAL" most-likely-end="1992-09-18 12:30" most-likely-start="1982-04-28 06:30" polarity="POS" start="1305" temporally-annotated="YES" text="Megastrol" type="TREATMENT" upperbound-end="2042-10-15 13:08" upperbound-start="2038-12-12 12:39"/>
+<EVENT end="1342" id="E50" lowerbound-end="1992-08-20 02:52" lowerbound-start="1975-08-31 12:20" modality="FACTUAL" most-likely-end="1992-09-18 12:30" most-likely-start="1982-04-28 06:30" polarity="POS" start="1337" temporally-annotated="YES" text="G-CSF" type="TREATMENT" upperbound-end="2042-10-15 13:08" upperbound-start="2038-12-12 12:39"/>
+<EVENT end="1424" id="E51" lowerbound-end="1992-09-05 14:24" lowerbound-start="1992-08-23 02:24" modality="FACTUAL" most-likely-end="1992-09-06 12:00" most-likely-start="1992-08-23 12:00" polarity="POS" start="1406" temporally-annotated="YES" text="Infectious Disease" type="PROBLEM" upperbound-end="1992-09-08 09:36" upperbound-start="1992-08-24 21:36"/>
+<EVENT end="1467" id="E52" lowerbound-end="1992-08-29 09:00" lowerbound-start="1992-08-29 08:59" modality="FACTUAL" most-likely-end="1992-09-01 13:00" most-likely-start="1992-08-31 23:00" polarity="POS" start="1454" temporally-annotated="YES" text="Amphotericine" type="TREATMENT" upperbound-end="1992-09-23 06:02" upperbound-start="1992-09-07 13:01"/>
+<EVENT end="183" id="E3" lowerbound-end="1952-10-24 16:27" lowerbound-start="1931-07-07 10:08" modality="FACTUAL" most-likely-end="2027-05-02 17:00" most-likely-start="1973-05-01 17:00" polarity="POS" start="151" temporally-annotated="YES" text="recurrent pseudomonas infections" type="PROBLEM" upperbound-end="2236-04-27 06:11" upperbound-start="2115-01-31 23:52"/>
+<EVENT end="1531" id="E53" lowerbound-end="1992-08-26 02:42" lowerbound-start="1992-08-25 18:30" modality="FACTUAL" most-likely-end="1992-08-29 17:00" most-likely-start="1992-08-27 17:00" polarity="POS" start="1508" temporally-annotated="YES" text="positive blood cultures" type="PROBLEM" upperbound-end="1992-09-09 23:42" upperbound-start="1992-09-02 15:30"/>
+<EVENT end="1543" id="E54" lowerbound-end="1992-08-26 02:42" lowerbound-start="1992-08-25 18:30" modality="FACTUAL" most-likely-end="1992-08-29 17:00" most-likely-start="1992-08-27 17:00" polarity="POS" start="1536" temporally-annotated="YES" text="candida" type="PROBLEM" upperbound-end="1992-09-09 23:42" upperbound-start="1992-09-02 15:30"/>
+<EVENT end="1574" id="E55" lowerbound-end="1992-07-21 05:17" lowerbound-start="1992-07-21 05:16" modality="FACTUAL" most-likely-end="1992-08-01 21:07" most-likely-start="1992-08-01 21:00" polarity="POS" start="1546" temporally-annotated="YES" text="The passport in his left arm" type="TREATMENT" upperbound-end="1992-09-01 06:45" upperbound-start="1992-09-01 05:44"/>
+<EVENT end="1585" id="E56" lowerbound-end="1992-08-29 20:30" lowerbound-start="1992-08-29 20:29" modality="FACTUAL" most-likely-end="1992-09-03 10:35" most-likely-start="1992-09-02 22:30" polarity="POS" start="1579" temporally-annotated="YES" text="pulled" type="OCCURRENCE" upperbound-end="1992-09-17 13:02" upperbound-start="1992-09-14 00:31"/>
+<EVENT end="1640" id="E57" lowerbound-end="1992-08-29 09:00" lowerbound-start="1992-08-29 08:59" modality="FACTUAL" most-likely-end="1992-09-01 13:00" most-likely-start="1992-08-31 23:00" polarity="POS" start="1623" temporally-annotated="YES" text="the Amphotericine" type="TREATMENT" upperbound-end="1992-09-11 13:02" upperbound-start="1992-09-07 13:01"/>
+<EVENT end="1700" id="E58" lowerbound-end="1992-09-05 19:12" lowerbound-start="1992-08-23 01:12" modality="FACTUAL" most-likely-end="1992-09-06 12:30" most-likely-start="1992-08-23 12:30" polarity="POS" start="1685" temporally-annotated="YES" text="his antibiotics" type="TREATMENT" upperbound-end="1992-09-08 05:48" upperbound-start="1992-08-24 23:48"/>
+<EVENT end="1726" id="E59" lowerbound-end="1992-08-27 18:59" lowerbound-start="1992-08-19 21:30" modality="FACTUAL" most-likely-end="1992-09-03 12:30" most-likely-start="1992-08-23 00:30" polarity="POS" start="1705" temporally-annotated="YES" text="pseudomonas pneumonia" type="PROBLEM" upperbound-end="1992-09-25 23:00" upperbound-start="1992-08-30 03:29"/>
+<EVENT end="1851" id="E60" lowerbound-end="1992-08-24 01:40" lowerbound-start="1975-09-04 11:08" modality="FACTUAL" most-likely-end="1992-09-22 12:30" most-likely-start="1982-05-02 06:30" polarity="POS" start="1826" temporally-annotated="YES" text="his admission medications" type="TREATMENT" upperbound-end="2042-10-19 14:20" upperbound-start="2038-12-16 13:51"/>
+<EVENT end="1908" id="E61" lowerbound-end="1992-08-20 02:52" lowerbound-start="1975-08-31 12:20" modality="FACTUAL" most-likely-end="1992-09-18 12:30" most-likely-start="1982-04-28 06:30" polarity="POS" start="1899" temporally-annotated="YES" text="his G-CSF" type="TREATMENT" upperbound-end="2042-10-15 13:08" upperbound-start="2038-12-12 12:39"/>
+<EVENT end="1944" id="E62" lowerbound-end="1992-09-02 11:34" lowerbound-start="1992-08-31 12:00" modality="FACTUAL" most-likely-end="1992-09-06 00:33" most-likely-start="1992-09-03 12:30" polarity="POS" start="1929" temporally-annotated="YES" text="his white count" type="TEST" upperbound-end="1992-09-14 06:19" upperbound-start="1992-09-10 13:00"/>
+<EVENT end="208" id="E4" lowerbound-end="1992-08-29 20:03" lowerbound-start="1992-08-06 17:03" modality="FACTUAL" most-likely-end="1992-09-03 10:33" most-likely-start="1992-08-20 10:33" polarity="POS" start="197" temporally-annotated="YES" text="Ceftazidime" type="TREATMENT" upperbound-end="1992-09-21 04:03" upperbound-start="1992-08-29 01:03"/>
+<EVENT end="2009" id="E63" lowerbound-end="1992-09-01 13:44" lowerbound-start="1992-08-30 12:45" modality="FACTUAL" most-likely-end="1992-09-05 00:30" most-likely-start="1992-08-31 10:30" polarity="POS" start="1982" temporally-annotated="YES" text="multiple blood transfusions" type="TREATMENT" upperbound-end="1992-09-13 04:05" upperbound-start="1992-09-05 08:15"/>
+<EVENT end="2030" id="E64" lowerbound-end="1992-09-01 13:44" lowerbound-start="1992-08-30 12:45" modality="FACTUAL" most-likely-end="1992-09-05 00:30" most-likely-start="1992-08-31 10:30" polarity="POS" start="2014" temporally-annotated="YES" text="a low hematocrit" type="PROBLEM" upperbound-end="1992-09-13 04:05" upperbound-start="1992-09-05 08:15"/>
+<EVENT end="221" id="E5" lowerbound-end="1992-08-29 20:03" lowerbound-start="1992-08-06 17:03" modality="FACTUAL" most-likely-end="1992-09-03 10:33" most-likely-start="1992-08-20 10:33" polarity="POS" start="213" temporally-annotated="YES" text="Aztrenam" type="TREATMENT" upperbound-end="1992-09-21 04:03" upperbound-start="1992-08-29 01:03"/>
+<EVENT end="240" id="E6" lowerbound-end="1993-02-18 21:45" lowerbound-start="1971-11-01 15:25" modality="FACTUAL" most-likely-end="2027-05-02 17:00" most-likely-start="1981-10-31 05:00" polarity="POS" start="237" temporally-annotated="YES" text="MAI" type="PROBLEM" upperbound-end="2123-01-22 00:54" upperbound-start="2046-10-16 18:34"/>
+<EVENT end="253" id="E7" lowerbound-end="1992-08-30 17:00" lowerbound-start="1992-08-30 15:00" modality="FACTUAL" most-likely-end="1992-08-31 10:33" most-likely-start="1992-08-31 03:30" polarity="POS" start="245" temporally-annotated="YES" text="comes in" type="OCCURRENCE" upperbound-end="1992-09-02 06:30" upperbound-start="1992-09-01 16:00"/>
+<EVENT end="264" id="E8" lowerbound-end="1992-08-30 19:37" lowerbound-start="1992-08-30 07:37" modality="FACTUAL" most-likely-end="1992-09-01 06:30" most-likely-start="1992-08-30 23:30" polarity="POS" start="259" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-end="1992-09-09 03:22" upperbound-start="1992-09-04 15:22"/>
+<EVENT end="273" id="E9" lowerbound-end="1992-08-30 19:37" lowerbound-start="1992-08-30 07:37" modality="FACTUAL" most-likely-end="1992-09-01 06:30" most-likely-start="1992-08-30 23:30" polarity="POS" start="267" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-end="1992-09-09 03:22" upperbound-start="1992-09-04 15:22"/>
+<EVENT end="292" id="E10" lowerbound-end="1992-08-26 02:42" lowerbound-start="1992-08-25 18:30" modality="FACTUAL" most-likely-end="1992-08-29 17:00" most-likely-start="1992-08-27 17:00" polarity="POS" start="278" temporally-annotated="YES" text="blood cultures" type="TEST" upperbound-end="1992-09-09 23:42" upperbound-start="1992-09-02 15:30"/>
+<EVENT end="38" id="E1" lowerbound-end="1992-09-07 00:00" lowerbound-start="1992-09-06 23:29" modality="FACTUAL" most-likely-end="1992-09-07 12:33" most-likely-start="1992-09-07 12:27" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-end="1992-09-09 01:30" upperbound-start="1992-09-09 00:59"/>
+<EVENT end="321" id="E11" lowerbound-end="1992-08-26 02:42" lowerbound-start="1992-08-25 18:30" modality="FACTUAL" most-likely-end="1992-08-29 17:00" most-likely-start="1992-08-27 17:00" polarity="POS" start="306" temporally-annotated="YES" text="candida species" type="PROBLEM" upperbound-end="1992-09-09 23:42" upperbound-start="1992-09-02 15:30"/>
+<EVENT end="363" id="E12" lowerbound-end="1952-10-24 16:27" lowerbound-start="1931-07-07 10:08" modality="FACTUAL" most-likely-end="2027-05-02 17:00" most-likely-start="1973-05-01 17:00" polarity="POS" start="340" temporally-annotated="YES" text="multiple AIDS illnesses" type="PROBLEM" upperbound-end="2236-04-27 06:11" upperbound-start="2115-01-31 23:52"/>
+<EVENT end="377" id="E13" lowerbound-end="1993-02-18 21:45" lowerbound-start="1971-11-01 15:25" modality="FACTUAL" most-likely-end="2027-05-02 17:00" most-likely-start="1981-10-31 05:00" polarity="POS" start="374" temporally-annotated="YES" text="MAI" type="PROBLEM" upperbound-end="2123-01-22 00:54" upperbound-start="2046-10-16 18:34"/>
+<EVENT end="405" id="E14" lowerbound-end="1948-07-01 20:03" lowerbound-start="1931-07-07 10:08" modality="FACTUAL" most-likely-end="1992-08-31 09:03" most-likely-start="1973-05-01 17:00" polarity="POS" start="386" temporally-annotated="YES" text="multiple admissions" type="OCCURRENCE" upperbound-end="2118-10-10 10:04" upperbound-start="2115-01-31 23:52"/>
+<EVENT end="431" id="E15" lowerbound-end="1933-03-09 17:29" lowerbound-start="1933-03-06 05:28" modality="FACTUAL" most-likely-end="1982-05-07 05:00" most-likely-start="1973-05-01 17:00" polarity="POS" start="410" temporally-annotated="YES" text="pseudomonas pneumonia" type="PROBLEM" upperbound-end="2163-05-29 04:32" upperbound-start="2113-06-03 04:31"/>
+<EVENT end="459" id="E16" lowerbound-end="1992-08-24 19:12" lowerbound-start="1992-08-23 01:12" modality="FACTUAL" most-likely-end="1992-08-25 12:30" most-likely-start="1992-08-23 12:30" polarity="POS" start="434" temporally-annotated="YES" text="His most recent admission" type="OCCURRENCE" upperbound-end="1992-08-27 05:48" upperbound-start="1992-08-24 23:48"/>
+<EVENT end="498" id="E17" lowerbound-end="1992-08-24 01:12" lowerbound-start="1992-08-23 01:12" modality="FACTUAL" most-likely-end="1992-08-25 06:30" most-likely-start="1992-08-23 12:30" polarity="POS" start="493" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-end="1992-08-29 11:48" upperbound-start="1992-08-24 23:48"/>
+<EVENT end="509" id="E18" lowerbound-end="1992-08-24 01:12" lowerbound-start="1992-08-23 01:12" modality="FACTUAL" most-likely-end="1992-08-25 06:30" most-likely-start="1992-08-23 12:30" polarity="POS" start="503" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-end="1992-08-29 11:48" upperbound-start="1992-08-24 23:48"/>
+<EVENT end="552" id="E19" lowerbound-end="1992-08-27 00:12" lowerbound-start="1992-08-23 01:12" modality="FACTUAL" most-likely-end="1992-08-30 13:00" most-likely-start="1992-08-23 12:30" polarity="POS" start="538" temporally-annotated="YES" text="IV Ceftazidime" type="TREATMENT" upperbound-end="1992-09-13 15:48" upperbound-start="1992-08-24 23:48"/>
+<EVENT end="587" id="E20" lowerbound-end="1992-08-19 22:18" lowerbound-start="1992-08-18 18:48" modality="POSSIBLE" most-likely-end="1992-08-28 11:00" most-likely-start="1992-08-23 11:00" polarity="POS" start="566" temporally-annotated="YES" text="pseudomonal pneumonia" type="PROBLEM" upperbound-end="1992-09-27 04:43" upperbound-start="1992-09-04 03:11"/>
+<EVENT end="602" id="E21" lowerbound-end="1992-08-23 11:56" lowerbound-start="1992-08-23 10:55" modality="FACTUAL" most-likely-end="1992-08-25 12:30" most-likely-start="1992-08-25 12:27" polarity="POS" start="592" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-end="1992-08-31 13:03" upperbound-start="1992-08-31 13:03"/>
+<EVENT end="625" id="E22" lowerbound-end="1992-09-02 18:12" lowerbound-start="1992-08-23 01:12" modality="FACTUAL" most-likely-end="1992-09-06 12:30" most-likely-start="1992-08-23 12:30" polarity="POS" start="611" temporally-annotated="YES" text="IV antibiotics" type="TREATMENT" upperbound-end="1992-09-20 09:48" upperbound-start="1992-08-24 23:48"/>
+<EVENT end="673" id="E23" lowerbound-end="1992-08-30 03:03" lowerbound-start="1992-08-23 12:26" modality="FACTUAL" most-likely-end="1992-08-30 19:00" most-likely-start="1992-08-25 13:00" polarity="POS" start="669" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-end="1992-09-01 10:56" upperbound-start="1992-08-31 13:33"/>
+<EVENT end="703" id="E24" lowerbound-end="1992-08-30 03:03" lowerbound-start="1992-08-24 01:42" modality="FACTUAL" most-likely-end="1992-08-30 19:00" most-likely-start="1992-08-24 13:00" polarity="POS" start="698" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-end="1992-09-01 10:56" upperbound-start="1992-08-26 00:18"/>
+<EVENT end="721" id="E25" lowerbound-end="1992-08-30 03:03" lowerbound-start="1992-08-24 01:42" modality="FACTUAL" most-likely-end="1992-08-30 19:00" most-likely-start="1992-08-24 13:00" polarity="POS" start="708" temporally-annotated="YES" text="good appetite" type="OCCURRENCE" upperbound-end="1992-09-01 10:56" upperbound-start="1992-08-26 00:18"/>
+<EVENT end="756" id="E26" lowerbound-end="1992-08-31 00:01" lowerbound-start="1992-08-31 00:00" modality="FACTUAL" most-likely-end="1992-08-31 10:35" most-likely-start="1992-08-31 10:30" polarity="POS" start="747" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-end="1992-09-01 22:01" upperbound-start="1992-09-01 21:00"/>
+<EVENT end="780" id="E27" lowerbound-end="1992-08-30 19:37" lowerbound-start="1992-08-30 07:37" modality="FACTUAL" most-likely-end="1992-09-01 06:30" most-likely-start="1992-08-30 23:30" polarity="POS" start="775" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-end="1992-09-09 03:22" upperbound-start="1992-09-04 15:22"/>
+<EVENT end="791" id="E28" lowerbound-end="1992-08-30 19:37" lowerbound-start="1992-08-30 07:37" modality="FACTUAL" most-likely-end="1992-09-01 06:30" most-likely-start="1992-08-30 23:30" polarity="POS" start="785" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-end="1992-09-09 03:22" upperbound-start="1992-09-04 15:22"/>
+<EVENT end="819" id="E29" lowerbound-end="1992-08-26 02:42" lowerbound-start="1992-08-25 18:30" modality="FACTUAL" most-likely-end="1992-08-29 17:00" most-likely-start="1992-08-27 17:00" polarity="POS" start="794" temporally-annotated="YES" text="Concurrent blood cultures" type="TEST" upperbound-end="1992-09-09 23:42" upperbound-start="1992-09-02 15:30"/>
+<EVENT end="844" id="E30" lowerbound-end="1992-08-26 02:42" lowerbound-start="1992-08-25 18:30" modality="FACTUAL" most-likely-end="1992-08-29 17:00" most-likely-start="1992-08-27 17:00" polarity="POS" start="829" temporally-annotated="YES" text="candida species" type="PROBLEM" upperbound-end="1992-09-09 23:42" upperbound-start="1992-09-02 15:30"/>
+<EVENT end="852" id="E31" lowerbound-end="1992-08-25 23:00" lowerbound-start="1992-08-25 22:30" modality="FACTUAL" most-likely-end="1992-08-28 21:00" most-likely-start="1992-08-27 21:00" polarity="POS" start="848" temporally-annotated="YES" text="HCHP" type="CLINICAL_DEPT" upperbound-end="1992-09-06 20:00" upperbound-start="1992-09-02 19:30"/>
+<EVENT end="897" id="E32" lowerbound-end="1992-08-27 07:31" lowerbound-start="1992-08-27 07:30" modality="FACTUAL" most-likely-end="1992-08-28 09:02" most-likely-start="1992-08-27 21:00" polarity="POS" start="855" temporally-annotated="YES" text="The patient 's baseline O2 saturation" type="TEST" upperbound-end="1992-09-01 23:01" upperbound-start="1992-08-29 10:30"/>
+<EVENT end="920" id="E33" lowerbound-end="1992-08-27 07:31" lowerbound-start="1992-08-27 07:30" modality="FACTUAL" most-likely-end="1992-08-28 09:02" most-likely-start="1992-08-27 21:00" polarity="POS" start="908" temporally-annotated="YES" text="three liters" type="TREATMENT" upperbound-end="1992-09-01 23:01" upperbound-start="1992-08-29 10:30"/>
+<EVENT end="946" id="E34" lowerbound-end="1992-07-21 05:17" lowerbound-start="1992-07-21 05:16" modality="FACTUAL" most-likely-end="1992-08-01 21:07" most-likely-start="1992-08-01 21:00" polarity="POS" start="930" temporally-annotated="YES" text="a left arm graft" type="TREATMENT" upperbound-end="1992-09-01 06:45" upperbound-start="1992-09-01 05:44"/>
+<EVENT end="1012" id="E35" lowerbound-end="1992-07-21 05:31" lowerbound-start="1992-07-21 05:30" modality="FACTUAL" most-likely-end="1993-08-01 21:07" most-likely-start="1992-08-01 21:05" polarity="POS" start="999" temporally-annotated="YES" text="blood drawing" type="TREATMENT" upperbound-end="1997-08-31 06:11" upperbound-start="1992-09-01 05:40"/>
+<TIMEX3 end="1149" id="T5" mod="NA" start="1128" text="the time of admission" type="DATE" val="1992-08-31"/>
+<TIMEX3 end="1209" id="T6" mod="APPROX" start="1172" text="p.o. on Monday , Wednesday and Friday" type="FREQUENCY" val="rp48h"/>
+<TIMEX3 end="1244" id="T7" mod="NA" start="1234" text="q. 8 hours" type="FREQUENCY" val="rp8h"/>
+<TIMEX3 end="1271" id="T8" mod="NA" start="1265" text="b.i.d." type="FREQUENCY" val="rp12h"/>
+<TIMEX3 end="1302" id="T9" mod="NA" start="1296" text="q. day" type="FREQUENCY" val="rp24h"/>
+<TIMEX3 end="1332" id="T10" mod="NA" start="1326" text="t.i.d." type="FREQUENCY" val="rp8h"/>
+<TIMEX3 end="1370" id="T11" mod="NA" start="1364" text="b.i.d." type="FREQUENCY" val="rp12h"/>
+<TIMEX3 end="1755" id="T12" mod="NA" start="1739" text="the fourteen day" type="DURATION" val="p14d"/>
+<TIMEX3 end="1794" id="T13" mod="NA" start="1786" text="09/06/92" type="DATE" val="1992-09-06"/>
+<TIMEX3 end="475" id="T0" mod="NA" start="467" text="08/23/92" type="DATE" val="1992-08-23"/>
+<TIMEX3 end="487" id="T1" mod="NA" start="479" text="08/25/92" type="DATE" val="1992-08-25"/>
+<TIMEX3 end="756" id="T3" mod="END" start="728" text="the night prior to admission" type="TIME" val="1992-08-30"/>
+<TIMEX3 end="976" id="T4" mod="NA" start="965" text="three weeks" type="DURATION" val="p3w"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T0" toText="08/23/92" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL1" toID="T1" toText="08/25/92" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="candida species" id="TL10" toID="E10" toText="blood cultures" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E12" fromText="multiple AIDS illnesses" id="TL11" toID="E2" toText="AIDS" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="multiple AIDS illnesses" id="TL12" toID="E13" toText="MAI" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="multiple AIDS illnesses" id="TL13" toID="E14" toText="multiple admissions" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="pseudomonas pneumonia" id="TL14" toID="E12" toText="multiple AIDS illnesses" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="pseudomonas pneumonia" id="TL15" toID="E14" toText="multiple admissions" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="multiple admissions" id="TL16" toID="E16" toText="His most recent admission" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="His most recent admission" id="TL17" toID="T0" toText="08/23/92" type="BEGUN_BY"/>
+<TLINK fromID="E16" fromText="His most recent admission" id="TL18" toID="T1" toText="08/25/92" type="ENDED_BY"/>
+<TLINK fromID="E16" fromText="His most recent admission" id="TL19" toID="E17" toText="fever" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="AIDS" id="TL2" toID="E3" toText="recurrent pseudomonas infections" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="fever" id="TL20" toID="E18" toText="chills" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="IV Ceftazidime" id="TL21" toID="E16" toText="His most recent admission" type="DURING"/>
+<TLINK fromID="E20" fromText="pseudomonal pneumonia" id="TL22" toID="E19" toText="IV Ceftazidime" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="discharged" id="TL23" toID="T1" toText="08/25/92" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="IV antibiotics" id="TL24" toID="E21" toText="discharged" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="well" id="TL25" toID="E21" toText="discharged" type="AFTER"/>
+<TLINK fromID="E23" fromText="well" id="TL26" toID="E24" toText="fever" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="fever" id="TL27" toID="E25" toText="good appetite" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="well" id="TL28" toID="T3" toText="the night prior to admission" type="ENDED_BY"/>
+<TLINK fromID="E27" fromText="fever" id="TL29" toID="T3" toText="the night prior to admission" type="BEGUN_BY"/>
+<TLINK fromID="E3" fromText="recurrent pseudomonas infections" id="TL3" toID="E4" toText="Ceftazidime" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="chills" id="TL30" toID="T3" toText="the night prior to admission" type="BEGUN_BY"/>
+<TLINK fromID="E53" fromText="positive blood cultures" id="TL31" toID="E29" toText="Concurrent blood cultures" type="SIMULTANEOUS"/>
+<TLINK fromID="E10" fromText="blood cultures" id="TL32" toID="E29" toText="Concurrent blood cultures" type="simultaneous"/>
+<TLINK fromID="E31" fromText="HCHP" id="TL33" toID="E29" toText="Concurrent blood cultures" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="candida species" id="TL34" toID="E30" toText="candida species" type="simultaneous"/>
+<TLINK fromID="E30" fromText="candida species" id="TL35" toID="E54" toText="candida" type="simultaneous"/>
+<TLINK fromID="E32" fromText="The patient 's baseline O2 saturation" id="TL36" toID="E0" toText="Admission" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E33" fromText="three liters" id="TL37" toID="E32" toText="The patient 's baseline O2 saturation" type="SIMULTANEOUS"/>
+<TLINK fromID="E35" fromText="blood drawing" id="TL38" toID="E34" toText="a left arm graft" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="the passport site" id="TL39" toID="E34" toText="a left arm graft" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="Ceftazidime" id="TL4" toID="E5" toText="Aztrenam" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="The passport in his left arm" id="TL40" toID="E34" toText="a left arm graft" type="SIMULTANEOUS"/>
+<TLINK fromID="E34" fromText="a left arm graft" id="TL41" toID="T4" toText="three weeks" type="BEGUN_BY"/>
+<TLINK fromID="E36" fromText="IV medications" id="TL42" toID="E35" toText="blood drawing" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="notes" id="TL43" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="tenderness" id="TL44" toID="E37" toText="notes" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="warmth" id="TL45" toID="E39" toText="erythema" type="OVERLAP"/>
+<TLINK fromID="E39" fromText="erythema" id="TL46" toID="E38" toText="tenderness" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="warmth" id="TL47" toID="E41" toText="exudate" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="the passport site" id="TL48" toID="E41" toText="exudate" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E43" fromText="Medications" id="TL49" toID="E44" toText="admission" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E60" fromText="his admission medications" id="TL5" toID="E4" toText="Ceftazidime" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="his admission medications" id="TL50" toID="E43" toText="Medications" type="SIMULTANEOUS"/>
+<TLINK fromID="E45" fromText="Dapsone" id="TL51" toID="E43" toText="Medications" type="OVERLAP"/>
+<TLINK fromID="T6" fromText="p.o. on Monday , Wednesday and Friday" id="TL52" toID="E45" toText="Dapsone" type="SIMULTANEOUS"/>
+<TLINK fromID="E45" fromText="Dapsone" id="TL53" toID="E46" toText="Ceftazidime" type="OVERLAP"/>
+<TLINK fromID="E46" fromText="Ceftazidime" id="TL54" toID="T7" toText="q. 8 hours" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="Cipro" id="TL55" toID="E46" toText="Ceftazidime" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="Cipro" id="TL56" toID="T8" toText="b.i.d." type="SIMULTANEOUS"/>
+<TLINK fromID="E47" fromText="Cipro" id="TL57" toID="E48" toText="Acyclovir" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="Acyclovir" id="TL58" toID="T9" toText="q. day" type="SIMULTANEOUS"/>
+<TLINK fromID="E48" fromText="Acyclovir" id="TL59" toID="E49" toText="Megastrol" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="his admission medications" id="TL6" toID="E5" toText="Aztrenam" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="Megastrol" id="TL60" toID="T10" toText="t.i.d." type="SIMULTANEOUS"/>
+<TLINK fromID="E49" fromText="Megastrol" id="TL61" toID="E50" toText="G-CSF" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="G-CSF" id="TL62" toID="T11" toText="b.i.d." type="SIMULTANEOUS"/>
+<TLINK fromID="E51" fromText="Infectious Disease" id="TL63" toID="E2" toText="AIDS" type="SIMULTANEOUS"/>
+<TLINK fromID="E54" fromText="candida" id="TL65" toID="E53" toText="positive blood cultures" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E55" fromText="The passport in his left arm" id="TL66" toID="E56" toText="pulled" type="ENDED_BY"/>
+<TLINK fromID="E52" fromText="Amphotericine" id="TL67" toID="E57" toText="the Amphotericine" type="simultaneous"/>
+<TLINK fromID="E52" fromText="Amphotericine" id="TL68" toID="E54" toText="candida" type="OVERLAP"/>
+<TLINK fromID="E52" fromText="Amphotericine" id="TL69" toID="E53" toText="positive blood cultures" type="AFTER"/>
+<TLINK fromID="E3" fromText="recurrent pseudomonas infections" id="TL7" toID="E6" toText="MAI" type="OVERLAP"/>
+<TLINK fromID="E58" fromText="his antibiotics" id="TL70" toID="E46" toText="Ceftazidime" type="SIMULTANEOUS"/>
+<TLINK fromID="E58" fromText="his antibiotics" id="TL71" toID="T12" toText="the fourteen day" type="SIMULTANEOUS"/>
+<TLINK fromID="T12" fromText="the fourteen day" id="TL72" toID="T13" toText="09/06/92" type="ENDED_BY"/>
+<TLINK fromID="E50" fromText="G-CSF" id="TL73" toID="E61" toText="his G-CSF" type="simultaneous"/>
+<TLINK fromID="E63" fromText="multiple blood transfusions" id="TL74" toID="E61" toText="his G-CSF" type="OVERLAP"/>
+<TLINK fromID="E62" fromText="his white count" id="TL75" toID="E61" toText="his G-CSF" type="AFTER"/>
+<TLINK fromID="E64" fromText="a low hematocrit" id="TL76" toID="E63" toText="multiple blood transfusions" type="BEFORE"/>
+<TLINK fromID="E63" fromText="multiple blood transfusions" id="TL77" toID="E0" toText="Admission" type="AFTER"/>
+<TLINK fromID="E20" fromText="pseudomonal pneumonia" id="TL78" toID="E59" toText="pseudomonas pneumonia" type="simultaneous"/>
+<TLINK fromID="E59" fromText="pseudomonas pneumonia" id="TL79" toID="E58" toText="his antibiotics" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E8" fromText="fever" id="TL8" toID="E7" toText="comes in" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="fever" id="TL9" toID="E9" toText="chills" type="OVERLAP"/>
+<SECTIME dvalue="1992-08-31" end="28" id="S0" start="18" text="08/31/1992" type="ADMISSION"/>
+<SECTIME dvalue="1992-09-07" end="56" id="S1" start="46" text="09/07/1992" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

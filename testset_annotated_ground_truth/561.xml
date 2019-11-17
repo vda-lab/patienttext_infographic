@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+2-23-93
+DISCHARGE DATE :
+2-24-93
+HISTORY OF PRESENT ILLNESS :
+This is the second Fairm of Ijordcompmac Hospital admission for Taroby Patient , a 70 year old male with a history of metastatic melanoma .
+His melanoma was originally diagnosed last fall when he presented with lesions in the liver and spleen , and a chest CT showed left upper lobe nodules .
+A head CT scan was negative , but an MRI scan of the spine showed an L5 metastasis with a fracture and had with epidural and paraspinal extension .
+In addition , there was a T11 metastasis with cord compression .
+Approximately one week ago , he was admitted to the Fairm of Ijordcompmac Hospital for chemotherapy with DTIC and Tamoxifen .
+At that time , he also began radiation therapy to his lumbosacral spine .
+He is continuing on the radiation therapy to date .
+On February 23 , Mr. Patient presented to Dr. Patient &amp;apos;s office with two major symptoms .
+First , he had right lower extremity swelling and lower extremity noninvasives confirmed the diagnosis of a femoral deep venous thrombosis .
+Second , he had a witnessed episode in which his eyes rolled to the back of his head and there was a question of some seizure activity .
+In the past , he has not been known to have a history of CNS metastases .
+The episode of potential seizure activity occurred in the setting of a bowel movement and may have been associated with vasovagal activity .
+HOSPITAL COURSE :
+Mr. Patient underwent venogram and inferior vena cava filter placement on February 23 , 1993 and was then he was admitted to the Fairm of Ijordcompmac Hospital for postoperative care .
+He tolerated the procedure well .
+In addition , the second major event that had occurred yesterday was a neurologic event of some kind .
+Over the 24 hours of in house hospitalization , he did not have any further neurologic activity and was able to ambulate without assistance prior to discharge .
+He will be scheduled for an MRI scan , Neurology consult , and an EEG next week as an out patient .
+Mr. Patient was a poor candidate for anticoagulation because of his history of metastatic melanoma and the question of CNS metastases .
+An IVC filter placement was accomplished without complication .
+He is stable on February 24 and ready for discharge to home .
+PROCEDURES :
+IVC filter placement .
+COMPLICATIONS :
+None .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-end="1993-02-23 01:19" lowerbound-start="1993-02-23 01:18" modality="FACTUAL" most-likely-end="1993-02-23 12:45" most-likely-start="1993-02-23 12:40" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-end="1993-02-25 00:42" upperbound-start="1993-02-25 00:01"/>
+<EVENT end="1071" id="E29" lowerbound-end="1993-02-21 10:45" lowerbound-start="1993-02-21 21:04" modality="FACTUAL" most-likely-end="1993-02-23 20:30" most-likely-start="1993-02-23 12:11" polarity="POS" start="1039" temporally-annotated="YES" text="a femoral deep venous thrombosis" type="PROBLEM" upperbound-end="1993-03-01 06:15" upperbound-start="1993-02-28 03:19"/>
+<EVENT end="1109" id="E30" lowerbound-end="1993-02-21 19:21" lowerbound-start="1993-02-21 19:20" modality="FACTUAL" most-likely-end="1993-02-22 11:47" most-likely-start="1993-02-22 11:40" polarity="POS" start="1090" temporally-annotated="YES" text="a witnessed episode" type="PROBLEM" upperbound-end="1993-02-26 05:01" upperbound-start="1993-02-26 04:00"/>
+<EVENT end="1158" id="E31" lowerbound-end="1993-02-21 19:21" lowerbound-start="1993-02-21 19:20" modality="FACTUAL" most-likely-end="1993-02-22 11:47" most-likely-start="1993-02-22 11:40" polarity="POS" start="1119" temporally-annotated="YES" text="his eyes rolled to the back of his head" type="PROBLEM" upperbound-end="1993-02-26 05:01" upperbound-start="1993-02-26 04:00"/>
+<EVENT end="1208" id="E32" lowerbound-end="1993-02-21 19:21" lowerbound-start="1993-02-21 19:20" modality="POSSIBLE" most-likely-end="1993-02-22 11:47" most-likely-start="1993-02-22 11:40" polarity="POS" start="1187" temporally-annotated="YES" text="some seizure activity" type="PROBLEM" upperbound-end="1993-02-26 04:41" upperbound-start="1993-02-26 04:00"/>
+<EVENT end="1282" id="E33" lowerbound-end="1993-02-21 19:21" lowerbound-start="1959-07-31 13:24" modality="FACTUAL" most-likely-end="1993-02-22 11:46" most-likely-start="1976-05-16 19:50" polarity="NEG" start="1268" temporally-annotated="YES" text="CNS metastases" type="PROBLEM" upperbound-end="1993-02-26 04:21" upperbound-start="1993-07-14 02:15"/>
+<EVENT end="1326" id="E34" lowerbound-end="1993-02-21 19:21" lowerbound-start="1993-02-21 19:20" modality="POSSIBLE" most-likely-end="1993-02-22 11:47" most-likely-start="1993-02-22 11:40" polarity="POS" start="1300" temporally-annotated="YES" text="potential seizure activity" type="PROBLEM" upperbound-end="1993-02-26 04:41" upperbound-start="1993-02-26 04:00"/>
+<EVENT end="139" id="E61" lowerbound-end="1993-02-23 16:20" lowerbound-start="1993-02-23 01:22" modality="FACTUAL" most-likely-end="1993-02-24 04:43" most-likely-start="1993-02-23 13:25" polarity="POS" start="130" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-end="1993-02-25 17:20" upperbound-start="1993-02-25 01:28"/>
+<EVENT end="1370" id="E35" lowerbound-end="1993-02-21 19:22" lowerbound-start="1993-02-21 19:21" modality="FACTUAL" most-likely-end="1993-02-22 11:48" most-likely-start="1993-02-22 11:41" polarity="POS" start="1354" temporally-annotated="YES" text="a bowel movement" type="OCCURRENCE" upperbound-end="1993-02-26 05:02" upperbound-start="1993-02-26 04:01"/>
+<EVENT end="1423" id="E36" lowerbound-end="1993-02-21 19:22" lowerbound-start="1993-02-21 19:21" modality="POSSIBLE" most-likely-end="1993-02-22 11:48" most-likely-start="1993-02-22 11:41" polarity="POS" start="1405" temporally-annotated="YES" text="vasovagal activity" type="PROBLEM" upperbound-end="1993-02-26 05:02" upperbound-start="1993-02-26 04:01"/>
+<EVENT end="1474" id="E37" lowerbound-end="1993-02-22 22:41" lowerbound-start="1993-02-22 22:11" modality="FACTUAL" most-likely-end="1993-02-23 13:06" most-likely-start="1993-02-23 12:21" polarity="POS" start="1466" temporally-annotated="YES" text="venogram" type="TEST" upperbound-end="1993-02-25 04:02" upperbound-start="1993-02-25 02:32"/>
+<EVENT end="1514" id="E38" lowerbound-end="1993-02-23 00:13" lowerbound-start="1993-02-23 00:05" modality="FACTUAL" most-likely-end="1993-02-23 13:33" most-likely-start="1993-02-23 13:11" polarity="POS" start="1479" temporally-annotated="YES" text="inferior vena cava filter placement" type="TREATMENT" upperbound-end="1993-02-25 03:25" upperbound-start="1993-02-25 02:17"/>
+<EVENT end="1565" id="E39" lowerbound-end="1993-02-23 12:40" lowerbound-start="1993-02-23 01:22" modality="FACTUAL" most-likely-end="1993-02-24 04:43" most-likely-start="1993-02-23 13:25" polarity="POS" start="1557" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1993-02-25 19:00" upperbound-start="1993-02-25 01:28"/>
+<EVENT end="1603" id="E40" lowerbound-end="1993-02-22 19:35" lowerbound-start="1993-02-23 01:22" modality="FACTUAL" most-likely-end="1993-02-24 12:43" most-likely-start="1993-02-23 13:25" polarity="POS" start="1569" temporally-annotated="YES" text="the Fairm of Ijordcompmac Hospital" type="CLINICAL_DEPT" upperbound-end="1993-03-01 03:51" upperbound-start="1993-02-25 01:28"/>
+<EVENT end="1626" id="E41" lowerbound-end="1993-02-23 20:40" lowerbound-start="1993-02-23 00:40" modality="FACTUAL" most-likely-end="1993-02-24 12:40" most-likely-start="1993-02-23 14:08" polarity="POS" start="1608" temporally-annotated="YES" text="postoperative care" type="TREATMENT" upperbound-end="1993-02-26 02:40" upperbound-start="1993-02-25 03:36"/>
+<EVENT end="1641" id="E43" lowerbound-end="1993-02-23 00:25" lowerbound-start="1993-02-22 23:40" modality="FACTUAL" most-likely-end="1993-02-23 13:33" most-likely-start="1993-02-23 12:56" polarity="POS" start="1632" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-end="1993-02-25 03:04" upperbound-start="1993-02-25 02:13"/>
+<EVENT end="1655" id="E42" lowerbound-end="1993-02-23 00:25" lowerbound-start="1993-02-22 23:40" modality="FACTUAL" most-likely-end="1993-02-23 13:33" most-likely-start="1993-02-23 12:56" polarity="POS" start="1642" temporally-annotated="YES" text="the procedure" type="TREATMENT" upperbound-end="1993-02-25 03:04" upperbound-start="1993-02-25 02:13"/>
+<EVENT end="1750" id="E44" lowerbound-end="1993-02-21 19:21" lowerbound-start="1993-02-21 19:20" modality="FACTUAL" most-likely-end="1993-02-22 11:47" most-likely-start="1993-02-22 11:40" polarity="POS" start="1732" temporally-annotated="YES" text="a neurologic event" type="PROBLEM" upperbound-end="1993-02-26 04:41" upperbound-start="1993-02-26 04:00"/>
+<EVENT end="1811" id="E45" lowerbound-end="1993-02-24 03:00" lowerbound-start="1993-02-23 02:03" modality="FACTUAL" most-likely-end="1993-02-24 13:00" most-likely-start="1993-02-23 13:37" polarity="POS" start="1787" temporally-annotated="YES" text="in house hospitalization" type="OCCURRENCE" upperbound-end="1993-02-25 23:00" upperbound-start="1993-02-25 01:12"/>
+<EVENT end="1861" id="E46" lowerbound-end="1993-02-24 03:00" lowerbound-start="1993-02-23 02:03" modality="FACTUAL" most-likely-end="1993-02-24 13:00" most-likely-start="1993-02-23 13:37" polarity="NEG" start="1830" temporally-annotated="YES" text="any further neurologic activity" type="PROBLEM" upperbound-end="1993-02-25 23:00" upperbound-start="1993-02-25 01:12"/>
+<EVENT end="1905" id="E47" lowerbound-end="1993-02-23 00:35" lowerbound-start="1993-02-22 07:57" modality="FACTUAL" most-likely-end="1993-02-24 12:53" most-likely-start="1993-02-24 03:31" polarity="POS" start="1878" temporally-annotated="YES" text="ambulate without assistance" type="OCCURRENCE" upperbound-end="1993-03-01 01:11" upperbound-start="1993-02-28 18:58"/>
+<EVENT end="1924" id="E48" lowerbound-end="1993-02-23 21:44" lowerbound-start="1993-02-23 21:23" modality="FACTUAL" most-likely-end="1993-02-24 13:03" most-likely-start="1993-02-24 12:58" polarity="POS" start="1915" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1993-02-26 04:36" upperbound-start="1993-02-26 04:15"/>
+<EVENT end="1963" id="E49" lowerbound-end="1993-02-27 03:56" lowerbound-start="1993-02-27 03:46" modality="PROPOSED" most-likely-end="1993-03-02 21:08" most-likely-start="1993-03-02 20:40" polarity="POS" start="1952" temporally-annotated="YES" text="an MRI scan" type="TEST" upperbound-end="1993-03-19 17:43" upperbound-start="1993-03-19 08:53"/>
+<EVENT end="1983" id="E50" lowerbound-end="1993-02-27 04:47" lowerbound-start="1993-02-27 04:34" modality="PROPOSED" most-likely-end="1993-03-02 21:58" most-likely-start="1993-03-02 21:26" polarity="POS" start="1966" temporally-annotated="YES" text="Neurology consult" type="OCCURRENCE" upperbound-end="1993-03-19 10:52" upperbound-start="1993-03-19 09:39"/>
+<EVENT end="217" id="E2" lowerbound-end="1992-04-18 21:58" lowerbound-start="1992-04-25 09:17" modality="FACTUAL" most-likely-end="1993-05-10 19:40" most-likely-start="1992-10-25 20:00" polarity="POS" start="198" temporally-annotated="YES" text="metastatic melanoma" type="PROBLEM" upperbound-end="2028-02-12 01:22" upperbound-start="1994-04-27 06:42"/>
+<EVENT end="1996" id="E51" lowerbound-end="1993-02-27 05:38" lowerbound-start="1993-02-27 04:20" modality="PROPOSED" most-likely-end="1993-03-03 02:06" most-likely-start="1993-03-02 21:16" polarity="POS" start="1990" temporally-annotated="YES" text="an EEG" type="TEST" upperbound-end="1993-03-19 19:31" upperbound-start="1993-03-19 09:33"/>
+<EVENT end="2079" id="E52" lowerbound-end="1993-02-21 21:44" lowerbound-start="1992-11-20 22:30" modality="FACTUAL" most-likely-end="1996-06-25 13:00" most-likely-start="1993-01-16 20:50" polarity="NEG" start="2064" temporally-annotated="YES" text="anticoagulation" type="TREATMENT" upperbound-end="2026-06-23 04:17" upperbound-start="1993-07-17 03:10"/>
+<EVENT end="2125" id="E53" lowerbound-end="1992-04-18 21:58" lowerbound-start="1992-04-15 15:46" modality="FACTUAL" most-likely-end="1993-05-10 19:40" most-likely-start="1992-10-15 12:00" polarity="POS" start="2106" temporally-annotated="YES" text="metastatic melanoma" type="PROBLEM" upperbound-end="2028-02-12 01:22" upperbound-start="1994-04-16 08:14"/>
+<EVENT end="2160" id="E54" lowerbound-end="1993-02-22 09:02" lowerbound-start="1992-10-06 12:07" modality="POSSIBLE" most-likely-end="1993-02-22 23:09" most-likely-start="1992-12-27 23:15" polarity="POS" start="2146" temporally-annotated="YES" text="CNS metastases" type="PROBLEM" upperbound-end="1993-02-24 13:31" upperbound-start="1993-09-19 10:23"/>
+<EVENT end="2186" id="E55" lowerbound-end="1993-02-23 00:13" lowerbound-start="1993-02-23 00:05" modality="FACTUAL" most-likely-end="1993-02-23 13:33" most-likely-start="1993-02-23 13:11" polarity="POS" start="2163" temporally-annotated="YES" text="An IVC filter placement" type="TREATMENT" upperbound-end="1993-02-25 03:25" upperbound-start="1993-02-25 02:17"/>
+<EVENT end="232" id="E3" lowerbound-end="1992-04-18 21:58" lowerbound-start="1992-04-15 15:46" modality="FACTUAL" most-likely-end="1993-05-10 19:40" most-likely-start="1992-10-15 12:00" polarity="POS" start="220" temporally-annotated="YES" text="His melanoma" type="PROBLEM" upperbound-end="2028-02-12 01:22" upperbound-start="1994-04-16 08:14"/>
+<EVENT end="2224" id="E56" lowerbound-end="1993-02-23 08:33" lowerbound-start="1993-02-23 00:05" modality="FACTUAL" most-likely-end="1993-02-23 22:28" most-likely-start="1993-02-23 13:51" polarity="NEG" start="2212" temporally-annotated="YES" text="complication" type="PROBLEM" upperbound-end="1993-02-25 12:45" upperbound-start="1993-02-25 03:37"/>
+<EVENT end="2239" id="E57" lowerbound-end="1993-02-23 00:35" lowerbound-start="1993-02-22 16:14" modality="FACTUAL" most-likely-end="1993-02-24 12:43" most-likely-start="1993-02-24 10:40" polarity="POS" start="2233" temporally-annotated="YES" text="stable" type="OCCURRENCE" upperbound-end="1993-03-01 00:51" upperbound-start="1993-03-01 00:51"/>
+<EVENT end="2278" id="E58" lowerbound-end="1993-02-23 21:44" lowerbound-start="1993-02-23 21:23" modality="FACTUAL" most-likely-end="1993-02-24 13:03" most-likely-start="1993-02-24 12:58" polarity="POS" start="2269" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-end="1993-02-26 04:36" upperbound-start="1993-02-26 04:15"/>
+<EVENT end="2322" id="E59" lowerbound-end="1993-02-23 00:13" lowerbound-start="1993-02-23 00:05" modality="FACTUAL" most-likely-end="1993-02-23 13:33" most-likely-start="1993-02-23 13:11" polarity="POS" start="2302" temporally-annotated="YES" text="IVC filter placement" type="TREATMENT" upperbound-end="1993-02-25 03:25" upperbound-start="1993-02-25 02:17"/>
+<EVENT end="257" id="E4" lowerbound-end="1992-04-15 15:27" lowerbound-start="1992-04-15 15:23" modality="FACTUAL" most-likely-end="1992-10-15 12:10" most-likely-start="1992-10-15 11:50" polarity="POS" start="248" temporally-annotated="YES" text="diagnosed" type="OCCURRENCE" upperbound-end="1994-04-16 09:00" upperbound-start="1994-04-16 08:16"/>
+<EVENT end="35" id="E1" lowerbound-end="1993-02-23 21:44" lowerbound-start="1993-02-23 21:23" modality="FACTUAL" most-likely-end="1993-02-24 13:03" most-likely-start="1993-02-24 12:58" polarity="POS" start="26" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-end="1993-02-26 04:36" upperbound-start="1993-02-26 04:15"/>
+<EVENT end="285" id="E5" lowerbound-end="1992-04-15 15:03" lowerbound-start="1992-04-13 07:02" modality="FACTUAL" most-likely-end="1992-10-15 11:50" most-likely-start="1992-10-14 19:40" polarity="POS" start="276" temporally-annotated="YES" text="presented" type="EVIDENTIAL" upperbound-end="1994-04-16 08:37" upperbound-start="1994-04-16 08:17"/>
+<EVENT end="322" id="E6" lowerbound-end="1992-07-17 06:17" lowerbound-start="1992-04-13 07:23" modality="FACTUAL" most-likely-end="1992-11-22 11:50" most-likely-start="1992-10-14 19:50" polarity="POS" start="291" temporally-annotated="YES" text="lesions in the liver and spleen" type="PROBLEM" upperbound-end="1993-11-29 09:23" upperbound-start="1994-04-16 08:16"/>
+<EVENT end="339" id="E7" lowerbound-end="1992-04-15 23:08" lowerbound-start="1992-04-15 22:42" modality="FACTUAL" most-likely-end="1992-10-15 20:00" most-likely-start="1992-10-15 19:30" polarity="POS" start="329" temporally-annotated="YES" text="a chest CT" type="TEST" upperbound-end="1994-04-16 17:02" upperbound-start="1994-04-16 16:17"/>
+<EVENT end="346" id="E8" lowerbound-end="1992-04-15 23:23" lowerbound-start="1992-04-15 23:03" modality="FACTUAL" most-likely-end="1992-10-15 20:00" most-likely-start="1992-10-15 19:40" polarity="POS" start="340" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1994-04-16 16:37" upperbound-start="1994-04-16 16:16"/>
+<EVENT end="370" id="E9" lowerbound-end="1992-04-18 21:58" lowerbound-start="1992-04-15 15:46" modality="FACTUAL" most-likely-end="1993-03-20 19:50" most-likely-start="1992-10-15 12:00" polarity="POS" start="347" temporally-annotated="YES" text="left upper lobe nodules" type="PROBLEM" upperbound-end="2027-10-13 09:42" upperbound-start="1994-04-16 08:14"/>
+<EVENT end="387" id="E10" lowerbound-end="1992-04-16 00:15" lowerbound-start="1992-04-16 00:14" modality="FACTUAL" most-likely-end="1992-10-15 20:33" most-likely-start="1992-10-15 20:10" polarity="POS" start="373" temporally-annotated="YES" text="A head CT scan" type="TEST" upperbound-end="1994-04-16 17:06" upperbound-start="1994-04-16 16:05"/>
+<EVENT end="431" id="E11" lowerbound-end="1992-04-16 00:28" lowerbound-start="1992-04-16 00:18" modality="FACTUAL" most-likely-end="1992-10-15 21:18" most-likely-start="1992-10-15 20:46" polarity="POS" start="407" temporally-annotated="YES" text="an MRI scan of the spine" type="TEST" upperbound-end="1994-04-17 02:05" upperbound-start="1994-04-16 17:15"/>
+<EVENT end="438" id="E12" lowerbound-end="1992-04-16 00:48" lowerbound-start="1992-04-16 00:38" modality="FACTUAL" most-likely-end="1992-10-15 21:18" most-likely-start="1992-10-15 21:01" polarity="POS" start="432" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-end="1994-04-16 18:14" upperbound-start="1994-04-16 17:25"/>
+<EVENT end="455" id="E13" lowerbound-end="1992-04-18 22:44" lowerbound-start="1992-04-25 09:59" modality="FACTUAL" most-likely-end="1993-03-20 20:26" most-likely-start="1992-10-25 20:40" polarity="POS" start="439" temporally-annotated="YES" text="an L5 metastasis" type="PROBLEM" upperbound-end="2027-10-13 10:24" upperbound-start="1994-04-27 07:20"/>
+<EVENT end="471" id="E14" lowerbound-end="1992-04-18 22:44" lowerbound-start="1992-04-25 09:59" modality="FACTUAL" most-likely-end="1993-03-20 20:26" most-likely-start="1992-10-25 20:40" polarity="POS" start="461" temporally-annotated="YES" text="a fracture" type="PROBLEM" upperbound-end="2027-10-13 10:24" upperbound-start="1994-04-27 07:20"/>
+<EVENT end="518" id="E15" lowerbound-end="1992-04-18 22:44" lowerbound-start="1992-04-25 09:59" modality="FACTUAL" most-likely-end="1993-03-20 20:26" most-likely-start="1992-10-25 20:40" polarity="POS" start="485" temporally-annotated="YES" text="epidural and paraspinal extension" type="PROBLEM" upperbound-end="2027-10-13 10:24" upperbound-start="1994-04-27 07:20"/>
+<EVENT end="561" id="E16" lowerbound-end="1992-04-18 22:44" lowerbound-start="1992-04-25 09:59" modality="FACTUAL" most-likely-end="1993-03-20 20:26" most-likely-start="1992-10-25 20:40" polarity="POS" start="545" temporally-annotated="YES" text="a T11 metastasis" type="PROBLEM" upperbound-end="2027-10-13 10:24" upperbound-start="1994-04-27 07:20"/>
+<EVENT end="583" id="E17" lowerbound-end="1992-04-18 22:44" lowerbound-start="1992-04-25 09:59" modality="FACTUAL" most-likely-end="1993-03-20 20:26" most-likely-start="1992-10-25 20:40" polarity="POS" start="567" temporally-annotated="YES" text="cord compression" type="PROBLEM" upperbound-end="2027-10-13 10:24" upperbound-start="1994-04-27 07:20"/>
+<EVENT end="630" id="E18" lowerbound-end="1993-02-12 10:28" lowerbound-start="1993-02-12 10:28" modality="FACTUAL" most-likely-end="1993-02-17 12:40" most-likely-start="1993-02-17 04:40" polarity="POS" start="622" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-end="1993-03-03 07:12" upperbound-start="1993-02-28 22:52"/>
+<EVENT end="668" id="E19" lowerbound-end="1993-02-12 12:01" lowerbound-start="1993-02-12 10:28" modality="FACTUAL" most-likely-end="1993-02-18 05:46" most-likely-start="1993-02-17 04:40" polarity="POS" start="634" temporally-annotated="YES" text="the Fairm of Ijordcompmac Hospital" type="CLINICAL_DEPT" upperbound-end="1993-03-05 15:33" upperbound-start="1993-02-28 22:52"/>
+<EVENT end="685" id="E20" lowerbound-end="1993-02-12 13:08" lowerbound-start="1993-02-12 10:28" modality="FACTUAL" most-likely-end="1993-03-19 05:40" most-likely-start="1993-02-17 04:40" polarity="POS" start="673" temporally-annotated="YES" text="chemotherapy" type="TREATMENT" upperbound-end="1993-07-01 09:32" upperbound-start="1993-02-28 22:52"/>
+<EVENT end="695" id="E21" lowerbound-end="1993-02-12 13:08" lowerbound-start="1993-02-12 10:28" modality="FACTUAL" most-likely-end="1993-03-19 05:40" most-likely-start="1993-02-17 04:40" polarity="POS" start="691" temporally-annotated="YES" text="DTIC" type="TREATMENT" upperbound-end="1993-07-01 09:32" upperbound-start="1993-02-28 22:52"/>
+<EVENT end="709" id="E22" lowerbound-end="1993-02-12 13:08" lowerbound-start="1993-02-12 10:28" modality="FACTUAL" most-likely-end="1993-03-19 05:40" most-likely-start="1993-02-17 04:40" polarity="POS" start="700" temporally-annotated="YES" text="Tamoxifen" type="TREATMENT" upperbound-end="1993-07-01 09:32" upperbound-start="1993-02-28 22:52"/>
+<EVENT end="758" id="E23" lowerbound-end="1993-02-13 15:52" lowerbound-start="1993-02-12 11:49" modality="FACTUAL" most-likely-end="1993-03-11 05:46" most-likely-start="1993-02-17 05:40" polarity="POS" start="741" temporally-annotated="YES" text="radiation therapy" type="TREATMENT" upperbound-end="1993-07-04 03:53" upperbound-start="1993-02-28 23:30"/>
+<EVENT end="827" id="E24" lowerbound-end="1993-02-17 03:42" lowerbound-start="1993-02-12 11:49" modality="FACTUAL" most-likely-end="1993-03-13 12:40" most-likely-start="1993-02-17 05:40" polarity="POS" start="806" temporally-annotated="YES" text="the radiation therapy" type="TREATMENT" upperbound-end="1993-07-03 05:38" upperbound-start="1993-02-28 23:30"/>
+<EVENT end="876" id="E25" lowerbound-end="1993-02-22 22:45" lowerbound-start="1993-02-22 22:10" modality="FACTUAL" most-likely-end="1993-02-23 12:40" most-likely-start="1993-02-23 11:50" polarity="POS" start="867" temporally-annotated="YES" text="presented" type="EVIDENTIAL" upperbound-end="1993-02-25 02:45" upperbound-start="1993-02-25 01:30"/>
+<EVENT end="930" id="E26" lowerbound-end="1993-02-21 10:45" lowerbound-start="1993-02-22 03:30" modality="FACTUAL" most-likely-end="1993-02-23 20:30" most-likely-start="1993-02-22 19:50" polarity="POS" start="912" temporally-annotated="YES" text="two major symptoms" type="PROBLEM" upperbound-end="1993-03-01 06:15" upperbound-start="1993-02-26 12:10"/>
+<EVENT end="978" id="E27" lowerbound-end="1993-02-21 10:45" lowerbound-start="1993-02-22 03:30" modality="FACTUAL" most-likely-end="1993-02-23 20:30" most-likely-start="1993-02-22 19:50" polarity="POS" start="948" temporally-annotated="YES" text="right lower extremity swelling" type="PROBLEM" upperbound-end="1993-03-01 06:15" upperbound-start="1993-02-26 12:10"/>
+<EVENT end="1011" id="E28" lowerbound-end="1993-02-21 21:20" lowerbound-start="1993-02-21 20:45" modality="FACTUAL" most-likely-end="1993-02-23 12:51" most-likely-start="1993-02-23 12:00" polarity="POS" start="983" temporally-annotated="YES" text="lower extremity noninvasives" type="TEST" upperbound-end="1993-02-28 04:29" upperbound-start="1993-02-28 03:14"/>
+<EVENT end="129" id="E60" lowerbound-end="1993-02-22 23:15" lowerbound-start="1993-02-23 01:22" modality="FACTUAL" most-likely-end="1993-02-24 12:43" most-likely-start="1993-02-23 13:25" polarity="POS" start="99" temporally-annotated="YES" text="Fairm of Ijordcompmac Hospital" type="CLINICAL_DEPT" upperbound-end="1993-03-01 02:11" upperbound-start="1993-02-25 01:28"/>
+<TIMEX3 end="1536" id="T7" mod="NA" start="1518" text="February 23 , 1993" type="DATE" val="1993-02-23"/>
+<TIMEX3 end="1727" id="T8" mod="NA" start="1718" text="yesterday" type="DATE" val="1993-02-22"/>
+<TIMEX3 end="1783" id="T9" mod="NA" start="1771" text="the 24 hours" type="DURATION" val="PT24H"/>
+<TIMEX3 end="25" id="T0" mod="NA" start="18" text="2-23-93" type="DATE" val="1993-02-23"/>
+<TIMEX3 end="2006" id="T10" mod="APPROX" start="1997" text="next week" type="DATE" val="1993-03-04"/>
+<TIMEX3 end="2254" id="T11" mod="NA" start="2243" text="February 24" type="DATE" val="1993-02-24"/>
+<TIMEX3 end="267" id="T3" mod="APPROX" start="258" text="last fall" type="DATE" val="1992-10"/>
+<TIMEX3 end="50" id="T1" mod="NA" start="43" text="2-24-93" type="DATE" val="1993-02-24"/>
+<TIMEX3 end="612" id="T5" mod="APPROX" start="600" text="one week ago" type="DATE" val="1993-02-16"/>
+<TIMEX3 end="852" id="T6" mod="NA" start="841" text="February 23" type="DATE" val="1993-02-23"/>
+<TIMEX3 end="98" id="T2" mod="NA" start="88" text="the second" type="FREQUENCY" val="R2"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T0" toText="2-23-93" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="discharge" id="TL1" toID="E1" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="lesions in the liver and spleen" id="TL10" toID="E5" toText="presented" type="BEFORE"/>
+<TLINK fromID="E7" fromText="a chest CT" id="TL11" toID="E8" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="presented" id="TL12" toID="E7" toText="a chest CT" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="left upper lobe nodules" id="TL13" toID="E7" toText="a chest CT" type="BEFORE"/>
+<TLINK fromID="E10" fromText="A head CT scan" id="TL14" toID="E11" toText="an MRI scan of the spine" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="a chest CT" id="TL15" toID="E10" toText="A head CT scan" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="a T11 metastasis" id="TL16" toID="E11" toText="an MRI scan of the spine" type="BEFORE"/>
+<TLINK fromID="E13" fromText="an L5 metastasis" id="TL17" toID="E11" toText="an MRI scan of the spine" type="BEFORE"/>
+<TLINK fromID="E15" fromText="epidural and paraspinal extension" id="TL18" toID="E11" toText="an MRI scan of the spine" type="BEFORE"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL2" toID="T1" toText="2-24-93" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="an MRI scan of the spine" id="TL20" toID="E12" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="a fracture" id="TL21" toID="E13" toText="an L5 metastasis" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="a T11 metastasis" id="TL22" toID="E17" toText="cord compression" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="radiation therapy" id="TL23" toID="T5" toText="one week ago" type="AFTER"/>
+<TLINK fromID="E18" fromText="admitted" id="TL24" toID="T5" toText="one week ago" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="chemotherapy" id="TL25" toID="T5" toText="one week ago" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="the Fairm of Ijordcompmac Hospital" id="TL26" toID="E18" toText="admitted" type="AFTER"/>
+<TLINK fromID="E20" fromText="chemotherapy" id="TL27" toID="E21" toText="DTIC" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="Tamoxifen" id="TL28" toID="E20" toText="chemotherapy" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="two major symptoms" id="TL29" toID="T6" toText="February 23" type="BEFORE"/>
+<TLINK fromID="T2" fromText="the second" id="TL3" toID="E61" toText="admission" type="OVERLAP"/>
+<TLINK fromID="T6" fromText="February 23" id="TL30" toID="E25" toText="presented" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="a witnessed episode" id="TL31" toID="E26" toText="two major symptoms" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="right lower extremity swelling" id="TL32" toID="E26" toText="two major symptoms" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="lower extremity noninvasives" id="TL33" toID="E25" toText="presented" type="AFTER"/>
+<TLINK fromID="E29" fromText="a femoral deep venous thrombosis" id="TL34" toID="E27" toText="right lower extremity swelling" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="a witnessed episode" id="TL35" toID="E32" toText="some seizure activity" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="his eyes rolled to the back of his head" id="TL36" toID="E30" toText="a witnessed episode" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="potential seizure activity" id="TL37" toID="E32" toText="some seizure activity" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="CNS metastases" id="TL38" toID="E0" toText="ADMISSION" type="BEFORE"/>
+<TLINK fromID="E34" fromText="potential seizure activity" id="TL39" toID="E36" toText="vasovagal activity" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="Fairm of Ijordcompmac Hospital" id="TL4" toID="E61" toText="admission" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="potential seizure activity" id="TL40" toID="E35" toText="a bowel movement" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="a witnessed episode" id="TL41" toID="E25" toText="presented" type="BEFORE"/>
+<TLINK fromID="E37" fromText="venogram" id="TL42" toID="E38" toText="inferior vena cava filter placement" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="the procedure" id="TL43" toID="E37" toText="venogram" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="venogram" id="TL44" toID="E0" toText="ADMISSION" type="AFTER"/>
+<TLINK fromID="E59" fromText="IVC filter placement" id="TL45" toID="E38" toText="inferior vena cava filter placement" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="the procedure" id="TL46" toID="E38" toText="inferior vena cava filter placement" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="inferior vena cava filter placement" id="TL47" toID="T7" toText="February 23 , 1993" type="OVERLAP"/>
+<TLINK fromID="T7" fromText="February 23 , 1993" id="TL48" toID="E39" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="postoperative care" id="TL49" toID="E40" toText="the Fairm of Ijordcompmac Hospital" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="metastatic melanoma" id="TL5" toID="E61" toText="admission" type="BEFORE"/>
+<TLINK fromID="E40" fromText="the Fairm of Ijordcompmac Hospital" id="TL50" toID="E39" toText="admitted" type="AFTER"/>
+<TLINK fromID="E43" fromText="tolerated" id="TL53" toID="E42" toText="the procedure" type="OVERLAP"/>
+<TLINK fromID="T8" fromText="yesterday" id="TL54" toID="E44" toText="a neurologic event" type="OVERLAP"/>
+<TLINK fromID="T9" fromText="the 24 hours" id="TL55" toID="E0" toText="ADMISSION" type="AFTER"/>
+<TLINK fromID="E46" fromText="any further neurologic activity" id="TL56" toID="T9" toText="the 24 hours" type="OVERLAP"/>
+<TLINK fromID="T9" fromText="the 24 hours" id="TL57" toID="E45" toText="in house hospitalization" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="ambulate without assistance" id="TL58" toID="E48" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E49" fromText="an MRI scan" id="TL59" toID="E48" toText="discharge" type="AFTER"/>
+<TLINK fromID="E3" fromText="His melanoma" id="TL6" toID="E2" toText="metastatic melanoma" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="Neurology consult" id="TL60" toID="E48" toText="discharge" type="AFTER"/>
+<TLINK fromID="E51" fromText="an EEG" id="TL61" toID="T10" toText="next week" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="an MRI scan" id="TL62" toID="E50" toText="Neurology consult" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="Neurology consult" id="TL63" toID="E51" toText="an EEG" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="metastatic melanoma" id="TL64" toID="E52" toText="anticoagulation" type="BEFORE"/>
+<TLINK fromID="E53" fromText="metastatic melanoma" id="TL66" toID="E2" toText="metastatic melanoma" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="metastatic melanoma" id="TL67" toID="E54" toText="CNS metastases" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="An IVC filter placement" id="TL68" toID="E38" toText="inferior vena cava filter placement" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="An IVC filter placement" id="TL69" toID="E56" toText="complication" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="presented" id="TL7" toID="T3" toText="last fall" type="OVERLAP"/>
+<TLINK fromID="E57" fromText="stable" id="TL70" toID="T11" toText="February 24" type="OVERLAP"/>
+<TLINK fromID="E58" fromText="discharge" id="TL71" toID="T11" toText="February 24" type="OVERLAP"/>
+<TLINK fromID="E58" fromText="discharge" id="TL72" toID="E1" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="diagnosed" id="TL8" toID="E5" toText="presented" type="AFTER"/>
+<TLINK fromID="E3" fromText="His melanoma" id="TL9" toID="T3" toText="last fall" type="BEFORE"/>
+<SECTIME dvalue="1993-2-23" end="25" id="S0" start="18" text="2-23-93" type="ADMISSION"/>
+<SECTIME dvalue="1993-2-24" end="50" id="S1" start="43" text="2-24-93" type="DISCHARGE"/>
+<TLINK fromID="E29" fromText="a femoral deep venous thrombosis" id="SECTIME0" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E30" fromText="a witnessed episode" id="SECTIME1" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E31" fromText="his eyes rolled to the back of his head" id="SECTIME2" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E32" fromText="some seizure activity" id="SECTIME3" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E33" fromText="CNS metastases" id="SECTIME4" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E34" fromText="potential seizure activity" id="SECTIME5" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E61" fromText="admission" id="SECTIME6" toID="T0" toText="2-23-93" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="a bowel movement" id="SECTIME7" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E36" fromText="vasovagal activity" id="SECTIME8" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E37" fromText="venogram" id="SECTIME9" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E38" fromText="inferior vena cava filter placement" id="SECTIME10" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E39" fromText="admitted" id="SECTIME11" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E40" fromText="the Fairm of Ijordcompmac Hospital" id="SECTIME12" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E41" fromText="postoperative care" id="SECTIME13" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E43" fromText="tolerated" id="SECTIME14" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E42" fromText="the procedure" id="SECTIME15" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E44" fromText="a neurologic event" id="SECTIME16" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E45" fromText="in house hospitalization" id="SECTIME17" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E46" fromText="any further neurologic activity" id="SECTIME18" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E47" fromText="ambulate without assistance" id="SECTIME19" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E48" fromText="discharge" id="SECTIME20" toID="T1" toText="2-24-93" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="an MRI scan" id="SECTIME21" toID="T1" toText="2-24-93" type="AFTER"/>
+<TLINK fromID="E50" fromText="Neurology consult" id="SECTIME22" toID="T1" toText="2-24-93" type="AFTER"/>
+<TLINK fromID="E2" fromText="metastatic melanoma" id="SECTIME23" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E51" fromText="an EEG" id="SECTIME24" toID="T1" toText="2-24-93" type="AFTER"/>
+<TLINK fromID="E52" fromText="anticoagulation" id="SECTIME25" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E53" fromText="metastatic melanoma" id="SECTIME26" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E54" fromText="CNS metastases" id="SECTIME27" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E55" fromText="An IVC filter placement" id="SECTIME28" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E3" fromText="His melanoma" id="SECTIME29" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E56" fromText="complication" id="SECTIME30" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E57" fromText="stable" id="SECTIME31" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E58" fromText="discharge" id="SECTIME32" toID="T1" toText="2-24-93" type="OVERLAP"/>
+<TLINK fromID="E59" fromText="IVC filter placement" id="SECTIME33" toID="T1" toText="2-24-93" type="BEFORE"/>
+<TLINK fromID="E4" fromText="diagnosed" id="SECTIME34" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E5" fromText="presented" id="SECTIME35" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E6" fromText="lesions in the liver and spleen" id="SECTIME36" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E7" fromText="a chest CT" id="SECTIME37" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E8" fromText="showed" id="SECTIME38" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E9" fromText="left upper lobe nodules" id="SECTIME39" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E10" fromText="A head CT scan" id="SECTIME40" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E11" fromText="an MRI scan of the spine" id="SECTIME41" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E12" fromText="showed" id="SECTIME42" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E13" fromText="an L5 metastasis" id="SECTIME43" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E14" fromText="a fracture" id="SECTIME44" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E15" fromText="epidural and paraspinal extension" id="SECTIME45" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E16" fromText="a T11 metastasis" id="SECTIME46" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E17" fromText="cord compression" id="SECTIME47" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E18" fromText="admitted" id="SECTIME48" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E19" fromText="the Fairm of Ijordcompmac Hospital" id="SECTIME49" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E20" fromText="chemotherapy" id="SECTIME50" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E21" fromText="DTIC" id="SECTIME51" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E22" fromText="Tamoxifen" id="SECTIME52" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E23" fromText="radiation therapy" id="SECTIME53" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E24" fromText="the radiation therapy" id="SECTIME54" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E25" fromText="presented" id="SECTIME55" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E26" fromText="two major symptoms" id="SECTIME56" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E27" fromText="right lower extremity swelling" id="SECTIME57" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E28" fromText="lower extremity noninvasives" id="SECTIME58" toID="T0" toText="2-23-93" type="BEFORE"/>
+<TLINK fromID="E60" fromText="Fairm of Ijordcompmac Hospital" id="SECTIME59" toID="T0" toText="2-23-93" type="OVERLAP"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>
