@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <title>Accumulate</title>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="node_modules\dsmorse-gridster\dist\jquery.dsmorse-gridster.js"></script>
+    <script src="jquery.lettering-0.6.1.min.js"></script>
+
     <script src="underscore-min.js"></script>
 
     <!--include d3-->
@@ -24,8 +28,25 @@
 
 <body>
 
+        <div class="gridster">
+                <ul>
+                    <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
+                        <div id="patient_filter" class="gridelement"></div>
+                    </li>
+            
+                    <li data-row="2" data-col="1" data-sizex="1" data-sizey="9">
+                        <p id="report" class="gridelement word_split"></p>
+                    </li>
+            
+                    <li data-row="2" data-col="2" data-sizex="2" data-sizey="9">
+                        <div id="dataviz_brushZoom" class="gridelement"></div>
+                    </li>
+                </ul>
+            </div>
+            
+
     <!-- Create a div where the circle will take place -->
-    <div id="dataviz_brushZoom"></div>
+    <!-- <div id="dataviz_brushZoom"></div> -->
     <!-- <h2>Time</h2>
     <div class="row align-items-center">
         <div class="col-sm-2">
