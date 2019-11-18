@@ -35,22 +35,7 @@ var Svg = d3.select("#dataviz_brushZoom")
     .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
 
-var tip = d3.tip()
-    .attr("class", "d3-tip")
-    .direction('n')
-    .offset(function () {
-        let thisX = this.getBBox().x;
-        let thisWidth = this.getBBox().width;
-        if (thisX + thisWidth > mainWidgetWidth) {
-            return [0, -thisWidth / 2 + (mainWidgetWidth - thisX) / 2] // [top, left]
-        } else if (thisX < 0) {
-            return [0, (thisWidth / 2) - (thisX + thisWidth) / 2];
-        } else {
-            return [0, 0];
-        }
-    })
-    .html(d => d.label);
-Svg.call(tip);
+
 
 //Read the data
 d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
@@ -88,7 +73,24 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     // Color scale: give me a specie name, I return a color
     var color = d3.scaleOrdinal()
         .domain(data.map(d => d.type))
-        .range(d3.schemeCategory10)
+        .range(d3.schemeCategory10);
+
+    var tip = d3.tip()
+        .attr("class", "d3-tip")
+        .direction('n')
+        .offset(function () {
+            let thisX = this.getBBox().x;
+            let thisWidth = this.getBBox().width;
+            if (thisX + thisWidth > mainWidgetWidth) {
+                return [0, -thisWidth / 2 + (mainWidgetWidth - thisX) / 2] // [top, left]
+            } else if (thisX < 0) {
+                return [0, (thisWidth / 2) - (thisX + thisWidth) / 2];
+            } else {
+                return [0, 0];
+            }
+        })
+        .html(d => "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>");
+    Svg.call(tip);
 
     data.forEach(d => {
         letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color= " + color(d.type) + " id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
