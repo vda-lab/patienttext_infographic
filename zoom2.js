@@ -4,32 +4,12 @@ const file = 3;
 
 const minRectWidth = 5,
     initDelay = 1000,
-    initDuration = 2000;
-
-function unhighlight(x) {
-    d3.selectAll(".mostlikely")
-    .style("opacity", "0.7")
-
-d3.select("#mostlikely-" + $(x).text().trim())
-    .style("stroke", "none")
-    // .style("opacity", 1)
-    x.style.backgroundColor = "transparent"
-}
-
-function highlight(x) {
-    d3.selectAll(".mostlikely")
-        .style("opacity", "0.5")
-
-    d3.select("#mostlikely-" + $(x).text().trim())
-        .style("stroke", "black")
-        .style("opacity", 1)
-    x.style.backgroundColor = "yellow"
-}
+    initDuration = 2000,
+    normalOpacity = 0.6,
+    normalUncertaintyOpacity = 0.1;
 
 $(window).resize(function () {
-
     window.location.reload();
-
 });
 // set the dimensions and margins of the graph
 var margin = { top: 20, right: 60, bottom: 60, left: 160 };
@@ -79,15 +59,6 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     let admissionDate = new Date(letterText.split("\n")[2]);
     let dischargeDate = new Date(letterText.split("\n")[4]);
 
-    letterText = letterText.split(" ");
-    temp = [];
-    letterText.forEach(word => {
-        let element = "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" id=" + word + ">" + word + " </span>";
-        temp.push(element)
-    })
-
-    $("#report").html(temp);
-
     data = [].map.call(xml.querySelectorAll("EVENT"), function (event) {
         return {
             mostLikelyStart: new Date(event.getAttribute("most-likely-start")),
@@ -101,13 +72,29 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         };
     });
 
-
-
     data = _.unique(data, "label");
     data = data.reverse();
 
+    // letterText = letterText.split(" ");
+    // temp = [];
+    // letterText.forEach(word => {
+    //     let element = "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" id=" + word + ">" + word + " </span>";
+    //     temp.push(element)
+    // })
+
     minDate = _.min(data.map(d => d.lowerBoundStart));
     maxDate = _.max(data.map(d => d.upperBoundEnd));
+
+    // Color scale: give me a specie name, I return a color
+    var color = d3.scaleOrdinal()
+        .domain(data.map(d => d.type))
+        .range(d3.schemeCategory10)
+
+    data.forEach(d => {
+        letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color= " + color(d.type) + " id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
+    });
+
+    $("#report").html(letterText);
 
     // Add X axis
     var x = d3.scaleTime()
@@ -143,11 +130,6 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .attr("x", 0)
         .attr("y", 0);
 
-    // Color scale: give me a specie name, I return a color
-    var color = d3.scaleOrdinal()
-        .domain(data.map(d => d.type))
-        .range(d3.schemeCategory10)
-
     // Add brushing
     var brush = d3.brushX() // Add the brush feature using the d3.brush function
         .extent([
@@ -172,13 +154,13 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .enter()
         .append("rect")
         .attr("class", "mostlikely")
-        .attr("id", d => "mostlikely-" + d.label)
+        .attr("id", d => "mostlikely-" + d.label.replace(/\s/g, ""))
         .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
         .attr("height", y.bandwidth())
         .attr("y", d => y(d.label))
         .attr("x", d => x(d.mostLikelyStart))
         .style("fill", d => color(d.type))
-        .style("opacity", 0.7)
+        .style("opacity", normalOpacity)
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
 
@@ -188,12 +170,13 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .enter()
         .append("rect")
         .attr("class", "lower_uncertainty")
+        .attr("id", d => "lower_uncertainty-" + d.label.replace(/\s/g, ""))
         .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
         .attr("height", y.bandwidth())
         .attr("y", d => y(d.label))
         .attr("x", d => x(d.lowerBoundStart))
         .style("fill", d => color(d.type))
-        .style("opacity", 0.1)
+        .style("opacity", normalUncertaintyOpacity)
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
 
@@ -203,12 +186,13 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .enter()
         .append("rect")
         .attr("class", d => "upper_uncertainty")
+        .attr("id", d => "upper_uncertainty-" + d.label.replace(/\s/g, ""))
         .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
         .attr("height", y.bandwidth())
         .attr("y", d => y(d.label))
         .attr("x", d => x(d.mostLikelyEnd))
         .style("fill", d => color(d.type))
-        .style("opacity", 0.1)
+        .style("opacity", normalUncertaintyOpacity)
         // .attr("pointer-events", "visible")
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
@@ -272,3 +256,36 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
             .attr("x", d => x(d.mostLikelyEnd))
     }
 });
+
+function unhighlight(x) {
+    d3.selectAll(".mostlikely")
+        .style("opacity", normalOpacity)
+
+    d3.selectAll(".lower_uncertainty")
+        .style("opacity", normalUncertaintyOpacity)
+
+    d3.selectAll(".upper_uncertainty")
+        .style("opacity", normalUncertaintyOpacity)
+
+    d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
+        .style("stroke", "none")
+    x.style.backgroundColor = "transparent"
+}
+
+function highlight(x) {
+    d3.selectAll(".mostlikely")
+        .style("opacity", "0.2")
+
+    d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
+        .style("stroke", "black")
+        .style("opacity", 1)
+
+    d3.select("#lower_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
+        .style("stroke", "darkgray")
+        .style("opacity", normalOpacity - 0.1)
+
+    d3.select("#upper_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
+        .style("stroke", "darkgray")
+        .style("opacity", normalOpacity - 0.1)
+    x.style.backgroundColor = $(x).attr("color");
+}
