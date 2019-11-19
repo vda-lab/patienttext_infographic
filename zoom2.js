@@ -6,6 +6,7 @@ const minRectWidth = 5,
     initDelay = 1000,
     initDuration = 2000,
     normalOpacity = 0.6,
+    textOpacity = 0.2,
     normalUncertaintyOpacity = 0.1;
 
 $(window).resize(function () {
@@ -58,14 +59,10 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     });
 
     data = _.unique(data, "label");
-    data = data.reverse();
-
-    // letterText = letterText.split(" ");
-    // temp = [];
-    // letterText.forEach(word => {
-    //     let element = "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" id=" + word + ">" + word + " </span>";
-    //     temp.push(element)
-    // })
+    // data = data.reverse();
+    // let tempData = data;
+    // data = _.filter(data, d => _.contains(tempData, j => j.label == d.label))
+    data = _.sortBy(data, d => d.type)
 
     minDate = _.min(data.map(d => d.lowerBoundStart));
     maxDate = _.max(data.map(d => d.upperBoundEnd));
@@ -89,11 +86,15 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
                 return [0, 0];
             }
         })
-        .html(d => "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>");
+        .html(d => {
+            markWords(d, color)
+            return "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>"
+        });
     Svg.call(tip);
 
     data.forEach(d => {
-        letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color= " + color(d.type) + " id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
+        rgbaColor(color, d);
+        letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color=" + color(d.type) + " style=\"background-color:" + backgroundColor + "\" id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
     });
 
     $("#report").html(letterText);
@@ -164,7 +165,10 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .style("fill", d => color(d.type))
         .style("opacity", normalOpacity)
         .on('mouseover', tip.show)
-        .on('mouseout', tip.hide);
+        .on('mouseout', d => {
+            tip.hide()
+            unMarkWords(d);
+        });
 
     scatter
         .selectAll(".lower_uncertainty")
@@ -180,7 +184,10 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .style("fill", d => color(d.type))
         .style("opacity", normalUncertaintyOpacity)
         .on('mouseover', tip.show)
-        .on('mouseout', tip.hide);
+        .on('mouseout', d => {
+            tip.hide()
+            unMarkWords(d);
+        });
 
     scatter
         .selectAll(".upper_uncertainty")
@@ -195,9 +202,11 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .attr("x", d => x(d.mostLikelyEnd))
         .style("fill", d => color(d.type))
         .style("opacity", normalUncertaintyOpacity)
-        // .attr("pointer-events", "visible")
         .on('mouseover', tip.show)
-        .on('mouseout', tip.hide);
+        .on('mouseout', d => {
+            tip.hide()
+            unMarkWords(d);
+        });
 
     minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
     maxLikelyDate = _.max(data.map(d => d.mostLikelyEnd));
@@ -259,6 +268,21 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     }
 });
 
+function rgbaColor(color, d) {
+    bgRGB = d3.color(color(d.type));
+    backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
+}
+
+function markWords(d, color) {
+    d3.select("#" + d.label.replace(/\s/g, ""))
+        .style("background", color(d.type));
+}
+
+function unMarkWords(d) {
+    d3.select("#" + d.label.replace(/\s/g, ""))
+        .style("background", "transparent");
+}
+
 function unhighlight(x) {
     d3.selectAll(".mostlikely")
         .style("opacity", normalOpacity)
@@ -271,7 +295,10 @@ function unhighlight(x) {
 
     d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
         .style("stroke", "none")
-    x.style.backgroundColor = "transparent"
+
+    bgRGB = d3.color($(x).attr("color"));
+    backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
+    x.style.backgroundColor = backgroundColor;
 }
 
 function highlight(x) {
