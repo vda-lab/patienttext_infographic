@@ -144,7 +144,7 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
                 .style("fill", color(d.type))
                 .style("font-weight", "bold")
                 .style("font-size", "20px")
-                // highlightMaster(d.label.replace(/\s/g, ""), color(d.type))
+            highlightMaster(d.id, color(d.type))
             return "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>"
         });
     svg.call(tip);
@@ -218,6 +218,7 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
         .on('mouseout', d => {
             tip.hide()
             unMarkWords(d);
+            unhighlightMaster(d.id, color(d.type));
         });
 
     scatter
@@ -237,6 +238,7 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
         .on('mouseout', d => {
             tip.hide()
             unMarkWords(d);
+            unhighlightMaster(d.id, color(d.type));
         });
 
     scatter
@@ -256,6 +258,7 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
         .on('mouseout', d => {
             tip.hide()
             unMarkWords(d);
+            unhighlightMaster(d.id, color(d.type));
         });
 
     // zoom in to mostlikely range
@@ -342,6 +345,10 @@ function unMarkWords(d) {
 }
 
 function unhighlight(x) {
+    unhighlightMaster($(x).text().trim().replace(/\s/g, ""), $(x).attr("color"));
+}
+
+function unhighlightMaster(id, color) {
     d3.selectAll(".mostlikely")
         .style("opacity", normalOpacity)
 
@@ -351,15 +358,17 @@ function unhighlight(x) {
     d3.selectAll(".upper_uncertainty")
         .style("opacity", normalUncertaintyOpacity)
 
-    bgRGB = d3.color($(x).attr("color"));
+    bgRGB = d3.color(color);
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
-    x.style.backgroundColor = backgroundColor;
-    x.style.color = "black";
+
+    d3.select("#" + id)
+        .style("background", backgroundColor)
+        .style("color", "black");
 
     d3.select('.axis--y')
         .selectAll('text')
         .filter(function(z) {
-            return z.replace(/\s/g, "") == $(x).attr("id");
+            return z.replace(/\s/g, "") == id;
         })
         .style("fill", "black")
         .style("font-weight", "normal")
