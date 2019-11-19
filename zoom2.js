@@ -1,13 +1,17 @@
 // TODOS
 // doubles are removed
-const file = 141;
+// d3tip hide does not return backgroundcolor in text
+const file = 248;
 
 const minRectWidth = 5,
-    initDelay = 1000,
-    initDuration = 2000,
+    initDelay = 1500,
+    initDuration = 2500,
     normalOpacity = 0.6,
     textOpacity = 0.2,
     normalUncertaintyOpacity = 0.1;
+
+const formatTime = d3.timeFormat("%B %d, %Y");
+
 
 $(window).resize(function () {
     window.location.reload();
@@ -97,7 +101,17 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color=" + color(d.type) + " style=\"background-color:" + backgroundColor + "\" id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
     });
 
-    $("#report").html(letterText);
+    // splittedService = letterText.split(/service/i);
+    splittedHPI = letterText.split(/history of present illness :|hpi :/i);
+    splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :/i);
+
+    $("#admissiondatep").html(formatTime(admissionDate));
+    $("#dischargedatep").html(formatTime(dischargeDate));
+    // $("#servicep").html(splittedService[1]);
+    $("#hpip").html(splittedHC[0]);
+    $("#hospitalcoursep").html(splittedHC[1]);
+
+    // $("#report").html(letterText);
 
     // Add X axis
     var x = d3.scaleTime()
@@ -167,7 +181,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .on('mouseover', tip.show)
         .on('mouseout', d => {
             tip.hide()
-            unMarkWords(d);
+            unMarkWords(d,color);
         });
 
     scatter
@@ -186,7 +200,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .on('mouseover', tip.show)
         .on('mouseout', d => {
             tip.hide()
-            unMarkWords(d);
+            unMarkWords(d,color);
         });
 
     scatter
@@ -205,7 +219,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .on('mouseover', tip.show)
         .on('mouseout', d => {
             tip.hide()
-            unMarkWords(d);
+            unMarkWords(d,color);
         });
 
     minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
@@ -278,9 +292,11 @@ function markWords(d, color) {
         .style("background", color(d.type));
 }
 
-function unMarkWords(d) {
+function unMarkWords(d, color) {
+    bgRGB = d3.color(color(d.type));
+    backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
     d3.select("#" + d.label.replace(/\s/g, ""))
-        .style("background", "transparent");
+        .style("background", backgroundColor);
 }
 
 function unhighlight(x) {
@@ -293,8 +309,8 @@ function unhighlight(x) {
     d3.selectAll(".upper_uncertainty")
         .style("opacity", normalUncertaintyOpacity)
 
-    d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
-        .style("stroke", "none")
+    // d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
+    //     .style("stroke", "none")
 
     bgRGB = d3.color($(x).attr("color"));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
@@ -306,15 +322,15 @@ function highlight(x) {
         .style("opacity", "0.2")
 
     d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
-        .style("stroke", "black")
+        // .style("stroke", "black")
         .style("opacity", 1)
 
     d3.select("#lower_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
-        .style("stroke", "darkgray")
+        // .style("stroke", "darkgray")
         .style("opacity", normalOpacity - 0.1)
 
     d3.select("#upper_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
-        .style("stroke", "darkgray")
+        // .style("stroke", "darkgray")
         .style("opacity", normalOpacity - 0.1)
     x.style.backgroundColor = $(x).attr("color");
 }
