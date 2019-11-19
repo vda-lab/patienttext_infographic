@@ -386,7 +386,7 @@ function highlightMaster(id, color) {
     d3.select('.axis--y')
         .selectAll('text')
         .filter(function(z) {
-            return z == id;
+            return z.replace(/\s/g, "") == id;
         })
         .style("fill", color)
         .style("font-weight", "bold")
