@@ -1,6 +1,6 @@
 // TODOS
 // doubles are removed
-const file = 248;
+const file = 3;
 
 const minRectWidth = 5,
     initDelay = 1500,
@@ -36,7 +36,7 @@ function color(type) {
 const formatTime = d3.timeFormat("%B %d, %Y");
 
 
-$(window).resize(function () {
+$(window).resize(function() {
     window.location.reload();
 });
 // set the dimensions and margins of the graph
@@ -47,7 +47,7 @@ var margin = { top: 20, right: 60, bottom: 60, left: 160 };
 var mainWidgetWidth = (2 * ((innerWidth) / 3)) - margin.left - margin.right,
     mainWidgetHeight = (9 * ((innerHeight) / 10)) - margin.top - margin.bottom;
 
-$(function () { //DOM Ready
+$(function() { //DOM Ready
     $(".gridster ul").gridster({
         widget_margins: [0, 0],
         widget_base_dimensions: [(innerWidth) / 3, (innerHeight) / 10],
@@ -63,8 +63,6 @@ var Svg = d3.select("#dataviz_brushZoom")
     .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
 
-
-
 //Read the data
 d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
 
@@ -72,7 +70,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     let admissionDate = new Date(letterText.split("\n")[2]);
     let dischargeDate = new Date(letterText.split("\n")[4]);
 
-    data = [].map.call(xml.querySelectorAll("EVENT"), function (event) {
+    data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
         return {
             mostLikelyStart: new Date(event.getAttribute("most-likely-start")),
             mostLikelyEnd: new Date(event.getAttribute("most-likely-end")),
@@ -102,7 +100,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     var tip = d3.tip()
         .attr("class", "d3-tip")
         .direction('n')
-        .offset(function () {
+        .offset(function() {
             let thisX = this.getBBox().x;
             let thisWidth = this.getBBox().width;
             if (thisWidth > mainWidgetWidth) {
@@ -116,7 +114,13 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
             }
         })
         .html(d => {
+            // code here otherwise does not work in mouseover... 
             markWords(d, color)
+            select_axis_label(d)
+                .style("fill", color(d.type))
+                .style("font-weight", "bold")
+                .style("font-size", "20px")
+                // highlight(d)
             return "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>"
         });
     Svg.call(tip);
@@ -161,6 +165,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .range([mainWidgetHeight, 0])
         .padding([0.2]);
     Svg.append("g")
+        .attr("class", "axis axis--y")
         .call(d3.axisLeft(y));
 
     // Add a clipPath: everything out of this area won't be drawn.
@@ -319,11 +324,15 @@ function markWords(d) {
 }
 
 function unMarkWords(d) {
+    select_axis_label(d)
+        .style("fill", "black")
+        .style("font-weight", "normal")
+        .style("font-size", "10px")
     bgRGB = d3.color(color(d.type));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
     d3.select("#" + d.label.replace(/\s/g, ""))
         .style("background", backgroundColor)
-        .style("color", "black");
+        .style("color", "black")
 }
 
 function unhighlight(x) {
@@ -342,6 +351,15 @@ function unhighlight(x) {
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
     x.style.backgroundColor = backgroundColor;
     x.style.color = "black";
+
+    d3.select('.axis--y')
+        .selectAll('text')
+        .filter(function(z) {
+            return z.replace(/\s/g, "") == $(x).attr("id");
+        })
+        .style("fill", "black")
+        .style("font-weight", "normal")
+        .style("font-size", "10px")
 }
 
 function highlight(x) {
@@ -359,13 +377,22 @@ function highlight(x) {
     d3.select("#upper_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
         // .style("stroke", "darkgray")
         .style("opacity", normalOpacity - 0.1)
-    
-    bgRGB = d3.color($(x).attr("color"));
-    backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + 1 + ")";
-    console.log($(x).attr("color"));
-    console.log(backgroundColor);
-    
-    
+
     x.style.backgroundColor = $(x).attr("color");
     x.style.color = "white";
+
+    d3.select('.axis--y')
+        .selectAll('text')
+        .filter(function(z) {
+            return z.replace(/\s/g, "") == $(x).attr("id");
+        })
+        .style("fill", $(x).attr("color"))
+        .style("font-weight", "bold")
+        .style("font-size", "20px")
+}
+
+function select_axis_label(d) {
+    return d3.select('.axis--y')
+        .selectAll('text')
+        .filter(function(x) { return x == d.label; });
 }
