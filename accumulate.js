@@ -12,6 +12,7 @@ const FILE = 3;
 const minRectWidth = 5,
     initDelay = 1500,
     initDuration = 2500,
+    antiFlickerDuration = 200,
     normalOpacity = 0.6,
     textOpacity = 0.15,
     normalUncertaintyOpacity = 0.1,
@@ -328,18 +329,21 @@ function rgbaColor(d) {
 
 function markWords(d) {
     d3.select("#" + d.id)
+        .transition(antiFlickerDuration)
         .style("background", color(d.type))
         .style("color", "white");
 }
 
 function unMarkWords(d) {
     select_axis_label(d)
+        .transition(antiFlickerDuration)
         .style("fill", "black")
         .style("font-weight", "normal")
         .style("font-size", "10px")
     bgRGB = d3.color(color(d.type));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
     d3.select("#" + d.id)
+        .transition(antiFlickerDuration)
         .style("background", backgroundColor)
         .style("color", "black")
 }
@@ -350,18 +354,22 @@ function unhighlight(x) {
 
 function unhighlightMaster(id, color) {
     d3.selectAll(".mostlikely")
+        .transition(antiFlickerDuration)
         .style("opacity", normalOpacity)
 
     d3.selectAll(".lower_uncertainty")
+        .transition(antiFlickerDuration)
         .style("opacity", normalUncertaintyOpacity)
 
     d3.selectAll(".upper_uncertainty")
+        .transition(antiFlickerDuration)
         .style("opacity", normalUncertaintyOpacity)
 
     bgRGB = d3.color(color);
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
 
     d3.select("#" + id)
+        .transition(antiFlickerDuration)
         .style("background", backgroundColor)
         .style("color", "black");
 
@@ -370,6 +378,7 @@ function unhighlightMaster(id, color) {
         .filter(function(z) {
             return z.replace(/\s/g, "") == id;
         })
+        .transition(antiFlickerDuration)
         .style("fill", "black")
         .style("font-weight", "normal")
         .style("font-size", "10px")
@@ -377,18 +386,23 @@ function unhighlightMaster(id, color) {
 
 function highlightMaster(id, color) {
     d3.selectAll(".mostlikely")
+        .transition(antiFlickerDuration)
         .style("opacity", "0.2")
 
     d3.select("#mostlikely-" + id)
+        .transition(antiFlickerDuration)
         .style("opacity", 1)
 
     d3.select("#lower_uncertainty-" + id)
+        .transition(antiFlickerDuration)
         .style("opacity", normalOpacity - 0.1)
 
     d3.select("#upper_uncertainty-" + id)
+        .transition(antiFlickerDuration)
         .style("opacity", normalOpacity - 0.1)
 
     d3.select("#" + id)
+        .transition(antiFlickerDuration)
         .style("background", color)
         .style("color", "white");
 
@@ -397,6 +411,7 @@ function highlightMaster(id, color) {
         .filter(function(z) {
             return z.replace(/\s/g, "") == id;
         })
+        .transition(antiFlickerDuration)
         .style("fill", color)
         .style("font-weight", "bold")
         .style("font-size", "20px")
