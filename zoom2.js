@@ -1,13 +1,21 @@
 // TODOS
 // doubles are removed
-const file = 3;
+
+// reload window on resize
+$(window).resize(function() {
+    window.location.reload();
+});
+
+
+const FILE = 3;
 
 const minRectWidth = 5,
     initDelay = 1500,
     initDuration = 2500,
     normalOpacity = 0.6,
     textOpacity = 0.15,
-    normalUncertaintyOpacity = 0.1;
+    normalUncertaintyOpacity = 0.1,
+    formatTime = d3.timeFormat("%B %d, %Y");
 
 function color(type) {
     switch (type) {
@@ -27,24 +35,15 @@ function color(type) {
             return "transparent";
     }
 }
-
 // rgb(227, 119, 194) pink
 // rgb(127, 127, 127) grey
 // rgb(188, 189, 34) lightgreen
 // rgb(23, 190, 207) lightblue
 
-const formatTime = d3.timeFormat("%B %d, %Y");
-
-
-$(window).resize(function() {
-    window.location.reload();
-});
 // set the dimensions and margins of the graph
-var margin = { top: 20, right: 60, bottom: 60, left: 160 };
-// width = innerWidth - margin.left - margin.right,
-// height = innerHeight - margin.top - margin.bottom;
+const margin = { top: 20, right: 60, bottom: 60, left: 160 };
 
-var mainWidgetWidth = (2 * ((innerWidth) / 3)) - margin.left - margin.right,
+const mainWidgetWidth = (2 * ((innerWidth) / 3)) - margin.left - margin.right,
     mainWidgetHeight = (9 * ((innerHeight) / 10)) - margin.top - margin.bottom;
 
 $(function() { //DOM Ready
@@ -54,8 +53,8 @@ $(function() { //DOM Ready
     });
 });
 
-// append the svg object to the body of the page
-var Svg = d3.select("#dataviz_brushZoom")
+// append the svg object to the corresponding div
+const svg = d3.select("#dataviz_brushZoom")
     .append("svg")
     .attr("width", mainWidgetWidth + margin.left + margin.right)
     .attr("height", mainWidgetHeight + margin.top + margin.bottom)
@@ -64,13 +63,15 @@ var Svg = d3.select("#dataviz_brushZoom")
         "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
+d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
 
+    // get text from the letter
     letterText = xml.querySelector("TEXT").textContent
-    let admissionDate = new Date(letterText.split("\n")[2]);
-    let dischargeDate = new Date(letterText.split("\n")[4]);
+    const admissionDate = new Date(letterText.split("\n")[2]);
+    const dischargeDate = new Date(letterText.split("\n")[4]);
 
-    data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
+    // parse all data
+    let data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
         return {
             mostLikelyStart: new Date(event.getAttribute("most-likely-start")),
             mostLikelyEnd: new Date(event.getAttribute("most-likely-end")),
@@ -79,25 +80,48 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
             upperBoundStart: new Date(event.getAttribute("upperbound-start")),
             upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
             label: event.getAttribute("text"),
-            type: event.getAttribute("type")
+            type: event.getAttribute("type"),
+            id: event.getAttribute("text").replace(/\s/g, "")
         };
     });
 
+    const minDate = _.min(data.map(d => d.lowerBoundStart));
+    const maxDate = _.max(data.map(d => d.upperBoundEnd));
+
+    // todo: doubles are filtered in this version
     data = _.unique(data, "label");
-    // data = data.reverse();
-    // let tempData = data;
-    // data = _.filter(data, d => _.contains(tempData, j => j.label == d.label))
+
+    // group event by type
     data = _.sortBy(data, d => d.type)
 
-    minDate = _.min(data.map(d => d.lowerBoundStart));
-    maxDate = _.max(data.map(d => d.upperBoundEnd));
+    /*
+     create and populate textview
+    */
 
-    // Color scale: give me a specie name, I return a color
-    // var color = d3.scaleOrdinal()
-    //     .domain(data.map(d => d.type))
-    //     .range(d3.schemeCategory10);
+    // create spans for every event
+    data.forEach(d => {
+        const backgroundColor = rgbaColor(d);
+        letterText = letterText.replace(d.label,
+            "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" " +
+            "color=\"" + color(d.type) +
+            "\" style=\"background-color:" + backgroundColor +
+            "\" id=" + d.id + ">" +
+            d.label +
+            " </span>");
+    });
 
-    var tip = d3.tip()
+    // split report on hpi and hospital course
+    splittedHPI = letterText.split(/history of present illness :|hpi :/i);
+    splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :/i);
+
+    // populate the corresponding views
+    $("#admissiondatep").html(formatTime(admissionDate));
+    $("#dischargedatep").html(formatTime(dischargeDate));
+    $("#hpip").html(splittedHC[0]);
+    $("#hospitalcoursep").html(splittedHC[1]);
+
+    // add tooltip on hover
+    const tip = d3.tip()
         .attr("class", "d3-tip")
         .direction('n')
         .offset(function() {
@@ -120,34 +144,16 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
                 .style("fill", color(d.type))
                 .style("font-weight", "bold")
                 .style("font-size", "20px")
-                // highlight(d)
+                // highlightMaster(d.label.replace(/\s/g, ""), color(d.type))
             return "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>"
         });
-    Svg.call(tip);
-
-    data.forEach(d => {
-        rgbaColor(d);
-        letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color=\"" + color(d.type) + "\" style=\"background-color:" + backgroundColor + "\" id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
-    });
-
-    // splittedService = letterText.split(/service/i);
-    splittedHPI = letterText.split(/history of present illness :|hpi :/i);
-    splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :/i);
-
-    $("#admissiondatep").html(formatTime(admissionDate));
-    $("#dischargedatep").html(formatTime(dischargeDate));
-    // $("#servicep").html(splittedService[1]);
-    $("#hpip").html(splittedHC[0]);
-    $("#hospitalcoursep").html(splittedHC[1]);
-
-    // $("#report").html(letterText);
+    svg.call(tip);
 
     // Add X axis
-    var x = d3.scaleTime()
+    const x = d3.scaleTime()
         .domain([minDate, maxDate])
         .range([0, mainWidgetWidth]);
-    var xAxis = Svg.append("g")
-        // .attr("transform", "translate(0," + height + ")")
+    const xAxis = svg.append("g")
         .call(d3.axisTop(x));
 
     const verGridLines = d3.axisTop()
@@ -160,16 +166,16 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .call(verGridLines);
 
     // Add Y axis
-    var y = d3.scaleBand()
+    const y = d3.scaleBand()
         .domain(data.map(d => d.label))
         .range([mainWidgetHeight, 0])
         .padding([0.2]);
-    Svg.append("g")
+    svg.append("g")
         .attr("class", "axis axis--y")
         .call(d3.axisLeft(y));
 
     // Add a clipPath: everything out of this area won't be drawn.
-    var clip = Svg.append("defs").append("svg:clipPath")
+    var clip = svg.append("defs").append("svg:clipPath")
         .attr("id", "clip")
         .append("svg:rect")
         .attr("width", mainWidgetWidth)
@@ -186,7 +192,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .on("end", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
 
     // Create the scatter variable: where both the circles and the brush take place
-    var scatter = Svg.append('g')
+    var scatter = svg.append('g')
         .attr("clip-path", "url(#clip)")
 
     // Add the brushing before the elements (for mouseover)
@@ -201,7 +207,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .enter()
         .append("rect")
         .attr("class", "mostlikely")
-        .attr("id", d => "mostlikely-" + d.label.replace(/\s/g, ""))
+        .attr("id", d => "mostlikely-" + d.id)
         .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
         .attr("height", y.bandwidth())
         .attr("y", d => y(d.label))
@@ -220,7 +226,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .enter()
         .append("rect")
         .attr("class", "lower_uncertainty")
-        .attr("id", d => "lower_uncertainty-" + d.label.replace(/\s/g, ""))
+        .attr("id", d => "lower_uncertainty-" + d.id)
         .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
         .attr("height", y.bandwidth())
         .attr("y", d => y(d.label))
@@ -239,7 +245,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .enter()
         .append("rect")
         .attr("class", d => "upper_uncertainty")
-        .attr("id", d => "upper_uncertainty-" + d.label.replace(/\s/g, ""))
+        .attr("id", d => "upper_uncertainty-" + d.id)
         .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
         .attr("height", y.bandwidth())
         .attr("y", d => y(d.label))
@@ -252,13 +258,13 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
             unMarkWords(d);
         });
 
+    // zoom in to mostlikely range
     minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
     maxLikelyDate = _.max(data.map(d => d.mostLikelyEnd));
     updateChart(x(admissionDate), x(dischargeDate));
 
     // A function that set idleTimeOut to null
-    var idleTimeout
-
+    var idleTimeout // var because used in idled()
     function idled() { idleTimeout = null; }
 
     // A function that update the chart for given boundaries
@@ -314,11 +320,11 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
 
 function rgbaColor(d) {
     bgRGB = d3.color(color(d.type));
-    backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
+    return "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
 }
 
 function markWords(d) {
-    d3.select("#" + d.label.replace(/\s/g, ""))
+    d3.select("#" + d.id)
         .style("background", color(d.type))
         .style("color", "white");
 }
@@ -330,7 +336,7 @@ function unMarkWords(d) {
         .style("font-size", "10px")
     bgRGB = d3.color(color(d.type));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
-    d3.select("#" + d.label.replace(/\s/g, ""))
+    d3.select("#" + d.id)
         .style("background", backgroundColor)
         .style("color", "black")
 }
@@ -345,8 +351,6 @@ function unhighlight(x) {
     d3.selectAll(".upper_uncertainty")
         .style("opacity", normalUncertaintyOpacity)
 
-    // d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
-    //     .style("stroke", "none")    
     bgRGB = d3.color($(x).attr("color"));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
     x.style.backgroundColor = backgroundColor;
@@ -362,33 +366,35 @@ function unhighlight(x) {
         .style("font-size", "10px")
 }
 
-function highlight(x) {
+function highlightMaster(id, color) {
     d3.selectAll(".mostlikely")
         .style("opacity", "0.2")
 
-    d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
-        // .style("stroke", "black")
+    d3.select("#mostlikely-" + id)
         .style("opacity", 1)
 
-    d3.select("#lower_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
-        // .style("stroke", "darkgray")
+    d3.select("#lower_uncertainty-" + id)
         .style("opacity", normalOpacity - 0.1)
 
-    d3.select("#upper_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
-        // .style("stroke", "darkgray")
+    d3.select("#upper_uncertainty-" + id)
         .style("opacity", normalOpacity - 0.1)
 
-    x.style.backgroundColor = $(x).attr("color");
-    x.style.color = "white";
+    d3.select("#" + id)
+        .style("background", color)
+        .style("color", "white");
 
     d3.select('.axis--y')
         .selectAll('text')
         .filter(function(z) {
-            return z.replace(/\s/g, "") == $(x).attr("id");
+            return z == id;
         })
-        .style("fill", $(x).attr("color"))
+        .style("fill", color)
         .style("font-weight", "bold")
         .style("font-size", "20px")
+}
+
+function highlight(x) {
+    highlightMaster($(x).text().trim().replace(/\s/g, ""), $(x).attr("color"))
 }
 
 function select_axis_label(d) {
