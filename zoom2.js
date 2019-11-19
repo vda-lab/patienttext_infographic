@@ -1,14 +1,37 @@
 // TODOS
 // doubles are removed
-// d3tip hide does not return backgroundcolor in text
 const file = 248;
 
 const minRectWidth = 5,
     initDelay = 1500,
     initDuration = 2500,
     normalOpacity = 0.6,
-    textOpacity = 0.2,
+    textOpacity = 0.15,
     normalUncertaintyOpacity = 0.1;
+
+function color(type) {
+    switch (type) {
+        case "OCCURRENCE":
+            return "rgb(31, 119, 180)"; // blue
+        case "CLINICAL_DEPT":
+            return "rgb(255, 127, 14)"; // orange
+        case "TREATMENT":
+            return "rgb(44, 160, 44)"; // green
+        case "TEST":
+            return "rgb(148, 103, 189)"; //purple
+        case "EVIDENTIAL":
+            return "rgb(140, 86, 75)"; // brown
+        case "PROBLEM":
+            return "rgb(214, 39, 40)"; //red
+        default:
+            return "transparent";
+    }
+}
+
+// rgb(227, 119, 194) pink
+// rgb(127, 127, 127) grey
+// rgb(188, 189, 34) lightgreen
+// rgb(23, 190, 207) lightblue
 
 const formatTime = d3.timeFormat("%B %d, %Y");
 
@@ -72,9 +95,9 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     maxDate = _.max(data.map(d => d.upperBoundEnd));
 
     // Color scale: give me a specie name, I return a color
-    var color = d3.scaleOrdinal()
-        .domain(data.map(d => d.type))
-        .range(d3.schemeCategory10);
+    // var color = d3.scaleOrdinal()
+    //     .domain(data.map(d => d.type))
+    //     .range(d3.schemeCategory10);
 
     var tip = d3.tip()
         .attr("class", "d3-tip")
@@ -82,7 +105,9 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .offset(function () {
             let thisX = this.getBBox().x;
             let thisWidth = this.getBBox().width;
-            if (thisX + thisWidth > mainWidgetWidth) {
+            if (thisWidth > mainWidgetWidth) {
+                return [0, mainWidgetWidth / 2]
+            } else if (thisX + thisWidth > mainWidgetWidth) {
                 return [0, -thisWidth / 2 + (mainWidgetWidth - thisX) / 2] // [top, left]
             } else if (thisX < 0) {
                 return [0, (thisWidth / 2) - (thisX + thisWidth) / 2];
@@ -97,8 +122,8 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     Svg.call(tip);
 
     data.forEach(d => {
-        rgbaColor(color, d);
-        letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color=" + color(d.type) + " style=\"background-color:" + backgroundColor + "\" id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
+        rgbaColor(d);
+        letterText = letterText.replace(d.label, "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" color=\"" + color(d.type) + "\" style=\"background-color:" + backgroundColor + "\" id=" + d.label.replace(/\s/g, "") + ">" + d.label + " </span>");
     });
 
     // splittedService = letterText.split(/service/i);
@@ -181,7 +206,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .on('mouseover', tip.show)
         .on('mouseout', d => {
             tip.hide()
-            unMarkWords(d,color);
+            unMarkWords(d);
         });
 
     scatter
@@ -200,7 +225,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .on('mouseover', tip.show)
         .on('mouseout', d => {
             tip.hide()
-            unMarkWords(d,color);
+            unMarkWords(d);
         });
 
     scatter
@@ -219,7 +244,7 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
         .on('mouseover', tip.show)
         .on('mouseout', d => {
             tip.hide()
-            unMarkWords(d,color);
+            unMarkWords(d);
         });
 
     minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
@@ -282,21 +307,23 @@ d3.xml("testset_annotated_ground_truth/" + file + ".xml").then(xml => {
     }
 });
 
-function rgbaColor(color, d) {
+function rgbaColor(d) {
     bgRGB = d3.color(color(d.type));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
 }
 
-function markWords(d, color) {
+function markWords(d) {
     d3.select("#" + d.label.replace(/\s/g, ""))
-        .style("background", color(d.type));
+        .style("background", color(d.type))
+        .style("color", "white");
 }
 
-function unMarkWords(d, color) {
+function unMarkWords(d) {
     bgRGB = d3.color(color(d.type));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
     d3.select("#" + d.label.replace(/\s/g, ""))
-        .style("background", backgroundColor);
+        .style("background", backgroundColor)
+        .style("color", "black");
 }
 
 function unhighlight(x) {
@@ -310,11 +337,11 @@ function unhighlight(x) {
         .style("opacity", normalUncertaintyOpacity)
 
     // d3.select("#mostlikely-" + $(x).text().trim().replace(/\s/g, ""))
-    //     .style("stroke", "none")
-
+    //     .style("stroke", "none")    
     bgRGB = d3.color($(x).attr("color"));
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
     x.style.backgroundColor = backgroundColor;
+    x.style.color = "black";
 }
 
 function highlight(x) {
@@ -332,5 +359,13 @@ function highlight(x) {
     d3.select("#upper_uncertainty-" + $(x).text().trim().replace(/\s/g, ""))
         // .style("stroke", "darkgray")
         .style("opacity", normalOpacity - 0.1)
+    
+    bgRGB = d3.color($(x).attr("color"));
+    backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + 1 + ")";
+    console.log($(x).attr("color"));
+    console.log(backgroundColor);
+    
+    
     x.style.backgroundColor = $(x).attr("color");
+    x.style.color = "white";
 }
