@@ -10,6 +10,28 @@ $(window).resize(function() {
 
 const FILE = 3;
 
+var filenames = [],
+    foldernames = [];
+var url = "file:///testset_annotated_ground_truth";
+var req = new XMLHttpRequest();
+req.open("GET", url, true);
+req.onreadystatechange = function() {
+    if (req.readyState === 4) {
+        document.write(req.responseText);
+        getNames();
+    }
+};
+req.send();
+
+function getNames() {
+    var files = document.querySelectorAll("a.icon.file");
+    var folders = document.querySelectorAll("a.icon.dir");
+    files.forEach(function(item) { filenames.push(item.textContent) })
+    folders.forEach(function(item) { foldernames.push(item.textContent.slice(0, -1)) })
+    console.log(filenames);
+    console.log(foldernames);
+}
+
 const minRectWidth = 5,
     initDelay = 1000,
     initDuration = 2500,
