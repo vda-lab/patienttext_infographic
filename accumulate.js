@@ -8,11 +8,10 @@ $(window).resize(function() {
     window.location.reload();
 });
 
-
 const FILE = 3;
 
 const minRectWidth = 5,
-    initDelay = 1500,
+    initDelay = 1000,
     initDuration = 2500,
     antiFlickerDuration = 200,
     normalOpacity = 0.6,
@@ -119,8 +118,48 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
     splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :/i);
 
     // populate the corresponding views
-    $("#admissiondatep").html(formatTime(admissionDate));
-    $("#dischargedatep").html(formatTime(dischargeDate));
+    $("#admissiondatep")
+        .html(formatTime(admissionDate));
+    $("#admissionLabel")
+        .mouseover(() => {
+            d3.select("#admissionLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "grey")
+                .style("color", "white");
+            d3.selectAll(".admissionDate")
+                .transition(antiFlickerDuration)
+                .style("stroke-width", 5)
+        })
+        .mouseout(() => {
+            d3.select("#admissionLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "transparent")
+                .style("color", "black");
+            d3.selectAll(".admissionDate")
+                .transition(antiFlickerDuration)
+                .style("stroke-width", 2)
+        })
+    $("#dischargedatep")
+        .html(formatTime(dischargeDate));
+    $("#dischargeLabel")
+        .mouseover(() => {
+            d3.select("#dischargeLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "grey")
+                .style("color", "white");
+            d3.selectAll(".dischargeDate")
+                .transition(antiFlickerDuration)
+                .style("stroke-width", 5)
+        })
+        .mouseout(() => {
+            d3.select("#dischargeLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "transparent")
+                .style("color", "black");
+            d3.selectAll(".dischargeDate")
+                .transition(antiFlickerDuration)
+                .style("stroke-width", 2)
+        })
     $("#hpip").html(splittedHC[0]);
     $("#hospitalcoursep").html(splittedHC[1]);
 
@@ -274,7 +313,25 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
         .attr("y2", mainWidgetHeight)
         .style("stroke-width", 2)
         .style("stroke", "darkgrey")
-        .style("fill", "none");
+        .style("fill", "none")
+        .on('mouseover', (d, i, n) => {
+            d3.select(n[i])
+                .transition(antiFlickerDuration / 2)
+                .style("stroke-width", 5)
+            d3.select("#admissionLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "grey")
+                .style("color", "white");
+        })
+        .on('mouseout', (d, i, n) => {
+            d3.select(n[i])
+                .transition(antiFlickerDuration / 2)
+                .style("stroke-width", 2)
+            d3.select("#admissionLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "transparent")
+                .style("color", "black");
+        })
 
     scatter
         .append("line")
@@ -285,7 +342,26 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
         .attr("y2", mainWidgetHeight)
         .style("stroke-width", 2)
         .style("stroke", "darkgrey")
-        .style("fill", "none");
+        .style("fill", "none")
+        .on('mouseover', (d, i, n) => {
+            d3.select(n[i])
+                .transition(antiFlickerDuration / 2)
+                .style("stroke-width", 5)
+            d3.select("#dischargeLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "grey")
+                .style("color", "white");
+        })
+        .on('mouseout', (d, i, n) => {
+            d3.select(n[i])
+                .transition(antiFlickerDuration / 2)
+                .style("stroke-width", 2)
+            d3.select("#dischargeLabel")
+                .transition(antiFlickerDuration / 2)
+                .style('background-color', "transparent")
+                .style("color", "black");
+        })
+
 
     // zoom in to mostlikely range
     minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
@@ -298,6 +374,8 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
 
     // A function that update the chart for given boundaries
     function updateChart(startX, endX) {
+
+
 
         let duration = 1000;
         let delay = 0;

@@ -91,7 +91,7 @@ ul {
 }
 
 .title {
-    color: #333333;
+    /* color: #333333; */
     font-family: 'Bitter', serif;
     font-weight: bold;
     white-space: pre;
