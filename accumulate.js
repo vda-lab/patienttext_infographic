@@ -1,5 +1,7 @@
 // TODOS
 // doubles are removed
+// allow user to remove events
+// show before or after time zoom (arrow?)
 
 // reload window on resize
 $(window).resize(function() {
@@ -16,7 +18,8 @@ const minRectWidth = 5,
     normalOpacity = 0.6,
     textOpacity = 0.15,
     normalUncertaintyOpacity = 0.1,
-    formatTime = d3.timeFormat("%B %d, %Y");
+    formatTime = d3.timeFormat("%B %d, %Y"),
+    daysOffsetForZoom = 3;
 
 function color(type) {
     switch (type) {
@@ -262,10 +265,32 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
             unhighlightMaster(d.id, color(d.type));
         });
 
+    scatter
+        .append("line")
+        .attr("class", "admissionDate")
+        .attr("x1", x(admissionDate))
+        .attr("x2", x(admissionDate))
+        .attr("y1", 0)
+        .attr("y2", mainWidgetHeight)
+        .style("stroke-width", 2)
+        .style("stroke", "darkgrey")
+        .style("fill", "none");
+
+    scatter
+        .append("line")
+        .attr("class", "dischargeDate")
+        .attr("x1", x(dischargeDate))
+        .attr("x2", x(dischargeDate))
+        .attr("y1", 0)
+        .attr("y2", mainWidgetHeight)
+        .style("stroke-width", 2)
+        .style("stroke", "darkgrey")
+        .style("fill", "none");
+
     // zoom in to mostlikely range
     minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
     maxLikelyDate = _.max(data.map(d => d.mostLikelyEnd));
-    updateChart(x(admissionDate), x(dischargeDate));
+    updateChart(x(new Date(admissionDate.getTime() - (24 * 60 * 60 * 1000) * daysOffsetForZoom)), x(new Date(dischargeDate.getTime() + (24 * 60 * 60 * 1000) * daysOffsetForZoom)));
 
     // A function that set idleTimeOut to null
     var idleTimeout // var because used in idled()
@@ -319,6 +344,18 @@ d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
             .transition().delay(delay).duration(duration)
             .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
             .attr("x", d => x(d.mostLikelyEnd))
+
+        scatter
+            .selectAll(".admissionDate")
+            .transition().delay(delay).duration(duration)
+            .attr("x1", x(admissionDate))
+            .attr("x2", x(admissionDate))
+
+        scatter
+            .selectAll(".dischargeDate")
+            .transition().delay(delay).duration(duration)
+            .attr("x1", x(dischargeDate))
+            .attr("x2", x(dischargeDate))
     }
 });
 
