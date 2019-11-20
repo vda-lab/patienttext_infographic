@@ -2,6 +2,8 @@
 // doubles are removed
 // allow user to remove events
 // show before or after time zoom (arrow?)
+// mag data online?
+// sorteren op tijd per type (mostlikelystart)
 
 // reload window on resize
 $(window).resize(function() {
@@ -111,8 +113,8 @@ $(function() { //DOM Ready
                 // todo: doubles are filtered in this version
                 data = _.unique(data, "label");
 
-                // group event by type
-                data = _.sortBy(data, d => d.type)
+                // group event by time and then type
+                data = _.sortBy(_.sortBy(data, d => d.mostLikelyStart), j => j.type);
 
                 /*
                  create and populate textview
@@ -131,8 +133,8 @@ $(function() { //DOM Ready
                 });
 
                 // split report on hpi and hospital course
-                splittedHPI = letterText.split(/history of present illness :|hpi :/i);
-                splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :/i);
+                splittedHPI = letterText.split(/history of present illness :|hpi :|history of present illness /i);
+                splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :|hospital course /i);
 
                 // populate the corresponding views
                 $("#admissiondatep")
@@ -155,6 +157,9 @@ $(function() { //DOM Ready
                         d3.selectAll(".admissionDate")
                             .transition(antiFlickerDuration)
                             .style("stroke-width", 2)
+                    })
+                    .click(() => {
+                        testing();
                     })
                 $("#dischargedatep")
                     .html(formatTime(dischargeDate));
