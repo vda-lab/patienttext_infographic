@@ -104,7 +104,7 @@ $(function() { //DOM Ready
                         upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
                         label: event.getAttribute("text"),
                         type: event.getAttribute("type"),
-                        id: event.getAttribute("text").replace(/\s/g, "")
+                        id: event.getAttribute("text").replace(/[\W_\d]/g, "")
                     };
                 });
 
@@ -279,6 +279,8 @@ $(function() { //DOM Ready
                 function draw(data, first) {
                     d3.selectAll(".label").style("background", "transparent")
                     data.forEach(d => {
+                        console.log(d);
+
                         d3.select("#" + d.id).style("background", rgbaColor(d))
                     });
 
