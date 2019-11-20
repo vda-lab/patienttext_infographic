@@ -24,38 +24,30 @@
 
 <body>
 
-    <div class="gridster">
-        <ul>
-            <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
-                <div id="patient_filter" class="gridelement">
-                    <select id="options" name="locality"></select>
-                    <label><input type="checkbox" id="treatments_box" checked=true/>Treatments</label>
-                    <label><input type="checkbox" id="occurence_box" checked=true/>Occurence</label>
-                    <label><input type="checkbox" id="clinical_dept_box" checked=true/>Clinical department</label>
-                    <label><input type="checkbox" id="test_box" checked=true/>Test</label>
-                    <label><input type="checkbox" id="evidential_box" checked=true/>Evidential</label>
-                    <label><input type="checkbox" id="problem_box" checked=true/>Problem</label>
-                </div>
+    <div class="grid-container">
+        <div id="patient_filter" class="gridelement">
+            <select id="options" name="locality"></select>
+            <label class="container"><input type="checkbox" id="treatments_box" checked=true/>Treatments<span class="checkmark"></span></label>
+            <label class="container"><input type="checkbox" id="occurence_box" checked=true/>Occurence<span class="checkmark"></span></label>
+            <label class="container"><input type="checkbox" id="clinical_dept_box" checked=true/>Clinical department<span class="checkmark"></span></label>
+            <label class="container"><input type="checkbox" id="test_box" checked=true/>Test<span class="checkmark"></span></label>
+            <label class="container"><input type="checkbox" id="evidential_box" checked=true/>Evidential<span class="checkmark"></span></label>
+            <label class="container"><input type="checkbox" id="problem_box" checked=true/>Problem<span class="checkmark"></span></label>
+        </div>
 
-            </li>
+        <div id="letterbox" class="gridelement">
+            <h1>Report</h1>
+            <div id="admissionLabel"><span class="title">Admission date: </span><span id="admissiondatep"></span></div>
+            <br>
+            <div id="dischargeLabel"><span class="title">Discharge date: </span><span id="dischargedatep"></span></div>
+            <h2>History of present illness</h2>
+            <p id="hpip"></p>
+            <h2>Hospital course</h2>
+            <p id="hospitalcoursep"></p>
+        </div>
 
-            <li data-row="2" data-col="1" data-sizex="1" data-sizey="9">
-                <div id="letterbox" class="gridelement">
-                    <h1>Report</h1>
-                    <div id="admissionLabel"><span class="title">Admission date: </span><span id="admissiondatep"></span></div>
-                    <br>
-                    <div id="dischargeLabel"><span class="title">Discharge date: </span><span id="dischargedatep"></span></div>
-                    <h2>History of present illness</h2>
-                    <p id="hpip"></p>
-                    <h2>Hospital course</h2>
-                    <p id="hospitalcoursep"></p>
-                </div>
-            </li>
+        <div id="dataviz_brushZoom" class="gridelement"></div>
 
-            <li data-row="2" data-col="2" data-sizex="2" data-sizey="9">
-                <div id="dataviz_brushZoom" class="gridelement"></div>
-            </li>
-        </ul>
     </div>
     <script src="accumulate.js"></script>
 </body>

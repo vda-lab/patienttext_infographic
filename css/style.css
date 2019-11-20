@@ -1,13 +1,12 @@
 #patient_filter {
-    /* position: absolute; */
-    width: 100%;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(50%, -50%); */
+    /* width: 100%; */
+    grid-area: header;
+    display: inline;
+    text-align: center;
 }
 
 #patient_filter select {
-    background-color: darkgray;
+    background-color: #2196F3;
     color: white;
     padding: 12px;
     width: 250px;
@@ -42,6 +41,107 @@
 
 #patient_filter select option {
     padding: 30px;
+}
+
+#dataviz_brushZoom {
+    grid-area: right;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header' 'main main right right right right' 'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+}
+
+
+/* The container */
+
+.container {
+    display: inline;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 h1 {
@@ -79,56 +179,8 @@ ul {
     list-style-type: none;
 }
 
-.gridster {
-    position: relative;
-}
-
-.gridster>* {
-    margin: 0;
-    -webkit-transition: height .4s, width .4s;
-    -moz-transition: height .4s, width .4s;
-    -o-transition: height .4s, width .4s;
-    -ms-transition: height .4s, width .4s;
-    transition: height .4s, width .4s;
-}
-
-.gridster .gs-w {
-    z-index: 2;
-    position: absolute;
-}
-
-.ready .gs-w:not(.preview-holder) {
-    -webkit-transition: opacity .3s, left .3s, top .3s;
-    -moz-transition: opacity .3s, left .3s, top .3s;
-    -o-transition: opacity .3s, left .3s, top .3s;
-    transition: opacity .3s, left .3s, top .3s;
-}
-
-.ready .gs-w:not(.preview-holder),
-.ready .resize-preview-holder {
-    -webkit-transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;
-    -moz-transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;
-    -o-transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;
-    transition: opacity .3s, left .3s, top .3s, width .3s, height .3s;
-}
-
-.gridster .preview-holder {
-    z-index: 1;
-    position: absolute;
-    background-color: #fff;
-    border-color: #fff;
-    opacity: 0.3;
-}
-
-
-/* .gridelement {
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    box-shadow: 1px 1px 2px #888888;
-} */
-
 #letterbox {
+    grid-area: main;
     padding: 20px;
     margin: 10px;
     margin-right: 20px;
@@ -143,14 +195,6 @@ ul {
     white-space: pre;
 }
 
-
-/* #slider-container {
-    position: relative;
-    height: 30px;
-    left: 200px;
-    background-color: #eeeef5;
-} */
-
 .d3-tip {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -160,26 +204,6 @@ ul {
     border-radius: 2px;
     z-index: 3;
     pointer-events: none !important;
-}
-
-
-/* .slider { color slider (.slider .handle for handlebars)
-    background: steelblue;
-} */
-
-.mostlikely {
-    fill: #264662;
-    opacity: 80%;
-}
-
-.lowerbound {
-    fill: #396a93;
-    opacity: 40%;
-}
-
-.upperbound {
-    fill: #396a93;
-    opacity: 40%;
 }
 
 .axis line {
@@ -195,14 +219,6 @@ ul {
 }
 
 .vergrid path {
-    display: none;
-}
-
-.horgrid line {
-    stroke: #f1f1f1
-}
-
-.horgrid path {
     display: none;
 }
 
@@ -237,23 +253,4 @@ ul {
     margin: -1px 0 0 0;
     top: 100%;
     left: 0;
-}
-
-#floatx {
-    position: fixed;
-    top: 30;
-    left: 0;
-    width: 100%;
-}
-
-.label-treatment {
-    fill: red;
-}
-
-.label-test {
-    fill: blue;
-}
-
-.label-occurence {
-    fill: green;
 }
