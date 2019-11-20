@@ -10,28 +10,6 @@ $(window).resize(function() {
 
 const FILE = 3;
 
-var filenames = [],
-    foldernames = [];
-var url = "file:///testset_annotated_ground_truth";
-var req = new XMLHttpRequest();
-req.open("GET", url, true);
-req.onreadystatechange = function() {
-    if (req.readyState === 4) {
-        document.write(req.responseText);
-        getNames();
-    }
-};
-req.send();
-
-function getNames() {
-    var files = document.querySelectorAll("a.icon.file");
-    var folders = document.querySelectorAll("a.icon.dir");
-    files.forEach(function(item) { filenames.push(item.textContent) })
-    folders.forEach(function(item) { foldernames.push(item.textContent.slice(0, -1)) })
-    console.log(filenames);
-    console.log(foldernames);
-}
-
 const minRectWidth = 5,
     initDelay = 1000,
     initDuration = 2500,
@@ -76,387 +54,407 @@ $(function() { //DOM Ready
         widget_margins: [0, 0],
         widget_base_dimensions: [(innerWidth) / 3, (innerHeight) / 10],
     });
-});
 
-// append the svg object to the corresponding div
-const svg = d3.select("#dataviz_brushZoom")
-    .append("svg")
-    .attr("width", mainWidgetWidth + margin.left + margin.right)
-    .attr("height", mainWidgetHeight + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
-
-//Read the data
-d3.xml("testset_annotated_ground_truth/" + FILE + ".xml").then(xml => {
-
-    // get text from the letter
-    letterText = xml.querySelector("TEXT").textContent
-    const admissionDate = new Date(letterText.split("\n")[2]);
-    const dischargeDate = new Date(letterText.split("\n")[4]);
-
-    // parse all data
-    let data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
-        return {
-            mostLikelyStart: new Date(event.getAttribute("most-likely-start")),
-            mostLikelyEnd: new Date(event.getAttribute("most-likely-end")),
-            lowerBoundStart: new Date(event.getAttribute("lowerbound-start")),
-            lowerBoundEnd: new Date(event.getAttribute("lowerbound-end")),
-            upperBoundStart: new Date(event.getAttribute("upperbound-start")),
-            upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
-            label: event.getAttribute("text"),
-            type: event.getAttribute("type"),
-            id: event.getAttribute("text").replace(/\s/g, "")
-        };
-    });
-
-    const minDate = _.min(data.map(d => d.lowerBoundStart));
-    const maxDate = _.max(data.map(d => d.upperBoundEnd));
-
-    // todo: doubles are filtered in this version
-    data = _.unique(data, "label");
-
-    // group event by type
-    data = _.sortBy(data, d => d.type)
-
-    /*
-     create and populate textview
-    */
-
-    // create spans for every event
-    data.forEach(d => {
-        const backgroundColor = rgbaColor(d);
-        letterText = letterText.replace(d.label,
-            "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" " +
-            "color=\"" + color(d.type) +
-            "\" style=\"background-color:" + backgroundColor +
-            "\" id=" + d.id + ">" +
-            d.label +
-            " </span>");
-    });
-
-    // split report on hpi and hospital course
-    splittedHPI = letterText.split(/history of present illness :|hpi :/i);
-    splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :/i);
-
-    // populate the corresponding views
-    $("#admissiondatep")
-        .html(formatTime(admissionDate));
-    $("#admissionLabel")
-        .mouseover(() => {
-            d3.select("#admissionLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "grey")
-                .style("color", "white");
-            d3.selectAll(".admissionDate")
-                .transition(antiFlickerDuration)
-                .style("stroke-width", 5)
-        })
-        .mouseout(() => {
-            d3.select("#admissionLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "transparent")
-                .style("color", "black");
-            d3.selectAll(".admissionDate")
-                .transition(antiFlickerDuration)
-                .style("stroke-width", 2)
-        })
-    $("#dischargedatep")
-        .html(formatTime(dischargeDate));
-    $("#dischargeLabel")
-        .mouseover(() => {
-            d3.select("#dischargeLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "grey")
-                .style("color", "white");
-            d3.selectAll(".dischargeDate")
-                .transition(antiFlickerDuration)
-                .style("stroke-width", 5)
-        })
-        .mouseout(() => {
-            d3.select("#dischargeLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "transparent")
-                .style("color", "black");
-            d3.selectAll(".dischargeDate")
-                .transition(antiFlickerDuration)
-                .style("stroke-width", 2)
-        })
-    $("#hpip").html(splittedHC[0]);
-    $("#hospitalcoursep").html(splittedHC[1]);
-
-    // add tooltip on hover
-    const tip = d3.tip()
-        .attr("class", "d3-tip")
-        .direction('n')
-        .offset(function() {
-            let thisX = this.getBBox().x;
-            let thisWidth = this.getBBox().width;
-            if (thisWidth > mainWidgetWidth) {
-                return [0, mainWidgetWidth / 2]
-            } else if (thisX + thisWidth > mainWidgetWidth) {
-                return [0, -thisWidth / 2 + (mainWidgetWidth - thisX) / 2] // [top, left]
-            } else if (thisX < 0) {
-                return [0, (thisWidth / 2) - (thisX + thisWidth) / 2];
-            } else {
-                return [0, 0];
-            }
-        })
-        .html(d => {
-            // code here otherwise does not work in mouseover... 
-            markWords(d, color)
-            select_axis_label(d)
-                .style("fill", color(d.type))
-                .style("font-weight", "bold")
-                .style("font-size", "20px")
-            highlightMaster(d.id, color(d.type))
-            return "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>"
-        });
-    svg.call(tip);
-
-    // Add X axis
-    const x = d3.scaleTime()
-        .domain([minDate, maxDate])
-        .range([0, mainWidgetWidth]);
-    const xAxis = svg.append("g")
-        .call(d3.axisTop(x));
-
-    const verGridLines = d3.axisTop()
-        .tickFormat("")
-        .tickSize(-mainWidgetHeight)
-        .scale(x);
-
-    xAxis.append("g")
-        .attr("class", "vergrid")
-        .call(verGridLines);
-
-    // Add Y axis
-    const y = d3.scaleBand()
-        .domain(data.map(d => d.label))
-        .range([mainWidgetHeight, 0])
-        .padding([0.2]);
-    svg.append("g")
-        .attr("class", "axis axis--y")
-        .call(d3.axisLeft(y));
-
-    // Add a clipPath: everything out of this area won't be drawn.
-    var clip = svg.append("defs").append("svg:clipPath")
-        .attr("id", "clip")
-        .append("svg:rect")
-        .attr("width", mainWidgetWidth)
-        .attr("height", mainWidgetHeight)
-        .attr("x", 0)
-        .attr("y", 0);
-
-    // Add brushing
-    var brush = d3.brushX() // Add the brush feature using the d3.brush function
-        .extent([
-            [0, 0],
-            [mainWidgetWidth, mainWidgetHeight]
-        ]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
-        .on("end", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
-
-    // Create the scatter variable: where both the circles and the brush take place
-    var scatter = svg.append('g')
-        .attr("clip-path", "url(#clip)")
-
-    // Add the brushing before the elements (for mouseover)
-    scatter
+    // append the svg object to the corresponding div
+    const svg = d3.select("#dataviz_brushZoom")
+        .append("svg")
+        .attr("width", mainWidgetWidth + margin.left + margin.right)
+        .attr("height", mainWidgetHeight + margin.top + margin.bottom)
         .append("g")
-        .attr("class", "brush")
-        .call(brush);
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
 
-    scatter
-        .selectAll(".mostlikely")
-        .data(data)
-        .enter()
-        .append("rect")
-        .attr("class", "mostlikely")
-        .attr("id", d => "mostlikely-" + d.id)
-        .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
-        .attr("height", y.bandwidth())
-        .attr("y", d => y(d.label))
-        .attr("x", d => x(d.mostLikelyStart))
-        .style("fill", d => color(d.type))
-        .style("opacity", normalOpacity)
-        .on('mouseover', tip.show)
-        .on('mouseout', d => {
-            tip.hide()
-            unMarkWords(d);
-            unhighlightMaster(d.id, color(d.type));
+    $.get("testset_annotated_ground_truth/content.txt", function(result) {
+        let files = (_.filter(result.split("\n"), (d) => /.xml/i.test(d)));
+
+        var options = $("#options");
+        //don't forget error handling!
+        files.forEach(item => {
+            options.append($("<option />").val(item).text(item.split(".")[0]));
+        })
+
+        $("#options").on('change', function() {
+            console.log(this.value)
+            readFile(this.value);
         });
 
-    scatter
-        .selectAll(".lower_uncertainty")
-        .data(data)
-        .enter()
-        .append("rect")
-        .attr("class", "lower_uncertainty")
-        .attr("id", d => "lower_uncertainty-" + d.id)
-        .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
-        .attr("height", y.bandwidth())
-        .attr("y", d => y(d.label))
-        .attr("x", d => x(d.lowerBoundStart))
-        .style("fill", d => color(d.type))
-        .style("opacity", normalUncertaintyOpacity)
-        .on('mouseover', tip.show)
-        .on('mouseout', d => {
-            tip.hide()
-            unMarkWords(d);
-            unhighlightMaster(d.id, color(d.type));
-        });
+        readFile(FILE + ".xml")
 
-    scatter
-        .selectAll(".upper_uncertainty")
-        .data(data)
-        .enter()
-        .append("rect")
-        .attr("class", d => "upper_uncertainty")
-        .attr("id", d => "upper_uncertainty-" + d.id)
-        .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
-        .attr("height", y.bandwidth())
-        .attr("y", d => y(d.label))
-        .attr("x", d => x(d.mostLikelyEnd))
-        .style("fill", d => color(d.type))
-        .style("opacity", normalUncertaintyOpacity)
-        .on('mouseover', tip.show)
-        .on('mouseout', d => {
-            tip.hide()
-            unMarkWords(d);
-            unhighlightMaster(d.id, color(d.type));
-        });
+        function readFile(file) {
 
-    scatter
-        .append("line")
-        .attr("class", "admissionDate")
-        .attr("x1", x(admissionDate))
-        .attr("x2", x(admissionDate))
-        .attr("y1", 0)
-        .attr("y2", mainWidgetHeight)
-        .style("stroke-width", 2)
-        .style("stroke", "darkgrey")
-        .style("fill", "none")
-        .on('mouseover', (d, i, n) => {
-            d3.select(n[i])
-                .transition(antiFlickerDuration / 2)
-                .style("stroke-width", 5)
-            d3.select("#admissionLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "grey")
-                .style("color", "white");
-        })
-        .on('mouseout', (d, i, n) => {
-            d3.select(n[i])
-                .transition(antiFlickerDuration / 2)
-                .style("stroke-width", 2)
-            d3.select("#admissionLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "transparent")
-                .style("color", "black");
-        })
+            d3.xml("testset_annotated_ground_truth/" + file).then(xml => {
+                svg.selectAll("*").remove();
 
-    scatter
-        .append("line")
-        .attr("class", "dischargeDate")
-        .attr("x1", x(dischargeDate))
-        .attr("x2", x(dischargeDate))
-        .attr("y1", 0)
-        .attr("y2", mainWidgetHeight)
-        .style("stroke-width", 2)
-        .style("stroke", "darkgrey")
-        .style("fill", "none")
-        .on('mouseover', (d, i, n) => {
-            d3.select(n[i])
-                .transition(antiFlickerDuration / 2)
-                .style("stroke-width", 5)
-            d3.select("#dischargeLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "grey")
-                .style("color", "white");
-        })
-        .on('mouseout', (d, i, n) => {
-            d3.select(n[i])
-                .transition(antiFlickerDuration / 2)
-                .style("stroke-width", 2)
-            d3.select("#dischargeLabel")
-                .transition(antiFlickerDuration / 2)
-                .style('background-color', "transparent")
-                .style("color", "black");
-        })
+                // get text from the letter
+                letterText = xml.querySelector("TEXT").textContent
+                const admissionDate = new Date(letterText.split("\n")[2]);
+                const dischargeDate = new Date(letterText.split("\n")[4]);
+
+                // parse all data
+                let data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
+                    return {
+                        mostLikelyStart: new Date(event.getAttribute("most-likely-start")),
+                        mostLikelyEnd: new Date(event.getAttribute("most-likely-end")),
+                        lowerBoundStart: new Date(event.getAttribute("lowerbound-start")),
+                        lowerBoundEnd: new Date(event.getAttribute("lowerbound-end")),
+                        upperBoundStart: new Date(event.getAttribute("upperbound-start")),
+                        upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
+                        label: event.getAttribute("text"),
+                        type: event.getAttribute("type"),
+                        id: event.getAttribute("text").replace(/\s/g, "")
+                    };
+                });
+
+                const minDate = _.min(data.map(d => d.lowerBoundStart));
+                const maxDate = _.max(data.map(d => d.upperBoundEnd));
+
+                // todo: doubles are filtered in this version
+                data = _.unique(data, "label");
+
+                // group event by type
+                data = _.sortBy(data, d => d.type)
+
+                /*
+                 create and populate textview
+                */
+
+                // create spans for every event
+                data.forEach(d => {
+                    const backgroundColor = rgbaColor(d);
+                    letterText = letterText.replace(d.label,
+                        "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" " +
+                        "color=\"" + color(d.type) +
+                        "\" style=\"background-color:" + backgroundColor +
+                        "\" id=" + d.id + ">" +
+                        d.label +
+                        " </span>");
+                });
+
+                // split report on hpi and hospital course
+                splittedHPI = letterText.split(/history of present illness :|hpi :/i);
+                splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :/i);
+
+                // populate the corresponding views
+                $("#admissiondatep")
+                    .html(formatTime(admissionDate));
+                $("#admissionLabel")
+                    .mouseover(() => {
+                        d3.select("#admissionLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "grey")
+                            .style("color", "white");
+                        d3.selectAll(".admissionDate")
+                            .transition(antiFlickerDuration)
+                            .style("stroke-width", 5)
+                    })
+                    .mouseout(() => {
+                        d3.select("#admissionLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "transparent")
+                            .style("color", "black");
+                        d3.selectAll(".admissionDate")
+                            .transition(antiFlickerDuration)
+                            .style("stroke-width", 2)
+                    })
+                $("#dischargedatep")
+                    .html(formatTime(dischargeDate));
+                $("#dischargeLabel")
+                    .mouseover(() => {
+                        d3.select("#dischargeLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "grey")
+                            .style("color", "white");
+                        d3.selectAll(".dischargeDate")
+                            .transition(antiFlickerDuration)
+                            .style("stroke-width", 5)
+                    })
+                    .mouseout(() => {
+                        d3.select("#dischargeLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "transparent")
+                            .style("color", "black");
+                        d3.selectAll(".dischargeDate")
+                            .transition(antiFlickerDuration)
+                            .style("stroke-width", 2)
+                    })
+                $("#hpip").html(splittedHC[0]);
+                $("#hospitalcoursep").html(splittedHC[1]);
+
+                // add tooltip on hover
+                const tip = d3.tip()
+                    .attr("class", "d3-tip")
+                    .direction('n')
+                    .offset(function() {
+                        let thisX = this.getBBox().x;
+                        let thisWidth = this.getBBox().width;
+                        if (thisWidth > mainWidgetWidth) {
+                            return [0, mainWidgetWidth / 2]
+                        } else if (thisX + thisWidth > mainWidgetWidth) {
+                            return [0, -thisWidth / 2 + (mainWidgetWidth - thisX) / 2] // [top, left]
+                        } else if (thisX < 0) {
+                            return [0, (thisWidth / 2) - (thisX + thisWidth) / 2];
+                        } else {
+                            return [0, 0];
+                        }
+                    })
+                    .html(d => {
+                        // code here otherwise does not work in mouseover... 
+                        markWords(d, color)
+                        select_axis_label(d)
+                            .style("fill", color(d.type))
+                            .style("font-weight", "bold")
+                            .style("font-size", "20px")
+                        highlightMaster(d.id, color(d.type))
+                        return "<span style=\"color:" + color(d.type) + "\">" + d.type + ": </span><span>" + d.label + "</span>"
+                    });
+                svg.call(tip);
+
+                // Add X axis
+                const x = d3.scaleTime()
+                    .domain([minDate, maxDate])
+                    .range([0, mainWidgetWidth]);
+                const xAxis = svg.append("g")
+                    .call(d3.axisTop(x));
+
+                const verGridLines = d3.axisTop()
+                    .tickFormat("")
+                    .tickSize(-mainWidgetHeight)
+                    .scale(x);
+
+                xAxis.append("g")
+                    .attr("class", "vergrid")
+                    .call(verGridLines);
+
+                // Add Y axis
+                const y = d3.scaleBand()
+                    .domain(data.map(d => d.label))
+                    .range([mainWidgetHeight, 0])
+                    .padding([0.2]);
+                svg.append("g")
+                    .attr("class", "axis axis--y")
+                    .call(d3.axisLeft(y));
+
+                // Add a clipPath: everything out of this area won't be drawn.
+                var clip = svg.append("defs").append("svg:clipPath")
+                    .attr("id", "clip")
+                    .append("svg:rect")
+                    .attr("width", mainWidgetWidth)
+                    .attr("height", mainWidgetHeight)
+                    .attr("x", 0)
+                    .attr("y", 0);
+
+                // Add brushing
+                var brush = d3.brushX() // Add the brush feature using the d3.brush function
+                    .extent([
+                        [0, 0],
+                        [mainWidgetWidth, mainWidgetHeight]
+                    ]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+                    .on("end", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
+
+                // Create the scatter variable: where both the circles and the brush take place
+                var scatter = svg.append('g')
+                    .attr("clip-path", "url(#clip)")
+
+                // Add the brushing before the elements (for mouseover)
+                scatter
+                    .append("g")
+                    .attr("class", "brush")
+                    .call(brush);
+
+                scatter
+                    .selectAll(".mostlikely")
+                    .data(data)
+                    .enter()
+                    .append("rect")
+                    .attr("class", "mostlikely")
+                    .attr("id", d => "mostlikely-" + d.id)
+                    .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
+                    .attr("height", y.bandwidth())
+                    .attr("y", d => y(d.label))
+                    .attr("x", d => x(d.mostLikelyStart))
+                    .style("fill", d => color(d.type))
+                    .style("opacity", normalOpacity)
+                    .on('mouseover', tip.show)
+                    .on('mouseout', d => {
+                        tip.hide()
+                        unMarkWords(d);
+                        unhighlightMaster(d.id, color(d.type));
+                    });
+
+                scatter
+                    .selectAll(".lower_uncertainty")
+                    .data(data)
+                    .enter()
+                    .append("rect")
+                    .attr("class", "lower_uncertainty")
+                    .attr("id", d => "lower_uncertainty-" + d.id)
+                    .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
+                    .attr("height", y.bandwidth())
+                    .attr("y", d => y(d.label))
+                    .attr("x", d => x(d.lowerBoundStart))
+                    .style("fill", d => color(d.type))
+                    .style("opacity", normalUncertaintyOpacity)
+                    .on('mouseover', tip.show)
+                    .on('mouseout', d => {
+                        tip.hide()
+                        unMarkWords(d);
+                        unhighlightMaster(d.id, color(d.type));
+                    });
+
+                scatter
+                    .selectAll(".upper_uncertainty")
+                    .data(data)
+                    .enter()
+                    .append("rect")
+                    .attr("class", d => "upper_uncertainty")
+                    .attr("id", d => "upper_uncertainty-" + d.id)
+                    .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
+                    .attr("height", y.bandwidth())
+                    .attr("y", d => y(d.label))
+                    .attr("x", d => x(d.mostLikelyEnd))
+                    .style("fill", d => color(d.type))
+                    .style("opacity", normalUncertaintyOpacity)
+                    .on('mouseover', tip.show)
+                    .on('mouseout', d => {
+                        tip.hide()
+                        unMarkWords(d);
+                        unhighlightMaster(d.id, color(d.type));
+                    });
+
+                scatter
+                    .append("line")
+                    .attr("class", "admissionDate")
+                    .attr("x1", x(admissionDate))
+                    .attr("x2", x(admissionDate))
+                    .attr("y1", 0)
+                    .attr("y2", mainWidgetHeight)
+                    .style("stroke-width", 2)
+                    .style("stroke", "darkgrey")
+                    .style("fill", "none")
+                    .on('mouseover', (d, i, n) => {
+                        d3.select(n[i])
+                            .transition(antiFlickerDuration / 2)
+                            .style("stroke-width", 5)
+                        d3.select("#admissionLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "grey")
+                            .style("color", "white");
+                    })
+                    .on('mouseout', (d, i, n) => {
+                        d3.select(n[i])
+                            .transition(antiFlickerDuration / 2)
+                            .style("stroke-width", 2)
+                        d3.select("#admissionLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "transparent")
+                            .style("color", "black");
+                    })
+
+                scatter
+                    .append("line")
+                    .attr("class", "dischargeDate")
+                    .attr("x1", x(dischargeDate))
+                    .attr("x2", x(dischargeDate))
+                    .attr("y1", 0)
+                    .attr("y2", mainWidgetHeight)
+                    .style("stroke-width", 2)
+                    .style("stroke", "darkgrey")
+                    .style("fill", "none")
+                    .on('mouseover', (d, i, n) => {
+                        d3.select(n[i])
+                            .transition(antiFlickerDuration / 2)
+                            .style("stroke-width", 5)
+                        d3.select("#dischargeLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "grey")
+                            .style("color", "white");
+                    })
+                    .on('mouseout', (d, i, n) => {
+                        d3.select(n[i])
+                            .transition(antiFlickerDuration / 2)
+                            .style("stroke-width", 2)
+                        d3.select("#dischargeLabel")
+                            .transition(antiFlickerDuration / 2)
+                            .style('background-color', "transparent")
+                            .style("color", "black");
+                    })
 
 
-    // zoom in to mostlikely range
-    minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
-    maxLikelyDate = _.max(data.map(d => d.mostLikelyEnd));
-    updateChart(x(new Date(admissionDate.getTime() - (24 * 60 * 60 * 1000) * daysOffsetForZoom)), x(new Date(dischargeDate.getTime() + (24 * 60 * 60 * 1000) * daysOffsetForZoom)));
+                // zoom in to mostlikely range
+                minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
+                maxLikelyDate = _.max(data.map(d => d.mostLikelyEnd));
+                updateChart(x(new Date(admissionDate.getTime() - (24 * 60 * 60 * 1000) * daysOffsetForZoom)), x(new Date(dischargeDate.getTime() + (24 * 60 * 60 * 1000) * daysOffsetForZoom)));
 
-    // A function that set idleTimeOut to null
-    var idleTimeout // var because used in idled()
-    function idled() { idleTimeout = null; }
+                // A function that set idleTimeOut to null
+                var idleTimeout // var because used in idled()
+                function idled() { idleTimeout = null; }
 
-    // A function that update the chart for given boundaries
-    function updateChart(startX, endX) {
+                // A function that update the chart for given boundaries
+                function updateChart(startX, endX) {
 
+                    let duration = 1000;
+                    let delay = 0;
 
+                    if (startX) {
+                        extent = [startX, endX];
+                        duration = initDuration;
+                        delay = initDelay;
+                    } else {
+                        extent = d3.event.selection
+                    }
 
-        let duration = 1000;
-        let delay = 0;
+                    // If no selection, back to initial coordinate. Otherwise, update X axis domain
+                    if (!extent) {
+                        if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+                        x.domain([minDate, maxDate]);
+                    } else {
+                        x.domain([x.invert(extent[0]), x.invert(extent[1])])
+                        scatter.select(".brush").call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
+                    }
 
-        if (startX) {
-            extent = [startX, endX];
-            duration = initDuration;
-            delay = initDelay;
-        } else {
-            extent = d3.event.selection
+                    // Update axis and circle position
+                    xAxis.transition().delay(delay).duration(duration).call(d3.axisTop(x))
+
+                    xAxis.append("g")
+                        .attr("class", "vergrid")
+                        .transition().delay(delay + 750).duration(duration)
+                        .call(verGridLines);
+
+                    scatter
+                        .selectAll(".mostlikely")
+                        .transition().delay(delay).duration(duration)
+                        .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
+                        .attr("x", d => x(d.mostLikelyStart))
+
+                    scatter
+                        .selectAll(".lower_uncertainty")
+                        .transition().delay(delay).duration(duration)
+                        .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
+                        .attr("x", d => x(d.lowerBoundStart))
+
+                    scatter
+                        .selectAll(".upper_uncertainty")
+                        .transition().delay(delay).duration(duration)
+                        .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
+                        .attr("x", d => x(d.mostLikelyEnd))
+
+                    scatter
+                        .selectAll(".admissionDate")
+                        .transition().delay(delay).duration(duration)
+                        .attr("x1", x(admissionDate))
+                        .attr("x2", x(admissionDate))
+
+                    scatter
+                        .selectAll(".dischargeDate")
+                        .transition().delay(delay).duration(duration)
+                        .attr("x1", x(dischargeDate))
+                        .attr("x2", x(dischargeDate))
+                }
+            });
         }
+    });
 
-        // If no selection, back to initial coordinate. Otherwise, update X axis domain
-        if (!extent) {
-            if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
-            x.domain([minDate, maxDate]);
-        } else {
-            x.domain([x.invert(extent[0]), x.invert(extent[1])])
-            scatter.select(".brush").call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
-        }
 
-        // Update axis and circle position
-        xAxis.transition().delay(delay).duration(duration).call(d3.axisTop(x))
-
-        xAxis.append("g")
-            .attr("class", "vergrid")
-            .transition().delay(delay + 750).duration(duration)
-            .call(verGridLines);
-
-        scatter
-            .selectAll(".mostlikely")
-            .transition().delay(delay).duration(duration)
-            .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
-            .attr("x", d => x(d.mostLikelyStart))
-
-        scatter
-            .selectAll(".lower_uncertainty")
-            .transition().delay(delay).duration(duration)
-            .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
-            .attr("x", d => x(d.lowerBoundStart))
-
-        scatter
-            .selectAll(".upper_uncertainty")
-            .transition().delay(delay).duration(duration)
-            .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
-            .attr("x", d => x(d.mostLikelyEnd))
-
-        scatter
-            .selectAll(".admissionDate")
-            .transition().delay(delay).duration(duration)
-            .attr("x1", x(admissionDate))
-            .attr("x2", x(admissionDate))
-
-        scatter
-            .selectAll(".dischargeDate")
-            .transition().delay(delay).duration(duration)
-            .attr("x1", x(dischargeDate))
-            .attr("x2", x(dischargeDate))
-    }
 });
 
 function rgbaColor(d) {
