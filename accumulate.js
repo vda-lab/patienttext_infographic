@@ -15,6 +15,8 @@ const FILE = 3;
 const minRectWidth = 5,
     initDelay = 1000,
     initDuration = 2500,
+    defaultDuration = 1000,
+    defaultDelay = 0,
     antiFlickerDuration = 200,
     normalOpacity = 0.6,
     textOpacity = 0.15,
@@ -76,7 +78,6 @@ $(function() { //DOM Ready
         })
 
         $("#options").on('change', function() {
-            console.log(this.value)
             readFile(this.value);
         });
 
@@ -125,9 +126,10 @@ $(function() { //DOM Ready
                     const backgroundColor = rgbaColor(d);
                     letterText = letterText.replace(d.label,
                         "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" " +
-                        "color=\"" + color(d.type) +
-                        "\" style=\"background-color:" + backgroundColor +
-                        "\" id=" + d.id + ">" +
+                        " color=\"" + color(d.type) +
+                        "\"  class=\"label\"" +
+                        // "\" style=\"background-color:" + backgroundColor +
+                        " id=" + d.id + ">" +
                         d.label +
                         " </span>");
                 });
@@ -159,7 +161,12 @@ $(function() { //DOM Ready
                             .style("stroke-width", 2)
                     })
                     .click(() => {
-                        testing();
+                        let newData = _.filter(data, d => {
+                            return d.type === "TEST"
+                        });
+                        console.log(newData);
+
+                        draw(newData, false);
                     })
                 $("#dischargedatep")
                     .html(formatTime(dischargeDate));
@@ -235,7 +242,7 @@ $(function() { //DOM Ready
                     .domain(data.map(d => d.label))
                     .range([mainWidgetHeight, 0])
                     .padding([0.2]);
-                svg.append("g")
+                let yAxis = svg.append("g")
                     .attr("class", "axis axis--y")
                     .call(d3.axisLeft(y));
 
@@ -254,9 +261,10 @@ $(function() { //DOM Ready
                         [0, 0],
                         [mainWidgetWidth, mainWidgetHeight]
                     ]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
-                    .on("end", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
+                    .on("end", (start, end) => {
+                        updateChart(start, end)
+                    }) // Each time the brush selection changes, trigger the 'updateChart' function
 
-                // Create the scatter variable: where both the circles and the brush take place
                 var scatter = svg.append('g')
                     .attr("clip-path", "url(#clip)")
 
@@ -266,139 +274,185 @@ $(function() { //DOM Ready
                     .attr("class", "brush")
                     .call(brush);
 
-                scatter
-                    .selectAll(".mostlikely")
-                    .data(data)
-                    .enter()
-                    .append("rect")
-                    .attr("class", "mostlikely")
-                    .attr("id", d => "mostlikely-" + d.id)
-                    .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
-                    .attr("height", y.bandwidth())
-                    .attr("y", d => y(d.label))
-                    .attr("x", d => x(d.mostLikelyStart))
-                    .style("fill", d => color(d.type))
-                    .style("opacity", normalOpacity)
-                    .on('mouseover', tip.show)
-                    .on('mouseout', d => {
-                        tip.hide()
-                        unMarkWords(d);
-                        unhighlightMaster(d.id, color(d.type));
+                draw(data, true);
+
+                function draw(data, first) {
+                    d3.selectAll(".label").style("background", "transparent")
+                    data.forEach(d => {
+                        d3.select("#" + d.id).style("background", rgbaColor(d))
                     });
 
-                scatter
-                    .selectAll(".lower_uncertainty")
-                    .data(data)
-                    .enter()
-                    .append("rect")
-                    .attr("class", "lower_uncertainty")
-                    .attr("id", d => "lower_uncertainty-" + d.id)
-                    .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
-                    .attr("height", y.bandwidth())
-                    .attr("y", d => y(d.label))
-                    .attr("x", d => x(d.lowerBoundStart))
-                    .style("fill", d => color(d.type))
-                    .style("opacity", normalUncertaintyOpacity)
-                    .on('mouseover', tip.show)
-                    .on('mouseout', d => {
-                        tip.hide()
-                        unMarkWords(d);
-                        unhighlightMaster(d.id, color(d.type));
-                    });
+                    // Create the scatter variable: where both the circles and the brush take place
 
-                scatter
-                    .selectAll(".upper_uncertainty")
-                    .data(data)
-                    .enter()
-                    .append("rect")
-                    .attr("class", d => "upper_uncertainty")
-                    .attr("id", d => "upper_uncertainty-" + d.id)
-                    .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
-                    .attr("height", y.bandwidth())
-                    .attr("y", d => y(d.label))
-                    .attr("x", d => x(d.mostLikelyEnd))
-                    .style("fill", d => color(d.type))
-                    .style("opacity", normalUncertaintyOpacity)
-                    .on('mouseover', tip.show)
-                    .on('mouseout', d => {
-                        tip.hide()
-                        unMarkWords(d);
-                        unhighlightMaster(d.id, color(d.type));
-                    });
+                    y.domain(data.map(d => d.label))
 
-                scatter
-                    .append("line")
-                    .attr("class", "admissionDate")
-                    .attr("x1", x(admissionDate))
-                    .attr("x2", x(admissionDate))
-                    .attr("y1", 0)
-                    .attr("y2", mainWidgetHeight)
-                    .style("stroke-width", 2)
-                    .style("stroke", "darkgrey")
-                    .style("fill", "none")
-                    .on('mouseover', (d, i, n) => {
-                        d3.select(n[i])
-                            .transition(antiFlickerDuration / 2)
-                            .style("stroke-width", 5)
-                        d3.select("#admissionLabel")
-                            .transition(antiFlickerDuration / 2)
-                            .style('background-color', "grey")
-                            .style("color", "white");
-                    })
-                    .on('mouseout', (d, i, n) => {
-                        d3.select(n[i])
-                            .transition(antiFlickerDuration / 2)
-                            .style("stroke-width", 2)
-                        d3.select("#admissionLabel")
-                            .transition(antiFlickerDuration / 2)
-                            .style('background-color', "transparent")
-                            .style("color", "black");
-                    })
+                    // Update axis and circle position
+                    yAxis.transition().delay(defaultDelay + 750).duration(defaultDuration).call(d3.axisLeft(y))
 
-                scatter
-                    .append("line")
-                    .attr("class", "dischargeDate")
-                    .attr("x1", x(dischargeDate))
-                    .attr("x2", x(dischargeDate))
-                    .attr("y1", 0)
-                    .attr("y2", mainWidgetHeight)
-                    .style("stroke-width", 2)
-                    .style("stroke", "darkgrey")
-                    .style("fill", "none")
-                    .on('mouseover', (d, i, n) => {
-                        d3.select(n[i])
-                            .transition(antiFlickerDuration / 2)
-                            .style("stroke-width", 5)
-                        d3.select("#dischargeLabel")
-                            .transition(antiFlickerDuration / 2)
-                            .style('background-color', "grey")
-                            .style("color", "white");
-                    })
-                    .on('mouseout', (d, i, n) => {
-                        d3.select(n[i])
-                            .transition(antiFlickerDuration / 2)
-                            .style("stroke-width", 2)
-                        d3.select("#dischargeLabel")
-                            .transition(antiFlickerDuration / 2)
-                            .style('background-color', "transparent")
-                            .style("color", "black");
-                    })
+                    let mostlikelyBars = scatter.selectAll(".mostlikely")
+                        .data(data, d => d.id)
+
+                    mostlikelyBars
+                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .attr("y", d => y(d.label))
+
+                    mostlikelyBars
+                        .enter()
+                        .append("rect")
+                        .attr("class", "mostlikely")
+                        .attr("id", d => "mostlikely-" + d.id)
+                        .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
+                        .attr("height", y.bandwidth())
+                        .attr("y", d => y(d.label))
+                        .attr("x", d => x(d.mostLikelyStart))
+                        .style("fill", d => color(d.type))
+                        .style("opacity", normalOpacity)
+                        .on('mouseover', tip.show)
+                        .on('mouseout', d => {
+                            tip.hide()
+                            unMarkWords(d);
+                            unhighlightMaster(d.id, color(d.type));
+                        });
+
+                    mostlikelyBars.exit()
+                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .attr("y", mainWidgetHeight)
+                        .remove()
+
+                    let lowerUncertaintyBars = scatter.selectAll(".lower_uncertainty")
+                        .data(data, d => d.id)
+
+                    lowerUncertaintyBars
+                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .attr("y", d => y(d.label))
+
+                    lowerUncertaintyBars
+                        .enter()
+                        .append("rect")
+                        .attr("class", "lower_uncertainty")
+                        .attr("id", d => "lower_uncertainty-" + d.id)
+                        .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
+                        .attr("height", y.bandwidth())
+                        .attr("y", d => y(d.label))
+                        .attr("x", d => x(d.lowerBoundStart))
+                        .style("fill", d => color(d.type))
+                        .style("opacity", normalUncertaintyOpacity)
+                        .on('mouseover', tip.show)
+                        .on('mouseout', d => {
+                            tip.hide()
+                            unMarkWords(d);
+                            unhighlightMaster(d.id, color(d.type));
+                        });
+
+                    lowerUncertaintyBars.exit()
+                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .attr("y", mainWidgetHeight)
+                        .remove();
+
+                    let upperUncertaintyBars = scatter.selectAll(".upper_uncertainty")
+                        .data(data, d => d.id)
+
+                    upperUncertaintyBars
+                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .attr("y", d => y(d.label))
+
+                    upperUncertaintyBars
+                        .enter()
+                        .append("rect")
+                        .attr("class", d => "upper_uncertainty")
+                        .attr("id", d => "upper_uncertainty-" + d.id)
+                        .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
+                        .attr("height", y.bandwidth())
+                        .attr("y", d => y(d.label))
+                        .attr("x", d => x(d.mostLikelyEnd))
+                        .style("fill", d => color(d.type))
+                        .style("opacity", normalUncertaintyOpacity)
+                        .on('mouseover', tip.show)
+                        .on('mouseout', d => {
+                            tip.hide()
+                            unMarkWords(d);
+                            unhighlightMaster(d.id, color(d.type));
+                        });
+
+                    upperUncertaintyBars.exit()
+                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .attr("y", mainWidgetHeight)
+                        .remove();
+
+                    scatter
+                        .append("line")
+                        .attr("class", "admissionDate")
+                        .attr("x1", x(admissionDate))
+                        .attr("x2", x(admissionDate))
+                        .attr("y1", 0)
+                        .attr("y2", mainWidgetHeight)
+                        .style("stroke-width", 2)
+                        .style("stroke", "darkgrey")
+                        .style("fill", "none")
+                        .on('mouseover', (d, i, n) => {
+                            d3.select(n[i])
+                                .transition(antiFlickerDuration / 2)
+                                .style("stroke-width", 5)
+                            d3.select("#admissionLabel")
+                                .transition(antiFlickerDuration / 2)
+                                .style('background-color', "grey")
+                                .style("color", "white");
+                        })
+                        .on('mouseout', (d, i, n) => {
+                            d3.select(n[i])
+                                .transition(antiFlickerDuration / 2)
+                                .style("stroke-width", 2)
+                            d3.select("#admissionLabel")
+                                .transition(antiFlickerDuration / 2)
+                                .style('background-color', "transparent")
+                                .style("color", "black");
+                        })
+
+                    scatter
+                        .append("line")
+                        .attr("class", "dischargeDate")
+                        .attr("x1", x(dischargeDate))
+                        .attr("x2", x(dischargeDate))
+                        .attr("y1", 0)
+                        .attr("y2", mainWidgetHeight)
+                        .style("stroke-width", 2)
+                        .style("stroke", "darkgrey")
+                        .style("fill", "none")
+                        .on('mouseover', (d, i, n) => {
+                            d3.select(n[i])
+                                .transition(antiFlickerDuration / 2)
+                                .style("stroke-width", 5)
+                            d3.select("#dischargeLabel")
+                                .transition(antiFlickerDuration / 2)
+                                .style('background-color', "grey")
+                                .style("color", "white");
+                        })
+                        .on('mouseout', (d, i, n) => {
+                            d3.select(n[i])
+                                .transition(antiFlickerDuration / 2)
+                                .style("stroke-width", 2)
+                            d3.select("#dischargeLabel")
+                                .transition(antiFlickerDuration / 2)
+                                .style('background-color', "transparent")
+                                .style("color", "black");
+                        })
 
 
-                // zoom in to mostlikely range
-                minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
-                maxLikelyDate = _.max(data.map(d => d.mostLikelyEnd));
-                updateChart(x(new Date(admissionDate.getTime() - (24 * 60 * 60 * 1000) * daysOffsetForZoom)), x(new Date(dischargeDate.getTime() + (24 * 60 * 60 * 1000) * daysOffsetForZoom)));
+                    // zoom in to mostlikely range
+                    minLikelyDate = _.min(data.map(d => d.mostLikelyStart));
+                    maxLikelyDate = _.max(data.map(d => d.mostLikelyEnd));
+                    if (first) updateChart(x(new Date(admissionDate.getTime() - (24 * 60 * 60 * 1000) * daysOffsetForZoom)), x(new Date(dischargeDate.getTime() + (24 * 60 * 60 * 1000) * daysOffsetForZoom)));
 
+                }
                 // A function that set idleTimeOut to null
                 var idleTimeout // var because used in idled()
                 function idled() { idleTimeout = null; }
-
                 // A function that update the chart for given boundaries
+
                 function updateChart(startX, endX) {
 
-                    let duration = 1000;
-                    let delay = 0;
+                    let duration = defaultDuration;
+                    let delay = defaultDelay;
 
                     if (startX) {
                         extent = [startX, endX];
