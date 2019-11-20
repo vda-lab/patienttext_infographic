@@ -24,6 +24,8 @@ const minRectWidth = 5,
     formatTime = d3.timeFormat("%B %d, %Y"),
     daysOffsetForZoom = 3;
 
+let filter = ["OCCURRENCE", "CLINICAL_DEPT", "TEST", "TREATMENT", "EVIDENTIAL", "PROBLEM"];
+
 function color(type) {
     switch (type) {
         case "OCCURRENCE":
@@ -117,6 +119,11 @@ $(function() { //DOM Ready
                 // group event by time and then type
                 data = _.sortBy(_.sortBy(data, d => d.mostLikelyStart), j => j.type);
 
+                let crossData = crossfilter(data);
+                let dataByType = crossData.dimension(d => d.type)
+
+                data = dataByType.top(Infinity)
+
                 /*
                  create and populate textview
                 */
@@ -160,14 +167,6 @@ $(function() { //DOM Ready
                             .transition(antiFlickerDuration)
                             .style("stroke-width", 2)
                     })
-                    .click(() => {
-                        let newData = _.filter(data, d => {
-                            return d.type === "TEST"
-                        });
-                        console.log(newData);
-
-                        draw(newData, false);
-                    })
                 $("#dischargedatep")
                     .html(formatTime(dischargeDate));
                 $("#dischargeLabel")
@@ -191,6 +190,96 @@ $(function() { //DOM Ready
                     })
                 $("#hpip").html(splittedHC[0]);
                 $("#hospitalcoursep").html(splittedHC[1]);
+
+                $("#treatments_box").change(() => {
+                    filter = _.reject(filter, d => d == "TREATMENT");
+                    if (!$("#treatments_box").prop('checked')) {
+                        dataByType.filter(d => {
+                            return _.contains(filter, d)
+                        });
+                    } else {
+                        filter.push("TREATMENT");
+                        dataByType.filter((d => {
+                            return _.contains(filter, d)
+                        }));
+                    }
+                    draw(false);
+                })
+
+                $("#occurence_box").change(() => {
+                    filter = _.reject(filter, d => d == "OCCURRENCE");
+                    if (!$("#occurence_box").prop('checked')) {
+                        dataByType.filter(d => {
+                            return _.contains(filter, d)
+                        });
+                    } else {
+                        filter.push("OCCURRENCE");
+                        dataByType.filter((d => {
+                            return _.contains(filter, d)
+                        }));
+                    }
+                    draw(false);
+                })
+
+                $("#clinical_dept_box").change(() => {
+                    filter = _.reject(filter, d => d == "CLINICAL_DEPT");
+                    if (!$("#clinical_dept_box").prop('checked')) {
+                        dataByType.filter(d => {
+                            return _.contains(filter, d)
+                        });
+                    } else {
+                        filter.push("CLINICAL_DEPT");
+                        dataByType.filter((d => {
+                            return _.contains(filter, d)
+                        }));
+                    }
+                    draw(false);
+                })
+
+                $("#test_box").change(() => {
+                    filter = _.reject(filter, d => d == "TEST");
+                    if (!$("#test_box").prop('checked')) {
+                        dataByType.filter(d => {
+                            return _.contains(filter, d)
+                        });
+                    } else {
+                        filter.push("TEST");
+                        dataByType.filter((d => {
+                            return _.contains(filter, d)
+                        }));
+                    }
+                    draw(false);
+                })
+
+                $("#evidential_box").change(() => {
+                    filter = _.reject(filter, d => d == "EVIDENTIAL");
+                    if (!$("#evidential_box").prop('checked')) {
+                        dataByType.filter(d => {
+                            return _.contains(filter, d)
+                        });
+                    } else {
+                        filter.push("EVIDENTIAL");
+                        dataByType.filter((d => {
+                            return _.contains(filter, d)
+                        }));
+                    }
+                    draw(false);
+                })
+
+                $("#problem_box").change(() => {
+                    filter = _.reject(filter, d => d == "PROBLEM");
+                    if (!$("#problem_box").prop('checked')) {
+                        dataByType.filter(d => {
+                            return _.contains(filter, d)
+                        });
+                    } else {
+                        filter.push("PROBLEM");
+                        dataByType.filter((d => {
+                            return _.contains(filter, d)
+                        }));
+                    }
+                    draw(false);
+                })
 
                 // add tooltip on hover
                 const tip = d3.tip()
@@ -274,29 +363,28 @@ $(function() { //DOM Ready
                     .attr("class", "brush")
                     .call(brush);
 
-                draw(data, true);
+                draw(true);
 
-                function draw(data, first) {
+                function draw(first) {
                     d3.selectAll(".label").style("background", "transparent")
-                    data.forEach(d => {
-                        console.log(d);
-
+                    dataByType.top(Infinity).forEach(d => {
                         d3.select("#" + d.id).style("background", rgbaColor(d))
                     });
 
                     // Create the scatter variable: where both the circles and the brush take place
 
-                    y.domain(data.map(d => d.label))
+                    y.domain(dataByType.top(Infinity).map(d => d.label))
 
                     // Update axis and circle position
                     yAxis.transition().delay(defaultDelay + 750).duration(defaultDuration).call(d3.axisLeft(y))
 
                     let mostlikelyBars = scatter.selectAll(".mostlikely")
-                        .data(data, d => d.id)
+                        .data(dataByType.top(Infinity), d => d.id)
 
                     mostlikelyBars
                         .transition().delay(defaultDelay + 750).duration(defaultDuration)
                         .attr("y", d => y(d.label))
+                        .attr("height", y.bandwidth())
 
                     mostlikelyBars
                         .enter()
@@ -322,11 +410,12 @@ $(function() { //DOM Ready
                         .remove()
 
                     let lowerUncertaintyBars = scatter.selectAll(".lower_uncertainty")
-                        .data(data, d => d.id)
+                        .data(dataByType.top(Infinity), d => d.id)
 
                     lowerUncertaintyBars
                         .transition().delay(defaultDelay + 750).duration(defaultDuration)
                         .attr("y", d => y(d.label))
+                        .attr("height", y.bandwidth())
 
                     lowerUncertaintyBars
                         .enter()
@@ -352,11 +441,12 @@ $(function() { //DOM Ready
                         .remove();
 
                     let upperUncertaintyBars = scatter.selectAll(".upper_uncertainty")
-                        .data(data, d => d.id)
+                        .data(dataByType.top(Infinity), d => d.id)
 
                     upperUncertaintyBars
                         .transition().delay(defaultDelay + 750).duration(defaultDuration)
                         .attr("y", d => y(d.label))
+                        .attr("height", y.bandwidth())
 
                     upperUncertaintyBars
                         .enter()
