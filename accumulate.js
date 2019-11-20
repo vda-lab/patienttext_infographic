@@ -376,13 +376,13 @@ $(function() { //DOM Ready
                     y.domain(dataByType.top(Infinity).map(d => d.label))
 
                     // Update axis and circle position
-                    yAxis.transition().delay(defaultDelay + 750).duration(defaultDuration).call(d3.axisLeft(y))
+                    yAxis.transition().duration(defaultDuration).call(d3.axisLeft(y))
 
                     let mostlikelyBars = scatter.selectAll(".mostlikely")
                         .data(dataByType.top(Infinity), d => d.id)
 
                     mostlikelyBars
-                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
 
@@ -393,7 +393,7 @@ $(function() { //DOM Ready
                         .attr("id", d => "mostlikely-" + d.id)
                         .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
                         .attr("height", y.bandwidth())
-                        .attr("y", d => y(d.label))
+                        .attr("y", 0)
                         .attr("x", d => x(d.mostLikelyStart))
                         .style("fill", d => color(d.type))
                         .style("opacity", normalOpacity)
@@ -402,10 +402,12 @@ $(function() { //DOM Ready
                             tip.hide()
                             unMarkWords(d);
                             unhighlightMaster(d.id, color(d.type));
-                        });
+                        })
+                        .transition().duration(defaultDuration)
+                        .attr("y", d => y(d.label));
 
                     mostlikelyBars.exit()
-                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .transition().duration(defaultDuration)
                         .attr("y", mainWidgetHeight)
                         .remove()
 
@@ -413,7 +415,7 @@ $(function() { //DOM Ready
                         .data(dataByType.top(Infinity), d => d.id)
 
                     lowerUncertaintyBars
-                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
 
@@ -424,7 +426,7 @@ $(function() { //DOM Ready
                         .attr("id", d => "lower_uncertainty-" + d.id)
                         .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
                         .attr("height", y.bandwidth())
-                        .attr("y", d => y(d.label))
+                        .attr("y", 0)
                         .attr("x", d => x(d.lowerBoundStart))
                         .style("fill", d => color(d.type))
                         .style("opacity", normalUncertaintyOpacity)
@@ -433,10 +435,12 @@ $(function() { //DOM Ready
                             tip.hide()
                             unMarkWords(d);
                             unhighlightMaster(d.id, color(d.type));
-                        });
+                        })
+                        .transition().duration(defaultDuration)
+                        .attr("y", d => y(d.label));
 
                     lowerUncertaintyBars.exit()
-                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .transition().duration(defaultDuration)
                         .attr("y", mainWidgetHeight)
                         .remove();
 
@@ -444,7 +448,7 @@ $(function() { //DOM Ready
                         .data(dataByType.top(Infinity), d => d.id)
 
                     upperUncertaintyBars
-                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
 
@@ -455,7 +459,7 @@ $(function() { //DOM Ready
                         .attr("id", d => "upper_uncertainty-" + d.id)
                         .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
                         .attr("height", y.bandwidth())
-                        .attr("y", d => y(d.label))
+                        .attr("y", 0)
                         .attr("x", d => x(d.mostLikelyEnd))
                         .style("fill", d => color(d.type))
                         .style("opacity", normalUncertaintyOpacity)
@@ -464,10 +468,12 @@ $(function() { //DOM Ready
                             tip.hide()
                             unMarkWords(d);
                             unhighlightMaster(d.id, color(d.type));
-                        });
+                        })
+                        .transition().duration(defaultDuration)
+                        .attr("y", d => y(d.label));
 
                     upperUncertaintyBars.exit()
-                        .transition().delay(defaultDelay + 750).duration(defaultDuration)
+                        .transition().duration(defaultDuration)
                         .attr("y", mainWidgetHeight)
                         .remove();
 
