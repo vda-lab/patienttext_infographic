@@ -6,9 +6,9 @@
 }
 
 #patient_filter select {
-    background-color: #2196F3;
+    background-color: #333333;
     color: white;
-    padding: 12px;
+    padding: 6px;
     width: 75px;
     /* height: 50px; */
     border: none;

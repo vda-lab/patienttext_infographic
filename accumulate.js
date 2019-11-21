@@ -144,15 +144,14 @@ $(function() { //DOM Ready
 
                 // create spans for every event
                 data.forEach(d => {
-                    const backgroundColor = rgbaColor(d);
                     letterText = letterText.replace(d.label,
                         "<span class=label id=" + d.id + ">" + d.label + "</span>"
                     );
                 });
 
+
                 letterText = letterText.replace(/\s\./g, ".");
                 letterText = letterText.replace(/\s\,/g, ",");
-                console.log(letterText);
 
                 // split report on hpi and hospital course
                 splittedHPI = letterText.split(/history of present illness :|hpi :|history of present illness /i);
@@ -392,26 +391,46 @@ $(function() { //DOM Ready
 
                 function draw(first) {
                     d3.selectAll(".label").style("background", "transparent")
-                    dataByType.top(Infinity).forEach(d => {
-
-                        d3.select("#" + d.id)
-                            .style("background", rgbaColor(d))
-                            .on("mouseover", () => {
-                                if (_.contains(filter, d.type))
-                                    highlightMaster(d.id, color(d.type));
-                            })
-                            .on("mouseout", () => {
-                                if (_.contains(filter, d.type))
-                                    unhighlightMaster(d.id, color(d.type), d.label)
-                            })
-                            .on("click", () => {
-                                if (_.contains(filter, d.type))
-                                    openModal(d)
-                            })
-                    });
-
-                    // Create the scatter variable: where both the circles and the brush take place
+                        // Create the scatter variable: where both the circles and the brush take place
                     let sortedData = _.sortBy(_.sortBy(dataByType.top(Infinity), d => -d.mostLikelyStart), j => j.type);
+
+                    let hpipLabels = d3.select("#letterbox")
+                        .selectAll(".label")
+                        .data(sortedData, function(d) {
+                            return (d && d.id) || d3.select(this).attr("id");
+                        })
+
+                    hpipLabels
+                        .style("background", d => rgbaColor(d))
+                        .on("mouseover", (d) => {
+                            if (_.contains(filter, d.type))
+                                highlightMaster(d.id, color(d.type));
+                        })
+                        .on("mouseout", (d) => {
+                            if (_.contains(filter, d.type))
+                                unhighlightMaster(d.id, color(d.type), d.label)
+                        })
+                        .on("click", (d) => {
+                            if (_.contains(filter, d.type))
+                                openModal(d)
+                        })
+                        // sortedData.forEach(d => {
+                        //     d3.select("#" + d.id)
+                        //         .style("background", rgbaColor(d))
+                        //         .on("mouseover", () => {
+                        //             if (_.contains(filter, d.type) && _.findWhere(sortedData, { id: d.id }))
+                        //                 highlightMaster(d.id, color(d.type));
+                        //         })
+                        //         .on("mouseout", () => {
+                        //             if (_.contains(filter, d.type))
+                        //                 unhighlightMaster(d.id, color(d.type), d.label)
+                        //         })
+                        //         .on("click", () => {
+                        //             if (_.contains(filter, d.type))
+                        //                 openModal(d)
+                        //         })
+                        // });
+
 
                     y.domain(sortedData.map(d => d.label))
 
