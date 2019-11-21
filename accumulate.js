@@ -123,7 +123,13 @@ $(function() { //DOM Ready
                 let crossData = crossfilter(data);
                 let dataByType = crossData.dimension(d => d.type)
 
-                data = dataByType.top(Infinity)
+                // preserve filters when new document is selected
+                data = dataByType.filter(d => {
+                    return _.contains(filter, d)
+                }).top(Infinity);
+                console.log(data);
+
+
 
                 /*
                  create and populate textview
