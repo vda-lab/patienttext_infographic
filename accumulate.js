@@ -4,7 +4,6 @@
 // show before or after time zoom (arrow?)
 // mag data online?
 // sorteren op tijd per type (mostlikelystart)
-// new document should listen to filters
 
 // reload window on resize
 $(window).resize(function() {
