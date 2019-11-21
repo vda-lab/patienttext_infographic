@@ -14,6 +14,7 @@ $(window).resize(function() {
 MicroModal.init();
 let selectedElement;
 let crossData;
+let preventUpdate = false;
 
 const FILE = 3;
 
@@ -80,6 +81,7 @@ $(function() { //DOM Ready
 
         var options = $("#options");
         //don't forget error handling!
+        files = _.sortBy(files, d => d.length);
         files.forEach(item => {
             options.append($("<option />").val(item).text(item.split(".")[0]));
         })
@@ -87,6 +89,7 @@ $(function() { //DOM Ready
         $("#options").on('change', function() {
             readFile(this.value);
         });
+
 
         readFile(FILE + ".xml")
 
@@ -127,7 +130,7 @@ $(function() { //DOM Ready
 
                 crossData = crossfilter(data);
                 crossData.onChange(() => {
-                    if (selectedElement) draw(false);
+                    if (selectedElement && !preventUpdate) draw(false);
                 })
                 let dataByType = crossData.dimension(d => d.type)
 
@@ -393,19 +396,24 @@ $(function() { //DOM Ready
                     });
 
                     // Create the scatter variable: where both the circles and the brush take place
+                    let sortedData = _.sortBy(_.sortBy(dataByType.top(Infinity), d => d.mostLikelyStart), j => j.type);
 
-                    y.domain(dataByType.top(Infinity).map(d => d.label))
+                    y.domain(sortedData.map(d => d.label))
 
                     // Update axis and circle position
                     yAxis.transition().duration(defaultDuration).call(d3.axisLeft(y))
 
+                    // data = _.sortBy(_.sortBy(data, d => d.mostLikelyStart), j => j.type);
+
                     let mostlikelyBars = scatter.selectAll(".mostlikely")
-                        .data(dataByType.top(Infinity), d => d.id)
+                        .data(sortedData, d => d.id)
 
                     mostlikelyBars
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
+                        .attr("x", d => x(d.mostLikelyStart))
+                        .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
 
                     mostlikelyBars
                         .enter()
@@ -437,12 +445,14 @@ $(function() { //DOM Ready
                         .remove()
 
                     let lowerUncertaintyBars = scatter.selectAll(".lower_uncertainty")
-                        .data(dataByType.top(Infinity), d => d.id)
+                        .data(sortedData, d => d.id)
 
                     lowerUncertaintyBars
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
+                        .attr("x", d => x(d.lowerBoundStart))
+                        .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
 
                     lowerUncertaintyBars
                         .enter()
@@ -474,12 +484,14 @@ $(function() { //DOM Ready
                         .remove();
 
                     let upperUncertaintyBars = scatter.selectAll(".upper_uncertainty")
-                        .data(dataByType.top(Infinity), d => d.id)
+                        .data(sortedData, d => d.id)
 
                     upperUncertaintyBars
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
+                        .attr("x", d => x(d.mostLikelyEnd))
+                        .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
 
                     upperUncertaintyBars
                         .enter()
@@ -660,23 +672,6 @@ function rgbaColor(d) {
     return "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
 }
 
-// function markWords(d) {
-//     d3.select("#" + d.id)
-//         .transition(antiFlickerDuration)
-//         .style("background", color(d.type))
-//         .style("color", "white");
-// }
-
-// function unMarkWords(d) {
-
-//     bgRGB = d3.color(color(d.type));
-//     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
-//     d3.select("#" + d.id)
-//         .transition(antiFlickerDuration)
-//         .style("background", backgroundColor)
-//         .style("color", "black")
-// }
-
 function unhighlightMaster(id, color, label) {
     select_axis_label(label)
         .transition(antiFlickerDuration)
@@ -758,4 +753,21 @@ function removeEvent(selectedId) {
     $("#" + selectedId).removeAttr("id") //hack, with no ID, no background or listener
     MicroModal.close("modal-1");
     crossData.remove(d => d.id === selectedId);
+}
+
+function saveEvent(selectedId) {
+    if (!selectedId) selectedId = selectedElement.id;
+
+    selectedElement.mostLikelyStart = new Date($("#modal_start_date").val());
+    selectedElement.mostLikelyEnd = new Date($("#modal_end_date").val());
+    preventUpdate = true; // prevent onchange listener to start animations
+    crossData.remove(d => d.id === selectedId);
+    preventUpdate = false;
+    console.log(selectedElement);
+
+    crossData.add([selectedElement])
+
+    // $("#" + selectedId).removeAttr("id") //hack, with no ID, no background or listener
+    MicroModal.close("modal-1");
+
 }
