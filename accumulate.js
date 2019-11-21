@@ -150,6 +150,10 @@ $(function() { //DOM Ready
                     );
                 });
 
+                letterText = letterText.replace(/\s\./g, ".");
+                letterText = letterText.replace(/\s\,/g, ",");
+                console.log(letterText);
+
                 // split report on hpi and hospital course
                 splittedHPI = letterText.split(/history of present illness :|hpi :|history of present illness /i);
                 splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :|hospital course /i);
