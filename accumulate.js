@@ -4,11 +4,16 @@
 // show before or after time zoom (arrow?)
 // mag data online?
 // sorteren op tijd per type (mostlikelystart)
+// span text color
 
 // reload window on resize
 $(window).resize(function() {
     window.location.reload();
 });
+
+MicroModal.init();
+let selectedElement;
+let crossData;
 
 const FILE = 3;
 
@@ -19,7 +24,7 @@ const minRectWidth = 5,
     defaultDelay = 0,
     antiFlickerDuration = 200,
     normalOpacity = 0.6,
-    textOpacity = 0.15,
+    textOpacity = 0.25,
     normalUncertaintyOpacity = 0.1,
     formatTime = d3.timeFormat("%B %d, %Y"),
     daysOffsetForZoom = 3;
@@ -89,6 +94,7 @@ $(function() { //DOM Ready
 
             d3.xml("testset_annotated_ground_truth/" + file).then(xml => {
                 svg.selectAll("*").remove();
+                selectedElement = undefined;
 
                 // get text from the letter
                 letterText = xml.querySelector("TEXT").textContent
@@ -119,16 +125,16 @@ $(function() { //DOM Ready
                 // group event by time and then type
                 data = _.sortBy(_.sortBy(data, d => d.mostLikelyStart), j => j.type);
 
-                let crossData = crossfilter(data);
+                crossData = crossfilter(data);
+                crossData.onChange(() => {
+                    if (selectedElement) draw(false);
+                })
                 let dataByType = crossData.dimension(d => d.type)
 
                 // preserve filters when new document is selected
                 data = dataByType.filter(d => {
                     return _.contains(filter, d)
                 }).top(Infinity);
-                console.log(data);
-
-
 
                 /*
                  create and populate textview
@@ -138,13 +144,8 @@ $(function() { //DOM Ready
                 data.forEach(d => {
                     const backgroundColor = rgbaColor(d);
                     letterText = letterText.replace(d.label,
-                        "<span onmouseover=\"highlight(this)\" onmouseout=\"unhighlight(this)\" " +
-                        " color=\"" + color(d.type) +
-                        "\"  class=\"label\"" +
-                        // "\" style=\"background-color:" + backgroundColor +
-                        " id=" + d.id + ">" +
-                        d.label +
-                        " </span>");
+                        "<span class=label id=" + d.id + ">" + d.label + "</span>"
+                    );
                 });
 
                 // split report on hpi and hospital course
@@ -306,8 +307,8 @@ $(function() { //DOM Ready
                     })
                     .html(d => {
                         // code here otherwise does not work in mouseover... 
-                        markWords(d, color)
-                        select_axis_label(d)
+                        // markWords(d, color)
+                        select_axis_label(d.label)
                             .style("fill", color(d.type))
                             .style("font-weight", "bold")
                             .style("font-size", "20px")
@@ -374,7 +375,21 @@ $(function() { //DOM Ready
                 function draw(first) {
                     d3.selectAll(".label").style("background", "transparent")
                     dataByType.top(Infinity).forEach(d => {
-                        d3.select("#" + d.id).style("background", rgbaColor(d))
+
+                        d3.select("#" + d.id)
+                            .style("background", rgbaColor(d))
+                            .on("mouseover", () => {
+                                if (_.contains(filter, d.type))
+                                    highlightMaster(d.id, color(d.type));
+                            })
+                            .on("mouseout", () => {
+                                if (_.contains(filter, d.type))
+                                    unhighlightMaster(d.id, color(d.type), d.label)
+                            })
+                            .on("click", () => {
+                                if (_.contains(filter, d.type))
+                                    openModal(d.label, d)
+                            })
                     });
 
                     // Create the scatter variable: where both the circles and the brush take place
@@ -406,8 +421,12 @@ $(function() { //DOM Ready
                         .on('mouseover', tip.show)
                         .on('mouseout', d => {
                             tip.hide()
-                            unMarkWords(d);
-                            unhighlightMaster(d.id, color(d.type));
+                                // unMarkWords(d);
+                            unhighlightMaster(d.id, color(d.type), d.label);
+                        })
+                        .on('click', (d) => {
+                            selectedElement = d;
+                            openModal(d.label);
                         })
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label));
@@ -439,8 +458,12 @@ $(function() { //DOM Ready
                         .on('mouseover', tip.show)
                         .on('mouseout', d => {
                             tip.hide()
-                            unMarkWords(d);
-                            unhighlightMaster(d.id, color(d.type));
+                                // unMarkWords(d);
+                            unhighlightMaster(d.id, color(d.type), d.label);
+                        })
+                        .on('click', (d) => {
+                            selectedElement = d;
+                            openModal(d.label);
                         })
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label));
@@ -472,8 +495,12 @@ $(function() { //DOM Ready
                         .on('mouseover', tip.show)
                         .on('mouseout', d => {
                             tip.hide()
-                            unMarkWords(d);
-                            unhighlightMaster(d.id, color(d.type));
+                                // unMarkWords(d);
+                            unhighlightMaster(d.id, color(d.type), d.label);
+                        })
+                        .on('click', (d) => {
+                            selectedElement = d;
+                            openModal(d.label);
                         })
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label));
@@ -620,37 +647,40 @@ $(function() { //DOM Ready
 
 });
 
+function openModal(label, d) {
+    if (d) selectedElement = d;
+    d3.select("#modal-1-title").text(label);
+    MicroModal.show('modal-1');
+}
+
 function rgbaColor(d) {
     bgRGB = d3.color(color(d.type));
     return "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
 }
 
-function markWords(d) {
-    d3.select("#" + d.id)
-        .transition(antiFlickerDuration)
-        .style("background", color(d.type))
-        .style("color", "white");
-}
+// function markWords(d) {
+//     d3.select("#" + d.id)
+//         .transition(antiFlickerDuration)
+//         .style("background", color(d.type))
+//         .style("color", "white");
+// }
 
-function unMarkWords(d) {
-    select_axis_label(d)
+// function unMarkWords(d) {
+
+//     bgRGB = d3.color(color(d.type));
+//     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
+//     d3.select("#" + d.id)
+//         .transition(antiFlickerDuration)
+//         .style("background", backgroundColor)
+//         .style("color", "black")
+// }
+
+function unhighlightMaster(id, color, label) {
+    select_axis_label(label)
         .transition(antiFlickerDuration)
         .style("fill", "black")
         .style("font-weight", "normal")
         .style("font-size", "10px")
-    bgRGB = d3.color(color(d.type));
-    backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
-    d3.select("#" + d.id)
-        .transition(antiFlickerDuration)
-        .style("background", backgroundColor)
-        .style("color", "black")
-}
-
-function unhighlight(x) {
-    unhighlightMaster($(x).text().trim().replace(/\s/g, ""), $(x).attr("color"));
-}
-
-function unhighlightMaster(id, color) {
     d3.selectAll(".mostlikely")
         .transition(antiFlickerDuration)
         .style("opacity", normalOpacity)
@@ -715,12 +745,15 @@ function highlightMaster(id, color) {
         .style("font-size", "20px")
 }
 
-function highlight(x) {
-    highlightMaster($(x).text().trim().replace(/\s/g, ""), $(x).attr("color"))
-}
-
-function select_axis_label(d) {
+function select_axis_label(label) {
     return d3.select('.axis--y')
         .selectAll('text')
-        .filter(function(x) { return x == d.label; });
+        .filter(function(x) { return x == label; });
+}
+
+function removeEvent(selectedId) {
+    if (!selectedId) selectedId = selectedElement.id;
+    $("#" + selectedId).removeAttr("id") //hack, with no ID, no background or listener
+    MicroModal.close("modal-1");
+    crossData.remove(d => d.id === selectedId);
 }
