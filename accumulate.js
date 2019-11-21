@@ -388,7 +388,7 @@ $(function() { //DOM Ready
                             })
                             .on("click", () => {
                                 if (_.contains(filter, d.type))
-                                    openModal(d.label, d)
+                                    openModal(d)
                             })
                     });
 
@@ -426,7 +426,7 @@ $(function() { //DOM Ready
                         })
                         .on('click', (d) => {
                             selectedElement = d;
-                            openModal(d.label);
+                            openModal(d);
                         })
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label));
@@ -463,7 +463,7 @@ $(function() { //DOM Ready
                         })
                         .on('click', (d) => {
                             selectedElement = d;
-                            openModal(d.label);
+                            openModal(d);
                         })
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label));
@@ -500,7 +500,7 @@ $(function() { //DOM Ready
                         })
                         .on('click', (d) => {
                             selectedElement = d;
-                            openModal(d.label);
+                            openModal(d);
                         })
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label));
@@ -647,9 +647,11 @@ $(function() { //DOM Ready
 
 });
 
-function openModal(label, d) {
+function openModal(d) {
     if (d) selectedElement = d;
-    d3.select("#modal-1-title").text(label);
+    d3.select("#modal-1-title").text(d.label);
+    d3.select("#modal_start_date").text(formatTime(d.mostLikelyStart));
+    d3.select("#modal_end_date").text(formatTime(d.mostLikelyEnd));
     MicroModal.show('modal-1');
 }
 
