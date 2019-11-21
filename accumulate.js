@@ -650,8 +650,8 @@ $(function() { //DOM Ready
 function openModal(d) {
     if (d) selectedElement = d;
     d3.select("#modal-1-title").text(d.label);
-    d3.select("#modal_start_date").text(formatTime(d.mostLikelyStart));
-    d3.select("#modal_end_date").text(formatTime(d.mostLikelyEnd));
+    $("#modal_start_date").val(d.mostLikelyStart.toISOString().substring(0, 19));
+    $("#modal_end_date").val(d.mostLikelyEnd.toISOString().substring(0, 19));
     MicroModal.show('modal-1');
 }
 
