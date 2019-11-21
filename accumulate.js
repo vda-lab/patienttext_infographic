@@ -3,7 +3,6 @@
 // allow user to remove events
 // show before or after time zoom (arrow?)
 // mag data online?
-// sorteren op tijd per type (mostlikelystart)
 // span text color
 
 // reload window on resize
@@ -215,10 +214,22 @@ $(function() { //DOM Ready
                     }
                     draw(false);
                 })
+                $("#treatments_label").css("color", color("TREATMENT"))
+                $("#treatments_checkmark").css("background-color", color("TREATMENT"))
+                $("#occurrence_label").css("color", color("OCCURRENCE"))
+                $("#occurrence_checkmark").css("background-color", color("OCCURRENCE"))
+                $("#clinical_dept_label").css("color", color("CLINICAL_DEPT"))
+                $("#clinical_dept_checkmark").css("background-color", color("CLINICAL_DEPT"))
+                $("#test_label").css("color", color("TEST"))
+                $("#test_checkmark").css("background-color", color("TEST"))
+                $("#evidential_label").css("color", color("EVIDENTIAL"))
+                $("#evidential_checkmark").css("background-color", color("EVIDENTIAL"))
+                $("#problem_label").css("color", color("PROBLEM"))
+                $("#problem_checkmark").css("background-color", color("PROBLEM"))
 
-                $("#occurence_box").change(() => {
+                $("#occurrence_box").change(() => {
                     filter = _.reject(filter, d => d == "OCCURRENCE");
-                    if (!$("#occurence_box").prop('checked')) {
+                    if (!$("#occurrence_box").prop('checked')) {
                         dataByType.filter(d => {
                             return _.contains(filter, d)
                         });
@@ -396,7 +407,7 @@ $(function() { //DOM Ready
                     });
 
                     // Create the scatter variable: where both the circles and the brush take place
-                    let sortedData = _.sortBy(_.sortBy(dataByType.top(Infinity), d => d.mostLikelyStart), j => j.type);
+                    let sortedData = _.sortBy(_.sortBy(dataByType.top(Infinity), d => -d.mostLikelyStart), j => j.type);
 
                     y.domain(sortedData.map(d => d.label))
 
@@ -760,14 +771,15 @@ function saveEvent(selectedId) {
 
     selectedElement.mostLikelyStart = new Date($("#modal_start_date").val());
     selectedElement.mostLikelyEnd = new Date($("#modal_end_date").val());
-    preventUpdate = true; // prevent onchange listener to start animations
-    crossData.remove(d => d.id === selectedId);
-    preventUpdate = false;
-    console.log(selectedElement);
+    if (selectedElement.mostLikelyEnd < selectedElement.mostLikelyStart) {
+        window.alert("The end date should be later than the start date.")
+    } else {
+        preventUpdate = true; // prevent onchange listener to start animations
+        crossData.remove(d => d.id === selectedId);
+        preventUpdate = false;
+        crossData.add([selectedElement])
 
-    crossData.add([selectedElement])
-
-    // $("#" + selectedId).removeAttr("id") //hack, with no ID, no background or listener
-    MicroModal.close("modal-1");
+        MicroModal.close("modal-1");
+    }
 
 }
