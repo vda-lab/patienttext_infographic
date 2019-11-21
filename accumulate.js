@@ -17,7 +17,7 @@ let preventUpdate = false;
 
 const FILE = 3;
 
-const minRectWidth = 5,
+const minRectWidth = 2,
     initDelay = 1000,
     initDuration = 2500,
     defaultDuration = 1000,
@@ -36,7 +36,7 @@ function color(type) {
         case "OCCURRENCE":
             return "rgb(31, 119, 180)"; // blue
         case "CLINICAL_DEPT":
-            return "rgb(255, 127, 14)"; // orange
+            return "rgb(227, 119, 194)"; // pink
         case "TREATMENT":
             return "rgb(44, 160, 44)"; // green
         case "TEST":
@@ -49,15 +49,15 @@ function color(type) {
             return "transparent";
     }
 }
-// rgb(227, 119, 194) pink
+// rgb(255, 127, 14) orange
 // rgb(127, 127, 127) grey
 // rgb(188, 189, 34) lightgreen
 // rgb(23, 190, 207) lightblue
 
 // set the dimensions and margins of the graph
-const margin = { top: 20, right: 60, bottom: 60, left: 160 };
+const margin = { top: 20, right: 10, bottom: 10, left: 150 };
 
-const mainWidgetWidth = (2 * ((innerWidth) / 3)) - margin.left - margin.right,
+const mainWidgetWidth = (4 * ((innerWidth) / 6)) - margin.left - margin.right,
     mainWidgetHeight = (9 * ((innerHeight) / 10)) - margin.top - margin.bottom;
 
 $(function() { //DOM Ready
@@ -150,6 +150,7 @@ $(function() { //DOM Ready
                 });
 
 
+
                 letterText = letterText.replace(/\s\./g, ".");
                 letterText = letterText.replace(/\s\,/g, ",");
 
@@ -158,6 +159,9 @@ $(function() { //DOM Ready
                 splittedHC = splittedHPI[1].split(/hospital course :|Brief Hospital Course :|hospital course /i);
 
                 // populate the corresponding views
+                $("#letterbox").on("mouseup", () => {
+                    console.log(window.getSelection().toString());
+                })
                 $("#admissiondatep")
                     .html(formatTime(admissionDate));
                 $("#admissionLabel")
