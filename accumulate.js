@@ -2,7 +2,6 @@
 // doubles are removed
 // show before or after time zoom (arrow?)
 // mag data online?
-// add count per type
 // check for negative rect
 
 // reload window on resize
@@ -116,7 +115,8 @@ $(function() { //DOM Ready
                         upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
                         label: event.getAttribute("text"),
                         type: event.getAttribute("type"),
-                        id: event.getAttribute("text").replace(/[\W_\d]/g, "")
+                        id: event.getAttribute("text").replace(/[\W_\d]/g, ""),
+                        polarity: event.getAttribute("polarity")
                     };
                 });
 
@@ -777,7 +777,7 @@ function unhighlightMaster(id, color, label) {
     d3.select('.axis--y')
         .selectAll('text')
         .filter(function(z) {
-            return z.replace(/\s/g, "") == id;
+            return z.replace(/[\W_\d]/g, "") == id;
         })
         .transition(antiFlickerDuration)
         .style("fill", "black")
@@ -810,7 +810,7 @@ function highlightMaster(id, color) {
     d3.select('.axis--y')
         .selectAll('text')
         .filter(function(z) {
-            return z.replace(/\s/g, "") == id;
+            return z.replace(/[\W_\d]/g, "") == id;
         })
         .transition(antiFlickerDuration)
         .style("fill", color)
@@ -843,7 +843,8 @@ function saveEvent(selectedId) {
             upperBoundEnd: new Date($("#modal_end_date").val()),
             label: newLabel,
             type: $("#modal_type").val(),
-            id: newLabel.replace(/[\W_\d]/g, "")
+            id: newLabel.replace(/[\W_\d]/g, ""),
+            polarity: "POS"
         };
 
         $("#hpip").html($("#hpip").html().replace(newLabel,
