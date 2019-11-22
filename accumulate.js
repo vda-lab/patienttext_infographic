@@ -1,7 +1,7 @@
 // TODOS
 // doubles are removed
+// Only POS polarity are shown
 // show before or after time zoom (arrow?)
-// mag data online?
 // check for negative rect
 
 // reload window on resize
@@ -119,6 +119,8 @@ $(function() { //DOM Ready
                         polarity: event.getAttribute("polarity")
                     };
                 });
+
+                data = data.filter(d => d.polarity === "POS");
 
                 const minDate = _.min(data.map(d => d.lowerBoundStart));
                 const maxDate = _.max(data.map(d => d.upperBoundEnd));
@@ -476,14 +478,28 @@ $(function() { //DOM Ready
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
                         .attr("x", d => x(d.mostLikelyStart))
-                        .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
+                        .attr("width", d => {
+                            let returnWidth = Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart))
+                            if (returnWidth >= 0) {
+                                return returnWidth;
+                            } else {
+                                return 0;
+                            }
+                        });
 
                     mostlikelyBars
                         .enter()
                         .append("rect")
                         .attr("class", "mostlikely")
                         .attr("id", d => "mostlikely-" + d.id)
-                        .attr("width", d => Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart)))
+                        .attr("width", d => {
+                            let returnWidth = Math.max(minRectWidth, x(d.mostLikelyEnd) - x(d.mostLikelyStart))
+                            if (returnWidth >= 0) {
+                                return returnWidth;
+                            } else {
+                                return 0;
+                            }
+                        })
                         .attr("height", y.bandwidth())
                         .attr("y", 0)
                         .attr("x", d => x(d.mostLikelyStart))
@@ -515,14 +531,28 @@ $(function() { //DOM Ready
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
                         .attr("x", d => x(d.lowerBoundStart))
-                        .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
+                        .attr("width", d => {
+                            let returnWidth = x(d.mostLikelyStart) - x(d.lowerBoundStart)
+                            if (returnWidth >= 0) {
+                                return returnWidth;
+                            } else {
+                                return 0;
+                            }
+                        });
 
                     lowerUncertaintyBars
                         .enter()
                         .append("rect")
                         .attr("class", "lower_uncertainty")
                         .attr("id", d => "lower_uncertainty-" + d.id)
-                        .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
+                        .attr("width", d => {
+                            let returnWidth = x(d.mostLikelyStart) - x(d.lowerBoundStart)
+                            if (returnWidth >= 0) {
+                                return returnWidth;
+                            } else {
+                                return 0;
+                            }
+                        })
                         .attr("height", y.bandwidth())
                         .attr("y", 0)
                         .attr("x", d => x(d.lowerBoundStart))
@@ -554,14 +584,28 @@ $(function() { //DOM Ready
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
                         .attr("x", d => x(d.mostLikelyEnd))
-                        .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
+                        .attr("width", d => {
+                            let returnWidth = x(d.upperBoundEnd) - x(d.mostLikelyEnd)
+                            if (returnWidth >= 0) {
+                                return returnWidth;
+                            } else {
+                                return 0;
+                            }
+                        })
 
                     upperUncertaintyBars
                         .enter()
                         .append("rect")
                         .attr("class", d => "upper_uncertainty")
                         .attr("id", d => "upper_uncertainty-" + d.id)
-                        .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
+                        .attr("width", d => {
+                            let returnWidth = x(d.upperBoundEnd) - x(d.mostLikelyEnd)
+                            if (returnWidth >= 0) {
+                                return returnWidth;
+                            } else {
+                                return 0;
+                            }
+                        })
                         .attr("height", y.bandwidth())
                         .attr("y", 0)
                         .attr("x", d => x(d.mostLikelyEnd))
