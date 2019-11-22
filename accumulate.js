@@ -90,7 +90,6 @@ $(function() { //DOM Ready
             readFile(this.value);
         });
 
-
         readFile(FILE + ".xml")
 
         function readFile(file) {
@@ -106,12 +105,19 @@ $(function() { //DOM Ready
 
                 // parse all data
                 let data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
+                    let lowerBoundEndValue = new Date(event.getAttribute("lowerbound-end"));
+                    let mostLikelyStartValue = new Date(event.getAttribute("most-likely-start"));
+                    let mostLikelyEndValue = new Date(event.getAttribute("most-likely-end"));
+                    let upperBoundStartValue = new Date(event.getAttribute("upperbound-start"));
+
+                    if (lowerBoundEndValue < mostLikelyStartValue) lowerBoundEndValue = mostLikelyStartValue;
+                    if (upperBoundStartValue > mostLikelyEndValue) upperBoundStartValue = mostLikelyEndValue;
                     return {
-                        mostLikelyStart: new Date(event.getAttribute("most-likely-start")),
-                        mostLikelyEnd: new Date(event.getAttribute("most-likely-end")),
+                        mostLikelyStart: mostLikelyStartValue,
+                        mostLikelyEnd: mostLikelyEndValue,
                         lowerBoundStart: new Date(event.getAttribute("lowerbound-start")),
-                        lowerBoundEnd: new Date(event.getAttribute("lowerbound-end")),
-                        upperBoundStart: new Date(event.getAttribute("upperbound-start")),
+                        lowerBoundEnd: lowerBoundEndValue,
+                        upperBoundStart: upperBoundStartValue,
                         upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
                         label: event.getAttribute("text"),
                         type: event.getAttribute("type"),
