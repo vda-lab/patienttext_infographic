@@ -26,7 +26,7 @@ const minRectWidth = 2,
     antiFlickerDuration = 200,
     normalOpacity = 0.6,
     textOpacity = 0.25,
-    normalUncertaintyOpacity = 0.1,
+    normalUncertaintyOpacity = 0.2,
     formatTime = d3.timeFormat("%B %d, %Y"),
     daysOffsetForZoom = 3;
 
@@ -445,23 +445,6 @@ $(function() { //DOM Ready
                             if (_.contains(filter, d.type))
                                 openModal(d)
                         })
-                        // sortedData.forEach(d => {
-                        //     d3.select("#" + d.id)
-                        //         .style("background", rgbaColor(d))
-                        //         .on("mouseover", () => {
-                        //             if (_.contains(filter, d.type) && _.findWhere(sortedData, { id: d.id }))
-                        //                 highlightMaster(d.id, color(d.type));
-                        //         })
-                        //         .on("mouseout", () => {
-                        //             if (_.contains(filter, d.type))
-                        //                 unhighlightMaster(d.id, color(d.type), d.label)
-                        //         })
-                        //         .on("click", () => {
-                        //             if (_.contains(filter, d.type))
-                        //                 openModal(d)
-                        //         })
-                        // });
-
 
                     y.domain(sortedData.map(d => d.label))
 
@@ -532,7 +515,7 @@ $(function() { //DOM Ready
                         .attr("height", y.bandwidth())
                         .attr("x", d => x(d.lowerBoundStart))
                         .attr("width", d => {
-                            let returnWidth = x(d.mostLikelyStart) - x(d.lowerBoundStart)
+                            let returnWidth = x(d.lowerBoundEnd) - x(d.lowerBoundStart)
                             if (returnWidth >= 0) {
                                 return returnWidth;
                             } else {
@@ -546,7 +529,7 @@ $(function() { //DOM Ready
                         .attr("class", "lower_uncertainty")
                         .attr("id", d => "lower_uncertainty-" + d.id)
                         .attr("width", d => {
-                            let returnWidth = x(d.mostLikelyStart) - x(d.lowerBoundStart)
+                            let returnWidth = x(d.lowerBoundEnd) - x(d.lowerBoundStart)
                             if (returnWidth >= 0) {
                                 return returnWidth;
                             } else {
@@ -583,9 +566,9 @@ $(function() { //DOM Ready
                         .transition().duration(defaultDuration)
                         .attr("y", d => y(d.label))
                         .attr("height", y.bandwidth())
-                        .attr("x", d => x(d.mostLikelyEnd))
+                        .attr("x", d => x(d.upperBoundStart))
                         .attr("width", d => {
-                            let returnWidth = x(d.upperBoundEnd) - x(d.mostLikelyEnd)
+                            let returnWidth = x(d.upperBoundEnd) - x(d.upperBoundStart)
                             if (returnWidth >= 0) {
                                 return returnWidth;
                             } else {
@@ -599,7 +582,7 @@ $(function() { //DOM Ready
                         .attr("class", d => "upper_uncertainty")
                         .attr("id", d => "upper_uncertainty-" + d.id)
                         .attr("width", d => {
-                            let returnWidth = x(d.upperBoundEnd) - x(d.mostLikelyEnd)
+                            let returnWidth = x(d.upperBoundEnd) - x(d.upperBoundStart)
                             if (returnWidth >= 0) {
                                 return returnWidth;
                             } else {
@@ -608,7 +591,7 @@ $(function() { //DOM Ready
                         })
                         .attr("height", y.bandwidth())
                         .attr("y", 0)
-                        .attr("x", d => x(d.mostLikelyEnd))
+                        .attr("x", d => x(d.upperBoundStart))
                         .style("fill", d => color(d.type))
                         .style("opacity", normalUncertaintyOpacity)
                         .on('mouseover', tip.show)
@@ -738,14 +721,14 @@ $(function() { //DOM Ready
                     scatter
                         .selectAll(".lower_uncertainty")
                         .transition().delay(delay).duration(duration)
-                        .attr("width", d => x(d.mostLikelyStart) - x(d.lowerBoundStart))
+                        .attr("width", d => x(d.lowerBoundEnd) - x(d.lowerBoundStart))
                         .attr("x", d => x(d.lowerBoundStart))
 
                     scatter
                         .selectAll(".upper_uncertainty")
                         .transition().delay(delay).duration(duration)
-                        .attr("width", d => x(d.upperBoundEnd) - x(d.mostLikelyEnd))
-                        .attr("x", d => x(d.mostLikelyEnd))
+                        .attr("width", d => x(d.upperBoundEnd) - x(d.upperBoundStart))
+                        .attr("x", d => x(d.upperBoundStart))
 
                     scatter
                         .selectAll(".admissionDate")
