@@ -1,9 +1,9 @@
 // TODOS
 // doubles are removed
-// allow user to remove events
 // show before or after time zoom (arrow?)
 // mag data online?
-// span text color
+// add count per type
+// check for negative rect
 
 // reload window on resize
 $(window).resize(function() {
@@ -14,6 +14,8 @@ MicroModal.init();
 let selectedElement;
 let crossData;
 let preventUpdate = false;
+let admissionDate;
+let dischargeDate;
 
 const FILE = 3;
 
@@ -100,8 +102,8 @@ $(function() { //DOM Ready
 
                 // get text from the letter
                 letterText = xml.querySelector("TEXT").textContent
-                const admissionDate = new Date(letterText.split("\n")[2]);
-                const dischargeDate = new Date(letterText.split("\n")[4]);
+                admissionDate = new Date(letterText.split("\n")[2]);
+                dischargeDate = new Date(letterText.split("\n")[4]);
 
                 // parse all data
                 let data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
@@ -160,7 +162,7 @@ $(function() { //DOM Ready
 
                 // populate the corresponding views
                 $("#letterbox").on("mouseup", () => {
-                    console.log(window.getSelection().toString());
+                    openModal(window.getSelection().toString());
                 })
                 $("#admissiondatep")
                     .html(formatTime(admissionDate));
@@ -698,11 +700,24 @@ $(function() { //DOM Ready
 });
 
 function openModal(d) {
-    if (d) selectedElement = d;
-    d3.select("#modal-1-title").text(d.label);
-    $("#modal_start_date").val(d.mostLikelyStart.toISOString().substring(0, 19));
-    $("#modal_end_date").val(d.mostLikelyEnd.toISOString().substring(0, 19));
-    MicroModal.show('modal-1');
+    if (d.id) {
+        selectedElement = d;
+        d3.select("#modal-1-title").text(d.label);
+        $("#modal_start_date").val(d.mostLikelyStart.toISOString().substring(0, 19));
+        $("#modal_end_date").val(d.mostLikelyEnd.toISOString().substring(0, 19));
+        MicroModal.show('modal-1');
+    } else {
+        if (d) {
+            $("#modal_type_span").css("display", "inline-block")
+            $("#modal_type").show()
+            d3.select("#modal-1-title").text(d);
+            $("#modal_start_date").val(admissionDate.toISOString().substring(0, 19));
+            $("#modal_end_date").val(dischargeDate.toISOString().substring(0, 19));
+            MicroModal.show('modal-1');
+            selectedElement = "CREATE_NEW";
+        }
+    }
+
 }
 
 function rgbaColor(d) {
@@ -794,19 +809,47 @@ function removeEvent(selectedId) {
 }
 
 function saveEvent(selectedId) {
-    if (!selectedId) selectedId = selectedElement.id;
+    if (selectedElement == "CREATE_NEW") {
+        let newLabel = window.getSelection().toString();
+        let newEvent = {
+            mostLikelyStart: new Date($("#modal_start_date").val()),
+            mostLikelyEnd: new Date($("#modal_end_date").val()),
+            lowerBoundStart: new Date($("#modal_start_date").val()),
+            lowerBoundEnd: new Date($("#modal_end_date").val()),
+            upperBoundStart: new Date($("#modal_start_date").val()),
+            upperBoundEnd: new Date($("#modal_end_date").val()),
+            label: newLabel,
+            type: $("#modal_type").val(),
+            id: newLabel.replace(/[\W_\d]/g, "")
+        };
 
-    selectedElement.mostLikelyStart = new Date($("#modal_start_date").val());
-    selectedElement.mostLikelyEnd = new Date($("#modal_end_date").val());
-    if (selectedElement.mostLikelyEnd < selectedElement.mostLikelyStart) {
-        window.alert("The end date should be later than the start date.")
-    } else {
-        preventUpdate = true; // prevent onchange listener to start animations
-        crossData.remove(d => d.id === selectedId);
-        preventUpdate = false;
-        crossData.add([selectedElement])
+        $("#hpip").html($("#hpip").html().replace(newLabel,
+            "<span class=label id=" + newEvent.id + ">" + newEvent.label + "</span>"
+        ));
+        $("#hospitalcoursep").html($("#hospitalcoursep").html().replace(newLabel,
+            "<span class=label id=" + newEvent.id + ">" + newEvent.label + "</span>"
+        ));
+
+        crossData.add([newEvent])
 
         MicroModal.close("modal-1");
-    }
+        $("#modal_type_span").hide()
+        $("#modal_type").hide()
 
+    } else {
+        if (!selectedId) selectedId = selectedElement.id;
+
+        selectedElement.mostLikelyStart = new Date($("#modal_start_date").val());
+        selectedElement.mostLikelyEnd = new Date($("#modal_end_date").val());
+        if (selectedElement.mostLikelyEnd < selectedElement.mostLikelyStart) {
+            window.alert("The end date should be later than the start date.")
+        } else {
+            preventUpdate = true; // prevent onchange listener to start animations
+            crossData.remove(d => d.id === selectedId);
+            preventUpdate = false;
+            crossData.add([selectedElement])
+
+            MicroModal.close("modal-1");
+        }
+    }
 }

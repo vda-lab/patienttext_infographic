@@ -254,6 +254,20 @@ svg {
     width: 160px;
 }
 
+.modal_data_input {
+    width: 200px;
+    height: 30px;
+}
+
+#modal_type_span {
+    display: none;
+}
+
+#modal_type {
+    display: none;
+    width: 205px;
+}
+
 .modal {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
