@@ -67,12 +67,36 @@
     <div class="grid-container">
         <div id="patient_filter" class="gridelement">
             <select id="options" name="locality"></select><span id="select_label">Document number</span>
-            <label class="container"><input type="checkbox" id="treatments_box" checked=true/><span id="treatments_label">Treatments</span><span id="treatments_checkmark" class="checkmark"></span></label>
-            <label class="container"><input type="checkbox" id="test_box" checked=true/><span id="test_label">Tests</span><span id="test_checkmark" class="checkmark"></span></label>
-            <label class="container"><input type="checkbox" id="problem_box" checked=true/><span id="problem_label">Problems</span><span id="problem_checkmark" class="checkmark"></span></label>
-            <label class="container"><input type="checkbox" id="occurrence_box" checked=true/><span id="occurrence_label">Occurrences</span><span id="occurrence_checkmark" class="checkmark"></span></label>
-            <label class="container"><input type="checkbox" id="evidential_box" checked=true/><span id="evidential_label">Evidentials</span><span id="evidential_checkmark" class="checkmark"></span></label>
-            <label class="container"><input type="checkbox" id="clinical_dept_box" checked=true/><span id="clinical_dept_label">Clinical departments</span><span id="clinical_dept_checkmark" class="checkmark"></span></label>
+            <label class="container">
+                <input type="checkbox" id="treatments_box" checked=true/>
+                <span id="treatments_label">Treatments</span><span id="treatments_checkmark" class="checkmark"></span>
+                <span class="count_label" id="treatment_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="test_box" checked=true/>
+                <span id="test_label">Tests</span><span id="test_checkmark" class="checkmark"></span>
+                <span class="count_label" id="test_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="problem_box" checked=true/>
+                <span id="problem_label">Problems</span><span id="problem_checkmark" class="checkmark"></span>
+                <span class="count_label" id="problem_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="occurrence_box" checked=true/>
+                <span id="occurrence_label">Occurrences</span><span id="occurrence_checkmark" class="checkmark"></span>
+                <span class="count_label" id="occurrence_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="evidential_box" checked=true/>
+                <span id="evidential_label">Evidentials</span><span id="evidential_checkmark" class="checkmark"></span>
+                <span class="count_label" id="evidential_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="clinical_dept_box" checked=true/>
+                <span id="clinical_dept_label">Clinical departments</span><span id="clinical_dept_checkmark" class="checkmark"></span>
+                <span class="count_label" id="clinical_dept_count"></span>
+            </label>
         </div>
 
         <div id="letterbox" class="gridelement">

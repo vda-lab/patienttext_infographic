@@ -235,6 +235,12 @@ $(function() { //DOM Ready
                 $("#evidential_checkmark").css("background-color", color("EVIDENTIAL"))
                 $("#problem_label").css("color", color("PROBLEM"))
                 $("#problem_checkmark").css("background-color", color("PROBLEM"))
+                $("#treatment_count").css("color", color("TREATMENT"));
+                $("#test_count").css("color", color("TEST"));
+                $("#problem_count").css("color", color("PROBLEM"));
+                $("#occurrence_count").css("color", color("OCCURRENCE"));
+                $("#evidential_count").css("color", color("EVIDENTIAL"));
+                $("#clinical_dept_count").css("color", color("CLINICAL_DEPT"));
 
                 $("#occurrence_box").change(() => {
                     filter = _.reject(filter, d => d == "OCCURRENCE");
@@ -399,6 +405,23 @@ $(function() { //DOM Ready
                     d3.selectAll(".label").style("background", "transparent")
                         // Create the scatter variable: where both the circles and the brush take place
                     let sortedData = _.sortBy(_.sortBy(dataByType.top(Infinity), d => -d.mostLikelyStart), j => j.type);
+
+                    $("#treatment_count").html(" (" + getCount("TREATMENT") + ")");
+                    $("#test_count").html(" (" + getCount("TEST") + ")");
+                    $("#problem_count").html(" (" + getCount("PROBLEM") + ")");
+                    $("#occurrence_count").html(" (" + getCount("OCCURRENCE") + ")");
+                    $("#evidential_count").html(" (" + getCount("EVIDENTIAL") + ")");
+                    $("#clinical_dept_count").html(" (" + getCount("CLINICAL_DEPT") + ")");
+
+                    function getCount(type) {
+                        let groups = dataByType.group().top(Infinity);
+                        let keyValue = _.findWhere(groups, { key: type });
+                        if (keyValue) {
+                            return keyValue.value;
+                        } else {
+                            return 0;
+                        }
+                    }
 
                     let hpipLabels = d3.select("#letterbox")
                         .selectAll(".label")

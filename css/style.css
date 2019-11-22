@@ -244,6 +244,10 @@ svg {
     left: 0;
 }
 
+.count_label {
+    font-size: 14px;
+}
+
 
 /* *************************\
   Basic Modal Styles
