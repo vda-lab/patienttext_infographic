@@ -2,7 +2,6 @@
 // doubles are removed
 // Only POS polarity are shown
 // show before or after time zoom (arrow?)
-// check for negative rect
 
 // reload window on resize
 $(window).resize(function() {
@@ -825,7 +824,7 @@ function highlightMaster(id, color) {
 
     d3.select("#mostlikely-" + id)
         .transition(antiFlickerDuration)
-        .style("opacity", 1)
+        .style("opacity", 0.8)
 
     d3.select("#lower_uncertainty-" + id)
         .transition(antiFlickerDuration)
