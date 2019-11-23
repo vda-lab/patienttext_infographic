@@ -756,6 +756,10 @@ $(function() { //DOM Ready
 
 function openModal(d) {
     if (d.id) {
+        // prevent type change when modal is not closed correctly
+        $("#modal_type_span").hide()
+        $("#modal_type").hide()
+
         selectedElement = d;
         d3.select("#modal-1-title").text(d.label);
         $("#modal_start_date").val(d.mostLikelyStart.toISOString().substring(0, 19));
@@ -902,6 +906,8 @@ function saveEvent(selectedId) {
         selectedElement.lowerBoundEnd = new Date($("#modal_end_date").val());
         selectedElement.upperBoundStart = new Date($("#modal_start_date").val());
         selectedElement.upperBoundEnd = new Date($("#modal_end_date").val());
+
+        // selectedElement.type = $("#modal_type").val();
         // if (selectedElement.lowerBoundEnd < selectedElement.mostLikelyStart) {
         //     selectedElement.lowerBoundEnd = selectedElement.mostLikelyStart;
         //     selectedElement.lowerBoundStart = selectedElement.mostLikelyStart;
