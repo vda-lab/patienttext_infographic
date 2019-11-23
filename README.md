@@ -25,3 +25,4 @@ Run container
 ```
 docker run -p [port]:8888 -d accumulate-node
 ```
+Surf to [http://localhost:[port]/accumulate](http://localhost:8888/accumulate)
