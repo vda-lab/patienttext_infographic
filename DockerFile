@@ -1,3 +1,10 @@
-FROM httpd:2.4
-COPY . /usr/local/apache2/htdocs/
-RUN a2enmod rewrite
+FROM node:12
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Bundle app source
+COPY . .
+
+EXPOSE 8888
+CMD [ "node", "main.js" ]
