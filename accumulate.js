@@ -897,6 +897,20 @@ function saveEvent(selectedId) {
 
         selectedElement.mostLikelyStart = new Date($("#modal_start_date").val());
         selectedElement.mostLikelyEnd = new Date($("#modal_end_date").val());
+
+        selectedElement.lowerBoundStart = new Date($("#modal_start_date").val());
+        selectedElement.lowerBoundEnd = new Date($("#modal_end_date").val());
+        selectedElement.upperBoundStart = new Date($("#modal_start_date").val());
+        selectedElement.upperBoundEnd = new Date($("#modal_end_date").val());
+        // if (selectedElement.lowerBoundEnd < selectedElement.mostLikelyStart) {
+        //     selectedElement.lowerBoundEnd = selectedElement.mostLikelyStart;
+        //     selectedElement.lowerBoundStart = selectedElement.mostLikelyStart;
+        // }
+        // if (selectedElement.upperBoundStart > selectedElement.mostLikelyEnd) {
+        //     selectedElement.upperBoundStart = selectedElement.mostLikelyEnd;
+        //     selectedElement.upperBoundEnd = selectedElement.mostLikelyEnd;
+        // }
+
         if (selectedElement.mostLikelyEnd < selectedElement.mostLikelyStart) {
             window.alert("The end date should be later than the start date.")
         } else {
