@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
+
     <meta charset="UTF-8">
     <title>Accumulate</title>
 
@@ -25,6 +28,12 @@
 </head>
 
 <body>
+    <script>
+        if (window.navigator.userAgent.match(/(MSIE|Trident)/)) {
+            alert("Unfortunately, Internet Explorer is not supported for this demo. Please use another browser to test this demo.")
+            window.location.href = "https://www.accumulate.be/";
+        }
+    </script>
     <script src="accumulate.js"></script>
 
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">

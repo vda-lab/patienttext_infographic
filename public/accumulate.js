@@ -4,6 +4,7 @@
 // show before or after time zoom (arrow?)
 
 // reload window on resize
+
 $(window).resize(function() {
     window.location.reload();
 });
@@ -808,12 +809,6 @@ function rgbaColor(d) {
 }
 
 function unhighlightMaster(id, colorVal, label) {
-    // select_axis_label(label)
-    //     .transition(antiFlickerDuration)
-    //     .style("fill", "black")
-    //     .style("font-weight", "normal")
-    //     .style("font-size", "10px")
-
     d3.selectAll(".mostlikely")
         .transition(antiFlickerDuration)
         .style("opacity", normalOpacity)
