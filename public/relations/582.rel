@@ -1,0 +1,5 @@
+c="the stent" 13:23 13:24||r="TrAP"||c="narrowing" 13:21 13:21
+c="multiple percutaneous transluminal coronary angioplasties" 11:41 11:45||r="TrAP"||c="coronary artery disease" 11:16 11:18
+c="amiodarone" 56:26 56:26||r="TrIP"||c="atrial fibrillation" 56:15 56:16
+c="coronary artery bypass graft" 71:7 71:10||r="TrAP"||c="mitral valve regurgitation" 71:1 71:3
+c="mitral valve annuloplasty" 71:13 71:15||r="TrAP"||c="mitral valve regurgitation" 71:1 71:3

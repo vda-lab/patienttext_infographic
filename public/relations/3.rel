@@ -1,0 +1,8 @@
+c="heparin" 98:5 98:5||r="TrAP"||c="bilateral dvt" 98:18 98:19
+c="ointments" 146:5 146:5||r="TrNAP"||c="incisions" 146:7 146:7
+c="lotions" 146:3 146:3||r="TrNAP"||c="incisions" 146:7 146:7
+c="left carotid stenting" 83:8 83:10||r="TrAP"||c="carotid stenosis" 83:2 83:3
+c="coronary artery bypass graft" 138:4 138:7||r="TrAP"||c="coronary artery disease" 138:0 138:2
+c="creams" 146:1 146:1||r="TrNAP"||c="incisions" 146:7 146:7
+c="ekg leads" 40:5 40:6||r="TrCP"||c="some rashes on acw" 40:0 40:3
+c="left carotid stenting" 140:3 140:5||r="TrAP"||c="carotid stenosis" 140:0 140:1

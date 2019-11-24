@@ -15,7 +15,9 @@ let preventUpdate = false;
 let admissionDate;
 let dischargeDate;
 
-const FILE = 3;
+const FILE = 3 + ".xml";
+let currentFile = FILE;
+const relationDocuments = [3, 43, 141, 193, 582];
 
 const minRectWidth = 2,
     initDelay = 1000,
@@ -23,13 +25,14 @@ const minRectWidth = 2,
     defaultDuration = 1000,
     defaultDelay = 0,
     antiFlickerDuration = 200,
-    normalOpacity = 0.6,
+    normalOpacity = 0.5,
     textOpacity = 0.25,
-    normalUncertaintyOpacity = 0.2,
+    normalUncertaintyOpacity = 0.15,
     formatTime = d3.timeFormat("%B %d, %Y"),
     daysOffsetForZoom = 3;
 
 let filter = ["OCCURRENCE", "CLINICAL_DEPT", "TEST", "TREATMENT", "EVIDENTIAL", "PROBLEM"];
+let relations = [];
 
 function color(type) {
     switch (type) {
@@ -75,6 +78,24 @@ $(function() { //DOM Ready
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
+    relationDocuments.forEach(relation => {
+        $.get("relations/" + relation + ".rel", function(result) {
+            let lines = result.split("\n");
+            let temp = [];
+            lines.forEach(line => {
+                let rel = line.split("||");
+                temp.push({
+                    from: rel[0].split("\"")[1].replace(/[\W_\d]/g, "").toLowerCase(),
+                    kind: rel[1].split("\"")[1],
+                    problem: rel[2].split("\"")[1].replace(/[\W_\d]/g, "").toLowerCase()
+                });
+
+            });
+            relations.push(temp);
+        });
+    })
+
+
     $.get("ATLM-ELMo-LSTM-preds/content.txt", function(result) {
         let files = (_.filter(result.split("\n"), (d) => /.xml/i.test(d)));
 
@@ -86,12 +107,14 @@ $(function() { //DOM Ready
         })
 
         $("#options").on('change', function() {
+            currentFile = this.value;
             readFile(this.value);
         });
 
-        readFile(FILE + ".xml")
+        readFile(FILE)
 
         function readFile(file) {
+
 
             d3.xml("testset_annotated_ground_truth/" + file).then(xml => {
                 svg.selectAll("*").remove();
@@ -120,7 +143,7 @@ $(function() { //DOM Ready
                         upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
                         label: event.getAttribute("text"),
                         type: event.getAttribute("type"),
-                        id: event.getAttribute("text").replace(/[\W_\d]/g, ""),
+                        id: event.getAttribute("text").replace(/[\W_\d]/g, "").toLowerCase(),
                         polarity: event.getAttribute("polarity")
                     };
                 });
@@ -784,12 +807,13 @@ function rgbaColor(d) {
     return "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
 }
 
-function unhighlightMaster(id, color, label) {
-    select_axis_label(label)
-        .transition(antiFlickerDuration)
-        .style("fill", "black")
-        .style("font-weight", "normal")
-        .style("font-size", "10px")
+function unhighlightMaster(id, colorVal, label) {
+    // select_axis_label(label)
+    //     .transition(antiFlickerDuration)
+    //     .style("fill", "black")
+    //     .style("font-weight", "normal")
+    //     .style("font-size", "10px")
+
     d3.selectAll(".mostlikely")
         .transition(antiFlickerDuration)
         .style("opacity", normalOpacity)
@@ -802,7 +826,7 @@ function unhighlightMaster(id, color, label) {
         .transition(antiFlickerDuration)
         .style("opacity", normalUncertaintyOpacity)
 
-    bgRGB = d3.color(color);
+    bgRGB = d3.color(colorVal);
     backgroundColor = "rgba(" + bgRGB.r + "," + bgRGB.g + "," + bgRGB.b + "," + textOpacity + ")";
 
     d3.select("#" + id)
@@ -813,45 +837,106 @@ function unhighlightMaster(id, color, label) {
     d3.select('.axis--y')
         .selectAll('text')
         .filter(function(z) {
-            return z.replace(/[\W_\d]/g, "") == id;
+            return z.replace(/[\W_\d]/g, "").toLowerCase() == id;
         })
         .transition(antiFlickerDuration)
-        .style("fill", "black")
         .style("font-weight", "normal")
         .style("font-size", "10px")
+        .style("fill", "black")
+
+    if (_.contains(relationDocuments, +currentFile.split(".")[0])) {
+        let index = relationDocuments.findIndex(elem => elem == +currentFile.split(".")[0]);
+        let relationArray = relations[index];
+
+        let relation = _.findWhere(relationArray, { from: id.toLowerCase() });
+        if (relation) {
+            bgRGBProblem = d3.color(color("PROBLEM"));
+            backgroundColorProblem = "rgba(" + bgRGBProblem.r + "," + bgRGBProblem.g + "," + bgRGBProblem.b + "," + textOpacity + ")";
+            d3.select("#" + relation.problem)
+                .transition(antiFlickerDuration)
+                .style("background", backgroundColorProblem)
+                .style("color", "black");
+
+            d3.select('.axis--y')
+                .selectAll('text')
+                .filter(function(z) {
+                    return z.replace(/[\W_\d]/g, "").toLowerCase() == relation.problem;
+                })
+                .transition(antiFlickerDuration)
+                .style("font-weight", "normal")
+                .style("font-size", "10px")
+                .style("fill", "black")
+        }
+    }
 }
 
-function highlightMaster(id, color) {
+function highlightMaster(id, colorVal) {
     d3.selectAll(".mostlikely")
         .transition(antiFlickerDuration)
         .style("opacity", "0.2")
 
     d3.select("#mostlikely-" + id)
         .transition(antiFlickerDuration)
-        .style("opacity", 0.8)
+        .style("opacity", 0.95)
 
     d3.select("#lower_uncertainty-" + id)
         .transition(antiFlickerDuration)
-        .style("opacity", normalOpacity - 0.1)
+        .style("opacity", normalOpacity)
 
     d3.select("#upper_uncertainty-" + id)
         .transition(antiFlickerDuration)
-        .style("opacity", normalOpacity - 0.1)
+        .style("opacity", normalOpacity)
 
     d3.select("#" + id)
         .transition(antiFlickerDuration)
-        .style("background", color)
+        .style("background", colorVal)
         .style("color", "white");
 
     d3.select('.axis--y')
         .selectAll('text')
         .filter(function(z) {
-            return z.replace(/[\W_\d]/g, "") == id;
+            return z.replace(/[\W_\d]/g, "").toLowerCase() == id;
         })
         .transition(antiFlickerDuration)
-        .style("fill", color)
+        .style("fill", colorVal)
         .style("font-weight", "bold")
         .style("font-size", "20px")
+
+    if (_.contains(relationDocuments, +currentFile.split(".")[0])) {
+        let index = relationDocuments.findIndex(elem => elem == +currentFile.split(".")[0]);
+        let relationArray = relations[index];
+
+        let relation = _.findWhere(relationArray, { from: id.toLowerCase() });
+        if (relation) {
+
+            d3.select("#mostlikely-" + relation.problem)
+                .transition(antiFlickerDuration)
+                .style("opacity", 0.8)
+
+            d3.select("#lower_uncertainty-" + relation.problem)
+                .transition(antiFlickerDuration)
+                .style("opacity", normalOpacity - 0.1)
+
+            d3.select("#upper_uncertainty-" + relation.problem)
+                .transition(antiFlickerDuration)
+                .style("opacity", normalOpacity - 0.1)
+
+            d3.select("#" + relation.problem)
+                .transition(antiFlickerDuration)
+                .style("background", color("PROBLEM"))
+                .style("color", "white");
+
+            d3.select('.axis--y')
+                .selectAll('text')
+                .filter(function(z) {
+                    return z.replace(/[\W_\d]/g, "").toLowerCase() == relation.problem;
+                })
+                .transition(antiFlickerDuration)
+                .style("fill", color("PROBLEM"))
+                .style("font-weight", "bold")
+                .style("font-size", "20px")
+        }
+    }
 }
 
 function select_axis_label(label) {
@@ -879,7 +964,7 @@ function saveEvent(selectedId) {
             upperBoundEnd: new Date($("#modal_end_date").val()),
             label: newLabel,
             type: $("#modal_type").val(),
-            id: newLabel.replace(/[\W_\d]/g, ""),
+            id: newLabel.replace(/[\W_\d]/g, "").toLowerCase(),
             polarity: "POS"
         };
 
@@ -906,16 +991,6 @@ function saveEvent(selectedId) {
         selectedElement.lowerBoundEnd = new Date($("#modal_end_date").val());
         selectedElement.upperBoundStart = new Date($("#modal_start_date").val());
         selectedElement.upperBoundEnd = new Date($("#modal_end_date").val());
-
-        // selectedElement.type = $("#modal_type").val();
-        // if (selectedElement.lowerBoundEnd < selectedElement.mostLikelyStart) {
-        //     selectedElement.lowerBoundEnd = selectedElement.mostLikelyStart;
-        //     selectedElement.lowerBoundStart = selectedElement.mostLikelyStart;
-        // }
-        // if (selectedElement.upperBoundStart > selectedElement.mostLikelyEnd) {
-        //     selectedElement.upperBoundStart = selectedElement.mostLikelyEnd;
-        //     selectedElement.upperBoundEnd = selectedElement.mostLikelyEnd;
-        // }
 
         if (selectedElement.mostLikelyEnd < selectedElement.mostLikelyStart) {
             window.alert("The end date should be later than the start date.")

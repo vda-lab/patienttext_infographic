@@ -1,0 +1,16 @@
+c="replacement" 122:14 122:14||r="TrAP"||c="abnormal tfts" 122:6 122:7
+c="avastin" 45:16 45:16||r="TrCP"||c="proteinuria" 45:12 45:12
+c="sutent" 47:9 47:9||r="TrCP"||c="mild renal insufficiency" 47:2 47:4
+c="drugs" 12:8 12:8||r="TrCP"||c="known allergies" 12:5 12:6
+c="gentle hydration" 130:13 130:14||r="TrIP"||c="prerenal component" 130:8 130:9
+c="levaquin" 168:13 168:13||r="TrAP"||c="a pneumonia" 168:15 168:16
+c="sutent" 122:9 122:9||r="TrAP"||c="abnormal tfts" 122:6 122:7
+c="an antibiotic" 168:10 168:11||r="TrAP"||c="a pneumonia" 168:15 168:16
+c="docusate sodium" 150:1 150:2||r="TrAP"||c="constipation" 150:25 150:25
+c="morphine" 152:1 152:1||r="TrAP"||c="pain" 152:24 152:24
+c="imodium" 132:6 132:6||r="TrAP"||c="diarrhea" 132:13 132:13
+c="avastin" 19:20 19:20||r="TrAP"||c="metastatic rcc" 19:8 19:9
+c="sutent" 132:11 132:11||r="TrAP"||c="diarrhea" 132:13 132:13
+c="lomotil" 132:8 132:8||r="TrAP"||c="diarrhea" 132:13 132:13
+c="sutent" 113:9 113:9||r="TrAP"||c="metastatic rcc" 113:6 113:7
+c="left radical nephrectomy" 19:12 19:14||r="TrAP"||c="metastatic rcc" 19:8 19:9
