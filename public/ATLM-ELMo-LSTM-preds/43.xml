@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2019-06-14
+Discharge Date :
+2019-06-19
+Service :
+MEDICINE
+History of Present Illness :
+Mr. Mcelveen is a 51 year-old male with metastatic RCC status post left radical nephrectomy in 2018-03-21 , status post Avastin and sorafenib , most recently on Sutent monotherapy since 2018-12-21 , with mild renal insufficiency , who presented from home on 2019-06-14 with shortness of breath and fever .
+Of note , he was hospitalized at Dana-Farber Cancer Institute from 9/25-10/6 with chest pain , at which time he reportedly had cardiac enzymes , an echocardiogram and a pharmacological stress test performed .
+It is unclear from history what these studies revealed .
+He reports that he felt fatigued during the week prior to the current admission .
+On the day of admission , he felt " congested " in his chest , and had a new fever .
+He was taken to the Deanna by his wife .
+Patrick reports a mild cough for 2 days PTA , non-productive .
+He denies a history of aspiration events or choking with food intake .
+He describes mild reflux symptoms at night .
+Further ROS reveals mild SOB in the days preceding admission , but he tells me that he was surprised to find out about his low oxygen saturation because he did not feel that bad .
+He denies chills , no chest pain , no LE swelling .
+In the Deanna , Tmax 102.8 , BP 100 - 140/60 s, HR 80 s, RR 20 s, Sat 75% on RA in triage , up to 100% on NRB .
+CXR with bibasilar consolidations .
+He was given Levo 750 mg PO X1 , and Flagyl 500 mg PO X1 .
+His BP decreased to 100 systolic despite hydration with 2L of NS .
+He was subsquently admitted to the ICU for further care .
+He was placed on Levo and Ceftriaxone .
+A cosyntropin stimulation test revealed cortisol 32.1 --&gt; 36.4 .
+His oxygen requirement decreased , and his overall status improved quickly .
+He is being transferred to the floor for ongoing care .
+Brief Hospital Course :
+Mr. Mcelveen 51 year-old male with metastatic RCC on Sutent since 2018-12-21 , admitted with fever , hypoxemia , and bibasilar pneumonia .
+1) Bibasilar pneumonia : Patient was treated for community-acquired pneumonia .
+He was initially placed on Ceftriaxone , Levaquin , and Flagyl in the ICU but then changed to 
+Azithromycin &amp; CTX at time of transfer to the oncology service .
+He continued to have an oxygen requirement and CT scan suggested ground glass opacities , suggestive of an underlying infectious process .
+ECHO was done and confirmed normal ejection fraction .
+His respiratory status improved slowly , oxygen was weaned off , and he was discharged on course of Levaquin .
+2) Metastatic RCC : Sutent was held on admission in light of acute infection .
+He underwent a staging CT scan torso which suggested no significant increase in tumor burden .
+Patient was also found to have abnormal TFTs on Sutent and was started on replacement therapy .
+He will need follow-up bloodwork as an outpatient .
+Recent CT scan showed destruction of L femoral neck .
+He underwent an xray of the L femur which did not suggest an acute fracture .
+No limitations were placed in regards to weightbearing status .
+Patient was instructed to restart Sutent next Monday .
+3) Renal insufficiency : Creatinine improved from 2.1 to 1.3 at time of discharge .
+Likely related to underlying malignancy as well as prerenal component given improvement with gentle hydration .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2018-12-24 14:11" modality="FACTUAL" most-likely-duration="0Y0M738D17H3m" most-likely-start="2019-06-14 16:37" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2020-12-02 19:03"/>
+<EVENT end="1016" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:33" modality="FACTUAL" most-likely-duration="0Y0M94D13H55m" most-likely-start="2019-06-14 17:05" polarity="POS" start="1005" temporally-annotated="YES" text="food intake" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:37"/>
+<EVENT end="1031" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:33" modality="FACTUAL" most-likely-duration="0Y0M116D4H43m" most-likely-start="2019-06-14 17:05" polarity="POS" start="1022" temporally-annotated="YES" text="describes" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:37"/>
+<EVENT end="1052" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:31" modality="FACTUAL" most-likely-duration="0Y0M111D3H14m" most-likely-start="2019-06-14 17:05" polarity="POS" start="1032" temporally-annotated="YES" text="mild reflux symptoms" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:39"/>
+<EVENT end="1075" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:29" modality="FACTUAL" most-likely-duration="0Y0M104D13H16m" most-likely-start="2019-06-14 17:05" polarity="POS" start="1064" temporally-annotated="YES" text="Further ROS" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:41"/>
+<EVENT end="1092" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:30" modality="FACTUAL" most-likely-duration="0Y0M105D19H30m" most-likely-start="2019-06-14 17:04" polarity="POS" start="1084" temporally-annotated="YES" text="mild SOB" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:38"/>
+<EVENT end="1124" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:30" modality="FACTUAL" most-likely-duration="0Y0M102D3H59m" most-likely-start="2019-06-14 17:04" polarity="POS" start="1115" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:38"/>
+<EVENT end="1139" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:30" modality="FACTUAL" most-likely-duration="0Y0M122D10H48m" most-likely-start="2019-06-14 17:04" polarity="POS" start="1134" temporally-annotated="YES" text="tells" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:38"/>
+<EVENT end="1208" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:28" modality="FACTUAL" most-likely-duration="0Y0M100D20H15m" most-likely-start="2019-06-14 17:04" polarity="POS" start="1183" temporally-annotated="YES" text="his low oxygen saturation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:40"/>
+<EVENT end="1253" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:28" modality="FACTUAL" most-likely-duration="0Y0M121D0H18m" most-likely-start="2019-06-14 17:04" polarity="POS" start="1247" temporally-annotated="YES" text="denies" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:40"/>
+<EVENT end="1260" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:28" modality="FACTUAL" most-likely-duration="0Y0M111D23H43m" most-likely-start="2019-06-14 17:04" polarity="NEG" start="1254" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:40"/>
+<EVENT end="1276" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:30" modality="FACTUAL" most-likely-duration="0Y0M108D7H9m" most-likely-start="2019-06-14 17:04" polarity="NEG" start="1266" temporally-annotated="YES" text="chest pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:38"/>
+<EVENT end="1293" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:29" modality="FACTUAL" most-likely-duration="0Y0M95D4H44m" most-likely-start="2019-06-14 17:05" polarity="NEG" start="1282" temporally-annotated="YES" text="LE swelling" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:41"/>
+<EVENT end="1309" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:29" modality="FACTUAL" most-likely-duration="0Y0M113D19H51m" most-likely-start="2019-06-14 17:05" polarity="POS" start="1299" temporally-annotated="YES" text="the Deanna" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:41"/>
+<EVENT end="1316" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:28" modality="FACTUAL" most-likely-duration="0Y0M111D16H27m" most-likely-start="2019-06-14 17:06" polarity="POS" start="1312" temporally-annotated="YES" text="Tmax" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:44"/>
+<EVENT end="1327" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:30" modality="FACTUAL" most-likely-duration="0Y0M113D13H36m" most-likely-start="2019-06-14 17:06" polarity="POS" start="1325" temporally-annotated="YES" text="BP" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:42"/>
+<EVENT end="1346" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:30" modality="FACTUAL" most-likely-duration="0Y0M119D23H2m" most-likely-start="2019-06-14 17:06" polarity="POS" start="1344" temporally-annotated="YES" text="HR" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:42"/>
+<EVENT end="1355" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:31" modality="FACTUAL" most-likely-duration="0Y0M122D7H57m" most-likely-start="2019-06-14 17:07" polarity="POS" start="1353" temporally-annotated="YES" text="RR" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:43"/>
+<EVENT end="1365" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:31" modality="FACTUAL" most-likely-duration="0Y0M125D13H32m" most-likely-start="2019-06-14 17:07" polarity="POS" start="1362" temporally-annotated="YES" text="Sat" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:43"/>
+<EVENT end="1375" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:30" modality="FACTUAL" most-likely-duration="0Y0M116D0H20m" most-likely-start="2019-06-14 17:08" polarity="POS" start="1373" temporally-annotated="YES" text="RA" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:46"/>
+<EVENT end="1405" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:32" modality="FACTUAL" most-likely-duration="0Y0M98D16H54m" most-likely-start="2019-06-14 17:08" polarity="POS" start="1402" temporally-annotated="YES" text="NRB" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:44"/>
+<EVENT end="1411" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:32" modality="FACTUAL" most-likely-duration="0Y0M113D13H43m" most-likely-start="2019-06-14 17:08" polarity="POS" start="1408" temporally-annotated="YES" text="CXR" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:44"/>
+<EVENT end="1441" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:31" modality="FACTUAL" most-likely-duration="0Y0M95D13H22m" most-likely-start="2019-06-14 17:09" polarity="POS" start="1417" temporally-annotated="YES" text="bibasilar consolidations" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:47"/>
+<EVENT end="159" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2018-03-18 07:59" modality="FACTUAL" most-likely-duration="0Y0M143D10H48m" most-likely-start="2018-03-21 09:58" polarity="POS" start="145" temporally-annotated="YES" text="metastatic RCC" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2018-03-31 11:57"/>
+<EVENT end="1461" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:33" modality="FACTUAL" most-likely-duration="0Y0M144D7H43m" most-likely-start="2019-06-14 17:09" polarity="POS" start="1457" temporally-annotated="YES" text="Levo" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:45"/>
+<EVENT end="1487" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:31" modality="FACTUAL" most-likely-duration="0Y0M134D5H42m" most-likely-start="2019-06-14 17:10" polarity="POS" start="1481" temporally-annotated="YES" text="Flagyl" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:49"/>
+<EVENT end="1509" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:32" modality="FACTUAL" most-likely-duration="0Y0M117D9H52m" most-likely-start="2019-06-14 17:10" polarity="POS" start="1503" temporally-annotated="YES" text="His BP" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:48"/>
+<EVENT end="1553" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:34" modality="FACTUAL" most-likely-duration="0Y0M109D8H29m" most-likely-start="2019-06-14 17:10" polarity="POS" start="1544" temporally-annotated="YES" text="hydration" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:46"/>
+<EVENT end="1567" id="E56" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:34" modality="FACTUAL" most-likely-duration="0Y0M97D15H41m" most-likely-start="2019-06-14 17:10" polarity="POS" start="1565" temporally-annotated="YES" text="NS" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:46"/>
+<EVENT end="1597" id="E57" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:32" modality="FACTUAL" most-likely-duration="0Y0M101D17H41m" most-likely-start="2019-06-14 17:11" polarity="POS" start="1589" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:50"/>
+<EVENT end="1608" id="E58" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:33" modality="FACTUAL" most-likely-duration="0Y0M102D22H48m" most-likely-start="2019-06-14 17:11" polarity="POS" start="1601" temporally-annotated="YES" text="the ICU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:49"/>
+<EVENT end="1625" id="E59" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:33" modality="FACTUAL" most-likely-duration="0Y0M95D5H12m" most-likely-start="2019-06-14 17:11" polarity="POS" start="1613" temporally-annotated="YES" text="further care" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:49"/>
+<EVENT end="1649" id="E60" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:35" modality="FACTUAL" most-likely-duration="0Y0M109D9H6m" most-likely-start="2019-06-14 17:11" polarity="POS" start="1645" temporally-annotated="YES" text="Levo" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:47"/>
+<EVENT end="1665" id="E61" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:35" modality="FACTUAL" most-likely-duration="0Y0M95D0H33m" most-likely-start="2019-06-14 17:11" polarity="POS" start="1654" temporally-annotated="YES" text="Ceftriaxone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:47"/>
+<EVENT end="1698" id="E62" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:33" modality="FACTUAL" most-likely-duration="0Y0M103D17H54m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1668" temporally-annotated="YES" text="A cosyntropin stimulation test" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:51"/>
+<EVENT end="1716" id="E64" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:33" modality="FACTUAL" most-likely-duration="0Y0M109D14H49m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1708" temporally-annotated="YES" text="cortisol" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:51"/>
+<EVENT end="196" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2018-03-18 04:41" modality="FACTUAL" most-likely-duration="0Y0M112D11H37m" most-likely-start="2018-03-21 07:47" polarity="POS" start="172" temporally-annotated="YES" text="left radical nephrectomy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2018-03-31 10:53"/>
+<EVENT end="1755" id="E65" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:34" modality="FACTUAL" most-likely-duration="0Y0M111D2H47m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1733" temporally-annotated="YES" text="His oxygen requirement" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:50"/>
+<EVENT end="1790" id="E66" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:34" modality="FACTUAL" most-likely-duration="0Y0M116D10H7m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1772" temporally-annotated="YES" text="his overall status" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:50"/>
+<EVENT end="1833" id="E68" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:34" modality="FACTUAL" most-likely-duration="0Y0M104D13H48m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1822" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:50"/>
+<EVENT end="1846" id="E69" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:36" modality="FACTUAL" most-likely-duration="0Y0M102D15H56m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1837" temporally-annotated="YES" text="the floor" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:48"/>
+<EVENT end="1863" id="E70" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:36" modality="FACTUAL" most-likely-duration="0Y0M95D8H11m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1851" temporally-annotated="YES" text="ongoing care" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:48"/>
+<EVENT end="1939" id="E71" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:36" modality="FACTUAL" most-likely-duration="0Y0M110D2H0m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1925" temporally-annotated="YES" text="metastatic RCC" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:48"/>
+<EVENT end="1949" id="E72" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:36" modality="FACTUAL" most-likely-duration="0Y0M111D7H24m" most-likely-start="2019-06-14 17:12" polarity="POS" start="1943" temporally-annotated="YES" text="Sutent" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:48"/>
+<EVENT end="1977" id="E73" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 06:52" modality="FACTUAL" most-likely-duration="0Y0M101D6H51m" most-likely-start="2019-06-22 10:54" polarity="POS" start="1969" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 14:56"/>
+<EVENT end="1988" id="E74" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 07:32" modality="FACTUAL" most-likely-duration="0Y0M107D0H1m" most-likely-start="2019-06-22 11:10" polarity="POS" start="1983" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 14:48"/>
+<EVENT end="2000" id="E75" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:35" modality="FACTUAL" most-likely-duration="0Y0M106D14H44m" most-likely-start="2019-06-22 09:06" polarity="POS" start="1991" temporally-annotated="YES" text="hypoxemia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 12:37"/>
+<EVENT end="2026" id="E76" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 04:49" modality="FACTUAL" most-likely-duration="0Y0M95D10H6m" most-likely-start="2019-06-22 08:27" polarity="POS" start="2007" temporally-annotated="YES" text="bibasilar pneumonia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 12:05"/>
+<EVENT end="2051" id="E77" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 04:42" modality="FACTUAL" most-likely-duration="0Y0M105D17H18m" most-likely-start="2019-06-22 08:26" polarity="POS" start="2032" temporally-annotated="YES" text="Bibasilar pneumonia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 12:10"/>
+<EVENT end="2106" id="E78" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 04:49" modality="FACTUAL" most-likely-duration="0Y0M95D8H41m" most-likely-start="2019-06-22 08:40" polarity="POS" start="2078" temporally-annotated="YES" text="community-acquired pneumonia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 12:31"/>
+<EVENT end="2147" id="E79" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:02" modality="FACTUAL" most-likely-duration="0Y0M108D20H57m" most-likely-start="2019-06-22 08:57" polarity="POS" start="2136" temporally-annotated="YES" text="Ceftriaxone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 12:52"/>
+<EVENT end="2158" id="E80" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:13" modality="FACTUAL" most-likely-duration="0Y0M110D9H26m" most-likely-start="2019-06-22 09:11" polarity="POS" start="2150" temporally-annotated="YES" text="Levaquin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:09"/>
+<EVENT end="2171" id="E81" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M107D8H55m" most-likely-start="2019-06-22 09:20" polarity="POS" start="2165" temporally-annotated="YES" text="Flagyl" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:21"/>
+<EVENT end="2182" id="E82" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="FACTUAL" most-likely-duration="0Y0M100D20H27m" most-likely-start="2019-06-22 09:25" polarity="POS" start="2175" temporally-annotated="YES" text="the ICU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:27"/>
+<EVENT end="2216" id="E83" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:20" modality="FACTUAL" most-likely-duration="0Y0M124D11H10m" most-likely-start="2019-06-22 09:28" polarity="POS" start="2204" temporally-annotated="YES" text="Azithromycin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:36"/>
+<EVENT end="2222" id="E84" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:26" modality="FACTUAL" most-likely-duration="0Y0M105D23H33m" most-likely-start="2019-06-22 09:28" polarity="POS" start="2219" temporally-annotated="YES" text="CTX" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:30"/>
+<EVENT end="2242" id="E85" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="FACTUAL" most-likely-duration="0Y0M106D23H52m" most-likely-start="2019-06-22 09:29" polarity="POS" start="2234" temporally-annotated="YES" text="transfer" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="232" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2018-12-18 11:28" modality="FACTUAL" most-likely-duration="0Y0M121D19H24m" most-likely-start="2018-12-21 20:38" polarity="POS" start="225" temporally-annotated="YES" text="Avastin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-01-01 05:48"/>
+<EVENT end="2266" id="E86" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:21" modality="FACTUAL" most-likely-duration="0Y0M95D4H34m" most-likely-start="2019-06-22 09:29" polarity="POS" start="2246" temporally-annotated="YES" text="the oncology service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:37"/>
+<EVENT end="2311" id="E87" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:24" modality="FACTUAL" most-likely-duration="0Y0M100D5H21m" most-likely-start="2019-06-22 09:28" polarity="POS" start="2290" temporally-annotated="YES" text="an oxygen requirement" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:32"/>
+<EVENT end="2323" id="E88" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:24" modality="FACTUAL" most-likely-duration="0Y0M114D3H8m" most-likely-start="2019-06-22 09:28" polarity="POS" start="2316" temporally-annotated="YES" text="CT scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:32"/>
+<EVENT end="2333" id="E89" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:20" modality="FACTUAL" most-likely-duration="0Y0M162D18H46m" most-likely-start="2019-06-22 09:28" polarity="POS" start="2324" temporally-annotated="YES" text="suggested" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:36"/>
+<EVENT end="2356" id="E90" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:20" modality="POSSIBLE" most-likely-duration="0Y0M108D13H2m" most-likely-start="2019-06-22 09:28" polarity="POS" start="2334" temporally-annotated="YES" text="ground glass opacities" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:36"/>
+<EVENT end="246" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2018-12-18 16:08" modality="FACTUAL" most-likely-duration="0Y0M107D12H22m" most-likely-start="2018-12-22 01:31" polarity="POS" start="237" temporally-annotated="YES" text="sorafenib" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-01-01 10:54"/>
+<EVENT end="2405" id="E91" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="POSSIBLE" most-likely-duration="0Y0M94D20H15m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2373" temporally-annotated="YES" text="an underlying infectious process" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:31"/>
+<EVENT end="2412" id="E92" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="FACTUAL" most-likely-duration="0Y0M103D2H42m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2408" temporally-annotated="YES" text="ECHO" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:31"/>
+<EVENT end="2435" id="E93" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="FACTUAL" most-likely-duration="0Y0M130D2H8m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2426" temporally-annotated="YES" text="confirmed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:31"/>
+<EVENT end="2460" id="E94" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="FACTUAL" most-likely-duration="0Y0M96D1H10m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2436" temporally-annotated="YES" text="normal ejection fraction" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:31"/>
+<EVENT end="2485" id="E95" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="FACTUAL" most-likely-duration="0Y0M109D2H54m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2463" temporally-annotated="YES" text="His respiratory status" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:31"/>
+<EVENT end="2510" id="E96" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:23" modality="FACTUAL" most-likely-duration="0Y0M113D17H53m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2504" temporally-annotated="YES" text="oxygen" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:31"/>
+<EVENT end="2525" id="E97" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M105D2H5m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2515" temporally-annotated="YES" text="weaned off" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2521" id="E127" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:21" modality="FACTUAL" most-likely-duration="0Y0M114D0H33m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2515" temporally-annotated="YES" text="weaned" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:33"/>
+<EVENT end="2549" id="E98" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M106D9H56m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2539" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2571" id="E99" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M95D10H12m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2563" temporally-annotated="YES" text="Levaquin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2591" id="E100" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M107D11H49m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2577" temporally-annotated="YES" text="Metastatic RCC" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2600" id="E101" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M115D8H11m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2594" temporally-annotated="YES" text="Sutent" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2622" id="E102" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M108D7H56m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2613" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2650" id="E103" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M94D20H1m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2635" temporally-annotated="YES" text="acute infection" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="284" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2018-12-18 18:37" modality="FACTUAL" most-likely-duration="0Y0M107D6H2m" most-likely-start="2018-12-22 04:03" polarity="POS" start="266" temporally-annotated="YES" text="Sutent monotherapy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-01-01 13:29"/>
+<EVENT end="2689" id="E104" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M102D9H2m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2666" temporally-annotated="YES" text="a staging CT scan torso" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2705" id="E105" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M117D0H10m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2696" temporally-annotated="YES" text="suggested" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2745" id="E106" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M95D2H7m" most-likely-start="2019-06-22 09:27" polarity="NEG" start="2709" temporally-annotated="YES" text="significant increase in tumor burden" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2770" id="E128" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M109D2H4m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2765" temporally-annotated="YES" text="found" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2792" id="E107" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M103D0H38m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2779" temporally-annotated="YES" text="abnormal TFTs" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2802" id="E108" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M101D10H24m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2796" temporally-annotated="YES" text="Sutent" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2841" id="E110" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M94D15H59m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2822" temporally-annotated="YES" text="replacement therapy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2876" id="E111" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M108D23H24m" most-likely-start="2019-06-22 09:27" polarity="NEG" start="2857" temporally-annotated="YES" text="follow-up bloodwork" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2910" id="E112" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M101D16H25m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2896" temporally-annotated="YES" text="Recent CT scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-05-31 18:46" modality="FACTUAL" most-likely-duration="0Y0M197D16H1m" most-likely-start="2019-06-14 17:46" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-29 02:46"/>
+<EVENT end="2917" id="E113" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M147D22H17m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2911" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2947" id="E114" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M96D15H57m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2918" temporally-annotated="YES" text="destruction of L femoral neck" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="2985" id="E115" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M101D16H32m" most-likely-start="2019-06-22 09:27" polarity="POS" start="2963" temporally-annotated="YES" text="an xray of the L femur" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="3007" id="E116" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M152D9H29m" most-likely-start="2019-06-22 09:27" polarity="NEG" start="3000" temporally-annotated="YES" text="suggest" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="3025" id="E117" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="POSSIBLE" most-likely-duration="0Y0M95D2H43m" most-likely-start="2019-06-22 09:27" polarity="POS" start="3008" temporally-annotated="YES" text="an acute fracture" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="3042" id="E118" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M110D21H56m" most-likely-start="2019-06-22 09:27" polarity="NEG" start="3031" temporally-annotated="YES" text="limitations" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="3089" id="E119" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M94D18H41m" most-likely-start="2019-06-22 09:27" polarity="POS" start="3069" temporally-annotated="YES" text="weightbearing status" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="333" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 20:52" modality="FACTUAL" most-likely-duration="0Y0M103D1H47m" most-likely-start="2019-06-15 01:14" polarity="POS" start="309" temporally-annotated="YES" text="mild renal insufficiency" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 05:36"/>
+<EVENT end="3132" id="E120" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 05:19" modality="FACTUAL" most-likely-duration="0Y0M113D9H51m" most-likely-start="2019-06-22 09:27" polarity="POS" start="3126" temporally-annotated="YES" text="Sutent" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 13:35"/>
+<EVENT end="3169" id="E121" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 21:50" modality="FACTUAL" most-likely-duration="0Y0M107D12H5m" most-likely-start="2019-06-23 04:41" polarity="POS" start="3150" temporally-annotated="YES" text="Renal insufficiency" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-03 11:32"/>
+<EVENT end="3182" id="E122" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-19 03:44" modality="FACTUAL" most-likely-duration="0Y0M112D21H10m" most-likely-start="2019-06-22 10:27" polarity="POS" start="3172" temporally-annotated="YES" text="Creatinine" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 17:10"/>
+<EVENT end="3228" id="E123" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-18 17:08" modality="FACTUAL" most-likely-duration="0Y0M95D6H8m" most-likely-start="2019-06-21 23:25" polarity="POS" start="3219" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 05:42"/>
+<EVENT end="3270" id="E124" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-18 13:21" modality="FACTUAL" most-likely-duration="0Y0M108D12H15m" most-likely-start="2019-06-21 19:28" polarity="POS" start="3249" temporally-annotated="YES" text="underlying malignancy" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 01:35"/>
+<EVENT end="3300" id="E125" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-18 12:35" modality="FACTUAL" most-likely-duration="0Y0M109D2H34m" most-likely-start="2019-06-21 18:32" polarity="POS" start="3282" temporally-annotated="YES" text="prerenal component" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 00:29"/>
+<EVENT end="3318" id="E131" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-18 12:29" modality="FACTUAL" most-likely-duration="0Y0M112D5H57m" most-likely-start="2019-06-21 18:21" polarity="POS" start="3307" temporally-annotated="YES" text="improvement" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 00:13"/>
+<EVENT end="3340" id="E126" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-18 12:28" modality="FACTUAL" most-likely-duration="0Y0M95D10H13m" most-likely-start="2019-06-21 18:18" polarity="POS" start="3324" temporally-annotated="YES" text="gentle hydration" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-07-02 00:08"/>
+<EVENT end="349" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 21:54" modality="FACTUAL" most-likely-duration="0Y0M99D2H34m" most-likely-start="2019-06-15 02:27" polarity="POS" start="340" temporally-annotated="YES" text="presented" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 07:00"/>
+<EVENT end="398" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:14" modality="FACTUAL" most-likely-duration="0Y0M100D1H56m" most-likely-start="2019-06-14 19:44" polarity="POS" start="379" temporally-annotated="YES" text="shortness of breath" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 02:14"/>
+<EVENT end="408" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 14:43" modality="FACTUAL" most-likely-duration="0Y0M95D2H36m" most-likely-start="2019-06-14 21:08" polarity="POS" start="403" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 03:33"/>
+<EVENT end="440" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 14:45" modality="FACTUAL" most-likely-duration="0Y0M103D10H40m" most-likely-start="2019-06-14 21:04" polarity="POS" start="428" temporally-annotated="YES" text="hospitalized" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 03:23"/>
+<EVENT end="472" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 14:18" modality="FACTUAL" most-likely-duration="0Y0M100D6H50m" most-likely-start="2019-06-14 20:34" polarity="POS" start="444" temporally-annotated="YES" text="Dana-Farber Cancer Institute" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 02:50"/>
+<EVENT end="503" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:38" modality="FACTUAL" most-likely-duration="0Y0M99D0H7m" most-likely-start="2019-06-14 19:49" polarity="POS" start="493" temporally-annotated="YES" text="chest pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 02:00"/>
+<EVENT end="553" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 12:54" modality="FACTUAL" most-likely-duration="0Y0M99D2H50m" most-likely-start="2019-06-14 18:56" polarity="POS" start="538" temporally-annotated="YES" text="cardiac enzymes" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 00:58"/>
+<EVENT end="573" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 12:03" modality="FACTUAL" most-likely-duration="0Y0M100D0H6m" most-likely-start="2019-06-14 18:01" polarity="POS" start="556" temporally-annotated="YES" text="an echocardiogram" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 23:59"/>
+<EVENT end="607" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 11:16" modality="FACTUAL" most-likely-duration="0Y0M102D5H57m" most-likely-start="2019-06-14 17:07" polarity="POS" start="578" temporally-annotated="YES" text="a pharmacological stress test" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 22:58"/>
+<EVENT end="665" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 10:32" modality="FACTUAL" most-likely-duration="0Y0M107D15H49m" most-likely-start="2019-06-14 16:17" polarity="POS" start="652" temporally-annotated="YES" text="these studies" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 22:02"/>
+<EVENT end="687" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 09:55" modality="FACTUAL" most-likely-duration="0Y0M101D17H50m" most-likely-start="2019-06-14 15:33" polarity="POS" start="680" temporally-annotated="YES" text="reports" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 21:11"/>
+<EVENT end="709" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 09:23" modality="FACTUAL" most-likely-duration="0Y0M105D10H39m" most-likely-start="2019-06-14 14:55" polarity="POS" start="701" temporally-annotated="YES" text="fatigued" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:27"/>
+<EVENT end="756" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 09:28" modality="FACTUAL" most-likely-duration="0Y0M95D5H37m" most-likely-start="2019-06-14 14:56" polarity="POS" start="735" temporally-annotated="YES" text="the current admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:24"/>
+<EVENT end="782" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 18:40" modality="FACTUAL" most-likely-duration="0Y0M99D16H44m" most-likely-start="2019-06-14 21:21" polarity="POS" start="773" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-25 00:02"/>
+<EVENT end="804" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 16:13" modality="FACTUAL" most-likely-duration="0Y0M119D16H40m" most-likely-start="2019-06-14 19:19" polarity="POS" start="795" temporally-annotated="YES" text="congested" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 22:25"/>
+<EVENT end="841" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 14:45" modality="FACTUAL" most-likely-duration="0Y0M95D7H3m" most-likely-start="2019-06-14 18:06" polarity="POS" start="830" temporally-annotated="YES" text="a new fever" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 21:27"/>
+<EVENT end="870" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 14:06" modality="FACTUAL" most-likely-duration="0Y0M110D20H42m" most-likely-start="2019-06-14 17:31" polarity="POS" start="860" temporally-annotated="YES" text="the Deanna" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:56"/>
+<EVENT end="913" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:48" modality="FACTUAL" most-likely-duration="0Y0M105D22H8m" most-likely-start="2019-06-14 17:15" polarity="POS" start="901" temporally-annotated="YES" text="a mild cough" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:42"/>
+<EVENT end="945" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:37" modality="FACTUAL" most-likely-duration="0Y0M95D16H9m" most-likely-start="2019-06-14 17:09" polarity="POS" start="931" temporally-annotated="YES" text="non-productive" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:41"/>
+<EVENT end="957" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:36" modality="FACTUAL" most-likely-duration="0Y0M129D9H52m" most-likely-start="2019-06-14 17:06" polarity="POS" start="951" temporally-annotated="YES" text="denies" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:36"/>
+<EVENT end="988" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:32" modality="FACTUAL" most-likely-duration="0Y0M117D11H16m" most-likely-start="2019-06-14 17:06" polarity="NEG" start="971" temporally-annotated="YES" text="aspiration events" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:40"/>
+<EVENT end="999" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2019-06-11 13:32" modality="FACTUAL" most-likely-duration="0Y0M114D6H27m" most-likely-start="2019-06-14 17:06" polarity="NEG" start="992" temporally-annotated="YES" text="choking" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2019-06-24 20:40"/>
+<TIMEX3 end="1104" id="T9" mod="APPROX" start="1096" text="the days" type="DURATION" val="P3D"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="2019-06-14" type="DATE" val="2019-06-14"/>
+<TIMEX3 end="1966" id="T10" mod="NA" start="1956" text="2018-12-21" type="DATE" val="2018-12-21"/>
+<TIMEX3 end="210" id="T2" mod="NA" start="200" text="2018-03-21" type="DATE" val="2018-03-21"/>
+<TIMEX3 end="301" id="T3" mod="NA" start="291" text="2018-12-21" type="DATE" val="2018-12-21"/>
+<TIMEX3 end="3144" id="T11" mod="APPROX" start="3133" text="next Monday" type="DATE" val="2019-06-22"/>
+<TIMEX3 end="373" id="T4" mod="NA" start="363" text="2019-06-14" type="DATE" val="2019-06-14"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="2019-06-19" type="DATE" val="2019-06-19"/>
+<TIMEX3 end="487" id="T5" mod="NA" start="478" text="9/25-10/6" type="DURATION" val="P11D"/>
+<TIMEX3 end="725" id="T6" mod="NA" start="717" text="the week" type="DURATION" val="P1W"/>
+<TIMEX3 end="769" id="T7" mod="NA" start="762" text="the day" type="DATE" val="2019-06-14"/>
+<TIMEX3 end="924" id="T8" mod="NA" start="918" text="2 days" type="DURATION" val="P2D"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T0" toText="2019-06-14" type="SIMULTANEOUS"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL1" toID="T1" toText="2019-06-19" type="SIMULTANEOUS"/>
+<TLINK fromID="E70" fromText="ongoing care" id="TL101" toID="E80" toText="Levaquin" type=""/>
+<TLINK fromID="E58" fromText="the ICU" id="TL102" toID="E82" toText="the ICU" type="SIMULTANEOUS"/>
+<TLINK fromID="E61" fromText="Ceftriaxone" id="TL103" toID="E79" toText="Ceftriaxone" type="simultaneous"/>
+<TLINK fromID="E60" fromText="Levo" id="TL104" toID="E80" toText="Levaquin" type="simultaneous"/>
+<TLINK fromID="E81" fromText="Flagyl" id="TL105" toID="E82" toText="the ICU" type="DURING"/>
+<TLINK fromID="E81" fromText="Flagyl" id="TL107" toID="E86" toText="the oncology service" type="ENDED_BY"/>
+<TLINK fromID="E80" fromText="Levaquin" id="TL108" toID="E86" toText="the oncology service" type="ENDED_BY"/>
+<TLINK fromID="E79" fromText="Ceftriaxone" id="TL109" toID="E86" toText="the oncology service" type="ENDED_BY"/>
+<TLINK fromID="E9" fromText="shortness of breath" id="TL11" toID="E10" toText="fever" type="OVERLAP"/>
+<TLINK fromID="E86" fromText="the oncology service" id="TL110" toID="E85" toText="transfer" type="BEGUN_BY"/>
+<TLINK fromID="E86" fromText="the oncology service" id="TL111" toID="E69" toText="the floor" type="OVERLAP"/>
+<TLINK fromID="E84" fromText="CTX" id="TL112" toID="E86" toText="the oncology service" type="BEGUN_BY"/>
+<TLINK fromID="E83" fromText="Azithromycin" id="TL113" toID="E86" toText="the oncology service" type="BEGUN_BY"/>
+<TLINK fromID="E87" fromText="an oxygen requirement" id="TL114" toID="E86" toText="the oncology service" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E87" fromText="an oxygen requirement" id="TL115" toID="E88" toText="CT scan" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E88" fromText="CT scan" id="TL116" toID="E85" toText="transfer" type="AFTER"/>
+<TLINK fromID="E88" fromText="CT scan" id="TL117" toID="E89" toText="suggested" type="SIMULTANEOUS"/>
+<TLINK fromID="E90" fromText="ground glass opacities" id="TL118" toID="E88" toText="CT scan" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E87" fromText="an oxygen requirement" id="TL119" toID="E90" toText="ground glass opacities" type="OVERLAP"/>
+<TLINK fromID="E90" fromText="ground glass opacities" id="TL120" toID="E91" toText="an underlying infectious process" type="OVERLAP"/>
+<TLINK fromID="E92" fromText="ECHO" id="TL121" toID="E70" toText="ongoing care" type="OVERLAP"/>
+<TLINK fromID="E92" fromText="ECHO" id="TL122" toID="E93" toText="confirmed" type="SIMULTANEOUS"/>
+<TLINK fromID="E94" fromText="normal ejection fraction" id="TL123" toID="E92" toText="ECHO" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E70" fromText="ongoing care" id="TL124" toID="E95" toText="His respiratory status" type="OVERLAP"/>
+<TLINK fromID="E96" fromText="oxygen" id="TL126" toID="E127" toText="weaned" type="ENDED_BY"/>
+<TLINK fromID="E95" fromText="His respiratory status" id="TL127" toID="E96" toText="oxygen" type=""/>
+<TLINK fromID="E99" fromText="Levaquin" id="TL128" toID="E98" toText="discharged" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E127" fromText="weaned" id="TL129" toID="E98" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E2" fromText="metastatic RCC" id="TL13" toID="E6" toText="Sutent monotherapy" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL130" toID="E98" toText="discharged" type="SIMULTANEOUS"/>
+<TLINK fromID="E71" fromText="metastatic RCC" id="TL131" toID="E100" toText="Metastatic RCC" type="simultaneous"/>
+<TLINK fromID="E100" fromText="Metastatic RCC" id="TL132" toID="E101" toText="Sutent" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E101" fromText="Sutent" id="TL133" toID="E102" toText="admission" type="ENDED_BY"/>
+<TLINK fromID="E102" fromText="admission" id="TL134" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E103" fromText="acute infection" id="TL135" toID="E102" toText="admission" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E70" fromText="ongoing care" id="TL136" toID="E104" toText="a staging CT scan torso" type="OVERLAP"/>
+<TLINK fromID="E105" fromText="suggested" id="TL137" toID="E104" toText="a staging CT scan torso" type="SIMULTANEOUS"/>
+<TLINK fromID="E106" fromText="significant increase in tumor burden" id="TL138" toID="E104" toText="a staging CT scan torso" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E101" fromText="Sutent" id="TL139" toID="E108" toText="Sutent" type="SIMULTANEOUS"/>
+<TLINK fromID="E11" fromText="hospitalized" id="TL14" toID="E12" toText="Dana-Farber Cancer Institute" type="SIMULTANEOUS"/>
+<TLINK fromID="E107" fromText="abnormal TFTs" id="TL140" toID="E108" toText="Sutent" type="DURING"/>
+<TLINK fromID="E128" fromText="found" id="TL142" toID="E107" toText="abnormal TFTs" type="OVERLAP"/>
+<TLINK fromID="E110" fromText="replacement therapy" id="TL143" toID="E128" toText="found" type="BEGUN_BY"/>
+<TLINK fromID="E110" fromText="replacement therapy" id="TL144" toID="E111" toText="follow-up bloodwork" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E112" fromText="Recent CT scan" id="TL145" toID="E113" toText="showed" type="SIMULTANEOUS"/>
+<TLINK fromID="E112" fromText="Recent CT scan" id="TL146" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E114" fromText="destruction of L femoral neck" id="TL147" toID="E112" toText="Recent CT scan" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E115" fromText="an xray of the L femur" id="TL148" toID="E112" toText="Recent CT scan" type="AFTER"/>
+<TLINK fromID="E115" fromText="an xray of the L femur" id="TL149" toID="E116" toText="suggest" type="SIMULTANEOUS"/>
+<TLINK fromID="E11" fromText="hospitalized" id="TL15" toID="T5" toText="9/25-10/6" type="SIMULTANEOUS"/>
+<TLINK fromID="E117" fromText="an acute fracture" id="TL150" toID="E115" toText="an xray of the L femur" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E118" fromText="limitations" id="TL151" toID="E115" toText="an xray of the L femur" type="AFTER"/>
+<TLINK fromID="E118" fromText="limitations" id="TL152" toID="E119" toText="weightbearing status" type="SIMULTANEOUS"/>
+<TLINK fromID="E120" fromText="Sutent" id="TL153" toID="T11" toText="next Monday" type="BEGUN_BY"/>
+<TLINK fromID="E120" fromText="Sutent" id="TL154" toID="E108" toText="Sutent" type="SIMULTANEOUS"/>
+<TLINK fromID="E121" fromText="Renal insufficiency" id="TL155" toID="E122" toText="Creatinine" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="mild renal insufficiency" id="TL156" toID="E121" toText="Renal insufficiency" type="SIMULTANEOUS"/>
+<TLINK fromID="E122" fromText="Creatinine" id="TL157" toID="E123" toText="discharge" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E124" fromText="underlying malignancy" id="TL158" toID="E121" toText="Renal insufficiency" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E124" fromText="underlying malignancy" id="TL159" toID="E2" toText="metastatic RCC" type="SIMULTANEOUS"/>
+<TLINK fromID="E12" fromText="Dana-Farber Cancer Institute" id="TL16" toID="E13" toText="chest pain" type="OVERLAP"/>
+<TLINK fromID="E124" fromText="underlying malignancy" id="TL160" toID="E125" toText="prerenal component" type="OVERLAP"/>
+<TLINK fromID="E121" fromText="Renal insufficiency" id="TL161" toID="E125" toText="prerenal component" type="OVERLAP"/>
+<TLINK fromID="E131" fromText="improvement" id="TL164" toID="E126" toText="gentle hydration" type="BEGUN_BY"/>
+<TLINK fromID="E121" fromText="Renal insufficiency" id="TL165" toID="E126" toText="gentle hydration" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E14" fromText="cardiac enzymes" id="TL18" toID="E12" toText="Dana-Farber Cancer Institute" type="DURING"/>
+<TLINK fromID="E14" fromText="cardiac enzymes" id="TL19" toID="E15" toText="an echocardiogram" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="left radical nephrectomy" id="TL2" toID="T2" toText="2018-03-21" type="SIMULTANEOUS"/>
+<TLINK fromID="E15" fromText="an echocardiogram" id="TL20" toID="E16" toText="a pharmacological stress test" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="these studies" id="TL21" toID="E14" toText="cardiac enzymes" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="these studies" id="TL22" toID="E16" toText="a pharmacological stress test" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="these studies" id="TL23" toID="E15" toText="an echocardiogram" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="reports" id="TL24" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="fatigued" id="TL25" toID="T6" toText="the week" type="DURING"/>
+<TLINK fromID="T6" fromText="the week" id="TL26" toID="E20" toText="the current admission" type="ENDED_BY"/>
+<TLINK fromID="E21" fromText="admission" id="TL27" toID="T7" toText="the day" type="SIMULTANEOUS"/>
+<TLINK fromID="T7" fromText="the day" id="TL28" toID="E22" toText="congested" type="SIMULTANEOUS"/>
+<TLINK fromID="E22" fromText="congested" id="TL29" toID="E23" toText="a new fever" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="metastatic RCC" id="TL3" toID="E3" toText="left radical nephrectomy" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="a new fever" id="TL30" toID="T7" toText="the day" type="BEGUN_BY"/>
+<TLINK fromID="E24" fromText="the Deanna" id="TL31" toID="E42" toText="the Deanna" type="SIMULTANEOUS"/>
+<TLINK fromID="E24" fromText="the Deanna" id="TL32" toID="E57" toText="admitted" type="ENDED_BY"/>
+<TLINK fromID="E58" fromText="the ICU" id="TL33" toID="E57" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E57" fromText="admitted" id="TL34" toID="E24" toText="the Deanna" type="AFTER"/>
+<TLINK fromID="E58" fromText="the ICU" id="TL35" toID="E68" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E69" fromText="the floor" id="TL36" toID="E68" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E69" fromText="the floor" id="TL37" toID="E1" toText="Discharge" type="ENDED_BY"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL38" toID="E123" toText="discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E26" fromText="non-productive" id="TL39" toID="E25" toText="a mild cough" type="SIMULTANEOUS"/>
+<TLINK fromID="E2" fromText="metastatic RCC" id="TL4" toID="E4" toText="Avastin" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E25" fromText="a mild cough" id="TL40" toID="T8" toText="2 days" type="SIMULTANEOUS"/>
+<TLINK fromID="T8" fromText="2 days" id="TL41" toID="E21" toText="admission" type="ENDED_BY"/>
+<TLINK fromID="E27" fromText="denies" id="TL42" toID="E18" toText="reports" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="aspiration events" id="TL44" toID="E27" toText="denies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E28" fromText="aspiration events" id="TL45" toID="E29" toText="choking" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="choking" id="TL46" toID="E30" toText="food intake" type="SIMULTANEOUS"/>
+<TLINK fromID="E27" fromText="denies" id="TL47" toID="E33" toText="Further ROS" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="mild reflux symptoms" id="TL48" toID="E31" toText="describes" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E31" fromText="describes" id="TL49" toID="E27" toText="denies" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="metastatic RCC" id="TL5" toID="E5" toText="sorafenib" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E34" fromText="mild SOB" id="TL50" toID="E33" toText="Further ROS" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E34" fromText="mild SOB" id="TL51" toID="T9" toText="the days" type="SIMULTANEOUS"/>
+<TLINK fromID="T9" fromText="the days" id="TL52" toID="E35" toText="admission" type="ENDED_BY"/>
+<TLINK fromID="E35" fromText="admission" id="TL53" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E31" fromText="describes" id="TL54" toID="E36" toText="tells" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="his low oxygen saturation" id="TL55" toID="E36" toText="tells" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E36" fromText="tells" id="TL56" toID="E38" toText="denies" type="OVERLAP"/>
+<TLINK fromID="E39" fromText="chills" id="TL57" toID="E38" toText="denies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E39" fromText="chills" id="TL58" toID="E40" toText="chest pain" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="LE swelling" id="TL59" toID="E40" toText="chest pain" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="Sutent monotherapy" id="TL6" toID="T3" toText="2018-12-21" type="BEGUN_BY"/>
+<TLINK fromID="E43" fromText="Tmax" id="TL60" toID="E42" toText="the Deanna" type="DURING"/>
+<TLINK fromID="E43" fromText="Tmax" id="TL61" toID="E44" toText="BP" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="BP" id="TL62" toID="E45" toText="HR" type="OVERLAP"/>
+<TLINK fromID="E45" fromText="HR" id="TL63" toID="E46" toText="RR" type="OVERLAP"/>
+<TLINK fromID="E46" fromText="RR" id="TL64" toID="E47" toText="Sat" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="Sat" id="TL65" toID="E48" toText="RA" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="RA" id="TL66" toID="E49" toText="NRB" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="CXR" id="TL67" toID="E42" toText="the Deanna" type="DURING"/>
+<TLINK fromID="E51" fromText="bibasilar consolidations" id="TL68" toID="E50" toText="CXR" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E52" fromText="Levo" id="TL69" toID="E42" toText="the Deanna" type="DURING"/>
+<TLINK fromID="E6" fromText="Sutent monotherapy" id="TL7" toID="E7" toText="mild renal insufficiency" type="OVERLAP"/>
+<TLINK fromID="E52" fromText="Levo" id="TL70" toID="E53" toText="Flagyl" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="hydration" id="TL71" toID="E54" toText="His BP" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E54" fromText="His BP" id="TL72" toID="E42" toText="the Deanna" type="DURING"/>
+<TLINK fromID="E55" fromText="hydration" id="TL73" toID="E56" toText="NS" type="SIMULTANEOUS"/>
+<TLINK fromID="E59" fromText="further care" id="TL74" toID="E57" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E56" fromText="NS" id="TL75" toID="E57" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E60" fromText="Levo" id="TL76" toID="E58" toText="the ICU" type="DURING"/>
+<TLINK fromID="E61" fromText="Ceftriaxone" id="TL77" toID="E58" toText="the ICU" type="DURING"/>
+<TLINK fromID="E62" fromText="A cosyntropin stimulation test" id="TL78" toID="E58" toText="the ICU" type="DURING"/>
+<TLINK fromID="E64" fromText="cortisol" id="TL79" toID="E62" toText="A cosyntropin stimulation test" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E0" fromText="Admission" id="TL8" toID="E8" toText="presented" type="OVERLAP"/>
+<TLINK fromID="E59" fromText="further care" id="TL80" toID="E65" toText="His oxygen requirement" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="His oxygen requirement" id="TL81" toID="E66" toText="his overall status" type="OVERLAP"/>
+<TLINK fromID="E68" fromText="transferred" id="TL82" toID="E66" toText="his overall status" type="AFTER"/>
+<TLINK fromID="E70" fromText="ongoing care" id="TL84" toID="E69" toText="the floor" type="BEGUN_BY"/>
+<TLINK fromID="E72" fromText="Sutent" id="TL86" toID="T10" toText="2018-12-21" type="BEGUN_BY"/>
+<TLINK fromID="E72" fromText="Sutent" id="TL88" toID="E101" toText="Sutent" type="simultaneous"/>
+<TLINK fromID="E8" fromText="presented" id="TL9" toID="T4" toText="2019-06-14" type="SIMULTANEOUS"/>
+<TLINK fromID="E71" fromText="metastatic RCC" id="TL90" toID="E72" toText="Sutent" type="OVERLAP"/>
+<TLINK fromID="E73" fromText="admitted" id="TL92" toID="T0" toText="2019-06-14" type="SIMULTANEOUS"/>
+<TLINK fromID="E71" fromText="metastatic RCC" id="TL93" toID="E73" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E74" fromText="fever" id="TL94" toID="E73" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E74" fromText="fever" id="TL95" toID="E75" toText="hypoxemia" type=""/>
+<TLINK fromID="E75" fromText="hypoxemia" id="TL96" toID="E76" toText="bibasilar pneumonia" type=""/>
+<TLINK fromID="E76" fromText="bibasilar pneumonia" id="TL97" toID="E77" toText="Bibasilar pneumonia" type="SIMULTANEOUS"/>
+<TLINK fromID="E77" fromText="Bibasilar pneumonia" id="TL98" toID="E78" toText="community-acquired pneumonia" type="SIMULTANEOUS"/>
+<TLINK fromID="E78" fromText="community-acquired pneumonia" id="TL99" toID="E79" toText="Ceftriaxone" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E30" fromText="food intake" id="Sectime0" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E31" fromText="describes" id="Sectime1" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="mild reflux symptoms" id="Sectime2" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E33" fromText="Further ROS" id="Sectime3" toID="T0" toText="2019-06-14" type="AFTER"/>
+<TLINK fromID="E34" fromText="mild SOB" id="Sectime4" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E35" fromText="admission" id="Sectime5" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="tells" id="Sectime6" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="his low oxygen saturation" id="Sectime7" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E38" fromText="denies" id="Sectime8" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E39" fromText="chills" id="Sectime9" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E40" fromText="chest pain" id="Sectime10" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E41" fromText="LE swelling" id="Sectime11" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E42" fromText="the Deanna" id="Sectime12" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E43" fromText="Tmax" id="Sectime13" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E44" fromText="BP" id="Sectime14" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E45" fromText="HR" id="Sectime15" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E46" fromText="RR" id="Sectime16" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E47" fromText="Sat" id="Sectime17" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E48" fromText="RA" id="Sectime18" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E49" fromText="NRB" id="Sectime19" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E50" fromText="CXR" id="Sectime20" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E51" fromText="bibasilar consolidations" id="Sectime21" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E2" fromText="metastatic RCC" id="Sectime22" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E52" fromText="Levo" id="Sectime23" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E53" fromText="Flagyl" id="Sectime24" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E54" fromText="His BP" id="Sectime25" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E55" fromText="hydration" id="Sectime26" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E56" fromText="NS" id="Sectime27" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E57" fromText="admitted" id="Sectime28" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E58" fromText="the ICU" id="Sectime29" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E59" fromText="further care" id="Sectime30" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E60" fromText="Levo" id="Sectime31" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E61" fromText="Ceftriaxone" id="Sectime32" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E62" fromText="A cosyntropin stimulation test" id="Sectime33" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E64" fromText="cortisol" id="Sectime34" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E3" fromText="left radical nephrectomy" id="Sectime35" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E65" fromText="His oxygen requirement" id="Sectime36" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E66" fromText="his overall status" id="Sectime37" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E68" fromText="transferred" id="Sectime38" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E69" fromText="the floor" id="Sectime39" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E70" fromText="ongoing care" id="Sectime40" toID="T0" toText="2019-06-14" type="AFTER"/>
+<TLINK fromID="E71" fromText="metastatic RCC" id="Sectime0" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E72" fromText="Sutent" id="Sectime1" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E73" fromText="admitted" id="Sectime2" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E74" fromText="fever" id="Sectime3" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E75" fromText="hypoxemia" id="Sectime4" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E76" fromText="bibasilar pneumonia" id="Sectime5" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E77" fromText="Bibasilar pneumonia" id="Sectime6" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E78" fromText="community-acquired pneumonia" id="Sectime7" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E79" fromText="Ceftriaxone" id="Sectime8" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E80" fromText="Levaquin" id="Sectime9" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E81" fromText="Flagyl" id="Sectime10" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E82" fromText="the ICU" id="Sectime11" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E83" fromText="Azithromycin" id="Sectime12" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E84" fromText="CTX" id="Sectime13" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E85" fromText="transfer" id="Sectime14" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E4" fromText="Avastin" id="Sectime41" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E86" fromText="the oncology service" id="Sectime15" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E87" fromText="an oxygen requirement" id="Sectime16" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E88" fromText="CT scan" id="Sectime17" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E89" fromText="suggested" id="Sectime18" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E90" fromText="ground glass opacities" id="Sectime19" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E5" fromText="sorafenib" id="Sectime42" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E91" fromText="an underlying infectious process" id="Sectime20" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E92" fromText="ECHO" id="Sectime21" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E93" fromText="confirmed" id="Sectime22" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E94" fromText="normal ejection fraction" id="Sectime23" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E95" fromText="His respiratory status" id="Sectime24" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E96" fromText="oxygen" id="Sectime25" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E97" fromText="weaned off" id="Sectime26" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E127" fromText="weaned" id="Sectime27" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E98" fromText="discharged" id="Sectime28" toID="T1" toText="2019-06-19" type="OVERLAP"/>
+<TLINK fromID="E99" fromText="Levaquin" id="Sectime29" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E100" fromText="Metastatic RCC" id="Sectime30" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E101" fromText="Sutent" id="Sectime31" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E102" fromText="admission" id="Sectime32" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E103" fromText="acute infection" id="Sectime33" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E6" fromText="Sutent monotherapy" id="Sectime43" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E104" fromText="a staging CT scan torso" id="Sectime34" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E105" fromText="suggested" id="Sectime35" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E106" fromText="significant increase in tumor burden" id="Sectime36" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E128" fromText="found" id="Sectime37" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E107" fromText="abnormal TFTs" id="Sectime38" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E108" fromText="Sutent" id="Sectime39" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E110" fromText="replacement therapy" id="Sectime40" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E111" fromText="follow-up bloodwork" id="Sectime41" toID="T1" toText="2019-06-19" type="AFTER"/>
+<TLINK fromID="E112" fromText="Recent CT scan" id="Sectime42" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E113" fromText="showed" id="Sectime43" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E114" fromText="destruction of L femoral neck" id="Sectime44" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E115" fromText="an xray of the L femur" id="Sectime45" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E116" fromText="suggest" id="Sectime46" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E117" fromText="an acute fracture" id="Sectime47" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E118" fromText="limitations" id="Sectime48" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E119" fromText="weightbearing status" id="Sectime49" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E7" fromText="mild renal insufficiency" id="Sectime44" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E120" fromText="Sutent" id="Sectime50" toID="T1" toText="2019-06-19" type="AFTER"/>
+<TLINK fromID="E121" fromText="Renal insufficiency" id="Sectime51" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E122" fromText="Creatinine" id="Sectime52" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E123" fromText="discharge" id="Sectime53" toID="T1" toText="2019-06-19" type="OVERLAP"/>
+<TLINK fromID="E124" fromText="underlying malignancy" id="Sectime54" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E125" fromText="prerenal component" id="Sectime55" toID="T1" toText="2019-06-19" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E131" fromText="improvement" id="Sectime56" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E126" fromText="gentle hydration" id="Sectime57" toID="T1" toText="2019-06-19" type="BEFORE"/>
+<TLINK fromID="E8" fromText="presented" id="Sectime45" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="shortness of breath" id="Sectime46" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="fever" id="Sectime47" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="hospitalized" id="Sectime48" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E12" fromText="Dana-Farber Cancer Institute" id="Sectime49" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E13" fromText="chest pain" id="Sectime50" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E14" fromText="cardiac enzymes" id="Sectime51" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E15" fromText="an echocardiogram" id="Sectime52" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E16" fromText="a pharmacological stress test" id="Sectime53" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E17" fromText="these studies" id="Sectime54" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E18" fromText="reports" id="Sectime55" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="fatigued" id="Sectime56" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E20" fromText="the current admission" id="Sectime57" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="admission" id="Sectime58" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="congested" id="Sectime59" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="a new fever" id="Sectime60" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E24" fromText="the Deanna" id="Sectime61" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E25" fromText="a mild cough" id="Sectime62" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E26" fromText="non-productive" id="Sectime63" toID="T0" toText="2019-06-14" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E27" fromText="denies" id="Sectime64" toID="T0" toText="2019-06-14" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="aspiration events" id="Sectime65" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<TLINK fromID="E29" fromText="choking" id="Sectime66" toID="T0" toText="2019-06-14" type="BEFORE"/>
+<SECTIME dvalue="2019-06-14" end="28" id="S0" start="18" text="2019-06-14" type="ADMISSION"/>
+<SECTIME dvalue="2019-06-19" end="56" id="S1" start="46" text="2019-06-19" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

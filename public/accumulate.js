@@ -75,7 +75,7 @@ $(function() { //DOM Ready
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    $.get("testset_annotated_ground_truth/content.txt", function(result) {
+    $.get("ATLM-ELMo-LSTM-preds/content.txt", function(result) {
         let files = (_.filter(result.split("\n"), (d) => /.xml/i.test(d)));
 
         var options = $("#options");

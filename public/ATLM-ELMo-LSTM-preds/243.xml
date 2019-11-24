@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2015-12-03
+Discharge Date :
+2015-12-08
+Service :
+MEDICINE
+History of Present Illness :
+55 yo M w/ h/o recurrent bladder ca s/p cystectomy w/ ileal conduit p/w BRBPR to OSH .
+Hct dropped 34 -&gt; 22 .
+EGD normal .
+Cscope unable to complete due to blood but tics seen .
+Tagged RBC + activity in RLQ .
+Transferred to Mediplex Rehab Hospital ICU where Hct has remained stable .
+Seen by GI and plan is to continue holding anticoagulation and repeat scope on Monday .
+Pt feeling well , denies abd pain , N/V , LH , SOB , CP .
+Brief Hospital Course :
+55 year old man with history of metastatic bladder cancer and recurrent DVT s on Lovenox admitted with lower GI bleeding .
+Right lower quadrant source of bleed on red blood cell scan .
+Attempts to visualize colon by conventional and CT virtual colonoscopy failed because of sigmoid angulation and inadequate preparation , respectively .
+On Ct scan , a right psoas mass , most consistent with a hematoma , was seen .
+Since the hematocrit of the patient was stable and outside records from 2015-03-28 mentioned a mass in the right pelvis , the patient was discharged .
+Lovenox was held until follow-up with primary care doctor .
+Also , a repeat outpatient CT colonoscopy with better preparation should be considered .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-06-14 13:47" modality="FACTUAL" most-likely-duration="0Y0M723D12H17m" most-likely-start="2015-12-03 16:37" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2017-05-23 19:27"/>
+<EVENT end="1021" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 21:23" modality="FACTUAL" most-likely-duration="0Y0M108D11H15m" most-likely-start="2015-04-01 06:28" polarity="POS" start="1015" temporally-annotated="YES" text="stable" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 15:33"/>
+<EVENT end="1094" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-26 21:28" modality="FACTUAL" most-likely-duration="0Y0M105D11H6m" most-likely-start="2015-03-30 03:46" polarity="POS" start="1068" temporally-annotated="YES" text="a mass in the right pelvis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-09 10:04"/>
+<EVENT end="1123" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-26 12:21" modality="FACTUAL" most-likely-duration="0Y0M94D23H24m" most-likely-start="2015-03-29 16:19" polarity="POS" start="1113" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-08 20:17"/>
+<EVENT end="1133" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-26 06:26" modality="FACTUAL" most-likely-duration="0Y0M109D11H18m" most-likely-start="2015-03-29 09:22" polarity="POS" start="1126" temporally-annotated="YES" text="Lovenox" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-08 12:18"/>
+<EVENT end="1158" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-26 02:01" modality="PROPOSED" most-likely-duration="0Y0M109D7H13m" most-likely-start="2015-03-29 04:31" polarity="POS" start="1149" temporally-annotated="YES" text="follow-up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-08 07:01"/>
+<EVENT end="140" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-07 01:52" modality="FACTUAL" most-likely-duration="0Y0M171D17H36m" most-likely-start="2015-12-10 07:14" polarity="POS" start="120" temporally-annotated="YES" text="recurrent bladder ca" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-20 12:36"/>
+<EVENT end="1227" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-25 23:07" modality="PROPOSED" most-likely-duration="0Y0M110D22H50m" most-likely-start="2015-03-29 01:26" polarity="POS" start="1193" temporally-annotated="YES" text="a repeat outpatient CT colonoscopy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-08 03:45"/>
+<EVENT end="1251" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-25 21:20" modality="PROPOSED" most-likely-duration="0Y0M123D13H10m" most-likely-start="2015-03-28 23:33" polarity="POS" start="1233" temporally-annotated="YES" text="better preparation" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-08 01:46"/>
+<EVENT end="155" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-07 04:34" modality="FACTUAL" most-likely-duration="0Y0M135D9H19m" most-likely-start="2015-12-10 09:11" polarity="POS" start="145" temporally-annotated="YES" text="cystectomy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-20 13:48"/>
+<EVENT end="172" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-07 15:43" modality="FACTUAL" most-likely-duration="0Y0M129D0H13m" most-likely-start="2015-12-10 19:10" polarity="POS" start="159" temporally-annotated="YES" text="ileal conduit" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-20 22:37"/>
+<EVENT end="182" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-07 21:48" modality="FACTUAL" most-likely-duration="0Y0M111D21H55m" most-likely-start="2015-12-11 00:43" polarity="POS" start="177" temporally-annotated="YES" text="BRBPR" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 03:38"/>
+<EVENT end="189" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 00:11" modality="FACTUAL" most-likely-duration="0Y0M99D11H49m" most-likely-start="2015-12-11 02:54" polarity="POS" start="186" temporally-annotated="YES" text="OSH" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 05:37"/>
+<EVENT end="195" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 01:17" modality="FACTUAL" most-likely-duration="0Y0M107D9H48m" most-likely-start="2015-12-11 03:50" polarity="POS" start="192" temporally-annotated="YES" text="Hct" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 06:23"/>
+<EVENT end="203" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 01:46" modality="FACTUAL" most-likely-duration="0Y0M112D20H54m" most-likely-start="2015-12-11 04:17" polarity="POS" start="196" temporally-annotated="YES" text="dropped" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 06:48"/>
+<EVENT end="218" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:03" modality="FACTUAL" most-likely-duration="0Y0M124D8H40m" most-likely-start="2015-12-11 04:32" polarity="POS" start="215" temporally-annotated="YES" text="EGD" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:01"/>
+<EVENT end="234" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:12" modality="FACTUAL" most-likely-duration="0Y0M110D18H44m" most-likely-start="2015-12-11 04:40" polarity="POS" start="228" temporally-annotated="YES" text="Cscope" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:08"/>
+<EVENT end="266" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:16" modality="FACTUAL" most-likely-duration="0Y0M107D7H35m" most-likely-start="2015-12-11 04:46" polarity="POS" start="261" temporally-annotated="YES" text="blood" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:16"/>
+<EVENT end="275" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:21" modality="FACTUAL" most-likely-duration="0Y0M117D19H26m" most-likely-start="2015-12-11 04:49" polarity="POS" start="271" temporally-annotated="YES" text="tics" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:17"/>
+<EVENT end="293" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:22" modality="FACTUAL" most-likely-duration="0Y0M139D21H24m" most-likely-start="2015-12-11 04:52" polarity="POS" start="283" temporally-annotated="YES" text="Tagged RBC" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:22"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-19 18:39" modality="FACTUAL" most-likely-duration="0Y0M193D4H30m" most-likely-start="2015-12-03 17:38" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-01-17 02:37"/>
+<EVENT end="311" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:25" modality="FACTUAL" most-likely-duration="0Y0M99D3H14m" most-likely-start="2015-12-11 04:53" polarity="POS" start="296" temporally-annotated="YES" text="activity in RLQ" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:21"/>
+<EVENT end="325" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:25" modality="FACTUAL" most-likely-duration="0Y0M106D4H49m" most-likely-start="2015-12-11 04:55" polarity="POS" start="314" temporally-annotated="YES" text="Transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:25"/>
+<EVENT end="356" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:26" modality="FACTUAL" most-likely-duration="0Y0M102D20H0m" most-likely-start="2015-12-11 04:56" polarity="POS" start="329" temporally-annotated="YES" text="Mediplex Rehab Hospital ICU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:26"/>
+<EVENT end="366" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:30" modality="FACTUAL" most-likely-duration="0Y0M120D2H58m" most-likely-start="2015-12-11 04:56" polarity="POS" start="363" temporally-annotated="YES" text="Hct" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:22"/>
+<EVENT end="386" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:27" modality="FACTUAL" most-likely-duration="0Y0M95D15H12m" most-likely-start="2015-12-11 04:57" polarity="POS" start="371" temporally-annotated="YES" text="remained stable" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:27"/>
+<EVENT end="393" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:31" modality="FACTUAL" most-likely-duration="0Y0M117D5H54m" most-likely-start="2015-12-11 04:57" polarity="POS" start="389" temporally-annotated="YES" text="Seen" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:23"/>
+<EVENT end="447" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:31" modality="FACTUAL" most-likely-duration="0Y0M107D0H16m" most-likely-start="2015-12-11 04:57" polarity="POS" start="432" temporally-annotated="YES" text="anticoagulation" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:23"/>
+<EVENT end="464" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 02:28" modality="PROPOSED" most-likely-duration="0Y0M103D3H37m" most-likely-start="2015-12-11 04:58" polarity="POS" start="452" temporally-annotated="YES" text="repeat scope" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 07:28"/>
+<EVENT end="492" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-12-08 03:19" modality="FACTUAL" most-likely-duration="0Y0M104D10H6m" most-likely-start="2015-12-11 07:33" polarity="POS" start="480" temporally-annotated="YES" text="feeling well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 11:47"/>
+<EVENT end="510" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-26 10:34" modality="FACTUAL" most-likely-duration="0Y0M110D6H2m" most-likely-start="2015-03-29 13:22" polarity="NEG" start="502" temporally-annotated="YES" text="abd pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-08 16:10"/>
+<EVENT end="516" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-26 15:00" modality="FACTUAL" most-likely-duration="0Y0M111D22H14m" most-likely-start="2015-03-29 17:55" polarity="NEG" start="513" temporally-annotated="YES" text="N/V" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-08 20:50"/>
+<EVENT end="521" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-26 21:04" modality="FACTUAL" most-likely-duration="0Y0M114D11H18m" most-likely-start="2015-03-30 00:38" polarity="NEG" start="519" temporally-annotated="YES" text="LH" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-09 04:12"/>
+<EVENT end="527" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-27 05:34" modality="FACTUAL" most-likely-duration="0Y0M116D6H52m" most-likely-start="2015-03-30 10:21" polarity="NEG" start="524" temporally-annotated="YES" text="SOB" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-09 15:08"/>
+<EVENT end="532" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-27 14:41" modality="FACTUAL" most-likely-duration="0Y0M100D2H4m" most-likely-start="2015-03-30 21:01" polarity="NEG" start="530" temporally-annotated="YES" text="CP" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-10 03:21"/>
+<EVENT end="616" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-27 21:55" modality="FACTUAL" most-likely-duration="0Y0M107D3H39m" most-likely-start="2015-03-31 05:33" polarity="POS" start="591" temporally-annotated="YES" text="metastatic bladder cancer" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-10 13:11"/>
+<EVENT end="636" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 04:01" modality="FACTUAL" most-likely-duration="0Y0M109D6H35m" most-likely-start="2015-03-31 12:26" polarity="POS" start="621" temporally-annotated="YES" text="recurrent DVT s" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-10 20:51"/>
+<EVENT end="647" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 09:17" modality="FACTUAL" most-likely-duration="0Y0M102D13H31m" most-likely-start="2015-03-31 18:09" polarity="POS" start="640" temporally-annotated="YES" text="Lovenox" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 03:01"/>
+<EVENT end="656" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 13:38" modality="FACTUAL" most-likely-duration="0Y0M100D20H6m" most-likely-start="2015-03-31 22:47" polarity="POS" start="648" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 07:56"/>
+<EVENT end="679" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 16:59" modality="FACTUAL" most-likely-duration="0Y0M95D3H45m" most-likely-start="2015-04-01 02:18" polarity="POS" start="662" temporally-annotated="YES" text="lower GI bleeding" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 11:37"/>
+<EVENT end="718" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 19:18" modality="FACTUAL" most-likely-duration="0Y0M110D16H35m" most-likely-start="2015-04-01 04:44" polarity="POS" start="682" temporally-annotated="YES" text="Right lower quadrant source of bleed" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 14:10"/>
+<EVENT end="741" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 20:46" modality="FACTUAL" most-likely-duration="0Y0M95D2H49m" most-likely-start="2015-04-01 06:18" polarity="POS" start="722" temporally-annotated="YES" text="red blood cell scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 15:50"/>
+<EVENT end="814" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 21:38" modality="FACTUAL" most-likely-duration="0Y0M110D2H51m" most-likely-start="2015-04-01 07:12" polarity="POS" start="775" temporally-annotated="YES" text="conventional and CT virtual colonoscopy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 16:46"/>
+<EVENT end="851" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 22:04" modality="FACTUAL" most-likely-duration="0Y0M117D23H25m" most-likely-start="2015-04-01 07:38" polarity="POS" start="833" temporally-annotated="YES" text="sigmoid angulation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 17:12"/>
+<EVENT end="878" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 22:14" modality="FACTUAL" most-likely-duration="0Y0M109D19H19m" most-likely-start="2015-04-01 07:45" polarity="POS" start="856" temporally-annotated="YES" text="inadequate preparation" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 17:16"/>
+<EVENT end="906" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 22:12" modality="FACTUAL" most-likely-duration="0Y0M105D7H32m" most-likely-start="2015-04-01 07:40" polarity="POS" start="899" temporally-annotated="YES" text="Ct scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 17:08"/>
+<EVENT end="927" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 22:03" modality="FACTUAL" most-likely-duration="0Y0M106D20H45m" most-likely-start="2015-04-01 07:28" polarity="POS" start="909" temporally-annotated="YES" text="a right psoas mass" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 16:53"/>
+<EVENT end="961" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 21:51" modality="POSSIBLE" most-likely-duration="0Y0M104D7H13m" most-likely-start="2015-04-01 07:10" polarity="POS" start="951" temporally-annotated="YES" text="a hematoma" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 16:29"/>
+<EVENT end="995" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-03-28 21:37" modality="FACTUAL" most-likely-duration="0Y0M107D7H50m" most-likely-start="2015-04-01 06:50" polarity="POS" start="981" temporally-annotated="YES" text="the hematocrit" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-04-11 16:03"/>
+<TIMEX3 end="1057" id="T3" mod="NA" start="1047" text="2015-03-28" type="DATE" val="2015-03-28"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="2015-12-03" type="DATE" val="2015-12-03"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="2015-12-08" type="DATE" val="2015-12-08"/>
+<TIMEX3 end="474" id="T2" mod="APPROX" start="468" text="Monday" type="DATE" val="2015-12-11"/>
+<TLINK fromID="E32" fromText="admitted" id="TL0" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E0" fromText="Admission" id="TL1" toID="T0" toText="2015-12-03" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="recurrent bladder ca" id="TL10" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E2" fromText="recurrent bladder ca" id="TL11" toID="E3" toText="cystectomy" type="BEFORE"/>
+<TLINK fromID="E3" fromText="cystectomy" id="TL12" toID="E4" toText="ileal conduit" type="AFTER"/>
+<TLINK fromID="E5" fromText="BRBPR" id="TL13" toID="E11" toText="blood" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="BRBPR" id="TL14" toID="E6" toText="OSH" type="BEFORE"/>
+<TLINK fromID="E8" fromText="dropped" id="TL15" toID="E7" toText="Hct" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="dropped" id="TL16" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E11" fromText="blood" id="TL17" toID="E12" toText="tics" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="EGD" id="TL18" toID="E6" toText="OSH" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="blood" id="TL19" toID="E10" toText="Cscope" type="BEFORE"/>
+<TLINK fromID="E30" fromText="recurrent DVT s" id="TL2" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E48" fromText="a repeat outpatient CT colonoscopy" id="TL20" toID="E49" toText="better preparation" type="AFTER"/>
+<TLINK fromID="E45" fromText="discharged" id="TL21" toID="E48" toText="a repeat outpatient CT colonoscopy" type="BEFORE"/>
+<TLINK fromID="E47" fromText="follow-up" id="TL22" toID="E45" toText="discharged" type="AFTER"/>
+<TLINK fromID="E31" fromText="Lovenox" id="TL23" toID="E46" toText="Lovenox" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="Lovenox" id="TL24" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E31" fromText="Lovenox" id="TL25" toID="E30" toText="recurrent DVT s" type="AFTER"/>
+<TLINK fromID="E13" fromText="Tagged RBC" id="TL26" toID="E14" toText="activity in RLQ" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="red blood cell scan" id="TL27" toID="E13" toText="Tagged RBC" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="Tagged RBC" id="TL28" toID="E15" toText="Transferred" type="BEFORE"/>
+<TLINK fromID="E10" fromText="Cscope" id="TL29" toID="E13" toText="Tagged RBC" type="BEFORE"/>
+<TLINK fromID="E16" fromText="Mediplex Rehab Hospital ICU" id="TL30" toID="E15" toText="Transferred" type="AFTER"/>
+<TLINK fromID="E17" fromText="Hct" id="TL31" toID="E16" toText="Mediplex Rehab Hospital ICU" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="remained stable" id="TL32" toID="E17" toText="Hct" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="Seen" id="TL33" toID="E15" toText="Transferred" type="AFTER"/>
+<TLINK fromID="E21" fromText="anticoagulation" id="TL34" toID="E6" toText="OSH" type="BEFORE"/>
+<TLINK fromID="E22" fromText="repeat scope" id="TL35" toID="T2" toText="Monday" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="abd pain" id="TL37" toID="E23" toText="feeling well" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="N/V" id="TL38" toID="E23" toText="feeling well" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="LH" id="TL39" toID="E23" toText="feeling well" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="conventional and CT virtual colonoscopy" id="TL4" toID="E0" toText="Admission" type="AFTER"/>
+<TLINK fromID="E27" fromText="SOB" id="TL40" toID="E23" toText="feeling well" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="CP" id="TL41" toID="E23" toText="feeling well" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="lower GI bleeding" id="TL42" toID="E5" toText="BRBPR" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="Right lower quadrant source of bleed" id="TL43" toID="E33" toText="lower GI bleeding" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="conventional and CT virtual colonoscopy" id="TL44" toID="E22" toText="repeat scope" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="sigmoid angulation" id="TL45" toID="E36" toText="conventional and CT virtual colonoscopy" type="BEFORE"/>
+<TLINK fromID="E38" fromText="inadequate preparation" id="TL46" toID="E36" toText="conventional and CT virtual colonoscopy" type="BEFORE"/>
+<TLINK fromID="E39" fromText="Ct scan" id="TL47" toID="E36" toText="conventional and CT virtual colonoscopy" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="a right psoas mass" id="TL48" toID="E39" toText="Ct scan" type="BEFORE"/>
+<TLINK fromID="E41" fromText="a hematoma" id="TL49" toID="E40" toText="a right psoas mass" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="lower GI bleeding" id="TL5" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E42" fromText="the hematocrit" id="TL50" toID="E17" toText="Hct" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="stable" id="TL51" toID="E19" toText="remained stable" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="a mass in the right pelvis" id="TL53" toID="T3" toText="2015-03-28" type="BEFORE"/>
+<TLINK fromID="E44" fromText="a mass in the right pelvis" id="TL54" toID="E40" toText="a right psoas mass" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="metastatic bladder cancer" id="TL6" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E45" fromText="discharged" id="TL7" toID="E1" toText="Discharge" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL8" toID="T1" toText="2015-12-08" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="metastatic bladder cancer" id="TL9" toID="E2" toText="recurrent bladder ca" type="OVERLAP"/>
+<SECTIME dvalue="2015-12-03" end="28" id="S0" start="18" text="2015-12-03" type="ADMISSION"/>
+<SECTIME dvalue="2015-12-08" end="56" id="S1" start="46" text="2015-12-08" type="DISCHARGE"/>
+<TLINK fromID="E43" fromText="stable" id="SECTIME0" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E44" fromText="a mass in the right pelvis" id="SECTIME1" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E45" fromText="discharged" id="SECTIME2" toID="T1" toText="2015-12-08" type="OVERLAP"/>
+<TLINK fromID="E46" fromText="Lovenox" id="SECTIME3" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E47" fromText="follow-up" id="SECTIME4" toID="T1" toText="2015-12-08" type="AFTER"/>
+<TLINK fromID="E2" fromText="recurrent bladder ca" id="SECTIME5" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E48" fromText="a repeat outpatient CT colonoscopy" id="SECTIME6" toID="T1" toText="2015-12-08" type="AFTER"/>
+<TLINK fromID="E49" fromText="better preparation" id="SECTIME7" toID="T1" toText="2015-12-08" type="AFTER"/>
+<TLINK fromID="E3" fromText="cystectomy" id="SECTIME8" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E4" fromText="ileal conduit" id="SECTIME9" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E5" fromText="BRBPR" id="SECTIME10" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E6" fromText="OSH" id="SECTIME11" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E7" fromText="Hct" id="SECTIME12" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E8" fromText="dropped" id="SECTIME13" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E9" fromText="EGD" id="SECTIME14" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E10" fromText="Cscope" id="SECTIME15" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E11" fromText="blood" id="SECTIME16" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E12" fromText="tics" id="SECTIME17" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E13" fromText="Tagged RBC" id="SECTIME18" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E14" fromText="activity in RLQ" id="SECTIME19" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E15" fromText="Transferred" id="SECTIME20" toID="T0" toText="2015-12-03" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="Mediplex Rehab Hospital ICU" id="SECTIME21" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E17" fromText="Hct" id="SECTIME22" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E19" fromText="remained stable" id="SECTIME23" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E20" fromText="Seen" id="SECTIME24" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E21" fromText="anticoagulation" id="SECTIME25" toID="T0" toText="2015-12-03" type="BEFORE"/>
+<TLINK fromID="E22" fromText="repeat scope" id="SECTIME26" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E23" fromText="feeling well" id="SECTIME27" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E24" fromText="abd pain" id="SECTIME28" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E25" fromText="N/V" id="SECTIME29" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E26" fromText="LH" id="SECTIME30" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E27" fromText="SOB" id="SECTIME31" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E28" fromText="CP" id="SECTIME32" toID="T0" toText="2015-12-03" type="AFTER"/>
+<TLINK fromID="E29" fromText="metastatic bladder cancer" id="SECTIME33" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E30" fromText="recurrent DVT s" id="SECTIME34" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E31" fromText="Lovenox" id="SECTIME35" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E32" fromText="admitted" id="SECTIME36" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E33" fromText="lower GI bleeding" id="SECTIME37" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E34" fromText="Right lower quadrant source of bleed" id="SECTIME38" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E35" fromText="red blood cell scan" id="SECTIME39" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E36" fromText="conventional and CT virtual colonoscopy" id="SECTIME40" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E37" fromText="sigmoid angulation" id="SECTIME41" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E38" fromText="inadequate preparation" id="SECTIME42" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E39" fromText="Ct scan" id="SECTIME43" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E40" fromText="a right psoas mass" id="SECTIME44" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E41" fromText="a hematoma" id="SECTIME45" toID="T1" toText="2015-12-08" type="BEFORE"/>
+<TLINK fromID="E42" fromText="the hematocrit" id="SECTIME46" toID="T1" toText="2015-12-08" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

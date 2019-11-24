@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+12/07/96
+DISCHARGE DATE :
+12/14/96
+DISCHARGE DATE :
+12/14/96
+HISTORY OF PRESENT ILLNESS :
+76-year-old male with right hip pain X five years .
+The pain is often severely and increasing at night especially when he is lying on the right side .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the hospital as a postoperative admit on December 7 for total hip replacement .
+For further details of this procedure see operative note .
+Postoperatively he did well initially in the first 12 hours .
+However he had a report of emesis of coffee grounds on postoperative night #1 .
+This with no electrocardiogram changes .
+Due to this GI was consulted and felt that he would be a candidate for esophagogastroduodenoscopy .
+He was placed nothing by mouth and the esophagogastroduodenoscopy was done by the GI Service .
+Findings showed a Mallory Weiss tear , nonspecific duodenitis .
+He was placed on Zantac 150 mg. PO b.i.d. and H Pylori serology was sent .
+Post EGD his diet was advanced slowly and he did exceptionally well .
+At the time of discharge he was tolerating a full diet , out of bed with pain , tolerated on po. medications .
+His wound was intact with no evidence of infection .
+Distal neurovascular status was intact .
+There was no calf tenderness and lower extremity arterial non-invasive studies were negative .
+He was generally well in all regards .
+The physical examination was unremarkable and he had no recurrent symptoms of coffee ground emesis .
+He was doing exceptionally well at discharge with plans to follow up with Dr. Rhalttland .
+Discharge instructions have been given .
+ROYNEO WALLA , M.D.
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-06-18 14:08" modality="FACTUAL" most-likely-duration="0Y0M786D20H55m" most-likely-start="1996-12-07 16:41" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="1998-05-28 19:14"/>
+<EVENT end="1042" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:28" modality="FACTUAL" most-likely-duration="0Y0M95D3H42m" most-likely-start="1996-12-07 09:43" polarity="POS" start="1017" temporally-annotated="YES" text="he did exceptionally well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:58"/>
+<EVENT end="1069" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:29" modality="FACTUAL" most-likely-duration="0Y0M103D11H45m" most-likely-start="1996-12-07 09:44" polarity="POS" start="1060" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1087" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:28" modality="FACTUAL" most-likely-duration="0Y0M134D11H2m" most-likely-start="1996-12-07 09:45" polarity="POS" start="1077" temporally-annotated="YES" text="tolerating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:02"/>
+<EVENT end="1099" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:30" modality="FACTUAL" most-likely-duration="0Y0M103D23H5m" most-likely-start="1996-12-07 09:45" polarity="POS" start="1088" temporally-annotated="YES" text="a full diet" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:00"/>
+<EVENT end="1112" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:31" modality="FACTUAL" most-likely-duration="0Y0M120D8H16m" most-likely-start="1996-12-07 09:45" polarity="POS" start="1102" temporally-annotated="YES" text="out of bed" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1122" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:30" modality="FACTUAL" most-likely-duration="0Y0M102D3H55m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1118" temporally-annotated="YES" text="pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:02"/>
+<EVENT end="1134" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:30" modality="FACTUAL" most-likely-duration="0Y0M108D17H55m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1125" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:02"/>
+<EVENT end="1153" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:32" modality="FACTUAL" most-likely-duration="0Y0M95D17H55m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1138" temporally-annotated="YES" text="po. medications" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:00"/>
+<EVENT end="1165" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:32" modality="FACTUAL" most-likely-duration="0Y0M121D12H32m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1156" temporally-annotated="YES" text="His wound" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:00"/>
+<EVENT end="1206" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:32" modality="FACTUAL" most-likely-duration="0Y0M94D20H48m" most-likely-start="1996-12-07 09:46" polarity="NEG" start="1197" temporally-annotated="YES" text="infection" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:00"/>
+<EVENT end="1278" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:32" modality="FACTUAL" most-likely-duration="0Y0M104D3H3m" most-likely-start="1996-12-07 09:46" polarity="NEG" start="1263" temporally-annotated="YES" text="calf tenderness" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:00"/>
+<EVENT end="1328" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:32" modality="FACTUAL" most-likely-duration="0Y0M105D4H41m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1283" temporally-annotated="YES" text="lower extremity arterial non-invasive studies" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:00"/>
+<EVENT end="144" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-22 23:58" modality="FACTUAL" most-likely-duration="0Y0M159D23H43m" most-likely-start="1996-12-06 05:32" polarity="POS" start="130" temporally-annotated="YES" text="right hip pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-18 21:06"/>
+<EVENT end="1366" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="FACTUAL" most-likely-duration="0Y0M107D15H45m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1352" temporally-annotated="YES" text="generally well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1408" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="FACTUAL" most-likely-duration="0Y0M104D11H41m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1384" temporally-annotated="YES" text="The physical examination" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1458" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="FACTUAL" most-likely-duration="0Y0M107D6H42m" most-likely-start="1996-12-07 09:46" polarity="NEG" start="1440" temporally-annotated="YES" text="recurrent symptoms" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1482" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="FACTUAL" most-likely-duration="0Y0M95D0H27m" most-likely-start="1996-12-07 09:46" polarity="NEG" start="1462" temporally-annotated="YES" text="coffee ground emesis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1516" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="FACTUAL" most-likely-duration="0Y0M110D21H39m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1498" temporally-annotated="YES" text="exceptionally well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1529" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="FACTUAL" most-likely-duration="0Y0M103D16H47m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1520" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1553" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="PROPOSED" most-likely-duration="0Y0M108D8H6m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1544" temporally-annotated="YES" text="follow up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="1598" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:33" modality="FACTUAL" most-likely-duration="0Y0M118D19H55m" most-likely-start="1996-12-07 09:46" polarity="POS" start="1576" temporally-annotated="YES" text="Discharge instructions" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:59"/>
+<EVENT end="168" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-03 16:45" modality="FACTUAL" most-likely-duration="0Y0M118D11H17m" most-likely-start="1996-12-06 18:49" polarity="POS" start="160" temporally-annotated="YES" text="The pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-16 20:53"/>
+<EVENT end="210" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 02:44" modality="FACTUAL" most-likely-duration="0Y0M118D13H45m" most-likely-start="1996-12-07 05:56" polarity="POS" start="191" temporally-annotated="YES" text="increasing at night" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 09:08"/>
+<EVENT end="256" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 06:48" modality="FACTUAL" most-likely-duration="0Y0M96D1H30m" most-likely-start="1996-12-07 10:45" polarity="POS" start="233" temporally-annotated="YES" text="lying on the right side" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:42"/>
+<EVENT end="36" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-23 18:52" modality="FACTUAL" most-likely-duration="0Y0M195D8H16m" most-likely-start="1996-12-07 17:53" polarity="POS" start="27" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-21 02:54"/>
+<EVENT end="315" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 08:35" modality="FACTUAL" most-likely-duration="0Y0M101D7H40m" most-likely-start="1996-12-07 12:56" polarity="POS" start="307" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 17:17"/>
+<EVENT end="331" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 09:25" modality="FACTUAL" most-likely-duration="0Y0M104D16H14m" most-likely-start="1996-12-07 14:00" polarity="POS" start="319" temporally-annotated="YES" text="the hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 18:35"/>
+<EVENT end="356" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 09:50" modality="FACTUAL" most-likely-duration="0Y0M99D15H46m" most-likely-start="1996-12-07 14:33" polarity="POS" start="351" temporally-annotated="YES" text="admit" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 19:16"/>
+<EVENT end="396" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 10:37" modality="FACTUAL" most-likely-duration="0Y0M95D12H4m" most-likely-start="1996-12-07 11:17" polarity="POS" start="375" temporally-annotated="YES" text="total hip replacement" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 11:57"/>
+<EVENT end="436" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 14:40" modality="FACTUAL" most-likely-duration="0Y0M128D20H48m" most-likely-start="1996-12-07 15:39" polarity="POS" start="422" temporally-annotated="YES" text="this procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 16:38"/>
+<EVENT end="485" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 15:23" modality="FACTUAL" most-likely-duration="0Y0M106D13H35m" most-likely-start="1996-12-07 16:23" polarity="POS" start="477" temporally-annotated="YES" text="did well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 17:23"/>
+<EVENT end="62" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-30 20:39" modality="FACTUAL" most-likely-duration="0Y0M144D13H18m" most-likely-start="1996-12-14 18:25" polarity="POS" start="53" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-28 02:11"/>
+<EVENT end="571" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 15:47" modality="FACTUAL" most-likely-duration="0Y0M101D14H35m" most-likely-start="1996-12-07 16:50" polarity="POS" start="547" temporally-annotated="YES" text="emesis of coffee grounds" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 17:53"/>
+<EVENT end="638" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 12:14" modality="FACTUAL" most-likely-duration="0Y0M94D21H58m" most-likely-start="1996-12-07 17:31" polarity="NEG" start="613" temporally-annotated="YES" text="electrocardiogram changes" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 22:48"/>
+<EVENT end="669" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 08:06" modality="FACTUAL" most-likely-duration="0Y0M100D14H34m" most-likely-start="1996-12-07 13:00" polarity="POS" start="648" temporally-annotated="YES" text="this GI was consulted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 17:54"/>
+<EVENT end="738" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:42" modality="FACTUAL" most-likely-duration="0Y0M94D20H38m" most-likely-start="1996-12-07 10:22" polarity="POS" start="712" temporally-annotated="YES" text="esophagogastroduodenoscopy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 15:02"/>
+<EVENT end="771" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 04:45" modality="FACTUAL" most-likely-duration="0Y0M100D22H48m" most-likely-start="1996-12-07 09:17" polarity="POS" start="755" temporally-annotated="YES" text="nothing by mouth" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:49"/>
+<EVENT end="806" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 04:38" modality="FACTUAL" most-likely-duration="0Y0M103D13H6m" most-likely-start="1996-12-07 09:05" polarity="POS" start="776" temporally-annotated="YES" text="the esophagogastroduodenoscopy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:32"/>
+<EVENT end="851" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 04:48" modality="FACTUAL" most-likely-duration="0Y0M115D7H53m" most-likely-start="1996-12-07 09:10" polarity="POS" start="845" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:32"/>
+<EVENT end="872" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 04:59" modality="FACTUAL" most-likely-duration="0Y0M117D16H39m" most-likely-start="1996-12-07 09:19" polarity="POS" start="852" temporally-annotated="YES" text="a Mallory Weiss tear" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:39"/>
+<EVENT end="897" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:07" modality="FACTUAL" most-likely-duration="0Y0M95D0H46m" most-likely-start="1996-12-07 09:27" polarity="POS" start="875" temporally-annotated="YES" text="nonspecific duodenitis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:47"/>
+<EVENT end="923" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:14" modality="FACTUAL" most-likely-duration="0Y0M115D16H51m" most-likely-start="1996-12-07 09:33" polarity="POS" start="917" temporally-annotated="YES" text="Zantac" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:52"/>
+<EVENT end="963" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:19" modality="FACTUAL" most-likely-duration="0Y0M111D23H54m" most-likely-start="1996-12-07 09:37" polarity="POS" start="946" temporally-annotated="YES" text="H Pylori serology" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:55"/>
+<EVENT end="983" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:23" modality="FACTUAL" most-likely-duration="0Y0M113D7H33m" most-likely-start="1996-12-07 09:40" polarity="POS" start="980" temporally-annotated="YES" text="EGD" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 13:57"/>
+<EVENT end="1012" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-04 05:24" modality="FACTUAL" most-likely-duration="0Y0M103D3H40m" most-likely-start="1996-12-07 09:42" polarity="POS" start="997" temporally-annotated="YES" text="advanced slowly" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-12-17 14:00"/>
+<TIMEX3 end="157" id="T3" mod="NA" start="147" text="five years" type="DURATION" val="P5Y"/>
+<TIMEX3 end="26" id="T0" mod="NA" start="18" text="12/07/96" type="DATE" val="1996-12-07"/>
+<TIMEX3 end="370" id="T4" mod="NA" start="360" text="December 7" type="DATE" val="1996-12-07"/>
+<TIMEX3 end="52" id="T1" mod="NA" start="44" text="12/14/96" type="DATE" val="1996-12-14"/>
+<TIMEX3 end="517" id="T5" mod="NA" start="499" text="the first 12 hours" type="DURATION" val="PT12H"/>
+<TIMEX3 end="597" id="T6" mod="NA" start="575" text="postoperative night #1" type="DATE" val="1996-12-07"/>
+<TIMEX3 end="78" id="T2" mod="NA" start="70" text="12/14/96" type="DATE" val="1996-12-14"/>
+<TLINK fromID="E7" fromText="admitted" id="TL0" toID="E0" toText="ADMISSION" type="OVERLAP"/>
+<TLINK fromID="T3" fromText="five years" id="TL1" toID="E0" toText="ADMISSION" type="BEFORE"/>
+<TLINK fromID="E3" fromText="right hip pain" id="TL10" toID="E4" toText="The pain" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="The pain" id="TL11" toID="E5" toText="increasing at night" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="lying on the right side" id="TL12" toID="E5" toText="increasing at night" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="the hospital" id="TL13" toID="E7" toText="admitted" type="AFTER"/>
+<TLINK fromID="E9" fromText="admit" id="TL14" toID="E7" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="admit" id="TL15" toID="T4" toText="December 7" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="total hip replacement" id="TL16" toID="E7" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E34" fromText="His wound" id="TL17" toID="E10" toText="total hip replacement" type="AFTER"/>
+<TLINK fromID="E10" fromText="total hip replacement" id="TL18" toID="E11" toText="this procedure" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="did well" id="TL19" toID="T5" toText="the first 12 hours" type="OVERLAP"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL2" toID="T0" toText="12/07/96" type="OVERLAP"/>
+<TLINK fromID="T5" fromText="the first 12 hours" id="TL20" toID="E11" toText="this procedure" type="AFTER"/>
+<TLINK fromID="E13" fromText="emesis of coffee grounds" id="TL21" toID="T6" toText="postoperative night #1" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="emesis of coffee grounds" id="TL22" toID="E14" toText="electrocardiogram changes" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="this GI was consulted" id="TL23" toID="E13" toText="emesis of coffee grounds" type="AFTER"/>
+<TLINK fromID="E17" fromText="nothing by mouth" id="TL24" toID="E15" toText="this GI was consulted" type="AFTER"/>
+<TLINK fromID="E16" fromText="esophagogastroduodenoscopy" id="TL25" toID="E18" toText="the esophagogastroduodenoscopy" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="the esophagogastroduodenoscopy" id="TL26" toID="E17" toText="nothing by mouth" type="AFTER"/>
+<TLINK fromID="E18" fromText="the esophagogastroduodenoscopy" id="TL27" toID="E19" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="a Mallory Weiss tear" id="TL28" toID="E18" toText="the esophagogastroduodenoscopy" type="BEFORE"/>
+<TLINK fromID="E21" fromText="nonspecific duodenitis" id="TL29" toID="E18" toText="the esophagogastroduodenoscopy" type="BEFORE"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL3" toID="E2" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="Zantac" id="TL30" toID="E18" toText="the esophagogastroduodenoscopy" type="AFTER"/>
+<TLINK fromID="E23" fromText="H Pylori serology" id="TL31" toID="E18" toText="the esophagogastroduodenoscopy" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="EGD" id="TL32" toID="E18" toText="the esophagogastroduodenoscopy" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="advanced slowly" id="TL33" toID="E26" toText="he did exceptionally well" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="advanced slowly" id="TL34" toID="E24" toText="EGD" type="AFTER"/>
+<TLINK fromID="E27" fromText="discharge" id="TL35" toID="E2" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="tolerating" id="TL36" toID="E28" toText="a full diet" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="out of bed" id="TL37" toID="E31" toText="pain" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="out of bed" id="TL38" toID="E27" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E32" fromText="tolerated" id="TL39" toID="E33" toText="po. medications" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL4" toID="T1" toText="12/14/96" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="infection" id="TL40" toID="E34" toText="His wound" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="calf tenderness" id="TL41" toID="E27" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E37" fromText="lower extremity arterial non-invasive studies" id="TL42" toID="E27" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E38" fromText="generally well" id="TL43" toID="E27" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E39" fromText="The physical examination" id="TL44" toID="E27" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E40" fromText="recurrent symptoms" id="TL45" toID="E41" toText="coffee ground emesis" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="coffee ground emesis" id="TL46" toID="E13" toText="emesis of coffee grounds" type="AFTER"/>
+<TLINK fromID="E42" fromText="exceptionally well" id="TL47" toID="E43" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E43" fromText="discharge" id="TL48" toID="E27" toText="discharge" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="follow up" id="TL49" toID="E43" toText="discharge" type="AFTER"/>
+<TLINK fromID="E33" fromText="po. medications" id="TL5" toID="E1" toText="DISCHARGE" type="BEFORE"/>
+<TLINK fromID="E45" fromText="Discharge instructions" id="TL50" toID="E43" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E34" fromText="His wound" id="TL6" toID="E1" toText="DISCHARGE" type="BEFORE"/>
+<TLINK fromID="E28" fromText="a full diet" id="TL7" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E2" fromText="DISCHARGE" id="TL8" toID="T2" toText="12/14/96" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="right hip pain" id="TL9" toID="T3" toText="five years" type="OVERLAP"/>
+<SECTIME dvalue="1996-12-07" end="26" id="S0" start="18" text="12/07/96" type="ADMISSION"/>
+<SECTIME dvalue="1996-12-14" end="52" id="S1" start="44" text="12/14/96" type="DISCHARGE"/>
+<TLINK fromID="E26" fromText="he did exceptionally well" id="SECTIME0" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E27" fromText="discharge" id="SECTIME1" toID="T1" toText="12/14/96" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="tolerating" id="SECTIME2" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E30" fromText="out of bed" id="SECTIME3" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E31" fromText="pain" id="SECTIME4" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E32" fromText="tolerated" id="SECTIME5" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E33" fromText="po. medications" id="SECTIME6" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E34" fromText="His wound" id="SECTIME7" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E35" fromText="infection" id="SECTIME8" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E36" fromText="calf tenderness" id="SECTIME9" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E37" fromText="lower extremity arterial non-invasive studies" id="SECTIME10" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E3" fromText="right hip pain" id="SECTIME11" toID="T0" toText="12/07/96" type="BEFORE"/>
+<TLINK fromID="E38" fromText="generally well" id="SECTIME12" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E39" fromText="The physical examination" id="SECTIME13" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E40" fromText="recurrent symptoms" id="SECTIME14" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E41" fromText="coffee ground emesis" id="SECTIME15" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E42" fromText="exceptionally well" id="SECTIME16" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E43" fromText="discharge" id="SECTIME17" toID="T1" toText="12/14/96" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="follow up" id="SECTIME18" toID="T1" toText="12/14/96" type="AFTER"/>
+<TLINK fromID="E45" fromText="Discharge instructions" id="SECTIME19" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E4" fromText="The pain" id="SECTIME20" toID="T0" toText="12/07/96" type="BEFORE"/>
+<TLINK fromID="E5" fromText="increasing at night" id="SECTIME21" toID="T0" toText="12/07/96" type="BEFORE"/>
+<TLINK fromID="E6" fromText="lying on the right side" id="SECTIME22" toID="T0" toText="12/07/96" type="BEFORE"/>
+<TLINK fromID="E7" fromText="admitted" id="SECTIME23" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E8" fromText="the hospital" id="SECTIME24" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E9" fromText="admit" id="SECTIME25" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E10" fromText="total hip replacement" id="SECTIME26" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E11" fromText="this procedure" id="SECTIME27" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E12" fromText="did well" id="SECTIME28" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E13" fromText="emesis of coffee grounds" id="SECTIME29" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E14" fromText="electrocardiogram changes" id="SECTIME30" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E15" fromText="this GI was consulted" id="SECTIME31" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E16" fromText="esophagogastroduodenoscopy" id="SECTIME32" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E17" fromText="nothing by mouth" id="SECTIME33" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E18" fromText="the esophagogastroduodenoscopy" id="SECTIME34" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E19" fromText="showed" id="SECTIME35" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E20" fromText="a Mallory Weiss tear" id="SECTIME36" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E21" fromText="nonspecific duodenitis" id="SECTIME37" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E22" fromText="Zantac" id="SECTIME38" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E23" fromText="H Pylori serology" id="SECTIME39" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E24" fromText="EGD" id="SECTIME40" toID="T1" toText="12/14/96" type="BEFORE"/>
+<TLINK fromID="E25" fromText="advanced slowly" id="SECTIME41" toID="T1" toText="12/14/96" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

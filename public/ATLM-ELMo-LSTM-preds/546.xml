@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+09/10/1999
+DISCHARGE DATE :
+09/14/1999
+HISTORY OF PRESENT ILLNESS :
+Ms. Sterpkoteneish is a 69-year-old woman , who over the past six months has noted increasing pain in her left upper quadrant radiating to the back .
+She described the pain as being exacerbated by eating and described an associated weight loss .
+She presented to her primary care physician , Dr. Tlandtaze , in Aersing Rocuch Sun , who obtained a CT scan , which demonstrated a mass in the tail of the pancreas .
+She was then referred to the Fairm of Ijordcompmac Hospital under the El Memorial and was seen by Dr. Blinjesc , who scheduled her for an exploratory laparoscopy .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted through same day surgery and taken to the operating room where Dr. Blinjesc , assisted by Dr. Zockbeathe , performed a diagnostic laparoscopy with peritoneal washings .
+Findings included no gross evidence seating in the abdominal wall ; one nodule on the posterior surface of the right lobe of the liver ; one nodule in the inferior edge of the falciform ligament .
+Specimens sent to pathology included peritoneal washings and permanent specimens from the liver and falciform nodules .
+There were no complications , and the patient tolerated the procedure well .
+Postoperatively , the patient had some abdominal bloating with evidence of subcutaneous emphysema over the abdomen .
+She was uncomfortable and slow to have bowel movements , although she did have flatus .
+She tolerated a full diet well , but continued to have abdominal cramping and a mild ileus for the following three days .
+She was treated with repeated Fleet &amp;apos;s enemas , and on postoperative day three , she had a number of bowel movements , was considerably more comfortable , and deemed ready for discharge .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-03-22 14:05" modality="FACTUAL" most-likely-duration="0Y0M775D9H48m" most-likely-start="1999-09-10 16:40" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2001-02-28 19:15"/>
+<EVENT end="1036" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:23" modality="FACTUAL" most-likely-duration="0Y0M111D7H36m" most-likely-start="1999-09-10 09:01" polarity="POS" start="1026" temporally-annotated="YES" text="one nodule" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 10:39"/>
+<EVENT end="1095" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:32" modality="FACTUAL" most-likely-duration="0Y0M111D10H20m" most-likely-start="1999-09-10 09:16" polarity="POS" start="1086" temporally-annotated="YES" text="Specimens" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:00"/>
+<EVENT end="1142" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:24" modality="FACTUAL" most-likely-duration="0Y0M112D23H12m" most-likely-start="1999-09-10 09:14" polarity="POS" start="1123" temporally-annotated="YES" text="peritoneal washings" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:04"/>
+<EVENT end="1181" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:15" modality="FACTUAL" most-likely-duration="0Y0M124D15H5m" most-likely-start="1999-09-10 09:07" polarity="POS" start="1147" temporally-annotated="YES" text="permanent specimens from the liver" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 10:59"/>
+<EVENT end="1203" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:05" modality="FACTUAL" most-likely-duration="0Y0M95D10H45m" most-likely-start="1999-09-10 09:01" polarity="POS" start="1186" temporally-annotated="YES" text="falciform nodules" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 10:57"/>
+<EVENT end="1233" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:56" modality="FACTUAL" most-likely-duration="0Y0M102D2H9m" most-likely-start="1999-09-10 08:57" polarity="NEG" start="1220" temporally-annotated="YES" text="complications" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 10:58"/>
+<EVENT end="1261" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:51" modality="FACTUAL" most-likely-duration="0Y0M114D6H49m" most-likely-start="1999-09-10 08:54" polarity="POS" start="1252" temporally-annotated="YES" text="tolerated" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 10:57"/>
+<EVENT end="1275" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:48" modality="FACTUAL" most-likely-duration="0Y0M109D6H23m" most-likely-start="1999-09-10 08:53" polarity="POS" start="1262" temporally-annotated="YES" text="the procedure" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 10:58"/>
+<EVENT end="1340" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:46" modality="FACTUAL" most-likely-duration="0Y0M105D12H4m" most-likely-start="1999-09-10 08:52" polarity="POS" start="1317" temporally-annotated="YES" text="some abdominal bloating" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 10:58"/>
+<EVENT end="1354" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:44" modality="FACTUAL" most-likely-duration="0Y0M112D1H47m" most-likely-start="1999-09-10 08:52" polarity="POS" start="1346" temporally-annotated="YES" text="evidence" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:00"/>
+<EVENT end="1397" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:43" modality="FACTUAL" most-likely-duration="0Y0M95D6H0m" most-likely-start="1999-09-10 08:53" polarity="POS" start="1358" temporally-annotated="YES" text="subcutaneous emphysema over the abdomen" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:03"/>
+<EVENT end="1421" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:41" modality="FACTUAL" most-likely-duration="0Y0M105D2H59m" most-likely-start="1999-09-10 08:53" polarity="POS" start="1408" temporally-annotated="YES" text="uncomfortable" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:05"/>
+<EVENT end="1454" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:40" modality="FACTUAL" most-likely-duration="0Y0M101D16H15m" most-likely-start="1999-09-10 08:54" polarity="POS" start="1426" temporally-annotated="YES" text="slow to have bowel movements" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:08"/>
+<EVENT end="1485" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:43" modality="FACTUAL" most-likely-duration="0Y0M95D3H24m" most-likely-start="1999-09-10 08:57" polarity="POS" start="1479" temporally-annotated="YES" text="flatus" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:11"/>
+<EVENT end="1501" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:51" modality="FACTUAL" most-likely-duration="0Y0M116D18H22m" most-likely-start="1999-09-10 09:05" polarity="POS" start="1492" temporally-annotated="YES" text="tolerated" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:19"/>
+<EVENT end="1513" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:58" modality="FACTUAL" most-likely-duration="0Y0M104D18H38m" most-likely-start="1999-09-10 09:12" polarity="POS" start="1509" temporally-annotated="YES" text="diet" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:26"/>
+<EVENT end="1534" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:02" modality="FACTUAL" most-likely-duration="0Y0M107D6H6m" most-likely-start="1999-09-10 09:18" polarity="POS" start="1525" temporally-annotated="YES" text="continued" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:34"/>
+<EVENT end="1561" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:06" modality="FACTUAL" most-likely-duration="0Y0M100D12H55m" most-likely-start="1999-09-10 09:23" polarity="POS" start="1543" temporally-annotated="YES" text="abdominal cramping" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:40"/>
+<EVENT end="1578" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:09" modality="FACTUAL" most-likely-duration="0Y0M103D8H19m" most-likely-start="1999-09-10 09:27" polarity="POS" start="1566" temporally-annotated="YES" text="a mild ileus" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:45"/>
+<EVENT end="1625" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:14" modality="FACTUAL" most-likely-duration="0Y0M104D15H4m" most-likely-start="1999-09-10 09:30" polarity="POS" start="1618" temporally-annotated="YES" text="treated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:46"/>
+<EVENT end="168" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-04-08 02:40" modality="FACTUAL" most-likely-duration="0Y0M174D10H36m" most-likely-start="1999-10-05 19:02" polarity="POS" start="163" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2001-04-03 11:24"/>
+<EVENT end="1660" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 07:17" modality="FACTUAL" most-likely-duration="0Y0M105D11H20m" most-likely-start="1999-09-10 09:33" polarity="POS" start="1631" temporally-annotated="YES" text="repeated Fleet 's enemas" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 11:49"/>
+<EVENT end="211" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 14:25" modality="FACTUAL" most-likely-duration="0Y0M146D21H29m" most-likely-start="1999-10-29 02:03" polarity="POS" start="169" temporally-annotated="YES" text="increasing pain in her left upper quadrant" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-12-13 23:41"/>
+<EVENT end="1731" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-09 20:17" modality="FACTUAL" most-likely-duration="0Y0M100D11H38m" most-likely-start="1999-09-13 00:03" polarity="POS" start="1704" temporally-annotated="YES" text="a number of bowel movements" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-23 03:49"/>
+<EVENT end="1767" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-09 18:29" modality="FACTUAL" most-likely-duration="0Y0M102D15H20m" most-likely-start="1999-09-12 22:07" polarity="POS" start="1756" temporally-annotated="YES" text="comfortable" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-23 01:45"/>
+<EVENT end="1786" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-09 17:50" modality="FACTUAL" most-likely-duration="0Y0M111D0H23m" most-likely-start="1999-09-12 21:25" polarity="POS" start="1781" temporally-annotated="YES" text="ready" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-23 01:00"/>
+<EVENT end="1800" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-09 17:23" modality="FACTUAL" most-likely-duration="0Y0M95D3H17m" most-likely-start="1999-09-12 20:59" polarity="POS" start="1791" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-23 00:35"/>
+<EVENT end="249" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-30 10:11" modality="FACTUAL" most-likely-duration="0Y0M153D8H51m" most-likely-start="1999-10-15 01:19" polarity="POS" start="240" temporally-annotated="YES" text="described" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-29 02:27"/>
+<EVENT end="258" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-22 18:35" modality="FACTUAL" most-likely-duration="0Y0M121D4H10m" most-likely-start="1999-10-07 04:22" polarity="POS" start="250" temporally-annotated="YES" text="the pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-21 00:09"/>
+<EVENT end="279" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-21 00:05" modality="FACTUAL" most-likely-duration="0Y0M126D19H14m" most-likely-start="1999-10-05 09:19" polarity="POS" start="268" temporally-annotated="YES" text="exacerbated" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-19 04:33"/>
+<EVENT end="289" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-20 08:24" modality="FACTUAL" most-likely-duration="0Y0M114D1H26m" most-likely-start="1999-10-04 17:51" polarity="POS" start="283" temporally-annotated="YES" text="eating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-18 13:18"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-08-27 18:51" modality="FACTUAL" most-likely-duration="0Y0M187D10H43m" most-likely-start="1999-09-10 17:52" polarity="POS" start="29" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-25 02:53"/>
+<EVENT end="303" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-19 20:33" modality="FACTUAL" most-likely-duration="0Y0M132D16H19m" most-likely-start="1999-10-04 06:21" polarity="POS" start="294" temporally-annotated="YES" text="described" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-18 02:09"/>
+<EVENT end="329" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-19 09:37" modality="FACTUAL" most-likely-duration="0Y0M95D8H22m" most-likely-start="1999-10-03 19:44" polarity="POS" start="304" temporally-annotated="YES" text="an associated weight loss" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-17 15:51"/>
+<EVENT end="345" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-18 23:11" modality="FACTUAL" most-likely-duration="0Y0M99D10H44m" most-likely-start="1999-10-03 09:38" polarity="POS" start="336" temporally-annotated="YES" text="presented" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-17 06:05"/>
+<EVENT end="415" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-18 13:18" modality="FACTUAL" most-likely-duration="0Y0M103D7H9m" most-likely-start="1999-10-03 00:02" polarity="POS" start="397" temporally-annotated="YES" text="Aersing Rocuch Sun" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-16 20:46"/>
+<EVENT end="430" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-18 03:56" modality="FACTUAL" most-likely-duration="0Y0M118D11H18m" most-likely-start="1999-10-02 14:56" polarity="POS" start="422" temporally-annotated="YES" text="obtained" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-16 11:56"/>
+<EVENT end="440" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-17 19:03" modality="FACTUAL" most-likely-duration="0Y0M99D1H25m" most-likely-start="1999-10-02 06:21" polarity="POS" start="431" temporally-annotated="YES" text="a CT scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-16 03:39"/>
+<EVENT end="448" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-17 10:44" modality="FACTUAL" most-likely-duration="0Y0M105D0H57m" most-likely-start="1999-10-01 22:15" polarity="POS" start="443" temporally-annotated="YES" text="which" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-15 19:46"/>
+<EVENT end="461" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-17 02:52" modality="FACTUAL" most-likely-duration="0Y0M114D5H36m" most-likely-start="1999-10-01 14:38" polarity="POS" start="449" temporally-annotated="YES" text="demonstrated" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-15 12:24"/>
+<EVENT end="468" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-16 19:30" modality="FACTUAL" most-likely-duration="0Y0M108D13H56m" most-likely-start="1999-10-01 07:29" polarity="POS" start="462" temporally-annotated="YES" text="a mass" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-15 05:28"/>
+<EVENT end="520" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-16 12:35" modality="FACTUAL" most-likely-duration="0Y0M98D14H9m" most-likely-start="1999-10-01 00:46" polarity="POS" start="512" temporally-annotated="YES" text="referred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-14 22:57"/>
+<EVENT end="558" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-16 06:06" modality="FACTUAL" most-likely-duration="0Y0M105D20H23m" most-likely-start="1999-09-30 18:29" polarity="POS" start="524" temporally-annotated="YES" text="the Fairm of Ijordcompmac Hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-14 16:52"/>
+<EVENT end="580" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-16 00:04" modality="FACTUAL" most-likely-duration="0Y0M104D14H15m" most-likely-start="1999-09-30 12:36" polarity="POS" start="565" temporally-annotated="YES" text="the El Memorial" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-14 11:08"/>
+<EVENT end="625" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-15 18:24" modality="FACTUAL" most-likely-duration="0Y0M120D23H23m" most-likely-start="1999-09-30 07:06" polarity="POS" start="616" temporally-annotated="YES" text="scheduled" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-14 05:48"/>
+<EVENT end="660" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-15 13:06" modality="FACTUAL" most-likely-duration="0Y0M95D16H51m" most-likely-start="1999-09-30 01:58" polarity="POS" start="634" temporally-annotated="YES" text="an exploratory laparoscopy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-14 00:50"/>
+<EVENT end="719" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-15 08:10" modality="FACTUAL" most-likely-duration="0Y0M100D12H9m" most-likely-start="1999-09-29 21:10" polarity="POS" start="711" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-13 20:10"/>
+<EVENT end="744" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-15 03:32" modality="FACTUAL" most-likely-duration="0Y0M101D12H33m" most-likely-start="1999-09-29 16:41" polarity="POS" start="728" temporally-annotated="YES" text="same day surgery" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-13 15:50"/>
+<EVENT end="776" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-06 03:29" modality="FACTUAL" most-likely-duration="0Y0M104D22H59m" most-likely-start="1999-09-09 04:31" polarity="POS" start="758" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-19 05:33"/>
+<EVENT end="836" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-06 10:55" modality="FACTUAL" most-likely-duration="0Y0M126D13H26m" most-likely-start="1999-09-09 10:57" polarity="POS" start="827" temporally-annotated="YES" text="performed" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-19 10:59"/>
+<EVENT end="861" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-06 18:50" modality="FACTUAL" most-likely-duration="0Y0M114D12H37m" most-likely-start="1999-09-09 18:36" polarity="POS" start="837" temporally-annotated="YES" text="a diagnostic laparoscopy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-19 18:22"/>
+<EVENT end="886" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 00:42" modality="FACTUAL" most-likely-duration="0Y0M95D9H39m" most-likely-start="1999-09-10 00:53" polarity="POS" start="867" temporally-annotated="YES" text="peritoneal washings" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 01:04"/>
+<EVENT end="954" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 04:41" modality="FACTUAL" most-likely-duration="0Y0M102D0H27m" most-likely-start="1999-09-10 05:33" polarity="NEG" start="907" temporally-annotated="YES" text="no gross evidence seating in the abdominal wall" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 06:25"/>
+<EVENT end="967" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-09-07 06:43" modality="FACTUAL" most-likely-duration="0Y0M106D12H57m" most-likely-start="1999-09-10 08:01" polarity="POS" start="957" temporally-annotated="YES" text="one nodule" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-09-20 09:19"/>
+<TIMEX3 end="158" id="T2" mod="NA" start="139" text="the past six months" type="DURATION" val="P6M"/>
+<TIMEX3 end="1607" id="T4" mod="NA" start="1583" text="the following three days" type="DURATION" val="P3D"/>
+<TIMEX3 end="1693" id="T5" mod="NA" start="1670" text="postoperative day three" type="DATE" val="1999-09-13"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="09/10/1999" type="DATE" val="1999-09-10"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="09/14/1999" type="DATE" val="1999-09-14"/>
+<TIMEX3 end="736" id="T3" mod="NA" start="728" text="same day" type="DATE" val="1999-09-10"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T0" toText="09/10/1999" type="OVERLAP"/>
+<TLINK fromID="T0" fromText="09/10/1999" id="TL1" toID="E0" toText="ADMISSION" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="described" id="TL10" toID="E8" toText="described" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="an associated weight loss" id="TL11" toID="E3" toText="increasing pain in her left upper quadrant" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="presented" id="TL12" toID="E11" toText="Aersing Rocuch Sun" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="presented" id="TL13" toID="E4" toText="the pain" type="AFTER"/>
+<TLINK fromID="E13" fromText="a CT scan" id="TL14" toID="E12" toText="obtained" type="DURING"/>
+<TLINK fromID="E16" fromText="a mass" id="TL15" toID="E15" toText="demonstrated" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E17" fromText="referred" id="TL16" toID="E15" toText="demonstrated" type="AFTER"/>
+<TLINK fromID="E18" fromText="the Fairm of Ijordcompmac Hospital" id="TL17" toID="E17" toText="referred" type="AFTER"/>
+<TLINK fromID="E19" fromText="the El Memorial" id="TL18" toID="E18" toText="the Fairm of Ijordcompmac Hospital" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="an exploratory laparoscopy" id="TL19" toID="E20" toText="scheduled" type="AFTER"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL2" toID="T1" toText="09/14/1999" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="scheduled" id="TL20" toID="E18" toText="the Fairm of Ijordcompmac Hospital" type="DURING"/>
+<TLINK fromID="E22" fromText="admitted" id="TL21" toID="E0" toText="ADMISSION" type="SIMULTANEOUS"/>
+<TLINK fromID="E23" fromText="same day surgery" id="TL22" toID="E22" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="admitted" id="TL23" toID="E24" toText="the operating room" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="a diagnostic laparoscopy" id="TL24" toID="E24" toText="the operating room" type="DURING"/>
+<TLINK fromID="E26" fromText="a diagnostic laparoscopy" id="TL25" toID="E25" toText="performed" type="SIMULTANEOUS"/>
+<TLINK fromID="E27" fromText="peritoneal washings" id="TL26" toID="E26" toText="a diagnostic laparoscopy" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="peritoneal washings" id="TL27" toID="E27" toText="peritoneal washings" type="SIMULTANEOUS"/>
+<TLINK fromID="E28" fromText="no gross evidence seating in the abdominal wall" id="TL28" toID="E26" toText="a diagnostic laparoscopy" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="one nodule" id="TL29" toID="E28" toText="no gross evidence seating in the abdominal wall" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="a CT scan" id="TL3" toID="E15" toText="demonstrated" type="SIMULTANEOUS"/>
+<TLINK fromID="E29" fromText="one nodule" id="TL30" toID="E28" toText="no gross evidence seating in the abdominal wall" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="permanent specimens from the liver" id="TL31" toID="E31" toText="Specimens" type="SIMULTANEOUS"/>
+<TLINK fromID="E32" fromText="peritoneal washings" id="TL32" toID="E31" toText="Specimens" type="SIMULTANEOUS"/>
+<TLINK fromID="E34" fromText="falciform nodules" id="TL33" toID="E31" toText="Specimens" type="SIMULTANEOUS"/>
+<TLINK fromID="E35" fromText="complications" id="TL34" toID="E37" toText="the procedure" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="tolerated" id="TL35" toID="E37" toText="the procedure" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="some abdominal bloating" id="TL36" toID="E37" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E40" fromText="subcutaneous emphysema over the abdomen" id="TL37" toID="E39" toText="evidence" type="SIMULTANEOUS"/>
+<TLINK fromID="E40" fromText="subcutaneous emphysema over the abdomen" id="TL38" toID="E37" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E41" fromText="uncomfortable" id="TL39" toID="E38" toText="some abdominal bloating" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="noted" id="TL4" toID="T2" toText="the past six months" type="DURING"/>
+<TLINK fromID="E41" fromText="uncomfortable" id="TL40" toID="E42" toText="slow to have bowel movements" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="flatus" id="TL41" toID="E38" toText="some abdominal bloating" type="OVERLAP"/>
+<TLINK fromID="E45" fromText="diet" id="TL42" toID="E44" toText="tolerated" type="SIMULTANEOUS"/>
+<TLINK fromID="E47" fromText="abdominal cramping" id="TL43" toID="E46" toText="continued" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E46" fromText="continued" id="TL44" toID="T4" toText="the following three days" type="DURING"/>
+<TLINK fromID="E48" fromText="a mild ileus" id="TL45" toID="T4" toText="the following three days" type="DURING"/>
+<TLINK fromID="E50" fromText="repeated Fleet 's enemas" id="TL46" toID="E49" toText="treated" type="SIMULTANEOUS"/>
+<TLINK fromID="E51" fromText="a number of bowel movements" id="TL47" toID="T5" toText="postoperative day three" type="OVERLAP"/>
+<TLINK fromID="E52" fromText="comfortable" id="TL48" toID="E51" toText="a number of bowel movements" type="AFTER"/>
+<TLINK fromID="T5" fromText="postoperative day three" id="TL49" toID="E52" toText="comfortable" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="increasing pain in her left upper quadrant" id="TL5" toID="E2" toText="noted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="T5" fromText="postoperative day three" id="TL50" toID="E53" toText="ready" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="ready" id="TL51" toID="E54" toText="discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E54" fromText="discharge" id="TL52" toID="T1" toText="09/14/1999" type="SIMULTANEOUS"/>
+<TLINK fromID="E8" fromText="described" id="TL6" toID="E0" toText="ADMISSION" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="the pain" id="TL7" toID="E3" toText="increasing pain in her left upper quadrant" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="the pain" id="TL8" toID="E5" toText="exacerbated" type="SIMULTANEOUS"/>
+<TLINK fromID="E5" fromText="exacerbated" id="TL9" toID="E6" toText="eating" type="OVERLAP"/>
+<SECTIME dvalue="1999-09-10" end="28" id="S0" start="18" text="09/10/1999" type="ADMISSION"/>
+<SECTIME dvalue="1999-09-14" end="56" id="S1" start="46" text="09/14/1999" type="DISCHARGE"/>
+<TLINK fromID="E30" fromText="one nodule" id="SECTIME0" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E31" fromText="Specimens" id="SECTIME1" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E32" fromText="peritoneal washings" id="SECTIME2" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E33" fromText="permanent specimens from the liver" id="SECTIME3" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E34" fromText="falciform nodules" id="SECTIME4" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E35" fromText="complications" id="SECTIME5" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E36" fromText="tolerated" id="SECTIME6" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E37" fromText="the procedure" id="SECTIME7" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E38" fromText="some abdominal bloating" id="SECTIME8" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E39" fromText="evidence" id="SECTIME9" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E40" fromText="subcutaneous emphysema over the abdomen" id="SECTIME10" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E41" fromText="uncomfortable" id="SECTIME11" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E42" fromText="slow to have bowel movements" id="SECTIME12" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E43" fromText="flatus" id="SECTIME13" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E44" fromText="tolerated" id="SECTIME14" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E45" fromText="diet" id="SECTIME15" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E46" fromText="continued" id="SECTIME16" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E47" fromText="abdominal cramping" id="SECTIME17" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E48" fromText="a mild ileus" id="SECTIME18" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E49" fromText="treated" id="SECTIME19" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E2" fromText="noted" id="SECTIME20" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E50" fromText="repeated Fleet 's enemas" id="SECTIME21" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E3" fromText="increasing pain in her left upper quadrant" id="SECTIME22" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E51" fromText="a number of bowel movements" id="SECTIME23" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E52" fromText="comfortable" id="SECTIME24" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E53" fromText="ready" id="SECTIME25" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E8" fromText="described" id="SECTIME26" toID="T0" toText="09/10/1999" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="the pain" id="SECTIME27" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E5" fromText="exacerbated" id="SECTIME28" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E6" fromText="eating" id="SECTIME29" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E7" fromText="described" id="SECTIME30" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E9" fromText="an associated weight loss" id="SECTIME31" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E10" fromText="presented" id="SECTIME32" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E11" fromText="Aersing Rocuch Sun" id="SECTIME33" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E12" fromText="obtained" id="SECTIME34" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E13" fromText="a CT scan" id="SECTIME35" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E14" fromText="which" id="SECTIME36" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E15" fromText="demonstrated" id="SECTIME37" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E16" fromText="a mass" id="SECTIME38" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E17" fromText="referred" id="SECTIME39" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E18" fromText="the Fairm of Ijordcompmac Hospital" id="SECTIME40" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E19" fromText="the El Memorial" id="SECTIME41" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E20" fromText="scheduled" id="SECTIME42" toID="T0" toText="09/10/1999" type="BEFORE"/>
+<TLINK fromID="E21" fromText="an exploratory laparoscopy" id="SECTIME43" toID="T0" toText="09/10/1999" type="AFTER"/>
+<TLINK fromID="E22" fromText="admitted" id="SECTIME44" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E23" fromText="same day surgery" id="SECTIME45" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E24" fromText="the operating room" id="SECTIME46" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E25" fromText="performed" id="SECTIME47" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E26" fromText="a diagnostic laparoscopy" id="SECTIME48" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E27" fromText="peritoneal washings" id="SECTIME49" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E28" fromText="no gross evidence seating in the abdominal wall" id="SECTIME50" toID="T1" toText="09/14/1999" type="BEFORE"/>
+<TLINK fromID="E29" fromText="one nodule" id="SECTIME51" toID="T1" toText="09/14/1999" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+03/25/2001
+DISCHARGE DATE :
+03/26/2001
+HISTORY OF PRESENT ILLNESS :
+This is a 30-year-old right hand dominant gentleman who pleasant Software Engineer .
+In 1989 the patient was dunking a basketball and injured his right shoulder with abduction external rotation injury .
+He has had persistent pain over the years which has worsened in the past several months including inability to sleep .
+HOSPITAL COURSE AND TREATMENT :
+The patient was admitted to the Hospital and was taken to the operating room for an open Bankart procedure with biceps tenodesis ( Please see the operative note for full details ) .
+Postoperatively , the patient did very well and was neurovascularly intact .
+His wound was intact , clean and dry and it was covered with perioperative antibiotics .
+He was discharged to home on Percocet .
+He was given strict instructions to limit his external rotation no more than 30 degrees .
+He was seen by physical therapy prior to discharge .
+FOLLOW UP :
+He is to follow up with Dr. Rach Breutznedeaisscarvwierst in Clinic .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2000-10-04 14:00" modality="FACTUAL" most-likely-duration="0Y0M775D5H52m" most-likely-start="2001-03-25 16:39" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2002-09-13 19:18"/>
+<EVENT end="1050" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:23" modality="FACTUAL" most-likely-duration="0Y0M95D19H16m" most-likely-start="1988-12-31 22:46" polarity="POS" start="1044" temporally-annotated="YES" text="Clinic" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:09"/>
+<EVENT end="215" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-19 16:15" modality="FACTUAL" most-likely-duration="0Y0M135D9H59m" most-likely-start="1989-01-01 17:01" polarity="POS" start="195" temporally-annotated="YES" text="dunking a basketball" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-02-14 03:47"/>
+<EVENT end="246" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-29 15:20" modality="FACTUAL" most-likely-duration="0Y0M115D14H52m" most-likely-start="1989-01-01 15:50" polarity="POS" start="220" temporally-annotated="YES" text="injured his right shoulder" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 16:20"/>
+<EVENT end="286" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-29 10:20" modality="FACTUAL" most-likely-duration="0Y0M96D5H10m" most-likely-start="1989-01-01 10:55" polarity="POS" start="252" temporally-annotated="YES" text="abduction external rotation injury" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 11:30"/>
+<EVENT end="38" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2001-03-11 18:48" modality="FACTUAL" most-likely-duration="0Y0M187D20H31m" most-likely-start="2001-03-25 17:49" polarity="POS" start="29" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2001-05-09 02:50"/>
+<EVENT end="315" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-29 05:56" modality="FACTUAL" most-likely-duration="0Y0M106D20H39m" most-likely-start="1989-01-01 06:46" polarity="POS" start="300" temporally-annotated="YES" text="persistent pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 07:36"/>
+<EVENT end="349" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-29 03:03" modality="FACTUAL" most-likely-duration="0Y0M108D17H39m" most-likely-start="1989-01-01 04:05" polarity="POS" start="341" temporally-annotated="YES" text="worsened" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 05:07"/>
+<EVENT end="405" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-29 01:36" modality="FACTUAL" most-likely-duration="0Y0M95D16H32m" most-likely-start="1989-01-01 02:47" polarity="POS" start="387" temporally-annotated="YES" text="inability to sleep" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 03:58"/>
+<EVENT end="464" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-29 00:36" modality="FACTUAL" most-likely-duration="0Y0M98D22H31m" most-likely-start="1989-01-01 01:52" polarity="POS" start="456" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 03:08"/>
+<EVENT end="480" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 23:55" modality="FACTUAL" most-likely-duration="0Y0M102D13H5m" most-likely-start="1989-01-01 01:12" polarity="POS" start="468" temporally-annotated="YES" text="the Hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 02:29"/>
+<EVENT end="516" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 23:22" modality="FACTUAL" most-likely-duration="0Y0M104D9H54m" most-likely-start="1989-01-01 00:43" polarity="POS" start="498" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 02:04"/>
+<EVENT end="546" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 22:58" modality="FACTUAL" most-likely-duration="0Y0M105D3H29m" most-likely-start="1989-01-01 00:20" polarity="POS" start="521" temporally-annotated="YES" text="an open Bankart procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 01:42"/>
+<EVENT end="568" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 22:41" modality="FACTUAL" most-likely-duration="0Y0M104D21H55m" most-likely-start="1989-01-01 00:02" polarity="POS" start="552" temporally-annotated="YES" text="biceps tenodesis" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 01:23"/>
+<EVENT end="665" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 22:24" modality="FACTUAL" most-likely-duration="0Y0M101D23H34m" most-likely-start="1988-12-31 23:48" polarity="POS" start="652" temporally-annotated="YES" text="did very well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 01:12"/>
+<EVENT end="696" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 22:14" modality="FACTUAL" most-likely-duration="0Y0M94D7H22m" most-likely-start="1988-12-31 23:36" polarity="POS" start="674" temporally-annotated="YES" text="neurovascularly intact" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:58"/>
+<EVENT end="708" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 22:02" modality="FACTUAL" most-likely-duration="0Y0M115D12H44m" most-likely-start="1988-12-31 23:26" polarity="POS" start="699" temporally-annotated="YES" text="His wound" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:50"/>
+<EVENT end="735" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:56" modality="FACTUAL" most-likely-duration="0Y0M103D21H1m" most-likely-start="1988-12-31 23:18" polarity="POS" start="713" temporally-annotated="YES" text="intact , clean and dry" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:40"/>
+<EVENT end="785" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:47" modality="FACTUAL" most-likely-duration="0Y0M94D23H30m" most-likely-start="1988-12-31 23:12" polarity="POS" start="760" temporally-annotated="YES" text="perioperative antibiotics" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:37"/>
+<EVENT end="805" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:43" modality="FACTUAL" most-likely-duration="0Y0M103D18H38m" most-likely-start="1988-12-31 23:06" polarity="POS" start="795" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:29"/>
+<EVENT end="825" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:38" modality="FACTUAL" most-likely-duration="0Y0M95D13H25m" most-likely-start="1988-12-31 23:01" polarity="POS" start="817" temporally-annotated="YES" text="Percocet" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:24"/>
+<EVENT end="891" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:32" modality="FACTUAL" most-likely-duration="0Y0M110D12H49m" most-likely-start="1988-12-31 22:57" polarity="POS" start="864" temporally-annotated="YES" text="limit his external rotation" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:22"/>
+<EVENT end="929" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:29" modality="FACTUAL" most-likely-duration="0Y0M118D6H5m" most-likely-start="1988-12-31 22:54" polarity="POS" start="925" temporally-annotated="YES" text="seen" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:19"/>
+<EVENT end="968" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:26" modality="FACTUAL" most-likely-duration="0Y0M95D14H38m" most-likely-start="1988-12-31 22:51" polarity="POS" start="959" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:16"/>
+<EVENT end="1001" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1988-12-28 21:25" modality="PROPOSED" most-likely-duration="0Y0M105D22H53m" most-likely-start="1988-12-31 22:48" polarity="POS" start="992" temporally-annotated="YES" text="follow up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1989-01-11 00:11"/>
+<TIMEX3 end="178" id="T4" mod="NA" start="174" text="1989" type="DATE" val="1989"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="03/25/2001" type="DATE" val="2001-03-25"/>
+<TIMEX3 end="330" id="T0" mod="APPROX" start="321" text="the years" type="DURATION" val="P12Y"/>
+<TIMEX3 end="376" id="T3" mod="APPROX" start="362" text="several months" type="DURATION" val="P3M"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="03/26/2001" type="DATE" val="2001-03-26"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T1" toText="03/25/2001" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="DISCHARGE" id="TL1" toID="T2" toText="03/26/2001" type="OVERLAP"/>
+<TLINK fromID="T3" fromText="several months" id="TL10" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E2" fromText="inability to sleep" id="TL11" toID="E15" toText="worsened" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="admitted" id="TL12" toID="E0" toText="ADMISSION" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="the Hospital" id="TL13" toID="E8" toText="admitted" type="AFTER"/>
+<TLINK fromID="E16" fromText="the Hospital" id="TL14" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E17" fromText="the operating room" id="TL15" toID="E8" toText="admitted" type="AFTER"/>
+<TLINK fromID="E3" fromText="an open Bankart procedure" id="TL16" toID="E17" toText="the operating room" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="biceps tenodesis" id="TL17" toID="E3" toText="an open Bankart procedure" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="did very well" id="TL18" toID="E17" toText="the operating room" type="AFTER"/>
+<TLINK fromID="E19" fromText="neurovascularly intact" id="TL19" toID="E18" toText="did very well" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="dunking a basketball" id="TL2" toID="T4" toText="1989" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="His wound" id="TL20" toID="E3" toText="an open Bankart procedure" type="AFTER"/>
+<TLINK fromID="E20" fromText="intact , clean and dry" id="TL21" toID="E5" toText="His wound" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="perioperative antibiotics" id="TL22" toID="E5" toText="His wound" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="discharged" id="TL23" toID="E11" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="Percocet" id="TL24" toID="E9" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E21" fromText="limit his external rotation" id="TL25" toID="E3" toText="an open Bankart procedure" type="AFTER"/>
+<TLINK fromID="E22" fromText="seen" id="TL26" toID="E10" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E10" fromText="discharge" id="TL27" toID="E9" toText="discharged" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="follow up" id="TL28" toID="E10" toText="discharge" type="AFTER"/>
+<TLINK fromID="E24" fromText="Clinic" id="TL29" toID="E23" toText="follow up" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="injured his right shoulder" id="TL3" toID="E12" toText="dunking a basketball" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="abduction external rotation injury" id="TL4" toID="E13" toText="injured his right shoulder" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="persistent pain" id="TL5" toID="E13" toText="injured his right shoulder" type="AFTER"/>
+<TLINK fromID="T0" fromText="the years" id="TL6" toID="T4" toText="1989" type="AFTER"/>
+<TLINK fromID="T0" fromText="the years" id="TL7" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E14" fromText="persistent pain" id="TL8" toID="T0" toText="the years" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="worsened" id="TL9" toID="T3" toText="several months" type="OVERLAP"/>
+<SECTIME dvalue="2001-03-25" end="28" id="S0" start="18" text="03/25/2001" type="ADMISSION"/>
+<SECTIME dvalue="2001-03-26" end="56" id="S1" start="46" text="03/26/2001" type="DISCHARGE"/>
+<TLINK fromID="E24" fromText="Clinic" id="SECTIME0" toID="T2" toText="03/26/2001" type="AFTER"/>
+<TLINK fromID="E12" fromText="dunking a basketball" id="SECTIME1" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E13" fromText="injured his right shoulder" id="SECTIME2" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E1" fromText="abduction external rotation injury" id="SECTIME3" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E14" fromText="persistent pain" id="SECTIME4" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E15" fromText="worsened" id="SECTIME5" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E2" fromText="inability to sleep" id="SECTIME6" toID="T1" toText="03/25/2001" type="BEFORE"/>
+<TLINK fromID="E8" fromText="admitted" id="SECTIME7" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E17" fromText="the operating room" id="SECTIME8" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E3" fromText="an open Bankart procedure" id="SECTIME9" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E4" fromText="biceps tenodesis" id="SECTIME10" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E18" fromText="did very well" id="SECTIME11" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E19" fromText="neurovascularly intact" id="SECTIME12" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E5" fromText="His wound" id="SECTIME13" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E20" fromText="intact , clean and dry" id="SECTIME14" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E6" fromText="perioperative antibiotics" id="SECTIME15" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E9" fromText="discharged" id="SECTIME16" toID="T2" toText="03/26/2001" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="Percocet" id="SECTIME17" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E21" fromText="limit his external rotation" id="SECTIME18" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E22" fromText="seen" id="SECTIME19" toID="T2" toText="03/26/2001" type="BEFORE"/>
+<TLINK fromID="E10" fromText="discharge" id="SECTIME20" toID="T2" toText="03/26/2001" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="follow up" id="SECTIME21" toID="T2" toText="03/26/2001" type="AFTER"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

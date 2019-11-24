@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2015-10-28
+Discharge Date :
+2015-11-13
+Service : CARDIOTHORACIC
+Allergies :
+History of Present Illness :
+Ms. Bridge is a 74 y/o female admitted to outside hospital on 2015-10-21 with chest discomfort , vomiting and shortness of breath .
+Initial EKG showed ST depressions , but cardiac enzymes were not elevated .
+She eventually underwent a cardiac cath to assess coronary disease which revealed three vessel coronary artery disease .
+She was then transferred to The Hospital for Orthopedics for surgical intervention .
+Brief Hospital Course :
+Ms. Bridge was admitted from OSH for coronary artery bypass surgery .
+She underwent usual pre-operative testing along with carotid ultrasound .
+CNIS revealed carotid stenosis and she ultimately underwent left carotid stenting by vascular surgery on 10-30 .
+Please see report for details .
+On 11-02 she was brought to the operating room where she underwent a coronary artery bypass graft x 2 .
+Please see operative report for surgical details .
+She tolerated the procedure well and was transferred to the CSRU for invasive monitoring in stable condition .
+Later on op day sedation was weaned , she awoke neurologically intact and was extubated .
+On post-op day one chest tubes were removed and beta blockers and diuretics were initiated .
+She was gently diuresed towards her pre-op weight .
+Also on this day she was transferred to the SDU .
+Early on post-op day two Ms. Bridge had an episode of aphasia .
+She underwent an immediate head CT and Neuro consult and was transferred back to the CSRU .
+CT was negative and she returned to baseline neuro status without deficits by arrival to CSRU .
+Neurology concluded episode was most concerning for TIA .
+Epicardial pacing wires were removed on post-op day four .
+After remaining stable in the CSRU for several days without change in neuro status she was transferred back to the SDU on post-op day four .
+She was then started on Heparin with transition to Coumadin ( goal INR of 2-3 secondary to h/o bilateral DVT 's).
+During entire post-op course she was followed by physical therapy for strength and mobility .
+She continued to improve steadily over the next several days without any other post-op 
+complications .
+She was discharged on post-op day 11 .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-05-09 14:05" modality="FACTUAL" most-likely-duration="0Y0M735D12H53m" most-likely-start="2015-10-28 16:35" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2017-04-17 19:05"/>
+<EVENT end="1032" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-21 20:39" modality="FACTUAL" most-likely-duration="0Y0M109D19H34m" most-likely-start="2015-11-04 23:35" polarity="POS" start="1019" temporally-annotated="YES" text="the procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-19 12:31"/>
+<EVENT end="1037" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-21 12:37" modality="FACTUAL" most-likely-duration="0Y0M104D2H56m" most-likely-start="2015-11-04 17:39" polarity="POS" start="1033" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-19 08:41"/>
+<EVENT end="1057" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-20 12:29" modality="FACTUAL" most-likely-duration="0Y0M113D4H31m" most-likely-start="2015-11-03 18:47" polarity="POS" start="1046" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-18 11:05"/>
+<EVENT end="1069" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 15:26" modality="FACTUAL" most-likely-duration="0Y0M111D22H19m" most-likely-start="2015-11-02 22:30" polarity="POS" start="1061" temporally-annotated="YES" text="the CSRU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-17 15:34"/>
+<EVENT end="1093" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 05:54" modality="FACTUAL" most-likely-duration="0Y0M106D18H50m" most-likely-start="2015-11-02 13:07" polarity="POS" start="1074" temporally-annotated="YES" text="invasive monitoring" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-17 06:20"/>
+<EVENT end="1113" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 08:41" modality="FACTUAL" most-likely-duration="0Y0M94D19H49m" most-likely-start="2015-11-02 14:51" polarity="POS" start="1097" temporally-annotated="YES" text="stable condition" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-17 07:01"/>
+<EVENT end="1140" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-23 00:47" modality="FACTUAL" most-likely-duration="0Y0M143D1H39m" most-likely-start="2015-11-05 16:42" polarity="POS" start="1132" temporally-annotated="YES" text="sedation" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-19 18:37"/>
+<EVENT end="1151" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-23 06:39" modality="FACTUAL" most-likely-duration="0Y0M110D20H31m" most-likely-start="2015-11-06 03:33" polarity="POS" start="1145" temporally-annotated="YES" text="weaned" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-20 10:27"/>
+<EVENT end="1185" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-23 23:35" modality="FACTUAL" most-likely-duration="0Y0M108D22H15m" most-likely-start="2015-11-06 21:06" polarity="POS" start="1158" temporally-annotated="YES" text="awoke neurologically intact" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-21 04:37"/>
+<EVENT end="1203" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-23 07:14" modality="FACTUAL" most-likely-duration="0Y0M94D18H29m" most-likely-start="2015-11-06 06:53" polarity="POS" start="1194" temporally-annotated="YES" text="extubated" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-20 16:32"/>
+<EVENT end="1236" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-03 05:51" modality="FACTUAL" most-likely-duration="0Y0M143D0H46m" most-likely-start="2015-11-06 15:03" polarity="POS" start="1225" temporally-annotated="YES" text="chest tubes" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 00:15"/>
+<EVENT end="1267" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-02 07:55" modality="FACTUAL" most-likely-duration="0Y0M122D20H21m" most-likely-start="2015-11-05 14:51" polarity="POS" start="1254" temporally-annotated="YES" text="beta blockers" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 21:47"/>
+<EVENT end="1281" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 16:46" modality="FACTUAL" most-likely-duration="0Y0M149D1H8m" most-likely-start="2015-11-04 22:35" polarity="POS" start="1272" temporally-annotated="YES" text="diuretics" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 04:24"/>
+<EVENT end="1322" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 02:17" modality="FACTUAL" most-likely-duration="0Y0M118D13H9m" most-likely-start="2015-11-04 07:28" polarity="POS" start="1307" temporally-annotated="YES" text="gently diuresed" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-14 12:39"/>
+<EVENT end="1387" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-31 19:36" modality="FACTUAL" most-likely-duration="0Y0M107D2H6m" most-likely-start="2015-11-03 23:55" polarity="POS" start="1376" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-14 04:14"/>
+<EVENT end="1398" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-31 19:49" modality="FACTUAL" most-likely-duration="0Y0M97D11H1m" most-likely-start="2015-11-04 01:08" polarity="POS" start="1391" temporally-annotated="YES" text="the SDU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-14 06:27"/>
+<EVENT end="1462" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 22:03" modality="FACTUAL" most-likely-duration="0Y0M94D17H51m" most-likely-start="2015-11-05 06:20" polarity="POS" start="1455" temporally-annotated="YES" text="aphasia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 14:37"/>
+<EVENT end="1499" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 23:58" modality="FACTUAL" most-likely-duration="0Y0M106D21H26m" most-likely-start="2015-11-05 08:57" polarity="POS" start="1479" temporally-annotated="YES" text="an immediate head CT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 17:56"/>
+<EVENT end="1517" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-02 00:11" modality="FACTUAL" most-likely-duration="0Y0M101D17H35m" most-likely-start="2015-11-05 09:23" polarity="POS" start="1504" temporally-annotated="YES" text="Neuro consult" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 18:35"/>
+<EVENT end="1537" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 23:46" modality="FACTUAL" most-likely-duration="0Y0M105D22H23m" most-likely-start="2015-11-05 09:08" polarity="POS" start="1526" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 18:30"/>
+<EVENT end="161" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-06 09:11" modality="FACTUAL" most-likely-duration="0Y0M128D20H10m" most-likely-start="2015-10-20 16:20" polarity="POS" start="153" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-04 09:29"/>
+<EVENT end="1554" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 23:09" modality="FACTUAL" most-likely-duration="0Y0M98D2H25m" most-likely-start="2015-11-05 08:40" polarity="POS" start="1546" temporally-annotated="YES" text="the CSRU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 18:11"/>
+<EVENT end="1559" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 22:30" modality="FACTUAL" most-likely-duration="0Y0M112D2H27m" most-likely-start="2015-11-05 08:10" polarity="POS" start="1557" temporally-annotated="YES" text="CT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 17:50"/>
+<EVENT end="1614" id="E56" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 21:52" modality="FACTUAL" most-likely-duration="0Y0M107D19H39m" most-likely-start="2015-11-05 07:41" polarity="POS" start="1593" temporally-annotated="YES" text="baseline neuro status" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 17:30"/>
+<EVENT end="1631" id="E58" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 21:16" modality="FACTUAL" most-likely-duration="0Y0M113D7H22m" most-likely-start="2015-11-05 07:14" polarity="NEG" start="1623" temporally-annotated="YES" text="deficits" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 17:12"/>
+<EVENT end="1650" id="E59" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 20:57" modality="FACTUAL" most-likely-duration="0Y0M97D23H55m" most-likely-start="2015-11-05 07:00" polarity="POS" start="1646" temporally-annotated="YES" text="CSRU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 17:03"/>
+<EVENT end="181" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-17 22:45" modality="FACTUAL" most-likely-duration="0Y0M105D16H4m" most-likely-start="2015-10-21 03:59" polarity="POS" start="165" temporally-annotated="YES" text="outside hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-10-31 09:13"/>
+<EVENT end="1662" id="E62" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 20:41" modality="FACTUAL" most-likely-duration="0Y0M116D15H27m" most-likely-start="2015-11-05 06:49" polarity="POS" start="1653" temporally-annotated="YES" text="Neurology" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 16:57"/>
+<EVENT end="1680" id="E60" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 20:25" modality="FACTUAL" most-likely-duration="0Y0M105D10H20m" most-likely-start="2015-11-05 06:39" polarity="POS" start="1673" temporally-annotated="YES" text="episode" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 16:53"/>
+<EVENT end="1708" id="E61" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 20:13" modality="POSSIBLE" most-likely-duration="0Y0M97D23H44m" most-likely-start="2015-11-05 06:30" polarity="POS" start="1705" temporally-annotated="YES" text="TIA" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 16:47"/>
+<EVENT end="1734" id="E63" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 20:01" modality="FACTUAL" most-likely-duration="0Y0M115D7H28m" most-likely-start="2015-11-05 06:21" polarity="POS" start="1711" temporally-annotated="YES" text="Epicardial pacing wires" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 16:41"/>
+<EVENT end="1792" id="E64" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 10:39" modality="FACTUAL" most-likely-duration="0Y0M121D17H1m" most-likely-start="2015-11-07 18:16" polarity="POS" start="1786" temporally-annotated="YES" text="stable" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 01:53"/>
+<EVENT end="1804" id="E79" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 08:10" modality="FACTUAL" most-likely-duration="0Y0M112D8H44m" most-likely-start="2015-11-07 14:41" polarity="POS" start="1796" temporally-annotated="YES" text="the CSRU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 21:12"/>
+<EVENT end="1852" id="E65" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 06:34" modality="FACTUAL" most-likely-duration="0Y0M105D14H21m" most-likely-start="2015-11-07 12:34" polarity="NEG" start="1830" temporally-annotated="YES" text="change in neuro status" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 18:34"/>
+<EVENT end="1872" id="E66" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 05:32" modality="FACTUAL" most-likely-duration="0Y0M110D18H56m" most-likely-start="2015-11-07 11:13" polarity="POS" start="1861" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 16:54"/>
+<EVENT end="1888" id="E67" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 04:54" modality="FACTUAL" most-likely-duration="0Y0M107D21H9m" most-likely-start="2015-11-07 10:24" polarity="POS" start="1881" temporally-annotated="YES" text="the SDU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 15:54"/>
+<EVENT end="1942" id="E68" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 22:04" modality="FACTUAL" most-likely-duration="0Y0M101D7H56m" most-likely-start="2015-11-08 04:13" polarity="POS" start="1935" temporally-annotated="YES" text="Heparin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 10:22"/>
+<EVENT end="1958" id="E69" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 21:09" modality="FACTUAL" most-likely-duration="0Y0M116D9H53m" most-likely-start="2015-11-08 02:53" polarity="POS" start="1948" temporally-annotated="YES" text="transition" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 08:37"/>
+<EVENT end="1970" id="E70" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 20:00" modality="FACTUAL" most-likely-duration="0Y0M109D4H34m" most-likely-start="2015-11-08 01:26" polarity="POS" start="1962" temporally-annotated="YES" text="Coumadin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 06:52"/>
+<EVENT end="1981" id="E71" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 18:40" modality="HYPOTHETICAL" most-likely-duration="0Y0M122D19H18m" most-likely-start="2015-11-07 23:52" polarity="POS" start="1978" temporally-annotated="YES" text="INR" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 05:04"/>
+<EVENT end="217" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 01:13" modality="FACTUAL" most-likely-duration="0Y0M105D14H45m" most-likely-start="2015-10-30 02:47" polarity="POS" start="201" temporally-annotated="YES" text="chest discomfort" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 04:21"/>
+<EVENT end="2019" id="E72" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 17:18" modality="FACTUAL" most-likely-duration="0Y0M116D2H59m" most-likely-start="2015-11-07 22:20" polarity="POS" start="2006" temporally-annotated="YES" text="bilateral DVT" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 03:22"/>
+<EVENT end="2053" id="E73" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 16:01" modality="FACTUAL" most-likely-duration="0Y0M106D10H19m" most-likely-start="2015-11-07 20:56" polarity="POS" start="2032" temporally-annotated="YES" text="entire post-op course" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 01:51"/>
+<EVENT end="2070" id="E74" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 14:57" modality="FACTUAL" most-likely-duration="0Y0M117D11H31m" most-likely-start="2015-11-07 19:45" polarity="POS" start="2062" temporally-annotated="YES" text="followed" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-18 00:33"/>
+<EVENT end="2090" id="E75" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 14:04" modality="FACTUAL" most-likely-duration="0Y0M116D0H19m" most-likely-start="2015-11-07 18:47" polarity="POS" start="2074" temporally-annotated="YES" text="physical therapy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 23:30"/>
+<EVENT end="2143" id="E76" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 13:22" modality="FACTUAL" most-likely-duration="0Y0M107D23H58m" most-likely-start="2015-11-07 18:02" polarity="POS" start="2136" temporally-annotated="YES" text="improve" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 22:42"/>
+<EVENT end="228" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 04:13" modality="FACTUAL" most-likely-duration="0Y0M104D0H8m" most-likely-start="2015-10-30 05:08" polarity="POS" start="220" temporally-annotated="YES" text="vomiting" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:03"/>
+<EVENT end="2220" id="E77" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 12:50" modality="FACTUAL" most-likely-duration="0Y0M96D3H35m" most-likely-start="2015-11-07 17:27" polarity="NEG" start="2207" temporally-annotated="YES" text="complications" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 22:04"/>
+<EVENT end="2241" id="E78" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-04 12:28" modality="FACTUAL" most-likely-duration="0Y0M105D3H0m" most-likely-start="2015-11-07 17:00" polarity="POS" start="2231" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-17 21:32"/>
+<EVENT end="252" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 04:55" modality="FACTUAL" most-likely-duration="0Y0M95D0H46m" most-likely-start="2015-10-30 05:41" polarity="POS" start="233" temporally-annotated="YES" text="shortness of breath" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:27"/>
+<EVENT end="266" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:04" modality="FACTUAL" most-likely-duration="0Y0M99D16H29m" most-likely-start="2015-10-30 05:46" polarity="POS" start="263" temporally-annotated="YES" text="EKG" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:28"/>
+<EVENT end="273" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:07" modality="FACTUAL" most-likely-duration="0Y0M121D20H0m" most-likely-start="2015-10-30 05:49" polarity="POS" start="267" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:31"/>
+<EVENT end="288" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:18" modality="FACTUAL" most-likely-duration="0Y0M103D16H45m" most-likely-start="2015-10-30 05:56" polarity="POS" start="274" temporally-annotated="YES" text="ST depressions" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:34"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-14 18:38" modality="FACTUAL" most-likely-duration="0Y0M193D21H57m" most-likely-start="2015-10-28 17:39" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-12-12 02:40"/>
+<EVENT end="310" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:22" modality="FACTUAL" most-likely-duration="0Y0M116D8H28m" most-likely-start="2015-10-30 06:02" polarity="POS" start="295" temporally-annotated="YES" text="cardiac enzymes" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:42"/>
+<EVENT end="328" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:26" modality="FACTUAL" most-likely-duration="0Y0M94D21H4m" most-likely-start="2015-10-30 06:06" polarity="NEG" start="320" temporally-annotated="YES" text="elevated" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:46"/>
+<EVENT end="370" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:33" modality="FACTUAL" most-likely-duration="0Y0M108D9H1m" most-likely-start="2015-10-30 06:09" polarity="POS" start="356" temporally-annotated="YES" text="a cardiac cath" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:45"/>
+<EVENT end="397" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:32" modality="FACTUAL" most-likely-duration="0Y0M102D8H40m" most-likely-start="2015-10-30 06:12" polarity="POS" start="381" temporally-annotated="YES" text="coronary disease" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:52"/>
+<EVENT end="412" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:35" modality="FACTUAL" most-likely-duration="0Y0M138D22H28m" most-likely-start="2015-10-30 06:15" polarity="POS" start="404" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:55"/>
+<EVENT end="449" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:40" modality="FACTUAL" most-likely-duration="0Y0M95D1H29m" most-likely-start="2015-10-30 06:16" polarity="POS" start="413" temporally-annotated="YES" text="three vessel coronary artery disease" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:52"/>
+<EVENT end="476" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:38" modality="FACTUAL" most-likely-duration="0Y0M98D12H59m" most-likely-start="2015-10-30 06:18" polarity="POS" start="465" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:58"/>
+<EVENT end="508" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:41" modality="FACTUAL" most-likely-duration="0Y0M106D16H19m" most-likely-start="2015-10-30 06:19" polarity="POS" start="480" temporally-annotated="YES" text="The Hospital for Orthopedics" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:57"/>
+<EVENT end="534" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:42" modality="FACTUAL" most-likely-duration="0Y0M94D17H37m" most-likely-start="2015-10-30 06:20" polarity="POS" start="513" temporally-annotated="YES" text="surgical intervention" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:58"/>
+<EVENT end="584" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:43" modality="FACTUAL" most-likely-duration="0Y0M102D4H22m" most-likely-start="2015-10-30 06:21" polarity="POS" start="576" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 06:59"/>
+<EVENT end="593" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:44" modality="FACTUAL" most-likely-duration="0Y0M103D23H58m" most-likely-start="2015-10-30 06:22" polarity="POS" start="590" temporally-annotated="YES" text="OSH" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:00"/>
+<EVENT end="628" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:43" modality="FACTUAL" most-likely-duration="0Y0M94D17H42m" most-likely-start="2015-10-30 06:23" polarity="POS" start="598" temporally-annotated="YES" text="coronary artery bypass surgery" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:03"/>
+<EVENT end="672" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:45" modality="FACTUAL" most-likely-duration="0Y0M114D9H53m" most-likely-start="2015-10-30 06:23" polarity="POS" start="645" temporally-annotated="YES" text="usual pre-operative testing" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:01"/>
+<EVENT end="702" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:42" modality="FACTUAL" most-likely-duration="0Y0M95D3H17m" most-likely-start="2015-10-30 06:24" polarity="POS" start="684" temporally-annotated="YES" text="carotid ultrasound" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:06"/>
+<EVENT end="709" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:44" modality="FACTUAL" most-likely-duration="0Y0M100D19H24m" most-likely-start="2015-10-30 06:24" polarity="POS" start="705" temporally-annotated="YES" text="CNIS" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:04"/>
+<EVENT end="718" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:46" modality="FACTUAL" most-likely-duration="0Y0M130D13H33m" most-likely-start="2015-10-30 06:24" polarity="POS" start="710" temporally-annotated="YES" text="revealed" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:02"/>
+<EVENT end="735" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:46" modality="FACTUAL" most-likely-duration="0Y0M101D3H14m" most-likely-start="2015-10-30 06:24" polarity="POS" start="719" temporally-annotated="YES" text="carotid stenosis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:02"/>
+<EVENT end="786" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:43" modality="FACTUAL" most-likely-duration="0Y0M103D8H7m" most-likely-start="2015-10-30 06:25" polarity="POS" start="765" temporally-annotated="YES" text="left carotid stenting" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:07"/>
+<EVENT end="806" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-27 05:45" modality="FACTUAL" most-likely-duration="0Y0M101D21H30m" most-likely-start="2015-10-30 06:25" polarity="POS" start="790" temporally-annotated="YES" text="vascular surgery" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-09 07:05"/>
+<EVENT end="896" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-30 13:17" modality="FACTUAL" most-likely-duration="0Y0M103D8H22m" most-likely-start="2015-11-02 16:55" polarity="POS" start="878" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-12 20:33"/>
+<EVENT end="947" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-11-01 19:34" modality="FACTUAL" most-likely-duration="0Y0M125D9H5m" most-likely-start="2015-11-05 00:57" polarity="POS" start="917" temporally-annotated="YES" text="a coronary artery bypass graft" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-15 06:20"/>
+<TIMEX3 end="1131" id="T6" mod="NA" start="1125" text="op day" type="DATE" val="2015-11-02"/>
+<TIMEX3 end="1224" id="T7" mod="NA" start="1209" text="post-op day one" type="DATE" val="2015-11-03"/>
+<TIMEX3 end="1367" id="T8" mod="NA" start="1359" text="this day" type="DATE" val="2015-11-03"/>
+<TIMEX3 end="1425" id="T9" mod="NA" start="1410" text="post-op day two" type="DATE" val="2015-11-04"/>
+<TIMEX3 end="1767" id="T10" mod="NA" start="1751" text="post-op day four" type="DATE" val="2015-11-06"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="2015-10-28" type="DATE" val="2015-10-28"/>
+<TIMEX3 end="1821" id="T12" mod="APPROX" start="1809" text="several days" type="DURATION" val="P3D"/>
+<TIMEX3 end="195" id="T2" mod="NA" start="185" text="2015-10-21" type="DATE" val="2015-10-21"/>
+<TIMEX3 end="1908" id="T11" mod="NA" start="1892" text="post-op day four" type="DATE" val="2015-11-06"/>
+<TIMEX3 end="2179" id="T13" mod="APPROX" start="2167" text="several days" type="DURATION" val="P3D"/>
+<TIMEX3 end="2259" id="T14" mod="NA" start="2245" text="post-op day 11" type="DATE" val="2015-11-13"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="2015-11-13" type="DATE" val="2015-11-13"/>
+<TIMEX3 end="815" id="T3" mod="NA" start="810" text="10-30" type="DATE" val="2015-10-30"/>
+<TIMEX3 end="858" id="T4" mod="NA" start="853" text="11-02" type="DATE" val="2015-11-02"/>
+<TIMEX3 end="951" id="T5" mod="NA" start="948" text="x 2" type="FREQUENCY" val="r2"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T0" toText="2015-10-28" type="SIMULTANEOUS"/>
+<TLINK fromID="T1" fromText="2015-11-13" id="TL1" toID="E1" toText="Discharge" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E10" fromText="ST depressions" id="TL10" toID="E8" toText="EKG" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E11" fromText="cardiac enzymes" id="TL11" toID="E3" toText="outside hospital" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="cardiac enzymes" id="TL12" toID="E12" toText="elevated" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="a cardiac cath" id="TL13" toID="E8" toText="EKG" type="AFTER"/>
+<TLINK fromID="E13" fromText="a cardiac cath" id="TL14" toID="E14" toText="coronary disease" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="a cardiac cath" id="TL15" toID="E15" toText="revealed" type="SIMULTANEOUS"/>
+<TLINK fromID="E16" fromText="three vessel coronary artery disease" id="TL16" toID="E13" toText="a cardiac cath" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E17" fromText="transferred" id="TL17" toID="E13" toText="a cardiac cath" type="AFTER"/>
+<TLINK fromID="E19" fromText="The Hospital for Orthopedics" id="TL18" toID="E17" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E20" fromText="surgical intervention" id="TL19" toID="E19" toText="The Hospital for Orthopedics" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="admitted" id="TL2" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E21" fromText="admitted" id="TL20" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E22" fromText="OSH" id="TL21" toID="E19" toText="The Hospital for Orthopedics" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="admitted" id="TL22" toID="E23" toText="coronary artery bypass surgery" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="coronary artery bypass surgery" id="TL23" toID="E24" toText="usual pre-operative testing" type="AFTER"/>
+<TLINK fromID="E24" fromText="usual pre-operative testing" id="TL24" toID="E25" toText="carotid ultrasound" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="carotid ultrasound" id="TL25" toID="E28" toText="CNIS" type="SIMULTANEOUS"/>
+<TLINK fromID="E28" fromText="CNIS" id="TL26" toID="E29" toText="revealed" type="SIMULTANEOUS"/>
+<TLINK fromID="E26" fromText="carotid stenosis" id="TL27" toID="E28" toText="CNIS" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E27" fromText="left carotid stenting" id="TL28" toID="E28" toText="CNIS" type="AFTER"/>
+<TLINK fromID="E27" fromText="left carotid stenting" id="TL29" toID="E30" toText="vascular surgery" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="outside hospital" id="TL3" toID="E2" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="left carotid stenting" id="TL30" toID="T3" toText="10-30" type="SIMULTANEOUS"/>
+<TLINK fromID="E31" fromText="the operating room" id="TL31" toID="T4" toText="11-02" type="SIMULTANEOUS"/>
+<TLINK fromID="E31" fromText="the operating room" id="TL32" toID="E32" toText="a coronary artery bypass graft" type="SIMULTANEOUS"/>
+<TLINK fromID="T5" fromText="x 2" id="TL33" toID="E32" toText="a coronary artery bypass graft" type="SIMULTANEOUS"/>
+<TLINK fromID="E35" fromText="transferred" id="TL34" toID="E33" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E33" fromText="the procedure" id="TL35" toID="E32" toText="a coronary artery bypass graft" type="SIMULTANEOUS"/>
+<TLINK fromID="E43" fromText="chest tubes" id="TL36" toID="E33" toText="the procedure" type="BEGUN_BY"/>
+<TLINK fromID="E33" fromText="the procedure" id="TL37" toID="E34" toText="well" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="the CSRU" id="TL38" toID="E35" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E37" fromText="invasive monitoring" id="TL39" toID="E36" toText="the CSRU" type="SIMULTANEOUS"/>
+<TLINK fromID="E2" fromText="admitted" id="TL4" toID="T2" toText="2015-10-21" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="stable condition" id="TL40" toID="E36" toText="the CSRU" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E39" fromText="sedation" id="TL41" toID="T6" toText="op day" type="ENDED_BY"/>
+<TLINK fromID="E39" fromText="sedation" id="TL42" toID="E40" toText="weaned" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="awoke neurologically intact" id="TL43" toID="E40" toText="weaned" type="AFTER"/>
+<TLINK fromID="E42" fromText="extubated" id="TL44" toID="E40" toText="weaned" type="AFTER"/>
+<TLINK fromID="E43" fromText="chest tubes" id="TL45" toID="T7" toText="post-op day one" type="ENDED_BY"/>
+<TLINK fromID="E45" fromText="beta blockers" id="TL46" toID="T7" toText="post-op day one" type="BEGUN_BY"/>
+<TLINK fromID="E46" fromText="diuretics" id="TL47" toID="T7" toText="post-op day one" type="BEGUN_BY"/>
+<TLINK fromID="E47" fromText="gently diuresed" id="TL48" toID="T7" toText="post-op day one" type="SIMULTANEOUS"/>
+<TLINK fromID="T8" fromText="this day" id="TL49" toID="E48" toText="transferred" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="chest discomfort" id="TL5" toID="E2" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E49" fromText="the SDU" id="TL50" toID="E48" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E36" fromText="the CSRU" id="TL51" toID="E48" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E51" fromText="an immediate head CT" id="TL52" toID="T9" toText="post-op day two" type="SIMULTANEOUS"/>
+<TLINK fromID="E50" fromText="aphasia" id="TL53" toID="T9" toText="post-op day two" type="SIMULTANEOUS"/>
+<TLINK fromID="E55" fromText="CT" id="TL54" toID="E51" toText="an immediate head CT" type="SIMULTANEOUS"/>
+<TLINK fromID="E52" fromText="Neuro consult" id="TL55" toID="E51" toText="an immediate head CT" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="an immediate head CT" id="TL56" toID="E50" toText="aphasia" type="OVERLAP"/>
+<TLINK fromID="E54" fromText="the CSRU" id="TL57" toID="E53" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E49" fromText="the SDU" id="TL58" toID="E53" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E53" fromText="transferred" id="TL59" toID="E52" toText="Neuro consult" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="chest discomfort" id="TL6" toID="E5" toText="vomiting" type="OVERLAP"/>
+<TLINK fromID="E56" fromText="baseline neuro status" id="TL60" toID="E55" toText="CT" type="AFTER"/>
+<TLINK fromID="E56" fromText="baseline neuro status" id="TL61" toID="E58" toText="deficits" type="OVERLAP"/>
+<TLINK fromID="E54" fromText="the CSRU" id="TL62" toID="E59" toText="CSRU" type="SIMULTANEOUS"/>
+<TLINK fromID="E56" fromText="baseline neuro status" id="TL63" toID="E59" toText="CSRU" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E62" fromText="Neurology" id="TL65" toID="E52" toText="Neuro consult" type="OVERLAP"/>
+<TLINK fromID="E61" fromText="TIA" id="TL66" toID="E60" toText="episode" type="SIMULTANEOUS"/>
+<TLINK fromID="E60" fromText="episode" id="TL67" toID="E50" toText="aphasia" type="SIMULTANEOUS"/>
+<TLINK fromID="E63" fromText="Epicardial pacing wires" id="TL68" toID="E32" toText="a coronary artery bypass graft" type="BEGUN_BY"/>
+<TLINK fromID="E63" fromText="Epicardial pacing wires" id="TL69" toID="T10" toText="post-op day four" type="ENDED_BY"/>
+<TLINK fromID="E5" fromText="vomiting" id="TL7" toID="E6" toText="shortness of breath" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="change in neuro status" id="TL70" toID="E64" toText="stable" type="OVERLAP"/>
+<TLINK fromID="E79" fromText="the CSRU" id="TL71" toID="E59" toText="CSRU" type="SIMULTANEOUS"/>
+<TLINK fromID="E64" fromText="stable" id="TL72" toID="E79" toText="the CSRU" type="SIMULTANEOUS"/>
+<TLINK fromID="E79" fromText="the CSRU" id="TL73" toID="T12" toText="several days" type="OVERLAP"/>
+<TLINK fromID="T12" fromText="several days" id="TL74" toID="E65" toText="change in neuro status" type="OVERLAP"/>
+<TLINK fromID="E66" fromText="transferred" id="TL75" toID="E65" toText="change in neuro status" type="AFTER"/>
+<TLINK fromID="E79" fromText="the CSRU" id="TL76" toID="E66" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E67" fromText="the SDU" id="TL77" toID="E66" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E67" fromText="the SDU" id="TL78" toID="T11" toText="post-op day four" type="BEGUN_BY"/>
+<TLINK fromID="E66" fromText="transferred" id="TL79" toID="T11" toText="post-op day four" type="SIMULTANEOUS"/>
+<TLINK fromID="E8" fromText="EKG" id="TL8" toID="E3" toText="outside hospital" type="OVERLAP"/>
+<TLINK fromID="E68" fromText="Heparin" id="TL80" toID="E66" toText="transferred" type="AFTER"/>
+<TLINK fromID="E69" fromText="transition" id="TL81" toID="E68" toText="Heparin" type="OVERLAP"/>
+<TLINK fromID="E70" fromText="Coumadin" id="TL82" toID="E69" toText="transition" type="BEGUN_BY"/>
+<TLINK fromID="E71" fromText="INR" id="TL83" toID="E70" toText="Coumadin" type="AFTER"/>
+<TLINK fromID="E72" fromText="bilateral DVT" id="TL84" toID="E71" toText="INR" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E73" fromText="entire post-op course" id="TL85" toID="E23" toText="coronary artery bypass surgery" type="AFTER"/>
+<TLINK fromID="E73" fromText="entire post-op course" id="TL86" toID="E74" toText="followed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E74" fromText="followed" id="TL87" toID="E75" toText="physical therapy" type="SIMULTANEOUS"/>
+<TLINK fromID="E76" fromText="improve" id="TL88" toID="E73" toText="entire post-op course" type="OVERLAP"/>
+<TLINK fromID="E76" fromText="improve" id="TL89" toID="T13" toText="several days" type="DURING"/>
+<TLINK fromID="E8" fromText="EKG" id="TL9" toID="E9" toText="showed" type="SIMULTANEOUS"/>
+<TLINK fromID="E76" fromText="improve" id="TL90" toID="E77" toText="complications" type="OVERLAP"/>
+<TLINK fromID="E78" fromText="discharged" id="TL91" toID="T14" toText="post-op day 11" type="SIMULTANEOUS"/>
+<TLINK fromID="E78" fromText="discharged" id="TL92" toID="E1" toText="Discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E33" fromText="the procedure" id="Sectime0" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E34" fromText="well" id="Sectime1" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E35" fromText="transferred" id="Sectime2" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E36" fromText="the CSRU" id="Sectime3" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E37" fromText="invasive monitoring" id="Sectime4" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E38" fromText="stable condition" id="Sectime5" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E39" fromText="sedation" id="Sectime6" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E40" fromText="weaned" id="Sectime7" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E41" fromText="awoke neurologically intact" id="Sectime8" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E42" fromText="extubated" id="Sectime9" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E43" fromText="chest tubes" id="Sectime10" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E45" fromText="beta blockers" id="Sectime11" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E46" fromText="diuretics" id="Sectime12" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E47" fromText="gently diuresed" id="Sectime13" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E48" fromText="transferred" id="Sectime14" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E49" fromText="the SDU" id="Sectime15" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E50" fromText="aphasia" id="Sectime16" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E51" fromText="an immediate head CT" id="Sectime17" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E52" fromText="Neuro consult" id="Sectime18" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E53" fromText="transferred" id="Sectime19" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E2" fromText="admitted" id="Sectime0" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E54" fromText="the CSRU" id="Sectime20" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E55" fromText="CT" id="Sectime21" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E56" fromText="baseline neuro status" id="Sectime22" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E58" fromText="deficits" id="Sectime23" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E59" fromText="CSRU" id="Sectime24" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E3" fromText="outside hospital" id="Sectime1" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E62" fromText="Neurology" id="Sectime25" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E60" fromText="episode" id="Sectime26" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E61" fromText="TIA" id="Sectime27" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E63" fromText="Epicardial pacing wires" id="Sectime28" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E64" fromText="stable" id="Sectime29" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E79" fromText="the CSRU" id="Sectime30" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E65" fromText="change in neuro status" id="Sectime31" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E66" fromText="transferred" id="Sectime32" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E67" fromText="the SDU" id="Sectime33" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E68" fromText="Heparin" id="Sectime34" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E69" fromText="transition" id="Sectime35" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E70" fromText="Coumadin" id="Sectime36" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E71" fromText="INR" id="Sectime37" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E4" fromText="chest discomfort" id="Sectime2" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E72" fromText="bilateral DVT" id="Sectime38" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E73" fromText="entire post-op course" id="Sectime39" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E74" fromText="followed" id="Sectime40" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E75" fromText="physical therapy" id="Sectime41" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E76" fromText="improve" id="Sectime42" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E5" fromText="vomiting" id="Sectime3" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E77" fromText="complications" id="Sectime43" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E78" fromText="discharged" id="Sectime44" toID="T1" toText="2015-11-13" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="shortness of breath" id="Sectime4" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E8" fromText="EKG" id="Sectime5" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E9" fromText="showed" id="Sectime6" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E10" fromText="ST depressions" id="Sectime7" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E11" fromText="cardiac enzymes" id="Sectime8" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E12" fromText="elevated" id="Sectime9" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E13" fromText="a cardiac cath" id="Sectime10" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E14" fromText="coronary disease" id="Sectime11" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E15" fromText="revealed" id="Sectime12" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E16" fromText="three vessel coronary artery disease" id="Sectime13" toID="T0" toText="2015-10-28" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="transferred" id="Sectime14" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E19" fromText="The Hospital for Orthopedics" id="Sectime15" toID="T0" toText="2015-10-28" type="BEFORE"/>
+<TLINK fromID="E20" fromText="surgical intervention" id="Sectime16" toID="T0" toText="2015-10-28" type="AFTER"/>
+<TLINK fromID="E21" fromText="admitted" id="Sectime45" toID="T1" toText="2015-11-13" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="OSH" id="Sectime46" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E23" fromText="coronary artery bypass surgery" id="Sectime47" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E24" fromText="usual pre-operative testing" id="Sectime48" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E25" fromText="carotid ultrasound" id="Sectime49" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E28" fromText="CNIS" id="Sectime50" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E29" fromText="revealed" id="Sectime51" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E26" fromText="carotid stenosis" id="Sectime52" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E27" fromText="left carotid stenting" id="Sectime53" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E30" fromText="vascular surgery" id="Sectime54" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E31" fromText="the operating room" id="Sectime55" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<TLINK fromID="E32" fromText="a coronary artery bypass graft" id="Sectime56" toID="T1" toText="2015-11-13" type="BEFORE"/>
+<SECTIME dvalue="2015-10-28" end="28" id="S0" start="18" text="2015-10-28" type="ADMISSION"/>
+<SECTIME dvalue="2015-11-13" end="56" id="S1" start="46" text="2015-11-13" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE : 
+12/25/96 
+DISCHARGE DATE : 
+12/29/96 
+HISTORY OF PRESENT ILLNESS : 
+Ms. Lenkpruskihkooglekih is a 63-year-old lady with a history of frequent premature ventricular contractions and infrequent short runs of non-sustained ventricular tachycardia ( one four-beat run ) in 1991 , for which several antiarrhythmic agents including Propranolol , Quinidine , Procainamide , Tenormin , Norpace , Corgard , and Flecainide were used , but were stopped because of intolerance . 
+At that time , she had clear coronary arteries on coronary angiography and an ejection fraction greater than 50% . 
+She did well off antiarrhythmic agents until October of this year when she was noted to have atrial fibrillation with a rapid ventricular rate after several days of decreased exercise tolerance . 
+She was started on Coumadin and had a failed attempt at DC electrical cardioversion on 11/16/96 . 
+She has been on Coumadin since and has continued to have occasional palpitations and mild shortness of breath . 
+HOSPITAL COURSE AND TREATMENT : 
+The patient was started on Propafenone 300 mg three times a day and underwent an attempt at electrical cardioversion after seven doses of this . 
+This failed , despite one shock at 300 joules and two shocks at 360 joules . 
+The Propafenone was stopped , and the patient was changed to Amiodarone 400 mg t.i.d. , which was continued for two days . 
+The patient was discharged to home on Amiodarone 200 mg daily on 12/29/96 . 
+An electrocardiogram showed no evidence of QT prolongation prior to discharge , and pulmonary function tests will be performed before the patient goes home today . 
+The patient will follow up with Dr. Ther Ludzjesc at Shiekeu Hospital Medical Centers in Connecticut . 
+In addition , she will return to this hospital in early February for repeat attempt at electrical cardioversion on Amiodarone . 
+She will continue her Coumadin until then and arrangements for her readmission can be made through Dr. Iceca Rhaltkaaispehbreun 's office here . 
+MEDICATIONS : 
+Other than the addition of Amiodarone 200 mg daily , will be the same as her admission medications . 
+STA BODEJOVE , M.D. 
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-07-06 14:07" modality="FACTUAL" most-likely-duration="0Y0M796D5H11m" most-likely-start="1996-12-25 16:41" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="1998-06-15 19:15"/>
+<EVENT end="1083" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:46" modality="FACTUAL" most-likely-duration="0Y0M115D0H19m" most-likely-start="1996-12-29 12:41" polarity="POS" start="1072" temporally-annotated="YES" text="Propafenone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:36"/>
+<EVENT end="1161" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:49" modality="FACTUAL" most-likely-duration="0Y0M104D10H37m" most-likely-start="1996-12-29 12:48" polarity="POS" start="1137" temporally-annotated="YES" text="electrical cardioversion" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:47"/>
+<EVENT end="1202" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:53" modality="FACTUAL" most-likely-duration="0Y0M103D17H45m" most-likely-start="1996-12-29 12:52" polarity="POS" start="1191" temporally-annotated="YES" text="This failed" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:51"/>
+<EVENT end="1222" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:54" modality="FACTUAL" most-likely-duration="0Y0M106D20H25m" most-likely-start="1996-12-29 12:55" polarity="POS" start="1217" temporally-annotated="YES" text="shock" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:56"/>
+<EVENT end="1251" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:56" modality="FACTUAL" most-likely-duration="0Y0M109D7H6m" most-likely-start="1996-12-29 12:56" polarity="POS" start="1245" temporally-annotated="YES" text="shocks" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:56"/>
+<EVENT end="1284" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:57" modality="FACTUAL" most-likely-duration="0Y0M111D6H50m" most-likely-start="1996-12-29 12:57" polarity="POS" start="1269" temporally-annotated="YES" text="The Propafenone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:57"/>
+<EVENT end="1340" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:57" modality="FACTUAL" most-likely-duration="0Y0M110D1H22m" most-likely-start="1996-12-29 12:58" polarity="POS" start="1330" temporally-annotated="YES" text="Amiodarone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:59"/>
+<EVENT end="1419" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:57" modality="FACTUAL" most-likely-duration="0Y0M107D23H57m" most-likely-start="1996-12-29 12:58" polarity="POS" start="1409" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:59"/>
+<EVENT end="1441" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:57" modality="FACTUAL" most-likely-duration="0Y0M114D20H54m" most-likely-start="1996-12-29 12:58" polarity="POS" start="1431" temporally-annotated="YES" text="Amiodarone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:59"/>
+<EVENT end="1490" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 03:38" modality="FACTUAL" most-likely-duration="0Y0M99D20H31m" most-likely-start="1996-12-29 04:44" polarity="POS" start="1470" temporally-annotated="YES" text="An electrocardiogram" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 05:50"/>
+<EVENT end="1497" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 03:58" modality="FACTUAL" most-likely-duration="0Y0M115D1H1m" most-likely-start="1996-12-29 04:58" polarity="POS" start="1491" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 05:58"/>
+<EVENT end="195" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1990-12-18 16:17" modality="FACTUAL" most-likely-duration="0Y0M155D10H1m" most-likely-start="1991-01-01 21:50" polarity="POS" start="152" temporally-annotated="YES" text="frequent premature ventricular contractions" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1991-02-15 13:23"/>
+<EVENT end="1528" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 19:55" modality="FACTUAL" most-likely-duration="0Y0M113D17H33m" most-likely-start="1996-12-30 03:13" polarity="NEG" start="1513" temporally-annotated="YES" text="QT prolongation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-09 10:31"/>
+<EVENT end="1547" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 12:05" modality="FACTUAL" most-likely-duration="0Y0M103D11H30m" most-likely-start="1996-12-29 19:17" polarity="POS" start="1538" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-09 02:29"/>
+<EVENT end="1578" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:31" modality="FACTUAL" most-likely-duration="0Y0M113D22H58m" most-likely-start="1996-12-29 16:33" polarity="POS" start="1554" temporally-annotated="YES" text="pulmonary function tests" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 23:35"/>
+<EVENT end="1625" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:01" modality="FACTUAL" most-likely-duration="0Y0M111D6H4m" most-likely-start="1996-12-29 15:55" polarity="POS" start="1616" temporally-annotated="YES" text="goes home" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 22:49"/>
+<EVENT end="262" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1990-12-30 02:28" modality="FACTUAL" most-likely-duration="0Y0M123D14H26m" most-likely-start="1991-01-02 09:08" polarity="POS" start="200" temporally-annotated="YES" text="infrequent short runs of non-sustained ventricular tachycardia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1991-01-12 15:48"/>
+<EVENT end="2066" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-28 05:06" modality="FACTUAL" most-likely-duration="0Y0M119D12H34m" most-likely-start="1996-12-31 08:55" polarity="POS" start="2056" temporally-annotated="YES" text="Amiodarone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-10 12:44"/>
+<EVENT end="2127" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-28 08:01" modality="FACTUAL" most-likely-duration="0Y0M94D16H14m" most-likely-start="1996-12-31 12:21" polarity="POS" start="2102" temporally-annotated="YES" text="her admission medications" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-10 16:41"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D13H42m" lowerbound-start="1996-12-11 18:58" modality="FACTUAL" most-likely-duration="0Y0M196D4H57m" most-likely-start="1996-12-25 18:01" polarity="POS" start="29" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D13H42m" upperbound-start="1997-02-08 03:04"/>
+<EVENT end="334" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 11:23" modality="FACTUAL" most-likely-duration="0Y0M122D8H18m" most-likely-start="1996-10-01 15:46" polarity="POS" start="313" temporally-annotated="YES" text="antiarrhythmic agents" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-11 20:09"/>
+<EVENT end="356" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 13:52" modality="FACTUAL" most-likely-duration="0Y0M118D4H58m" most-likely-start="1996-10-01 18:23" polarity="POS" start="345" temporally-annotated="YES" text="Propranolol" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-11 22:54"/>
+<EVENT end="368" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 14:52" modality="FACTUAL" most-likely-duration="0Y0M121D11H37m" most-likely-start="1996-10-01 19:27" polarity="POS" start="359" temporally-annotated="YES" text="Quinidine" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 00:02"/>
+<EVENT end="383" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:19" modality="FACTUAL" most-likely-duration="0Y0M142D23H23m" most-likely-start="1996-10-01 19:56" polarity="POS" start="371" temporally-annotated="YES" text="Procainamide" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 00:33"/>
+<EVENT end="394" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:30" modality="FACTUAL" most-likely-duration="0Y0M148D22H2m" most-likely-start="1996-10-01 20:11" polarity="POS" start="386" temporally-annotated="YES" text="Tenormin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 00:52"/>
+<EVENT end="404" id="E9" lowerbound-duration="0Y0M1D6H3m" lowerbound-start="1996-09-28 15:36" modality="FACTUAL" most-likely-duration="0Y0M195D20H48m" most-likely-start="1996-10-01 20:21" polarity="POS" start="397" temporally-annotated="YES" text="Norpace" type="TREATMENT" upperbound-duration="0Y0M366D6H3m" upperbound-start="1996-10-12 01:06"/>
+<EVENT end="414" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:42" modality="FACTUAL" most-likely-duration="0Y0M165D19H39m" most-likely-start="1996-10-01 20:28" polarity="POS" start="407" temporally-annotated="YES" text="Corgard" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:14"/>
+<EVENT end="431" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:43" modality="FACTUAL" most-likely-duration="0Y0M136D12H29m" most-likely-start="1996-10-01 20:33" polarity="POS" start="421" temporally-annotated="YES" text="Flecainide" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:23"/>
+<EVENT end="460" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:48" modality="FACTUAL" most-likely-duration="0Y0M109D4H36m" most-likely-start="1996-10-01 20:36" polarity="POS" start="453" temporally-annotated="YES" text="stopped" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:24"/>
+<EVENT end="483" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:47" modality="FACTUAL" most-likely-duration="0Y0M95D19H18m" most-likely-start="1996-10-01 20:39" polarity="POS" start="472" temporally-annotated="YES" text="intolerance" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:31"/>
+<EVENT end="557" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:49" modality="FACTUAL" most-likely-duration="0Y0M99D10H47m" most-likely-start="1996-10-01 20:41" polarity="POS" start="537" temporally-annotated="YES" text="coronary angiography" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:33"/>
+<EVENT end="582" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:50" modality="FACTUAL" most-likely-duration="0Y0M115D21H21m" most-likely-start="1996-10-01 20:42" polarity="POS" start="562" temporally-annotated="YES" text="an ejection fraction" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:34"/>
+<EVENT end="615" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:51" modality="FACTUAL" most-likely-duration="0Y0M118D11H30m" most-likely-start="1996-10-01 20:43" polarity="POS" start="607" temporally-annotated="YES" text="did well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:35"/>
+<EVENT end="641" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-09-28 15:51" modality="FACTUAL" most-likely-duration="0Y0M103D2H21m" most-likely-start="1996-10-01 20:44" polarity="NEG" start="620" temporally-annotated="YES" text="antiarrhythmic agents" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-10-12 01:37"/>
+<EVENT end="687" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-13 15:02" modality="FACTUAL" most-likely-duration="0Y0M116D9H3m" most-likely-start="1996-11-16 17:22" polarity="POS" start="682" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-11-26 19:42"/>
+<EVENT end="715" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-13 13:52" modality="FACTUAL" most-likely-duration="0Y0M101D10H7m" most-likely-start="1996-11-16 15:56" polarity="POS" start="696" temporally-annotated="YES" text="atrial fibrillation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-11-26 18:00"/>
+<EVENT end="745" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-13 12:18" modality="FACTUAL" most-likely-duration="0Y0M102D4H45m" most-likely-start="1996-11-16 14:13" polarity="POS" start="721" temporally-annotated="YES" text="a rapid ventricular rate" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-11-26 16:08"/>
+<EVENT end="796" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-13 11:39" modality="FACTUAL" most-likely-duration="0Y0M95D0H37m" most-likely-start="1996-11-16 13:27" polarity="POS" start="768" temporally-annotated="YES" text="decreased exercise tolerance" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-11-26 15:15"/>
+<EVENT end="827" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-13 11:19" modality="FACTUAL" most-likely-duration="0Y0M101D10H50m" most-likely-start="1996-11-16 13:07" polarity="POS" start="819" temporally-annotated="YES" text="Coumadin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-11-26 14:55"/>
+<EVENT end="852" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-13 11:10" modality="FACTUAL" most-likely-duration="0Y0M108D11H44m" most-likely-start="1996-11-16 12:57" polarity="POS" start="836" temporally-annotated="YES" text="a failed attempt" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-11-26 14:44"/>
+<EVENT end="883" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-11-13 11:06" modality="FACTUAL" most-likely-duration="0Y0M105D11H25m" most-likely-start="1996-11-16 12:51" polarity="POS" start="856" temporally-annotated="YES" text="DC electrical cardioversion" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1996-11-26 14:36"/>
+<EVENT end="923" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:55" modality="FACTUAL" most-likely-duration="0Y0M108D22H25m" most-likely-start="1996-12-29 12:40" polarity="POS" start="915" temporally-annotated="YES" text="Coumadin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:25"/>
+<EVENT end="979" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:39" modality="FACTUAL" most-likely-duration="0Y0M102D23H8m" most-likely-start="1996-12-29 12:26" polarity="POS" start="956" temporally-annotated="YES" text="occasional palpitations" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:13"/>
+<EVENT end="1008" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1996-12-26 09:39" modality="FACTUAL" most-likely-duration="0Y0M94D17H29m" most-likely-start="1996-12-29 12:32" polarity="POS" start="984" temporally-annotated="YES" text="mild shortness of breath" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1997-01-08 15:25"/>
+<TIMEX3 end="1108" id="T8" mod="NA" start="1091" text="three times a day" type="FREQUENCY" val="RPT8H"/>
+<TIMEX3 end="1173" id="T9" mod="NA" start="1168" text="seven" type="FREQUENCY" val="R7"/>
+<TIMEX3 end="1216" id="T10" mod="NA" start="1213" text="one" type="FREQUENCY" val="R1"/>
+<TIMEX3 end="1244" id="T11" mod="NA" start="1241" text="two" type="FREQUENCY" val="R2"/>
+<TIMEX3 end="1354" id="T12" mod="NA" start="1348" text="t.i.d." type="FREQUENCY" val="RPT8H"/>
+<TIMEX3 end="1389" id="T13" mod="NA" start="1381" text="two days" type="DURATION" val="P2D"/>
+<TIMEX3 end="1454" id="T14" mod="NA" start="1449" text="daily" type="FREQUENCY" val="RP1D"/>
+<TIMEX3 end="1466" id="T15" mod="NA" start="1458" text="12/29/96" type="DATE" val="1996-12-29"/>
+<TIMEX3 end="1631" id="T16" mod="NA" start="1626" text="today" type="DATE" val="1996-12-29"/>
+<TIMEX3 end="27" id="T0" mod="NA" start="19" text="12/25/96" type="DATE" val="1996-12-25"/>
+<TIMEX3 end="2079" id="T17" mod="NA" start="2074" text="daily" type="FREQUENCY" val="RP1D"/>
+<TIMEX3 end="268" id="T2" mod="NA" start="265" text="one" type="FREQUENCY" val="R1"/>
+<TIMEX3 end="292" id="T3" mod="NA" start="288" text="1991" type="DATE" val="1991"/>
+<TIMEX3 end="312" id="T4" mod="APPROX" start="305" text="several" type="FREQUENCY" val="R3"/>
+<TIMEX3 end="55" id="T1" mod="NA" start="47" text="12/29/96" type="DATE" val="1996-12-29"/>
+<TIMEX3 end="668" id="T5" mod="NA" start="648" text="October of this year" type="DATE" val="1996-10"/>
+<TIMEX3 end="764" id="T6" mod="APPROX" start="752" text="several days" type="DURATION" val="P3D"/>
+<TIMEX3 end="895" id="T7" mod="NA" start="887" text="11/16/96" type="DATE" val="1996-11-16"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T0" toText="12/25/96" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL1" toID="T1" toText="12/29/96" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="Corgard" id="TL10" toID="E9" toText="Norpace" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="Flecainide" id="TL11" toID="E10" toText="Corgard" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="Flecainide" id="TL12" toID="E12" toText="stopped" type="ENDED_BY"/>
+<TLINK fromID="E13" fromText="intolerance" id="TL13" toID="E12" toText="stopped" type="ENDED_BY"/>
+<TLINK fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" id="TL14" toID="E4" toText="antiarrhythmic agents" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E15" fromText="an ejection fraction" id="TL15" toID="E14" toText="coronary angiography" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="coronary angiography" id="TL16" toID="E12" toText="stopped" type="SIMULTANEOUS"/>
+<TLINK fromID="E17" fromText="antiarrhythmic agents" id="TL17" toID="E4" toText="antiarrhythmic agents" type="SIMULTANEOUS"/>
+<TLINK fromID="E16" fromText="did well" id="TL18" toID="E17" toText="antiarrhythmic agents" type="AFTER"/>
+<TLINK fromID="E16" fromText="did well" id="TL19" toID="T5" toText="October of this year" type="ENDED_BY"/>
+<TLINK fromID="E2" fromText="frequent premature ventricular contractions" id="TL2" toID="E3" toText="infrequent short runs of non-sustained ventricular tachycardia" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="atrial fibrillation" id="TL20" toID="T5" toText="October of this year" type="BEGUN_BY"/>
+<TLINK fromID="E19" fromText="atrial fibrillation" id="TL21" toID="E20" toText="a rapid ventricular rate" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="a rapid ventricular rate" id="TL22" toID="T6" toText="several days" type="AFTER"/>
+<TLINK fromID="E21" fromText="decreased exercise tolerance" id="TL23" toID="T6" toText="several days" type="DURING"/>
+<TLINK fromID="E19" fromText="atrial fibrillation" id="TL24" toID="E18" toText="noted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E22" fromText="Coumadin" id="TL25" toID="E25" toText="Coumadin" type="simultaneous"/>
+<TLINK fromID="E22" fromText="Coumadin" id="TL26" toID="E18" toText="noted" type="AFTER"/>
+<TLINK fromID="E24" fromText="DC electrical cardioversion" id="TL27" toID="T7" toText="11/16/96" type="SIMULTANEOUS"/>
+<TLINK fromID="E23" fromText="a failed attempt" id="TL28" toID="E24" toText="DC electrical cardioversion" type="SIMULTANEOUS"/>
+<TLINK fromID="E22" fromText="Coumadin" id="TL29" toID="E23" toText="a failed attempt" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="frequent premature ventricular contractions" id="TL3" toID="E0" toText="ADMISSION" type="BEFORE"/>
+<TLINK fromID="E27" fromText="occasional palpitations" id="TL31" toID="E25" toText="Coumadin" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E25" fromText="Coumadin" id="TL33" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E27" fromText="occasional palpitations" id="TL34" toID="E28" toText="mild shortness of breath" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="Propafenone" id="TL35" toID="E0" toText="ADMISSION" type="BEGUN_BY"/>
+<TLINK fromID="E29" fromText="Propafenone" id="TL36" toID="T8" toText="three times a day" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="Propafenone" id="TL37" toID="E34" toText="The Propafenone" type="SIMULTANEOUS"/>
+<TLINK fromID="E30" fromText="electrical cardioversion" id="TL38" toID="T9" toText="seven" type="AFTER"/>
+<TLINK fromID="E31" fromText="This failed" id="TL39" toID="E30" toText="electrical cardioversion" type="SIMULTANEOUS"/>
+<TLINK fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" id="TL4" toID="T3" toText="1991" type="SIMULTANEOUS"/>
+<TLINK fromID="E32" fromText="shock" id="TL40" toID="E31" toText="This failed" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="shocks" id="TL41" toID="E32" toText="shock" type="AFTER"/>
+<TLINK fromID="E32" fromText="shock" id="TL42" toID="T10" toText="one" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="shocks" id="TL43" toID="T11" toText="two" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="The Propafenone" id="TL44" toID="E31" toText="This failed" type="ENDED_BY"/>
+<TLINK fromID="E35" fromText="Amiodarone" id="TL45" toID="T13" toText="two days" type="DURING"/>
+<TLINK fromID="E35" fromText="Amiodarone" id="TL46" toID="T12" toText="t.i.d." type="OVERLAP"/>
+<TLINK fromID="E35" fromText="Amiodarone" id="TL47" toID="E31" toText="This failed" type="BEGUN_BY"/>
+<TLINK fromID="E37" fromText="Amiodarone" id="TL48" toID="T14" toText="daily" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="Amiodarone" id="TL49" toID="E35" toText="Amiodarone" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="antiarrhythmic agents" id="TL5" toID="E5" toText="Propranolol" type="SIMULTANEOUS"/>
+<TLINK fromID="E37" fromText="Amiodarone" id="TL50" toID="E36" toText="discharged" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E36" fromText="discharged" id="TL51" toID="T15" toText="12/29/96" type="SIMULTANEOUS"/>
+<TLINK fromID="E36" fromText="discharged" id="TL52" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS"/>
+<TLINK fromID="E41" fromText="discharge" id="TL53" toID="E36" toText="discharged" type="SIMULTANEOUS"/>
+<TLINK fromID="E38" fromText="An electrocardiogram" id="TL54" toID="E41" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E38" fromText="An electrocardiogram" id="TL55" toID="E39" toText="showed" type="SIMULTANEOUS"/>
+<TLINK fromID="E40" fromText="QT prolongation" id="TL56" toID="E39" toText="showed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E42" fromText="pulmonary function tests" id="TL57" toID="E36" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E43" fromText="goes home" id="TL58" toID="T16" toText="today" type="SIMULTANEOUS"/>
+<TLINK fromID="E43" fromText="goes home" id="TL59" toID="E41" toText="discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E5" fromText="Propranolol" id="TL6" toID="E6" toText="Quinidine" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="Amiodarone" id="TL60" toID="T17" toText="daily" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="Amiodarone" id="TL61" toID="E37" toText="Amiodarone" type="SIMULTANEOUS"/>
+<TLINK fromID="E26" fromText="her admission medications" id="TL62" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E6" fromText="Quinidine" id="TL7" toID="E7" toText="Procainamide" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="Tenormin" id="TL8" toID="E7" toText="Procainamide" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="Norpace" id="TL9" toID="E8" toText="Tenormin" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="Propafenone" id="Sectime0" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E30" fromText="electrical cardioversion" id="Sectime1" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E31" fromText="This failed" id="Sectime2" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E32" fromText="shock" id="Sectime3" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E33" fromText="shocks" id="Sectime4" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E34" fromText="The Propafenone" id="Sectime5" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E35" fromText="Amiodarone" id="Sectime6" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E36" fromText="discharged" id="Sectime7" toID="T1" toText="12/29/96" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="Amiodarone" id="Sectime8" toID="T1" toText="12/29/96" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E38" fromText="An electrocardiogram" id="Sectime9" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E39" fromText="showed" id="Sectime10" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E2" fromText="frequent premature ventricular contractions" id="Sectime0" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E40" fromText="QT prolongation" id="Sectime11" toID="T1" toText="12/29/96" type="BEFORE"/>
+<TLINK fromID="E41" fromText="discharge" id="Sectime12" toID="T1" toText="12/29/96" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="pulmonary function tests" id="Sectime13" toID="T1" toText="12/29/96" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="goes home" id="Sectime14" toID="T1" toText="12/29/96" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="infrequent short runs of non-sustained ventricular tachycardia" id="Sectime1" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E44" fromText="Amiodarone" id="Sectime15" toID="T1" toText="12/29/96" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E26" fromText="her admission medications" id="Sectime16" toID="T1" toText="12/29/96" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E4" fromText="antiarrhythmic agents" id="Sectime2" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E5" fromText="Propranolol" id="Sectime3" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E6" fromText="Quinidine" id="Sectime4" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E7" fromText="Procainamide" id="Sectime5" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E8" fromText="Tenormin" id="Sectime6" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E9" fromText="Norpace" id="Sectime7" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E10" fromText="Corgard" id="Sectime8" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E11" fromText="Flecainide" id="Sectime9" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E12" fromText="stopped" id="Sectime10" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E13" fromText="intolerance" id="Sectime11" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E14" fromText="coronary angiography" id="Sectime12" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E15" fromText="an ejection fraction" id="Sectime13" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E16" fromText="did well" id="Sectime14" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E17" fromText="antiarrhythmic agents" id="Sectime15" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E18" fromText="noted" id="Sectime16" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E19" fromText="atrial fibrillation" id="Sectime17" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E20" fromText="a rapid ventricular rate" id="Sectime18" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E21" fromText="decreased exercise tolerance" id="Sectime19" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E22" fromText="Coumadin" id="Sectime20" toID="T0" toText="12/25/96" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="a failed attempt" id="Sectime21" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E24" fromText="DC electrical cardioversion" id="Sectime22" toID="T0" toText="12/25/96" type="BEFORE"/>
+<TLINK fromID="E25" fromText="Coumadin" id="Sectime23" toID="T0" toText="12/25/96" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E27" fromText="occasional palpitations" id="Sectime24" toID="T0" toText="12/25/96" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E28" fromText="mild shortness of breath" id="Sectime25" toID="T0" toText="12/25/96" type="BEFORE_OVERLAP"/>
+<SECTIME dvalue="1996-12-25" end="26" id="S0" start="18" text="12/25/96" type="ADMISSION"/>
+<SECTIME dvalue="1996-12-29" end="52" id="S1" start="44" text="12/29/96" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

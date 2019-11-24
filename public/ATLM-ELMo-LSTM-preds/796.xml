@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+01/22/2005
+Discharge Date :
+01/24/2005
+Service :
+GGI
+OPERATIONS AND PROCEDURES :
+OTHER TREATMENTS / PROCEDURES ( NOT IN O.R. )
+MRI HIDA CT
+BRIEF RESUME OF HOSPITAL COURSE :
+The pt is a 55yo F s / p Roux en Y GBP in 12/20 presenting to the ED this AM c / o mod severe midepigastric pain .
+She notes that she has had this pain since Thursday , and that it becomes much worse within 15 min of consuming a meal .
+She has also had intermittent post-prandial nausea / satiety for which she had been scheduled for an outpt EGD with GI on 2/8 .
+She describes the pain as band-like / radiating to both sides but not the back .
+Her pain currently is 5/10 .
+ROS ( - ) emesis / BRBPR/melena / fever/chills / sob .
+Pt was seen by GI on 13 EGD was performed HD2 which was negative for gastritis , stricture or ulcer .
+Pt was found to be H. Pylori positive and therefore was started on empiric treatment .
+Afferent limb of the roux en y anastamosis was visualized however the efferent limb could not be explored .
+Pt had HIDA scan which was negative for obstruction , and CT was unremarkable .
+Pt was tolerating regular diet by HD4 , and GI felt that further workup could be continued as an outpatient .
+Pt was therefore discharged home in stable condition , voiding , ambulating and eating without difficulty .
+Plans to follow up with outpatient MRA to rule out ischemic causes of post prandial pain , as well as HIDA with CK challenge to evaluate for biliary dyskinesia without stasis .
+Pt will finish course of H. pylori treatment as well .
+ADDITIONAL COMMENTS :
+If fevers , chills , nausea , vomiting , diarrhea , increasing pain with food please call Dr. Gaetzfreierm &amp;apos;s office or PCP .
+If severe , then proceed to ER for evaluation .
+Will need to call for outpatient MRA and HIDA with CCK challenge to evaluate biliary system and mesenteric vasculature .
+Please continue taking the antibiotics for H. Pylori for full course ( 26 more days ) .
+</TEXT>
+<TAGS>
+<EVENT end="148" id="E0" lowerbound-duration="0Y0M23D17H14m" lowerbound-start="2004-12-09 00:54" modality="FACTUAL" most-likely-duration="0Y0M227D0H33m" most-likely-start="2004-12-22 18:57" polarity="POS" start="145" temporally-annotated="YES" text="MRI" type="TEST" upperbound-duration="0Y0M388D17H14m" upperbound-start="2005-02-04 23:00"/>
+<EVENT end="153" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-12-09 06:44" modality="FACTUAL" most-likely-duration="0Y0M193D16H39m" most-likely-start="2004-12-23 01:29" polarity="POS" start="149" temporally-annotated="YES" text="HIDA" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-05 06:14"/>
+<EVENT end="156" id="E2" lowerbound-duration="0Y0M41D8H19m" lowerbound-start="2004-12-20 05:43" modality="FACTUAL" most-likely-duration="0Y0M240D8H10m" most-likely-start="2004-12-23 10:02" polarity="POS" start="154" temporally-annotated="YES" text="CT" type="TEST" upperbound-duration="0Y0M406D8H19m" upperbound-start="2005-01-02 14:21"/>
+<EVENT end="229" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-12-20 13:42" modality="FACTUAL" most-likely-duration="0Y0M136D0H42m" most-likely-start="2004-12-23 18:09" polarity="POS" start="216" temporally-annotated="YES" text="Roux en Y GBP" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-01-02 22:36"/>
+<EVENT end="303" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-01-20 02:09" modality="FACTUAL" most-likely-duration="0Y0M97D9H53m" most-likely-start="2004-01-23 06:29" polarity="POS" start="274" temporally-annotated="YES" text="mod severe midepigastric pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2004-02-02 10:49"/>
+<EVENT end="342" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-01-19 18:00" modality="FACTUAL" most-likely-duration="0Y0M106D14H32m" most-likely-start="2004-01-22 21:43" polarity="POS" start="333" temporally-annotated="YES" text="this pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2004-02-02 01:26"/>
+<EVENT end="487" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-02-05 05:20" modality="FACTUAL" most-likely-duration="0Y0M100D23H15m" most-likely-start="2005-02-08 05:53" polarity="POS" start="444" temporally-annotated="YES" text="intermittent post-prandial nausea / satiety" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-18 06:26"/>
+<EVENT end="537" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-02-05 05:45" modality="PROPOSED" most-likely-duration="0Y0M104D12H25m" most-likely-start="2005-02-08 06:13" polarity="POS" start="525" temporally-annotated="YES" text="an outpt EGD" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-18 06:41"/>
+<EVENT end="577" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-02-05 10:12" modality="FACTUAL" most-likely-duration="0Y0M111D23H37m" most-likely-start="2005-02-08 13:41" polarity="POS" start="569" temporally-annotated="YES" text="the pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-18 17:10"/>
+<EVENT end="644" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 13:02" modality="FACTUAL" most-likely-duration="0Y0M113D7H6m" most-likely-start="2005-01-24 15:28" polarity="POS" start="636" temporally-annotated="YES" text="Her pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 17:54"/>
+<EVENT end="681" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 16:15" modality="FACTUAL" most-likely-duration="0Y0M112D9H0m" most-likely-start="2005-01-24 18:41" polarity="NEG" start="675" temporally-annotated="YES" text="emesis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 21:07"/>
+<EVENT end="696" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 18:24" modality="FACTUAL" most-likely-duration="0Y0M107D4H22m" most-likely-start="2005-01-24 20:53" polarity="NEG" start="684" temporally-annotated="YES" text="BRBPR/melena" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:22"/>
+<EVENT end="711" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 19:37" modality="FACTUAL" most-likely-duration="0Y0M115D22H36m" most-likely-start="2005-01-24 22:08" polarity="NEG" start="699" temporally-annotated="YES" text="fever/chills" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 00:39"/>
+<EVENT end="717" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 20:19" modality="FACTUAL" most-likely-duration="0Y0M98D9H10m" most-likely-start="2005-01-24 22:49" polarity="NEG" start="714" temporally-annotated="YES" text="sob" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 01:19"/>
+<EVENT end="747" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 21:03" modality="FACTUAL" most-likely-duration="0Y0M103D20H36m" most-likely-start="2005-01-24 23:32" polarity="POS" start="744" temporally-annotated="YES" text="EGD" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 02:01"/>
+<EVENT end="798" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 15:41" modality="FACTUAL" most-likely-duration="0Y0M111D10H52m" most-likely-start="2005-01-24 17:52" polarity="NEG" start="789" temporally-annotated="YES" text="gastritis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 20:03"/>
+<EVENT end="810" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 23:12" modality="FACTUAL" most-likely-duration="0Y0M123D13H21m" most-likely-start="2005-01-25 01:15" polarity="NEG" start="801" temporally-annotated="YES" text="stricture" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 03:18"/>
+<EVENT end="819" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 03:25" modality="FACTUAL" most-likely-duration="0Y0M96D2H30m" most-likely-start="2005-01-25 04:36" polarity="NEG" start="814" temporally-annotated="YES" text="ulcer" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 05:47"/>
+<EVENT end="859" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 07:18" modality="FACTUAL" most-likely-duration="0Y0M101D20H46m" most-likely-start="2005-01-25 07:31" polarity="POS" start="841" temporally-annotated="YES" text="H. Pylori positive" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 07:44"/>
+<EVENT end="906" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 10:20" modality="FACTUAL" most-likely-duration="0Y0M95D1H7m" most-likely-start="2005-01-25 09:46" polarity="POS" start="889" temporally-annotated="YES" text="empiric treatment" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 09:12"/>
+<EVENT end="951" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 12:26" modality="FACTUAL" most-likely-duration="0Y0M108D8H13m" most-likely-start="2005-01-25 11:18" polarity="POS" start="926" temporally-annotated="YES" text="the roux en y anastamosis" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 10:10"/>
+<EVENT end="1033" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 15:14" modality="FACTUAL" most-likely-duration="0Y0M100D21H3m" most-likely-start="2005-01-25 13:25" polarity="POS" start="1024" temporally-annotated="YES" text="HIDA scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 11:36"/>
+<EVENT end="1068" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 15:29" modality="FACTUAL" most-likely-duration="0Y0M104D14H14m" most-likely-start="2005-01-25 13:35" polarity="NEG" start="1057" temporally-annotated="YES" text="obstruction" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 11:41"/>
+<EVENT end="1077" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 15:28" modality="FACTUAL" most-likely-duration="0Y0M105D21H24m" most-likely-start="2005-01-25 13:29" polarity="POS" start="1075" temporally-annotated="YES" text="CT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 11:30"/>
+<EVENT end="1168" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 09:19" modality="PROPOSED" most-likely-duration="0Y0M120D9H53m" most-likely-start="2005-01-25 09:41" polarity="POS" start="1154" temporally-annotated="YES" text="further workup" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 10:03"/>
+<EVENT end="1353" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 10:05" modality="PROPOSED" most-likely-duration="0Y0M106D13H35m" most-likely-start="2005-01-24 16:51" polarity="POS" start="1339" temporally-annotated="YES" text="outpatient MRA" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:37"/>
+<EVENT end="1403" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:47" modality="FACTUAL" most-likely-duration="0Y0M105D2H18m" most-likely-start="2005-01-24 16:35" polarity="POS" start="1385" temporally-annotated="YES" text="post prandial pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:23"/>
+<EVENT end="1439" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:41" modality="PROPOSED" most-likely-duration="0Y0M111D0H44m" most-likely-start="2005-01-24 16:29" polarity="POS" start="1417" temporally-annotated="YES" text="HIDA with CK challenge" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:17"/>
+<EVENT end="1474" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:35" modality="POSSIBLE" most-likely-duration="0Y0M109D7H59m" most-likely-start="2005-01-24 16:23" polarity="POS" start="1456" temporally-annotated="YES" text="biliary dyskinesia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:11"/>
+<EVENT end="1536" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:26" modality="FACTUAL" most-likely-duration="0Y0M108D18H42m" most-likely-start="2005-01-24 16:14" polarity="POS" start="1517" temporally-annotated="YES" text="H. pylori treatment" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:02"/>
+<EVENT end="1578" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:22" modality="CONDITIONAL" most-likely-duration="0Y0M106D13H13m" most-likely-start="2005-01-24 16:11" polarity="POS" start="1572" temporally-annotated="YES" text="fevers" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:00"/>
+<EVENT end="1587" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:19" modality="CONDITIONAL" most-likely-duration="0Y0M104D19H2m" most-likely-start="2005-01-24 16:08" polarity="POS" start="1581" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:57"/>
+<EVENT end="1596" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:17" modality="CONDITIONAL" most-likely-duration="0Y0M105D15H37m" most-likely-start="2005-01-24 16:06" polarity="POS" start="1590" temporally-annotated="YES" text="nausea" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:55"/>
+<EVENT end="1607" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:15" modality="CONDITIONAL" most-likely-duration="0Y0M106D15H28m" most-likely-start="2005-01-24 16:04" polarity="POS" start="1599" temporally-annotated="YES" text="vomiting" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:53"/>
+<EVENT end="1618" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:12" modality="CONDITIONAL" most-likely-duration="0Y0M107D4H59m" most-likely-start="2005-01-24 16:03" polarity="POS" start="1610" temporally-annotated="YES" text="diarrhea" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:54"/>
+<EVENT end="1646" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:13" modality="CONDITIONAL" most-likely-duration="0Y0M120D23H33m" most-likely-start="2005-01-24 16:01" polarity="POS" start="1621" temporally-annotated="YES" text="increasing pain with food" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:49"/>
+<EVENT end="1745" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:09" modality="CONDITIONAL" most-likely-duration="0Y0M95D7H1m" most-likely-start="2005-01-24 15:59" polarity="POS" start="1735" temporally-annotated="YES" text="evaluation" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:49"/>
+<EVENT end="1784" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:09" modality="PROPOSED" most-likely-duration="0Y0M105D13H6m" most-likely-start="2005-01-24 15:59" polarity="POS" start="1781" temporally-annotated="YES" text="MRA" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:49"/>
+<EVENT end="1812" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:08" modality="PROPOSED" most-likely-duration="0Y0M108D14H38m" most-likely-start="2005-01-24 15:59" polarity="POS" start="1789" temporally-annotated="YES" text="HIDA with CCK challenge" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:50"/>
+<EVENT end="1907" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:08" modality="FACTUAL" most-likely-duration="0Y0M110D14H30m" most-likely-start="2005-01-24 15:58" polarity="POS" start="1892" temporally-annotated="YES" text="the antibiotics" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:48"/>
+<EVENT end="1921" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:08" modality="FACTUAL" most-likely-duration="0Y0M109D4H45m" most-likely-start="2005-01-24 15:58" polarity="POS" start="1912" temporally-annotated="YES" text="H. Pylori" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:48"/>
+<EVENT end="10" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-08-03 13:47" modality="FACTUAL" most-likely-duration="0Y0M721D15H30m" most-likely-start="2005-01-22 16:39" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2006-07-13 19:31"/>
+<EVENT end="38" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-08 18:43" modality="FACTUAL" most-likely-duration="0Y0M192D11H26m" most-likely-start="2005-01-22 17:41" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-03-08 02:39"/>
+<EVENT end="249" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-01-19 08:28" modality="FACTUAL" most-likely-duration="0Y0M113D10H2m" most-likely-start="2004-01-22 11:27" polarity="POS" start="239" temporally-annotated="YES" text="presenting" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2004-02-01 14:26"/>
+<EVENT end="259" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-01-17 23:18" modality="FACTUAL" most-likely-duration="0Y0M115D11H22m" most-likely-start="2004-01-21 01:57" polarity="POS" start="253" temporally-annotated="YES" text="the ED" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2004-01-31 04:36"/>
+<EVENT end="315" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2004-01-19 20:55" modality="FACTUAL" most-likely-duration="0Y0M102D1H3m" most-likely-start="2004-01-23 00:50" polarity="POS" start="310" temporally-annotated="YES" text="notes" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2004-02-02 04:45"/>
+<EVENT end="390" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-02-05 00:42" modality="FACTUAL" most-likely-duration="0Y0M108D11H50m" most-likely-start="2005-02-08 01:35" polarity="POS" start="372" temporally-annotated="YES" text="becomes much worse" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-18 02:28"/>
+<EVENT end="424" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-02-05 04:07" modality="FACTUAL" most-likely-duration="0Y0M94D12H14m" most-likely-start="2005-02-08 04:47" polarity="POS" start="408" temporally-annotated="YES" text="consuming a meal" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-18 05:27"/>
+<EVENT end="616" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 10:06" modality="FACTUAL" most-likely-duration="0Y0M110D13H35m" most-likely-start="2005-01-24 12:46" polarity="POS" start="593" temporally-annotated="YES" text="radiating to both sides" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 15:26"/>
+<EVENT end="737" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 20:45" modality="FACTUAL" most-likely-duration="0Y0M103D6H27m" most-likely-start="2005-01-24 23:14" polarity="POS" start="727" temporally-annotated="YES" text="seen by GI" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 01:43"/>
+<EVENT end="966" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 13:48" modality="FACTUAL" most-likely-duration="0Y0M105D13H37m" most-likely-start="2005-01-25 12:20" polarity="POS" start="956" temporally-annotated="YES" text="visualized" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 10:52"/>
+<EVENT end="1014" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 14:41" modality="FACTUAL" most-likely-duration="0Y0M95D9H29m" most-likely-start="2005-01-25 13:00" polarity="NEG" start="1006" temporally-annotated="YES" text="explored" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 11:19"/>
+<EVENT end="1127" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-22 15:07" modality="FACTUAL" most-likely-duration="0Y0M103D9H42m" most-likely-start="2005-01-25 13:04" polarity="POS" start="1104" temporally-annotated="YES" text="tolerating regular diet" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 11:01"/>
+<EVENT end="1234" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 22:23" modality="FACTUAL" most-likely-duration="0Y0M113D20H18m" most-likely-start="2005-01-25 02:50" polarity="POS" start="1224" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 07:17"/>
+<EVENT end="1259" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 15:16" modality="FACTUAL" most-likely-duration="0Y0M108D4H20m" most-likely-start="2005-01-24 21:26" polarity="POS" start="1243" temporally-annotated="YES" text="stable condition" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 03:36"/>
+<EVENT end="1269" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 12:23" modality="FACTUAL" most-likely-duration="0Y0M110D1H55m" most-likely-start="2005-01-24 18:59" polarity="POS" start="1262" temporally-annotated="YES" text="voiding" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 01:35"/>
+<EVENT end="1282" id="E56" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 11:11" modality="FACTUAL" most-likely-duration="0Y0M123D4H20m" most-likely-start="2005-01-24 17:54" polarity="POS" start="1272" temporally-annotated="YES" text="ambulating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 00:37"/>
+<EVENT end="1293" id="E57" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 10:36" modality="FACTUAL" most-likely-duration="0Y0M113D0H59m" most-likely-start="2005-01-24 17:21" polarity="POS" start="1287" temporally-annotated="YES" text="eating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-04 00:06"/>
+<EVENT end="1312" id="E58" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 10:19" modality="FACTUAL" most-likely-duration="0Y0M94D18H33m" most-likely-start="2005-01-24 17:02" polarity="POS" start="1302" temporally-annotated="YES" text="difficulty" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:45"/>
+<EVENT end="1381" id="E59" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:56" modality="POSSIBLE" most-likely-duration="0Y0M107D4H43m" most-likely-start="2005-01-24 16:42" polarity="POS" start="1366" temporally-annotated="YES" text="ischemic causes" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:28"/>
+<EVENT end="1489" id="E60" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:32" modality="FACTUAL" most-likely-duration="0Y0M94D23H29m" most-likely-start="2005-01-24 16:18" polarity="NEG" start="1483" temporally-annotated="YES" text="stasis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 23:04"/>
+<EVENT end="1658" id="E61" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:10" modality="CONDITIONAL" most-likely-duration="0Y0M131D9H30m" most-likely-start="2005-01-24 16:01" polarity="POS" start="1654" temporally-annotated="YES" text="call" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:52"/>
+<EVENT end="1730" id="E62" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:09" modality="CONDITIONAL" most-likely-duration="0Y0M110D23H0m" most-likely-start="2005-01-24 16:00" polarity="POS" start="1717" temporally-annotated="YES" text="proceed to ER" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:51"/>
+<EVENT end="1839" id="E63" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2005-01-21 09:08" modality="PROPOSED" most-likely-duration="0Y0M132D16H55m" most-likely-start="2005-01-24 15:58" polarity="POS" start="1816" temporally-annotated="YES" text="evaluate biliary system" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2005-02-03 22:48"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="01/22/2005" type="DATE" val="2005-01-22"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="01/24/2005" type="DATE" val="2005-01-24"/>
+<TIMEX3 end="238" id="T2" mod="NA" start="233" text="12/20" type="DATE" val="2004-12-20"/>
+<TIMEX3 end="267" id="T3" mod="START" start="260" text="this AM" type="DATE" val="2004-01-22"/>
+<TIMEX3 end="357" id="T4" mod="NA" start="349" text="Thursday" type="DATE" val="2005-01-20"/>
+<TIMEX3 end="404" id="T5" mod="NA" start="398" text="15 min" type="DURATION" val="PT15M"/>
+<TIMEX3 end="552" id="T6" mod="NA" start="549" text="2/8" type="DATE" val="2005-02-08"/>
+<TIMEX3 end="765" id="T7" mod="NA" start="762" text="HD2" type="DATE" val="2005-01-23"/>
+<TIMEX3 end="1134" id="T8" mod="NA" start="1131" text="HD4" type="DATE" val="2005-01-24"/>
+<TIMEX3 end="1952" id="T9" mod="NA" start="1940" text="26 more days" type="DURATION" val="P26D"/>
+<TLINK fromID="E2" fromText="CT" id="TL0" toID="E24" toText="CT" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="H. Pylori positive" id="TL1" toID="E41" toText="H. Pylori" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="HIDA" id="TL2" toID="E22" toText="HIDA scan" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="Roux en Y GBP" id="TL3" toID="E21" toText="the roux en y anastamosis" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="HIDA with CK challenge" id="TL4" toID="E39" toText="HIDA with CCK challenge" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="mod severe midepigastric pain" id="TL5" toID="E5" toText="this pain" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="outpatient MRA" id="TL6" toID="E38" toText="MRA" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="the pain" id="TL7" toID="E10" toText="Her pain" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="Admission" id="TL8" toID="T0" toText="01/22/2005" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="Discharge" id="TL9" toID="T1" toText="01/24/2005" type="OVERLAP"/>
+<TLINK fromID="E0" fromText="MRI" id="TL10" toID="E8" toText="Admission" type="AFTER"/>
+<TLINK fromID="E3" fromText="Roux en Y GBP" id="TL12" toID="T2" toText="12/20" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="the ED" id="TL14" toID="E43" toText="presenting" type="AFTER"/>
+<TLINK fromID="E43" fromText="presenting" id="TL15" toID="T3" toText="this AM" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="mod severe midepigastric pain" id="TL16" toID="E43" toText="presenting" type="BEFORE"/>
+<TLINK fromID="E45" fromText="notes" id="TL17" toID="E43" toText="presenting" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="this pain" id="TL18" toID="E4" toText="mod severe midepigastric pain" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="this pain" id="TL19" toID="T4" toText="Thursday" type="AFTER"/>
+<TLINK fromID="E46" fromText="becomes much worse" id="TL20" toID="T5" toText="15 min" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="consuming a meal" id="TL21" toID="E4" toText="mod severe midepigastric pain" type="OVERLAP"/>
+<TLINK fromID="T5" fromText="15 min" id="TL22" toID="E47" toText="consuming a meal" type="AFTER"/>
+<TLINK fromID="E6" fromText="intermittent post-prandial nausea / satiety" id="TL23" toID="E43" toText="presenting" type="BEFORE"/>
+<TLINK fromID="E7" fromText="an outpt EGD" id="TL24" toID="T6" toText="2/8" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="the pain" id="TL25" toID="E5" toText="this pain" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="radiating to both sides" id="TL26" toID="E9" toText="the pain" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="Her pain" id="TL27" toID="E43" toText="presenting" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="emesis" id="TL28" toID="E43" toText="presenting" type="BEFORE"/>
+<TLINK fromID="E12" fromText="BRBPR/melena" id="TL29" toID="E43" toText="presenting" type="BEFORE"/>
+<TLINK fromID="E13" fromText="fever/chills" id="TL30" toID="E43" toText="presenting" type="BEFORE"/>
+<TLINK fromID="E14" fromText="sob" id="TL31" toID="E43" toText="presenting" type="BEFORE"/>
+<TLINK fromID="E49" fromText="seen by GI" id="TL32" toID="E15" toText="EGD" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="EGD" id="TL33" toID="T7" toText="HD2" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="gastritis" id="TL34" toID="E15" toText="EGD" type="BEFORE"/>
+<TLINK fromID="E17" fromText="stricture" id="TL35" toID="E15" toText="EGD" type="BEFORE"/>
+<TLINK fromID="E18" fromText="ulcer" id="TL36" toID="E15" toText="EGD" type="BEFORE"/>
+<TLINK fromID="E19" fromText="H. Pylori positive" id="TL37" toID="E15" toText="EGD" type="BEFORE"/>
+<TLINK fromID="E20" fromText="empiric treatment" id="TL38" toID="E15" toText="EGD" type="AFTER"/>
+<TLINK fromID="E21" fromText="the roux en y anastamosis" id="TL39" toID="E3" toText="Roux en Y GBP" type="AFTER"/>
+<TLINK fromID="E50" fromText="visualized" id="TL40" toID="E15" toText="EGD" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="explored" id="TL41" toID="E15" toText="EGD" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="HIDA scan" id="TL43" toID="E8" toText="Admission" type="AFTER"/>
+<TLINK fromID="E23" fromText="obstruction" id="TL44" toID="E22" toText="HIDA scan" type="BEFORE"/>
+<TLINK fromID="E24" fromText="CT" id="TL45" toID="E8" toText="Admission" type="AFTER"/>
+<TLINK fromID="E52" fromText="tolerating regular diet" id="TL46" toID="T8" toText="HD4" type="BEFORE"/>
+<TLINK fromID="E25" fromText="further workup" id="TL47" toID="E42" toText="Discharge" type="AFTER"/>
+<TLINK fromID="E53" fromText="discharged" id="TL48" toID="E42" toText="Discharge" type="OVERLAP"/>
+<TLINK fromID="E54" fromText="stable condition" id="TL49" toID="E53" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E55" fromText="voiding" id="TL50" toID="E53" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E56" fromText="ambulating" id="TL51" toID="E53" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E57" fromText="eating" id="TL52" toID="E53" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E58" fromText="difficulty" id="TL53" toID="E54" toText="stable condition" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="outpatient MRA" id="TL54" toID="E53" toText="discharged" type="AFTER"/>
+<TLINK fromID="E59" fromText="ischemic causes" id="TL55" toID="E27" toText="post prandial pain" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="post prandial pain" id="TL56" toID="E26" toText="outpatient MRA" type="BEFORE"/>
+<TLINK fromID="E27" fromText="post prandial pain" id="TL57" toID="E6" toText="intermittent post-prandial nausea / satiety" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="HIDA with CK challenge" id="TL58" toID="E53" toText="discharged" type="AFTER"/>
+<TLINK fromID="E29" fromText="biliary dyskinesia" id="TL59" toID="E28" toText="HIDA with CK challenge" type="BEFORE"/>
+<TLINK fromID="E60" fromText="stasis" id="TL60" toID="E29" toText="biliary dyskinesia" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="H. pylori treatment" id="TL61" toID="E20" toText="empiric treatment" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="fevers" id="TL62" toID="E53" toText="discharged" type="AFTER"/>
+<TLINK fromID="E32" fromText="chills" id="TL63" toID="E31" toText="fevers" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="nausea" id="TL64" toID="E32" toText="chills" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="vomiting" id="TL65" toID="E33" toText="nausea" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="diarrhea" id="TL66" toID="E34" toText="vomiting" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="increasing pain with food" id="TL67" toID="E35" toText="diarrhea" type="OVERLAP"/>
+<TLINK fromID="E61" fromText="call" id="TL68" toID="E36" toText="increasing pain with food" type="AFTER"/>
+<TLINK fromID="E62" fromText="proceed to ER" id="TL69" toID="E36" toText="increasing pain with food" type="AFTER"/>
+<TLINK fromID="E37" fromText="evaluation" id="TL70" toID="E62" toText="proceed to ER" type="AFTER"/>
+<TLINK fromID="E38" fromText="MRA" id="TL71" toID="E26" toText="outpatient MRA" type="OVERLAP"/>
+<TLINK fromID="E39" fromText="HIDA with CCK challenge" id="TL72" toID="E28" toText="HIDA with CK challenge" type="OVERLAP"/>
+<TLINK fromID="E63" fromText="evaluate biliary system" id="TL73" toID="E39" toText="HIDA with CCK challenge" type="OVERLAP"/>
+<TLINK fromID="E40" fromText="the antibiotics" id="TL74" toID="E30" toText="H. pylori treatment" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="H. Pylori" id="TL75" toID="E19" toText="H. Pylori positive" type="OVERLAP"/>
+<TLINK fromID="T9" fromText="26 more days" id="TL76" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E40" fromText="the antibiotics" id="TL77" toID="T9" toText="26 more days" type="BEFORE"/>
+<SECTIME dvalue="2005-01-22" end="28" id="S0" start="18" text="01/22/2005" type="ADMISSION"/>
+<SECTIME dvalue="2005-01-24" end="56" id="S1" start="46" text="01/24/2005" type="DISCHARGE"/>
+<TLINK fromID="E0" fromText="MRI" id="SECTIME0" toID="T0" toText="01/22/2005" type="AFTER"/>
+<TLINK fromID="E1" fromText="HIDA" id="SECTIME1" toID="T0" toText="01/22/2005" type="AFTER"/>
+<TLINK fromID="E2" fromText="CT" id="SECTIME2" toID="T0" toText="01/22/2005" type="AFTER"/>
+<TLINK fromID="E3" fromText="Roux en Y GBP" id="SECTIME3" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E4" fromText="mod severe midepigastric pain" id="SECTIME4" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E5" fromText="this pain" id="SECTIME5" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E6" fromText="intermittent post-prandial nausea / satiety" id="SECTIME6" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E7" fromText="an outpt EGD" id="SECTIME7" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E9" fromText="the pain" id="SECTIME8" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E10" fromText="Her pain" id="SECTIME9" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E11" fromText="emesis" id="SECTIME10" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E12" fromText="BRBPR/melena" id="SECTIME11" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E13" fromText="fever/chills" id="SECTIME12" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E14" fromText="sob" id="SECTIME13" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E15" fromText="EGD" id="SECTIME14" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E16" fromText="gastritis" id="SECTIME15" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E17" fromText="stricture" id="SECTIME16" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E18" fromText="ulcer" id="SECTIME17" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E19" fromText="H. Pylori positive" id="SECTIME18" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E20" fromText="empiric treatment" id="SECTIME19" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E21" fromText="the roux en y anastamosis" id="SECTIME20" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E22" fromText="HIDA scan" id="SECTIME21" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E23" fromText="obstruction" id="SECTIME22" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E24" fromText="CT" id="SECTIME23" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E25" fromText="further workup" id="SECTIME24" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E26" fromText="outpatient MRA" id="SECTIME25" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E27" fromText="post prandial pain" id="SECTIME26" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E28" fromText="HIDA with CK challenge" id="SECTIME27" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E29" fromText="biliary dyskinesia" id="SECTIME28" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E30" fromText="H. pylori treatment" id="SECTIME29" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E31" fromText="fevers" id="SECTIME30" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E32" fromText="chills" id="SECTIME31" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E33" fromText="nausea" id="SECTIME32" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E34" fromText="vomiting" id="SECTIME33" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E35" fromText="diarrhea" id="SECTIME34" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E36" fromText="increasing pain with food" id="SECTIME35" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E37" fromText="evaluation" id="SECTIME36" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E38" fromText="MRA" id="SECTIME37" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E39" fromText="HIDA with CCK challenge" id="SECTIME38" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E40" fromText="the antibiotics" id="SECTIME39" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E41" fromText="H. Pylori" id="SECTIME40" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E43" fromText="presenting" id="SECTIME41" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E44" fromText="the ED" id="SECTIME42" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E45" fromText="notes" id="SECTIME43" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E46" fromText="becomes much worse" id="SECTIME44" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E47" fromText="consuming a meal" id="SECTIME45" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E48" fromText="radiating to both sides" id="SECTIME46" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E49" fromText="seen by GI" id="SECTIME47" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E50" fromText="visualized" id="SECTIME48" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E51" fromText="explored" id="SECTIME49" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E52" fromText="tolerating regular diet" id="SECTIME50" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E53" fromText="discharged" id="SECTIME51" toID="T1" toText="01/24/2005" type="OVERLAP"/>
+<TLINK fromID="E54" fromText="stable condition" id="SECTIME52" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E55" fromText="voiding" id="SECTIME53" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E56" fromText="ambulating" id="SECTIME54" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E57" fromText="eating" id="SECTIME55" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E58" fromText="difficulty" id="SECTIME56" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E59" fromText="ischemic causes" id="SECTIME57" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E60" fromText="stasis" id="SECTIME58" toID="T1" toText="01/24/2005" type="BEFORE"/>
+<TLINK fromID="E61" fromText="call" id="SECTIME59" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E62" fromText="proceed to ER" id="SECTIME60" toID="T1" toText="01/24/2005" type="AFTER"/>
+<TLINK fromID="E63" fromText="evaluate biliary system" id="SECTIME61" toID="T1" toText="01/24/2005" type="AFTER"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

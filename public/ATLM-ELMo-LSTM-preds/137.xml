@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2015-10-10
+Discharge Date :
+2015-10-21
+Service :
+CMED CSRU
+History of Present Illness :
+_62 year-old status-post gastric bypass and laprascopic cholecystectomy 7 weeks prior to admission who presented with fever , chills , and left lower extemity redness .
+The patient has a history of multiple hospitalizations for lower extremity cellulitis and noted that his symptoms and the appearance of his left leg mirrored previous episodes .
+He denied recent trauma to the area or travel .
+Review of systems was significant only for painful urination over the past few days and a reduction in urine output .
+He denied chest pain , shortness of breath , palpitations , abdominal pain , N/V , penile discharge .
+Brief Hospital Course :
+This 62 year-old obese male was admitted with cellulitis and presumed bacteremia .
+In the John , he was found to be in hypotensive atrial fibrillation .
+The patient was admitted to the Medical ICU where his hypotension was managed with IVF hydration and he was maintained on a diltiazam drip for atrial fibrillation .
+After his heart rate was controlled , he was transitioned to oral medications and transferred to the medicine service .
+1. Cellulitis / Bacteremia
+Review of the medical record revealed several previous admissions for cellulitis and bacteremia .
+Blood cultures on this admission and were positive for Beta streptococcus Group B .
+The patient had previous episodes of the same infection , with lower extremity cellulitis the likely source .
+A left lower extremity ultrasound was negative for deep venous thrombosis .
+The patient was too large to have a CTA .
+He was initially treated with vancomycin and zosyn while awaiting culture results .
+Once the organism was identified , he was transitioned to a regimen of intravenous penicillin and oral levofloxacin , which had successfully treated the infection during his most recent admission 1 year prior .
+He completed 7 days of levofloxacin and had a PICC line placed to facilitate a 2 week course of IV Penicillin .
+2. Atrial fibrillation
+The patient 's development of atrial fibrillation was believed to be secondary to infection and structural heart disease .
+It was initially managed with intravenous diltiazam , and it was later managed with metoprolol and anticoagulation .
+A transthoracic echocardiogram showed a mildly dilated and elongated left atrium , with a markedly dilated right atrium .
+He had occasional episodes of rapid atrial fibrillation that were controlled with responded to IV metoprolol .
+However , his rate proved difficult to control despite metoprolol and diltiazam .
+The EP service was consulted and recommended transesophageal echocardiogram and cardioversion .
+The TEE was negative for thrombus and the patient was successfully cardioverted to normal sinus rhythm with ibutilide .
+He was subsequently started on amiodarone and is scheduled to complete a 10 week course .
+EKG before discharge showed mild QT prolongation and no effect from amiodarone .
+EKG and LFTs should be monitored by his PCP , William given the high dose of amiodarone he will receive .
+3. FEN
+He was followed by the nutrition team throughout his admission and their recommendations were followed .
+He demonstrated several asymptomatic electrolyte deficiecies ; these were likely due to inadequate absorption following his surgery and he responded well to repletion .
+Vitamin D and parathyroid tests were pending at the time of discharge .
+The patient was discharged to Kindred Park View Specialty Hospital of Springfield Rehabilitation Hospital in good condition .
+He was sent with a King of Hearts monitor and scheduled for follow-up with cardiology and his primary care physician .
+
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-04-21 14:12" modality="FACTUAL" most-likely-duration="0Y0M746D21H29m" most-likely-start="2015-10-10 16:38" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2017-03-30 19:04"/>
+<EVENT end="1036" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:21" modality="FACTUAL" most-likely-duration="0Y0M107D11H40m" most-likely-start="2014-10-10 02:44" polarity="POS" start="1020" temporally-annotated="YES" text="a diltiazam drip" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:07"/>
+<EVENT end="1060" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:17" modality="FACTUAL" most-likely-duration="0Y0M95D7H2m" most-likely-start="2014-10-10 02:44" polarity="POS" start="1041" temporally-annotated="YES" text="atrial fibrillation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:11"/>
+<EVENT end="1083" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:17" modality="FACTUAL" most-likely-duration="0Y0M109D4H31m" most-likely-start="2014-10-10 02:44" polarity="POS" start="1069" temporally-annotated="YES" text="his heart rate" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:11"/>
+<EVENT end="1120" id="E89" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:17" modality="FACTUAL" most-likely-duration="0Y0M114D17H55m" most-likely-start="2014-10-10 02:44" polarity="POS" start="1108" temporally-annotated="YES" text="transitioned" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:11"/>
+<EVENT end="1140" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:17" modality="FACTUAL" most-likely-duration="0Y0M104D22H33m" most-likely-start="2014-10-10 02:44" polarity="POS" start="1124" temporally-annotated="YES" text="oral medications" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:11"/>
+<EVENT end="1156" id="E63" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:17" modality="FACTUAL" most-likely-duration="0Y0M104D16H15m" most-likely-start="2014-10-10 02:44" polarity="POS" start="1145" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:11"/>
+<EVENT end="1180" id="E64" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:17" modality="FACTUAL" most-likely-duration="0Y0M94D19H57m" most-likely-start="2014-10-10 02:44" polarity="POS" start="1160" temporally-annotated="YES" text="the medicine service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:11"/>
+<EVENT end="1196" id="E90" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M125D0H19m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1186" temporally-annotated="YES" text="Cellulitis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1209" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M172D13H9m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1199" temporally-annotated="YES" text="Bacteremia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1216" id="E91" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M131D21H34m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1210" temporally-annotated="YES" text="Review" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1275" id="E92" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M108D6H53m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1265" temporally-annotated="YES" text="admissions" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1290" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M108D1H32m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1280" temporally-annotated="YES" text="cellulitis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1305" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M95D6H28m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1295" temporally-annotated="YES" text="bacteremia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1322" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M105D3H10m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1308" temporally-annotated="YES" text="Blood cultures" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="145" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-08-02 18:09" modality="FACTUAL" most-likely-duration="0Y0M139D4H26m" most-likely-start="2015-08-16 16:40" polarity="POS" start="131" temporally-annotated="YES" text="gastric bypass" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-09-30 01:11"/>
+<EVENT end="1340" id="E65" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M104D17H5m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1326" temporally-annotated="YES" text="this admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1389" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M96D5H50m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1363" temporally-annotated="YES" text="Beta streptococcus Group B" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1447" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M103D23H37m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1429" temporally-annotated="YES" text="the same infection" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1481" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="POSSIBLE" most-likely-duration="0Y0M127D15H47m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1455" temporally-annotated="YES" text="lower extremity cellulitis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="1535" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M106D17H8m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1502" temporally-annotated="YES" text="A left lower extremity ultrasound" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:06"/>
+<EVENT end="177" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-08-13 10:53" modality="FACTUAL" most-likely-duration="0Y0M115D10H14m" most-likely-start="2015-08-16 15:58" polarity="POS" start="150" temporally-annotated="YES" text="laprascopic cholecystectomy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-08-26 21:03"/>
+<EVENT end="1575" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:18" modality="FACTUAL" most-likely-duration="0Y0M94D13H10m" most-likely-start="2014-10-10 02:43" polarity="NEG" start="1553" temporally-annotated="YES" text="deep venous thrombosis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:08"/>
+<EVENT end="1617" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:18" modality="FACTUAL" most-likely-duration="0Y0M96D16H37m" most-likely-start="2014-10-10 02:43" polarity="NEG" start="1612" temporally-annotated="YES" text="a CTA" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:08"/>
+<EVENT end="1660" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:18" modality="FACTUAL" most-likely-duration="0Y0M110D7H5m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1650" temporally-annotated="YES" text="vancomycin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:08"/>
+<EVENT end="1670" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:18" modality="FACTUAL" most-likely-duration="0Y0M103D6H42m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1665" temporally-annotated="YES" text="zosyn" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:08"/>
+<EVENT end="1693" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:18" modality="FACTUAL" most-likely-duration="0Y0M114D4H20m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1686" temporally-annotated="YES" text="culture" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:08"/>
+<EVENT end="1721" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:16" modality="FACTUAL" most-likely-duration="0Y0M126D17H37m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1709" temporally-annotated="YES" text="the organism" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:10"/>
+<EVENT end="1758" id="E93" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:16" modality="FACTUAL" most-likely-duration="0Y0M112D20H59m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1746" temporally-annotated="YES" text="transitioned" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:10"/>
+<EVENT end="1797" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:16" modality="FACTUAL" most-likely-duration="0Y0M105D7H50m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1775" temporally-annotated="YES" text="intravenous penicillin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:10"/>
+<EVENT end="1819" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:16" modality="FACTUAL" most-likely-duration="0Y0M102D22H15m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1802" temporally-annotated="YES" text="oral levofloxacin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:10"/>
+<EVENT end="1866" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:16" modality="FACTUAL" most-likely-duration="0Y0M102D18H31m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1853" temporally-annotated="YES" text="the infection" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:10"/>
+<EVENT end="1899" id="E94" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:16" modality="FACTUAL" most-likely-duration="0Y0M111D8H25m" most-likely-start="2014-10-10 02:43" polarity="POS" start="1890" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:10"/>
+<EVENT end="1950" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:58" modality="FACTUAL" most-likely-duration="0Y0M103D11H47m" most-likely-start="2015-10-22 00:39" polarity="POS" start="1938" temporally-annotated="YES" text="levofloxacin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 10:20"/>
+<EVENT end="1970" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:43" modality="FACTUAL" most-likely-duration="0Y0M111D13H19m" most-likely-start="2015-10-22 00:56" polarity="POS" start="1959" temporally-annotated="YES" text="a PICC line" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 11:09"/>
+<EVENT end="2024" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 15:01" modality="FACTUAL" most-likely-duration="0Y0M95D17H12m" most-likely-start="2015-10-22 01:26" polarity="POS" start="2011" temporally-annotated="YES" text="IV Penicillin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 11:51"/>
+<EVENT end="2049" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 15:02" modality="FACTUAL" most-likely-duration="0Y0M172D3H21m" most-likely-start="2015-10-22 01:38" polarity="POS" start="2030" temporally-annotated="YES" text="Atrial fibrillation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:14"/>
+<EVENT end="2099" id="E95" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 15:03" modality="FACTUAL" most-likely-duration="0Y0M114D14H40m" most-likely-start="2015-10-22 01:43" polarity="POS" start="2080" temporally-annotated="YES" text="atrial fibrillation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:23"/>
+<EVENT end="218" id="E70" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-06 16:08" modality="FACTUAL" most-likely-duration="0Y0M101D2H56m" most-likely-start="2014-10-09 17:51" polarity="POS" start="209" temporally-annotated="YES" text="presented" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-19 19:34"/>
+<EVENT end="2141" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:58" modality="POSSIBLE" most-likely-duration="0Y0M115D19H32m" most-likely-start="2015-10-22 01:44" polarity="POS" start="2132" temporally-annotated="YES" text="infection" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:30"/>
+<EVENT end="2170" id="E96" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:53" modality="POSSIBLE" most-likely-duration="0Y0M95D17H40m" most-likely-start="2015-10-22 01:42" polarity="POS" start="2146" temporally-annotated="YES" text="structural heart disease" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:31"/>
+<EVENT end="2224" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:46" modality="FACTUAL" most-likely-duration="0Y0M102D1H31m" most-likely-start="2015-10-22 01:37" polarity="POS" start="2203" temporally-annotated="YES" text="intravenous diltiazam" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:28"/>
+<EVENT end="229" id="E71" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-06 22:30" modality="FACTUAL" most-likely-duration="0Y0M101D4H22m" most-likely-start="2014-10-10 00:12" polarity="POS" start="224" temporally-annotated="YES" text="fever" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 01:54"/>
+<EVENT end="2267" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:38" modality="FACTUAL" most-likely-duration="0Y0M104D23H59m" most-likely-start="2015-10-22 01:32" polarity="POS" start="2257" temporally-annotated="YES" text="metoprolol" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:26"/>
+<EVENT end="2287" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:35" modality="FACTUAL" most-likely-duration="0Y0M94D15H14m" most-likely-start="2015-10-22 01:31" polarity="POS" start="2272" temporally-annotated="YES" text="anticoagulation" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:27"/>
+<EVENT end="2320" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:42" modality="FACTUAL" most-likely-duration="0Y0M97D20H55m" most-likely-start="2015-10-22 01:38" polarity="POS" start="2290" temporally-annotated="YES" text="A transthoracic echocardiogram" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:34"/>
+<EVENT end="2327" id="E97" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 14:59" modality="FACTUAL" most-likely-duration="0Y0M111D14H58m" most-likely-start="2015-10-22 01:58" polarity="POS" start="2321" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 12:57"/>
+<EVENT end="2370" id="E98" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 15:34" modality="FACTUAL" most-likely-duration="0Y0M103D11H21m" most-likely-start="2015-10-22 02:31" polarity="POS" start="2328" temporally-annotated="YES" text="a mildly dilated and elongated left atrium" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 13:28"/>
+<EVENT end="238" id="E72" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 00:25" modality="FACTUAL" most-likely-duration="0Y0M101D13H51m" most-likely-start="2014-10-10 01:59" polarity="POS" start="232" temporally-annotated="YES" text="chills" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 03:33"/>
+<EVENT end="2409" id="E99" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 16:19" modality="FACTUAL" most-likely-duration="0Y0M94D23H7m" most-likely-start="2015-10-22 03:18" polarity="POS" start="2378" temporally-annotated="YES" text="a markedly dilated right atrium" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 14:17"/>
+<EVENT end="2467" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 17:13" modality="FACTUAL" most-likely-duration="0Y0M105D7H38m" most-likely-start="2015-10-22 04:14" polarity="POS" start="2442" temporally-annotated="YES" text="rapid atrial fibrillation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 15:15"/>
+<EVENT end="272" id="E73" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:03" modality="FACTUAL" most-likely-duration="0Y0M94D22H5m" most-likely-start="2014-10-10 02:36" polarity="POS" start="245" temporally-annotated="YES" text="left lower extemity redness" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:09"/>
+<EVENT end="2520" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 18:14" modality="FACTUAL" most-likely-duration="0Y0M95D6H42m" most-likely-start="2015-10-22 05:15" polarity="POS" start="2507" temporally-annotated="YES" text="IV metoprolol" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 16:16"/>
+<EVENT end="2541" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 19:16" modality="FACTUAL" most-likely-duration="0Y0M109D2H54m" most-likely-start="2015-10-22 06:16" polarity="POS" start="2533" temporally-annotated="YES" text="his rate" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 17:16"/>
+<EVENT end="2588" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 20:13" modality="FACTUAL" most-likely-duration="0Y0M108D5H29m" most-likely-start="2015-10-22 07:15" polarity="POS" start="2578" temporally-annotated="YES" text="metoprolol" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 18:17"/>
+<EVENT end="2602" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 21:06" modality="FACTUAL" most-likely-duration="0Y0M95D15H53m" most-likely-start="2015-10-22 08:09" polarity="POS" start="2593" temporally-annotated="YES" text="diltiazam" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 19:12"/>
+<EVENT end="2619" id="E100" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 21:54" modality="FACTUAL" most-likely-duration="0Y0M120D14H30m" most-likely-start="2015-10-22 08:56" polarity="POS" start="2605" temporally-annotated="YES" text="The EP service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 19:58"/>
+<EVENT end="2680" id="E101" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 22:35" modality="PROPOSED" most-likely-duration="0Y0M106D13H41m" most-likely-start="2015-10-22 09:37" polarity="POS" start="2650" temporally-annotated="YES" text="transesophageal echocardiogram" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 20:39"/>
+<EVENT end="2698" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 23:07" modality="PROPOSED" most-likely-duration="0Y0M95D2H45m" most-likely-start="2015-10-22 10:12" polarity="POS" start="2685" temporally-annotated="YES" text="cardioversion" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 21:17"/>
+<EVENT end="2708" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 23:35" modality="FACTUAL" most-likely-duration="0Y0M103D8H4m" most-likely-start="2015-10-22 10:41" polarity="POS" start="2701" temporally-annotated="YES" text="The TEE" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 21:47"/>
+<EVENT end="2734" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 23:59" modality="FACTUAL" most-likely-duration="0Y0M101D12H50m" most-likely-start="2015-10-22 11:05" polarity="NEG" start="2726" temporally-annotated="YES" text="thrombus" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 22:11"/>
+<EVENT end="2780" id="E102" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 00:20" modality="FACTUAL" most-likely-duration="0Y0M109D17H18m" most-likely-start="2015-10-22 11:24" polarity="POS" start="2768" temporally-annotated="YES" text="cardioverted" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 22:28"/>
+<EVENT end="2818" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 00:34" modality="FACTUAL" most-likely-duration="0Y0M95D1H42m" most-likely-start="2015-10-22 11:40" polarity="POS" start="2809" temporally-annotated="YES" text="ibutilide" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 22:46"/>
+<EVENT end="2862" id="E103" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 00:46" modality="FACTUAL" most-likely-duration="0Y0M100D19H8m" most-likely-start="2015-10-22 11:53" polarity="POS" start="2852" temporally-annotated="YES" text="amiodarone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:00"/>
+<EVENT end="2914" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 00:57" modality="FACTUAL" most-likely-duration="0Y0M106D17H49m" most-likely-start="2015-10-22 12:03" polarity="POS" start="2911" temporally-annotated="YES" text="EKG" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:09"/>
+<EVENT end="2931" id="E66" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:04" modality="FACTUAL" most-likely-duration="0Y0M99D19H22m" most-likely-start="2015-10-22 12:12" polarity="POS" start="2922" temporally-annotated="YES" text="discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:20"/>
+<EVENT end="2938" id="E104" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:12" modality="FACTUAL" most-likely-duration="0Y0M118D8H11m" most-likely-start="2015-10-22 12:18" polarity="POS" start="2932" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:24"/>
+<EVENT end="2959" id="E105" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:16" modality="FACTUAL" most-likely-duration="0Y0M106D7H26m" most-likely-start="2015-10-22 12:24" polarity="POS" start="2939" temporally-annotated="YES" text="mild QT prolongation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:32"/>
+<EVENT end="2973" id="E106" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:22" modality="FACTUAL" most-likely-duration="0Y0M107D16H50m" most-likely-start="2015-10-22 12:28" polarity="NEG" start="2967" temporally-annotated="YES" text="effect" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:34"/>
+<EVENT end="2989" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:24" modality="FACTUAL" most-likely-duration="0Y0M94D17H20m" most-likely-start="2015-10-22 12:32" polarity="POS" start="2979" temporally-annotated="YES" text="amiodarone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:40"/>
+<EVENT end="2995" id="E107" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:26" modality="FACTUAL" most-likely-duration="0Y0M110D23H21m" most-likely-start="2015-10-22 12:35" polarity="POS" start="2992" temporally-annotated="YES" text="EKG" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:44"/>
+<EVENT end="38" id="E59" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-09-26 18:34" modality="FACTUAL" most-likely-duration="0Y0M197D2H33m" most-likely-start="2015-10-10 17:40" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-24 02:46"/>
+<EVENT end="3004" id="E108" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:29" modality="FACTUAL" most-likely-duration="0Y0M127D15H8m" most-likely-start="2015-10-22 12:37" polarity="POS" start="3000" temporally-annotated="YES" text="LFTs" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:45"/>
+<EVENT end="3035" id="E109" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:31" modality="FACTUAL" most-likely-duration="0Y0M106D19H50m" most-likely-start="2015-10-22 12:39" polarity="POS" start="3028" temporally-annotated="YES" text="his PCP" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:47"/>
+<EVENT end="3079" id="E110" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:32" modality="FACTUAL" most-likely-duration="0Y0M109D4H27m" most-likely-start="2015-10-22 12:41" polarity="POS" start="3069" temporally-annotated="YES" text="amiodarone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:50"/>
+<EVENT end="3120" id="E112" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:33" modality="FACTUAL" most-likely-duration="0Y0M112D4H33m" most-likely-start="2015-10-22 12:42" polarity="POS" start="3112" temporally-annotated="YES" text="followed" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:51"/>
+<EVENT end="3142" id="E111" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:34" modality="FACTUAL" most-likely-duration="0Y0M101D12H55m" most-likely-start="2015-10-22 12:43" polarity="POS" start="3124" temporally-annotated="YES" text="the nutrition team" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:52"/>
+<EVENT end="3167" id="E113" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:33" modality="FACTUAL" most-likely-duration="0Y0M101D8H46m" most-likely-start="2015-10-22 12:44" polarity="POS" start="3154" temporally-annotated="YES" text="his admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:55"/>
+<EVENT end="3225" id="E114" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:34" modality="FACTUAL" most-likely-duration="0Y0M122D1H57m" most-likely-start="2015-10-22 12:45" polarity="POS" start="3213" temporally-annotated="YES" text="demonstrated" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:56"/>
+<EVENT end="3270" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:36" modality="FACTUAL" most-likely-duration="0Y0M101D9H16m" most-likely-start="2015-10-22 12:45" polarity="POS" start="3226" temporally-annotated="YES" text="several asymptomatic electrolyte deficiecies" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:54"/>
+<EVENT end="3319" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:35" modality="POSSIBLE" most-likely-duration="0Y0M103D8H17m" most-likely-start="2015-10-22 12:46" polarity="POS" start="3298" temporally-annotated="YES" text="inadequate absorption" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:57"/>
+<EVENT end="3341" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:37" modality="FACTUAL" most-likely-duration="0Y0M103D22H3m" most-likely-start="2015-10-22 12:46" polarity="POS" start="3330" temporally-annotated="YES" text="his surgery" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:55"/>
+<EVENT end="360" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:19" modality="FACTUAL" most-likely-duration="0Y0M101D18H33m" most-likely-start="2014-10-10 02:50" polarity="POS" start="334" temporally-annotated="YES" text="lower extremity cellulitis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:21"/>
+<EVENT end="3376" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:37" modality="FACTUAL" most-likely-duration="0Y0M95D0H56m" most-likely-start="2015-10-22 12:46" polarity="POS" start="3367" temporally-annotated="YES" text="repletion" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:55"/>
+<EVENT end="3388" id="E115" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:36" modality="FACTUAL" most-likely-duration="0Y0M119D5H9m" most-likely-start="2015-10-22 12:47" polarity="POS" start="3379" temporally-annotated="YES" text="Vitamin D" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:58"/>
+<EVENT end="3410" id="E116" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-19 01:38" modality="FACTUAL" most-likely-duration="0Y0M112D2H50m" most-likely-start="2015-10-22 12:47" polarity="POS" start="3393" temporally-annotated="YES" text="parathyroid tests" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 23:56"/>
+<EVENT end="3477" id="E68" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 09:25" modality="FACTUAL" most-likely-duration="0Y0M102D16H0m" most-likely-start="2015-10-21 18:29" polarity="POS" start="3467" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 03:33"/>
+<EVENT end="3556" id="E117" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 06:16" modality="FACTUAL" most-likely-duration="0Y0M106D9H51m" most-likely-start="2015-10-21 15:16" polarity="POS" start="3481" temporally-annotated="YES" text="Kindred Park View Specialty Hospital of Springfield Rehabilitation Hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-11-01 00:16"/>
+<EVENT end="3618" id="E118" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 05:05" modality="FACTUAL" most-likely-duration="0Y0M100D19H52m" most-likely-start="2015-10-21 13:58" polarity="POS" start="3594" temporally-annotated="YES" text="a King of Hearts monitor" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-10-31 22:51"/>
+<EVENT end="3646" id="E119" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 04:46" modality="FACTUAL" most-likely-duration="0Y0M108D9H48m" most-likely-start="2015-10-21 13:35" polarity="POS" start="3637" temporally-annotated="YES" text="follow-up" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-10-31 22:24"/>
+<EVENT end="3662" id="E120" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 04:40" modality="FACTUAL" most-likely-duration="0Y0M106D5H30m" most-likely-start="2015-10-21 13:22" polarity="POS" start="3652" temporally-annotated="YES" text="cardiology" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-10-31 22:04"/>
+<EVENT end="370" id="E74" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:27" modality="FACTUAL" most-likely-duration="0Y0M104D7H35m" most-likely-start="2014-10-10 02:55" polarity="POS" start="365" temporally-annotated="YES" text="noted" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:23"/>
+<EVENT end="3693" id="E121" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-18 04:31" modality="FACTUAL" most-likely-duration="0Y0M95D11H31m" most-likely-start="2015-10-21 13:11" polarity="POS" start="3667" temporally-annotated="YES" text="his primary care physician" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2015-10-31 21:51"/>
+<EVENT end="388" id="E75" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:27" modality="FACTUAL" most-likely-duration="0Y0M103D12H31m" most-likely-start="2014-10-10 02:57" polarity="POS" start="376" temporally-annotated="YES" text="his symptoms" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:27"/>
+<EVENT end="407" id="E76" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:28" modality="FACTUAL" most-likely-duration="0Y0M116D10H48m" most-likely-start="2014-10-10 02:57" polarity="POS" start="393" temporally-annotated="YES" text="the appearance" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:26"/>
+<EVENT end="450" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:29" modality="FACTUAL" most-likely-duration="0Y0M95D1H42m" most-likely-start="2014-10-10 02:56" polarity="POS" start="433" temporally-annotated="YES" text="previous episodes" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:23"/>
+<EVENT end="462" id="E77" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:28" modality="FACTUAL" most-likely-duration="0Y0M141D18H30m" most-likely-start="2014-10-10 02:55" polarity="POS" start="456" temporally-annotated="YES" text="denied" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:22"/>
+<EVENT end="488" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:27" modality="FACTUAL" most-likely-duration="0Y0M120D21H41m" most-likely-start="2014-10-10 02:54" polarity="NEG" start="463" temporally-annotated="YES" text="recent trauma to the area" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:21"/>
+<EVENT end="518" id="E78" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:26" modality="FACTUAL" most-likely-duration="0Y0M107D1H0m" most-likely-start="2014-10-10 02:53" polarity="POS" start="501" temporally-annotated="YES" text="Review of systems" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:20"/>
+<EVENT end="561" id="E79" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:25" modality="FACTUAL" most-likely-duration="0Y0M112D17H29m" most-likely-start="2014-10-10 02:52" polarity="POS" start="544" temporally-annotated="YES" text="painful urination" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:19"/>
+<EVENT end="616" id="E80" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:24" modality="FACTUAL" most-likely-duration="0Y0M94D22H47m" most-likely-start="2014-10-10 02:51" polarity="POS" start="589" temporally-annotated="YES" text="a reduction in urine output" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:18"/>
+<EVENT end="628" id="E81" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:25" modality="FACTUAL" most-likely-duration="0Y0M117D14H16m" most-likely-start="2014-10-10 02:50" polarity="POS" start="622" temporally-annotated="YES" text="denied" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:15"/>
+<EVENT end="639" id="E82" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:26" modality="FACTUAL" most-likely-duration="0Y0M101D22H58m" most-likely-start="2014-10-10 02:49" polarity="NEG" start="629" temporally-annotated="YES" text="chest pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:12"/>
+<EVENT end="661" id="E83" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:22" modality="FACTUAL" most-likely-duration="0Y0M104D5H45m" most-likely-start="2014-10-10 02:49" polarity="NEG" start="642" temporally-annotated="YES" text="shortness of breath" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:16"/>
+<EVENT end="676" id="E84" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:23" modality="FACTUAL" most-likely-duration="0Y0M103D13H52m" most-likely-start="2014-10-10 02:48" polarity="NEG" start="664" temporally-annotated="YES" text="palpitations" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:13"/>
+<EVENT end="693" id="E85" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:21" modality="FACTUAL" most-likely-duration="0Y0M117D8H4m" most-likely-start="2014-10-10 02:48" polarity="NEG" start="679" temporally-annotated="YES" text="abdominal pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:15"/>
+<EVENT end="699" id="E86" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:22" modality="FACTUAL" most-likely-duration="0Y0M119D6H22m" most-likely-start="2014-10-10 02:47" polarity="NEG" start="696" temporally-annotated="YES" text="N/V" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:12"/>
+<EVENT end="718" id="E87" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M96D4H46m" most-likely-start="2014-10-10 02:47" polarity="NEG" start="702" temporally-annotated="YES" text="penile discharge" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:14"/>
+<EVENT end="767" id="E88" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:23" modality="FACTUAL" most-likely-duration="0Y0M132D18H21m" most-likely-start="2014-10-10 02:46" polarity="POS" start="762" temporally-annotated="YES" text="obese" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:09"/>
+<EVENT end="785" id="E60" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:19" modality="FACTUAL" most-likely-duration="0Y0M101D7H48m" most-likely-start="2014-10-10 02:46" polarity="POS" start="777" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:13"/>
+<EVENT end="801" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:19" modality="FACTUAL" most-likely-duration="0Y0M105D8H2m" most-likely-start="2014-10-10 02:46" polarity="POS" start="791" temporally-annotated="YES" text="cellulitis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:13"/>
+<EVENT end="825" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:22" modality="POSSIBLE" most-likely-duration="0Y0M95D9H45m" most-likely-start="2014-10-10 02:45" polarity="POS" start="815" temporally-annotated="YES" text="bacteremia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:08"/>
+<EVENT end="895" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:20" modality="FACTUAL" most-likely-duration="0Y0M95D6H23m" most-likely-start="2014-10-10 02:45" polarity="POS" start="864" temporally-annotated="YES" text="hypotensive atrial fibrillation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:10"/>
+<EVENT end="922" id="E61" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:18" modality="FACTUAL" most-likely-duration="0Y0M101D12H39m" most-likely-start="2014-10-10 02:45" polarity="POS" start="914" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:12"/>
+<EVENT end="941" id="E62" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:18" modality="FACTUAL" most-likely-duration="0Y0M100D16H31m" most-likely-start="2014-10-10 02:45" polarity="POS" start="926" temporally-annotated="YES" text="the Medical ICU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:12"/>
+<EVENT end="963" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:21" modality="FACTUAL" most-likely-duration="0Y0M105D19H40m" most-likely-start="2014-10-10 02:44" polarity="POS" start="948" temporally-annotated="YES" text="his hypotension" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:07"/>
+<EVENT end="994" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-10-07 01:21" modality="FACTUAL" most-likely-duration="0Y0M104D5H11m" most-likely-start="2014-10-10 02:44" polarity="POS" start="981" temporally-annotated="YES" text="IVF hydration" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-10-20 04:07"/>
+<TIMEX3 end="204" id="T0" mod="APPROX" start="178" text="7 weeks prior to admission" type="DATE" val="2015-08-17"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="2015-10-10" type="DATE" val="2015-10-10"/>
+<TIMEX3 end="1912" id="T8" mod="APPROX" start="1900" text="1 year prior" type="DATE" val="2014-10-10"/>
+<TIMEX3 end="1934" id="T3" mod="NA" start="1928" text="7 days" type="DURATION" val="P7D"/>
+<TIMEX3 end="2007" id="T5" mod="NA" start="1994" text="2 week course" type="DURATION" val="P2W"/>
+<TIMEX3 end="2901" id="T6" mod="NA" start="2894" text="10 week" type="DURATION" val="P10W"/>
+<TIMEX3 end="3435" id="T7" mod="NA" start="3427" text="the time" type="DATE" val="2015-10-21"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="2015-10-21" type="DATE" val="2015-10-21"/>
+<TIMEX3 end="584" id="T4" mod="APPROX" start="567" text="the past few days" type="DURATION" val="P2D"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E75" fromText="his symptoms" id="TL10" toID="E74" toText="noted" type="BEFORE"/>
+<TLINK fromID="E53" fromText="inadequate absorption" id="TL100" toID="E54" toText="his surgery" type="AFTER"/>
+<TLINK fromID="E52" fromText="several asymptomatic electrolyte deficiecies" id="TL101" toID="E55" toText="repletion" type="AFTER"/>
+<TLINK fromID="E55" fromText="repletion" id="TL102" toID="E53" toText="inadequate absorption" type="AFTER"/>
+<TLINK fromID="E115" fromText="Vitamin D" id="TL103" toID="E116" toText="parathyroid tests" type="OVERLAP"/>
+<TLINK fromID="E116" fromText="parathyroid tests" id="TL104" toID="T7" toText="the time" type="OVERLAP"/>
+<TLINK fromID="E117" fromText="Kindred Park View Specialty Hospital of Springfield Rehabilitation Hospital" id="TL105" toID="E68" toText="discharged" type="AFTER"/>
+<TLINK fromID="E118" fromText="a King of Hearts monitor" id="TL106" toID="E68" toText="discharged" type="AFTER"/>
+<TLINK fromID="E119" fromText="follow-up" id="TL107" toID="E120" toText="cardiology" type="OVERLAP"/>
+<TLINK fromID="E119" fromText="follow-up" id="TL108" toID="E121" toText="his primary care physician" type="OVERLAP"/>
+<TLINK fromID="E76" fromText="the appearance" id="TL11" toID="E74" toText="noted" type="BEFORE"/>
+<TLINK fromID="E4" fromText="previous episodes" id="TL12" toID="E3" toText="lower extremity cellulitis" type="OVERLAP"/>
+<TLINK fromID="E77" fromText="denied" id="TL13" toID="E5" toText="recent trauma to the area" type="AFTER"/>
+<TLINK fromID="E79" fromText="painful urination" id="TL14" toID="E78" toText="Review of systems" type="BEFORE"/>
+<TLINK fromID="E79" fromText="painful urination" id="TL15" toID="T4" toText="the past few days" type="OVERLAP"/>
+<TLINK fromID="T4" fromText="the past few days" id="TL16" toID="E0" toText="Admission" type="BEFORE"/>
+<TLINK fromID="E80" fromText="a reduction in urine output" id="TL17" toID="E78" toText="Review of systems" type="BEFORE"/>
+<TLINK fromID="E81" fromText="denied" id="TL18" toID="E82" toText="chest pain" type="OVERLAP"/>
+<TLINK fromID="E81" fromText="denied" id="TL19" toID="E83" toText="shortness of breath" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="admitted" id="TL2" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E81" fromText="denied" id="TL20" toID="E84" toText="palpitations" type="OVERLAP"/>
+<TLINK fromID="E81" fromText="denied" id="TL21" toID="E85" toText="abdominal pain" type="OVERLAP"/>
+<TLINK fromID="E81" fromText="denied" id="TL22" toID="E86" toText="N/V" type="OVERLAP"/>
+<TLINK fromID="E81" fromText="denied" id="TL23" toID="E87" toText="penile discharge" type="OVERLAP"/>
+<TLINK fromID="E88" fromText="obese" id="TL24" toID="E60" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E6" fromText="cellulitis" id="TL25" toID="E60" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E7" fromText="bacteremia" id="TL26" toID="E60" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E8" fromText="hypotensive atrial fibrillation" id="TL27" toID="E0" toText="Admission" type="AFTER"/>
+<TLINK fromID="E62" fromText="the Medical ICU" id="TL28" toID="E61" toText="admitted" type="AFTER"/>
+<TLINK fromID="E9" fromText="his hypotension" id="TL29" toID="E61" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E59" fromText="Discharge" id="TL3" toID="T2" toText="2015-10-21" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="his hypotension" id="TL30" toID="E10" toText="IVF hydration" type="BEFORE"/>
+<TLINK fromID="E11" fromText="a diltiazam drip" id="TL31" toID="E12" toText="atrial fibrillation" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="a diltiazam drip" id="TL32" toID="E62" toText="the Medical ICU" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="his heart rate" id="TL33" toID="E62" toText="the Medical ICU" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="oral medications" id="TL34" toID="E89" toText="transitioned" type="AFTER"/>
+<TLINK fromID="E89" fromText="transitioned" id="TL35" toID="E63" toText="transferred" type="BEFORE"/>
+<TLINK fromID="E64" fromText="the medicine service" id="TL36" toID="E63" toText="transferred" type="AFTER"/>
+<TLINK fromID="E62" fromText="the Medical ICU" id="TL37" toID="E63" toText="transferred" type="BEFORE"/>
+<TLINK fromID="E64" fromText="the medicine service" id="TL38" toID="E59" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E90" fromText="Cellulitis" id="TL39" toID="E15" toText="Bacteremia" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="gastric bypass" id="TL4" toID="E2" toText="laprascopic cholecystectomy" type="OVERLAP"/>
+<TLINK fromID="E92" fromText="admissions" id="TL40" toID="E4" toText="previous episodes" type="OVERLAP"/>
+<TLINK fromID="E92" fromText="admissions" id="TL41" toID="E91" toText="Review" type="BEFORE"/>
+<TLINK fromID="E16" fromText="cellulitis" id="TL42" toID="E92" toText="admissions" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="bacteremia" id="TL43" toID="E92" toText="admissions" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="Blood cultures" id="TL44" toID="E65" toText="this admission" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="Beta streptococcus Group B" id="TL45" toID="E18" toText="Blood cultures" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="lower extremity cellulitis" id="TL46" toID="E20" toText="the same infection" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="deep venous thrombosis" id="TL47" toID="E22" toText="A left lower extremity ultrasound" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="vancomycin" id="TL48" toID="E26" toText="zosyn" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="zosyn" id="TL49" toID="E27" toText="culture" type="BEFORE"/>
+<TLINK fromID="E2" fromText="laprascopic cholecystectomy" id="TL5" toID="T0" toText="7 weeks prior to admission" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="culture" id="TL50" toID="E18" toText="Blood cultures" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="the organism" id="TL51" toID="E19" toText="Beta streptococcus Group B" type="OVERLAP"/>
+<TLINK fromID="E93" fromText="transitioned" id="TL52" toID="E28" toText="the organism" type="AFTER"/>
+<TLINK fromID="E29" fromText="intravenous penicillin" id="TL53" toID="E93" toText="transitioned" type="AFTER"/>
+<TLINK fromID="E30" fromText="oral levofloxacin" id="TL54" toID="E93" toText="transitioned" type="AFTER"/>
+<TLINK fromID="E30" fromText="oral levofloxacin" id="TL55" toID="E31" toText="the infection" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="the infection" id="TL56" toID="E94" toText="admission" type="OVERLAP"/>
+<TLINK fromID="E94" fromText="admission" id="TL57" toID="T8" toText="1 year prior" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="levofloxacin" id="TL58" toID="T3" toText="7 days" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="IV Penicillin" id="TL59" toID="T5" toText="2 week course" type="OVERLAP"/>
+<TLINK fromID="E70" fromText="presented" id="TL6" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="T5" fromText="2 week course" id="TL60" toID="E33" toText="a PICC line" type="AFTER"/>
+<TLINK fromID="E12" fromText="atrial fibrillation" id="TL61" toID="E95" toText="atrial fibrillation" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="infection" id="TL62" toID="E95" toText="atrial fibrillation" type="BEFORE"/>
+<TLINK fromID="E36" fromText="infection" id="TL63" toID="E19" toText="Beta streptococcus Group B" type="OVERLAP"/>
+<TLINK fromID="E96" fromText="structural heart disease" id="TL64" toID="E36" toText="infection" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="intravenous diltiazam" id="TL65" toID="E11" toText="a diltiazam drip" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="intravenous diltiazam" id="TL66" toID="E95" toText="atrial fibrillation" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="metoprolol" id="TL67" toID="E39" toText="anticoagulation" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="metoprolol" id="TL68" toID="E95" toText="atrial fibrillation" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="metoprolol" id="TL69" toID="E14" toText="oral medications" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="this admission" id="TL7" toID="E0" toText="Admission" type="AFTER"/>
+<TLINK fromID="E37" fromText="intravenous diltiazam" id="TL70" toID="E38" toText="metoprolol" type="BEFORE"/>
+<TLINK fromID="E40" fromText="A transthoracic echocardiogram" id="TL71" toID="E97" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E98" fromText="a mildly dilated and elongated left atrium" id="TL72" toID="E97" toText="showed" type="BEFORE"/>
+<TLINK fromID="E99" fromText="a markedly dilated right atrium" id="TL73" toID="E97" toText="showed" type="BEFORE"/>
+<TLINK fromID="E42" fromText="IV metoprolol" id="TL74" toID="E41" toText="rapid atrial fibrillation" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="his rate" id="TL75" toID="E44" toText="metoprolol" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="metoprolol" id="TL76" toID="E45" toText="diltiazam" type="OVERLAP"/>
+<TLINK fromID="E101" fromText="transesophageal echocardiogram" id="TL77" toID="E100" toText="The EP service" type="OVERLAP"/>
+<TLINK fromID="E46" fromText="cardioversion" id="TL78" toID="E100" toText="The EP service" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="The TEE" id="TL79" toID="E48" toText="thrombus" type="OVERLAP"/>
+<TLINK fromID="E65" fromText="this admission" id="TL8" toID="E59" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E102" fromText="cardioverted" id="TL80" toID="E47" toText="The TEE" type="AFTER"/>
+<TLINK fromID="E49" fromText="ibutilide" id="TL81" toID="E102" toText="cardioverted" type="OVERLAP"/>
+<TLINK fromID="E103" fromText="amiodarone" id="TL82" toID="T6" toText="10 week" type="OVERLAP"/>
+<TLINK fromID="E103" fromText="amiodarone" id="TL83" toID="E49" toText="ibutilide" type="AFTER"/>
+<TLINK fromID="E66" fromText="discharge" id="TL84" toID="E59" toText="Discharge" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="EKG" id="TL85" toID="E66" toText="discharge" type="BEFORE"/>
+<TLINK fromID="E50" fromText="EKG" id="TL86" toID="E104" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E105" fromText="mild QT prolongation" id="TL87" toID="E104" toText="showed" type="BEFORE"/>
+<TLINK fromID="E106" fromText="effect" id="TL88" toID="E104" toText="showed" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="amiodarone" id="TL89" toID="E106" toText="effect" type="OVERLAP"/>
+<TLINK fromID="E74" fromText="noted" id="TL9" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E107" fromText="EKG" id="TL90" toID="E108" toText="LFTs" type="OVERLAP"/>
+<TLINK fromID="E109" fromText="his PCP" id="TL91" toID="E108" toText="LFTs" type="OVERLAP"/>
+<TLINK fromID="E110" fromText="amiodarone" id="TL92" toID="E107" toText="EKG" type="BEFORE"/>
+<TLINK fromID="E112" fromText="followed" id="TL93" toID="E111" toText="the nutrition team" type="OVERLAP"/>
+<TLINK fromID="E112" fromText="followed" id="TL94" toID="E113" toText="his admission" type="OVERLAP"/>
+<TLINK fromID="E113" fromText="his admission" id="TL95" toID="E0" toText="Admission" type="AFTER"/>
+<TLINK fromID="E113" fromText="his admission" id="TL96" toID="E59" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E52" fromText="several asymptomatic electrolyte deficiecies" id="TL97" toID="E114" toText="demonstrated" type="BEFORE"/>
+<TLINK fromID="E53" fromText="inadequate absorption" id="TL98" toID="E52" toText="several asymptomatic electrolyte deficiecies" type="BEFORE"/>
+<TLINK fromID="E54" fromText="his surgery" id="TL99" toID="E52" toText="several asymptomatic electrolyte deficiecies" type="BEFORE"/>
+<SECTIME dvalue="2015-10-10" end="28" id="S0" start="18" text="2015-10-10" type="ADMISSION"/>
+<SECTIME dvalue="2015-10-21" end="56" id="S1" start="46" text="2015-10-21" type="DISCHARGE"/>
+<TLINK fromID="E11" fromText="a diltiazam drip" id="SECTIME0" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E12" fromText="atrial fibrillation" id="SECTIME1" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E13" fromText="his heart rate" id="SECTIME2" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E89" fromText="transitioned" id="SECTIME3" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E14" fromText="oral medications" id="SECTIME4" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E63" fromText="transferred" id="SECTIME5" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E64" fromText="the medicine service" id="SECTIME6" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E90" fromText="Cellulitis" id="SECTIME7" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E15" fromText="Bacteremia" id="SECTIME8" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E91" fromText="Review" id="SECTIME9" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E92" fromText="admissions" id="SECTIME10" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E16" fromText="cellulitis" id="SECTIME11" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E17" fromText="bacteremia" id="SECTIME12" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E18" fromText="Blood cultures" id="SECTIME13" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E1" fromText="gastric bypass" id="SECTIME14" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E65" fromText="this admission" id="SECTIME15" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E19" fromText="Beta streptococcus Group B" id="SECTIME16" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E20" fromText="the same infection" id="SECTIME17" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E21" fromText="lower extremity cellulitis" id="SECTIME18" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E22" fromText="A left lower extremity ultrasound" id="SECTIME19" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E2" fromText="laprascopic cholecystectomy" id="SECTIME20" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E23" fromText="deep venous thrombosis" id="SECTIME21" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E24" fromText="a CTA" id="SECTIME22" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E25" fromText="vancomycin" id="SECTIME23" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E26" fromText="zosyn" id="SECTIME24" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E27" fromText="culture" id="SECTIME25" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E28" fromText="the organism" id="SECTIME26" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E93" fromText="transitioned" id="SECTIME27" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E29" fromText="intravenous penicillin" id="SECTIME28" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E30" fromText="oral levofloxacin" id="SECTIME29" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E31" fromText="the infection" id="SECTIME30" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E94" fromText="admission" id="SECTIME31" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E32" fromText="levofloxacin" id="SECTIME32" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E33" fromText="a PICC line" id="SECTIME33" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E34" fromText="IV Penicillin" id="SECTIME34" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E35" fromText="Atrial fibrillation" id="SECTIME35" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E95" fromText="atrial fibrillation" id="SECTIME36" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E70" fromText="presented" id="SECTIME37" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="infection" id="SECTIME38" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E96" fromText="structural heart disease" id="SECTIME39" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E37" fromText="intravenous diltiazam" id="SECTIME40" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E71" fromText="fever" id="SECTIME41" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="metoprolol" id="SECTIME42" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E39" fromText="anticoagulation" id="SECTIME43" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E40" fromText="A transthoracic echocardiogram" id="SECTIME44" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E97" fromText="showed" id="SECTIME45" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E98" fromText="a mildly dilated and elongated left atrium" id="SECTIME46" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E72" fromText="chills" id="SECTIME47" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E99" fromText="a markedly dilated right atrium" id="SECTIME48" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E41" fromText="rapid atrial fibrillation" id="SECTIME49" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E73" fromText="left lower extemity redness" id="SECTIME50" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="IV metoprolol" id="SECTIME51" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E43" fromText="his rate" id="SECTIME52" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E44" fromText="metoprolol" id="SECTIME53" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E45" fromText="diltiazam" id="SECTIME54" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E100" fromText="The EP service" id="SECTIME55" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E101" fromText="transesophageal echocardiogram" id="SECTIME56" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E46" fromText="cardioversion" id="SECTIME57" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E47" fromText="The TEE" id="SECTIME58" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E48" fromText="thrombus" id="SECTIME59" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E102" fromText="cardioverted" id="SECTIME60" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E49" fromText="ibutilide" id="SECTIME61" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E103" fromText="amiodarone" id="SECTIME62" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E50" fromText="EKG" id="SECTIME63" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E66" fromText="discharge" id="SECTIME64" toID="T2" toText="2015-10-21" type="OVERLAP"/>
+<TLINK fromID="E104" fromText="showed" id="SECTIME65" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E105" fromText="mild QT prolongation" id="SECTIME66" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E106" fromText="effect" id="SECTIME67" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E51" fromText="amiodarone" id="SECTIME68" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E107" fromText="EKG" id="SECTIME69" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E108" fromText="LFTs" id="SECTIME70" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E109" fromText="his PCP" id="SECTIME71" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E110" fromText="amiodarone" id="SECTIME72" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E112" fromText="followed" id="SECTIME73" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E111" fromText="the nutrition team" id="SECTIME74" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E113" fromText="his admission" id="SECTIME75" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E114" fromText="demonstrated" id="SECTIME76" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E52" fromText="several asymptomatic electrolyte deficiecies" id="SECTIME77" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E53" fromText="inadequate absorption" id="SECTIME78" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E54" fromText="his surgery" id="SECTIME79" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E3" fromText="lower extremity cellulitis" id="SECTIME80" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E55" fromText="repletion" id="SECTIME81" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E115" fromText="Vitamin D" id="SECTIME82" toID="T2" toText="2015-10-21" type="OVERLAP"/>
+<TLINK fromID="E116" fromText="parathyroid tests" id="SECTIME83" toID="T2" toText="2015-10-21" type="OVERLAP"/>
+<TLINK fromID="E68" fromText="discharged" id="SECTIME84" toID="T2" toText="2015-10-21" type="OVERLAP"/>
+<TLINK fromID="E117" fromText="Kindred Park View Specialty Hospital of Springfield Rehabilitation Hospital" id="SECTIME85" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E118" fromText="a King of Hearts monitor" id="SECTIME86" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E119" fromText="follow-up" id="SECTIME87" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E120" fromText="cardiology" id="SECTIME88" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E74" fromText="noted" id="SECTIME89" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E121" fromText="his primary care physician" id="SECTIME90" toID="T2" toText="2015-10-21" type="AFTER"/>
+<TLINK fromID="E75" fromText="his symptoms" id="SECTIME91" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E76" fromText="the appearance" id="SECTIME92" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E4" fromText="previous episodes" id="SECTIME93" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E77" fromText="denied" id="SECTIME94" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="recent trauma to the area" id="SECTIME95" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E78" fromText="Review of systems" id="SECTIME96" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E79" fromText="painful urination" id="SECTIME97" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E80" fromText="a reduction in urine output" id="SECTIME98" toID="T1" toText="2015-10-10" type="BEFORE"/>
+<TLINK fromID="E81" fromText="denied" id="SECTIME99" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E82" fromText="chest pain" id="SECTIME100" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E83" fromText="shortness of breath" id="SECTIME101" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E84" fromText="palpitations" id="SECTIME102" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E85" fromText="abdominal pain" id="SECTIME103" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E86" fromText="N/V" id="SECTIME104" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E87" fromText="penile discharge" id="SECTIME105" toID="T1" toText="2015-10-10" type="OVERLAP"/>
+<TLINK fromID="E88" fromText="obese" id="SECTIME106" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E60" fromText="admitted" id="SECTIME107" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E6" fromText="cellulitis" id="SECTIME108" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E7" fromText="bacteremia" id="SECTIME109" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E8" fromText="hypotensive atrial fibrillation" id="SECTIME110" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E61" fromText="admitted" id="SECTIME111" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E62" fromText="the Medical ICU" id="SECTIME112" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E9" fromText="his hypotension" id="SECTIME113" toID="T2" toText="2015-10-21" type="BEFORE"/>
+<TLINK fromID="E10" fromText="IVF hydration" id="SECTIME114" toID="T2" toText="2015-10-21" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

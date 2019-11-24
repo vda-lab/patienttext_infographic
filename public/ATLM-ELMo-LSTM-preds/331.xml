@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+10/15/1999
+DISCHARGE DATE :
+10/18/1999
+HISTORY OF PRESENT ILLNESS :
+Mr. Factor is a 76 year old white male with acute inferior myocardial infarction , who was urgently transferred by Dr. Lenni Factor for cardiac catheterization and possible angioplasty .
+His only cardiac risk factor includes hypertension .
+The night of Oct 14 , 1999 the patient developed chest discomfort associated with shortness of breath .
+On October 15 , 1999 at 6 AM the patient was admitted to No Verlmerver Medical Center .
+An electrocardiogram showed acute inferior myocardial infarction .
+Due to unknown duration of the chest pain thepatient was transferred urgently to the TGCHO for cardiac catheterization .
+Shortly after Aggrastat was started , the patient became pain free .
+HOSPITAL COURSE AND TREATMENT :
+The patient was directly admitted to the cardiac catheterization laboratory .
+Coronary angiography , right heart catheterization and percutaneous intervention of the RCA were performed from the right groin without complications .
+The proximal RCA was totally occluded with good left to right collaterals .
+The LAD showed a 40% stenosis in the proximal segment .
+The circumflex showed mild atherosclerotic .
+The RCA occlusion was successfully dilated and sent using a 3.0 X 23 mm Duet with post stent dilatation up to 16 atmospheres .
+Following intervention right heart catheterization was performed to rule out RV infarct .
+The RA was 5 .
+PA was 19/7 with a mean of 13 .
+PCW was 11 .
+Of note there was a clear A wave in the RV tracing , suggestive of RV infarct .
+The next day the patient was quite confused and disoriented , which gradually disappeared .
+An echocardiogram was performed to evaluate the LV function , which showed an ejection fraction of 53% with inferoposteriorakinesis / hypokinesis .
+The next day the patient &amp;apos;s mental status came back to baseline and he remained free of angina .
+ASHEE SHOULTSNER , M.D.
+Electronically Signed ASHEE SHOULTSNER , M.D.
+11/07/1999 11:06
+TR :
+ghu
+DD :
+10/18/1999
+TD :
+10/18/1999 10:59
+Acc :
+ASHEE SHOULTSNER , M.D. Dr. Lenni Factor No Verlmerver Medical Center Dr. Tomedankell Flowayles No Verlmerver Medical Center STAT
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-04-26 14:03" modality="FACTUAL" most-likely-duration="0Y0M775D3H8m" most-likely-start="1999-10-15 16:38" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2001-04-04 19:13"/>
+<EVENT end="1034" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:27" modality="FACTUAL" most-likely-duration="0Y0M94D22H24m" most-likely-start="1999-10-16 14:53" polarity="NEG" start="1021" temporally-annotated="YES" text="complications" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:19"/>
+<EVENT end="1074" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:29" modality="FACTUAL" most-likely-duration="0Y0M105D14H48m" most-likely-start="1999-10-16 14:53" polarity="POS" start="1058" temporally-annotated="YES" text="totally occluded" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:17"/>
+<EVENT end="1127" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:28" modality="FACTUAL" most-likely-duration="0Y0M124D9H33m" most-likely-start="1999-10-16 14:54" polarity="POS" start="1121" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:20"/>
+<EVENT end="1166" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:30" modality="FACTUAL" most-likely-duration="0Y0M95D18H57m" most-likely-start="1999-10-16 14:54" polarity="POS" start="1128" temporally-annotated="YES" text="a 40% stenosis in the proximal segment" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:18"/>
+<EVENT end="1190" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:30" modality="FACTUAL" most-likely-duration="0Y0M129D16H28m" most-likely-start="1999-10-16 14:54" polarity="POS" start="1184" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:18"/>
+<EVENT end="1211" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:28" modality="FACTUAL" most-likely-duration="0Y0M95D17H10m" most-likely-start="1999-10-16 14:55" polarity="POS" start="1191" temporally-annotated="YES" text="mild atherosclerotic" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:22"/>
+<EVENT end="1231" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:28" modality="FACTUAL" most-likely-duration="0Y0M106D16H41m" most-likely-start="1999-10-16 14:55" polarity="POS" start="1214" temporally-annotated="YES" text="The RCA occlusion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:22"/>
+<EVENT end="1256" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M106D5H58m" most-likely-start="1999-10-16 14:55" polarity="POS" start="1249" temporally-annotated="YES" text="dilated" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:19"/>
+<EVENT end="1265" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M107D12H45m" most-likely-start="1999-10-16 14:55" polarity="POS" start="1261" temporally-annotated="YES" text="sent" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:19"/>
+<EVENT end="1290" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M109D9H42m" most-likely-start="1999-10-16 14:55" polarity="POS" start="1272" temporally-annotated="YES" text="a 3.0 X 23 mm Duet" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:19"/>
+<EVENT end="166" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-01 09:57" modality="FACTUAL" most-likely-duration="0Y0M122D16H14m" most-likely-start="1999-10-14 19:25" polarity="POS" start="130" temporally-annotated="YES" text="acute inferior myocardial infarction" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-27 14:53"/>
+<EVENT end="1317" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M122D1H43m" most-likely-start="1999-10-16 14:55" polarity="POS" start="1296" temporally-annotated="YES" text="post stent dilatation" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:19"/>
+<EVENT end="1363" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M131D23H19m" most-likely-start="1999-10-16 14:55" polarity="POS" start="1351" temporally-annotated="YES" text="intervention" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:19"/>
+<EVENT end="1391" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:29" modality="FACTUAL" most-likely-duration="0Y0M111D13H58m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1364" temporally-annotated="YES" text="right heart catheterization" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:23"/>
+<EVENT end="1428" id="E56" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:29" modality="POSSIBLE" most-likely-duration="0Y0M95D10H35m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1418" temporally-annotated="YES" text="RV infarct" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:23"/>
+<EVENT end="1437" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:29" modality="FACTUAL" most-likely-duration="0Y0M112D21H34m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1431" temporally-annotated="YES" text="The RA" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:23"/>
+<EVENT end="1448" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M109D4H32m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1446" temporally-annotated="YES" text="PA" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:21"/>
+<EVENT end="1481" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M106D16H58m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1478" temporally-annotated="YES" text="PCW" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:21"/>
+<EVENT end="1523" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M119D20H29m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1509" temporally-annotated="YES" text="a clear A wave" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:21"/>
+<EVENT end="1541" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="FACTUAL" most-likely-duration="0Y0M107D14H40m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1527" temporally-annotated="YES" text="the RV tracing" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:21"/>
+<EVENT end="1568" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:31" modality="POSSIBLE" most-likely-duration="0Y0M95D7H49m" most-likely-start="1999-10-16 14:56" polarity="POS" start="1558" temporally-annotated="YES" text="RV infarct" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:21"/>
+<EVENT end="1614" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 06:09" modality="FACTUAL" most-likely-duration="0Y0M108D17H49m" most-likely-start="1999-10-17 09:26" polarity="POS" start="1600" temporally-annotated="YES" text="quite confused" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 12:43"/>
+<EVENT end="1630" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 07:43" modality="FACTUAL" most-likely-duration="0Y0M100D7H33m" most-likely-start="1999-10-17 11:33" polarity="POS" start="1619" temporally-annotated="YES" text="disoriented" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 15:23"/>
+<EVENT end="1660" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 09:30" modality="FACTUAL" most-likely-duration="0Y0M94D16H26m" most-likely-start="1999-10-17 13:27" polarity="POS" start="1649" temporally-annotated="YES" text="disappeared" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 17:24"/>
+<EVENT end="1680" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 11:07" modality="FACTUAL" most-likely-duration="0Y0M104D8H1m" most-likely-start="1999-10-17 15:00" polarity="POS" start="1663" temporally-annotated="YES" text="An echocardiogram" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 18:53"/>
+<EVENT end="1706" id="E57" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 12:18" modality="FACTUAL" most-likely-duration="0Y0M119D9H28m" most-likely-start="1999-10-17 16:04" polarity="POS" start="1698" temporally-annotated="YES" text="evaluate" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 19:50"/>
+<EVENT end="1722" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 12:59" modality="FACTUAL" most-likely-duration="0Y0M99D20H2m" most-likely-start="1999-10-17 16:39" polarity="POS" start="1707" temporally-annotated="YES" text="the LV function" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 20:19"/>
+<EVENT end="1737" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 13:08" modality="FACTUAL" most-likely-duration="0Y0M125D21H42m" most-likely-start="1999-10-17 16:36" polarity="POS" start="1731" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 20:04"/>
+<EVENT end="1758" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 12:31" modality="FACTUAL" most-likely-duration="0Y0M107D21H54m" most-likely-start="1999-10-17 15:30" polarity="POS" start="1738" temporally-annotated="YES" text="an ejection fraction" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 18:29"/>
+<EVENT end="1794" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 10:31" modality="FACTUAL" most-likely-duration="0Y0M110D19H29m" most-likely-start="1999-10-17 12:30" polarity="POS" start="1771" temporally-annotated="YES" text="inferoposteriorakinesis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 14:29"/>
+<EVENT end="1808" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-14 15:36" modality="FACTUAL" most-likely-duration="0Y0M94D16H39m" most-likely-start="1999-10-17 15:51" polarity="POS" start="1797" temporally-annotated="YES" text="hypokinesis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-27 16:06"/>
+<EVENT end="1857" id="E58" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-03 20:18" modality="FACTUAL" most-likely-duration="0Y0M120D2H53m" most-likely-start="1999-10-17 21:34" polarity="POS" start="1824" temporally-annotated="YES" text="the patient 's mental status" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-12-01 08:50"/>
+<EVENT end="197" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-11 08:14" modality="FACTUAL" most-likely-duration="0Y0M115D15H32m" most-likely-start="1999-10-14 10:00" polarity="POS" start="186" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-24 11:46"/>
+<EVENT end="1910" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-04 03:21" modality="FACTUAL" most-likely-duration="0Y0M95D5H1m" most-likely-start="1999-10-17 22:13" polarity="NEG" start="1904" temporally-annotated="YES" text="angina" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-12-01 03:05"/>
+<EVENT end="245" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-11 14:35" modality="FACTUAL" most-likely-duration="0Y0M107D8H50m" most-likely-start="1999-10-14 15:33" polarity="POS" start="222" temporally-annotated="YES" text="cardiac catheterization" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-24 16:31"/>
+<EVENT end="270" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-11 18:08" modality="POSSIBLE" most-likely-duration="0Y0M95D10H58m" most-likely-start="1999-10-14 18:44" polarity="POS" start="259" temporally-annotated="YES" text="angioplasty" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-24 19:20"/>
+<EVENT end="38" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-01 18:51" modality="FACTUAL" most-likely-duration="0Y0M188D13H21m" most-likely-start="1999-10-15 17:52" polarity="POS" start="29" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-11-29 02:53"/>
+<EVENT end="323" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-11 19:38" modality="FACTUAL" most-likely-duration="0Y0M94D17H17m" most-likely-start="1999-10-14 20:05" polarity="POS" start="311" temporally-annotated="YES" text="hypertension" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-24 20:32"/>
+<EVENT end="374" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-12 10:25" modality="FACTUAL" most-likely-duration="0Y0M117D5H58m" most-likely-start="1999-10-15 11:59" polarity="POS" start="365" temporally-annotated="YES" text="developed" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-25 13:33"/>
+<EVENT end="391" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-12 07:22" modality="FACTUAL" most-likely-duration="0Y0M112D4H12m" most-likely-start="1999-10-15 09:13" polarity="POS" start="375" temporally-annotated="YES" text="chest discomfort" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-25 11:04"/>
+<EVENT end="427" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-12 07:47" modality="FACTUAL" most-likely-duration="0Y0M94D16H12m" most-likely-start="1999-10-15 09:45" polarity="POS" start="408" temporally-annotated="YES" text="shortness of breath" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-25 11:43"/>
+<EVENT end="483" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 11:25" modality="FACTUAL" most-likely-duration="0Y0M101D5H39m" most-likely-start="1999-10-16 12:34" polarity="POS" start="475" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 13:43"/>
+<EVENT end="515" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 11:41" modality="FACTUAL" most-likely-duration="0Y0M95D19H34m" most-likely-start="1999-10-16 12:47" polarity="POS" start="487" temporally-annotated="YES" text="No Verlmerver Medical Center" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 13:53"/>
+<EVENT end="538" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 12:09" modality="FACTUAL" most-likely-duration="0Y0M97D18H35m" most-likely-start="1999-10-16 13:24" polarity="POS" start="518" temporally-annotated="YES" text="An electrocardiogram" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 14:39"/>
+<EVENT end="545" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 12:32" modality="FACTUAL" most-likely-duration="0Y0M130D4H51m" most-likely-start="1999-10-16 13:52" polarity="POS" start="539" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 15:12"/>
+<EVENT end="582" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 12:49" modality="FACTUAL" most-likely-duration="0Y0M95D2H3m" most-likely-start="1999-10-16 14:11" polarity="POS" start="546" temporally-annotated="YES" text="acute inferior myocardial infarction" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 15:33"/>
+<EVENT end="626" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:02" modality="FACTUAL" most-likely-duration="0Y0M115D3H59m" most-likely-start="1999-10-16 14:23" polarity="POS" start="612" temporally-annotated="YES" text="the chest pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 15:44"/>
+<EVENT end="653" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:07" modality="FACTUAL" most-likely-duration="0Y0M110D17H43m" most-likely-start="1999-10-16 14:32" polarity="POS" start="642" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 15:57"/>
+<EVENT end="675" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:12" modality="FACTUAL" most-likely-duration="0Y0M105D8H7m" most-likely-start="1999-10-16 14:38" polarity="POS" start="666" temporally-annotated="YES" text="the TGCHO" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:04"/>
+<EVENT end="703" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:16" modality="FACTUAL" most-likely-duration="0Y0M95D4H38m" most-likely-start="1999-10-16 14:42" polarity="POS" start="680" temporally-annotated="YES" text="cardiac catheterization" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:08"/>
+<EVENT end="729" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:19" modality="FACTUAL" most-likely-duration="0Y0M111D12H47m" most-likely-start="1999-10-16 14:45" polarity="POS" start="720" temporally-annotated="YES" text="Aggrastat" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:11"/>
+<EVENT end="767" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:22" modality="FACTUAL" most-likely-duration="0Y0M117D22H35m" most-likely-start="1999-10-16 14:47" polarity="POS" start="763" temporally-annotated="YES" text="pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:12"/>
+<EVENT end="840" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:23" modality="FACTUAL" most-likely-duration="0Y0M102D19H4m" most-likely-start="1999-10-16 14:49" polarity="POS" start="832" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:15"/>
+<EVENT end="882" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:25" modality="FACTUAL" most-likely-duration="0Y0M94D18H34m" most-likely-start="1999-10-16 14:50" polarity="POS" start="844" temporally-annotated="YES" text="the cardiac catheterization laboratory" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:15"/>
+<EVENT end="905" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:25" modality="FACTUAL" most-likely-duration="0Y0M103D7H42m" most-likely-start="1999-10-16 14:51" polarity="POS" start="885" temporally-annotated="YES" text="Coronary angiography" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:17"/>
+<EVENT end="935" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:26" modality="FACTUAL" most-likely-duration="0Y0M106D3H40m" most-likely-start="1999-10-16 14:52" polarity="POS" start="908" temporally-annotated="YES" text="right heart catheterization" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:18"/>
+<EVENT end="976" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1999-10-13 13:29" modality="FACTUAL" most-likely-duration="0Y0M115D0H10m" most-likely-start="1999-10-16 14:52" polarity="POS" start="940" temporally-annotated="YES" text="percutaneous intervention of the RCA" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1999-10-26 16:15"/>
+<TIMEX3 end="1583" id="T1" mod="NA" start="1571" text="The next day" type="DATE" val="1999-10-16"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="10/15/1999" type="DATE" val="1999-10-15"/>
+<TIMEX3 end="1823" id="T2" mod="NA" start="1811" text="The next day" type="DATE" val="1999-10-17"/>
+<TIMEX3 end="352" id="T4" mod="END" start="339" text="Oct 14 , 1999" type="DATE" val="1999-10-14"/>
+<TIMEX3 end="458" id="T5" mod="NA" start="433" text="October 15 , 1999 at 6 AM" type="TIME" val="1999-10-15T06:00"/>
+<TIMEX3 end="56" id="T3" mod="NA" start="46" text="10/18/1999" type="DATE" val="1999-10-18"/>
+<TLINK fromID="T0" fromText="10/15/1999" id="TL0" toID="E0" toText="ADMISSION" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="An electrocardiogram" id="TL1" toID="E33" toText="showed" type="SIMULTANEOUS"/>
+<TLINK fromID="E43" fromText="developed" id="TL10" toID="T4" toText="Oct 14 , 1999" type="OVERLAP"/>
+<TLINK fromID="E43" fromText="developed" id="TL11" toID="E3" toText="chest discomfort" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="chest discomfort" id="TL12" toID="E4" toText="shortness of breath" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="admitted" id="TL13" toID="T5" toText="October 15 , 1999 at 6 AM" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="No Verlmerver Medical Center" id="TL14" toID="E42" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E6" fromText="acute inferior myocardial infarction" id="TL15" toID="E33" toText="showed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E46" fromText="transferred" id="TL16" toID="E45" toText="the chest pain" type="AFTER"/>
+<TLINK fromID="E46" fromText="transferred" id="TL17" toID="E39" toText="transferred" type="SIMULTANEOUS"/>
+<TLINK fromID="E47" fromText="the TGCHO" id="TL18" toID="E46" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E48" fromText="cardiac catheterization" id="TL19" toID="E47" toText="the TGCHO" type="AFTER"/>
+<TLINK fromID="E9" fromText="right heart catheterization" id="TL2" toID="E10" toText="percutaneous intervention of the RCA" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="Aggrastat" id="TL20" toID="E47" toText="the TGCHO" type="AFTER"/>
+<TLINK fromID="E49" fromText="pain" id="TL21" toID="E7" toText="Aggrastat" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="admitted" id="TL22" toID="E0" toText="ADMISSION" type="SIMULTANEOUS"/>
+<TLINK fromID="E50" fromText="the cardiac catheterization laboratory" id="TL23" toID="E34" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="Coronary angiography" id="TL24" toID="E50" toText="the cardiac catheterization laboratory" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="right heart catheterization" id="TL25" toID="E50" toText="the cardiac catheterization laboratory" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="percutaneous intervention of the RCA" id="TL26" toID="E50" toText="the cardiac catheterization laboratory" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="complications" id="TL27" toID="E50" toText="the cardiac catheterization laboratory" type="DURING"/>
+<TLINK fromID="E12" fromText="totally occluded" id="TL28" toID="E50" toText="the cardiac catheterization laboratory" type="DURING"/>
+<TLINK fromID="E13" fromText="a 40% stenosis in the proximal segment" id="TL29" toID="E35" toText="showed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E14" fromText="mild atherosclerotic" id="TL3" toID="E13" toText="a 40% stenosis in the proximal segment" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="mild atherosclerotic" id="TL30" toID="E51" toText="showed" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E15" fromText="The RCA occlusion" id="TL31" toID="E12" toText="totally occluded" type="SIMULTANEOUS"/>
+<TLINK fromID="E15" fromText="The RCA occlusion" id="TL32" toID="E52" toText="dilated" type="ENDED_BY"/>
+<TLINK fromID="E16" fromText="a 3.0 X 23 mm Duet" id="TL33" toID="E54" toText="post stent dilatation" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="intervention" id="TL34" toID="E52" toText="dilated" type="SIMULTANEOUS"/>
+<TLINK fromID="E17" fromText="right heart catheterization" id="TL35" toID="E55" toText="intervention" type="AFTER"/>
+<TLINK fromID="E17" fromText="right heart catheterization" id="TL36" toID="E9" toText="right heart catheterization" type="SIMULTANEOUS"/>
+<TLINK fromID="E17" fromText="right heart catheterization" id="TL37" toID="E56" toText="RV infarct" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="The RA" id="TL38" toID="E19" toText="PA" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="PA" id="TL39" toID="E21" toText="PCW" type="OVERLAP"/>
+<TLINK fromID="E38" fromText="DISCHARGE" id="TL4" toID="T3" toText="10/18/1999" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="a clear A wave" id="TL40" toID="E23" toText="the RV tracing" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="a clear A wave" id="TL41" toID="E24" toText="RV infarct" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="quite confused" id="TL42" toID="T1" toText="The next day" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="disoriented" id="TL43" toID="T1" toText="The next day" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="disoriented" id="TL44" toID="E36" toText="disappeared" type="ENDED_BY"/>
+<TLINK fromID="E57" fromText="evaluate" id="TL45" toID="E27" toText="An echocardiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E28" fromText="the LV function" id="TL47" toID="E28" toText="the LV function" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E29" fromText="an ejection fraction" id="TL48" toID="E57" toText="evaluate" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E30" fromText="inferoposteriorakinesis" id="TL49" toID="E29" toText="an ejection fraction" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="acute inferior myocardial infarction" id="TL5" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E31" fromText="hypokinesis" id="TL50" toID="E30" toText="inferoposteriorakinesis" type="OVERLAP"/>
+<TLINK fromID="E58" fromText="the patient 's mental status" id="TL51" toID="T2" toText="The next day" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="angina" id="TL52" toID="E58" toText="the patient 's mental status" type="ENDED_BY"/>
+<TLINK fromID="E39" fromText="transferred" id="TL6" toID="E0" toText="ADMISSION" type="SIMULTANEOUS"/>
+<TLINK fromID="E40" fromText="cardiac catheterization" id="TL7" toID="E39" toText="transferred" type="AFTER"/>
+<TLINK fromID="E41" fromText="angioplasty" id="TL8" toID="E40" toText="cardiac catheterization" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="hypertension" id="TL9" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E11" fromText="complications" id="Sectime0" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E12" fromText="totally occluded" id="Sectime1" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E35" fromText="showed" id="Sectime2" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E13" fromText="a 40% stenosis in the proximal segment" id="Sectime3" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E51" fromText="showed" id="Sectime4" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E14" fromText="mild atherosclerotic" id="Sectime5" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E15" fromText="The RCA occlusion" id="Sectime6" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E52" fromText="dilated" id="Sectime7" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E53" fromText="sent" id="Sectime8" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E16" fromText="a 3.0 X 23 mm Duet" id="Sectime9" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E1" fromText="acute inferior myocardial infarction" id="Sectime0" toID="T0" toText="10/15/1999" type="BEFORE"/>
+<TLINK fromID="E54" fromText="post stent dilatation" id="Sectime10" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E55" fromText="intervention" id="Sectime11" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E17" fromText="right heart catheterization" id="Sectime12" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E56" fromText="RV infarct" id="Sectime13" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E18" fromText="The RA" id="Sectime14" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E19" fromText="PA" id="Sectime15" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E21" fromText="PCW" id="Sectime16" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E22" fromText="a clear A wave" id="Sectime17" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E23" fromText="the RV tracing" id="Sectime18" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E24" fromText="RV infarct" id="Sectime19" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E25" fromText="quite confused" id="Sectime20" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E26" fromText="disoriented" id="Sectime21" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E36" fromText="disappeared" id="Sectime22" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E27" fromText="An echocardiogram" id="Sectime23" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E57" fromText="evaluate" id="Sectime24" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E28" fromText="the LV function" id="Sectime25" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E37" fromText="showed" id="Sectime26" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E29" fromText="an ejection fraction" id="Sectime27" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E30" fromText="inferoposteriorakinesis" id="Sectime28" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E31" fromText="hypokinesis" id="Sectime29" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E58" fromText="the patient 's mental status" id="Sectime30" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E39" fromText="transferred" id="Sectime1" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="angina" id="Sectime31" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E40" fromText="cardiac catheterization" id="Sectime2" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="angioplasty" id="Sectime3" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="hypertension" id="Sectime4" toID="T0" toText="10/15/1999" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E43" fromText="developed" id="Sectime5" toID="T0" toText="10/15/1999" type="BEFORE"/>
+<TLINK fromID="E3" fromText="chest discomfort" id="Sectime6" toID="T0" toText="10/15/1999" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E4" fromText="shortness of breath" id="Sectime7" toID="T0" toText="10/15/1999" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E42" fromText="admitted" id="Sectime8" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="No Verlmerver Medical Center" id="Sectime9" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="An electrocardiogram" id="Sectime10" toID="T0" toText="10/15/1999" type="BEFORE"/>
+<TLINK fromID="E33" fromText="showed" id="Sectime11" toID="T0" toText="10/15/1999" type="BEFORE"/>
+<TLINK fromID="E6" fromText="acute inferior myocardial infarction" id="Sectime12" toID="T0" toText="10/15/1999" type="BEFORE"/>
+<TLINK fromID="E45" fromText="the chest pain" id="Sectime13" toID="T0" toText="10/15/1999" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E46" fromText="transferred" id="Sectime14" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="the TGCHO" id="Sectime15" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="cardiac catheterization" id="Sectime16" toID="T0" toText="10/15/1999" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="Aggrastat" id="Sectime17" toID="T0" toText="10/15/1999" type="BEFORE"/>
+<TLINK fromID="E49" fromText="pain" id="Sectime18" toID="T0" toText="10/15/1999" type="BEFORE"/>
+<TLINK fromID="E34" fromText="admitted" id="Sectime32" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E50" fromText="the cardiac catheterization laboratory" id="Sectime33" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E8" fromText="Coronary angiography" id="Sectime34" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E9" fromText="right heart catheterization" id="Sectime35" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<TLINK fromID="E10" fromText="percutaneous intervention of the RCA" id="Sectime36" toID="T3" toText="10/18/1999" type="BEFORE"/>
+<SECTIME dvalue="1999-10-15" end="28" id="S0" start="18" text="10/15/1999" type="ADMISSION"/>
+<SECTIME dvalue="1999-10-18" end="56" id="S1" start="46" text="10/18/1999" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

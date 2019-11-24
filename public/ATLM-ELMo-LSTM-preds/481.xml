@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+09/09/2003
+DISCHARGE DATE :
+09/12/2003
+HISTORY OF PRESENT ILLNESS :
+The patient is an 84 year old male , with a history of hypertension , who was discovered to have an asymptomatic 7 cm abdominal aortic aneurysm on CT scan obtained in the emergency room back in May .
+At that time he had presented with abdominal pain , and was found to have acute cholecystectomy .
+He underwent an uncomplicated laparoscopic cholecystectomy .
+He presents at this time for endovascular repair of this abdominal aortic aneurysm .
+HOSPITAL COURSE :
+The patient was admitted to Vascular Surgery Service as a same day admission , and taken to the operating room for an uncomplicated endovascular repair of his abdominal aortic aneurysm , and Anurx modular bifurcated graft was placed , and both common femoral arteries were repaired in the usual fashion .
+He had pulsatile pulse volume recordings , in both lower extremities , and both renal arteries were noted to be patent , as were both internal iliac arteries .
+His angiogram in the operating room , revealed no evidence of an endo leak .
+Postoperatively , his course was relatively uncomplicated .
+He did have an episode of a prolonged sinus pause in the recovery room , which resulted in transient loss of consciousness .
+He responded to a Neo-Synephrine bolus , and had no further complications from this standpoint .
+Dr. Rosean Fletcher , of the Cardiology Department was consulted , and it was his opinion that the sinus pause was related to increased vagal tone postoperatively , perhaps secondary to the epidural , as well as the patient &amp;apos;s Atenolol use .
+His Atenolol was held , and he had no further pauses during his stay .
+His postoperative CT scan showed no evidence of endo leak , or graft kinking .
+He maintained good peripheral pulses and warm feet postoperatively .
+However , he did develop significant ecchymosis in both groins , extending down into his scrotum .
+There was no evidence of significant groin hematomas .
+He tolerated a regular diet .
+His pain was adequately controlled with oral medications .
+Accordingly , the patient was discharged to home on postoperative day 2 .
+He will be visited by LDAMC for blood pressure and incision checks .
+He will follow up with Dr. Dye in the Clinic .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-03-21 14:06" modality="FACTUAL" most-likely-duration="0Y0M774D19H33m" most-likely-start="2003-09-09 16:41" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2005-02-27 19:16"/>
+<EVENT end="1026" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 17:26" modality="FACTUAL" most-likely-duration="0Y0M104D16H33m" most-likely-start="2003-09-09 23:27" polarity="POS" start="1013" temporally-annotated="YES" text="His angiogram" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 05:28"/>
+<EVENT end="1048" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 17:50" modality="FACTUAL" most-likely-duration="0Y0M100D21H49m" most-likely-start="2003-09-09 23:47" polarity="POS" start="1030" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 05:44"/>
+<EVENT end="1059" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 18:07" modality="FACTUAL" most-likely-duration="0Y0M110D8H25m" most-likely-start="2003-09-10 00:04" polarity="POS" start="1051" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 06:01"/>
+<EVENT end="1087" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 18:18" modality="POSSIBLE" most-likely-duration="0Y0M95D1H18m" most-likely-start="2003-09-10 00:19" polarity="NEG" start="1075" temporally-annotated="YES" text="an endo leak" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 06:20"/>
+<EVENT end="1199" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 18:32" modality="FACTUAL" most-likely-duration="0Y0M101D20H26m" most-likely-start="2003-09-10 00:31" polarity="POS" start="1176" temporally-annotated="YES" text="a prolonged sinus pause" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 06:30"/>
+<EVENT end="1220" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 18:42" modality="FACTUAL" most-likely-duration="0Y0M100D4H59m" most-likely-start="2003-09-10 00:43" polarity="POS" start="1203" temporally-annotated="YES" text="the recovery room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 06:44"/>
+<EVENT end="1272" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 18:53" modality="FACTUAL" most-likely-duration="0Y0M94D17H12m" most-likely-start="2003-09-10 00:53" polarity="POS" start="1241" temporally-annotated="YES" text="transient loss of consciousness" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 06:53"/>
+<EVENT end="1313" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:02" modality="FACTUAL" most-likely-duration="0Y0M100D15H57m" most-likely-start="2003-09-10 01:03" polarity="POS" start="1291" temporally-annotated="YES" text="a Neo-Synephrine bolus" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 07:04"/>
+<EVENT end="1348" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:10" modality="FACTUAL" most-likely-duration="0Y0M102D14H46m" most-likely-start="2003-09-10 01:13" polarity="NEG" start="1327" temporally-annotated="YES" text="further complications" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 07:16"/>
+<EVENT end="153" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-04-27 07:58" modality="FACTUAL" most-likely-duration="0Y0M125D6H39m" most-likely-start="2003-04-30 11:08" polarity="POS" start="141" temporally-annotated="YES" text="hypertension" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-05-10 14:18"/>
+<EVENT end="1422" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:19" modality="FACTUAL" most-likely-duration="0Y0M112D22H57m" most-likely-start="2003-09-10 01:22" polarity="POS" start="1397" temporally-annotated="YES" text="the Cardiology Department" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 07:25"/>
+<EVENT end="1436" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:26" modality="FACTUAL" most-likely-duration="0Y0M100D4H2m" most-likely-start="2003-09-10 01:31" polarity="POS" start="1427" temporally-annotated="YES" text="consulted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 07:36"/>
+<EVENT end="1482" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:34" modality="FACTUAL" most-likely-duration="0Y0M107D1H53m" most-likely-start="2003-09-10 01:39" polarity="POS" start="1467" temporally-annotated="YES" text="the sinus pause" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 07:44"/>
+<EVENT end="1518" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:41" modality="POSSIBLE" most-likely-duration="0Y0M107D5H58m" most-likely-start="2003-09-10 01:47" polarity="POS" start="1498" temporally-annotated="YES" text="increased vagal tone" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 07:53"/>
+<EVENT end="1570" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:47" modality="FACTUAL" most-likely-duration="0Y0M103D17H46m" most-likely-start="2003-09-10 01:55" polarity="POS" start="1558" temporally-annotated="YES" text="the epidural" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:03"/>
+<EVENT end="1616" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 19:53" modality="FACTUAL" most-likely-duration="0Y0M95D23H24m" most-likely-start="2003-09-10 02:02" polarity="POS" start="1584" temporally-annotated="YES" text="the patient 's Atenolol use" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:11"/>
+<EVENT end="1631" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:00" modality="FACTUAL" most-likely-duration="0Y0M108D16H32m" most-likely-start="2003-09-10 02:09" polarity="POS" start="1619" temporally-annotated="YES" text="His Atenolol" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:18"/>
+<EVENT end="174" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-04-27 09:07" modality="FACTUAL" most-likely-duration="0Y0M116D23H51m" most-likely-start="2003-04-30 10:36" polarity="POS" start="164" temporally-annotated="YES" text="discovered" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-05-10 12:05"/>
+<EVENT end="1671" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:07" modality="FACTUAL" most-likely-duration="0Y0M104D6H23m" most-likely-start="2003-09-10 02:15" polarity="NEG" start="1657" temporally-annotated="YES" text="further pauses" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:23"/>
+<EVENT end="1687" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:10" modality="FACTUAL" most-likely-duration="0Y0M95D10H40m" most-likely-start="2003-09-10 02:22" polarity="POS" start="1679" temporally-annotated="YES" text="his stay" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:34"/>
+<EVENT end="1715" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:15" modality="FACTUAL" most-likely-duration="0Y0M99D20H17m" most-likely-start="2003-09-10 02:28" polarity="POS" start="1690" temporally-annotated="YES" text="His postoperative CT scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:41"/>
+<EVENT end="1722" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:20" modality="FACTUAL" most-likely-duration="0Y0M115D0H3m" most-likely-start="2003-09-10 02:34" polarity="POS" start="1716" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:48"/>
+<EVENT end="1747" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:26" modality="FACTUAL" most-likely-duration="0Y0M107D17H56m" most-likely-start="2003-09-10 02:39" polarity="NEG" start="1738" temporally-annotated="YES" text="endo leak" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:52"/>
+<EVENT end="1766" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:31" modality="FACTUAL" most-likely-duration="0Y0M94D23H8m" most-likely-start="2003-09-10 02:44" polarity="NEG" start="1753" temporally-annotated="YES" text="graft kinking" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 08:57"/>
+<EVENT end="229" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-04-27 10:39" modality="FACTUAL" most-likely-duration="0Y0M106D7H23m" most-likely-start="2003-04-30 10:31" polarity="POS" start="183" temporally-annotated="YES" text="an asymptomatic 7 cm abdominal aortic aneurysm" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-05-10 10:23"/>
+<EVENT end="1900" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:37" modality="FACTUAL" most-likely-duration="0Y0M103D22H37m" most-likely-start="2003-09-10 02:49" polarity="POS" start="1863" temporally-annotated="YES" text="significant ecchymosis in both groins" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 09:01"/>
+<EVENT end="1989" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:40" modality="FACTUAL" most-likely-duration="0Y0M94D18H16m" most-likely-start="2003-09-10 02:54" polarity="NEG" start="1962" temporally-annotated="YES" text="significant groin hematomas" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 09:08"/>
+<EVENT end="2030" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:45" modality="FACTUAL" most-likely-duration="0Y0M103D0H18m" most-likely-start="2003-09-10 02:59" polarity="POS" start="2022" temporally-annotated="YES" text="His pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 09:13"/>
+<EVENT end="2078" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:49" modality="FACTUAL" most-likely-duration="0Y0M94D21H25m" most-likely-start="2003-09-10 03:04" polarity="POS" start="2062" temporally-annotated="YES" text="oral medications" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 09:19"/>
+<EVENT end="2121" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:52" modality="FACTUAL" most-likely-duration="0Y0M104D4H24m" most-likely-start="2003-09-10 03:08" polarity="POS" start="2111" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 09:24"/>
+<EVENT end="240" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-04-27 14:27" modality="FACTUAL" most-likely-duration="0Y0M103D9H18m" most-likely-start="2003-04-30 13:24" polarity="POS" start="233" temporally-annotated="YES" text="CT scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-05-10 12:21"/>
+<EVENT end="271" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-04-27 16:26" modality="FACTUAL" most-likely-duration="0Y0M107D15H9m" most-likely-start="2003-04-30 14:53" polarity="POS" start="253" temporally-annotated="YES" text="the emergency room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-05-10 13:20"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-08-26 18:46" modality="FACTUAL" most-likely-duration="0Y0M187D18H58m" most-likely-start="2003-09-09 17:49" polarity="POS" start="29" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-10-24 02:52"/>
+<EVENT end="315" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 09:20" modality="FACTUAL" most-likely-duration="0Y0M98D17H44m" most-likely-start="2003-09-09 10:33" polarity="POS" start="306" temporally-annotated="YES" text="presented" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-19 11:46"/>
+<EVENT end="335" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 12:54" modality="FACTUAL" most-likely-duration="0Y0M99D11H6m" most-likely-start="2003-09-09 14:29" polarity="POS" start="321" temporally-annotated="YES" text="abdominal pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-19 16:04"/>
+<EVENT end="381" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 14:38" modality="FACTUAL" most-likely-duration="0Y0M95D0H10m" most-likely-start="2003-09-09 16:24" polarity="POS" start="360" temporally-annotated="YES" text="acute cholecystectomy" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-19 18:10"/>
+<EVENT end="442" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 15:20" modality="FACTUAL" most-likely-duration="0Y0M94D12H35m" most-likely-start="2003-09-09 17:13" polarity="POS" start="397" temporally-annotated="YES" text="an uncomplicated laparoscopic cholecystectomy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-19 19:06"/>
+<EVENT end="456" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 15:33" modality="FACTUAL" most-likely-duration="0Y0M101D13H46m" most-likely-start="2003-09-09 17:29" polarity="POS" start="448" temporally-annotated="YES" text="presents" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-19 19:25"/>
+<EVENT end="493" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 21:07" modality="FACTUAL" most-likely-duration="0Y0M108D8H53m" most-likely-start="2003-09-10 01:21" polarity="POS" start="474" temporally-annotated="YES" text="endovascular repair" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 05:35"/>
+<EVENT end="527" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:21" modality="FACTUAL" most-likely-duration="0Y0M95D0H24m" most-likely-start="2003-09-10 00:36" polarity="POS" start="497" temporally-annotated="YES" text="this abdominal aortic aneurysm" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 04:51"/>
+<EVENT end="572" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:22" modality="FACTUAL" most-likely-duration="0Y0M105D11H38m" most-likely-start="2003-09-10 00:38" polarity="POS" start="564" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 04:54"/>
+<EVENT end="600" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 20:29" modality="FACTUAL" most-likely-duration="0Y0M103D13H4m" most-likely-start="2003-09-10 00:48" polarity="POS" start="576" temporally-annotated="YES" text="Vascular Surgery Service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 05:07"/>
+<EVENT end="624" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 13:02" modality="FACTUAL" most-likely-duration="0Y0M101D10H45m" most-likely-start="2003-09-09 19:37" polarity="POS" start="615" temporally-annotated="YES" text="admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 02:12"/>
+<EVENT end="658" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 10:32" modality="FACTUAL" most-likely-duration="0Y0M101D22H32m" most-likely-start="2003-09-09 17:02" polarity="POS" start="640" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-19 23:32"/>
+<EVENT end="699" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 11:59" modality="FACTUAL" most-likely-duration="0Y0M109D2H0m" most-likely-start="2003-09-09 18:16" polarity="POS" start="663" temporally-annotated="YES" text="an uncomplicated endovascular repair" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 00:33"/>
+<EVENT end="732" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 13:35" modality="FACTUAL" most-likely-duration="0Y0M103D15H51m" most-likely-start="2003-09-09 19:46" polarity="POS" start="703" temporally-annotated="YES" text="his abdominal aortic aneurysm" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 01:57"/>
+<EVENT end="769" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 14:46" modality="FACTUAL" most-likely-duration="0Y0M111D10H14m" most-likely-start="2003-09-09 20:54" polarity="POS" start="739" temporally-annotated="YES" text="Anurx modular bifurcated graft" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 03:02"/>
+<EVENT end="815" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 15:41" modality="FACTUAL" most-likely-duration="0Y0M113D0H54m" most-likely-start="2003-09-09 21:47" polarity="POS" start="792" temporally-annotated="YES" text="common femoral arteries" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 03:53"/>
+<EVENT end="829" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 16:27" modality="FACTUAL" most-likely-duration="0Y0M110D5H8m" most-likely-start="2003-09-09 22:28" polarity="POS" start="821" temporally-annotated="YES" text="repaired" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 04:29"/>
+<EVENT end="893" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2003-09-06 17:00" modality="FACTUAL" most-likely-duration="0Y0M106D1H53m" most-likely-start="2003-09-09 23:01" polarity="POS" start="860" temporally-annotated="YES" text="pulsatile pulse volume recordings" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2003-09-20 05:02"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="09/09/2003" type="DATE" val="2003-09-09"/>
+<TIMEX3 end="2152" id="T6" mod="NA" start="2133" text="postoperative day 2" type="DATE" val="2003-09-12"/>
+<TIMEX3 end="283" id="T2" mod="NA" start="280" text="May" type="DATE" val="2003-05"/>
+<TIMEX3 end="298" id="T3" mod="NA" start="289" text="that time" type="DATE" val="2003-05"/>
+<TIMEX3 end="469" id="T4" mod="NA" start="460" text="this time" type="DATE" val="2003-09-09"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="09/12/2003" type="DATE" val="2003-09-12"/>
+<TIMEX3 end="614" id="T5" mod="NA" start="604" text="a same day" type="DATE" val="2003-09-09"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL0" toID="T0" toText="09/09/2003" type="SIMULTANEOUS"/>
+<TLINK fromID="E43" fromText="his stay" id="TL1" toID="E0" toText="ADMISSION" type="BEGUN_BY"/>
+<TLINK fromID="E6" fromText="the emergency room" id="TL10" toID="T2" toText="May" type="SIMULTANEOUS"/>
+<TLINK fromID="E7" fromText="presented" id="TL11" toID="T3" toText="that time" type="SIMULTANEOUS"/>
+<TLINK fromID="T3" fromText="that time" id="TL12" toID="T2" toText="May" type="SIMULTANEOUS"/>
+<TLINK fromID="E8" fromText="abdominal pain" id="TL13" toID="E7" toText="presented" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E9" fromText="acute cholecystectomy" id="TL14" toID="E8" toText="abdominal pain" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="an uncomplicated laparoscopic cholecystectomy" id="TL15" toID="E7" toText="presented" type="AFTER"/>
+<TLINK fromID="E11" fromText="presents" id="TL16" toID="T4" toText="this time" type="SIMULTANEOUS"/>
+<TLINK fromID="E11" fromText="presents" id="TL17" toID="E12" toText="endovascular repair" type="AFTER"/>
+<TLINK fromID="E11" fromText="presents" id="TL18" toID="E0" toText="ADMISSION" type="SIMULTANEOUS"/>
+<TLINK fromID="E53" fromText="this abdominal aortic aneurysm" id="TL19" toID="E12" toText="endovascular repair" type="ENDED_BY"/>
+<TLINK fromID="E2" fromText="hypertension" id="TL2" toID="E0" toText="ADMISSION" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E3" fromText="an asymptomatic 7 cm abdominal aortic aneurysm" id="TL20" toID="E53" toText="this abdominal aortic aneurysm" type="simultaneous"/>
+<TLINK fromID="E14" fromText="admitted" id="TL21" toID="T4" toText="this time" type="SIMULTANEOUS"/>
+<TLINK fromID="E14" fromText="admitted" id="TL22" toID="E0" toText="ADMISSION" type="SIMULTANEOUS"/>
+<TLINK fromID="E15" fromText="Vascular Surgery Service" id="TL23" toID="E14" toText="admitted" type="BEGUN_BY"/>
+<TLINK fromID="E16" fromText="admission" id="TL24" toID="E14" toText="admitted" type="SIMULTANEOUS"/>
+<TLINK fromID="T5" fromText="a same day" id="TL25" toID="E16" toText="admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E17" fromText="the operating room" id="TL26" toID="E16" toText="admission" type="AFTER"/>
+<TLINK fromID="E18" fromText="an uncomplicated endovascular repair" id="TL27" toID="E17" toText="the operating room" type="DURING"/>
+<TLINK fromID="E53" fromText="this abdominal aortic aneurysm" id="TL28" toID="E19" toText="his abdominal aortic aneurysm" type="simultaneous"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL3" toID="T1" toText="09/12/2003" type="SIMULTANEOUS"/>
+<TLINK fromID="E19" fromText="his abdominal aortic aneurysm" id="TL30" toID="E18" toText="an uncomplicated endovascular repair" type="ENDED_BY"/>
+<TLINK fromID="E20" fromText="Anurx modular bifurcated graft" id="TL31" toID="E17" toText="the operating room" type="BEGUN_BY"/>
+<TLINK fromID="E18" fromText="an uncomplicated endovascular repair" id="TL32" toID="E21" toText="common femoral arteries" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="an uncomplicated endovascular repair" id="TL33" toID="E23" toText="pulsatile pulse volume recordings" type="OVERLAP"/>
+<TLINK fromID="E54" fromText="His angiogram" id="TL34" toID="E18" toText="an uncomplicated endovascular repair" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="common femoral arteries" id="TL35" toID="E22" toText="repaired" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E25" fromText="the operating room" id="TL36" toID="E17" toText="the operating room" type="SIMULTANEOUS"/>
+<TLINK fromID="E26" fromText="revealed" id="TL37" toID="E54" toText="His angiogram" type="SIMULTANEOUS"/>
+<TLINK fromID="E54" fromText="His angiogram" id="TL38" toID="E25" toText="the operating room" type="DURING"/>
+<TLINK fromID="E27" fromText="an endo leak" id="TL39" toID="E46" toText="endo leak" type="simultaneous"/>
+<TLINK fromID="E43" fromText="his stay" id="TL4" toID="E1" toText="DISCHARGE" type="ENDED_BY"/>
+<TLINK fromID="E27" fromText="an endo leak" id="TL40" toID="E54" toText="His angiogram" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E29" fromText="the recovery room" id="TL41" toID="E25" toText="the operating room" type="AFTER"/>
+<TLINK fromID="E28" fromText="a prolonged sinus pause" id="TL42" toID="E29" toText="the recovery room" type="DURING"/>
+<TLINK fromID="E30" fromText="transient loss of consciousness" id="TL43" toID="E28" toText="a prolonged sinus pause" type="BEGUN_BY"/>
+<TLINK fromID="E30" fromText="transient loss of consciousness" id="TL44" toID="E31" toText="a Neo-Synephrine bolus" type="ENDED_BY"/>
+<TLINK fromID="E32" fromText="further complications" id="TL45" toID="E31" toText="a Neo-Synephrine bolus" type="AFTER"/>
+<TLINK fromID="E37" fromText="the sinus pause" id="TL48" toID="E28" toText="a prolonged sinus pause" type="SIMULTANEOUS"/>
+<TLINK fromID="E38" fromText="increased vagal tone" id="TL49" toID="E37" toText="the sinus pause" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E52" fromText="discharged" id="TL5" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS"/>
+<TLINK fromID="E38" fromText="increased vagal tone" id="TL50" toID="E39" toText="the epidural" type="BEGUN_BY"/>
+<TLINK fromID="E39" fromText="the epidural" id="TL51" toID="E40" toText="the patient 's Atenolol use" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="His Atenolol" id="TL52" toID="E36" toText="consulted" type="ENDED_BY"/>
+<TLINK fromID="E42" fromText="further pauses" id="TL53" toID="E41" toText="His Atenolol" type="AFTER"/>
+<TLINK fromID="E42" fromText="further pauses" id="TL54" toID="E43" toText="his stay" type="DURING"/>
+<TLINK fromID="E44" fromText="His postoperative CT scan" id="TL56" toID="E18" toText="an uncomplicated endovascular repair" type="AFTER"/>
+<TLINK fromID="E44" fromText="His postoperative CT scan" id="TL57" toID="E45" toText="showed" type="SIMULTANEOUS"/>
+<TLINK fromID="E46" fromText="endo leak" id="TL58" toID="E44" toText="His postoperative CT scan" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E46" fromText="endo leak" id="TL59" toID="E47" toText="graft kinking" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="CT scan" id="TL6" toID="E5" toText="discovered" type="SIMULTANEOUS"/>
+<TLINK fromID="E48" fromText="significant ecchymosis in both groins" id="TL60" toID="E47" toText="graft kinking" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="significant groin hematomas" id="TL61" toID="E48" toText="significant ecchymosis in both groins" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="His pain" id="TL62" toID="E51" toText="oral medications" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="oral medications" id="TL63" toID="E43" toText="his stay" type="DURING"/>
+<TLINK fromID="E52" fromText="discharged" id="TL64" toID="T6" toText="postoperative day 2" type="SIMULTANEOUS"/>
+<TLINK fromID="T6" fromText="postoperative day 2" id="TL65" toID="E1" toText="DISCHARGE" type="SIMULTANEOUS"/>
+<TLINK fromID="E3" fromText="an asymptomatic 7 cm abdominal aortic aneurysm" id="TL7" toID="E5" toText="discovered" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E4" fromText="CT scan" id="TL9" toID="E6" toText="the emergency room" type="DURING"/>
+<TLINK fromID="E54" fromText="His angiogram" id="Sectime0" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E25" fromText="the operating room" id="Sectime1" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E26" fromText="revealed" id="Sectime2" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E27" fromText="an endo leak" id="Sectime3" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E28" fromText="a prolonged sinus pause" id="Sectime4" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E29" fromText="the recovery room" id="Sectime5" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E30" fromText="transient loss of consciousness" id="Sectime6" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E31" fromText="a Neo-Synephrine bolus" id="Sectime7" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E32" fromText="further complications" id="Sectime8" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E2" fromText="hypertension" id="Sectime0" toID="T0" toText="09/09/2003" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E35" fromText="the Cardiology Department" id="Sectime9" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E36" fromText="consulted" id="Sectime10" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E37" fromText="the sinus pause" id="Sectime11" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E38" fromText="increased vagal tone" id="Sectime12" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E39" fromText="the epidural" id="Sectime13" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E40" fromText="the patient 's Atenolol use" id="Sectime14" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E41" fromText="His Atenolol" id="Sectime15" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E5" fromText="discovered" id="Sectime1" toID="T0" toText="09/09/2003" type="BEFORE"/>
+<TLINK fromID="E42" fromText="further pauses" id="Sectime16" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E43" fromText="his stay" id="Sectime17" toID="T1" toText="09/12/2003" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E44" fromText="His postoperative CT scan" id="Sectime18" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E45" fromText="showed" id="Sectime19" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E46" fromText="endo leak" id="Sectime20" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E47" fromText="graft kinking" id="Sectime21" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E3" fromText="an asymptomatic 7 cm abdominal aortic aneurysm" id="Sectime2" toID="T0" toText="09/09/2003" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E48" fromText="significant ecchymosis in both groins" id="Sectime22" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E49" fromText="significant groin hematomas" id="Sectime23" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E50" fromText="His pain" id="Sectime24" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E51" fromText="oral medications" id="Sectime25" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E52" fromText="discharged" id="Sectime26" toID="T1" toText="09/12/2003" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="CT scan" id="Sectime3" toID="T0" toText="09/09/2003" type="BEFORE"/>
+<TLINK fromID="E6" fromText="the emergency room" id="Sectime4" toID="T0" toText="09/09/2003" type="BEFORE"/>
+<TLINK fromID="E7" fromText="presented" id="Sectime5" toID="T0" toText="09/09/2003" type="BEFORE"/>
+<TLINK fromID="E8" fromText="abdominal pain" id="Sectime6" toID="T0" toText="09/09/2003" type="BEFORE"/>
+<TLINK fromID="E9" fromText="acute cholecystectomy" id="Sectime7" toID="T0" toText="09/09/2003" type="BEFORE"/>
+<TLINK fromID="E10" fromText="an uncomplicated laparoscopic cholecystectomy" id="Sectime8" toID="T0" toText="09/09/2003" type="BEFORE"/>
+<TLINK fromID="E11" fromText="presents" id="Sectime9" toID="T0" toText="09/09/2003" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="endovascular repair" id="Sectime10" toID="T0" toText="09/09/2003" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="this abdominal aortic aneurysm" id="Sectime11" toID="T0" toText="09/09/2003" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E14" fromText="admitted" id="Sectime27" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E15" fromText="Vascular Surgery Service" id="Sectime28" toID="T1" toText="09/12/2003" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E16" fromText="admission" id="Sectime29" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E17" fromText="the operating room" id="Sectime30" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E18" fromText="an uncomplicated endovascular repair" id="Sectime31" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E19" fromText="his abdominal aortic aneurysm" id="Sectime32" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E20" fromText="Anurx modular bifurcated graft" id="Sectime33" toID="T1" toText="09/12/2003" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E21" fromText="common femoral arteries" id="Sectime34" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E22" fromText="repaired" id="Sectime35" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<TLINK fromID="E23" fromText="pulsatile pulse volume recordings" id="Sectime36" toID="T1" toText="09/12/2003" type="BEFORE"/>
+<SECTIME dvalue="2003-09-09" end="28" id="S0" start="18" text="09/09/2003" type="ADMISSION"/>
+<SECTIME dvalue="2003-09-12" end="56" id="S1" start="46" text="09/12/2003" type="DISCHARGE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

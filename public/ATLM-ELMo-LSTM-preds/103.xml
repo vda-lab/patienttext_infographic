@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2013-10-29
+Discharge Date :
+2013-11-04
+Service :
+CARDIOTHORACIC
+History of Present Illness :
+Mr. Andersen is a 71-year-old male with worsening anginal symptoms who underwent catheterization that showed severe three-vessel disease .
+He is presenting for revascularization .
+Brief Hospital Course :
+The patient was taken to the operating room on 2013-10-29 for a CABG x5 .
+Please see operative note for full details .
+The patient tolerated this procedure well .
+He was taken immediately post-operatively to the CSRU .
+He was extubated that night .
+The did well in the ICU .
+His central line and chest tubes were removed on post-op day #2 and was transferred to the floor in stable condition .
+On post-op day #3 , the patient 's pacing wires were removed , and his lopressor was started .
+On post-op day #4 , the patient failed the first of his void trials .
+He was seen and cleared by physical therapy .
+He was discharged home on post-op day #6 in stable condition with a foley catheter and leg bag .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-05-10 14:04" modality="FACTUAL" most-likely-duration="0Y0M725D5H50m" most-likely-start="2013-10-29 16:34" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2015-04-19 19:04"/>
+<EVENT end="1014" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-02 02:30" modality="FACTUAL" most-likely-duration="0Y0M95D9H47m" most-likely-start="2013-11-05 11:23" polarity="POS" start="1007" temporally-annotated="YES" text="leg bag" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-15 20:16"/>
+<EVENT end="177" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-16 20:09" modality="FACTUAL" most-likely-duration="0Y0M126D12H29m" most-likely-start="2013-10-29 13:12" polarity="POS" start="151" temporally-annotated="YES" text="worsening anginal symptoms" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-11 16:15"/>
+<EVENT end="207" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 04:32" modality="FACTUAL" most-likely-duration="0Y0M105D7H23m" most-likely-start="2013-10-29 03:43" polarity="POS" start="192" temporally-annotated="YES" text="catheterization" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 02:54"/>
+<EVENT end="219" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 10:17" modality="FACTUAL" most-likely-duration="0Y0M127D9H20m" most-likely-start="2013-10-29 10:38" polarity="POS" start="213" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 10:59"/>
+<EVENT end="247" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 12:35" modality="FACTUAL" most-likely-duration="0Y0M96D12H24m" most-likely-start="2013-10-29 13:37" polarity="POS" start="220" temporally-annotated="YES" text="severe three-vessel disease" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 14:39"/>
+<EVENT end="266" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 13:43" modality="FACTUAL" most-likely-duration="0Y0M105D22H16m" most-likely-start="2013-10-29 15:07" polarity="POS" start="256" temporally-annotated="YES" text="presenting" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 16:31"/>
+<EVENT end="288" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 14:28" modality="FACTUAL" most-likely-duration="0Y0M95D4H44m" most-likely-start="2013-10-29 16:06" polarity="POS" start="271" temporally-annotated="YES" text="revascularization" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 17:44"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-15 18:37" modality="FACTUAL" most-likely-duration="0Y0M192D3H42m" most-likely-start="2013-10-29 17:36" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-13 02:35"/>
+<EVENT end="358" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 15:01" modality="FACTUAL" most-likely-duration="0Y0M100D9H48m" most-likely-start="2013-10-29 16:48" polarity="POS" start="340" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 18:35"/>
+<EVENT end="383" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 04:40" modality="FACTUAL" most-likely-duration="0Y0M110D9H41m" most-likely-start="2013-10-29 05:41" polarity="POS" start="377" temporally-annotated="YES" text="a CABG" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 06:42"/>
+<EVENT end="455" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 06:59" modality="FACTUAL" most-likely-duration="0Y0M120D10H4m" most-likely-start="2013-10-29 08:46" polarity="POS" start="446" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 10:33"/>
+<EVENT end="470" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 07:39" modality="FACTUAL" most-likely-duration="0Y0M112D14H4m" most-likely-start="2013-10-29 09:45" polarity="POS" start="456" temporally-annotated="YES" text="this procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 11:51"/>
+<EVENT end="531" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 07:58" modality="FACTUAL" most-likely-duration="0Y0M98D4H3m" most-likely-start="2013-10-29 10:09" polarity="POS" start="523" temporally-annotated="YES" text="the CSRU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 12:20"/>
+<EVENT end="550" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-26 07:54" modality="FACTUAL" most-likely-duration="0Y0M108D16H10m" most-likely-start="2013-10-29 10:10" polarity="POS" start="541" temporally-annotated="YES" text="extubated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-08 12:26"/>
+<EVENT end="576" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-29 00:58" modality="FACTUAL" most-likely-duration="0Y0M110D8H11m" most-likely-start="2013-11-01 07:36" polarity="POS" start="572" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-11 14:14"/>
+<EVENT end="587" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-29 00:14" modality="FACTUAL" most-likely-duration="0Y0M97D4H5m" most-likely-start="2013-11-01 06:53" polarity="POS" start="580" temporally-annotated="YES" text="the ICU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-11 13:32"/>
+<EVENT end="606" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-28 23:49" modality="FACTUAL" most-likely-duration="0Y0M113D16H11m" most-likely-start="2013-11-01 06:26" polarity="POS" start="590" temporally-annotated="YES" text="His central line" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-11 13:03"/>
+<EVENT end="622" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-28 23:24" modality="FACTUAL" most-likely-duration="0Y0M117D16H20m" most-likely-start="2013-11-01 05:55" polarity="POS" start="611" temporally-annotated="YES" text="chest tubes" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-11 12:26"/>
+<EVENT end="673" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 03:15" modality="FACTUAL" most-likely-duration="0Y0M108D19H31m" most-likely-start="2013-11-02 08:39" polarity="POS" start="662" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-12 14:03"/>
+<EVENT end="686" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 02:33" modality="FACTUAL" most-likely-duration="0Y0M109D1H55m" most-likely-start="2013-11-02 08:02" polarity="POS" start="677" temporally-annotated="YES" text="the floor" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-12 13:31"/>
+<EVENT end="706" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 02:49" modality="FACTUAL" most-likely-duration="0Y0M94D18H33m" most-likely-start="2013-11-02 08:26" polarity="POS" start="690" temporally-annotated="YES" text="stable condition" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-12 14:03"/>
+<EVENT end="756" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 12:13" modality="FACTUAL" most-likely-duration="0Y0M124D18H30m" most-likely-start="2013-11-02 16:37" polarity="POS" start="729" temporally-annotated="YES" text="the patient 's pacing wires" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-12 21:01"/>
+<EVENT end="789" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 10:58" modality="FACTUAL" most-likely-duration="0Y0M113D1H16m" most-likely-start="2013-11-02 15:44" polarity="POS" start="776" temporally-annotated="YES" text="his lopressor" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-12 20:30"/>
+<EVENT end="842" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 18:44" modality="FACTUAL" most-likely-duration="0Y0M118D0H32m" most-likely-start="2013-11-02 23:36" polarity="POS" start="836" temporally-annotated="YES" text="failed" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-13 04:28"/>
+<EVENT end="871" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 17:10" modality="FACTUAL" most-likely-duration="0Y0M95D8H36m" most-likely-start="2013-11-02 21:58" polarity="POS" start="856" temporally-annotated="YES" text="his void trials" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-13 02:46"/>
+<EVENT end="885" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 16:30" modality="FACTUAL" most-likely-duration="0Y0M112D22H18m" most-likely-start="2013-11-02 21:14" polarity="POS" start="881" temporally-annotated="YES" text="seen" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-13 01:58"/>
+<EVENT end="897" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 16:05" modality="FACTUAL" most-likely-duration="0Y0M109D9H41m" most-likely-start="2013-11-02 20:47" polarity="POS" start="890" temporally-annotated="YES" text="cleared" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-13 01:29"/>
+<EVENT end="917" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 15:50" modality="FACTUAL" most-likely-duration="0Y0M95D11H37m" most-likely-start="2013-11-02 20:30" polarity="POS" start="901" temporally-annotated="YES" text="physical therapy" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-13 01:10"/>
+<EVENT end="937" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-30 15:38" modality="FACTUAL" most-likely-duration="0Y0M119D22H2m" most-likely-start="2013-11-02 20:19" polarity="POS" start="927" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-13 01:00"/>
+<EVENT end="980" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-01 23:58" modality="FACTUAL" most-likely-duration="0Y0M104D23H38m" most-likely-start="2013-11-05 09:22" polarity="POS" start="964" temporally-annotated="YES" text="stable condition" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-15 18:46"/>
+<EVENT end="1002" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-02 02:34" modality="FACTUAL" most-likely-duration="0Y0M108D6H41m" most-likely-start="2013-11-05 11:37" polarity="POS" start="986" temporally-annotated="YES" text="a foley catheter" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-11-15 20:40"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="2013-10-29" type="DATE" val="2013-10-29"/>
+<TIMEX3 end="372" id="T2" mod="NA" start="362" text="2013-10-29" type="DATE" val="2013-10-29"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="2013-11-04" type="DATE" val="2013-11-04"/>
+<TIMEX3 end="561" id="T3" mod="END" start="551" text="that night" type="DATE" val="2013-10-29"/>
+<TIMEX3 end="653" id="T4" mod="NA" start="639" text="post-op day #2" type="DATE" val="2013-10-31"/>
+<TIMEX3 end="726" id="T5" mod="NA" start="712" text="post-op day #3" type="DATE" val="2013-11-01"/>
+<TIMEX3 end="821" id="T6" mod="NA" start="807" text="post-op day #4" type="DATE" val="2013-11-02"/>
+<TIMEX3 end="960" id="T7" mod="NA" start="946" text="post-op day #6" type="DATE" val="2013-11-04"/>
+<TLINK fromID="E9" fromText="a CABG" id="TL0" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E0" fromText="Admission" id="TL1" toID="T0" toText="2013-10-29" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="revascularization" id="TL10" toID="E6" toText="presenting" type="AFTER"/>
+<TLINK fromID="E8" fromText="the operating room" id="TL11" toID="T2" toText="2013-10-29" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="the operating room" id="TL12" toID="E7" toText="revascularization" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="a CABG" id="TL13" toID="E8" toText="the operating room" type="OVERLAP"/>
+<TLINK fromID="T3" fromText="that night" id="TL14" toID="T2" toText="2013-10-29" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="the CSRU" id="TL15" toID="E9" toText="a CABG" type="AFTER"/>
+<TLINK fromID="E11" fromText="this procedure" id="TL16" toID="E9" toText="a CABG" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="revascularization" id="TL17" toID="E9" toText="a CABG" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="a CABG" id="TL18" toID="T2" toText="2013-10-29" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="His central line" id="TL19" toID="E9" toText="a CABG" type="AFTER"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL2" toID="T1" toText="2013-11-04" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="the patient 's pacing wires" id="TL20" toID="E9" toText="a CABG" type="AFTER"/>
+<TLINK fromID="E10" fromText="tolerated" id="TL21" toID="E11" toText="this procedure" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="this procedure" id="TL22" toID="E7" toText="revascularization" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="extubated" id="TL23" toID="E12" toText="the CSRU" type="OVERLAP"/>
+<TLINK fromID="E15" fromText="the ICU" id="TL24" toID="E12" toText="the CSRU" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="extubated" id="TL25" toID="T3" toText="that night" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="well" id="TL26" toID="E15" toText="the ICU" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="His central line" id="TL27" toID="E18" toText="transferred" type="BEFORE"/>
+<TLINK fromID="E16" fromText="His central line" id="TL28" toID="T4" toText="post-op day #2" type="BEFORE"/>
+<TLINK fromID="E17" fromText="chest tubes" id="TL29" toID="T4" toText="post-op day #2" type="BEFORE"/>
+<TLINK fromID="E7" fromText="revascularization" id="TL3" toID="E1" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E18" fromText="transferred" id="TL30" toID="T4" toText="post-op day #2" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="stable condition" id="TL31" toID="E18" toText="transferred" type="BEFORE"/>
+<TLINK fromID="E18" fromText="transferred" id="TL32" toID="E15" toText="the ICU" type="AFTER"/>
+<TLINK fromID="E19" fromText="the floor" id="TL33" toID="E18" toText="transferred" type="AFTER"/>
+<TLINK fromID="E21" fromText="the patient 's pacing wires" id="TL34" toID="T5" toText="post-op day #3" type="BEFORE"/>
+<TLINK fromID="E22" fromText="his lopressor" id="TL35" toID="T5" toText="post-op day #3" type="AFTER"/>
+<TLINK fromID="E23" fromText="failed" id="TL36" toID="T6" toText="post-op day #4" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="his void trials" id="TL38" toID="E23" toText="failed" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="cleared" id="TL39" toID="E25" toText="seen" type="AFTER"/>
+<TLINK fromID="E2" fromText="worsening anginal symptoms" id="TL4" toID="E1" toText="Discharge" type="BEFORE"/>
+<TLINK fromID="E25" fromText="seen" id="TL40" toID="T6" toText="post-op day #4" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="cleared" id="TL41" toID="E27" toText="physical therapy" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="discharged" id="TL42" toID="T7" toText="post-op day #6" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="a foley catheter" id="TL43" toID="E28" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E2" fromText="worsening anginal symptoms" id="TL5" toID="E3" toText="catheterization" type="BEFORE"/>
+<TLINK fromID="E5" fromText="severe three-vessel disease" id="TL6" toID="E2" toText="worsening anginal symptoms" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="severe three-vessel disease" id="TL7" toID="E3" toText="catheterization" type="BEFORE"/>
+<TLINK fromID="E4" fromText="showed" id="TL9" toID="E3" toText="catheterization" type="OVERLAP"/>
+<SECTIME dvalue="2013-10-29" end="28" id="S0" start="18" text="2013-10-29" type="ADMISSION"/>
+<SECTIME dvalue="2013-11-04" end="56" id="S1" start="46" text="2013-11-04" type="DISCHARGE"/>
+<TLINK fromID="E31" fromText="leg bag" id="SECTIME0" toID="T1" toText="2013-11-04" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="worsening anginal symptoms" id="SECTIME1" toID="T0" toText="2013-10-29" type="BEFORE"/>
+<TLINK fromID="E3" fromText="catheterization" id="SECTIME2" toID="T0" toText="2013-10-29" type="BEFORE"/>
+<TLINK fromID="E4" fromText="showed" id="SECTIME3" toID="T0" toText="2013-10-29" type="BEFORE"/>
+<TLINK fromID="E5" fromText="severe three-vessel disease" id="SECTIME4" toID="T0" toText="2013-10-29" type="BEFORE"/>
+<TLINK fromID="E6" fromText="presenting" id="SECTIME5" toID="T0" toText="2013-10-29" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="revascularization" id="SECTIME6" toID="T0" toText="2013-10-29" type="AFTER"/>
+<TLINK fromID="E8" fromText="the operating room" id="SECTIME7" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E9" fromText="a CABG" id="SECTIME8" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E10" fromText="tolerated" id="SECTIME9" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E11" fromText="this procedure" id="SECTIME10" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E12" fromText="the CSRU" id="SECTIME11" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E13" fromText="extubated" id="SECTIME12" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E14" fromText="well" id="SECTIME13" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E15" fromText="the ICU" id="SECTIME14" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E16" fromText="His central line" id="SECTIME15" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E17" fromText="chest tubes" id="SECTIME16" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E18" fromText="transferred" id="SECTIME17" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E19" fromText="the floor" id="SECTIME18" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E20" fromText="stable condition" id="SECTIME19" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E21" fromText="the patient 's pacing wires" id="SECTIME20" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E22" fromText="his lopressor" id="SECTIME21" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E23" fromText="failed" id="SECTIME22" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E24" fromText="his void trials" id="SECTIME23" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E25" fromText="seen" id="SECTIME24" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E26" fromText="cleared" id="SECTIME25" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E27" fromText="physical therapy" id="SECTIME26" toID="T1" toText="2013-11-04" type="BEFORE"/>
+<TLINK fromID="E28" fromText="discharged" id="SECTIME27" toID="T1" toText="2013-11-04" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="stable condition" id="SECTIME28" toID="T1" toText="2013-11-04" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="a foley catheter" id="SECTIME29" toID="T1" toText="2013-11-04" type="OVERLAP"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

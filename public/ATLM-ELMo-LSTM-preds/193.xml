@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2014-03-31
+Discharge Date :
+2014-04-09
+Service :
+Liver Transplant Surgery Service
+HISTORY OF PRESENT ILLNESS :
+The patient is a 49 year-old man with hepatitis C cirrhosis complicated by encephalopathy , positive esophageal varices , now with worsening confusion and lethargy .
+The patient has been admitted 5 x in the past to Nantucket Cottage Hospital since 11-30 for encephalopathy .
+Most recently admitted on 2014-03-19 to 2014-03-22 .
+Infectious work-up was negative .
+Trazodone stopped .
+Patient was started on Lactulose and Rifaximine which improved his mental status .
+Today , on 2014-03-03 , the patient was seen in clinic with increased lethargy , confusion .
+Wife reports that the patient has a history of lethargy and confusion , similar to the symptoms for which the patient was recently admitted .
+The patient also reports that he has had " yellowish eyes , some shaking and his breath smelled more like ammonia over the past 3 days ."
+The patient has been compliant with his medications .
+He has had one bowel movement today which is on 2014-03-31 .
+He has had night sweats for the past 2 weeks .
+He denies any abdominal pain .
+He gets cold easily but denies fevers .
+His stools have been brown to green .
+HOSPITAL COURSE :
+The patient was admitted .
+Patient continued on Lactulose .
+The goal was 3 to 4 stools per day .
+Continue on Rifaximine .
+Continue Lasix .
+Physical therapy was consulted on 2014-04-01 .
+On 2014-04-02 , the patient was awake , alert and oriented , taking Lactulose .
+Difficulty with word finding at times .
+Denies any pain or discomfort .
+Abdomen : Slightly distended , nontender .
+Positive bowel sounds .
+Positive flatus .
+Good op site .
+Ultrasound was performed on 2014-04-01 demonstrating severe portal hypertension with massive peri splenic varices and splenorenal shunt .
+Portal vein was fully patent .
+Repeat hepato fungal flare .
+On 2014-04-04 , the transplant service was consulted because the patient was possibly going to the operating room for transplant on 2014-04-04 .
+The patient did go to operating room on 2014-04-04 and the patient had cadaveric liver transplant performed by Dr. Michael Sanders .
+Please see detailed operative note for more information about the procedure .
+Postoperatively , the patient was transferred to the ICU .
+The patient received MMF 1 gram b.i.d. , Flagyl 500 mg IV x1 .
+The patient also received Unasyn for 2 days , Fluconazole , heparin , Protonix , insulin , morphine , Bactrim .
+The patient was on Propofol for 2 days .
+LABORATORY DATA :
+On 2014-04-04 , labs were as follows :
+WBC of 8.3 ; hematocrit of 30.6 ; platelets 69 ; sodium 132 ; 3.9 , 102 , 22 , serum creatinine of 13 and 1.1 .
+Glucose 114 .
+AST 87 .
+ALT 44 .
+Alkaline phosphatase 169 .
+PT of 20.6 .
+PTT of 38.7 .
+INR of 2.0 .
+On postoperative day number 1 , duplex ultrasound of the patient 's liver was performed demonstrating normal appearing portal veins and hepatic arteries .
+There was normal flow within the middle hepatic vein .
+There appears to be a decreased and sluggish flow within the right and left hepatic veins with loss of normal respiratory variations , wave forms and the intrahepatic portion .
+Additionally , there is diminished color flow with confluence of the hepatic veins .
+These findings may reflect thrombus within the left and right hepatic veins .
+Caval narrowing is seen , most likely correlation to clinical history is recommended and further evaluation of the CT or short-term ultrasounds for follow-up was recommended .
+The Feeney Gann-Burlington drain on postoperative day number demonstrated medial output of 780 with lateral output of 150 .
+Patient went to the floor and patient was on the floor on 2014-04-07 .
+Patient continued getting Acyclovir , Prednisone , MMF one gram b.i.d .
+The patient was on FK 2 and 2 that was started on postoperative day number 2 .
+Diet was advanced .
+Patient was ambulating .
+Waltham-Ludlow drains put out on the 13th 620 and 380 .
+Physical therapy was re consulted .
+Omalley was consulted on 2014-04-08 for better glucose control since the patient was on steroids .
+Social work was consulted .
+Patient continued to do very well , ambulating , following the diet .
+Patient was transfused 1 unit of platelets on 2014-04-08 for platelet count of 66 .
+A heparin independent antibody was sent off on 2014-04-07 which was unremarkable .
+On 2014-04-09 , patient continued to do very well , ambulating , tolerating a diet , urinating without difficulty .
+Drains continued to put out significant amount of fluid .
+Patient 's labs from 2014-04-10 were the following :
+7.1 , hematocrit of 30.8 , platelets 90 .
+Sodium of 138 ; potassium 3.5 ; 106 , 28 , 31 , 1.0 , glucose 134 .
+AST 82 .
+ALT 176 .
+Alkaline phosphatase 78 which all have significantly decreased since postoperative day number 1 .
+Total bilirubin was 0.9 .
+On 2014-04-09 , FK level was 10.3 .
+Patient left on 2014-04-09 with VNA to home .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-10-10 14:00" modality="FACTUAL" most-likely-duration="0Y0M723D20H19m" most-likely-start="2014-03-31 16:37" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2015-09-19 19:14"/>
+<EVENT end="1018" id="E104" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:21" modality="FACTUAL" most-likely-duration="0Y0M95D6H59m" most-likely-start="2014-03-30 05:27" polarity="POS" start="1003" temporally-annotated="YES" text="his medications" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:33"/>
+<EVENT end="1050" id="E105" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:22" modality="FACTUAL" most-likely-duration="0Y0M103D16H6m" most-likely-start="2014-03-30 05:27" polarity="POS" start="1036" temporally-annotated="YES" text="bowel movement" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:32"/>
+<EVENT end="1105" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-28 17:13" modality="FACTUAL" most-likely-duration="0Y0M104D7H40m" most-likely-start="2014-03-31 16:59" polarity="POS" start="1093" temporally-annotated="YES" text="night sweats" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 16:45"/>
+<EVENT end="1138" id="E107" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-28 18:46" modality="FACTUAL" most-likely-duration="0Y0M116D16H10m" most-likely-start="2014-03-31 18:25" polarity="POS" start="1132" temporally-annotated="YES" text="denies" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 18:04"/>
+<EVENT end="1157" id="E106" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-28 20:41" modality="FACTUAL" most-likely-duration="0Y0M94D18H1m" most-likely-start="2014-03-31 20:06" polarity="NEG" start="1139" temporally-annotated="YES" text="any abdominal pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 19:31"/>
+<EVENT end="1172" id="E108" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-28 21:45" modality="FACTUAL" most-likely-duration="0Y0M119D3H43m" most-likely-start="2014-03-31 21:03" polarity="POS" start="1168" temporally-annotated="YES" text="cold" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 20:21"/>
+<EVENT end="1190" id="E109" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-28 22:55" modality="FACTUAL" most-likely-duration="0Y0M121D10H36m" most-likely-start="2014-03-31 22:06" polarity="POS" start="1184" temporally-annotated="YES" text="denies" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 21:17"/>
+<EVENT end="1197" id="E110" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-28 23:36" modality="FACTUAL" most-likely-duration="0Y0M95D1H22m" most-likely-start="2014-03-31 22:44" polarity="NEG" start="1191" temporally-annotated="YES" text="fevers" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 21:52"/>
+<EVENT end="1280" id="E80" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-28 23:57" modality="FACTUAL" most-likely-duration="0Y0M95D0H58m" most-likely-start="2014-03-31 23:04" polarity="POS" start="1272" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 22:11"/>
+<EVENT end="1313" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 00:05" modality="FACTUAL" most-likely-duration="0Y0M95D23H48m" most-likely-start="2014-03-31 23:13" polarity="POS" start="1304" temporally-annotated="YES" text="Lactulose" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 22:21"/>
+<EVENT end="1375" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 00:12" modality="FACTUAL" most-likely-duration="0Y0M97D9H28m" most-likely-start="2014-03-31 23:18" polarity="POS" start="1365" temporally-annotated="YES" text="Rifaximine" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 22:24"/>
+<EVENT end="1392" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 00:12" modality="FACTUAL" most-likely-duration="0Y0M95D15H9m" most-likely-start="2014-03-31 23:20" polarity="POS" start="1387" temporally-annotated="YES" text="Lasix" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 22:28"/>
+<EVENT end="1411" id="E81" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 00:15" modality="FACTUAL" most-likely-duration="0Y0M124D4H45m" most-likely-start="2014-03-31 23:21" polarity="POS" start="1395" temporally-annotated="YES" text="Physical therapy" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-10 22:27"/>
+<EVENT end="1479" id="E111" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 12:42" modality="FACTUAL" most-likely-duration="0Y0M108D4H11m" most-likely-start="2014-04-01 11:00" polarity="POS" start="1474" temporally-annotated="YES" text="awake" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 09:18"/>
+<EVENT end="1487" id="E112" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 17:47" modality="FACTUAL" most-likely-duration="0Y0M117D7H43m" most-likely-start="2014-04-01 16:48" polarity="POS" start="1482" temporally-annotated="YES" text="alert" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 15:49"/>
+<EVENT end="1500" id="E113" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 18:23" modality="FACTUAL" most-likely-duration="0Y0M106D8H35m" most-likely-start="2014-04-01 17:29" polarity="POS" start="1492" temporally-annotated="YES" text="oriented" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 16:35"/>
+<EVENT end="1519" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 18:51" modality="FACTUAL" most-likely-duration="0Y0M95D13H2m" most-likely-start="2014-04-01 17:54" polarity="POS" start="1510" temporally-annotated="YES" text="Lactulose" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 16:57"/>
+<EVENT end="1550" id="E114" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 19:12" modality="FACTUAL" most-likely-duration="0Y0M115D1H7m" most-likely-start="2014-04-01 18:13" polarity="POS" start="1522" temporally-annotated="YES" text="Difficulty with word finding" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 17:14"/>
+<EVENT end="1568" id="E115" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 19:43" modality="FACTUAL" most-likely-duration="0Y0M126D19H25m" most-likely-start="2014-04-01 18:38" polarity="POS" start="1562" temporally-annotated="YES" text="Denies" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 17:33"/>
+<EVENT end="1577" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 20:17" modality="FACTUAL" most-likely-duration="0Y0M113D17H18m" most-likely-start="2014-04-01 19:08" polarity="NEG" start="1569" temporally-annotated="YES" text="any pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 17:59"/>
+<EVENT end="1591" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 20:55" modality="FACTUAL" most-likely-duration="0Y0M94D21H40m" most-likely-start="2014-04-01 19:39" polarity="NEG" start="1581" temporally-annotated="YES" text="discomfort" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 18:23"/>
+<EVENT end="1622" id="E116" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 21:32" modality="FACTUAL" most-likely-duration="0Y0M116D1H12m" most-likely-start="2014-04-01 20:08" polarity="POS" start="1604" temporally-annotated="YES" text="Slightly distended" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 18:44"/>
+<EVENT end="1634" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 22:08" modality="FACTUAL" most-likely-duration="0Y0M94D22H24m" most-likely-start="2014-04-01 20:35" polarity="POS" start="1625" temporally-annotated="YES" text="nontender" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 19:02"/>
+<EVENT end="1658" id="E117" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 22:36" modality="FACTUAL" most-likely-duration="0Y0M94D13H35m" most-likely-start="2014-04-01 20:58" polarity="POS" start="1646" temporally-annotated="YES" text="bowel sounds" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 19:20"/>
+<EVENT end="188" id="E89" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-15 17:47" modality="FACTUAL" most-likely-duration="0Y0M182D17H0m" most-likely-start="2013-11-29 10:51" polarity="POS" start="167" temporally-annotated="YES" text="hepatitis C cirrhosis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-01-12 13:55"/>
+<EVENT end="1676" id="E118" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 23:00" modality="FACTUAL" most-likely-duration="0Y0M94D12H55m" most-likely-start="2014-04-01 21:16" polarity="POS" start="1670" temporally-annotated="YES" text="flatus" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 19:32"/>
+<EVENT end="1704" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-29 23:19" modality="FACTUAL" most-likely-duration="0Y0M104D18H31m" most-likely-start="2014-04-01 21:29" polarity="POS" start="1694" temporally-annotated="YES" text="Ultrasound" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-11 19:39"/>
+<EVENT end="1746" id="E119" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 10:21" modality="FACTUAL" most-likely-duration="0Y0M114D10H2m" most-likely-start="2014-04-04 15:27" polarity="POS" start="1733" temporally-annotated="YES" text="demonstrating" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 20:33"/>
+<EVENT end="1773" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 05:04" modality="FACTUAL" most-likely-duration="0Y0M106D22H47m" most-likely-start="2014-04-04 10:25" polarity="POS" start="1747" temporally-annotated="YES" text="severe portal hypertension" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 15:46"/>
+<EVENT end="1807" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 04:46" modality="FACTUAL" most-likely-duration="0Y0M104D21H53m" most-likely-start="2014-04-04 10:18" polarity="POS" start="1779" temporally-annotated="YES" text="massive peri splenic varices" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 15:50"/>
+<EVENT end="1829" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 04:46" modality="FACTUAL" most-likely-duration="0Y0M95D2H41m" most-likely-start="2014-04-04 10:23" polarity="POS" start="1812" temporally-annotated="YES" text="splenorenal shunt" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 16:00"/>
+<EVENT end="1889" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 04:49" modality="FACTUAL" most-likely-duration="0Y0M94D20H43m" most-likely-start="2014-04-04 10:32" polarity="POS" start="1863" temporally-annotated="YES" text="Repeat hepato fungal flare" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 16:15"/>
+<EVENT end="1930" id="E120" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 01:02" modality="FACTUAL" most-likely-duration="0Y0M108D15H46m" most-likely-start="2014-04-04 01:06" polarity="POS" start="1908" temporally-annotated="YES" text="the transplant service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 01:10"/>
+<EVENT end="2005" id="E121" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 00:28" modality="FACTUAL" most-likely-duration="0Y0M104D11H2m" most-likely-start="2014-04-04 00:26" polarity="POS" start="1987" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 00:24"/>
+<EVENT end="2020" id="E82" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 00:49" modality="FACTUAL" most-likely-duration="0Y0M99D13H49m" most-likely-start="2014-04-04 00:44" polarity="POS" start="2010" temporally-annotated="YES" text="transplant" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 00:39"/>
+<EVENT end="218" id="E90" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-26 05:50" modality="FACTUAL" most-likely-duration="0Y0M130D4H40m" most-likely-start="2013-11-29 09:26" polarity="POS" start="204" temporally-annotated="YES" text="encephalopathy" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-09 13:02"/>
+<EVENT end="2073" id="E83" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 07:33" modality="FACTUAL" most-likely-duration="0Y0M98D20H46m" most-likely-start="2014-04-04 13:09" polarity="POS" start="2059" temporally-annotated="YES" text="operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 18:45"/>
+<EVENT end="2134" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:01" modality="FACTUAL" most-likely-duration="0Y0M102D5H31m" most-likely-start="2014-04-04 16:26" polarity="POS" start="2108" temporally-annotated="YES" text="cadaveric liver transplant" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 20:51"/>
+<EVENT end="248" id="E91" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-26 14:41" modality="FACTUAL" most-likely-duration="0Y0M110D8H20m" most-likely-start="2013-11-29 17:20" polarity="POS" start="221" temporally-annotated="YES" text="positive esophageal varices" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-09 19:59"/>
+<EVENT end="2245" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 11:52" modality="FACTUAL" most-likely-duration="0Y0M94D17H7m" most-likely-start="2014-04-04 16:21" polarity="POS" start="2232" temporally-annotated="YES" text="the procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 20:50"/>
+<EVENT end="2293" id="E84" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:01" modality="FACTUAL" most-likely-duration="0Y0M101D5H25m" most-likely-start="2014-04-04 16:25" polarity="POS" start="2282" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 20:49"/>
+<EVENT end="2304" id="E122" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:02" modality="FACTUAL" most-likely-duration="0Y0M96D17H59m" most-likely-start="2014-04-04 16:27" polarity="POS" start="2297" temporally-annotated="YES" text="the ICU" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 20:52"/>
+<EVENT end="2331" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:11" modality="FACTUAL" most-likely-duration="0Y0M120D13H54m" most-likely-start="2014-04-04 16:34" polarity="POS" start="2328" temporally-annotated="YES" text="MMF" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 20:57"/>
+<EVENT end="2354" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:20" modality="FACTUAL" most-likely-duration="0Y0M127D13H4m" most-likely-start="2014-04-04 16:42" polarity="POS" start="2348" temporally-annotated="YES" text="Flagyl" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:04"/>
+<EVENT end="2402" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:23" modality="FACTUAL" most-likely-duration="0Y0M105D22H30m" most-likely-start="2014-04-04 16:47" polarity="POS" start="2396" temporally-annotated="YES" text="Unasyn" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:11"/>
+<EVENT end="2427" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:26" modality="FACTUAL" most-likely-duration="0Y0M109D15H46m" most-likely-start="2014-04-04 16:50" polarity="POS" start="2416" temporally-annotated="YES" text="Fluconazole" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:14"/>
+<EVENT end="2437" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:29" modality="FACTUAL" most-likely-duration="0Y0M107D10H54m" most-likely-start="2014-04-04 16:51" polarity="POS" start="2430" temporally-annotated="YES" text="heparin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:13"/>
+<EVENT end="2448" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:30" modality="FACTUAL" most-likely-duration="0Y0M114D17H20m" most-likely-start="2014-04-04 16:52" polarity="POS" start="2440" temporally-annotated="YES" text="Protonix" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:14"/>
+<EVENT end="2458" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:31" modality="FACTUAL" most-likely-duration="0Y0M112D0H47m" most-likely-start="2014-04-04 16:53" polarity="POS" start="2451" temporally-annotated="YES" text="insulin" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:15"/>
+<EVENT end="2469" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:31" modality="FACTUAL" most-likely-duration="0Y0M110D22H33m" most-likely-start="2014-04-04 16:53" polarity="POS" start="2461" temporally-annotated="YES" text="morphine" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:15"/>
+<EVENT end="2479" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:28" modality="FACTUAL" most-likely-duration="0Y0M96D5H58m" most-likely-start="2014-04-04 16:54" polarity="POS" start="2472" temporally-annotated="YES" text="Bactrim" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:20"/>
+<EVENT end="2509" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 12:32" modality="FACTUAL" most-likely-duration="0Y0M103D19H15m" most-likely-start="2014-04-04 16:54" polarity="POS" start="2501" temporally-annotated="YES" text="Propofol" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-14 21:16"/>
+<EVENT end="2561" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 21:20" modality="FACTUAL" most-likely-duration="0Y0M105D18H20m" most-likely-start="2014-04-06 03:13" polarity="POS" start="2557" temporally-annotated="YES" text="labs" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 09:06"/>
+<EVENT end="2583" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:55" modality="FACTUAL" most-likely-duration="0Y0M115D5H8m" most-likely-start="2014-04-06 06:45" polarity="POS" start="2580" temporally-annotated="YES" text="WBC" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 13:35"/>
+<EVENT end="279" id="E92" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-26 18:24" modality="FACTUAL" most-likely-duration="0Y0M112D15H27m" most-likely-start="2013-11-29 20:34" polarity="POS" start="260" temporally-annotated="YES" text="worsening confusion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-09 22:44"/>
+<EVENT end="2603" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 00:54" modality="FACTUAL" most-likely-duration="0Y0M109D18H29m" most-likely-start="2014-04-06 08:52" polarity="POS" start="2593" temporally-annotated="YES" text="hematocrit" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 16:50"/>
+<EVENT end="2623" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 00:44" modality="FACTUAL" most-likely-duration="0Y0M118D1H42m" most-likely-start="2014-04-06 09:44" polarity="POS" start="2614" temporally-annotated="YES" text="platelets" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 18:44"/>
+<EVENT end="2635" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 00:10" modality="FACTUAL" most-likely-duration="0Y0M119D8H10m" most-likely-start="2014-04-06 09:56" polarity="POS" start="2629" temporally-annotated="YES" text="sodium" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 19:42"/>
+<EVENT end="2675" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:46" modality="FACTUAL" most-likely-duration="0Y0M125D10H57m" most-likely-start="2014-04-06 09:56" polarity="POS" start="2659" temporally-annotated="YES" text="serum creatinine" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:06"/>
+<EVENT end="2699" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:36" modality="FACTUAL" most-likely-duration="0Y0M110D7H47m" most-likely-start="2014-04-06 09:56" polarity="POS" start="2692" temporally-annotated="YES" text="Glucose" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:16"/>
+<EVENT end="2709" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:32" modality="FACTUAL" most-likely-duration="0Y0M112D10H21m" most-likely-start="2014-04-06 09:57" polarity="POS" start="2706" temporally-annotated="YES" text="AST" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:22"/>
+<EVENT end="2718" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:29" modality="FACTUAL" most-likely-duration="0Y0M113D10H24m" most-likely-start="2014-04-06 09:58" polarity="POS" start="2715" temporally-annotated="YES" text="ALT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:27"/>
+<EVENT end="2744" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:27" modality="FACTUAL" most-likely-duration="0Y0M108D5H47m" most-likely-start="2014-04-06 09:59" polarity="POS" start="2724" temporally-annotated="YES" text="Alkaline phosphatase" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:31"/>
+<EVENT end="2753" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:28" modality="FACTUAL" most-likely-duration="0Y0M125D5H21m" most-likely-start="2014-04-06 10:00" polarity="POS" start="2751" temporally-annotated="YES" text="PT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:32"/>
+<EVENT end="2767" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:28" modality="FACTUAL" most-likely-duration="0Y0M114D10H54m" most-likely-start="2014-04-06 10:00" polarity="POS" start="2764" temporally-annotated="YES" text="PTT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:32"/>
+<EVENT end="2781" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:28" modality="FACTUAL" most-likely-duration="0Y0M123D22H43m" most-likely-start="2014-04-06 10:00" polarity="POS" start="2778" temporally-annotated="YES" text="INR" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 20:32"/>
+<EVENT end="2864" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 05:14" modality="FACTUAL" most-likely-duration="0Y0M112D10H37m" most-likely-start="2014-04-06 11:39" polarity="POS" start="2823" temporally-annotated="YES" text="duplex ultrasound of the patient 's liver" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 18:04"/>
+<EVENT end="292" id="E93" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-26 20:18" modality="FACTUAL" most-likely-duration="0Y0M96D1H59m" most-likely-start="2013-11-29 22:11" polarity="POS" start="284" temporally-annotated="YES" text="lethargy" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-10 00:04"/>
+<EVENT end="2892" id="E123" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 04:00" modality="FACTUAL" most-likely-duration="0Y0M138D4H4m" most-likely-start="2014-04-06 09:46" polarity="POS" start="2879" temporally-annotated="YES" text="demonstrating" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 15:32"/>
+<EVENT end="2943" id="E124" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 02:15" modality="FACTUAL" most-likely-duration="0Y0M95D20H15m" most-likely-start="2014-04-06 07:45" polarity="POS" start="2893" temporally-annotated="YES" text="normal appearing portal veins and hepatic arteries" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 13:15"/>
+<EVENT end="38" id="E75" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-17 18:37" modality="FACTUAL" most-likely-duration="0Y0M194D11H1m" most-likely-start="2014-03-31 17:37" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-05-15 02:37"/>
+<EVENT end="2967" id="E125" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 00:41" modality="FACTUAL" most-likely-duration="0Y0M109D17H24m" most-likely-start="2014-04-06 05:56" polarity="POS" start="2956" temporally-annotated="YES" text="normal flow" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 11:11"/>
+<EVENT end="3090" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 23:20" modality="FACTUAL" most-likely-duration="0Y0M104D5H27m" most-likely-start="2014-04-06 04:28" polarity="POS" start="3021" temporally-annotated="YES" text="a decreased and sluggish flow within the right and left hepatic veins" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 09:36"/>
+<EVENT end="3175" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 22:20" modality="FACTUAL" most-likely-duration="0Y0M95D8H52m" most-likely-start="2014-04-06 03:18" polarity="POS" start="3096" temporally-annotated="YES" text="loss of normal respiratory variations , wave forms and the intrahepatic portion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 08:16"/>
+<EVENT end="324" id="E76" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-26 21:18" modality="FACTUAL" most-likely-duration="0Y0M111D16H12m" most-likely-start="2013-11-29 23:07" polarity="POS" start="316" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-10 00:56"/>
+<EVENT end="3223" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 21:34" modality="FACTUAL" most-likely-duration="0Y0M116D22H12m" most-likely-start="2014-04-06 02:23" polarity="POS" start="3202" temporally-annotated="YES" text="diminished color flow" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 07:12"/>
+<EVENT end="3338" id="E126" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 20:57" modality="POSSIBLE" most-likely-duration="0Y0M95D0H2m" most-likely-start="2014-04-06 01:41" polarity="POS" start="3290" temporally-annotated="YES" text="thrombus within the left and right hepatic veins" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 06:25"/>
+<EVENT end="3356" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 20:28" modality="FACTUAL" most-likely-duration="0Y0M107D10H30m" most-likely-start="2014-04-06 01:08" polarity="POS" start="3341" temporally-annotated="YES" text="Caval narrowing" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 05:48"/>
+<EVENT end="370" id="E77" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2013-11-26 21:54" modality="FACTUAL" most-likely-duration="0Y0M109D14H15m" most-likely-start="2013-11-29 23:41" polarity="POS" start="344" temporally-annotated="YES" text="Nantucket Cottage Hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2013-12-10 01:28"/>
+<EVENT end="3458" id="E127" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 20:06" modality="PROPOSED" most-likely-duration="0Y0M117D8H13m" most-likely-start="2014-04-06 00:42" polarity="POS" start="3452" temporally-annotated="YES" text="the CT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 05:18"/>
+<EVENT end="3484" id="E128" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 19:49" modality="PROPOSED" most-likely-duration="0Y0M109D14H32m" most-likely-start="2014-04-06 00:21" polarity="POS" start="3462" temporally-annotated="YES" text="short-term ultrasounds" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 04:53"/>
+<EVENT end="3549" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 19:34" modality="FACTUAL" most-likely-duration="0Y0M106D21H2m" most-likely-start="2014-04-06 00:05" polarity="POS" start="3517" temporally-annotated="YES" text="The Feeney Gann-Burlington drain" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 04:36"/>
+<EVENT end="3590" id="E129" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-04 02:21" modality="FACTUAL" most-likely-duration="0Y0M128D7H39m" most-likely-start="2014-04-07 04:32" polarity="POS" start="3578" temporally-annotated="YES" text="demonstrated" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-17 06:43"/>
+<EVENT end="3604" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 00:33" modality="FACTUAL" most-likely-duration="0Y0M107D15H52m" most-likely-start="2014-04-05 04:43" polarity="POS" start="3591" temporally-annotated="YES" text="medial output" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 08:53"/>
+<EVENT end="3631" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 23:37" modality="FACTUAL" most-likely-duration="0Y0M109D7H44m" most-likely-start="2014-04-05 03:43" polarity="POS" start="3617" temporally-annotated="YES" text="lateral output" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 07:49"/>
+<EVENT end="3666" id="E86" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 22:30" modality="FACTUAL" most-likely-duration="0Y0M101D0H54m" most-likely-start="2014-04-05 02:31" polarity="POS" start="3657" temporally-annotated="YES" text="the floor" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 06:32"/>
+<EVENT end="3695" id="E88" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-01 21:21" modality="FACTUAL" most-likely-duration="0Y0M99D12H47m" most-likely-start="2014-04-05 01:22" polarity="POS" start="3686" temporally-annotated="YES" text="the floor" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 05:23"/>
+<EVENT end="3747" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 22:01" modality="FACTUAL" most-likely-duration="0Y0M107D11H13m" most-likely-start="2014-04-05 22:27" polarity="POS" start="3738" temporally-annotated="YES" text="Acyclovir" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 22:53"/>
+<EVENT end="3760" id="E56" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 22:12" modality="FACTUAL" most-likely-duration="0Y0M113D2H53m" most-likely-start="2014-04-05 22:26" polarity="POS" start="3750" temporally-annotated="YES" text="Prednisone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 22:40"/>
+<EVENT end="3766" id="E57" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 21:58" modality="FACTUAL" most-likely-duration="0Y0M123D22H53m" most-likely-start="2014-04-05 22:08" polarity="POS" start="3763" temporally-annotated="YES" text="MMF" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 22:18"/>
+<EVENT end="3807" id="E58" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-02 21:50" modality="FACTUAL" most-likely-duration="0Y0M115D10H38m" most-likely-start="2014-04-05 21:59" polarity="POS" start="3803" temporally-annotated="YES" text="FK 2" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-15 22:08"/>
+<EVENT end="401" id="E94" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-16 12:23" modality="FACTUAL" most-likely-duration="0Y0M95D5H13m" most-likely-start="2014-03-19 19:28" polarity="POS" start="387" temporally-annotated="YES" text="encephalopathy" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-03-30 02:33"/>
+<EVENT end="3867" id="E131" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 12:45" modality="FACTUAL" most-likely-duration="0Y0M124D1H19m" most-likely-start="2014-04-08 10:17" polarity="POS" start="3863" temporally-annotated="YES" text="Diet" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 07:49"/>
+<EVENT end="3880" id="E130" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 11:59" modality="FACTUAL" most-likely-duration="0Y0M95D11H58m" most-likely-start="2014-04-08 09:34" polarity="POS" start="3872" temporally-annotated="YES" text="advanced" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 07:09"/>
+<EVENT end="3905" id="E132" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 10:51" modality="FACTUAL" most-likely-duration="0Y0M95D4H23m" most-likely-start="2014-04-08 08:24" polarity="POS" start="3895" temporally-annotated="YES" text="ambulating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 05:57"/>
+<EVENT end="3929" id="E59" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 09:46" modality="FACTUAL" most-likely-duration="0Y0M109D11H24m" most-likely-start="2014-04-08 07:12" polarity="POS" start="3908" temporally-annotated="YES" text="Waltham-Ludlow drains" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 04:38"/>
+<EVENT end="4062" id="E60" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 06:20" modality="FACTUAL" most-likely-duration="0Y0M108D15H46m" most-likely-start="2014-04-08 05:56" polarity="POS" start="4047" temporally-annotated="YES" text="glucose control" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 05:32"/>
+<EVENT end="4096" id="E61" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 06:08" modality="FACTUAL" most-likely-duration="0Y0M95D19H17m" most-likely-start="2014-04-08 05:40" polarity="POS" start="4088" temporally-annotated="YES" text="steroids" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 05:12"/>
+<EVENT end="4160" id="E133" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 05:47" modality="FACTUAL" most-likely-duration="0Y0M107D10H57m" most-likely-start="2014-04-08 05:18" polarity="POS" start="4148" temporally-annotated="YES" text="do very well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 04:49"/>
+<EVENT end="4173" id="E134" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 05:23" modality="FACTUAL" most-likely-duration="0Y0M109D17H53m" most-likely-start="2014-04-08 04:54" polarity="POS" start="4163" temporally-annotated="YES" text="ambulating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 04:25"/>
+<EVENT end="4194" id="E135" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 05:02" modality="FACTUAL" most-likely-duration="0Y0M95D4H20m" most-likely-start="2014-04-08 04:34" polarity="POS" start="4176" temporally-annotated="YES" text="following the diet" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 04:06"/>
+<EVENT end="426" id="E78" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-16 16:35" modality="FACTUAL" most-likely-duration="0Y0M104D2H46m" most-likely-start="2014-03-19 23:40" polarity="POS" start="418" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-03-30 06:45"/>
+<EVENT end="4239" id="E136" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 04:45" modality="FACTUAL" most-likely-duration="0Y0M100D7H22m" most-likely-start="2014-04-08 04:19" polarity="POS" start="4230" temporally-annotated="YES" text="platelets" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-18 03:53"/>
+<EVENT end="4272" id="E63" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 07:09" modality="FACTUAL" most-likely-duration="0Y0M109D7H4m" most-likely-start="2014-04-06 13:29" polarity="POS" start="4258" temporally-annotated="YES" text="platelet count" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 19:49"/>
+<EVENT end="4311" id="E64" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-03 09:37" modality="FACTUAL" most-likely-duration="0Y0M105D13H35m" most-likely-start="2014-04-06 15:59" polarity="POS" start="4281" temporally-annotated="YES" text="A heparin independent antibody" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-16 22:21"/>
+<EVENT end="4413" id="E137" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 15:18" modality="FACTUAL" most-likely-duration="0Y0M105D12H40m" most-likely-start="2014-04-09 18:27" polarity="POS" start="4401" temporally-annotated="YES" text="do very well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-19 21:36"/>
+<EVENT end="4426" id="E138" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 16:36" modality="FACTUAL" most-likely-duration="0Y0M108D20H20m" most-likely-start="2014-04-09 19:38" polarity="POS" start="4416" temporally-annotated="YES" text="ambulating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-19 22:40"/>
+<EVENT end="4446" id="E139" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 19:15" modality="FACTUAL" most-likely-duration="0Y0M106D2H34m" most-likely-start="2014-04-09 22:04" polarity="POS" start="4429" temporally-annotated="YES" text="tolerating a diet" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 00:53"/>
+<EVENT end="4458" id="E140" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 21:07" modality="FACTUAL" most-likely-duration="0Y0M115D1H53m" most-likely-start="2014-04-09 23:50" polarity="POS" start="4449" temporally-annotated="YES" text="urinating" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 02:33"/>
+<EVENT end="4477" id="E141" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 22:12" modality="FACTUAL" most-likely-duration="0Y0M94D22H57m" most-likely-start="2014-04-10 00:55" polarity="NEG" start="4467" temporally-annotated="YES" text="difficulty" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 03:38"/>
+<EVENT end="4486" id="E142" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 22:52" modality="FACTUAL" most-likely-duration="0Y0M124D18H8m" most-likely-start="2014-04-10 01:32" polarity="POS" start="4480" temporally-annotated="YES" text="Drains" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 04:12"/>
+<EVENT end="4553" id="E65" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 23:14" modality="FACTUAL" most-likely-duration="0Y0M100D20H18m" most-likely-start="2014-04-10 01:54" polarity="POS" start="4538" temporally-annotated="YES" text="Patient 's labs" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 04:34"/>
+<EVENT end="475" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-19 17:38" modality="FACTUAL" most-likely-duration="0Y0M107D15H9m" most-likely-start="2014-03-23 00:19" polarity="POS" start="457" temporally-annotated="YES" text="Infectious work-up" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-02 07:00"/>
+<EVENT end="4607" id="E66" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 19:01" modality="FACTUAL" most-likely-duration="0Y0M108D12H57m" most-likely-start="2014-04-10 20:46" polarity="POS" start="4597" temporally-annotated="YES" text="hematocrit" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 22:31"/>
+<EVENT end="4627" id="E67" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 19:15" modality="FACTUAL" most-likely-duration="0Y0M111D6H24m" most-likely-start="2014-04-10 20:50" polarity="POS" start="4618" temporally-annotated="YES" text="platelets" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 22:25"/>
+<EVENT end="4639" id="E68" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 19:20" modality="FACTUAL" most-likely-duration="0Y0M131D18H42m" most-likely-start="2014-04-10 20:09" polarity="POS" start="4633" temporally-annotated="YES" text="Sodium" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 20:58"/>
+<EVENT end="4658" id="E69" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 19:27" modality="FACTUAL" most-likely-duration="0Y0M123D10H57m" most-likely-start="2014-04-10 19:26" polarity="POS" start="4649" temporally-annotated="YES" text="potassium" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 19:25"/>
+<EVENT end="4694" id="E70" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 19:35" modality="FACTUAL" most-likely-duration="0Y0M112D0H2m" most-likely-start="2014-04-10 19:02" polarity="POS" start="4687" temporally-annotated="YES" text="glucose" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 18:29"/>
+<EVENT end="4704" id="E71" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 21:25" modality="FACTUAL" most-likely-duration="0Y0M114D16H5m" most-likely-start="2014-04-10 20:31" polarity="POS" start="4701" temporally-annotated="YES" text="AST" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 19:37"/>
+<EVENT end="4713" id="E72" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 22:24" modality="FACTUAL" most-likely-duration="0Y0M114D10H55m" most-likely-start="2014-04-10 21:25" polarity="POS" start="4710" temporally-annotated="YES" text="ALT" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 20:26"/>
+<EVENT end="4740" id="E73" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-07 23:00" modality="FACTUAL" most-likely-duration="0Y0M112D19H42m" most-likely-start="2014-04-10 21:53" polarity="POS" start="4720" temporally-annotated="YES" text="Alkaline phosphatase" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-20 20:46"/>
+<EVENT end="4833" id="E74" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-06 09:13" modality="FACTUAL" most-likely-duration="0Y0M107D11H9m" most-likely-start="2014-04-09 14:55" polarity="POS" start="4818" temporally-annotated="YES" text="Total bilirubin" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-19 20:37"/>
+<EVENT end="4868" id="E143" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 21:47" modality="FACTUAL" most-likely-duration="0Y0M111D17H31m" most-likely-start="2014-04-09 04:56" polarity="POS" start="4860" temporally-annotated="YES" text="FK level" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-19 12:05"/>
+<EVENT end="4892" id="E144" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-04-05 19:21" modality="FACTUAL" most-likely-duration="0Y0M102D11H28m" most-likely-start="2014-04-09 02:44" polarity="POS" start="4888" temporally-annotated="YES" text="left" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-19 10:07"/>
+<EVENT end="500" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-19 18:07" modality="FACTUAL" most-likely-duration="0Y0M112D15H21m" most-likely-start="2014-03-23 00:26" polarity="NEG" start="491" temporally-annotated="YES" text="Trazodone" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-02 06:45"/>
+<EVENT end="543" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-19 18:20" modality="FACTUAL" most-likely-duration="0Y0M107D16H33m" most-likely-start="2014-03-23 00:20" polarity="POS" start="534" temporally-annotated="YES" text="Lactulose" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-02 06:20"/>
+<EVENT end="558" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-19 18:18" modality="FACTUAL" most-likely-duration="0Y0M104D3H2m" most-likely-start="2014-03-23 00:07" polarity="POS" start="548" temporally-annotated="YES" text="Rifaximine" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-02 05:56"/>
+<EVENT end="573" id="E95" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-19 18:10" modality="FACTUAL" most-likely-duration="0Y0M128D10H24m" most-likely-start="2014-03-22 23:50" polarity="POS" start="565" temporally-annotated="YES" text="improved" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-02 05:30"/>
+<EVENT end="648" id="E96" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 09:10" modality="FACTUAL" most-likely-duration="0Y0M101D2H39m" most-likely-start="2014-03-30 12:07" polarity="POS" start="642" temporally-annotated="YES" text="clinic" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 15:04"/>
+<EVENT end="672" id="E97" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 05:26" modality="FACTUAL" most-likely-duration="0Y0M107D15H22m" most-likely-start="2014-03-30 09:07" polarity="POS" start="654" temporally-annotated="YES" text="increased lethargy" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 12:48"/>
+<EVENT end="684" id="E98" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 03:29" modality="FACTUAL" most-likely-duration="0Y0M95D2H13m" most-likely-start="2014-03-30 07:23" polarity="POS" start="675" temporally-annotated="YES" text="confusion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 11:17"/>
+<EVENT end="699" id="E99" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 02:29" modality="FACTUAL" most-likely-duration="0Y0M105D5H20m" most-likely-start="2014-03-30 06:29" polarity="POS" start="692" temporally-annotated="YES" text="reports" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 10:29"/>
+<EVENT end="742" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:59" modality="FACTUAL" most-likely-duration="0Y0M103D13H6m" most-likely-start="2014-03-30 06:00" polarity="POS" start="734" temporally-annotated="YES" text="lethargy" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 10:01"/>
+<EVENT end="756" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:43" modality="FACTUAL" most-likely-duration="0Y0M101D17H55m" most-likely-start="2014-03-30 05:44" polarity="POS" start="747" temporally-annotated="YES" text="confusion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:45"/>
+<EVENT end="782" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:34" modality="FACTUAL" most-likely-duration="0Y0M104D18H49m" most-likely-start="2014-03-30 05:35" polarity="POS" start="770" temporally-annotated="YES" text="the symptoms" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:36"/>
+<EVENT end="826" id="E79" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:28" modality="FACTUAL" most-likely-duration="0Y0M94D21H56m" most-likely-start="2014-03-30 05:30" polarity="POS" start="818" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:32"/>
+<EVENT end="853" id="E100" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:24" modality="FACTUAL" most-likely-duration="0Y0M101D10H43m" most-likely-start="2014-03-30 05:28" polarity="POS" start="846" temporally-annotated="YES" text="reports" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:32"/>
+<EVENT end="886" id="E101" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:23" modality="FACTUAL" most-likely-duration="0Y0M104D13H49m" most-likely-start="2014-03-30 05:26" polarity="POS" start="872" temporally-annotated="YES" text="yellowish eyes" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:29"/>
+<EVENT end="901" id="E102" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:22" modality="FACTUAL" most-likely-duration="0Y0M102D18H15m" most-likely-start="2014-03-30 05:26" polarity="POS" start="889" temporally-annotated="YES" text="some shaking" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:30"/>
+<EVENT end="942" id="E103" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2014-03-27 01:23" modality="FACTUAL" most-likely-duration="0Y0M110D18H19m" most-likely-start="2014-03-30 05:26" polarity="POS" start="906" temporally-annotated="YES" text="his breath smelled more like ammonia" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2014-04-09 09:29"/>
+<TIMEX3 end="1056" id="T3" mod="NA" start="1051" text="today" type="DATE" val="2014-03-31"/>
+<TIMEX3 end="1079" id="T27" mod="NA" start="1069" text="2014-03-31" type="DATE" val="2014-03-31"/>
+<TIMEX3 end="1126" id="T28" mod="NA" start="1110" text="the past 2 weeks" type="DURATION" val="P2W"/>
+<TIMEX3 end="1350" id="T29" mod="APPROX" start="1329" text="3 to 4 stools per day" type="FREQUENCY" val="RPT8H"/>
+<TIMEX3 end="1439" id="T4" mod="NA" start="1429" text="2014-04-01" type="DATE" val="2014-04-01"/>
+<TIMEX3 end="1455" id="T5" mod="NA" start="1445" text="2014-04-02" type="DATE" val="2014-04-02"/>
+<TIMEX3 end="1732" id="T30" mod="NA" start="1722" text="2014-04-01" type="DATE" val="2014-04-01"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="2014-03-31" type="DATE" val="2014-03-31"/>
+<TIMEX3 end="1905" id="T6" mod="NA" start="1895" text="2014-04-04" type="DATE" val="2014-04-04"/>
+<TIMEX3 end="2034" id="T7" mod="NA" start="2024" text="2014-04-04" type="DATE" val="2014-04-04"/>
+<TIMEX3 end="2087" id="T8" mod="NA" start="2077" text="2014-04-04" type="DATE" val="2014-04-04"/>
+<TIMEX3 end="2345" id="T31" mod="NA" start="2339" text="b.i.d." type="FREQUENCY" val="RPT12H"/>
+<TIMEX3 end="2413" id="T9" mod="NA" start="2407" text="2 days" type="DURATION" val="P2D"/>
+<TIMEX3 end="2520" id="T10" mod="NA" start="2514" text="2 days" type="DURATION" val="P2D"/>
+<TIMEX3 end="2554" id="T11" mod="NA" start="2544" text="2014-04-04" type="DATE" val="2014-04-04"/>
+<TIMEX3 end="2820" id="T12" mod="NA" start="2794" text="postoperative day number 1" type="DATE" val="2014-04-05"/>
+<TIMEX3 end="328" id="T36" mod="NA" start="325" text="5 x" type="FREQUENCY" val="R5"/>
+<TIMEX3 end="3577" id="T32" mod="APPROX" start="3553" text="postoperative day number" type="DATE" val="2014-04-05"/>
+<TIMEX3 end="3709" id="T13" mod="NA" start="3699" text="2014-04-07" type="DATE" val="2014-04-07"/>
+<TIMEX3 end="382" id="T0" mod="NA" start="377" text="11-30" type="DATE" val="2013-11-30"/>
+<TIMEX3 end="3781" id="T33" mod="NA" start="3776" text="b.i.d" type="FREQUENCY" val="RPT12H"/>
+<TIMEX3 end="3860" id="T14" mod="NA" start="3834" text="postoperative day number 2" type="DATE" val="2014-04-06"/>
+<TIMEX3 end="4035" id="T15" mod="NA" start="4025" text="2014-04-08" type="DATE" val="2014-04-08"/>
+<TIMEX3 end="4253" id="T16" mod="NA" start="4243" text="2014-04-08" type="DATE" val="2014-04-08"/>
+<TIMEX3 end="440" id="T38" mod="NA" start="430" text="2014-03-19" type="DATE" val="2014-03-19"/>
+<TIMEX3 end="4338" id="T17" mod="NA" start="4328" text="2014-04-07" type="DATE" val="2014-04-07"/>
+<TIMEX3 end="4377" id="T18" mod="NA" start="4367" text="2014-04-09" type="DATE" val="2014-04-09"/>
+<TIMEX3 end="454" id="T37" mod="NA" start="444" text="2014-03-22" type="DATE" val="2014-03-22"/>
+<TIMEX3 end="4569" id="T34" mod="NA" start="4559" text="2014-04-10" type="DATE" val="2014-04-10"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="2014-04-09" type="DATE" val="2014-04-09"/>
+<TIMEX3 end="4815" id="T35" mod="NA" start="4789" text="postoperative day number 1" type="DATE" val="2014-04-05"/>
+<TIMEX3 end="4857" id="T19" mod="NA" start="4847" text="2014-04-09" type="DATE" val="2014-04-09"/>
+<TIMEX3 end="4906" id="T20" mod="NA" start="4896" text="2014-04-09" type="DATE" val="2014-04-09"/>
+<TIMEX3 end="599" id="T24" mod="NA" start="594" text="Today" type="DATE" val="2014-03-31"/>
+<TIMEX3 end="615" id="T25" mod="NA" start="605" text="2014-03-03" type="DATE" val="2014-03-31"/>
+<TIMEX3 end="963" id="T40" mod="NA" start="948" text="the past 3 days" type="DURATION" val="P3D"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T1" toText="2014-03-31" type="SIMULTANEOUS"/>
+<TLINK fromID="E75" fromText="Discharge" id="TL1" toID="T2" toText="2014-04-09" type="SIMULTANEOUS"/>
+<TLINK fromID="E76" fromText="admitted" id="TL10" toID="E77" toText="Nantucket Cottage Hospital" type="OVERLAP"/>
+<TLINK fromID="T11" fromText="2014-04-04" id="TL100" toID="E34" toText="labs" type="SIMULTANEOUS"/>
+<TLINK fromID="E35" fromText="WBC" id="TL101" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E36" fromText="hematocrit" id="TL102" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E37" fromText="platelets" id="TL103" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E38" fromText="sodium" id="TL104" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E39" fromText="serum creatinine" id="TL105" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E40" fromText="Glucose" id="TL106" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E41" fromText="AST" id="TL107" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E42" fromText="ALT" id="TL108" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E43" fromText="Alkaline phosphatase" id="TL109" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E76" fromText="admitted" id="TL11" toID="T0" toText="11-30" type="BEGUN_BY"/>
+<TLINK fromID="E44" fromText="PT" id="TL110" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E45" fromText="PTT" id="TL111" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E46" fromText="INR" id="TL112" toID="T11" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E47" fromText="duplex ultrasound of the patient 's liver" id="TL113" toID="T12" toText="postoperative day number 1" type="SIMULTANEOUS"/>
+<TLINK fromID="E47" fromText="duplex ultrasound of the patient 's liver" id="TL114" toID="E123" toText="demonstrating" type="OVERLAP"/>
+<TLINK fromID="E124" fromText="normal appearing portal veins and hepatic arteries" id="TL115" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP"/>
+<TLINK fromID="E125" fromText="normal flow" id="TL116" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="a decreased and sluggish flow within the right and left hepatic veins" id="TL117" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="loss of normal respiratory variations , wave forms and the intrahepatic portion" id="TL118" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP"/>
+<TLINK fromID="E94" fromText="encephalopathy" id="TL12" toID="T0" toText="11-30" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E50" fromText="diminished color flow" id="TL120" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP"/>
+<TLINK fromID="E126" fromText="thrombus within the left and right hepatic veins" id="TL121" toID="E50" toText="diminished color flow" type="SIMULTANEOUS"/>
+<TLINK fromID="E51" fromText="Caval narrowing" id="TL122" toID="E47" toText="duplex ultrasound of the patient 's liver" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="Caval narrowing" id="TL123" toID="E127" toText="the CT" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E51" fromText="Caval narrowing" id="TL124" toID="E128" toText="short-term ultrasounds" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E52" fromText="The Feeney Gann-Burlington drain" id="TL125" toID="T32" toText="postoperative day number" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E129" fromText="demonstrated" id="TL126" toID="T32" toText="postoperative day number" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="medial output" id="TL127" toID="T32" toText="postoperative day number" type="SIMULTANEOUS"/>
+<TLINK fromID="E54" fromText="lateral output" id="TL128" toID="T32" toText="postoperative day number" type="SIMULTANEOUS"/>
+<TLINK fromID="E86" fromText="the floor" id="TL129" toID="E88" toText="the floor" type="SIMULTANEOUS"/>
+<TLINK fromID="E88" fromText="the floor" id="TL130" toID="T13" toText="2014-04-07" type="BEGUN_BY"/>
+<TLINK fromID="E122" fromText="the ICU" id="TL131" toID="E86" toText="the floor" type="ENDED_BY"/>
+<TLINK fromID="E55" fromText="Acyclovir" id="TL132" toID="E56" toText="Prednisone" type="OVERLAP"/>
+<TLINK fromID="E56" fromText="Prednisone" id="TL133" toID="E57" toText="MMF" type="OVERLAP"/>
+<TLINK fromID="E57" fromText="MMF" id="TL134" toID="T33" toText="b.i.d" type="OVERLAP"/>
+<TLINK fromID="E57" fromText="MMF" id="TL135" toID="E24" toText="MMF" type="SIMULTANEOUS"/>
+<TLINK fromID="E58" fromText="FK 2" id="TL136" toID="T14" toText="postoperative day number 2" type="BEGUN_BY"/>
+<TLINK fromID="E58" fromText="FK 2" id="TL137" toID="E57" toText="MMF" type="OVERLAP"/>
+<TLINK fromID="E131" fromText="Diet" id="TL138" toID="E130" toText="advanced" type="OVERLAP"/>
+<TLINK fromID="E130" fromText="advanced" id="TL139" toID="E88" toText="the floor" type="OVERLAP"/>
+<TLINK fromID="E130" fromText="advanced" id="TL140" toID="E132" toText="ambulating" type="OVERLAP"/>
+<TLINK fromID="E59" fromText="Waltham-Ludlow drains" id="TL141" toID="E86" toText="the floor" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E61" fromText="steroids" id="TL142" toID="E60" toText="glucose control" type="OVERLAP"/>
+<TLINK fromID="E60" fromText="glucose control" id="TL143" toID="T15" toText="2014-04-08" type="OVERLAP"/>
+<TLINK fromID="E133" fromText="do very well" id="TL144" toID="E134" toText="ambulating" type="OVERLAP"/>
+<TLINK fromID="E134" fromText="ambulating" id="TL145" toID="E135" toText="following the diet" type="OVERLAP"/>
+<TLINK fromID="E133" fromText="do very well" id="TL146" toID="E88" toText="the floor" type="OVERLAP"/>
+<TLINK fromID="E136" fromText="platelets" id="TL147" toID="T16" toText="2014-04-08" type="SIMULTANEOUS"/>
+<TLINK fromID="E63" fromText="platelet count" id="TL148" toID="E136" toText="platelets" type="BEFORE"/>
+<TLINK fromID="E64" fromText="A heparin independent antibody" id="TL149" toID="T17" toText="2014-04-07" type="SIMULTANEOUS"/>
+<TLINK fromID="T18" fromText="2014-04-09" id="TL150" toID="E137" toText="do very well" type="SIMULTANEOUS"/>
+<TLINK fromID="E138" fromText="ambulating" id="TL151" toID="T18" toText="2014-04-09" type="SIMULTANEOUS"/>
+<TLINK fromID="T18" fromText="2014-04-09" id="TL152" toID="E139" toText="tolerating a diet" type="SIMULTANEOUS"/>
+<TLINK fromID="E140" fromText="urinating" id="TL153" toID="T18" toText="2014-04-09" type="SIMULTANEOUS"/>
+<TLINK fromID="E141" fromText="difficulty" id="TL154" toID="E140" toText="urinating" type="OVERLAP"/>
+<TLINK fromID="E142" fromText="Drains" id="TL155" toID="T18" toText="2014-04-09" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E65" fromText="Patient 's labs" id="TL156" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E66" fromText="hematocrit" id="TL157" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E67" fromText="platelets" id="TL158" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E68" fromText="Sodium" id="TL159" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E78" fromText="admitted" id="TL16" toID="T37" toText="2014-03-22" type="ENDED_BY"/>
+<TLINK fromID="E69" fromText="potassium" id="TL160" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E70" fromText="glucose" id="TL161" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E71" fromText="AST" id="TL162" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E72" fromText="ALT" id="TL163" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E73" fromText="Alkaline phosphatase" id="TL164" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E73" fromText="Alkaline phosphatase" id="TL165" toID="T35" toText="postoperative day number 1" type="AFTER"/>
+<TLINK fromID="E74" fromText="Total bilirubin" id="TL166" toID="T34" toText="2014-04-10" type="SIMULTANEOUS"/>
+<TLINK fromID="E143" fromText="FK level" id="TL167" toID="T19" toText="2014-04-09" type="SIMULTANEOUS"/>
+<TLINK fromID="E144" fromText="left" id="TL168" toID="T20" toText="2014-04-09" type="SIMULTANEOUS"/>
+<TLINK fromID="E1" fromText="Infectious work-up" id="TL18" toID="E2" toText="Trazodone" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="Trazodone" id="TL19" toID="E3" toText="Lactulose" type="OVERLAP"/>
+<TLINK fromID="E80" fromText="admitted" id="TL2" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E3" fromText="Lactulose" id="TL20" toID="E4" toText="Rifaximine" type="OVERLAP"/>
+<TLINK fromID="E4" fromText="Rifaximine" id="TL21" toID="E95" toText="improved" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E92" fromText="worsening confusion" id="TL22" toID="E4" toText="Rifaximine" type="BEFORE_OVERLAP"/>
+<TLINK fromID="T24" fromText="Today" id="TL23" toID="T25" toText="2014-03-03" type="SIMULTANEOUS"/>
+<TLINK fromID="E96" fromText="clinic" id="TL24" toID="T24" toText="Today" type="SIMULTANEOUS"/>
+<TLINK fromID="E97" fromText="increased lethargy" id="TL25" toID="T24" toText="Today" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E98" fromText="confusion" id="TL26" toID="T24" toText="Today" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E5" fromText="lethargy" id="TL27" toID="E99" toText="reports" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E6" fromText="confusion" id="TL28" toID="E99" toText="reports" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E79" fromText="admitted" id="TL29" toID="E78" toText="admitted" type="SIMULTANEOUS"/>
+<TLINK fromID="E89" fromText="hepatitis C cirrhosis" id="TL3" toID="E90" toText="encephalopathy" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E7" fromText="the symptoms" id="TL30" toID="E79" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E101" fromText="yellowish eyes" id="TL34" toID="E100" toText="reports" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E101" fromText="yellowish eyes" id="TL35" toID="T40" toText="the past 3 days" type="DURING"/>
+<TLINK fromID="E102" fromText="some shaking" id="TL36" toID="T40" toText="the past 3 days" type="DURING"/>
+<TLINK fromID="E103" fromText="his breath smelled more like ammonia" id="TL37" toID="T40" toText="the past 3 days" type="DURING"/>
+<TLINK fromID="T40" fromText="the past 3 days" id="TL38" toID="T24" toText="Today" type="ENDED_BY"/>
+<TLINK fromID="E104" fromText="his medications" id="TL39" toID="T24" toText="Today" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E90" fromText="encephalopathy" id="TL4" toID="E91" toText="positive esophageal varices" type="OVERLAP"/>
+<TLINK fromID="E105" fromText="bowel movement" id="TL40" toID="T3" toText="today" type="SIMULTANEOUS"/>
+<TLINK fromID="T27" fromText="2014-03-31" id="TL41" toID="T3" toText="today" type="SIMULTANEOUS"/>
+<TLINK fromID="T3" fromText="today" id="TL42" toID="T24" toText="Today" type="SIMULTANEOUS"/>
+<TLINK fromID="E8" fromText="night sweats" id="TL43" toID="T28" toText="the past 2 weeks" type="DURING"/>
+<TLINK fromID="T28" fromText="the past 2 weeks" id="TL44" toID="T3" toText="today" type="ENDED_BY"/>
+<TLINK fromID="E106" fromText="any abdominal pain" id="TL45" toID="E107" toText="denies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E107" fromText="denies" id="TL46" toID="E100" toText="reports" type="OVERLAP"/>
+<TLINK fromID="E108" fromText="cold" id="TL47" toID="E110" toText="fevers" type="OVERLAP"/>
+<TLINK fromID="E110" fromText="fevers" id="TL48" toID="E109" toText="denies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E109" fromText="denies" id="TL49" toID="E107" toText="denies" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="Lactulose" id="TL50" toID="E9" toText="Lactulose" type="SIMULTANEOUS"/>
+<TLINK fromID="E9" fromText="Lactulose" id="TL51" toID="E80" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="T29" fromText="3 to 4 stools per day" id="TL52" toID="E9" toText="Lactulose" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="Rifaximine" id="TL53" toID="E4" toText="Rifaximine" type="SIMULTANEOUS"/>
+<TLINK fromID="E10" fromText="Rifaximine" id="TL54" toID="E80" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E11" fromText="Lasix" id="TL55" toID="E80" toText="admitted" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E81" fromText="Physical therapy" id="TL56" toID="T4" toText="2014-04-01" type="SIMULTANEOUS"/>
+<TLINK fromID="E111" fromText="awake" id="TL57" toID="T5" toText="2014-04-02" type="SIMULTANEOUS"/>
+<TLINK fromID="E112" fromText="alert" id="TL58" toID="T5" toText="2014-04-02" type="SIMULTANEOUS"/>
+<TLINK fromID="E113" fromText="oriented" id="TL59" toID="T5" toText="2014-04-02" type="SIMULTANEOUS"/>
+<TLINK fromID="E90" fromText="encephalopathy" id="TL6" toID="E92" toText="worsening confusion" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E9" fromText="Lactulose" id="TL60" toID="E12" toText="Lactulose" type="SIMULTANEOUS"/>
+<TLINK fromID="E12" fromText="Lactulose" id="TL61" toID="E113" toText="oriented" type="OVERLAP"/>
+<TLINK fromID="E114" fromText="Difficulty with word finding" id="TL62" toID="E113" toText="oriented" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="any pain" id="TL63" toID="E115" toText="Denies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E14" fromText="discomfort" id="TL64" toID="E115" toText="Denies" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E115" fromText="Denies" id="TL65" toID="E114" toText="Difficulty with word finding" type="OVERLAP"/>
+<TLINK fromID="E116" fromText="Slightly distended" id="TL66" toID="E15" toText="nontender" type="OVERLAP"/>
+<TLINK fromID="E116" fromText="Slightly distended" id="TL67" toID="E14" toText="discomfort" type="OVERLAP"/>
+<TLINK fromID="E117" fromText="bowel sounds" id="TL68" toID="E15" toText="nontender" type="OVERLAP"/>
+<TLINK fromID="E118" fromText="flatus" id="TL69" toID="E117" toText="bowel sounds" type="OVERLAP"/>
+<TLINK fromID="E92" fromText="worsening confusion" id="TL7" toID="E93" toText="lethargy" type="OVERLAP"/>
+<TLINK fromID="T30" fromText="2014-04-01" id="TL70" toID="E16" toText="Ultrasound" type="SIMULTANEOUS"/>
+<TLINK fromID="E119" fromText="demonstrating" id="TL71" toID="E16" toText="Ultrasound" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="severe portal hypertension" id="TL72" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E18" fromText="massive peri splenic varices" id="TL73" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E19" fromText="splenorenal shunt" id="TL74" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E20" fromText="Repeat hepato fungal flare" id="TL75" toID="E16" toText="Ultrasound" type="BEFORE_OVERLAP"/>
+<TLINK fromID="T6" fromText="2014-04-04" id="TL76" toID="E120" toText="the transplant service" type="SIMULTANEOUS"/>
+<TLINK fromID="E120" fromText="the transplant service" id="TL77" toID="E121" toText="the operating room" type="BEFORE"/>
+<TLINK fromID="E82" fromText="transplant" id="TL78" toID="E121" toText="the operating room" type="DURING"/>
+<TLINK fromID="E82" fromText="transplant" id="TL79" toID="T7" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E94" fromText="encephalopathy" id="TL8" toID="E90" toText="encephalopathy" type="SIMULTANEOUS"/>
+<TLINK fromID="E121" fromText="the operating room" id="TL80" toID="E83" toText="operating room" type="SIMULTANEOUS"/>
+<TLINK fromID="E83" fromText="operating room" id="TL81" toID="T8" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E22" fromText="cadaveric liver transplant" id="TL82" toID="T8" toText="2014-04-04" type="SIMULTANEOUS"/>
+<TLINK fromID="E82" fromText="transplant" id="TL83" toID="E22" toText="cadaveric liver transplant" type="SIMULTANEOUS"/>
+<TLINK fromID="E23" fromText="the procedure" id="TL84" toID="E22" toText="cadaveric liver transplant" type="SIMULTANEOUS"/>
+<TLINK fromID="E121" fromText="the operating room" id="TL85" toID="E84" toText="transferred" type="ENDED_BY"/>
+<TLINK fromID="E122" fromText="the ICU" id="TL86" toID="E84" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E24" fromText="MMF" id="TL87" toID="T31" toText="b.i.d." type="OVERLAP"/>
+<TLINK fromID="E25" fromText="Flagyl" id="TL88" toID="E24" toText="MMF" type="OVERLAP"/>
+<TLINK fromID="E24" fromText="MMF" id="TL89" toID="E122" toText="the ICU" type="OVERLAP"/>
+<TLINK fromID="E76" fromText="admitted" id="TL9" toID="T36" toText="5 x" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="Unasyn" id="TL90" toID="E24" toText="MMF" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="Unasyn" id="TL91" toID="T9" toText="2 days" type="DURING"/>
+<TLINK fromID="E27" fromText="Fluconazole" id="TL92" toID="E26" toText="Unasyn" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="heparin" id="TL93" toID="E27" toText="Fluconazole" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="heparin" id="TL94" toID="E29" toText="Protonix" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="insulin" id="TL95" toID="E29" toText="Protonix" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="morphine" id="TL96" toID="E30" toText="insulin" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="Bactrim" id="TL97" toID="E31" toText="morphine" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="Propofol" id="TL98" toID="T10" toText="2 days" type="DURING"/>
+<TLINK fromID="E33" fromText="Propofol" id="TL99" toID="E32" toText="Bactrim" type="OVERLAP"/>
+<SECTIME dvalue="2014-03-31" end="28" id="S0" start="18" text="2014-03-31" type="ADMISSION"/>
+<SECTIME dvalue="2014-04-09" end="56" id="S1" start="46" text="2014-04-09" type="DISCHARGE"/>
+<TLINK fromID="E104" fromText="his medications" id="SECTIME0" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E105" fromText="bowel movement" id="SECTIME1" toID="T1" toText="2014-03-31" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="night sweats" id="SECTIME2" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E107" fromText="denies" id="SECTIME3" toID="T1" toText="2014-03-31" type="OVERLAP"/>
+<TLINK fromID="E106" fromText="any abdominal pain" id="SECTIME4" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E108" fromText="cold" id="SECTIME5" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E109" fromText="denies" id="SECTIME6" toID="T1" toText="2014-03-31" type="OVERLAP"/>
+<TLINK fromID="E110" fromText="fevers" id="SECTIME7" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E80" fromText="admitted" id="SECTIME8" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E9" fromText="Lactulose" id="SECTIME9" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E10" fromText="Rifaximine" id="SECTIME10" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E11" fromText="Lasix" id="SECTIME11" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E81" fromText="Physical therapy" id="SECTIME12" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E111" fromText="awake" id="SECTIME13" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E112" fromText="alert" id="SECTIME14" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E113" fromText="oriented" id="SECTIME15" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E12" fromText="Lactulose" id="SECTIME16" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E114" fromText="Difficulty with word finding" id="SECTIME17" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E115" fromText="Denies" id="SECTIME18" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E13" fromText="any pain" id="SECTIME19" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E14" fromText="discomfort" id="SECTIME20" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E116" fromText="Slightly distended" id="SECTIME21" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E15" fromText="nontender" id="SECTIME22" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E117" fromText="bowel sounds" id="SECTIME23" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E89" fromText="hepatitis C cirrhosis" id="SECTIME24" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E118" fromText="flatus" id="SECTIME25" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E16" fromText="Ultrasound" id="SECTIME26" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E119" fromText="demonstrating" id="SECTIME27" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E17" fromText="severe portal hypertension" id="SECTIME28" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E18" fromText="massive peri splenic varices" id="SECTIME29" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E19" fromText="splenorenal shunt" id="SECTIME30" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E20" fromText="Repeat hepato fungal flare" id="SECTIME31" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E120" fromText="the transplant service" id="SECTIME32" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E121" fromText="the operating room" id="SECTIME33" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E82" fromText="transplant" id="SECTIME34" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E90" fromText="encephalopathy" id="SECTIME35" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E83" fromText="operating room" id="SECTIME36" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E22" fromText="cadaveric liver transplant" id="SECTIME37" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E91" fromText="positive esophageal varices" id="SECTIME38" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E23" fromText="the procedure" id="SECTIME39" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E84" fromText="transferred" id="SECTIME40" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E122" fromText="the ICU" id="SECTIME41" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E24" fromText="MMF" id="SECTIME42" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E25" fromText="Flagyl" id="SECTIME43" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E26" fromText="Unasyn" id="SECTIME44" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E27" fromText="Fluconazole" id="SECTIME45" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E28" fromText="heparin" id="SECTIME46" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E29" fromText="Protonix" id="SECTIME47" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E30" fromText="insulin" id="SECTIME48" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E31" fromText="morphine" id="SECTIME49" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E32" fromText="Bactrim" id="SECTIME50" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E33" fromText="Propofol" id="SECTIME51" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E34" fromText="labs" id="SECTIME52" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E35" fromText="WBC" id="SECTIME53" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E92" fromText="worsening confusion" id="SECTIME54" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E36" fromText="hematocrit" id="SECTIME55" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E37" fromText="platelets" id="SECTIME56" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E38" fromText="sodium" id="SECTIME57" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E39" fromText="serum creatinine" id="SECTIME58" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E40" fromText="Glucose" id="SECTIME59" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E41" fromText="AST" id="SECTIME60" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E42" fromText="ALT" id="SECTIME61" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E43" fromText="Alkaline phosphatase" id="SECTIME62" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E44" fromText="PT" id="SECTIME63" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E45" fromText="PTT" id="SECTIME64" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E46" fromText="INR" id="SECTIME65" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E47" fromText="duplex ultrasound of the patient 's liver" id="SECTIME66" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E93" fromText="lethargy" id="SECTIME67" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E123" fromText="demonstrating" id="SECTIME68" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E124" fromText="normal appearing portal veins and hepatic arteries" id="SECTIME69" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E125" fromText="normal flow" id="SECTIME70" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E48" fromText="a decreased and sluggish flow within the right and left hepatic veins" id="SECTIME71" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E49" fromText="loss of normal respiratory variations , wave forms and the intrahepatic portion" id="SECTIME72" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E76" fromText="admitted" id="SECTIME73" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E50" fromText="diminished color flow" id="SECTIME74" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E126" fromText="thrombus within the left and right hepatic veins" id="SECTIME75" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E51" fromText="Caval narrowing" id="SECTIME76" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E77" fromText="Nantucket Cottage Hospital" id="SECTIME77" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E127" fromText="the CT" id="SECTIME78" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E128" fromText="short-term ultrasounds" id="SECTIME79" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E52" fromText="The Feeney Gann-Burlington drain" id="SECTIME80" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E129" fromText="demonstrated" id="SECTIME81" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E53" fromText="medial output" id="SECTIME82" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E54" fromText="lateral output" id="SECTIME83" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E86" fromText="the floor" id="SECTIME84" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E88" fromText="the floor" id="SECTIME85" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E55" fromText="Acyclovir" id="SECTIME86" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E56" fromText="Prednisone" id="SECTIME87" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E57" fromText="MMF" id="SECTIME88" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E58" fromText="FK 2" id="SECTIME89" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E94" fromText="encephalopathy" id="SECTIME90" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E131" fromText="Diet" id="SECTIME91" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E130" fromText="advanced" id="SECTIME92" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E132" fromText="ambulating" id="SECTIME93" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E59" fromText="Waltham-Ludlow drains" id="SECTIME94" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E60" fromText="glucose control" id="SECTIME95" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E61" fromText="steroids" id="SECTIME96" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E133" fromText="do very well" id="SECTIME97" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E134" fromText="ambulating" id="SECTIME98" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E135" fromText="following the diet" id="SECTIME99" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E78" fromText="admitted" id="SECTIME100" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E136" fromText="platelets" id="SECTIME101" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E63" fromText="platelet count" id="SECTIME102" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E64" fromText="A heparin independent antibody" id="SECTIME103" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E137" fromText="do very well" id="SECTIME104" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E138" fromText="ambulating" id="SECTIME105" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E139" fromText="tolerating a diet" id="SECTIME106" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E140" fromText="urinating" id="SECTIME107" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E141" fromText="difficulty" id="SECTIME108" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E142" fromText="Drains" id="SECTIME109" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E65" fromText="Patient 's labs" id="SECTIME110" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E1" fromText="Infectious work-up" id="SECTIME111" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E66" fromText="hematocrit" id="SECTIME112" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E67" fromText="platelets" id="SECTIME113" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E68" fromText="Sodium" id="SECTIME114" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E69" fromText="potassium" id="SECTIME115" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E70" fromText="glucose" id="SECTIME116" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E71" fromText="AST" id="SECTIME117" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E72" fromText="ALT" id="SECTIME118" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E73" fromText="Alkaline phosphatase" id="SECTIME119" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E74" fromText="Total bilirubin" id="SECTIME120" toID="T2" toText="2014-04-09" type="AFTER"/>
+<TLINK fromID="E143" fromText="FK level" id="SECTIME121" toID="T2" toText="2014-04-09" type="BEFORE"/>
+<TLINK fromID="E144" fromText="left" id="SECTIME122" toID="T2" toText="2014-04-09" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="Trazodone" id="SECTIME123" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E3" fromText="Lactulose" id="SECTIME124" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E4" fromText="Rifaximine" id="SECTIME125" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E95" fromText="improved" id="SECTIME126" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E96" fromText="clinic" id="SECTIME127" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E97" fromText="increased lethargy" id="SECTIME128" toID="T1" toText="2014-03-31" type="OVERLAP"/>
+<TLINK fromID="E98" fromText="confusion" id="SECTIME129" toID="T1" toText="2014-03-31" type="OVERLAP"/>
+<TLINK fromID="E99" fromText="reports" id="SECTIME130" toID="T1" toText="2014-03-31" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="lethargy" id="SECTIME131" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E6" fromText="confusion" id="SECTIME132" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E7" fromText="the symptoms" id="SECTIME133" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E79" fromText="admitted" id="SECTIME134" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E100" fromText="reports" id="SECTIME135" toID="T1" toText="2014-03-31" type="OVERLAP"/>
+<TLINK fromID="E101" fromText="yellowish eyes" id="SECTIME136" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E102" fromText="some shaking" id="SECTIME137" toID="T1" toText="2014-03-31" type="BEFORE"/>
+<TLINK fromID="E103" fromText="his breath smelled more like ammonia" id="SECTIME138" toID="T1" toText="2014-03-31" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+ADMISSION DATE :
+06/26/94
+DISCHARGE DATE :
+06/30/94
+HISTORY OF PRESENT ILLNESS :
+The patient is an 81 year old female , G2 , P2 , who status post total abdominal hysterectomy-bilateral salpingo-oophorectomy one years ago for a mixed mesodermal cancer who presents with vaginal apex recurrence .
+She had a normal pelvic examination and CT scan in February of 1993 but one month prior to this admission starting bleeding per vagina .
+An examination revealed an apicovaginal lesion consistent with recurrent tumor .
+A computerized tomography scan was performed which showed a central recurrence and biopsy of this lesion was positive .
+She presents now for excision of her local cancer recurrence .
+HOSPITAL COURSE :
+The patient was admitted to the GYN / Oncology Service under the care of Dr. Top on June 26 , 1994 .
+On that day she was taken to the operating room where she underwent an exam under anesthesia , an exploratory laparotomy with lysis of adhesions , tumor debulking and bilateral pelvic lymph node dissection .
+An abdominal wall hernia was also repaired .
+The patient tolerated the procedure well without any complications .
+Her postoperative course was unremarkable .
+Her vaginal pack was removed on the second postoperative day as well as the Foley catheter .
+By postoperative day three she had return of normal bowel function and was able to tolerate a regular diet without any difficulty .
+Her Jackson-Pratt drain was removed on June 30 , 1994 , postoperative day four .
+On that day she was feeling well enough , eating well , and voiding without difficulty .
+As a result she was able to be discharged home on June 30 , 1994 .
+FOLLOW-UP :
+She will follow up with Dr. Top in his office .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-01-05 14:10" modality="FACTUAL" most-likely-duration="0Y0M795D4H48m" most-likely-start="1994-06-26 16:41" polarity="POS" start="1" temporally-annotated="YES" text="ADMISSION" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="1995-12-15 19:12"/>
+<EVENT end="1048" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:09" modality="FACTUAL" most-likely-duration="0Y0M109D4H8m" most-likely-start="1994-06-28 06:49" polarity="POS" start="1024" temporally-annotated="YES" text="An abdominal wall hernia" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:29"/>
+<EVENT end="1066" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:11" modality="FACTUAL" most-likely-duration="0Y0M94D14H46m" most-likely-start="1994-06-28 06:50" polarity="POS" start="1058" temporally-annotated="YES" text="repaired" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:29"/>
+<EVENT end="1090" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:08" modality="FACTUAL" most-likely-duration="0Y0M111D9H15m" most-likely-start="1994-06-28 06:48" polarity="POS" start="1081" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:28"/>
+<EVENT end="1104" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:01" modality="FACTUAL" most-likely-duration="0Y0M104D16H26m" most-likely-start="1994-06-28 06:41" polarity="POS" start="1091" temporally-annotated="YES" text="the procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:21"/>
+<EVENT end="1135" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 02:48" modality="FACTUAL" most-likely-duration="0Y0M94D13H22m" most-likely-start="1994-06-28 06:27" polarity="NEG" start="1118" temporally-annotated="YES" text="any complications" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:06"/>
+<EVENT end="1162" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 02:27" modality="FACTUAL" most-likely-duration="0Y0M104D6H43m" most-likely-start="1994-06-28 06:05" polarity="POS" start="1138" temporally-annotated="YES" text="Her postoperative course" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 09:43"/>
+<EVENT end="1198" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 01:59" modality="FACTUAL" most-likely-duration="0Y0M126D6H18m" most-likely-start="1994-06-28 05:34" polarity="POS" start="1182" temporally-annotated="YES" text="Her vaginal pack" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 09:09"/>
+<EVENT end="1210" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 01:21" modality="FACTUAL" most-likely-duration="0Y0M103D20H12m" most-likely-start="1994-06-28 04:53" polarity="POS" start="1203" temporally-annotated="YES" text="removed" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 08:25"/>
+<EVENT end="1272" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-24 23:54" modality="FACTUAL" most-likely-duration="0Y0M94D21H52m" most-likely-start="1994-06-28 03:50" polarity="POS" start="1254" temporally-annotated="YES" text="the Foley catheter" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 07:46"/>
+<EVENT end="1341" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 23:26" modality="FACTUAL" most-likely-duration="0Y0M98D12H14m" most-likely-start="1994-06-29 06:22" polarity="POS" start="1310" temporally-annotated="YES" text="return of normal bowel function" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-09 13:18"/>
+<EVENT end="1366" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 21:17" modality="FACTUAL" most-likely-duration="0Y0M128D12H39m" most-likely-start="1994-06-29 04:18" polarity="POS" start="1358" temporally-annotated="YES" text="tolerate" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-09 11:19"/>
+<EVENT end="1381" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 14:08" modality="FACTUAL" most-likely-duration="0Y0M105D13H42m" most-likely-start="1994-06-28 20:59" polarity="POS" start="1367" temporally-annotated="YES" text="a regular diet" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-09 03:50"/>
+<EVENT end="1404" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 06:14" modality="FACTUAL" most-likely-duration="0Y0M94D15H5m" most-likely-start="1994-06-28 12:51" polarity="NEG" start="1390" temporally-annotated="YES" text="any difficulty" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 19:28"/>
+<EVENT end="1430" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 00:50" modality="FACTUAL" most-likely-duration="0Y0M111D8H52m" most-likely-start="1994-06-28 07:25" polarity="POS" start="1407" temporally-annotated="YES" text="Her Jackson-Pratt drain" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 14:00"/>
+<EVENT end="1442" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-24 21:33" modality="FACTUAL" most-likely-duration="0Y0M99D7H49m" most-likely-start="1994-06-28 04:17" polarity="POS" start="1435" temporally-annotated="YES" text="removed" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 11:01"/>
+<EVENT end="207" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-16 20:42" modality="FACTUAL" most-likely-duration="0Y0M137D4H38m" most-likely-start="1994-06-30 18:31" polarity="POS" start="147" temporally-annotated="YES" text="total abdominal hysterectomy-bilateral salpingo-oophorectomy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-08-14 02:20"/>
+<EVENT end="1520" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-26 12:28" modality="FACTUAL" most-likely-duration="0Y0M134D1H21m" most-likely-start="1994-06-29 14:28" polarity="POS" start="1508" temporally-annotated="YES" text="feeling well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-09 16:28"/>
+<EVENT end="1541" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-26 23:17" modality="FACTUAL" most-likely-duration="0Y0M105D3H46m" most-likely-start="1994-06-30 03:05" polarity="POS" start="1530" temporally-annotated="YES" text="eating well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-10 06:53"/>
+<EVENT end="1555" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-26 18:36" modality="FACTUAL" most-likely-duration="0Y0M112D12H30m" most-likely-start="1994-06-29 22:13" polarity="POS" start="1548" temporally-annotated="YES" text="voiding" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-10 01:50"/>
+<EVENT end="1574" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-26 15:34" modality="FACTUAL" most-likely-duration="0Y0M94D14H3m" most-likely-start="1994-06-29 19:10" polarity="NEG" start="1564" temporally-annotated="YES" text="difficulty" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-09 22:46"/>
+<EVENT end="1618" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-26 15:54" modality="FACTUAL" most-likely-duration="0Y0M116D22H48m" most-likely-start="1994-06-29 17:34" polarity="POS" start="1608" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-09 19:14"/>
+<EVENT end="1674" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-27 10:18" modality="PROPOSED" most-likely-duration="0Y0M105D23H38m" most-likely-start="1994-06-30 16:58" polarity="POS" start="1665" temporally-annotated="YES" text="follow up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-10 23:38"/>
+<EVENT end="251" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-16 21:03" modality="FACTUAL" most-likely-duration="0Y0M109D17H21m" most-likely-start="1994-06-30 18:42" polarity="POS" start="226" temporally-annotated="YES" text="a mixed mesodermal cancer" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-08-14 02:21"/>
+<EVENT end="264" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-16 21:07" modality="FACTUAL" most-likely-duration="0Y0M102D5H0m" most-likely-start="1994-06-30 18:44" polarity="POS" start="256" temporally-annotated="YES" text="presents" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-08-14 02:21"/>
+<EVENT end="293" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-16 21:09" modality="FACTUAL" most-likely-duration="0Y0M95D5H41m" most-likely-start="1994-06-30 18:41" polarity="POS" start="270" temporally-annotated="YES" text="vaginal apex recurrence" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-08-14 02:13"/>
+<EVENT end="36" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-12 18:55" modality="FACTUAL" most-likely-duration="0Y0M195D19H55m" most-likely-start="1994-06-26 18:04" polarity="POS" start="27" temporally-annotated="YES" text="DISCHARGE" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-08-10 03:13"/>
+<EVENT end="331" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-16 21:07" modality="FACTUAL" most-likely-duration="0Y0M100D22H55m" most-likely-start="1994-06-30 18:37" polarity="POS" start="313" temporally-annotated="YES" text="pelvic examination" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-08-14 02:07"/>
+<EVENT end="343" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-16 21:04" modality="FACTUAL" most-likely-duration="0Y0M99D19H21m" most-likely-start="1994-06-30 18:32" polarity="POS" start="336" temporally-annotated="YES" text="CT scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-08-14 02:00"/>
+<EVENT end="401" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 05:28" modality="FACTUAL" most-likely-duration="0Y0M111D23H21m" most-likely-start="1994-06-25 10:40" polarity="POS" start="387" temporally-annotated="YES" text="this admission" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 15:52"/>
+<EVENT end="430" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 03:53" modality="FACTUAL" most-likely-duration="0Y0M95D1H6m" most-likely-start="1994-06-25 08:21" polarity="POS" start="411" temporally-annotated="YES" text="bleeding per vagina" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 12:49"/>
+<EVENT end="447" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 11:07" modality="FACTUAL" most-likely-duration="0Y0M103D15H26m" most-likely-start="1994-06-25 14:19" polarity="POS" start="433" temporally-annotated="YES" text="An examination" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 17:31"/>
+<EVENT end="456" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 15:15" modality="FACTUAL" most-likely-duration="0Y0M119D20H38m" most-likely-start="1994-06-25 17:45" polarity="POS" start="448" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 20:15"/>
+<EVENT end="479" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 16:58" modality="FACTUAL" most-likely-duration="0Y0M110D11H10m" most-likely-start="1994-06-25 19:09" polarity="POS" start="457" temporally-annotated="YES" text="an apicovaginal lesion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 21:20"/>
+<EVENT end="511" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 17:45" modality="FACTUAL" most-likely-duration="0Y0M95D0H17m" most-likely-start="1994-06-25 19:46" polarity="POS" start="496" temporally-annotated="YES" text="recurrent tumor" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 21:47"/>
+<EVENT end="544" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 18:11" modality="FACTUAL" most-likely-duration="0Y0M104D2H29m" most-likely-start="1994-06-25 20:05" polarity="POS" start="514" temporally-annotated="YES" text="A computerized tomography scan" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 21:59"/>
+<EVENT end="571" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 18:23" modality="FACTUAL" most-likely-duration="0Y0M116D16H25m" most-likely-start="1994-06-25 20:17" polarity="POS" start="565" temporally-annotated="YES" text="showed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:11"/>
+<EVENT end="592" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 18:36" modality="FACTUAL" most-likely-duration="0Y0M106D23H29m" most-likely-start="1994-06-25 20:25" polarity="POS" start="572" temporally-annotated="YES" text="a central recurrence" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:14"/>
+<EVENT end="603" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 18:45" modality="FACTUAL" most-likely-duration="0Y0M109D19H54m" most-likely-start="1994-06-25 20:32" polarity="POS" start="597" temporally-annotated="YES" text="biopsy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:19"/>
+<EVENT end="618" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 18:49" modality="FACTUAL" most-likely-duration="0Y0M106D8H9m" most-likely-start="1994-06-25 20:38" polarity="POS" start="607" temporally-annotated="YES" text="this lesion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:27"/>
+<EVENT end="646" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 18:56" modality="FACTUAL" most-likely-duration="0Y0M101D21H53m" most-likely-start="1994-06-25 20:43" polarity="POS" start="638" temporally-annotated="YES" text="presents" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:30"/>
+<EVENT end="663" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 19:00" modality="FACTUAL" most-likely-duration="0Y0M107D19H19m" most-likely-start="1994-06-25 20:47" polarity="POS" start="655" temporally-annotated="YES" text="excision" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:34"/>
+<EVENT end="694" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 19:00" modality="FACTUAL" most-likely-duration="0Y0M95D4H53m" most-likely-start="1994-06-25 20:51" polarity="POS" start="667" temporally-annotated="YES" text="her local cancer recurrence" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:42"/>
+<EVENT end="739" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 19:06" modality="FACTUAL" most-likely-duration="0Y0M101D16H21m" most-likely-start="1994-06-25 20:53" polarity="POS" start="731" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:40"/>
+<EVENT end="769" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-22 19:09" modality="FACTUAL" most-likely-duration="0Y0M106D18H36m" most-likely-start="1994-06-25 20:55" polarity="POS" start="743" temporally-annotated="YES" text="the GYN / Oncology Service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-05 22:41"/>
+<EVENT end="863" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 04:30" modality="FACTUAL" most-likely-duration="0Y0M102D1H7m" most-likely-start="1994-06-28 07:17" polarity="POS" start="845" temporally-annotated="YES" text="the operating room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:04"/>
+<EVENT end="891" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:20" modality="FACTUAL" most-likely-duration="0Y0M113D20H29m" most-likely-start="1994-06-28 06:18" polarity="POS" start="884" temporally-annotated="YES" text="an exam" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 09:16"/>
+<EVENT end="908" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:02" modality="FACTUAL" most-likely-duration="0Y0M102D1H8m" most-likely-start="1994-06-28 06:14" polarity="POS" start="898" temporally-annotated="YES" text="anesthesia" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 09:26"/>
+<EVENT end="936" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 02:57" modality="FACTUAL" most-likely-duration="0Y0M105D12H45m" most-likely-start="1994-06-28 06:19" polarity="POS" start="911" temporally-annotated="YES" text="an exploratory laparotomy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 09:41"/>
+<EVENT end="947" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 02:57" modality="FACTUAL" most-likely-duration="0Y0M122D21H4m" most-likely-start="1994-06-28 06:26" polarity="POS" start="942" temporally-annotated="YES" text="lysis" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 09:55"/>
+<EVENT end="960" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 02:59" modality="FACTUAL" most-likely-duration="0Y0M104D11H14m" most-likely-start="1994-06-28 06:34" polarity="POS" start="951" temporally-annotated="YES" text="adhesions" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:09"/>
+<EVENT end="978" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:04" modality="FACTUAL" most-likely-duration="0Y0M106D1H48m" most-likely-start="1994-06-28 06:40" polarity="POS" start="963" temporally-annotated="YES" text="tumor debulking" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:16"/>
+<EVENT end="1021" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="1994-06-25 03:05" modality="FACTUAL" most-likely-duration="0Y0M94D17H45m" most-likely-start="1994-06-28 06:46" polarity="POS" start="983" temporally-annotated="YES" text="bilateral pelvic lymph node dissection" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="1994-07-08 10:27"/>
+<TIMEX3 end="1242" id="T6" mod="NA" start="1214" text="the second postoperative day" type="DATE" val="1994-06-28"/>
+<TIMEX3 end="1301" id="T7" mod="NA" start="1278" text="postoperative day three" type="DATE" val="1994-06-29"/>
+<TIMEX3 end="1460" id="T8" mod="NA" start="1446" text="June 30 , 1994" type="DATE" val="1994-06-30"/>
+<TIMEX3 end="1485" id="T9" mod="NA" start="1463" text="postoperative day four" type="DATE" val="1994-06-30"/>
+<TIMEX3 end="1499" id="T10" mod="NA" start="1496" text="day" type="DATE" val="1994-06-30"/>
+<TIMEX3 end="1641" id="T11" mod="NA" start="1627" text="June 30 , 1994" type="DATE" val="1994-06-30"/>
+<TIMEX3 end="26" id="T0" mod="NA" start="18" text="06/26/94" type="DATE" val="1994-06-26"/>
+<TIMEX3 end="363" id="T2" mod="NA" start="347" text="February of 1993" type="DATE" val="1993-02"/>
+<TIMEX3 end="377" id="T3" mod="NA" start="368" text="one month" type="DATE" val="1994-05-26"/>
+<TIMEX3 end="52" id="T1" mod="NA" start="44" text="06/30/94" type="DATE" val="1994-06-30"/>
+<TIMEX3 end="813" id="T4" mod="NA" start="799" text="June 26 , 1994" type="DATE" val="1994-06-26"/>
+<TIMEX3 end="827" id="T5" mod="NA" start="824" text="day" type="DATE" val="1994-06-26"/>
+<TLINK fromID="E2" fromText="total abdominal hysterectomy-bilateral salpingo-oophorectomy" id="TL0" toID="E0" toText="ADMISSION" type="BEFORE"/>
+<TLINK fromID="E4" fromText="presents" id="TL1" toID="E0" toText="ADMISSION" type="BEFORE"/>
+<TLINK fromID="E5" fromText="vaginal apex recurrence" id="TL10" toID="E13" toText="recurrent tumor" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="pelvic examination" id="TL11" toID="T2" toText="February of 1993" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="CT scan" id="TL12" toID="T2" toText="February of 1993" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="bleeding per vagina" id="TL13" toID="T3" toText="one month" type="AFTER"/>
+<TLINK fromID="T3" fromText="one month" id="TL14" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E8" fromText="this admission" id="TL15" toID="T0" toText="06/26/94" type="AFTER"/>
+<TLINK fromID="E8" fromText="this admission" id="TL16" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E10" fromText="An examination" id="TL18" toID="E9" toText="bleeding per vagina" type="AFTER"/>
+<TLINK fromID="E12" fromText="an apicovaginal lesion" id="TL19" toID="E10" toText="An examination" type="BEFORE"/>
+<TLINK fromID="E0" fromText="ADMISSION" id="TL2" toID="T0" toText="06/26/94" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="revealed" id="TL20" toID="E10" toText="An examination" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="recurrent tumor" id="TL21" toID="E12" toText="an apicovaginal lesion" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="an apicovaginal lesion" id="TL22" toID="E18" toText="this lesion" type="OVERLAP"/>
+<TLINK fromID="E13" fromText="recurrent tumor" id="TL23" toID="E16" toText="a central recurrence" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="A computerized tomography scan" id="TL24" toID="E10" toText="An examination" type="AFTER"/>
+<TLINK fromID="E17" fromText="biopsy" id="TL25" toID="E14" toText="A computerized tomography scan" type="AFTER"/>
+<TLINK fromID="E15" fromText="showed" id="TL26" toID="E14" toText="A computerized tomography scan" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="a central recurrence" id="TL27" toID="E21" toText="her local cancer recurrence" type="OVERLAP"/>
+<TLINK fromID="E1" fromText="DISCHARGE" id="TL3" toID="T1" toText="06/30/94" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="this lesion" id="TL36" toID="E16" toText="a central recurrence" type="OVERLAP"/>
+<TLINK fromID="E21" fromText="her local cancer recurrence" id="TL38" toID="E19" toText="presents" type="BEFORE"/>
+<TLINK fromID="E20" fromText="excision" id="TL39" toID="E19" toText="presents" type="AFTER"/>
+<TLINK fromID="E51" fromText="discharged" id="TL4" toID="E1" toText="DISCHARGE" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="presents" id="TL40" toID="E0" toText="ADMISSION" type="BEFORE"/>
+<TLINK fromID="E23" fromText="the GYN / Oncology Service" id="TL41" toID="E22" toText="admitted" type="AFTER"/>
+<TLINK fromID="T0" fromText="06/26/94" id="TL43" toID="E22" toText="admitted" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="presents" id="TL44" toID="E22" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E20" fromText="excision" id="TL45" toID="E22" toText="admitted" type="AFTER"/>
+<TLINK fromID="E22" fromText="admitted" id="TL46" toID="T4" toText="June 26 , 1994" type="OVERLAP"/>
+<TLINK fromID="T5" fromText="day" id="TL47" toID="T4" toText="June 26 , 1994" type="OVERLAP"/>
+<TLINK fromID="T5" fromText="day" id="TL48" toID="E24" toText="the operating room" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="repaired" id="TL49" toID="E24" toText="the operating room" type="OVERLAP"/>
+<TLINK fromID="E26" fromText="anesthesia" id="TL52" toID="E24" toText="the operating room" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="an exam" id="TL53" toID="E26" toText="anesthesia" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="an exploratory laparotomy" id="TL54" toID="E26" toText="anesthesia" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="an exploratory laparotomy" id="TL55" toID="E28" toText="lysis" type="OVERLAP"/>
+<TLINK fromID="E29" fromText="adhesions" id="TL56" toID="E21" toText="her local cancer recurrence" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="tumor debulking" id="TL57" toID="E27" toText="an exploratory laparotomy" type="OVERLAP"/>
+<TLINK fromID="E31" fromText="bilateral pelvic lymph node dissection" id="TL58" toID="E30" toText="tumor debulking" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="An abdominal wall hernia" id="TL59" toID="E33" toText="repaired" type="BEFORE"/>
+<TLINK fromID="E3" fromText="a mixed mesodermal cancer" id="TL6" toID="E2" toText="total abdominal hysterectomy-bilateral salpingo-oophorectomy" type="BEFORE"/>
+<TLINK fromID="E32" fromText="An abdominal wall hernia" id="TL60" toID="E24" toText="the operating room" type="BEFORE"/>
+<TLINK fromID="E34" fromText="tolerated" id="TL61" toID="E35" toText="the procedure" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="the procedure" id="TL62" toID="E36" toText="any complications" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="the procedure" id="TL63" toID="E26" toText="anesthesia" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="Her postoperative course" id="TL65" toID="E33" toText="repaired" type="AFTER"/>
+<TLINK fromID="E37" fromText="Her postoperative course" id="TL66" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E38" fromText="Her vaginal pack" id="TL67" toID="E35" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E38" fromText="Her vaginal pack" id="TL68" toID="E39" toText="removed" type="BEFORE"/>
+<TLINK fromID="E39" fromText="removed" id="TL69" toID="T6" toText="the second postoperative day" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="a mixed mesodermal cancer" id="TL7" toID="E4" toText="presents" type="BEFORE"/>
+<TLINK fromID="E40" fromText="the Foley catheter" id="TL70" toID="E38" toText="Her vaginal pack" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="return of normal bowel function" id="TL71" toID="T7" toText="postoperative day three" type="AFTER"/>
+<TLINK fromID="E43" fromText="a regular diet" id="TL72" toID="E41" toText="return of normal bowel function" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="tolerate" id="TL73" toID="E43" toText="a regular diet" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="any difficulty" id="TL74" toID="E43" toText="a regular diet" type="OVERLAP"/>
+<TLINK fromID="E45" fromText="Her Jackson-Pratt drain" id="TL75" toID="E46" toText="removed" type="BEFORE"/>
+<TLINK fromID="E45" fromText="Her Jackson-Pratt drain" id="TL76" toID="E35" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E46" fromText="removed" id="TL77" toID="T8" toText="June 30 , 1994" type="OVERLAP"/>
+<TLINK fromID="T8" fromText="June 30 , 1994" id="TL78" toID="T9" toText="postoperative day four" type="OVERLAP"/>
+<TLINK fromID="T10" fromText="day" id="TL79" toID="T9" toText="postoperative day four" type="OVERLAP"/>
+<TLINK fromID="E3" fromText="a mixed mesodermal cancer" id="TL8" toID="E5" toText="vaginal apex recurrence" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="feeling well" id="TL80" toID="T10" toText="day" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="eating well" id="TL81" toID="E47" toText="feeling well" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="voiding" id="TL82" toID="E48" toText="eating well" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="difficulty" id="TL83" toID="E49" toText="voiding" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="discharged" id="TL84" toID="T11" toText="June 30 , 1994" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="discharged" id="TL85" toID="E46" toText="removed" type="AFTER"/>
+<TLINK fromID="E52" fromText="follow up" id="TL86" toID="E51" toText="discharged" type="AFTER"/>
+<TLINK fromID="E5" fromText="vaginal apex recurrence" id="TL9" toID="E4" toText="presents" type="BEFORE"/>
+<SECTIME dvalue="1994-06-26" end="26" id="S0" start="18" text="06/26/94" type="ADMISSION"/>
+<SECTIME dvalue="1994-06-30" end="52" id="S1" start="44" text="06/30/94" type="DISCHARGE"/>
+<TLINK fromID="E32" fromText="An abdominal wall hernia" id="SECTIME0" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E33" fromText="repaired" id="SECTIME1" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E34" fromText="tolerated" id="SECTIME2" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E35" fromText="the procedure" id="SECTIME3" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E36" fromText="any complications" id="SECTIME4" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E38" fromText="Her vaginal pack" id="SECTIME5" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E39" fromText="removed" id="SECTIME6" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E40" fromText="the Foley catheter" id="SECTIME7" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E41" fromText="return of normal bowel function" id="SECTIME8" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E42" fromText="tolerate" id="SECTIME9" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E43" fromText="a regular diet" id="SECTIME10" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E44" fromText="any difficulty" id="SECTIME11" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E45" fromText="Her Jackson-Pratt drain" id="SECTIME12" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E46" fromText="removed" id="SECTIME13" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E2" fromText="total abdominal hysterectomy-bilateral salpingo-oophorectomy" id="SECTIME14" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E47" fromText="feeling well" id="SECTIME15" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E48" fromText="eating well" id="SECTIME16" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E49" fromText="voiding" id="SECTIME17" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E50" fromText="difficulty" id="SECTIME18" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E51" fromText="discharged" id="SECTIME19" toID="T1" toText="06/30/94" type="OVERLAP"/>
+<TLINK fromID="E52" fromText="follow up" id="SECTIME20" toID="T1" toText="06/30/94" type="AFTER"/>
+<TLINK fromID="E3" fromText="a mixed mesodermal cancer" id="SECTIME21" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E4" fromText="presents" id="SECTIME22" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E5" fromText="vaginal apex recurrence" id="SECTIME23" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E6" fromText="pelvic examination" id="SECTIME24" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E7" fromText="CT scan" id="SECTIME25" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E9" fromText="bleeding per vagina" id="SECTIME26" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E10" fromText="An examination" id="SECTIME27" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E11" fromText="revealed" id="SECTIME28" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E12" fromText="an apicovaginal lesion" id="SECTIME29" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E13" fromText="recurrent tumor" id="SECTIME30" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E14" fromText="A computerized tomography scan" id="SECTIME31" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E15" fromText="showed" id="SECTIME32" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E16" fromText="a central recurrence" id="SECTIME33" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E17" fromText="biopsy" id="SECTIME34" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E18" fromText="this lesion" id="SECTIME35" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E19" fromText="presents" id="SECTIME36" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E20" fromText="excision" id="SECTIME37" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E21" fromText="her local cancer recurrence" id="SECTIME38" toID="T0" toText="06/26/94" type="BEFORE"/>
+<TLINK fromID="E22" fromText="admitted" id="SECTIME39" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E23" fromText="the GYN / Oncology Service" id="SECTIME40" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E24" fromText="the operating room" id="SECTIME41" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E25" fromText="an exam" id="SECTIME42" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E26" fromText="anesthesia" id="SECTIME43" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E27" fromText="an exploratory laparotomy" id="SECTIME44" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E28" fromText="lysis" id="SECTIME45" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E29" fromText="adhesions" id="SECTIME46" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E30" fromText="tumor debulking" id="SECTIME47" toID="T1" toText="06/30/94" type="BEFORE"/>
+<TLINK fromID="E31" fromText="bilateral pelvic lymph node dissection" id="SECTIME48" toID="T1" toText="06/30/94" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

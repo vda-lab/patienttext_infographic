@@ -18,8 +18,6 @@ app.get('/accumulate', staticUserAuth, function(req, res) {
 })
 
 function myAuthorizer(username, password) {
-    console.log(fs.readFileSync(__dirname + "/auth.json", 'UTF-8'));
-
     let passw = JSON.parse(fs.readFileSync(__dirname + "/auth.json", 'UTF-8'));
     return username === "accumulate" && password === passw.passw;
 }

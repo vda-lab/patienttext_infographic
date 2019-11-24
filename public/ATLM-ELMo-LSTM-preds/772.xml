@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2016-03-04
+Discharge Date :
+2016-03-22
+Service :
+HISTORY OF PRESENT ILLNESS :
+HISTORY OF PRESENT ILLNESS :
+This is an 85 year old man initially admitted to the Plastic Surgery Service for evaluation of a left facial mass .
+Subsequently , CMED CCU was consulted and he was transferred to our Service postoperatively .
+HOSPITAL COURSE :
+He was initially admitted to CMED for resection and repair of this left facial lesion .
+He also had consults from Urology for his hematuria as well as Medicine preoperatively and CMED CCU .
+He went to the Operating Room on 2016-03-10 with Urology for hematuria where he had a cystoscopy transurethral resection of prostate placement .
+He then went to the Operating Room on 2016-03-14 where he had resection of the left face squamous cell cancer by Dr. Langhorne and split thickness and full thickness skin grafting of the defects on 2016-03-14 .
+He tolerated the procedure well with no complications except postoperatively , his voice was hoarse .
+On scoping him he had significant supraglottic edema .
+He was kept in the Unit for observation of his airway and b.i.d. laryngoscopy .
+This revealed some supraglottic edema which revealed with time , without further intervention .
+He was followed by Plastic Surgery for his split thickness skin graft and his bolster was discontinued on postoperative day #5 with good take up of his skin graft .
+Urology also followed him and kept him on antibiotics until postoperative day #7 at which point antibiotics were discontinued .
+His
+Foley was also discontinued .
+He is being discharged to rehabilitation to follow up for XRT given the fact that his pathology revealed squamous cell cancer extending deep to the margin as well as positive level II nodes .
+Dr. Navarrete has been e-mailed and his secretary contacted for as soon as possible appointment for XRT follow up .
+He should also follow up with Dr. Rankin and Dr. Langhorne .
+He is being discharged , most likely , to Falmouth Hospital .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-09-14 13:55" modality="FACTUAL" most-likely-duration="0Y0M747D23H49m" most-likely-start="2016-03-04 16:41" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2017-08-23 19:27"/>
+<EVENT end="1011" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 11:59" modality="FACTUAL" most-likely-duration="0Y0M109D9H58m" most-likely-start="2016-03-19 11:58" polarity="POS" start="1004" temporally-annotated="YES" text="scoping" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 11:57"/>
+<EVENT end="1053" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 14:32" modality="FACTUAL" most-likely-duration="0Y0M94D22H22m" most-likely-start="2016-03-19 14:12" polarity="POS" start="1023" temporally-annotated="YES" text="significant supraglottic edema" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 13:52"/>
+<EVENT end="1079" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 16:23" modality="FACTUAL" most-likely-duration="0Y0M102D16H49m" most-likely-start="2016-03-19 15:48" polarity="POS" start="1071" temporally-annotated="YES" text="the Unit" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 15:13"/>
+<EVENT end="1109" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 17:41" modality="FACTUAL" most-likely-duration="0Y0M109D20H19m" most-likely-start="2016-03-19 16:56" polarity="POS" start="1084" temporally-annotated="YES" text="observation of his airway" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 16:11"/>
+<EVENT end="1133" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 18:35" modality="FACTUAL" most-likely-duration="0Y0M95D5H37m" most-likely-start="2016-03-19 17:45" polarity="POS" start="1121" temporally-annotated="YES" text="laryngoscopy" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 16:55"/>
+<EVENT end="1149" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 19:14" modality="FACTUAL" most-likely-duration="0Y0M112D4H24m" most-likely-start="2016-03-19 18:20" polarity="POS" start="1141" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 17:26"/>
+<EVENT end="1173" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 19:44" modality="FACTUAL" most-likely-duration="0Y0M102D15H13m" most-likely-start="2016-03-19 18:46" polarity="POS" start="1150" temporally-annotated="YES" text="some supraglottic edema" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 17:48"/>
+<EVENT end="1229" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 20:04" modality="FACTUAL" most-likely-duration="0Y0M94D13H13m" most-likely-start="2016-03-19 19:05" polarity="NEG" start="1209" temporally-annotated="YES" text="further intervention" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 18:06"/>
+<EVENT end="1301" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 20:19" modality="FACTUAL" most-likely-duration="0Y0M104D1H26m" most-likely-start="2016-03-19 19:20" polarity="POS" start="1271" temporally-annotated="YES" text="his split thickness skin graft" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 18:21"/>
+<EVENT end="1317" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 20:31" modality="FACTUAL" most-likely-duration="0Y0M110D7H41m" most-likely-start="2016-03-19 19:30" polarity="POS" start="1306" temporally-annotated="YES" text="his bolster" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 18:29"/>
+<EVENT end="1394" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-18 10:33" modality="FACTUAL" most-likely-duration="0Y0M95D0H46m" most-likely-start="2016-03-21 13:16" polarity="POS" start="1380" temporally-annotated="YES" text="his skin graft" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-31 15:59"/>
+<EVENT end="1450" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 07:55" modality="FACTUAL" most-likely-duration="0Y0M112D17H23m" most-likely-start="2016-03-19 11:49" polarity="POS" start="1439" temporally-annotated="YES" text="antibiotics" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 15:43"/>
+<EVENT end="1504" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 05:21" modality="FACTUAL" most-likely-duration="0Y0M126D2H48m" most-likely-start="2016-03-22 08:35" polarity="POS" start="1493" temporally-annotated="YES" text="antibiotics" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-01 11:49"/>
+<EVENT end="1534" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 08:39" modality="FACTUAL" most-likely-duration="0Y0M117D14H20m" most-likely-start="2016-03-22 12:41" polarity="POS" start="1529" temporally-annotated="YES" text="Foley" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-01 16:43"/>
+<EVENT end="1581" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 10:31" modality="FACTUAL" most-likely-duration="0Y0M105D18H2m" most-likely-start="2016-03-22 14:58" polarity="POS" start="1571" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-01 19:25"/>
+<EVENT end="1599" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 11:48" modality="FACTUAL" most-likely-duration="0Y0M108D20H39m" most-likely-start="2016-03-22 16:35" polarity="POS" start="1585" temporally-annotated="YES" text="rehabilitation" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-01 21:22"/>
+<EVENT end="1620" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 12:49" modality="PROPOSED" most-likely-duration="0Y0M101D22H36m" most-likely-start="2016-03-22 17:47" polarity="POS" start="1617" temporally-annotated="YES" text="XRT" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-01 22:45"/>
+<EVENT end="170" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-06 19:56" modality="FACTUAL" most-likely-duration="0Y0M127D11H26m" most-likely-start="2016-03-09 21:30" polarity="POS" start="162" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-19 23:04"/>
+<EVENT end="1654" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 13:37" modality="FACTUAL" most-likely-duration="0Y0M106D10H51m" most-likely-start="2016-03-22 18:40" polarity="POS" start="1641" temporally-annotated="YES" text="his pathology" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-01 23:43"/>
+<EVENT end="1663" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 14:14" modality="FACTUAL" most-likely-duration="0Y0M139D10H47m" most-likely-start="2016-03-22 19:18" polarity="POS" start="1655" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-02 00:22"/>
+<EVENT end="1684" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 14:45" modality="FACTUAL" most-likely-duration="0Y0M112D6H10m" most-likely-start="2016-03-22 19:45" polarity="POS" start="1664" temporally-annotated="YES" text="squamous cell cancer" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-02 00:45"/>
+<EVENT end="1748" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 15:07" modality="FACTUAL" most-likely-duration="0Y0M95D9H39m" most-likely-start="2016-03-22 20:05" polarity="POS" start="1725" temporally-annotated="YES" text="positive level II nodes" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-02 01:03"/>
+<EVENT end="201" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-07 10:53" modality="FACTUAL" most-likely-duration="0Y0M111D4H37m" most-likely-start="2016-03-10 12:00" polarity="POS" start="174" temporally-annotated="YES" text="the Plastic Surgery Service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-20 13:07"/>
+<EVENT end="1864" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 15:22" modality="PROPOSED" most-likely-duration="0Y0M96D0H9m" most-likely-start="2016-03-22 20:20" polarity="POS" start="1851" temporally-annotated="YES" text="XRT follow up" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-02 01:18"/>
+<EVENT end="1891" id="E56" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 15:36" modality="FACTUAL" most-likely-duration="0Y0M108D0H20m" most-likely-start="2016-03-22 20:30" polarity="POS" start="1882" temporally-annotated="YES" text="follow up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-02 01:24"/>
+<EVENT end="1950" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 15:41" modality="FACTUAL" most-likely-duration="0Y0M103D8H48m" most-likely-start="2016-03-22 20:38" polarity="POS" start="1940" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-02 01:35"/>
+<EVENT end="1987" id="E57" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-19 15:49" modality="POSSIBLE" most-likely-duration="0Y0M96D12H34m" most-likely-start="2016-03-22 20:43" polarity="POS" start="1970" temporally-annotated="YES" text="Falmouth Hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-02 01:37"/>
+<EVENT end="216" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-07 18:36" modality="FACTUAL" most-likely-duration="0Y0M109D13H8m" most-likely-start="2016-03-10 19:30" polarity="POS" start="206" temporally-annotated="YES" text="evaluation" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-20 20:24"/>
+<EVENT end="238" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-07 21:42" modality="FACTUAL" most-likely-duration="0Y0M95D23H38m" most-likely-start="2016-03-10 22:36" polarity="POS" start="220" temporally-annotated="YES" text="a left facial mass" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-20 23:30"/>
+<EVENT end="38" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-02-19 18:41" modality="FACTUAL" most-likely-duration="0Y0M199D17H31m" most-likely-start="2016-03-04 17:48" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-18 02:55"/>
+<EVENT end="301" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-07 23:04" modality="FACTUAL" most-likely-duration="0Y0M104D4H0m" most-likely-start="2016-03-10 23:59" polarity="POS" start="290" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 00:54"/>
+<EVENT end="316" id="E58" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-07 23:45" modality="FACTUAL" most-likely-duration="0Y0M111D11H19m" most-likely-start="2016-03-11 00:39" polarity="POS" start="305" temporally-annotated="YES" text="our Service" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 01:33"/>
+<EVENT end="378" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-08 00:06" modality="FACTUAL" most-likely-duration="0Y0M102D18H2m" most-likely-start="2016-03-11 01:00" polarity="POS" start="370" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 01:54"/>
+<EVENT end="386" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-08 00:16" modality="FACTUAL" most-likely-duration="0Y0M101D9H54m" most-likely-start="2016-03-11 01:12" polarity="POS" start="382" temporally-annotated="YES" text="CMED" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 02:08"/>
+<EVENT end="400" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-08 00:24" modality="FACTUAL" most-likely-duration="0Y0M104D7H4m" most-likely-start="2016-03-11 01:18" polarity="POS" start="391" temporally-annotated="YES" text="resection" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 02:12"/>
+<EVENT end="411" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-08 00:26" modality="FACTUAL" most-likely-duration="0Y0M111D13H31m" most-likely-start="2016-03-11 01:22" polarity="POS" start="405" temporally-annotated="YES" text="repair" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 02:18"/>
+<EVENT end="438" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-08 00:29" modality="FACTUAL" most-likely-duration="0Y0M94D16H31m" most-likely-start="2016-03-11 01:24" polarity="POS" start="415" temporally-annotated="YES" text="this left facial lesion" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 02:19"/>
+<EVENT end="492" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-08 00:30" modality="FACTUAL" most-likely-duration="0Y0M101D16H30m" most-likely-start="2016-03-11 01:25" polarity="POS" start="479" temporally-annotated="YES" text="his hematuria" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 02:20"/>
+<EVENT end="572" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-08 00:31" modality="FACTUAL" most-likely-duration="0Y0M99D13H32m" most-likely-start="2016-03-11 01:26" polarity="POS" start="554" temporally-annotated="YES" text="the Operating Room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-21 02:21"/>
+<EVENT end="613" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-11 03:33" modality="FACTUAL" most-likely-duration="0Y0M97D22H39m" most-likely-start="2016-03-14 05:49" polarity="POS" start="604" temporally-annotated="YES" text="hematuria" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-24 08:05"/>
+<EVENT end="685" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-11 05:35" modality="FACTUAL" most-likely-duration="0Y0M94D23H9m" most-likely-start="2016-03-14 08:09" polarity="POS" start="627" temporally-annotated="YES" text="a cystoscopy transurethral resection of prostate placement" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-24 10:43"/>
+<EVENT end="722" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-11 07:28" modality="FACTUAL" most-likely-duration="0Y0M98D4H14m" most-likely-start="2016-03-14 10:13" polarity="POS" start="704" temporally-annotated="YES" text="the Operating Room" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-24 12:58"/>
+<EVENT end="759" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-11 12:54" modality="FACTUAL" most-likely-duration="0Y0M103D13H34m" most-likely-start="2016-03-14 14:43" polarity="POS" start="750" temporally-annotated="YES" text="resection" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-24 16:32"/>
+<EVENT end="797" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-11 12:06" modality="FACTUAL" most-likely-duration="0Y0M104D15H44m" most-likely-start="2016-03-14 14:01" polarity="POS" start="763" temporally-annotated="YES" text="the left face squamous cell cancer" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-24 15:56"/>
+<EVENT end="867" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-11 10:54" modality="FACTUAL" most-likely-duration="0Y0M109D1H8m" most-likely-start="2016-03-14 12:46" polarity="POS" start="819" temporally-annotated="YES" text="split thickness and full thickness skin grafting" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-24 14:38"/>
+<EVENT end="882" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-11 10:08" modality="FACTUAL" most-likely-duration="0Y0M101D5H56m" most-likely-start="2016-03-14 11:55" polarity="POS" start="871" temporally-annotated="YES" text="the defects" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-24 13:42"/>
+<EVENT end="911" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-15 20:34" modality="FACTUAL" most-likely-duration="0Y0M127D11H16m" most-likely-start="2016-03-18 23:30" polarity="POS" start="902" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 02:26"/>
+<EVENT end="925" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-15 19:02" modality="FACTUAL" most-likely-duration="0Y0M110D0H15m" most-likely-start="2016-03-18 21:25" polarity="POS" start="912" temporally-annotated="YES" text="the procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-28 23:48"/>
+<EVENT end="930" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-15 22:57" modality="FACTUAL" most-likely-duration="0Y0M103D17H38m" most-likely-start="2016-03-19 00:44" polarity="POS" start="926" temporally-annotated="YES" text="well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 02:31"/>
+<EVENT end="952" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 03:56" modality="FACTUAL" most-likely-duration="0Y0M124D1H58m" most-likely-start="2016-03-19 05:00" polarity="NEG" start="939" temporally-annotated="YES" text="complications" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 06:04"/>
+<EVENT end="998" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-16 08:27" modality="FACTUAL" most-likely-duration="0Y0M95D1H47m" most-likely-start="2016-03-19 08:54" polarity="POS" start="992" temporally-annotated="YES" text="hoarse" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-03-29 09:21"/>
+<TIMEX3 end="1120" id="T0" mod="NA" start="1114" text="b.i.d." type="FREQUENCY" val="RPT12H"/>
+<TIMEX3 end="1358" id="T6" mod="NA" start="1338" text="postoperative day #5" type="DATE" val="2016-03-19"/>
+<TIMEX3 end="1477" id="T7" mod="NA" start="1457" text="postoperative day #7" type="DATE" val="2016-03-21"/>
+<TIMEX3 end="28" id="T1" mod="NA" start="18" text="2016-03-04" type="DATE" val="2016-03-04"/>
+<TIMEX3 end="56" id="T2" mod="NA" start="46" text="2016-03-22" type="DATE" val="2016-03-22"/>
+<TIMEX3 end="586" id="T3" mod="NA" start="576" text="2016-03-10" type="DATE" val="2016-03-10"/>
+<TIMEX3 end="736" id="T4" mod="NA" start="726" text="2016-03-14" type="DATE" val="2016-03-14"/>
+<TIMEX3 end="896" id="T5" mod="NA" start="886" text="2016-03-14" type="DATE" val="2016-03-14"/>
+<TLINK fromID="E0" fromText="Admission" id="TL0" toID="T1" toText="2016-03-04" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="significant supraglottic edema" id="TL1" toID="E17" toText="some supraglottic edema" type="OVERLAP"/>
+<TLINK fromID="E30" fromText="Discharge" id="TL10" toID="T2" toText="2016-03-22" type="OVERLAP"/>
+<TLINK fromID="E28" fromText="discharged" id="TL11" toID="E30" toText="Discharge" type="OVERLAP"/>
+<TLINK fromID="E33" fromText="a left facial mass" id="TL12" toID="E31" toText="admitted" type="BEFORE"/>
+<TLINK fromID="E32" fromText="the Plastic Surgery Service" id="TL13" toID="E31" toText="admitted" type="AFTER"/>
+<TLINK fromID="E33" fromText="a left facial mass" id="TL14" toID="E1" toText="evaluation" type="BEFORE"/>
+<TLINK fromID="E32" fromText="the Plastic Surgery Service" id="TL15" toID="E1" toText="evaluation" type="OVERLAP"/>
+<TLINK fromID="E32" fromText="the Plastic Surgery Service" id="TL16" toID="E34" toText="transferred" type="BEFORE"/>
+<TLINK fromID="E58" fromText="our Service" id="TL17" toID="E34" toText="transferred" type="AFTER"/>
+<TLINK fromID="E58" fromText="our Service" id="TL18" toID="E25" toText="CMED" type="OVERLAP"/>
+<TLINK fromID="E25" fromText="CMED" id="TL19" toID="E35" toText="admitted" type="AFTER"/>
+<TLINK fromID="E25" fromText="CMED" id="TL20" toID="E28" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E45" fromText="the Unit" id="TL21" toID="E25" toText="CMED" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="resection" id="TL22" toID="E25" toText="CMED" type="OVERLAP"/>
+<TLINK fromID="E2" fromText="resection" id="TL23" toID="E3" toText="repair" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="this left facial lesion" id="TL24" toID="E3" toText="repair" type="BEFORE"/>
+<TLINK fromID="E36" fromText="this left facial lesion" id="TL25" toID="E4" toText="his hematuria" type="OVERLAP"/>
+<TLINK fromID="E39" fromText="the Operating Room" id="TL26" toID="T3" toText="2016-03-10" type="OVERLAP"/>
+<TLINK fromID="E6" fromText="a cystoscopy transurethral resection of prostate placement" id="TL27" toID="E39" toText="the Operating Room" type="OVERLAP"/>
+<TLINK fromID="E5" fromText="hematuria" id="TL28" toID="E39" toText="the Operating Room" type="BEFORE"/>
+<TLINK fromID="E5" fromText="hematuria" id="TL29" toID="E6" toText="a cystoscopy transurethral resection of prostate placement" type="BEFORE"/>
+<TLINK fromID="E7" fromText="resection" id="TL3" toID="E11" toText="the procedure" type="OVERLAP"/>
+<TLINK fromID="E41" fromText="the Operating Room" id="TL30" toID="T4" toText="2016-03-14" type="OVERLAP"/>
+<TLINK fromID="E7" fromText="resection" id="TL31" toID="E41" toText="the Operating Room" type="OVERLAP"/>
+<TLINK fromID="E36" fromText="this left facial lesion" id="TL32" toID="E8" toText="the left face squamous cell cancer" type="OVERLAP"/>
+<TLINK fromID="E8" fromText="the left face squamous cell cancer" id="TL33" toID="E7" toText="resection" type="BEFORE"/>
+<TLINK fromID="E9" fromText="split thickness and full thickness skin grafting" id="TL34" toID="E41" toText="the Operating Room" type="OVERLAP"/>
+<TLINK fromID="E10" fromText="the defects" id="TL35" toID="E9" toText="split thickness and full thickness skin grafting" type="BEFORE"/>
+<TLINK fromID="T5" fromText="2016-03-14" id="TL36" toID="E9" toText="split thickness and full thickness skin grafting" type="OVERLAP"/>
+<TLINK fromID="E42" fromText="tolerated" id="TL37" toID="E43" toText="well" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="the procedure" id="TL38" toID="E42" toText="tolerated" type="OVERLAP"/>
+<TLINK fromID="E12" fromText="hoarse" id="TL39" toID="E11" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E2" fromText="resection" id="TL4" toID="E7" toText="resection" type="OVERLAP"/>
+<TLINK fromID="E11" fromText="the procedure" id="TL40" toID="E44" toText="complications" type="OVERLAP"/>
+<TLINK fromID="E14" fromText="significant supraglottic edema" id="TL41" toID="E13" toText="scoping" type="BEFORE"/>
+<TLINK fromID="E15" fromText="observation of his airway" id="TL42" toID="E45" toText="the Unit" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="laryngoscopy" id="TL43" toID="T0" toText="b.i.d." type="OVERLAP"/>
+<TLINK fromID="E16" fromText="laryngoscopy" id="TL44" toID="E45" toText="the Unit" type="OVERLAP"/>
+<TLINK fromID="E16" fromText="laryngoscopy" id="TL45" toID="E46" toText="revealed" type="OVERLAP"/>
+<TLINK fromID="E17" fromText="some supraglottic edema" id="TL46" toID="E16" toText="laryngoscopy" type="BEFORE"/>
+<TLINK fromID="E18" fromText="further intervention" id="TL47" toID="E16" toText="laryngoscopy" type="AFTER"/>
+<TLINK fromID="E9" fromText="split thickness and full thickness skin grafting" id="TL48" toID="E19" toText="his split thickness skin graft" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="his bolster" id="TL49" toID="T6" toText="postoperative day #5" type="BEFORE"/>
+<TLINK fromID="E4" fromText="his hematuria" id="TL5" toID="E5" toText="hematuria" type="OVERLAP"/>
+<TLINK fromID="E20" fromText="his bolster" id="TL50" toID="E19" toText="his split thickness skin graft" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="antibiotics" id="TL51" toID="T7" toText="postoperative day #7" type="BEFORE"/>
+<TLINK fromID="E27" fromText="antibiotics" id="TL52" toID="E49" toText="antibiotics" type="OVERLAP"/>
+<TLINK fromID="E27" fromText="antibiotics" id="TL53" toID="T7" toText="postoperative day #7" type="BEFORE"/>
+<TLINK fromID="E49" fromText="antibiotics" id="TL54" toID="E19" toText="his split thickness skin graft" type="OVERLAP"/>
+<TLINK fromID="E22" fromText="Foley" id="TL55" toID="T7" toText="postoperative day #7" type="BEFORE"/>
+<TLINK fromID="E22" fromText="Foley" id="TL56" toID="E28" toText="discharged" type="BEFORE"/>
+<TLINK fromID="E50" fromText="rehabilitation" id="TL57" toID="E28" toText="discharged" type="AFTER"/>
+<TLINK fromID="E51" fromText="XRT" id="TL58" toID="E55" toText="XRT follow up" type="OVERLAP"/>
+<TLINK fromID="E23" fromText="his pathology" id="TL59" toID="E52" toText="revealed" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="his split thickness skin graft" id="TL6" toID="E21" toText="his skin graft" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="squamous cell cancer" id="TL60" toID="E23" toText="his pathology" type="BEFORE"/>
+<TLINK fromID="E54" fromText="positive level II nodes" id="TL61" toID="E23" toText="his pathology" type="BEFORE"/>
+<TLINK fromID="E23" fromText="his pathology" id="TL62" toID="E51" toText="XRT" type="BEFORE"/>
+<TLINK fromID="E51" fromText="XRT" id="TL63" toID="E50" toText="rehabilitation" type="OVERLAP"/>
+<TLINK fromID="E56" fromText="follow up" id="TL64" toID="E29" toText="discharged" type="AFTER"/>
+<TLINK fromID="E57" fromText="Falmouth Hospital" id="TL65" toID="E29" toText="discharged" type="AFTER"/>
+<TLINK fromID="E29" fromText="discharged" id="TL66" toID="E28" toText="discharged" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="admitted" id="TL8" toID="E0" toText="Admission" type="OVERLAP"/>
+<TLINK fromID="E0" fromText="Admission" id="TL9" toID="E31" toText="admitted" type="OVERLAP"/>
+<SECTIME dvalue="2016-03-04" end="28" id="S0" start="18" text="2016-03-04" type="ADMISSION"/>
+<SECTIME dvalue="2016-03-22" end="56" id="S1" start="46" text="2016-03-22" type="DISCHARGE"/>
+<TLINK fromID="E13" fromText="scoping" id="SECTIME0" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E14" fromText="significant supraglottic edema" id="SECTIME1" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E45" fromText="the Unit" id="SECTIME2" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E15" fromText="observation of his airway" id="SECTIME3" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E16" fromText="laryngoscopy" id="SECTIME4" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E46" fromText="revealed" id="SECTIME5" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E17" fromText="some supraglottic edema" id="SECTIME6" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E18" fromText="further intervention" id="SECTIME7" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E19" fromText="his split thickness skin graft" id="SECTIME8" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E20" fromText="his bolster" id="SECTIME9" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E21" fromText="his skin graft" id="SECTIME10" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E49" fromText="antibiotics" id="SECTIME11" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E27" fromText="antibiotics" id="SECTIME12" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E22" fromText="Foley" id="SECTIME13" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E28" fromText="discharged" id="SECTIME14" toID="T2" toText="2016-03-22" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="rehabilitation" id="SECTIME15" toID="T2" toText="2016-03-22" type="AFTER"/>
+<TLINK fromID="E51" fromText="XRT" id="SECTIME16" toID="T2" toText="2016-03-22" type="AFTER"/>
+<TLINK fromID="E31" fromText="admitted" id="SECTIME17" toID="T1" toText="2016-03-04" type="BEFORE"/>
+<TLINK fromID="E23" fromText="his pathology" id="SECTIME18" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E52" fromText="revealed" id="SECTIME19" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E53" fromText="squamous cell cancer" id="SECTIME20" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E54" fromText="positive level II nodes" id="SECTIME21" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E32" fromText="the Plastic Surgery Service" id="SECTIME22" toID="T1" toText="2016-03-04" type="BEFORE"/>
+<TLINK fromID="E55" fromText="XRT follow up" id="SECTIME23" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E56" fromText="follow up" id="SECTIME24" toID="T2" toText="2016-03-22" type="AFTER"/>
+<TLINK fromID="E29" fromText="discharged" id="SECTIME25" toID="T2" toText="2016-03-22" type="OVERLAP"/>
+<TLINK fromID="E57" fromText="Falmouth Hospital" id="SECTIME26" toID="T2" toText="2016-03-22" type="AFTER"/>
+<TLINK fromID="E1" fromText="evaluation" id="SECTIME27" toID="T1" toText="2016-03-04" type="BEFORE"/>
+<TLINK fromID="E33" fromText="a left facial mass" id="SECTIME28" toID="T1" toText="2016-03-04" type="BEFORE"/>
+<TLINK fromID="E34" fromText="transferred" id="SECTIME29" toID="T1" toText="2016-03-04" type="OVERLAP"/>
+<TLINK fromID="E58" fromText="our Service" id="SECTIME30" toID="T1" toText="2016-03-04" type="OVERLAP"/>
+<TLINK fromID="E35" fromText="admitted" id="SECTIME31" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E25" fromText="CMED" id="SECTIME32" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E2" fromText="resection" id="SECTIME33" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E3" fromText="repair" id="SECTIME34" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E36" fromText="this left facial lesion" id="SECTIME35" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E4" fromText="his hematuria" id="SECTIME36" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E39" fromText="the Operating Room" id="SECTIME37" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E5" fromText="hematuria" id="SECTIME38" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E6" fromText="a cystoscopy transurethral resection of prostate placement" id="SECTIME39" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E41" fromText="the Operating Room" id="SECTIME40" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E7" fromText="resection" id="SECTIME41" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E8" fromText="the left face squamous cell cancer" id="SECTIME42" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E9" fromText="split thickness and full thickness skin grafting" id="SECTIME43" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E10" fromText="the defects" id="SECTIME44" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E42" fromText="tolerated" id="SECTIME45" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E11" fromText="the procedure" id="SECTIME46" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E43" fromText="well" id="SECTIME47" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E44" fromText="complications" id="SECTIME48" toID="T2" toText="2016-03-22" type="BEFORE"/>
+<TLINK fromID="E12" fromText="hoarse" id="SECTIME49" toID="T2" toText="2016-03-22" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

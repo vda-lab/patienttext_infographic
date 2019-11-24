@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT>
+Admission Date :
+2016-04-05
+Discharge Date :
+2016-04-11
+Service :
+Cardiothoracic Surgery
+HISTORY OF PRESENT ILLNESS :
+This is a 67 - year-old male with a history of high cholesterol who was in his usual state of health until 2016-04-03 .
+He was raking leaves on 04-02 and then developed episodes of mid chest pain and burning which radiated to the left arm .
+That night he reportedly stopped breathing and was unresponsive .
+His wife gave him mouth-to-mouth resuscitation and he regained consciousness .
+He presented to an outside hospital with an acute inferior myocardial infarction and was treated with thrombolytic therapy .
+His troponin was 20 and he had EKG changes .
+He underwent catheterization on 2016-04-05 which revealed a left ventricular ejection fraction of 50% , no mitral regurgitation , insufficiency or hypokinesis .
+Left main coronary artery was narrowed 50-60% , left anterior descending coronary artery 70% proximally , right coronary artery dominant diseased up to 90% proximally in the midportion , 70% distally .
+The left circumflex coronary artery was 50% proximally , 90% obtuse marginal #3 .
+HOSPITAL COURSE :
+The patient was admitted to the hospital and on 2016-04-06 the patient underwent coronary artery bypass grafting x 4 with left internal mammary artery to the left anterior descending coronary artery , saphenous vein graft to the diagonal , saphenous vein graft to obtuse marginal , saphenous vein graft to right coronary artery , posterior descending coronary artery .
+The patient appeared to have tolerated the procedure and was transferred to the cardiac intensive care unit for postoperative management .
+He was started on beta blockers .
+The patient had pacing wires and chest tubes in place , both of which over the course of his stay were removed successfully .
+The patient did well postoperatively and was transported to the regular cardiac surgery floor where he tolerated a regular diet , ambulated well , did well with his activities of daily living .
+He was seen by physical therapy and cleared .
+They requested that he follow up in three to five weeks for endurance training , however then physical therapy followed him a number of times afterward and decided that he was in good condition and did not need further physical therapy .
+On 2016-04-11 the patient was in good condition and he is being discharged on a regular heart-healthy diet .
+He may observe regular activity although he should avoid strenuous activity and should not drive while on pain medications .
+He should follow up with Dr. Dushaj in four weeks .
+He should follow up with his cardiologist in two to three weeks and he should follow up with his primary care physician in one to two weeks .
+</TEXT>
+<TAGS>
+<EVENT end="10" id="E0" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2015-10-16 13:59" modality="FACTUAL" most-likely-duration="0Y0M748D2H6m" most-likely-start="2016-04-05 16:37" polarity="POS" start="1" temporally-annotated="YES" text="Admission" type="OCCURRENCE" upperbound-duration="0Y0M3650D0H1m" upperbound-start="2017-09-24 19:15"/>
+<EVENT end="1162" id="E26" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 09:07" modality="FACTUAL" most-likely-duration="0Y0M102D5H49m" most-likely-start="2016-04-06 11:10" polarity="POS" start="1154" temporally-annotated="YES" text="admitted" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 13:13"/>
+<EVENT end="1178" id="E27" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 09:11" modality="FACTUAL" most-likely-duration="0Y0M100D14H4m" most-likely-start="2016-04-06 11:14" polarity="POS" start="1166" temporally-annotated="YES" text="the hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 13:17"/>
+<EVENT end="1250" id="E28" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 11:24" modality="FACTUAL" most-likely-duration="0Y0M132D11H14m" most-likely-start="2016-04-12 16:51" polarity="POS" start="1219" temporally-annotated="YES" text="coronary artery bypass grafting" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 22:18"/>
+<EVENT end="1375" id="E29" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 13:16" modality="FACTUAL" most-likely-duration="0Y0M109D10H36m" most-likely-start="2016-04-12 18:38" polarity="POS" start="1339" temporally-annotated="YES" text="saphenous vein graft to the diagonal" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 00:00"/>
+<EVENT end="1417" id="E30" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 14:31" modality="FACTUAL" most-likely-duration="0Y0M107D21H5m" most-likely-start="2016-04-12 20:02" polarity="POS" start="1378" temporally-annotated="YES" text="saphenous vein graft to obtuse marginal" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 01:33"/>
+<EVENT end="1465" id="E31" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 15:02" modality="FACTUAL" most-likely-duration="0Y0M109D18H44m" most-likely-start="2016-04-12 20:38" polarity="POS" start="1420" temporally-annotated="YES" text="saphenous vein graft to right coronary artery" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 02:14"/>
+<EVENT end="1545" id="E32" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 14:51" modality="FACTUAL" most-likely-duration="0Y0M126D8H59m" most-likely-start="2016-04-12 20:36" polarity="POS" start="1536" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 02:21"/>
+<EVENT end="1559" id="E33" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 14:15" modality="FACTUAL" most-likely-duration="0Y0M101D16H48m" most-likely-start="2016-04-12 20:06" polarity="POS" start="1546" temporally-annotated="YES" text="the procedure" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 01:57"/>
+<EVENT end="1579" id="E34" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 13:22" modality="FACTUAL" most-likely-duration="0Y0M107D0H47m" most-likely-start="2016-04-12 19:23" polarity="POS" start="1568" temporally-annotated="YES" text="transferred" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 01:24"/>
+<EVENT end="1614" id="E35" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 12:25" modality="FACTUAL" most-likely-duration="0Y0M103D7H33m" most-likely-start="2016-04-12 18:36" polarity="POS" start="1583" temporally-annotated="YES" text="the cardiac intensive care unit" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 00:47"/>
+<EVENT end="1643" id="E36" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 11:31" modality="FACTUAL" most-likely-duration="0Y0M94D17H11m" most-likely-start="2016-04-12 17:51" polarity="POS" start="1619" temporally-annotated="YES" text="postoperative management" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-23 00:11"/>
+<EVENT end="182" id="E2" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-30 10:00" modality="FACTUAL" most-likely-duration="0Y0M129D16H30m" most-likely-start="2016-04-02 12:53" polarity="POS" start="166" temporally-annotated="YES" text="high cholesterol" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-12 15:46"/>
+<EVENT end="1677" id="E37" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 10:43" modality="FACTUAL" most-likely-duration="0Y0M95D5H32m" most-likely-start="2016-04-12 17:08" polarity="POS" start="1664" temporally-annotated="YES" text="beta blockers" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 23:33"/>
+<EVENT end="1708" id="E38" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 10:04" modality="FACTUAL" most-likely-duration="0Y0M110D22H57m" most-likely-start="2016-04-12 16:29" polarity="POS" start="1696" temporally-annotated="YES" text="pacing wires" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 22:54"/>
+<EVENT end="1724" id="E39" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 09:26" modality="FACTUAL" most-likely-duration="0Y0M114D14H47m" most-likely-start="2016-04-12 15:55" polarity="POS" start="1713" temporally-annotated="YES" text="chest tubes" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 22:24"/>
+<EVENT end="1777" id="E40" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 08:53" modality="FACTUAL" most-likely-duration="0Y0M118D3H27m" most-likely-start="2016-04-12 15:25" polarity="POS" start="1755" temporally-annotated="YES" text="the course of his stay" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 21:57"/>
+<EVENT end="1826" id="E41" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 08:27" modality="FACTUAL" most-likely-duration="0Y0M107D13H20m" most-likely-start="2016-04-12 14:59" polarity="POS" start="1818" temporally-annotated="YES" text="did well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 21:31"/>
+<EVENT end="1862" id="E42" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 08:04" modality="FACTUAL" most-likely-duration="0Y0M102D17H22m" most-likely-start="2016-04-12 14:37" polarity="POS" start="1851" temporally-annotated="YES" text="transported" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 21:10"/>
+<EVENT end="1899" id="E43" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 07:44" modality="FACTUAL" most-likely-duration="0Y0M101D5H19m" most-likely-start="2016-04-12 14:19" polarity="POS" start="1866" temporally-annotated="YES" text="the regular cardiac surgery floor" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 20:54"/>
+<EVENT end="1918" id="E45" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 07:29" modality="FACTUAL" most-likely-duration="0Y0M122D0H59m" most-likely-start="2016-04-12 14:04" polarity="POS" start="1909" temporally-annotated="YES" text="tolerated" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 20:39"/>
+<EVENT end="1933" id="E44" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 07:17" modality="FACTUAL" most-likely-duration="0Y0M103D11H48m" most-likely-start="2016-04-12 13:51" polarity="POS" start="1919" temporally-annotated="YES" text="a regular diet" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 20:25"/>
+<EVENT end="1950" id="E46" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 07:08" modality="FACTUAL" most-likely-duration="0Y0M106D3H11m" most-likely-start="2016-04-12 13:41" polarity="POS" start="1936" temporally-annotated="YES" text="ambulated well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 20:14"/>
+<EVENT end="1961" id="E47" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 07:00" modality="FACTUAL" most-likely-duration="0Y0M113D20H38m" most-likely-start="2016-04-12 13:34" polarity="POS" start="1953" temporally-annotated="YES" text="did well" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 20:08"/>
+<EVENT end="1997" id="E48" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 06:53" modality="FACTUAL" most-likely-duration="0Y0M95D19H57m" most-likely-start="2016-04-12 13:28" polarity="POS" start="1967" temporally-annotated="YES" text="his activities of daily living" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 20:03"/>
+<EVENT end="219" id="E3" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-30 15:36" modality="FACTUAL" most-likely-duration="0Y0M121D17H13m" most-likely-start="2016-04-02 17:05" polarity="POS" start="194" temporally-annotated="YES" text="his usual state of health" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-12 18:34"/>
+<EVENT end="2031" id="E49" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 06:49" modality="FACTUAL" most-likely-duration="0Y0M119D4H32m" most-likely-start="2016-04-12 13:24" polarity="POS" start="2007" temporally-annotated="YES" text="seen by physical therapy" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 19:59"/>
+<EVENT end="2078" id="E50" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 06:45" modality="PROPOSED" most-likely-duration="0Y0M103D19H30m" most-likely-start="2016-04-12 13:21" polarity="POS" start="2069" temporally-annotated="YES" text="follow up" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 19:57"/>
+<EVENT end="2124" id="E51" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 06:42" modality="PROPOSED" most-likely-duration="0Y0M102D23H44m" most-likely-start="2016-04-12 13:19" polarity="POS" start="2106" temporally-annotated="YES" text="endurance training" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 19:56"/>
+<EVENT end="2281" id="E52" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-09 06:43" modality="FACTUAL" most-likely-duration="0Y0M94D19H35m" most-likely-start="2016-04-12 13:18" polarity="NEG" start="2257" temporally-annotated="YES" text="further physical therapy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-22 19:53"/>
+<EVENT end="2331" id="E53" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 10:35" modality="FACTUAL" most-likely-duration="0Y0M100D13H17m" most-likely-start="2016-04-11 15:36" polarity="POS" start="2317" temporally-annotated="YES" text="good condition" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 20:37"/>
+<EVENT end="2358" id="E54" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 07:35" modality="FACTUAL" most-likely-duration="0Y0M106D16H50m" most-likely-start="2016-04-11 12:13" polarity="POS" start="2348" temporally-annotated="YES" text="discharged" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 16:51"/>
+<EVENT end="2390" id="E55" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 06:35" modality="FACTUAL" most-likely-duration="0Y0M95D10H30m" most-likely-start="2016-04-11 10:59" polarity="POS" start="2362" temporally-annotated="YES" text="a regular heart-healthy diet" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 15:23"/>
+<EVENT end="2424" id="E56" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 05:56" modality="FACTUAL" most-likely-duration="0Y0M107D4H41m" most-likely-start="2016-04-11 10:16" polarity="POS" start="2408" temporally-annotated="YES" text="regular activity" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 14:36"/>
+<EVENT end="2468" id="E57" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 05:26" modality="FACTUAL" most-likely-duration="0Y0M115D4H48m" most-likely-start="2016-04-11 09:42" polarity="NEG" start="2450" temporally-annotated="YES" text="strenuous activity" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 13:58"/>
+<EVENT end="259" id="E4" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-30 17:49" modality="FACTUAL" most-likely-duration="0Y0M107D21H3m" most-likely-start="2016-04-02 21:47" polarity="POS" start="246" temporally-annotated="YES" text="raking leaves" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-13 01:45"/>
+<EVENT end="2489" id="E58" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 04:58" modality="FACTUAL" most-likely-duration="0Y0M110D11H38m" most-likely-start="2016-04-11 09:07" polarity="NEG" start="2484" temporally-annotated="YES" text="drive" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 13:16"/>
+<EVENT end="2515" id="E59" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 04:24" modality="FACTUAL" most-likely-duration="0Y0M95D9H20m" most-likely-start="2016-04-11 08:29" polarity="POS" start="2499" temporally-annotated="YES" text="pain medications" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 12:34"/>
+<EVENT end="2537" id="E60" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 03:51" modality="PROPOSED" most-likely-duration="0Y0M106D14H55m" most-likely-start="2016-04-11 07:48" polarity="POS" start="2528" temporally-annotated="YES" text="follow up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 11:45"/>
+<EVENT end="2589" id="E61" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 03:16" modality="PROPOSED" most-likely-duration="0Y0M108D23H14m" most-likely-start="2016-04-11 07:07" polarity="POS" start="2580" temporally-annotated="YES" text="follow up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 10:58"/>
+<EVENT end="2657" id="E62" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-08 02:45" modality="PROPOSED" most-likely-duration="0Y0M105D2H24m" most-likely-start="2016-04-11 06:28" polarity="POS" start="2648" temporally-annotated="YES" text="follow up" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-21 10:11"/>
+<EVENT end="38" id="E1" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-22 18:39" modality="FACTUAL" most-likely-duration="0Y0M196D20H55m" most-likely-start="2016-04-05 17:44" polarity="POS" start="29" temporally-annotated="YES" text="Discharge" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-05-20 02:49"/>
+<EVENT end="314" id="E5" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-29 19:02" modality="FACTUAL" most-likely-duration="0Y0M104D23H20m" most-likely-start="2016-04-01 23:26" polarity="POS" start="300" temporally-annotated="YES" text="mid chest pain" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-12 03:50"/>
+<EVENT end="326" id="E6" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-29 20:20" modality="FACTUAL" most-likely-duration="0Y0M105D12H59m" most-likely-start="2016-04-02 00:50" polarity="POS" start="319" temporally-annotated="YES" text="burning" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-12 05:20"/>
+<EVENT end="357" id="E7" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-03-29 20:32" modality="FACTUAL" most-likely-duration="0Y0M95D16H30m" most-likely-start="2016-04-02 01:04" polarity="POS" start="333" temporally-annotated="YES" text="radiated to the left arm" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-12 05:36"/>
+<EVENT end="402" id="E8" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 14:01" modality="FACTUAL" most-likely-duration="0Y0M100D6H48m" most-likely-start="2016-04-05 18:39" polarity="POS" start="385" temporally-annotated="YES" text="stopped breathing" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 23:17"/>
+<EVENT end="423" id="E9" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 12:53" modality="FACTUAL" most-likely-duration="0Y0M94D16H38m" most-likely-start="2016-04-05 17:25" polarity="POS" start="411" temporally-annotated="YES" text="unresponsive" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:57"/>
+<EVENT end="472" id="E10" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 12:32" modality="FACTUAL" most-likely-duration="0Y0M109D3H49m" most-likely-start="2016-04-05 17:07" polarity="POS" start="444" temporally-annotated="YES" text="mouth-to-mouth resuscitation" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:42"/>
+<EVENT end="502" id="E11" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 12:19" modality="FACTUAL" most-likely-duration="0Y0M95D2H46m" most-likely-start="2016-04-05 16:58" polarity="POS" start="480" temporally-annotated="YES" text="regained consciousness" type="OCCURRENCE" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:37"/>
+<EVENT end="517" id="E12" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 12:07" modality="FACTUAL" most-likely-duration="0Y0M99D12H31m" most-likely-start="2016-04-05 16:52" polarity="POS" start="508" temporally-annotated="YES" text="presented" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:37"/>
+<EVENT end="540" id="E13" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 11:57" modality="FACTUAL" most-likely-duration="0Y0M99D9H28m" most-likely-start="2016-04-05 16:48" polarity="POS" start="521" temporally-annotated="YES" text="an outside hospital" type="CLINICAL_DEPT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:39"/>
+<EVENT end="585" id="E14" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 11:51" modality="FACTUAL" most-likely-duration="0Y0M98D9H25m" most-likely-start="2016-04-05 16:45" polarity="POS" start="546" temporally-annotated="YES" text="an acute inferior myocardial infarction" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:39"/>
+<EVENT end="627" id="E15" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 11:51" modality="FACTUAL" most-likely-duration="0Y0M94D21H52m" most-likely-start="2016-04-05 16:42" polarity="POS" start="607" temporally-annotated="YES" text="thrombolytic therapy" type="TREATMENT" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:33"/>
+<EVENT end="642" id="E16" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 11:46" modality="FACTUAL" most-likely-duration="0Y0M105D9H52m" most-likely-start="2016-04-05 16:41" polarity="POS" start="630" temporally-annotated="YES" text="His troponin" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:36"/>
+<EVENT end="672" id="E17" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 11:46" modality="FACTUAL" most-likely-duration="0Y0M94D20H24m" most-likely-start="2016-04-05 16:40" polarity="POS" start="661" temporally-annotated="YES" text="EKG changes" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:34"/>
+<EVENT end="703" id="E18" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-02 11:43" modality="FACTUAL" most-likely-duration="0Y0M97D14H25m" most-likely-start="2016-04-05 16:40" polarity="POS" start="688" temporally-annotated="YES" text="catheterization" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-15 21:37"/>
+<EVENT end="732" id="E19" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 05:38" modality="FACTUAL" most-likely-duration="0Y0M109D10H55m" most-likely-start="2016-04-06 07:43" polarity="POS" start="724" temporally-annotated="YES" text="revealed" type="EVIDENTIAL" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 09:48"/>
+<EVENT end="769" id="E20" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 07:22" modality="FACTUAL" most-likely-duration="0Y0M104D19H44m" most-likely-start="2016-04-06 09:26" polarity="POS" start="733" temporally-annotated="YES" text="a left ventricular ejection fraction" type="TEST" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 11:30"/>
+<EVENT end="802" id="E21" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 08:04" modality="FACTUAL" most-likely-duration="0Y0M104D8H9m" most-likely-start="2016-04-06 10:12" polarity="NEG" start="782" temporally-annotated="YES" text="mitral regurgitation" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 12:20"/>
+<EVENT end="818" id="E22" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 08:30" modality="FACTUAL" most-likely-duration="0Y0M115D13H33m" most-likely-start="2016-04-06 10:35" polarity="NEG" start="805" temporally-annotated="YES" text="insufficiency" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 12:40"/>
+<EVENT end="833" id="E23" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 08:44" modality="FACTUAL" most-likely-duration="0Y0M95D1H1m" most-likely-start="2016-04-06 10:49" polarity="NEG" start="822" temporally-annotated="YES" text="hypokinesis" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 12:54"/>
+<EVENT end="874" id="E24" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 08:55" modality="FACTUAL" most-likely-duration="0Y0M128D15H49m" most-likely-start="2016-04-06 10:58" polarity="POS" start="866" temporally-annotated="YES" text="narrowed" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 13:01"/>
+<EVENT end="981" id="E25" lowerbound-duration="0Y0M0D0H1m" lowerbound-start="2016-04-03 09:00" modality="FACTUAL" most-likely-duration="0Y0M119D5H0m" most-likely-start="2016-04-06 11:05" polarity="POS" start="942" temporally-annotated="YES" text="right coronary artery dominant diseased" type="PROBLEM" upperbound-duration="0Y0M365D0H1m" upperbound-start="2016-04-16 13:10"/>
+<TIMEX3 end="1196" id="T6" mod="NA" start="1186" text="2016-04-06" type="DATE" val="2016-04-06"/>
+<TIMEX3 end="1254" id="T8" mod="NA" start="1251" text="x 4" type="FREQUENCY" val="r4"/>
+<TIMEX3 end="28" id="T0" mod="NA" start="18" text="2016-04-05" type="DATE" val="2016-04-05"/>
+<TIMEX3 end="2101" id="T7" mod="APPROX" start="2082" text="three to five weeks" type="DURATION" val="p4w"/>
+<TIMEX3 end="236" id="T2" mod="NA" start="226" text="2016-04-03" type="DATE" val="2016-04-03"/>
+<TIMEX3 end="2297" id="T9" mod="NA" start="2287" text="2016-04-11" type="DATE" val="2016-04-11"/>
+<TIMEX3 end="2567" id="T10" mod="NA" start="2557" text="four weeks" type="DURATION" val="p4w"/>
+<TIMEX3 end="2633" id="T11" mod="APPROX" start="2615" text="two to three weeks" type="DURATION" val="p2.5w"/>
+<TIMEX3 end="268" id="T3" mod="NA" start="263" text="04-02" type="DATE" val="2016-04-02"/>
+<TIMEX3 end="2709" id="T12" mod="APPROX" start="2693" text="one to two weeks" type="DURATION" val="p1.5w"/>
+<TIMEX3 end="370" id="T4" mod="END" start="360" text="That night" type="DATE" val="2016-04-02"/>
+<TIMEX3 end="56" id="T1" mod="NA" start="46" text="2016-04-11" type="DATE" val="2016-04-11"/>
+<TIMEX3 end="717" id="T5" mod="NA" start="707" text="2016-04-05" type="DATE" val="2016-04-05"/>
+<TLINK fromID="E2" fromText="high cholesterol" id="TL1" toID="E0" toText="Admission" type="BEFORE_OVERLAP"/>
+<TLINK fromID="T4" fromText="That night" id="TL10" toID="E8" toText="stopped breathing" type="OVERLAP"/>
+<TLINK fromID="E9" fromText="unresponsive" id="TL11" toID="E8" toText="stopped breathing" type="SIMULTANEOUS"/>
+<TLINK fromID="E10" fromText="mouth-to-mouth resuscitation" id="TL12" toID="E8" toText="stopped breathing" type="AFTER"/>
+<TLINK fromID="E11" fromText="regained consciousness" id="TL13" toID="E10" toText="mouth-to-mouth resuscitation" type="AFTER"/>
+<TLINK fromID="E12" fromText="presented" id="TL14" toID="E11" toText="regained consciousness" type="AFTER"/>
+<TLINK fromID="E13" fromText="an outside hospital" id="TL15" toID="E12" toText="presented" type="BEGUN_BY"/>
+<TLINK fromID="E14" fromText="an acute inferior myocardial infarction" id="TL16" toID="E13" toText="an outside hospital" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E15" fromText="thrombolytic therapy" id="TL17" toID="E12" toText="presented" type="AFTER"/>
+<TLINK fromID="E16" fromText="His troponin" id="TL18" toID="E12" toText="presented" type="AFTER"/>
+<TLINK fromID="E17" fromText="EKG changes" id="TL19" toID="E12" toText="presented" type="AFTER"/>
+<TLINK fromID="E0" fromText="Admission" id="TL2" toID="T0" toText="2016-04-05" type="SIMULTANEOUS"/>
+<TLINK fromID="E18" fromText="catheterization" id="TL20" toID="T5" toText="2016-04-05" type="OVERLAP"/>
+<TLINK fromID="E18" fromText="catheterization" id="TL21" toID="E12" toText="presented" type="AFTER"/>
+<TLINK fromID="E18" fromText="catheterization" id="TL22" toID="E20" toText="a left ventricular ejection fraction" type="OVERLAP"/>
+<TLINK fromID="E19" fromText="revealed" id="TL23" toID="E18" toText="catheterization" type="SIMULTANEOUS"/>
+<TLINK fromID="E21" fromText="mitral regurgitation" id="TL24" toID="E18" toText="catheterization" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E22" fromText="insufficiency" id="TL25" toID="E18" toText="catheterization" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E23" fromText="hypokinesis" id="TL26" toID="E18" toText="catheterization" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E24" fromText="narrowed" id="TL27" toID="E18" toText="catheterization" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E25" fromText="right coronary artery dominant diseased" id="TL28" toID="E18" toText="catheterization" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E26" fromText="admitted" id="TL29" toID="E0" toText="Admission" type="SIMULTANEOUS"/>
+<TLINK fromID="E1" fromText="Discharge" id="TL3" toID="T1" toText="2016-04-11" type="SIMULTANEOUS"/>
+<TLINK fromID="E27" fromText="the hospital" id="TL30" toID="T0" toText="2016-04-05" type="BEGUN_BY"/>
+<TLINK fromID="E28" fromText="coronary artery bypass grafting" id="TL31" toID="T6" toText="2016-04-06" type="SIMULTANEOUS"/>
+<TLINK fromID="E28" fromText="coronary artery bypass grafting" id="TL32" toID="E33" toText="the procedure" type="simultaneous"/>
+<TLINK fromID="T8" fromText="x 4" id="TL33" toID="E28" toText="coronary artery bypass grafting" type="SIMULTANEOUS"/>
+<TLINK fromID="E29" fromText="saphenous vein graft to the diagonal" id="TL34" toID="E28" toText="coronary artery bypass grafting" type="SIMULTANEOUS"/>
+<TLINK fromID="E30" fromText="saphenous vein graft to obtuse marginal" id="TL35" toID="E28" toText="coronary artery bypass grafting" type="SIMULTANEOUS"/>
+<TLINK fromID="E31" fromText="saphenous vein graft to right coronary artery" id="TL36" toID="E28" toText="coronary artery bypass grafting" type="SIMULTANEOUS"/>
+<TLINK fromID="E32" fromText="tolerated" id="TL37" toID="E33" toText="the procedure" type="OVERLAP"/>
+<TLINK fromID="E34" fromText="transferred" id="TL38" toID="E33" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E35" fromText="the cardiac intensive care unit" id="TL39" toID="E34" toText="transferred" type="BEGUN_BY"/>
+<TLINK fromID="E54" fromText="discharged" id="TL4" toID="E1" toText="Discharge" type="SIMULTANEOUS"/>
+<TLINK fromID="E35" fromText="the cardiac intensive care unit" id="TL40" toID="E36" toText="postoperative management" type="OVERLAP"/>
+<TLINK fromID="E37" fromText="beta blockers" id="TL41" toID="E33" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E38" fromText="pacing wires" id="TL42" toID="E33" toText="the procedure" type="BEGUN_BY"/>
+<TLINK fromID="E39" fromText="chest tubes" id="TL43" toID="E33" toText="the procedure" type="BEGUN_BY"/>
+<TLINK fromID="E40" fromText="the course of his stay" id="TL44" toID="T0" toText="2016-04-05" type="BEGUN_BY"/>
+<TLINK fromID="E40" fromText="the course of his stay" id="TL45" toID="T1" toText="2016-04-11" type="ENDED_BY"/>
+<TLINK fromID="E39" fromText="chest tubes" id="TL46" toID="E43" toText="the regular cardiac surgery floor" type="BEFORE"/>
+<TLINK fromID="E41" fromText="did well" id="TL48" toID="E33" toText="the procedure" type="AFTER"/>
+<TLINK fromID="E38" fromText="pacing wires" id="TL49" toID="E43" toText="the regular cardiac surgery floor" type="BEFORE"/>
+<TLINK fromID="E3" fromText="his usual state of health" id="TL5" toID="T2" toText="2016-04-03" type="ENDED_BY"/>
+<TLINK fromID="E35" fromText="the cardiac intensive care unit" id="TL50" toID="E42" toText="transported" type="ENDED_BY"/>
+<TLINK fromID="E43" fromText="the regular cardiac surgery floor" id="TL51" toID="E42" toText="transported" type="BEGUN_BY"/>
+<TLINK fromID="E45" fromText="tolerated" id="TL53" toID="E44" toText="a regular diet" type="OVERLAP"/>
+<TLINK fromID="E44" fromText="a regular diet" id="TL54" toID="E43" toText="the regular cardiac surgery floor" type="OVERLAP"/>
+<TLINK fromID="E46" fromText="ambulated well" id="TL55" toID="E44" toText="a regular diet" type="OVERLAP"/>
+<TLINK fromID="E47" fromText="did well" id="TL56" toID="E48" toText="his activities of daily living" type="OVERLAP"/>
+<TLINK fromID="E48" fromText="his activities of daily living" id="TL57" toID="E44" toText="a regular diet" type="OVERLAP"/>
+<TLINK fromID="E49" fromText="seen by physical therapy" id="TL58" toID="E42" toText="transported" type="AFTER"/>
+<TLINK fromID="E52" fromText="further physical therapy" id="TL59" toID="E51" toText="endurance training" type="SIMULTANEOUS"/>
+<TLINK fromID="E4" fromText="raking leaves" id="TL6" toID="T3" toText="04-02" type="OVERLAP"/>
+<TLINK fromID="E51" fromText="endurance training" id="TL60" toID="T7" toText="three to five weeks" type="DURING"/>
+<TLINK fromID="E51" fromText="endurance training" id="TL61" toID="E50" toText="follow up" type="OVERLAP"/>
+<TLINK fromID="E50" fromText="follow up" id="TL62" toID="E1" toText="Discharge" type="AFTER"/>
+<TLINK fromID="T9" fromText="2016-04-11" id="TL63" toID="E54" toText="discharged" type="OVERLAP"/>
+<TLINK fromID="E53" fromText="good condition" id="TL64" toID="T9" toText="2016-04-11" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="a regular heart-healthy diet" id="TL65" toID="E54" toText="discharged" type="BEFORE_OVERLAP"/>
+<TLINK fromID="E56" fromText="regular activity" id="TL66" toID="E54" toText="discharged" type="AFTER"/>
+<TLINK fromID="E57" fromText="strenuous activity" id="TL67" toID="E54" toText="discharged" type="AFTER"/>
+<TLINK fromID="E58" fromText="drive" id="TL68" toID="E59" toText="pain medications" type="SIMULTANEOUS"/>
+<TLINK fromID="E59" fromText="pain medications" id="TL69" toID="E54" toText="discharged" type="AFTER"/>
+<TLINK fromID="E5" fromText="mid chest pain" id="TL7" toID="E4" toText="raking leaves" type="OVERLAP"/>
+<TLINK fromID="T10" fromText="four weeks" id="TL70" toID="E60" toText="follow up" type="ENDED_BY"/>
+<TLINK fromID="T10" fromText="four weeks" id="TL71" toID="E54" toText="discharged" type="BEGUN_BY"/>
+<TLINK fromID="T11" fromText="two to three weeks" id="TL72" toID="E54" toText="discharged" type="BEGUN_BY"/>
+<TLINK fromID="T11" fromText="two to three weeks" id="TL73" toID="E61" toText="follow up" type="ENDED_BY"/>
+<TLINK fromID="T12" fromText="one to two weeks" id="TL74" toID="E54" toText="discharged" type="BEGUN_BY"/>
+<TLINK fromID="T12" fromText="one to two weeks" id="TL75" toID="E62" toText="follow up" type="ENDED_BY"/>
+<TLINK fromID="E6" fromText="burning" id="TL8" toID="E5" toText="mid chest pain" type="SIMULTANEOUS"/>
+<TLINK fromID="E7" fromText="radiated to the left arm" id="TL9" toID="E5" toText="mid chest pain" type="SIMULTANEOUS"/>
+<SECTIME dvalue="2016-04-05" end="28" id="S0" start="18" text="2016-04-05" type="ADMISSION"/>
+<SECTIME dvalue="2016-04-11" end="56" id="S1" start="46" text="2016-04-11" type="DISCHARGE"/>
+<TLINK fromID="E26" fromText="admitted" id="SECTIME0" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E27" fromText="the hospital" id="SECTIME1" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E28" fromText="coronary artery bypass grafting" id="SECTIME2" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E29" fromText="saphenous vein graft to the diagonal" id="SECTIME3" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E30" fromText="saphenous vein graft to obtuse marginal" id="SECTIME4" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E31" fromText="saphenous vein graft to right coronary artery" id="SECTIME5" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E32" fromText="tolerated" id="SECTIME6" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E33" fromText="the procedure" id="SECTIME7" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E34" fromText="transferred" id="SECTIME8" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E35" fromText="the cardiac intensive care unit" id="SECTIME9" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E36" fromText="postoperative management" id="SECTIME10" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E2" fromText="high cholesterol" id="SECTIME11" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E37" fromText="beta blockers" id="SECTIME12" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E38" fromText="pacing wires" id="SECTIME13" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E39" fromText="chest tubes" id="SECTIME14" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E41" fromText="did well" id="SECTIME15" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E42" fromText="transported" id="SECTIME16" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E43" fromText="the regular cardiac surgery floor" id="SECTIME17" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E45" fromText="tolerated" id="SECTIME18" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E44" fromText="a regular diet" id="SECTIME19" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E46" fromText="ambulated well" id="SECTIME20" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E47" fromText="did well" id="SECTIME21" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E48" fromText="his activities of daily living" id="SECTIME22" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E3" fromText="his usual state of health" id="SECTIME23" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E49" fromText="seen by physical therapy" id="SECTIME24" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E50" fromText="follow up" id="SECTIME25" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E51" fromText="endurance training" id="SECTIME26" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E52" fromText="further physical therapy" id="SECTIME27" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E53" fromText="good condition" id="SECTIME28" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E54" fromText="discharged" id="SECTIME29" toID="T1" toText="2016-04-11" type="OVERLAP"/>
+<TLINK fromID="E55" fromText="a regular heart-healthy diet" id="SECTIME30" toID="T1" toText="2016-04-11" type="BEFORE"/>
+<TLINK fromID="E56" fromText="regular activity" id="SECTIME31" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E57" fromText="strenuous activity" id="SECTIME32" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E4" fromText="raking leaves" id="SECTIME33" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E58" fromText="drive" id="SECTIME34" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E59" fromText="pain medications" id="SECTIME35" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E60" fromText="follow up" id="SECTIME36" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E61" fromText="follow up" id="SECTIME37" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E62" fromText="follow up" id="SECTIME38" toID="T1" toText="2016-04-11" type="AFTER"/>
+<TLINK fromID="E5" fromText="mid chest pain" id="SECTIME39" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E6" fromText="burning" id="SECTIME40" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E7" fromText="radiated to the left arm" id="SECTIME41" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E8" fromText="stopped breathing" id="SECTIME42" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E9" fromText="unresponsive" id="SECTIME43" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E10" fromText="mouth-to-mouth resuscitation" id="SECTIME44" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E11" fromText="regained consciousness" id="SECTIME45" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E12" fromText="presented" id="SECTIME46" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E13" fromText="an outside hospital" id="SECTIME47" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E14" fromText="an acute inferior myocardial infarction" id="SECTIME48" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E15" fromText="thrombolytic therapy" id="SECTIME49" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E16" fromText="His troponin" id="SECTIME50" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E17" fromText="EKG changes" id="SECTIME51" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E18" fromText="catheterization" id="SECTIME52" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E19" fromText="revealed" id="SECTIME53" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E20" fromText="a left ventricular ejection fraction" id="SECTIME54" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E21" fromText="mitral regurgitation" id="SECTIME55" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E22" fromText="insufficiency" id="SECTIME56" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E23" fromText="hypokinesis" id="SECTIME57" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E24" fromText="narrowed" id="SECTIME58" toID="T0" toText="2016-04-05" type="BEFORE"/>
+<TLINK fromID="E25" fromText="right coronary artery dominant diseased" id="SECTIME59" toID="T0" toText="2016-04-05" type="BEFORE"/>
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>
