@@ -79,7 +79,7 @@ function color(type) {
 // set the dimensions and margins of the graph
 const margin = { top: 20, right: 10, bottom: 10, left: 150 };
 
-const mainWidgetWidth = (4 * ((innerWidth) / 6)) - margin.left - margin.right,
+const mainWidgetWidth = (1 * ((innerWidth) / 2)) - margin.left - margin.right,
     mainWidgetHeight = (9 * ((innerHeight) / 10)) - margin.top - margin.bottom;
 
 $(function() { //DOM Ready
