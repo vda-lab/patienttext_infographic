@@ -16,6 +16,24 @@ let preventUpdate = false;
 let admissionDate;
 let dischargeDate;
 
+function splitTimeParser(dataString) {
+    if (dataString) {
+        let year = dataString.split("Y")[0];
+        let rest = dataString.split("Y")[1];
+        let months = rest.split("M")[0];
+        rest = rest.split("M")[1];
+        let days = rest.split("D")[0];
+        rest = rest.split("D")[1];
+        let hours = rest.split("H")[0];
+        rest = rest.split("H")[1];
+        let min = rest.split("m")[0];
+        return (1000 * 60 * min) + (1000 * 60 * 60 * hours) + (1000 * 60 * 60 * 24 * days) + (1000 * 60 * 60 * 24 * 30, 5 * months) + (1000 * 60 * 60 * 24 * 365 * year);
+    } else {
+        return 0;
+    }
+
+}
+
 const FILE = "report_uzleuven_0.xml";
 let currentFile = FILE;
 const relationDocuments = [3, 43, 141, 193, 582];
@@ -127,11 +145,11 @@ $(function() { //DOM Ready
 
             // parse all data
             let data = [].map.call(xml.querySelectorAll("EVENT"), function(event) {
-                let lowerBoundEndValue = new Date(event.getAttribute("lowerbound-end"));
+                let lowerBoundEndValue = new Date(new Date(event.getAttribute("lowerbound-start")).getTime() + splitTimeParser(event.getAttribute("lowerbound-duration")));
+                let mostLikelyEndValue = new Date(new Date(event.getAttribute("most-likely-start")).getTime() + splitTimeParser(event.getAttribute("most-likely-duration")));
+                let upperBoundEndValue = new Date(new Date(event.getAttribute("upperbound-start")).getTime() + splitTimeParser(event.getAttribute("upperbound-duration")));
                 let mostLikelyStartValue = new Date(event.getAttribute("most-likely-start"));
-                let mostLikelyEndValue = new Date(event.getAttribute("most-likely-end"));
                 let upperBoundStartValue = new Date(event.getAttribute("upperbound-start"));
-
                 if (lowerBoundEndValue < mostLikelyStartValue) lowerBoundEndValue = mostLikelyStartValue;
                 if (upperBoundStartValue > mostLikelyEndValue) upperBoundStartValue = mostLikelyEndValue;
                 return {
@@ -140,7 +158,7 @@ $(function() { //DOM Ready
                     lowerBoundStart: new Date(event.getAttribute("lowerbound-start")),
                     lowerBoundEnd: lowerBoundEndValue,
                     upperBoundStart: upperBoundStartValue,
-                    upperBoundEnd: new Date(event.getAttribute("upperbound-end")),
+                    upperBoundEnd: upperBoundEndValue,
                     label: event.getAttribute("text"),
                     type: event.getAttribute("type"),
                     id: event.getAttribute("text").replace(/[\W_\d]/g, "").toLowerCase(),
