@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Accumulate</title>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.dsmorse-gridster.min.js"></script>
+    <!-- <script src="jquery.lettering-0.6.1.min.js"></script> -->
+
+    <script src="js/underscore-min.js"></script>
+
+    <!--include d3-->
+    <script src="js/d3.v5.min.js"></script>
+
+    <script src="js/d3-tip.js"></script>
+
+    <script src="js/crossfilter.min.js"></script>
+
+    <script src="js/micromodal.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <script>
+        if (window.navigator.userAgent.match(/(MSIE|Trident)/)) {
+            alert("Unfortunately, Internet Explorer is not supported for this demo. Please use another browser to test this demo.")
+            window.location.href = "https://www.accumulate.be/";
+        }
+    </script>
+    <script src="accumulate_dutch.js"></script>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <header class="modal__header">
+                    <h2 class="modal__title" id="modal-1-title">
+                    </h2>
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <main class="modal__content" id="modal-1-content">
+                    <span class="modal_date_span">Most likely start date: </span>
+                    <input class="modal_data_input" id="modal_start_date" type="datetime-local" name="modal_start_input">
+                    <br>
+                    <span class="modal_date_span">Most likely end date: </span>
+                    <input class="modal_data_input" id="modal_end_date" type="datetime-local" name="modal_start_input">
+                    <span class="modal_date_span" id="modal_type_span">Type: </span>
+                    <select class="modal_data_input" id="modal_type">
+                        <option value="TREATMENT">Treatment</option>
+                        <option value="TEST">Test</option>
+                        <option value="PROBLEM">Problem</option>
+                        <option value="OCCURRENCE">Occurence</option>
+                        <option value="EVIDENTIAL">Evidential</option>
+                        <option value="CLINICAL_DEPT">Clinical department</option>
+                      </select>
+                    <!-- <input class="modal_data_input" id="modal_type" type="input" name="modal_type_input"> -->
+                    <!-- <p>
+                        Do you want to remove or edit this event?
+                    </p> -->
+                    <span id="event_model_label"></span>
+                </main>
+                <footer class="modal__footer">
+                    <button class="modal__btn modal__btn-secondary" onclick="removeEvent()">Remove</button>
+                    <button class="modal__btn modal__btn-primary" onclick="saveEvent()">Save</button>
+                    <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Cancel</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div id="patient_filter" class="gridelement">
+            <!-- <select id="options" name="locality"></select><span id="select_label">Document number</span> -->
+            <label class="container">
+                <input type="checkbox" id="treatments_box" checked=true/>
+                <span id="treatments_label">Treatments</span><span id="treatments_checkmark" class="checkmark"></span>
+                <span class="count_label" id="treatment_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="test_box" checked=true/>
+                <span id="test_label">Tests</span><span id="test_checkmark" class="checkmark"></span>
+                <span class="count_label" id="test_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="problem_box" checked=true/>
+                <span id="problem_label">Problems</span><span id="problem_checkmark" class="checkmark"></span>
+                <span class="count_label" id="problem_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="occurrence_box" checked=true/>
+                <span id="occurrence_label">Occurrences</span><span id="occurrence_checkmark" class="checkmark"></span>
+                <span class="count_label" id="occurrence_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="evidential_box" checked=true/>
+                <span id="evidential_label">Evidentials</span><span id="evidential_checkmark" class="checkmark"></span>
+                <span class="count_label" id="evidential_count"></span>
+            </label>
+            <label class="container">
+                <input type="checkbox" id="clinical_dept_box" checked=true/>
+                <span id="clinical_dept_label">Clinical departments</span><span id="clinical_dept_checkmark" class="checkmark"></span>
+                <span class="count_label" id="clinical_dept_count"></span>
+            </label>
+        </div>
+
+        <div id="letterbox" class="gridelement">
+            <!-- <h1>Report</h1> -->
+            <div id="admissionLabel"><span class="title">Opnamedatum: </span><span id="admissiondatep"></span></div>
+            <br>
+            <div id="dischargeLabel"><span class="title">Ontslagdatum: </span><span id="dischargedatep"></span></div>
+            <p id="hpip"></p>
+        </div>
+
+        <div id="dataviz_brushZoom" class="gridelement"></div>
+
+    </div>
+</body>
+
+</html>
